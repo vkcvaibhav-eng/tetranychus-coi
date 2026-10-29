@@ -1,0 +1,4 @@
+Retry 1: HTTP Error 403: Forbidden
+Retry 2: HTTP Error 403: Forbidden
+Retry 3: HTTP Error 403: Forbidden
+Failed: https://portal.boldsystems.org/api/query/preprocessor?query=tax%3Aspecies%3ATetranychus%20urticae

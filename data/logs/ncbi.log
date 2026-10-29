@@ -1,0 +1,1 @@
+Usage: python fetch_ncbi.py "<query>" <output_name>

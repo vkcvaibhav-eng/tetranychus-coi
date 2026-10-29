@@ -1,0 +1,4 @@
+GBIF taxon: Tetranychus urticae Koch, 1836 (taxonKey 2130185)
+Records: 6646
+Downloaded: 2026-10-29 17:36 UTC
+Cite GBIF as required at https://www.gbif.org/citation-guidelines
