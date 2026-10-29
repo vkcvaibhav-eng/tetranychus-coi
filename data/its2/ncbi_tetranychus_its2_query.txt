@@ -1,0 +1,3 @@
+Query: Tetranychus[Organism] AND (ITS2 OR "internal transcribed spacer 2" OR "ITS 2")
+Records: 791
+Downloaded: 2026-10-29 18:57 UTC

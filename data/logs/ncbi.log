@@ -1,12 +1,8 @@
 Email set: yes. API key set: yes
-1542 records found for: Tetranychus[Organism] AND (COI[Gene] OR COX1[Gene] OR "cytochrome oxidase subunit I" OR "cytochrome c oxidase subunit I")
-fasta: 500/1542
-fasta: 1000/1542
-fasta: 1500/1542
-fasta: 1542/1542
-Saved data/ncbi_tetranychus_genus.fasta
-gb: 500/1542
-gb: 1000/1542
-gb: 1500/1542
-gb: 1542/1542
-Saved data/ncbi_tetranychus_genus.gb
+791 records found for: Tetranychus[Organism] AND (ITS2 OR "internal transcribed spacer 2" OR "ITS 2")
+fasta: 500/791
+fasta: 791/791
+Saved data/its2/ncbi_tetranychus_its2.fasta
+gb: 500/791
+gb: 791/791
+Saved data/its2/ncbi_tetranychus_its2.gb
