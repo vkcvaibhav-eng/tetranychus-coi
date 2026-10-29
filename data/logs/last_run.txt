@@ -1,5 +1,5 @@
-Run: 40925260900 (2026-10-29 17:51 UTC)
-NCBI: skipped
+Run: 40925558851 (2026-10-29 17:53 UTC)
+NCBI: success
 BOLD: skipped
 GBIF: skipped
 Climate: success

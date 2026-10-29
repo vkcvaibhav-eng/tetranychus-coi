@@ -1,8 +1,12 @@
 Email set: yes. API key set: yes
-636 records found for: Tetranychus urticae[Organism] AND (COI[Gene] OR COX1[Gene] OR "cytochrome oxidase subunit I" OR "cytochrome c oxidase subunit I")
-fasta: 500/636
-fasta: 636/636
-Saved data/ncbi_tetranychus_urticae.fasta
-gb: 500/636
-gb: 636/636
-Saved data/ncbi_tetranychus_urticae.gb
+1542 records found for: Tetranychus[Organism] AND (COI[Gene] OR COX1[Gene] OR "cytochrome oxidase subunit I" OR "cytochrome c oxidase subunit I")
+fasta: 500/1542
+fasta: 1000/1542
+fasta: 1500/1542
+fasta: 1542/1542
+Saved data/ncbi_tetranychus_genus.fasta
+gb: 500/1542
+gb: 1000/1542
+gb: 1500/1542
+gb: 1542/1542
+Saved data/ncbi_tetranychus_genus.gb
