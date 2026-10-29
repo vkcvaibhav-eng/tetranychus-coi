@@ -77,6 +77,11 @@ jobs:
           set -o pipefail
           python scripts/species_analysis.py --results results/genus --out results/species --threshold "$THRESHOLD" 2>&1 | tee results/logs/species.log
 
+      - name: Anchor check
+        run: |
+          set -o pipefail
+          python scripts/anchor_check.py 2>&1 | tee results/logs/anchors.log
+
       - name: Save results to the repository
         if: always()
         run: |

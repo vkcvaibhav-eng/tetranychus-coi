@@ -14,6 +14,7 @@ The pipeline gathers COI records from GenBank and BOLD, occurrence records from 
 | 2 | `merge_records.py` | Merge GenBank and BOLD, remove duplicates, score metadata (0–7) |
 | 3 | `sequence_qc.py` | Orientation, COX1 region covered, identity, ambiguous bases, internal stop codons (genetic code 5), frameshifts |
 | 4 | `species_analysis.py` | K2P distances on shared sites, barcode gap per species, shared haplotypes, nearest-neighbour label conflicts, distance clusters |
+| 5 | `anchor_check.py` | Compares clusters and records with anchor sequences from morphologically identified, published specimens |
 
 ## Running it on GitHub
 
@@ -76,6 +77,16 @@ Stop codons and frameshifts in a protein-coding mitochondrial gene usually point
 - Sequences are placed on the reference COX1 coordinates from pairwise alignments, and insertions relative to the reference are dropped. This is adequate for screening; final phylogenetic analyses should use a codon-aware multiple alignment.
 - Distances are computed only over sites two sequences share, with a minimum overlap of 300 bp, so 5′ and 3′ fragments are not compared.
 - A mislabelled record also changes the result for correctly labelled neighbours: they can be flagged `NEAREST_IS_OTHER_SPECIES`, and the species carrying the wrong label loses its barcode gap. Flags mark places to check, not proven errors.
+
+## Anchor records
+
+`data/anchors/anchor_studies.csv` lists published studies whose *Tetranychus* specimens were identified morphologically, with separate fields for morphology, males examined, named identifier, voucher and crossing tests. `anchor_records.csv` gives their COI accessions, each confirmed to exist in the downloaded data. Evidence levels:
+
+- **A**: morphology with males examined and vouchers in a named collection
+- **B**: morphology stated, vouchers not confirmed
+- **C**: lead only, not used for decisions
+
+Within a cluster, level A anchors outrank level B. Names are compared after the synonymies in `synonyms.csv`, each with its published source. Results are in `results/anchors/`.
 
 ## Data sources
 

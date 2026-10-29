@@ -236,3 +236,42 @@ def test_species_checks(tmp_path):
         gaps = {r["species"]: r for r in csv.DictReader(f)}
     assert gaps["Tetranychus alpha"]["gap_present"] == "yes"
     assert gaps["Tetranychus beta"]["gap_present"] == "no"  # its mislabelled member sits inside alpha
+
+
+def test_anchor_check(tmp_path):
+    data = tmp_path / "data"
+    (data / "reference").mkdir(parents=True)
+    (data / "anchors").mkdir()
+    (data / "reference" / "coi_reference.fasta").write_text(f">ref_COX1\n{REF}\n")
+    a = REF[90:750]
+    b = mutate_third_positions(a, 0.5)
+    a1, b1 = mutate_third_positions(a, 0.01), mutate_third_positions(b, 0.01)
+    recs = [gb_record("AN000001", a1, organism="Tetranychus alpha"),      # level A anchor
+            gb_record("AN000002", b1, organism="Tetranychus beta"),       # level A anchor
+            gb_record("AN000003", a1, organism="Tetranychus beta"),       # level B anchor, wrong
+            gb_record("RC000001", a1, organism="Tetranychus alpha"),
+            gb_record("RC000002", a1, organism="Tetranychus gamma"),      # synonym of alpha
+            gb_record("RC000003", b1, organism="Tetranychus alpha"),      # disagrees
+            gb_record("RC000004", b1, organism="Tetranychus sp.")]        # unnamed
+    SeqIO.write(recs, data / "ncbi_a.gb", "genbank")
+    (data / "anchors" / "anchor_studies.csv").write_text(
+        "study_id,citation,doi,morphology_verified,males_examined,identifier_named,voucher_linked,"
+        "crossing_tests,evidence_level,verification,notes\n"
+        "good,Good study,x,yes,yes,yes,yes,no,A,test,\n"
+        "weak,Weak study,x,yes,no,no,no,no,B,test,\n")
+    (data / "anchors" / "anchor_records.csv").write_text(
+        "accession,study_id\nAN000001,good\nAN000002,good\nAN000003,weak\n")
+    (data / "anchors" / "synonyms.csv").write_text(
+        "name,accepted_name,source\nTetranychus gamma,Tetranychus alpha,test\n")
+    run("merge_records.py", "data", "results/genus", cwd=tmp_path)
+    run("sequence_qc.py", "--results", "results/genus", cwd=tmp_path)
+    run("species_analysis.py", "--results", "results/genus", "--out", "results/species", cwd=tmp_path)
+    run("anchor_check.py", cwd=tmp_path)
+    status = {r["accession"]: r for r in csv.DictReader(open(tmp_path / "results/anchors/anchor_status.csv"))}
+    assert status["AN000001"]["anchor_consistency"] == "consistent"
+    assert status["AN000003"]["anchor_consistency"] == "conflict"   # B anchor outranked by A
+    verdict = read_csv(tmp_path / "results/anchors/record_anchor_check.csv")
+    assert verdict["RC000001.1"]["verdict"] == "AGREES"
+    assert verdict["RC000002.1"]["verdict"] == "AGREES"             # via synonym
+    assert verdict["RC000003.1"]["verdict"] == "DISAGREES"
+    assert verdict["RC000004.1"]["verdict"] == "UNNAMED_SUGGESTED"
