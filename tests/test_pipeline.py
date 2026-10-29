@@ -275,3 +275,57 @@ def test_anchor_check(tmp_path):
     assert verdict["RC000002.1"]["verdict"] == "AGREES"             # via synonym
     assert verdict["RC000003.1"]["verdict"] == "DISAGREES"
     assert verdict["RC000004.1"]["verdict"] == "UNNAMED_SUGGESTED"
+
+
+def its2_record(acc, seq, organism, isolate, author="Smith,J."):
+    rec = SeqRecord(Seq(seq), id=acc + ".1", name=acc, description="test ITS2")
+    rec.annotations["molecule_type"] = "DNA"
+    rec.annotations["organism"] = organism
+    rec.features = [SeqFeature(FeatureLocation(0, len(seq)), type="source",
+                               qualifiers={"organism": [organism], "isolate": [isolate],
+                                           "geo_loc_name": ["China"]}),
+                    SeqFeature(FeatureLocation(0, len(seq)), type="misc_RNA",
+                               qualifiers={"product": ["internal transcribed spacer 2"]})]
+    ref = Reference()
+    ref.authors = author
+    ref.title = "Test study"
+    ref.journal = "Unpublished"
+    rec.annotations["references"] = [ref]
+    return rec
+
+
+def test_its2_pairs(tmp_path):
+    data = tmp_path / "data"
+    (data / "reference").mkdir(parents=True)
+    (data / "its2").mkdir()
+    (data / "reference" / "coi_reference.fasta").write_text(f">ref_COX1\n{REF}\n")
+    a = REF[90:750]
+    b = mutate_third_positions(a, 0.5)
+    its_u = "".join(random.choice("ACGT") for _ in range(500))
+    its_t = "".join(c if random.random() > 0.15 else random.choice("ACGT") for c in its_u)
+    coi = []
+    for k in range(3):
+        coi.append(gb_record(f"CU00000{k}", mutate_third_positions(a, 0.01), organism="Tetranychus urticae"))
+        coi.append(gb_record(f"CT00000{k}", mutate_third_positions(b, 0.01), organism="Tetranychus truncatus"))
+    # Specimen X: labelled urticae, COI groups with truncatus, ITS2 with urticae.
+    coi.append(gb_record("CX000001", mutate_third_positions(b, 0.01), organism="Tetranychus urticae"))
+    for r in coi:
+        r.features[0].qualifiers["isolate"] = [r.name]
+        r.annotations["references"][0].authors = "Smith,J."
+    SeqIO.write(coi, data / "ncbi_c.gb", "genbank")
+    its = [its2_record("IU000001", its_u, "Tetranychus urticae", "CU000000"),
+           its2_record("IU000002", its_u, "Tetranychus urticae", "CU000001"),
+           its2_record("IT000001", its_t, "Tetranychus truncatus", "CT000000"),
+           its2_record("IT000002", its_t, "Tetranychus truncatus", "CT000001"),
+           its2_record("IX000001", its_u, "Tetranychus urticae", "CX000001")]
+    SeqIO.write(its, data / "its2" / "ncbi_i.gb", "genbank")
+    run("merge_records.py", "data", "results/genus", cwd=tmp_path)
+    run("sequence_qc.py", "--results", "results/genus", cwd=tmp_path)
+    run("species_analysis.py", "--results", "results/genus", "--out", "results/species", cwd=tmp_path)
+    run("its2_analysis.py", "--workers", "1", cwd=tmp_path)
+    pairs = {r["specimen"]: r for r in csv.DictReader(open(tmp_path / "results/its2/coi_its2_pairs.csv"))}
+    assert len(pairs) == 5
+    assert pairs["smith:cu000000"]["genes_agree"] == "yes"
+    assert pairs["smith:cx000001"]["genes_agree"] == "no"
+    assert pairs["smith:cx000001"]["coi_cluster_dominant"] == "Tetranychus truncatus"
+    assert pairs["smith:cx000001"]["its2_cluster_dominant"] == "Tetranychus urticae"

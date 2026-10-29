@@ -14,6 +14,7 @@ The pipeline gathers COI records from GenBank and BOLD, occurrence records from 
 | 2 | `merge_records.py` | Merge GenBank and BOLD, remove duplicates, score metadata (0–7) |
 | 3 | `sequence_qc.py` | Orientation, COX1 region covered, identity, ambiguous bases, internal stop codons (genetic code 5), frameshifts |
 | 4 | `species_analysis.py` | K2P distances on shared sites, barcode gap per species, shared haplotypes, nearest-neighbour label conflicts, distance clusters |
+| 6 | `its2_analysis.py` | Nuclear ITS2 check: species distances, ITS2 clusters, and COI vs ITS2 agreement for specimens sequenced for both genes |
 | 5 | `anchor_check.py` | Compares clusters and records with anchor sequences from morphologically identified, published specimens |
 
 ## Running it on GitHub
@@ -77,6 +78,10 @@ Stop codons and frameshifts in a protein-coding mitochondrial gene usually point
 - Sequences are placed on the reference COX1 coordinates from pairwise alignments, and insertions relative to the reference are dropped. This is adequate for screening; final phylogenetic analyses should use a codon-aware multiple alignment.
 - Distances are computed only over sites two sequences share, with a minimum overlap of 300 bp, so 5′ and 3′ fragments are not compared.
 - A mislabelled record also changes the result for correctly labelled neighbours: they can be flagged `NEAREST_IS_OTHER_SPECIES`, and the species carrying the wrong label loses its barcode gap. Flags mark places to check, not proven errors.
+
+## ITS2 check
+
+ITS2 records are downloaded separately into `data/its2/` (Fetch workflow, `ncbi_out_dir` = `data/its2`) so they never enter the COI steps. ITS2 is cut from each record by annotation, by the 5.8S and 28S boundaries, or by alignment to a reference ITS2 from an annotated *T. urticae* record. Specimens are paired across the two genes by first author and isolate, strain or voucher name. Where COI and ITS2 place a specimen with different species, the COI result may reflect shared or introgressed mitochondria (for example through *Wolbachia*) rather than a wrong name. Results are in `results/its2/`.
 
 ## Anchor records
 

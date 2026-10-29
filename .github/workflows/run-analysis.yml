@@ -82,6 +82,15 @@ jobs:
           set -o pipefail
           python scripts/anchor_check.py 2>&1 | tee results/logs/anchors.log
 
+      - name: ITS2 check (when ITS2 data are present)
+        run: |
+          set -o pipefail
+          if ls data/its2/*.gb >/dev/null 2>&1; then
+            python scripts/its2_analysis.py 2>&1 | tee results/logs/its2.log
+          else
+            echo "No ITS2 data in data/its2; skipped" | tee results/logs/its2.log
+          fi
+
       - name: Save results to the repository
         if: always()
         run: |
