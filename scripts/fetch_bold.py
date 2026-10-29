@@ -16,7 +16,7 @@ import urllib.request
 BASE = "https://portal.boldsystems.org/api"
 
 
-def get(url, retries=3):
+def get(url, retries=3, fatal=True):
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "tetranychus-coi-study"})
@@ -25,7 +25,11 @@ def get(url, retries=3):
         except Exception as err:
             print(f"Retry {attempt + 1}: {err}")
             time.sleep(10)
-    sys.exit(f"Failed: {url}")
+    if fatal:
+        sys.exit(f"Failed: {url}\nBOLD refused the request. Download the records from "
+                 "https://portal.boldsystems.org yourself (TSV format) and upload the file "
+                 "to data/ as bold_<name>.tsv; the merge step reads it the same way.")
+    return None
 
 
 def find_query_id(obj):
@@ -48,7 +52,8 @@ def main():
     query = f"tax:{rank}:{taxon}"
     os.makedirs("data", exist_ok=True)
 
-    print("Preprocessor:", get(f"{BASE}/query/preprocessor?query={urllib.parse.quote(query)}")[:500])
+    check = get(f"{BASE}/query/preprocessor?query={urllib.parse.quote(query)}", retries=1, fatal=False)
+    print("Preprocessor:", (check or "skipped")[:500])
 
     raw = get(f"{BASE}/query?query={urllib.parse.quote(query)}&extent=full")
     qid = find_query_id(json.loads(raw))

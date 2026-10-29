@@ -54,32 +54,42 @@ jobs:
         env:
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          QUERY: ${{ inputs.ncbi_query }}
+          NAME: ${{ inputs.name }}
         run: |
           set -o pipefail
-          python scripts/fetch_ncbi.py "${{ github.event.inputs.ncbi_query }}" "ncbi_${{ github.event.inputs.name }}" 2>&1 | tee data/logs/ncbi.log
+          python scripts/fetch_ncbi.py "$QUERY" "ncbi_$NAME" 2>&1 | tee data/logs/ncbi.log
 
       - name: Download from BOLD
         id: bold
         if: ${{ contains(fromJSON('["all","bold"]'), github.event.inputs.source) }}
         continue-on-error: true
+        env:
+          TAXON: ${{ inputs.taxon }}
+          NAME: ${{ inputs.name }}
         run: |
           set -o pipefail
-          python scripts/fetch_bold.py "${{ github.event.inputs.taxon }}" "bold_${{ github.event.inputs.name }}" 2>&1 | tee data/logs/bold.log
+          python scripts/fetch_bold.py "$TAXON" "bold_$NAME" 2>&1 | tee data/logs/bold.log
 
       - name: Download from GBIF
         id: gbif
         if: ${{ contains(fromJSON('["all","gbif"]'), github.event.inputs.source) }}
         continue-on-error: true
+        env:
+          TAXON: ${{ inputs.taxon }}
+          NAME: ${{ inputs.name }}
         run: |
           set -o pipefail
-          python scripts/fetch_gbif.py "${{ github.event.inputs.taxon }}" "gbif_${{ github.event.inputs.name }}" 2>&1 | tee data/logs/gbif.log
+          python scripts/fetch_gbif.py "$TAXON" "gbif_$NAME" 2>&1 | tee data/logs/gbif.log
 
       - name: Extract WorldClim climate at all record locations
         id: climate
         continue-on-error: true
+        env:
+          RES: ${{ inputs.climate_resolution }}
         run: |
           set -o pipefail
-          python scripts/climate_extract.py "${{ github.event.inputs.climate_resolution }}" 2>&1 | tee data/logs/climate.log
+          python scripts/climate_extract.py "$RES" 2>&1 | tee data/logs/climate.log
 
       - name: Save files and logs to the repository
         if: always()
