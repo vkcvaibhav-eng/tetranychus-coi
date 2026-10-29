@@ -1,13 +1,13 @@
 Reference COX1: 1539 bp
-Records checked: 636
-Passed: 609 (95.8%)
+Records checked: 700
+Passed: 672 (96.0%)
 Flags (a record can have several):
-  FRAMESHIFT: 16 (2.5%)
-  PARTIAL_ALIGNMENT: 11 (1.7%)
+  FRAMESHIFT: 17 (2.4%)
+  PARTIAL_ALIGNMENT: 11 (1.6%)
   LOW_IDENTITY: 4 (0.6%)
   STOP_CODON: 4 (0.6%)
-  SHORT: 3 (0.5%)
-  AMBIGUOUS: 1 (0.2%)
+  SHORT: 3 (0.4%)
+  AMBIGUOUS: 1 (0.1%)
 Region of COX1 covered:
-  3prime: 233
-  5prime: 403
+  3prime: 234
+  5prime: 466
