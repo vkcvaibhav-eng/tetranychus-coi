@@ -1,1 +1,8 @@
-Usage: python fetch_ncbi.py "<query>" <output_name>
+Email set: yes. API key set: yes
+636 records found for: Tetranychus urticae[Organism] AND (COI[Gene] OR COX1[Gene] OR "cytochrome oxidase subunit I" OR "cytochrome c oxidase subunit I")
+fasta: 500/636
+fasta: 636/636
+Saved data/ncbi_tetranychus_urticae.fasta
+gb: 500/636
+gb: 636/636
+Saved data/ncbi_tetranychus_urticae.gb
