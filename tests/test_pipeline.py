@@ -328,4 +328,4 @@ def test_its2_pairs(tmp_path):
     assert pairs["smith:cu000000"]["genes_agree"] == "yes"
     assert pairs["smith:cx000001"]["genes_agree"] == "no"
     assert pairs["smith:cx000001"]["coi_cluster_dominant"] == "Tetranychus truncatus"
-    assert pairs["smith:cx000001"]["its2_cluster_dominant"] == "Tetranychus urticae"
+    assert pairs["smith:cx000001"]["its2_nearest_species"] == "Tetranychus urticae"

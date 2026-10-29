@@ -10,12 +10,16 @@ Steps:
    present; otherwise the stretch between annotated 5.8S and 28S genes;
    otherwise the part that aligns to a reference ITS2 taken from an
    annotated T. urticae record.
-2. Distances between unique ITS2 sequences from local alignments
-   (1 - identity over aligned columns, gaps included), with a minimum
-   aligned length; single-linkage clusters at --threshold.
+2. Distances between unique ITS2 sequences from semi-global alignments
+   (free end gaps; 1 - identity over the overlapping columns, internal gaps
+   included), with a minimum overlap. Each record is assigned the name
+   of its nearest other record (nearest-neighbour). Single-linkage clusters
+   at --threshold are reported too, but they chain closely related species
+   together and are not used for the COI comparison.
 3. Distances between species (after published synonymies).
 4. Specimens with both genes are paired by first author and isolate/strain/
-   voucher name, and their COI and ITS2 clusters are compared.
+   voucher name; the species of the specimen's COI cluster is compared with
+   its ITS2 nearest-neighbour name.
 
 Reads:  data/its2/*.gb, data/ncbi_*.gb, results/species/record_checks.csv,
         results/species/clusters.csv, data/anchors/synonyms.csv
@@ -39,9 +43,12 @@ from Bio.Align import PairwiseAligner
 ITS2_PAT = re.compile(r"^internal transcribed spacer 2(, ITS2)?$|^ITS2$|^ITS 2$", re.I)
 
 
-def make_aligner():
+def make_aligner(local=False):
+    """Semi-global by default: free end gaps, so the whole overlap is compared."""
     a = PairwiseAligner()
-    a.mode = "local"
+    a.mode = "local" if local else "global"
+    if not local:
+        a.end_gap_score = 0
     a.match_score = 2
     a.mismatch_score = -3
     a.open_gap_score = -5
@@ -71,6 +78,7 @@ def country(rec):
 
 
 def extract_its2(rec, aligner, ref):
+    # aligner here is local: it finds the ITS2 stretch inside longer records
     seq = str(rec.seq).upper()
     for f in rec.features:
         if f.type in ("misc_RNA", "misc_feature") and ITS2_PAT.match(feature_label(f)):
@@ -148,7 +156,7 @@ def main():
             records.setdefault(rec.id, rec)
 
     # Reference ITS2: the most common length among annotated T. urticae ITS2.
-    aligner = make_aligner()
+    aligner = make_aligner(local=True)
     annotated = []
     for rec in records.values():
         if canon(rec.annotations.get("organism", "")) != "Tetranychus urticae":
@@ -201,6 +209,31 @@ def main():
     for row in rows:
         if row["record_id"] in hap_of:
             row["cluster"] = cid[find(hap_of[row["record_id"]])]
+
+    # Nearest-neighbour name for every record (excluding the record itself).
+    recs_of_hap = defaultdict(list)
+    for row in rows:
+        if row["record_id"] in hap_of:
+            recs_of_hap[hap_of[row["record_id"]]].append(row)
+    neigh = defaultdict(list)
+    for (i, j), d in D.items():
+        neigh[i].append((d, j))
+        neigh[j].append((d, i))
+    for row in rows:
+        row["nn_distance"] = row["nn_name"] = row["nn_match"] = ""
+        if row["record_id"] not in hap_of:
+            continue
+        h = hap_of[row["record_id"]]
+        cands = [(0.0, r) for r in recs_of_hap[h] if r is not row]
+        if not cands and neigh[h]:
+            dmin = min(d for d, _ in neigh[h])
+            cands = [(d, r) for d, j in neigh[h] if d == dmin for r in recs_of_hap[j]]
+        named = Counter(r["accepted_name"] for _, r in cands if r["accepted_name"])
+        if named:
+            row["nn_distance"] = f"{cands[0][0]:.4f}"
+            row["nn_name"] = named.most_common(1)[0][0]
+            if row["accepted_name"]:
+                row["nn_match"] = "yes" if row["nn_name"] == row["accepted_name"] else "no"
 
     with open(os.path.join(args.out, "its2_records.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
@@ -261,11 +294,11 @@ def main():
         coi_name = canon(c["species_label"])
         its_name = its_rows[rid]["accepted_name"]
         coi_cluster_name = canon(coi_dom.get(c["cluster"], ""))
-        its_cluster_name = canon(dominant.get(its_rows[rid]["cluster"], ""))
+        its_cluster_name = its_rows[rid]["nn_name"]
         pairs.append({"specimen": f"{k[0]}:{k[1]}", "coi_record": crid, "its2_record": rid,
                       "coi_label": coi_name, "its2_label": its_name,
                       "coi_cluster": c["cluster"], "coi_cluster_dominant": coi_cluster_name,
-                      "its2_cluster": its_rows[rid]["cluster"], "its2_cluster_dominant": its_cluster_name,
+                      "its2_cluster": its_rows[rid]["cluster"], "its2_nearest_species": its_cluster_name,
                       "country": its_rows[rid]["country"],
                       "genes_agree": "yes" if coi_cluster_name == its_cluster_name else "no"})
     with open(os.path.join(args.out, "coi_its2_pairs.csv"), "w", newline="") as f:
@@ -275,6 +308,7 @@ def main():
 
     # Summary.
     lines = [f"ITS2 records: {len(records)}; usable: {len(hap_of)}; unique: {H}",
+             "Single-linkage clusters chain related species; species assignment uses nearest neighbours.",
              "Extraction: " + ", ".join(f"{k} {v}" for k, v in Counter(r["extraction"] for r in rows).most_common()),
              f"Distance: local alignment, min aligned length {args.min_length} bp; clusters at {args.threshold}",
              f"ITS2 clusters: {len(cl_rows)}; with more than one species name: "
@@ -295,12 +329,22 @@ def main():
             within.append(f"within {n.split()[1]} {median(w_):.4f}" if w_ else f"within {n.split()[1]} n/a")
         lines.append(f"  {a.split()[1]} vs {b.split()[1]}: {between}  ({'; '.join(within)})")
     agree = Counter(p["genes_agree"] for p in pairs)
-    lines.append(f"Specimens with both genes: {len(pairs)}; COI and ITS2 clusters agree: "
-                 f"{agree.get('yes', 0)}, disagree: {agree.get('no', 0)}")
-    dis = Counter((p["coi_label"], p["coi_cluster_dominant"], p["its2_cluster_dominant"], p["country"])
+    nn = [r for r in rows if r["nn_match"]]
+    lines.append(f"ITS2 nearest-neighbour name matches own name: "
+                 f"{sum(r['nn_match'] == 'yes' for r in nn)} of {len(nn)} named records "
+                 f"({100 * sum(r['nn_match'] == 'yes' for r in nn) / max(len(nn), 1):.1f}%)")
+    per_sp = defaultdict(Counter)
+    for r in nn:
+        per_sp[r["accepted_name"]][r["nn_match"]] += 1
+    for sp, c in sorted(per_sp.items(), key=lambda kv: -sum(kv[1].values()))[:12]:
+        lines.append(f"  {sp}: {c['yes']} of {c['yes'] + c['no']} match")
+    lines.append("COI vs ITS2 for specimens with both genes (COI cluster species vs ITS2 nearest species):")
+    lines.append(f"  agree {agree.get('yes', 0)}, disagree {agree.get('no', 0)} of {len(pairs)}")
+    dis = Counter((p["coi_label"], p["coi_cluster_dominant"], p["its2_nearest_species"], p["country"])
                   for p in pairs if p["genes_agree"] == "no")
     for (lab, cdom, idom, ctry), n in dis.most_common(12):
-        lines.append(f"  {n} x labelled {lab or '(unnamed)'} ({ctry}): COI groups with {cdom}, ITS2 with {idom}")
+        lines.append(f"  {n} x labelled {lab or '(unnamed)'} ({ctry}): COI groups with {cdom or '-'}, "
+                     f"ITS2 nearest {idom or '-'}")
     summary = "\n".join(lines)
     with open(os.path.join(args.out, "its2_summary.txt"), "w") as f:
         f.write(summary + "\n")
