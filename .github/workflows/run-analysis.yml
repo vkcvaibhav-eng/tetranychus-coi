@@ -11,10 +11,18 @@ on:
         description: "Expected organism of the reference"
         required: true
         default: "Tetranychus urticae"
+      focal_species:
+        description: "Species for the focused audit"
+        required: true
+        default: "Tetranychus urticae"
       min_identity:
         description: "Minimum identity to the reference (0.75 suits the whole genus)"
         required: true
         default: "0.75"
+      cluster_threshold:
+        description: "K2P distance for species clusters"
+        required: true
+        default: "0.03"
 
 permissions:
   contents: write
@@ -22,6 +30,15 @@ permissions:
 jobs:
   analyse:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    env:
+      REF_ACC: ${{ inputs.reference_accession }}
+      REF_ORG: ${{ inputs.reference_organism }}
+      FOCAL: ${{ inputs.focal_species }}
+      MIN_ID: ${{ inputs.min_identity }}
+      THRESHOLD: ${{ inputs.cluster_threshold }}
     steps:
       - uses: actions/checkout@v5
 
@@ -32,6 +49,7 @@ jobs:
       - name: Install packages
         run: |
           pip install -r requirements.txt
+          rm -f results/*.csv results/*.fasta results/*.txt
           mkdir -p results/logs
 
       - name: Fetch reference COX1
@@ -40,17 +58,24 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: |
           set -o pipefail
-          python scripts/fetch_reference.py "${{ github.event.inputs.reference_accession }}" "${{ github.event.inputs.reference_organism }}" 2>&1 | tee results/logs/reference.log
+          python scripts/fetch_reference.py "$REF_ACC" "$REF_ORG" 2>&1 | tee results/logs/reference.log
 
-      - name: Merge records and remove duplicates
+      - name: Focal species audit (merge and quality check)
         run: |
           set -o pipefail
-          python scripts/merge_records.py 2>&1 | tee results/logs/merge.log
+          python scripts/merge_records.py data results/urticae --species "$FOCAL" 2>&1 | tee results/logs/urticae_merge.log
+          python scripts/sequence_qc.py --results results/urticae --min-identity "$MIN_ID" 2>&1 | tee results/logs/urticae_qc.log
 
-      - name: Sequence quality check
+      - name: Whole genus (merge and quality check)
         run: |
           set -o pipefail
-          python scripts/sequence_qc.py --min-identity "${{ github.event.inputs.min_identity }}" 2>&1 | tee results/logs/qc.log
+          python scripts/merge_records.py data results/genus 2>&1 | tee results/logs/genus_merge.log
+          python scripts/sequence_qc.py --results results/genus --min-identity "$MIN_ID" 2>&1 | tee results/logs/genus_qc.log
+
+      - name: Species-level analysis
+        run: |
+          set -o pipefail
+          python scripts/species_analysis.py --results results/genus --out results/species --threshold "$THRESHOLD" 2>&1 | tee results/logs/species.log
 
       - name: Save results to the repository
         if: always()
@@ -58,5 +83,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A data results
-          git commit -m "Analysis results (reference ${{ github.event.inputs.reference_accession }})" || echo "Nothing new to commit"
+          git commit -m "Analysis results (reference $REF_ACC, focal $FOCAL)" || echo "Nothing new to commit"
           git push

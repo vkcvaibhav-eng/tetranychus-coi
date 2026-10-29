@@ -11,6 +11,7 @@ import csv
 import glob
 import json
 import os
+import argparse
 import re
 import sys
 from collections import Counter
@@ -22,7 +23,7 @@ FIELDS = ["record_id", "source", "genbank_accession", "bold_processid", "bold_bi
           "collection_date", "voucher", "identified_by", "identification_automated",
           "coordinate_source", "institution",
           "marker_label", "publication", "journal", "metadata_score",
-          "metadata_missing", "seq_length", "sequence"]
+          "metadata_missing", "seq_length", "sequence_note", "sequence"]
 
 # Seven items a well-documented barcode record should carry.
 METADATA_ITEMS = {
@@ -41,6 +42,23 @@ MINED = "Mined from GenBank, NCBI"
 AUTOMATED_ID = "BOLD Identification System"
 LATLON = re.compile(r"([\d.]+)\s*([NS])\s+([\d.]+)\s*([EW])")
 NUM = re.compile(r"-?\d+(?:\.\d+)?")
+
+
+COX1_NAMES = {"cox1", "coi", "co1", "coxi", "cox-1", "cytochrome c oxidase subunit i",
+              "cytochrome oxidase subunit i", "cytochrome c oxidase subunit 1"}
+MITOGENOME_MIN = 2500  # longer GenBank records are treated as multi-gene / mitogenome
+REFSEQ_IDENTICAL = re.compile(r"identical to ([A-Z]{1,2}_?\d+)")
+
+
+def cox1_feature(rec):
+    for ftype in ("CDS", "gene"):
+        for f in rec.features:
+            if f.type != ftype:
+                continue
+            names = [n.lower() for n in f.qualifiers.get("gene", []) + f.qualifiers.get("product", [])]
+            if any(n in COX1_NAMES for n in names):
+                return f
+    return None
 
 
 def clean_seq(s):
@@ -91,6 +109,16 @@ def parse_genbank(path):
             r["publication"] = published[0].title
             r["journal"] = published[0].journal
         r["sequence"] = clean_seq(rec.seq)
+        if len(rec.seq) > MITOGENOME_MIN:
+            f = cox1_feature(rec)
+            if f is not None:
+                r["sequence"] = clean_seq(f.extract(rec.seq))
+                r["sequence_note"] = f"COX1 extracted from {len(rec.seq)} bp record"
+            else:
+                r["sequence_note"] = f"{len(rec.seq)} bp record without annotated COX1"
+        m = REFSEQ_IDENTICAL.search(rec.annotations.get("comment", "").replace("\n", " "))
+        if rec.id.startswith(("NC_", "NM_", "NR_", "XM_")) and m:
+            r["refseq_copy_of"] = m.group(1)
         yield r
 
 
@@ -173,8 +201,13 @@ def score(r):
 
 
 def main():
-    data_dir = sys.argv[1] if len(sys.argv) > 1 else "data"
-    out_dir = sys.argv[2] if len(sys.argv) > 2 else "results"
+    p = argparse.ArgumentParser(description="Merge GenBank and BOLD COI records")
+    p.add_argument("data_dir", nargs="?", default="data")
+    p.add_argument("out_dir", nargs="?", default="results")
+    p.add_argument("--species", default="",
+                   help="Keep only records whose species label starts with this name")
+    args = p.parse_args()
+    data_dir, out_dir = args.data_dir, args.out_dir
     os.makedirs(out_dir, exist_ok=True)
 
     log = Counter()
@@ -186,18 +219,30 @@ def main():
                 log["genbank_repeat_removed"] += 1
                 continue
             by_acc[r["genbank_accession"]] = r
+    # A RefSeq record (NC_...) is NCBI's copy of an original submission.
+    for acc in [a for a, r in by_acc.items() if r.get("refseq_copy_of") in by_acc]:
+        del by_acc[acc]
+        log["refseq_copy_removed"] += 1
+    for r in by_acc.values():
+        r.pop("refseq_copy_of", None)
+        if r["sequence_note"].startswith("COX1 extracted"):
+            log["cox1_extracted_from_mitogenome"] += 1
 
-    bold_only, seen_pid = [], set()
+    bold_only, seen = [], set()
     for row in read_bold_rows(data_dir):
         r = parse_bold_row(row)
         if r is None:
             log["bold_skipped_no_coi"] += 1
             continue
         log["bold_read"] += 1
-        if r["bold_processid"] in seen_pid:
+        key = (r["bold_processid"], r["marker_label"])
+        if key in seen:
             log["bold_repeat_removed"] += 1
             continue
-        seen_pid.add(r["bold_processid"])
+        if any(k[0] == r["bold_processid"] for k in seen):
+            # Same specimen, second COI region (e.g. COI-3P): keep it under its own id.
+            r["record_id"] = f"{r['bold_processid']}_{r['marker_label']}"
+        seen.add(key)
         if r["genbank_accession"] and r["genbank_accession"] in by_acc:
             merge_into(by_acc[r["genbank_accession"]], r)
             log["bold_matched_to_genbank"] += 1
@@ -205,6 +250,10 @@ def main():
             bold_only.append(r)
 
     records = list(by_acc.values()) + bold_only
+    if args.species:
+        before = len(records)
+        records = [r for r in records if r["species_label"].startswith(args.species)]
+        log[f"filtered_out_not_{args.species.replace(' ', '_')}"] = before - len(records)
     for r in records:
         r["seq_length"] = len(r["sequence"])
         score(r)

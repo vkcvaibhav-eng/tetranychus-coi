@@ -13,12 +13,15 @@ The pipeline gathers COI records from GenBank and BOLD, occurrence records from 
 | 2 | `fetch_reference.py` | Download the reference mitogenome and extract its COX1 gene |
 | 2 | `merge_records.py` | Merge GenBank and BOLD, remove duplicates, score metadata (0–7) |
 | 3 | `sequence_qc.py` | Orientation, COX1 region covered, identity, ambiguous bases, internal stop codons (genetic code 5), frameshifts |
+| 4 | `species_analysis.py` | K2P distances on shared sites, barcode gap per species, shared haplotypes, nearest-neighbour label conflicts, distance clusters |
 
 ## Running it on GitHub
 
 1. Add repository secrets under **Settings → Secrets and variables → Actions**: `NCBI_EMAIL` (required) and `NCBI_API_KEY` (optional).
 2. **Actions → Fetch sequences and occurrence data → Run workflow** downloads the data into `data/`.
-3. **Actions → Run analysis → Run workflow** runs steps 2–3 and saves the output in `results/`.
+3. **Actions → Run analysis → Run workflow** runs steps 2–4 and saves the output in `results/`.
+
+BOLD may refuse requests from GitHub's servers. In that case download the records from https://portal.boldsystems.org as TSV (BCDM) and add them to `data/` as `bold_<name>.tsv`.
 
 ## Running it locally
 
@@ -30,16 +33,23 @@ python scripts/fetch_bold.py "Tetranychus urticae" bold_tetranychus_urticae
 python scripts/fetch_reference.py NC_010526 "Tetranychus urticae"
 python scripts/merge_records.py
 python scripts/sequence_qc.py
+python scripts/species_analysis.py --results results --out results/species
 pytest -q
 ```
 
-## Outputs (`results/`)
+## Outputs
+
+`results/urticae/` (focal species audit) and `results/genus/` (all *Tetranychus*) each contain:
 
 - `merged_records.csv`: one row per unique record with metadata and a completeness score
 - `merged_sequences.fasta`: all unique sequences
 - `qc_records.csv`: quality-check result and flags for each sequence
 - `qc_passed.fasta`: sequences that passed, in forward orientation
 - `merge_summary.txt`, `qc_summary.txt`: counts for reporting
+
+`results/species/` contains `record_checks.csv`, `haplotypes.csv`, `barcode_gap.csv`, `clusters.csv` and `species_summary.txt`. Step logs are in `results/logs/` and `data/logs/`.
+
+GenBank records longer than 2,500 bp (mitochondrial genomes) contribute only their annotated COX1 gene. RefSeq records that copy an original submission are removed.
 
 ## Metadata rules
 
@@ -59,7 +69,13 @@ pytest -q
 | `STOP_CODON` | Internal stop codon in the reference reading frame |
 | `FRAMESHIFT` | Indel that is not a multiple of three |
 
-Stop codons and frameshifts in a protein-coding mitochondrial gene usually point to sequencing errors or nuclear mitochondrial pseudogenes (NUMTs).
+Stop codons and frameshifts in a protein-coding mitochondrial gene usually point to sequencing errors or nuclear mitochondrial pseudogenes (NUMTs). A frameshift is flagged only when reading the aligned stretch in one frame produces stop codons; gaps of odd length with an intact frame are alignment artefacts against a divergent reference and are reported in `alignment_frameshift_gaps` without a flag.
+
+## Species analysis notes
+
+- Sequences are placed on the reference COX1 coordinates from pairwise alignments, and insertions relative to the reference are dropped. This is adequate for screening; final phylogenetic analyses should use a codon-aware multiple alignment.
+- Distances are computed only over sites two sequences share, with a minimum overlap of 300 bp, so 5′ and 3′ fragments are not compared.
+- A mislabelled record also changes the result for correctly labelled neighbours: they can be flagged `NEAREST_IS_OTHER_SPECIES`, and the species carrying the wrong label loses its barcode gap. Flags mark places to check, not proven errors.
 
 ## Data sources
 

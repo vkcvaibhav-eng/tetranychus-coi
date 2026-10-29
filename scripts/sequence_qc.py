@@ -27,7 +27,8 @@ GENETIC_CODE = 5  # invertebrate mitochondrial
 QC_FIELDS = ["record_id", "source", "species_label", "seq_length", "orientation",
              "ref_start", "ref_end", "ref_coverage", "cox1_half", "identity",
              "query_aligned_fraction", "ambiguous_bases", "ambiguous_fraction",
-             "internal_stops", "frameshift_indels", "qc_flags", "qc_status"]
+             "reading_frame_intact", "internal_stops", "alignment_frameshift_gaps",
+             "qc_flags", "qc_status"]
 
 
 def make_aligner():
@@ -78,6 +79,23 @@ def block_stats(ref, query, blocks_t, blocks_q, ref_len):
     return matches / columns if columns else 0.0, stops, shifts
 
 
+def frame_stops(oriented, ref_start, ref_end, q_start, q_end, ref_len):
+    """Stop codons when the whole aligned stretch is read in one frame.
+
+    A real indel that is not a multiple of three breaks this frame and
+    produces stop codons downstream; an alignment artefact does not.
+    """
+    offset = (3 - ref_start % 3) % 3
+    coding = oriented[q_start + offset:q_end]
+    coding = coding[:len(coding) - len(coding) % 3]
+    if not coding:
+        return 0
+    protein = str(Seq(coding).translate(table=GENETIC_CODE))
+    if ref_end >= ref_len - 3 and protein.endswith("*"):
+        protein = protein[:-1]
+    return protein.count("*")
+
+
 def check(aligner, ref, rec, args):
     seq = rec["sequence"].upper()
     out = {k: rec.get(k, "") for k in ("record_id", "source", "species_label")}
@@ -101,26 +119,34 @@ def check(aligner, ref, rec, args):
     blocks_t, blocks_q = aln.aligned
     ref_start, ref_end = int(blocks_t[0][0]), int(blocks_t[-1][1])
     q_start, q_end = int(blocks_q[0][0]), int(blocks_q[-1][1])
-    identity, stops, shifts = block_stats(ref, oriented, blocks_t, blocks_q, len(ref))
+    identity, block_stops, shifts = block_stats(ref, oriented, blocks_t, blocks_q, len(ref))
+    whole_stops = frame_stops(oriented, ref_start, ref_end, q_start, q_end, len(ref))
 
     out["orientation"] = orient
     out["ref_start"] = ref_start + 1
     out["ref_end"] = ref_end
     out["ref_coverage"] = round((ref_end - ref_start) / len(ref), 3)
-    out["cox1_half"] = "5prime" if (ref_start + ref_end) / 2 < len(ref) / 2 else "3prime"
+    if (ref_end - ref_start) / len(ref) >= 0.9:
+        out["cox1_half"] = "full"
+    else:
+        out["cox1_half"] = "5prime" if (ref_start + ref_end) / 2 < len(ref) / 2 else "3prime"
     out["identity"] = round(identity, 4)
     out["query_aligned_fraction"] = round((q_end - q_start) / len(seq), 3)
-    out["internal_stops"] = stops
-    out["frameshift_indels"] = shifts
+    out["reading_frame_intact"] = "yes" if whole_stops == 0 else "no"
+    out["internal_stops"] = whole_stops
+    out["alignment_frameshift_gaps"] = shifts
 
     if identity < args.min_identity:
         flags.append("LOW_IDENTITY")
     if (q_end - q_start) / len(seq) < 0.9:
         flags.append("PARTIAL_ALIGNMENT")
-    if stops:
-        flags.append("STOP_CODON")
-    if shifts:
-        flags.append("FRAMESHIFT")
+    # Flag only when the reading frame is really broken. Gaps of odd length
+    # with an intact frame are alignment artefacts against a divergent reference.
+    if whole_stops:
+        if shifts:
+            flags.append("FRAMESHIFT")
+        if block_stops or not shifts:
+            flags.append("STOP_CODON")
     out["qc_flags"] = ";".join(flags)
     out["qc_status"] = "PASS" if not flags else "FAIL"
     return out, oriented

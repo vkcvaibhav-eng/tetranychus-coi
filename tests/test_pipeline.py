@@ -176,3 +176,63 @@ def test_merge_and_qc(tmp_path):
     passed = {r.id: str(r.seq) for r in SeqIO.parse(tmp_path / "results" / "qc_passed.fasta", "fasta")}
     # Reverse-complemented input is stored in the forward orientation.
     assert passed["AB000008.1"] == passed["AB000001.1"]
+
+
+def test_mitogenome_and_refseq(tmp_path):
+    data = tmp_path / "data"
+    (data / "reference").mkdir(parents=True)
+    (data / "reference" / "coi_reference.fasta").write_text(f">ref_COX1\n{REF}\n")
+    flank = "".join(random.choice("ACGT") for _ in range(3000))
+    genome = flank[:1500] + REF + flank[1500:]
+
+    def mito(acc, comment=""):
+        rec = gb_record(acc, genome)
+        rec.features.append(SeqFeature(FeatureLocation(1500, 1500 + len(REF)), type="CDS",
+                                       qualifiers={"gene": ["COX1"]}))
+        if comment:
+            rec.annotations["comment"] = comment
+        return rec
+
+    SeqIO.write([mito("EU000001"),
+                 mito("NC_000001", "PROVISIONAL REFSEQ: The reference sequence is identical to EU000001.")],
+                data / "ncbi_m.gb", "genbank")
+    run("merge_records.py", cwd=tmp_path)
+    merged = read_csv(tmp_path / "results" / "merged_records.csv")
+    assert list(merged) == ["EU000001.1"]  # RefSeq copy removed
+    assert merged["EU000001.1"]["sequence"] == REF  # only COX1 kept
+    run("sequence_qc.py", cwd=tmp_path)
+    qc = read_csv(tmp_path / "results" / "qc_records.csv")
+    assert qc["EU000001.1"]["qc_status"] == "PASS"
+    assert qc["EU000001.1"]["cox1_half"] == "full"
+
+
+def test_species_checks(tmp_path):
+    data = tmp_path / "data"
+    (data / "reference").mkdir(parents=True)
+    (data / "reference" / "coi_reference.fasta").write_text(f">ref_COX1\n{REF}\n")
+    a = REF[90:750]
+    b = mutate_third_positions(a, 0.5)  # a clearly different species
+    a1 = mutate_third_positions(a, 0.01)
+    recs = [gb_record("SA000001", a1, organism="Tetranychus alpha"),
+            gb_record("SA000002", a1, organism="Tetranychus alpha"),
+            gb_record("SB000001", mutate_third_positions(b, 0.01), organism="Tetranychus beta"),
+            gb_record("SB000002", mutate_third_positions(b, 0.01), organism="Tetranychus beta"),
+            # labelled beta but carries an alpha sequence
+            gb_record("SB000003", mutate_third_positions(a, 0.01), organism="Tetranychus beta"),
+            gb_record("SU000001", mutate_third_positions(a, 0.01), organism="Tetranychus sp.")]
+    SeqIO.write(recs, data / "ncbi_s.gb", "genbank")
+    run("merge_records.py", cwd=tmp_path)
+    run("sequence_qc.py", cwd=tmp_path)
+    run("species_analysis.py", "--results", "results", "--out", "results/species", cwd=tmp_path)
+    checks = read_csv(tmp_path / "results" / "species" / "record_checks.csv")
+    assert checks["SA000001.1"]["check"] == "OK"
+    assert checks["SB000001.1"]["check"] == "OK"
+    assert "NEAREST_IS_OTHER_SPECIES" in checks["SB000003.1"]["check"]
+    assert checks["SB000003.1"]["nearest_other_species_name"] == "Tetranychus alpha"
+    assert checks["SB000003.1"]["cluster"] == checks["SA000001.1"]["cluster"]
+    assert checks["SB000001.1"]["cluster"] != checks["SA000001.1"]["cluster"]
+    assert "UNNAMED" in checks["SU000001.1"]["check"]
+    with open(tmp_path / "results" / "species" / "barcode_gap.csv", newline="") as f:
+        gaps = {r["species"]: r for r in csv.DictReader(f)}
+    assert gaps["Tetranychus alpha"]["gap_present"] == "yes"
+    assert gaps["Tetranychus beta"]["gap_present"] == "no"  # its mislabelled member sits inside alpha
