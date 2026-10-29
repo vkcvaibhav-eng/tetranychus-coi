@@ -1,0 +1,34 @@
+Total unique records: 700
+  BOLD: 64
+  GenBank: 58
+  GenBank+BOLD: 578
+Processing:
+  bold_matched_to_genbank: 1360
+  bold_read: 2664
+  bold_repeat_removed: 641
+  bold_skipped_no_coi: 237
+  cox1_extracted_from_mitogenome: 56
+  filtered_out_not_Tetranychus_urticae: 1498
+  genbank_read: 2178
+  genbank_repeat_removed: 636
+  refseq_copy_removed: 7
+Metadata score (0-7, records):
+  0: 35
+  1: 36
+  2: 114
+  3: 65
+  4: 367
+  5: 50
+  6: 33
+  7: 0
+Data-quality notes:
+  identifications by BOLD automated matching: 70
+  coordinates excluded as country/province centroids: 79
+Records missing each item:
+  identifier: 630 (90.0%)
+  coordinates: 480 (68.6%)
+  host: 474 (67.7%)
+  publication: 351 (50.1%)
+  voucher: 257 (36.7%)
+  collection_date: 257 (36.7%)
+  country: 76 (10.9%)

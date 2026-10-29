@@ -1,12 +1,17 @@
 Total unique records: 700
   BOLD: 64
-  GenBank: 59
-  GenBank+BOLD: 577
+  GenBank: 58
+  GenBank+BOLD: 578
 Processing:
-  bold_matched_to_genbank: 577
-  bold_read: 641
-  bold_skipped_no_coi: 37
-  genbank_read: 636
+  bold_matched_to_genbank: 1360
+  bold_read: 2664
+  bold_repeat_removed: 641
+  bold_skipped_no_coi: 237
+  cox1_extracted_from_mitogenome: 56
+  filtered_out_not_Tetranychus_urticae: 1498
+  genbank_read: 2178
+  genbank_repeat_removed: 636
+  refseq_copy_removed: 7
 Metadata score (0-7, records):
   0: 35
   1: 36
