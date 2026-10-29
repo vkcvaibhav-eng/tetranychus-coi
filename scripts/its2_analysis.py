@@ -34,11 +34,15 @@ from concurrent.futures import ProcessPoolExecutor
 import glob
 import os
 import re
+import sys
 from collections import Counter, defaultdict
 from statistics import median
 
 from Bio import SeqIO
 from Bio.Align import PairwiseAligner
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from study_keys import submission_key  # noqa: E402
 
 ITS2_PAT = re.compile(r"^internal transcribed spacer 2(, ITS2)?$|^ITS2$|^ITS 2$", re.I)
 
@@ -235,6 +239,33 @@ def main():
             if row["accepted_name"]:
                 row["nn_match"] = "yes" if row["nn_name"] == row["accepted_name"] else "no"
 
+    # The same, but only records from other submission batches count as neighbours,
+    # so that identical sequences deposited together cannot confirm each other.
+    for row in rows:
+        row["batch"] = submission_key(records[row["record_id"]]) or f"single:{row['record_id']}"
+    sorted_neigh = {h: sorted(v, key=lambda x: x[0]) for h, v in neigh.items()}
+    for row in rows:
+        row["nn_name_other_batch"] = row["nn_distance_other_batch"] = row["nn_match_other_batch"] = ""
+        if row["record_id"] not in hap_of:
+            continue
+        h, b = hap_of[row["record_id"]], row["batch"]
+        cands = [(0.0, r) for r in recs_of_hap[h] if r is not row and r["batch"] != b]
+        if not cands:
+            dmin = None
+            for d, j in sorted_neigh.get(h, []):
+                if dmin is not None and d > dmin:
+                    break
+                found = [(d, r) for r in recs_of_hap[j] if r["batch"] != b]
+                if found:
+                    dmin = d
+                    cands += found
+        named = Counter(r["accepted_name"] for _, r in cands if r["accepted_name"])
+        if named:
+            row["nn_distance_other_batch"] = f"{cands[0][0]:.4f}"
+            row["nn_name_other_batch"] = named.most_common(1)[0][0]
+            if row["accepted_name"]:
+                row["nn_match_other_batch"] = "yes" if row["nn_name_other_batch"] == row["accepted_name"] else "no"
+
     with open(os.path.join(args.out, "its2_records.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
@@ -336,6 +367,15 @@ def main():
     per_sp = defaultdict(Counter)
     for r in nn:
         per_sp[r["accepted_name"]][r["nn_match"]] += 1
+    for sp, c in sorted(per_sp.items(), key=lambda kv: -sum(kv[1].values()))[:12]:
+        lines.append(f"  {sp}: {c['yes']} of {c['yes'] + c['no']} match")
+    nb = [r for r in rows if r["nn_match_other_batch"]]
+    lines.append(f"Nearest neighbour from another submission batch matches own name: "
+                 f"{sum(r['nn_match_other_batch'] == 'yes' for r in nb)} of {len(nb)} named records "
+                 f"({100 * sum(r['nn_match_other_batch'] == 'yes' for r in nb) / max(len(nb), 1):.1f}%)")
+    per_sp = defaultdict(Counter)
+    for r in nb:
+        per_sp[r["accepted_name"]][r["nn_match_other_batch"]] += 1
     for sp, c in sorted(per_sp.items(), key=lambda kv: -sum(kv[1].values()))[:12]:
         lines.append(f"  {sp}: {c['yes']} of {c['yes'] + c['no']} match")
     lines.append("COI vs ITS2 for specimens with both genes (COI cluster species vs ITS2 nearest species):")

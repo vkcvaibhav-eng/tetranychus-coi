@@ -1,0 +1,12 @@
+region,basis,species,records,haplotypes,monophyletic,clades,main_clade_share_pct,main_clade_support,records_outside_main,unrooted_group_share_pct,unrooted_group_support
+5prime,all records,Tetranychus evansi,2,2,no,2,50.0,,1,50.0,
+5prime,all records,Tetranychus pueraricola,11,9,yes,1,100.0,99,0,100.0,99
+5prime,all records,Tetranychus truncatus,28,16,yes,1,100.0,100,0,100.0,100
+5prime,all records,Tetranychus turkestani,2,2,no,2,50.0,,1,50.0,
+5prime,all records,Tetranychus urticae,36,23,no,3,63.9,87,13,63.9,87
+5prime,anchors only,Tetranychus urticae,2,2,yes,1,100.0,98,0,100.0,98
+3prime,all records,Tetranychus pueraricola,11,8,yes,1,100.0,97,0,100.0,97
+3prime,all records,Tetranychus truncatus,28,11,yes,1,100.0,100,0,100.0,100
+3prime,all records,Tetranychus turkestani,2,2,no,2,50.0,,1,50.0,
+3prime,all records,Tetranychus urticae,36,26,no,4,52.8,94,17,52.8,94
+3prime,anchors only,Tetranychus urticae,2,2,yes,1,100.0,89,0,100.0,89

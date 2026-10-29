@@ -355,3 +355,39 @@ def test_trends(tmp_path):
     # The published record has no "Direct Submission" date and the BOLD test rows
     # carry no upload date, so 7 of the 10 records get a submission year.
     assert sum(int(y["records"]) for y in years) == 7
+
+
+def test_study_keys_and_helpers():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from Bio import Phylo
+    from io import StringIO
+    from phylogeny import largest_split_group
+    from robustness import binom_two_sided
+    from study_keys import bold_project, first_author, record_keys, submission_key
+
+    assert first_author("Li,G.-Q., Xue,X.-F. and Hong,X.-Y.") == "li,g.-q."
+    assert first_author("Navajas,M. and Boursot,P.") == "navajas,m."
+    assert bold_project("CNSID4307-15") == "bold:CNSID"
+    rec = SeqRecord(Seq("ACGT"), id="AB000001.1")
+    ref = Reference()
+    ref.authors = "Gotoh,T. and Matsuda,T."
+    ref.title = "Direct Submission"
+    ref.journal = "Submitted (05-MAR-2012) Ibaraki University"
+    rec.annotations["references"] = [ref]
+    assert submission_key(rec) == "gotoh,t.|2012"
+    keys = record_keys([{"record_id": "AB000001.1", "genbank_accession": "AB000001", "bold_processid": ""},
+                        {"record_id": "X-1", "genbank_accession": "", "bold_processid": ""}],
+                       {"AB000001": "gotoh,t.|2012"})
+    assert keys == {"AB000001.1": "gotoh,t.|2012", "X-1": "single:X-1"}
+
+    # exact McNemar: 2 against 7 discordant pairs
+    assert abs(binom_two_sided(2, 9) - 0.1797) < 1e-3
+    assert binom_two_sided(0, 0) == 1.0
+
+    # Root-free group: species "a" forms the complement of clade (b1,b2) even though
+    # the midpoint root splits it.
+    tree = Phylo.read(StringIO("((a1,a2),((a3,(b1,b2)),a4));"), "newick")
+    names = {"a1": "a", "a2": "a", "a3": "a", "a4": "a", "b1": "b", "b2": "b"}
+    n, _ = largest_split_group(tree, lambda t: names[t] == "a", lambda t: False,
+                               lambda t: 1 if names[t] == "a" else 0)
+    assert n == 4

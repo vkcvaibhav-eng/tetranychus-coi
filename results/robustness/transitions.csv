@@ -1,0 +1,6 @@
+raw,correct,wrong,ambiguous,no match,total
+correct,74,2,0,0,76
+wrong,1,20,0,0,21
+ambiguous,3,2,1,0,6
+no match,3,0,0,2,5
+total,81,24,1,2,108

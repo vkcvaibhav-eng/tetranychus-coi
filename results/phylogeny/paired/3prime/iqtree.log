@@ -1,0 +1,171 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    vm (AVX512, FMA3, 7 GB RAM)
+Command: /usr/bin/iqtree2 -s results/phylogeny/paired/3prime/alignment.fasta -m GTR+F+G4 -T 1 --prefix results/phylogeny/paired/3prime/iqtree -redo --quiet -B 1000
+Seed:    164600 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 29 23:27:15 2026
+Kernel:  AVX+FMA - 1 threads (2 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 2 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/phylogeny/paired/3prime/alignment.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 54 sequences with 412 columns, 143 distinct patterns
+91 parsimony-informative, 41 singleton sites, 280 constant sites
+       Gap/Ambiguity  Composition  p-value
+   1  H0001    0.00%    passed     97.40%
+   2  H0002    0.00%    passed     94.60%
+   3  H0003    0.00%    passed     96.71%
+   4  H0004    0.00%    passed     97.37%
+   5  H0005    0.00%    passed     99.32%
+   6  H0006    0.00%    passed     97.26%
+   7  H0007    0.00%    passed     96.10%
+   8  H0008    0.00%    passed     96.42%
+   9  H0009    0.00%    passed     97.91%
+  10  H0010    0.00%    passed     74.47%
+  11  H0011    0.00%    passed     99.28%
+  12  H0012    0.00%    passed     99.29%
+  13  H0013    0.00%    passed     96.39%
+  14  H0014    0.00%    passed     89.82%
+  15  H0015    0.00%    passed     78.41%
+  16  H0016    0.00%    passed     83.60%
+  17  H0017    0.00%    passed     92.94%
+  18  H0018    0.00%    passed     97.04%
+  19  H0019    0.00%    passed     98.47%
+  20  H0020    0.00%    passed     96.63%
+  21  H0021    0.00%    passed     98.28%
+  22  H0022    6.55%    passed     99.54%
+  23  H0023    0.00%    passed     98.37%
+  24  H0024   14.32%    passed     99.31%
+  25  H0025    7.04%    passed     97.28%
+  26  H0026    0.00%    passed     96.10%
+  27  H0027   12.38%    passed     97.40%
+  28  H0028    0.00%    passed     99.10%
+  29  H0029    0.00%    passed     98.62%
+  30  H0030    0.00%    passed     94.91%
+  31  H0031    0.00%    passed     97.32%
+  32  H0032    0.00%    passed     95.63%
+  33  H0033    0.00%    passed     98.62%
+  34  H0034    0.00%    passed     98.19%
+  35  H0035    0.00%    passed     98.83%
+  36  H0036    0.00%    passed     99.41%
+  37  H0037    0.00%    passed     98.61%
+  38  H0038    0.00%    passed     99.55%
+  39  H0039    0.00%    passed     98.61%
+  40  H0040    0.00%    passed     99.88%
+  41  H0041    0.00%    passed     99.96%
+  42  H0042    0.00%    passed     99.79%
+  43  H0043    0.00%    passed     99.88%
+  44  H0044    0.00%    passed     99.79%
+  45  H0045    0.00%    passed     97.73%
+  46  H0046    0.00%    passed     99.14%
+  47  H0047    0.00%    passed     98.05%
+  48  H0048    0.00%    passed     99.60%
+  49  H0049    0.00%    passed     97.32%
+  50  H0050    0.00%    passed     18.15%
+  51  H0051    0.00%    passed     82.81%
+  52  H0052    0.00%    passed     80.14%
+  53  H0053    5.34%    passed     97.91%
+  54  H0054    5.58%    passed     99.97%
+****  TOTAL    0.95%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 164600)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2234.728
+2. Current log-likelihood: -2120.626
+3. Current log-likelihood: -2070.843
+4. Current log-likelihood: -2069.010
+Optimal log-likelihood: -2068.939
+Rate parameters:  A-C: 1.11297  A-G: 19.44648  A-T: 6.10243  C-G: 1.84096  C-T: 34.66465  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.106  G: 0.137  T: 0.440
+Gamma shape alpha: 0.189
+Parameters optimization took 4 rounds (0.199 sec)
+Computing ML distances based on estimated model parameters... 0.025 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -2078.596
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.268 second
+Computing log-likelihood of 98 initial trees ... 0.275 seconds
+Current best score: -2068.778
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2067.948
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2067.687
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -2067.278
+Iteration 10 / LogL: -2067.973 / Time: 0h:0m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -2066.959
+BETTER TREE FOUND at iteration 15: -2066.958
+Iteration 20 / LogL: -2066.959 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -2066.958 / CPU time: 1.951
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2066.964 / Time: 0h:0m:3s (0h:0m:9s left)
+Iteration 40 / LogL: -2068.834 / Time: 0h:0m:4s (0h:0m:7s left)
+Iteration 50 / LogL: -2067.083 / Time: 0h:0m:5s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -2089.031
+Iteration 60 / LogL: -2066.961 / Time: 0h:0m:6s (0h:0m:5s left)
+Iteration 70 / LogL: -2074.642 / Time: 0h:0m:7s (0h:0m:4s left)
+Iteration 80 / LogL: -2067.083 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 90 / LogL: -2069.712 / Time: 0h:0m:9s (0h:0m:2s left)
+Iteration 100 / LogL: -2067.167 / Time: 0h:0m:10s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -2089.031
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 110 / LogL: -2067.083 / Time: 0h:0m:11s (0h:0m:9s left)
+TREE SEARCH COMPLETED AFTER 116 ITERATIONS / Time: 0h:0m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2066.958
+Optimal log-likelihood: -2066.958
+Rate parameters:  A-C: 1.10789  A-G: 20.03515  A-T: 6.02387  C-G: 1.84703  C-T: 34.71971  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.106  G: 0.137  T: 0.440
+Gamma shape alpha: 0.190
+Parameters optimization took 1 rounds (0.010 sec)
+BEST SCORE FOUND : -2066.958
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/phylogeny/paired/3prime/iqtree.splits.nex
+Total tree length: 1.028
+
+Total number of iterations: 116
+CPU time used for tree search: 11.155 sec (0h:0m:11s)
+Wall-clock time used for tree search: 11.759 sec (0h:0m:11s)
+Total CPU time used: 11.529 sec (0h:0m:11s)
+Total wall-clock time used: 12.167 sec (0h:0m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file results/phylogeny/paired/3prime/iqtree.splits.nex...
+54 taxa and 488 splits.
+Consensus tree written to results/phylogeny/paired/3prime/iqtree.contree
+Reading input trees file results/phylogeny/paired/3prime/iqtree.contree
+Log-likelihood of consensus tree: -2067.103
+
+Analysis results written to: 
+  IQ-TREE report:                results/phylogeny/paired/3prime/iqtree.iqtree
+  Maximum-likelihood tree:       results/phylogeny/paired/3prime/iqtree.treefile
+  Likelihood distances:          results/phylogeny/paired/3prime/iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/phylogeny/paired/3prime/iqtree.splits.nex
+  Consensus tree:                results/phylogeny/paired/3prime/iqtree.contree
+  Screen log file:               results/phylogeny/paired/3prime/iqtree.log
+
+Date and Time: Thu Oct 29 23:27:27 2026

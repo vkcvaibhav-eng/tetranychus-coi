@@ -10,6 +10,11 @@ the module reports the number of records and the share that
     anchored clusters),
 together with the mean metadata score (0-7). A Spearman rank correlation
 with a permutation p-value tests the year trend of the metadata score.
+Because records deposited together are not independent, the trend is also
+tested on submission batches (median year against mean score; see
+study_keys.py), and a 95% interval for the record-level rho is taken from a
+bootstrap that resamples batches. Countries are reported with the number
+of batches behind their records.
 
 Reads:  data/ncbi_*.gb, data/bold_*.tsv, results/genus/{merged_records,qc_records}.csv,
         results/anchors/record_anchor_check.csv
@@ -24,8 +29,13 @@ import os
 import re
 from collections import defaultdict
 
+import sys
+
 import numpy as np
 from Bio import SeqIO
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from study_keys import genbank_keys, record_keys  # noqa: E402
 
 PERIODS = [(0, 2005, "before 2006"), (2006, 2010, "2006-2010"), (2011, 2015, "2011-2015"),
            (2016, 2020, "2016-2020"), (2021, 2100, "2021 onwards")]
@@ -84,7 +94,8 @@ def summarise(group):
         return f"{100 * sum(1 for g in group if test(g)) / n:.1f}" if n else ""
 
     anchored = [g for g in group if g["verdict"] in ("AGREES", "AGREES_SHARED_CLUSTER", "DISAGREES")]
-    return {"records": n,
+    dis = [g for g in anchored if g["verdict"] == "DISAGREES"]
+    return {"records": n, "batches": len({g["batch"] for g in group}),
             "qc_fail_pct": share(lambda g: g["qc"] == "FAIL"),
             "unnamed_pct": share(lambda g: not g["named"]),
             "coordinates_pct": share(lambda g: "coordinates" not in g["missing"]),
@@ -93,7 +104,8 @@ def summarise(group):
             "mean_metadata_score": f"{np.mean([g['score'] for g in group]):.2f}" if n else "",
             "in_anchored_clusters": len(anchored),
             "disagree_with_anchor_pct": f"{100 * sum(g['verdict'] == 'DISAGREES' for g in anchored) / len(anchored):.1f}"
-            if anchored else ""}
+            if anchored else "",
+            "disagreeing_records": len(dis), "batches_with_disagreement": len({g["batch"] for g in dis})}
 
 
 def main():
@@ -112,6 +124,7 @@ def main():
     verdict_path = os.path.join(args.anchors_out, "record_anchor_check.csv")
     verdicts = {r["record_id"]: r["verdict"] for r in read(verdict_path)} if os.path.exists(verdict_path) else {}
 
+    batch = record_keys(merged, genbank_keys(os.path.join(args.data, "ncbi_*.gb")))
     rows = []
     for r in merged:
         year = gb_years.get(r["genbank_accession"]) or bold_years.get(r["bold_processid"])
@@ -122,7 +135,7 @@ def main():
                                                   r["country"].split(":")[0].strip()) or "(not given)",
                      "qc": qc.get(r["record_id"], ""), "named": named,
                      "missing": r["metadata_missing"].split(";"), "score": int(r["metadata_score"]),
-                     "verdict": verdicts.get(r["record_id"], "")})
+                     "verdict": verdicts.get(r["record_id"], ""), "batch": batch[r["record_id"]]})
 
     with_year = [g for g in rows if g["year"]]
     by_year = defaultdict(list)
@@ -148,9 +161,26 @@ def main():
             w.writerows(data)
 
     rho, pval = spearman([g["year"] for g in with_year], [g["score"] for g in with_year])
+    groups = defaultdict(list)
+    for g in with_year:
+        groups[g["batch"]].append(g)
+    b_year = [float(np.median([g["year"] for g in gs])) for gs in groups.values()]
+    b_score = [float(np.mean([g["score"] for g in gs])) for gs in groups.values()]
+    b_rho, b_p = spearman(b_year, b_score)
+    rng = np.random.default_rng(20261030)
+    keys = list(groups)
+    boot = []
+    for _ in range(2000):
+        pick = [g for k in rng.choice(len(keys), size=len(keys), replace=True) for g in groups[keys[k]]]
+        x = np.argsort(np.argsort([g["year"] for g in pick]))
+        y = np.argsort(np.argsort([g["score"] for g in pick]))
+        boot.append(np.corrcoef(x, y)[0, 1])
+    lo, hi = np.percentile(boot, [2.5, 97.5])
     lines = [f"Records: {len(rows)}; with a submission year: {len(with_year)} "
              f"({min(by_year)}-{max(by_year)})",
-             f"Metadata score vs submission year: Spearman rho {rho:.3f}, permutation p {pval:.4f}",
+             f"Metadata score vs submission year: Spearman rho {rho:.3f}, permutation p {pval:.4f}; "
+             f"95% interval resampling {len(keys)} submission batches {lo:.3f} to {hi:.3f}",
+             f"Batch level (median year vs mean score, {len(keys)} batches): rho {b_rho:.3f}, permutation p {b_p:.4f}",
              "By period: records | QC fail % | unnamed % | coordinates % | voucher % | publication % | "
              "mean score | disagree with anchor %"]
     for r in period_rows:
@@ -163,7 +193,8 @@ def main():
         lines.append(f"  {r['country']}: {r['records']} | {r['qc_fail_pct']} | {r['unnamed_pct']} | "
                      f"{r['coordinates_pct']} | {r['voucher_pct']} | {r['publication_pct']} | "
                      f"{r['mean_metadata_score']} | {r['disagree_with_anchor_pct'] or '-'}"
-                     f" (of {r['in_anchored_clusters']})")
+                     f" (of {r['in_anchored_clusters']}) | batches {r['batches']}; disagreeing records "
+                     f"{r['disagreeing_records']} from {r['batches_with_disagreement']} batches")
     summary = "\n".join(lines)
     with open(os.path.join(args.out, "trends_summary.txt"), "w") as f:
         f.write(summary + "\n")

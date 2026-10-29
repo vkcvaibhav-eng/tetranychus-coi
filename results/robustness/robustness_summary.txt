@@ -1,0 +1,102 @@
+1. Thresholds (clusters and largest accepted match distance):
+   K2P | clusters | several names | species split | cinnabarinus clusters | urticae largest % | disagree % | correct raw -> cleaned (wrong raw -> cleaned)
+   0.010 | 142 | 16 | 25 | 8 | 47.9 | 6.1 | 70/108 -> 72/108 (18 -> 21)
+   0.015 | 110 | 17 | 24 | 7 | 81.0 | 5.4 | 73/108 -> 78/108 (19 -> 22)
+   0.020 | 96 | 14 | 22 | 7 | 83.1 | 5.8 | 75/108 -> 80/108 (19 -> 22)
+   0.030 | 81 | 12 | 22 | 6 | 94.9 | 5.8 | 76/108 -> 81/108 (21 -> 24)
+   0.040 | 67 | 10 | 19 | 4 | 96.2 | 3.2 | 76/108 -> 69/108 (22 -> 32)
+   0.050 | 59 | 9 | 19 | 3 | 99.7 | 2.5 | 76/108 -> 70/108 (22 -> 33)
+2. Anchor evidence and taxonomic treatment (K2P 0.03):
+   main (levels A+B; 2 synonymies): 108 queries from 9 studies; raw correct 76, wrong 21, ambiguous 6, no match 5; cleaned correct 81, wrong 24, ambiguous 1, no match 2; disagreeing records 118 of 2048
+   level A anchors only: 69 queries from 4 studies; raw correct 49, wrong 14, ambiguous 1, no match 5; cleaned correct 52, wrong 14, ambiguous 1, no match 2; disagreeing records 118 of 2048
+   plus malaysiensis = macfarlanei: 108 queries from 9 studies; raw correct 76, wrong 21, ambiguous 6, no match 5; cleaned correct 81, wrong 24, ambiguous 1, no match 2; disagreeing records 118 of 2048
+   level A only, plus malaysiensis = macfarlanei: 69 queries from 4 studies; raw correct 49, wrong 14, ambiguous 1, no match 5; cleaned correct 52, wrong 14, ambiguous 1, no match 2; disagreeing records 118 of 2048
+3. Main identification test: outcomes raw (rows) -> cleaned (columns):
+   raw \ cleaned | correct | wrong | ambiguous | no match | total
+   correct | 74 | 2 | 0 | 0 | 76
+   wrong | 1 | 20 | 0 | 0 | 21
+   ambiguous | 3 | 2 | 1 | 0 | 6
+   no match | 3 | 0 | 0 | 2 | 5
+   total | 81 | 24 | 1 | 2 | 108
+   Became correct 7, stopped being correct 2; exact McNemar p = 0.180
+   95% intervals, bootstrap over 9 anchor studies (10000 replicates, seed 20261030):
+     raw_correct: 70.4% (55.2 to 87.5)
+     raw_wrong: 19.4% (6.7 to 33.3)
+     cleaned_correct: 75.0% (55.9 to 91.2)
+     cleaned_wrong: 22.2% (7.8 to 41.7)
+     diff_correct: 4.6% (-1.9 to 8.9)
+     diff_wrong: 2.8% (0.0 to 12.3)
+4. Cluster structure at K2P 0.03:
+   Clusters whose largest internal K2P exceeds 0.03 (chaining): 11 of 81
+     C028 (972 records): largest 0.1041
+     C069 (180 records): largest 0.0414
+     C045 (157 records): largest 0.0458
+     C044 (111 records): largest 0.0651
+     C042 (96 records): largest 0.0577
+     C072 (95 records): largest 0.0310
+     C066 (49 records): largest 0.0335
+     C049 (24 records): largest 0.0305
+     C047 (12 records): largest 0.0444
+     C051 (11 records): largest 0.0418
+   Records overlapping both halves by >= 300 sites (bridges): 513
+   Clusters holding both 5'-only and 3'-only records: 14; of these, joined only through bridges: 12
+     C028 (972 records, 85 bridging haplotypes, joined only through bridges: no)
+     C069 (180 records, 52 bridging haplotypes, joined only through bridges: yes)
+     C045 (157 records, 57 bridging haplotypes, joined only through bridges: yes)
+     C044 (111 records, 29 bridging haplotypes, joined only through bridges: yes)
+     C042 (96 records, 41 bridging haplotypes, joined only through bridges: no)
+     C072 (95 records, 9 bridging haplotypes, joined only through bridges: yes)
+     C049 (24 records, 13 bridging haplotypes, joined only through bridges: yes)
+     C063 (20 records, 6 bridging haplotypes, joined only through bridges: yes)
+     C080 (19 records, 4 bridging haplotypes, joined only through bridges: yes)
+     C047 (12 records, 7 bridging haplotypes, joined only through bridges: yes)
+     C035 (9 records, 3 bridging haplotypes, joined only through bridges: yes)
+     C064 (8 records, 1 bridging haplotypes, joined only through bridges: yes)
+     C065 (6 records, 1 bridging haplotypes, joined only through bridges: yes)
+     C032 (5 records, 2 bridging haplotypes, joined only through bridges: yes)
+5. Nearest-neighbour label agreement:
+   COI, all named records, any: 1457 of 1582 (92.1%)
+   COI, all named records, other batch: 1355 of 1563 (86.7%)
+   ITS2, all named records, any: 664 of 771 (86.1%)
+   ITS2, all named records, other batch: 621 of 772 (80.4%)
+   Same specimens (175 with both genes, other batches only): COI 144 (82.3%), ITS2 129 (73.7%); COI only 28, ITS2 only 13, exact McNemar p = 0.028
+     Tetranychus urticae: 74 specimens; COI 73, ITS2 67
+     Tetranychus turkestani: 20 specimens; COI 6, ITS2 14
+     Tetranychus evansi: 11 specimens; COI 11, ITS2 11
+     Tetranychus kanzawai: 11 specimens; COI 10, ITS2 2
+     Tetranychus truncatus: 9 specimens; COI 8, ITS2 9
+     Tetranychus piercei: 6 specimens; COI 6, ITS2 6
+     Tetranychus parakanzawai: 6 specimens; COI 0, ITS2 0
+     Tetranychus desertorum: 5 specimens; COI 5, ITS2 0
+     Tetranychus neocaledonicus: 5 specimens; COI 4, ITS2 5
+     Tetranychus ludeni: 4 specimens; COI 4, ITS2 4
+     Tetranychus okinawanus: 4 specimens; COI 1, ITS2 2
+     Tetranychus gloveri: 3 specimens; COI 3, ITS2 1
+     Tetranychus tumidellus: 3 specimens; COI 3, ITS2 0
+     Tetranychus phaselus: 2 specimens; COI 2, ITS2 2
+     Tetranychus ezoensis: 2 specimens; COI 0, ITS2 0
+     Tetranychus viennensis: 2 specimens; COI 2, ITS2 2
+     Tetranychus pueraricola: 1 specimens; COI 1, ITS2 0
+     Tetranychus fijiensis: 1 specimens; COI 1, ITS2 1
+     Tetranychus puschelii: 1 specimens; COI 1, ITS2 0
+     Tetranychus udaipurensis: 1 specimens; COI 1, ITS2 0
+     Tetranychus lombardinii: 1 specimens; COI 1, ITS2 1
+     Tetranychus macfarlanei: 1 specimens; COI 1, ITS2 1
+     Tetranychus pacificus: 1 specimens; COI 0, ITS2 1
+     Tetranychus mcdanieli: 1 specimens; COI 0, ITS2 0
+6. Records disagreeing with the anchored species of their cluster: 118 from 32 submission batches
+   34 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus truncatus (5 batches; China (33); India (1))
+   28 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus kanzawai; Tetranychus parakanzawai (6 batches; Philippines (16); China (9); (not given) (3))
+   15 x Tetranychus gloveri in cluster anchored as Tetranychus okinawanus (6 batches; USA (11); India (3); Viet Nam (1))
+   13 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus pueraricola (3 batches; China (12); South Korea (1))
+   9 x Tetranychus kanzawai in cluster anchored as Tetranychus turkestani; Tetranychus urticae (9 batches; India (7); Pakistan (2))
+   4 x Tetranychus kanzawai in cluster anchored as Tetranychus pueraricola (2 batches; China (4))
+   4 x Tetranychus truncatus in cluster anchored as Tetranychus pueraricola (2 batches; China (3); (not given) (1))
+   3 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus phaselus (2 batches; China (3))
+   2 x Tetranychus phaselus in cluster anchored as Tetranychus pueraricola (1 batches; China (2))
+   1 x Tetranychus sawzdargi in cluster anchored as Tetranychus turkestani; Tetranychus urticae (1 batches; Russia (1))
+   1 x Tetranychus malvae in cluster anchored as Tetranychus evansi (1 batches; (not given) (1))
+   1 x Tetranychus bambusae in cluster anchored as Tetranychus kanzawai; Tetranychus parakanzawai (1 batches; (not given) (1))
+   1 x Tetranychus puschelii in cluster anchored as Tetranychus truncatus (1 batches; Unrecoverable (1))
+   1 x Tetranychus neocaledonicus in cluster anchored as Tetranychus ludeni (1 batches; Australia (1))
+   1 x Tetranychus cinnabarinus in cluster anchored as Tetranychus piercei (1 batches; China (1))

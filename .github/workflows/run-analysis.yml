@@ -101,6 +101,16 @@ jobs:
             echo "No ITS2 data in data/its2; skipped" | tee results/logs/its2.log
           fi
 
+      - name: Sensitivity and uncertainty checks
+        run: |
+          set -o pipefail
+          python scripts/robustness.py 2>&1 | tee results/logs/robustness.log
+
+      - name: Supplementary tables
+        run: |
+          set -o pipefail
+          python scripts/supplementary_tables.py 2>&1 | tee results/logs/supplementary.log
+
       - name: Save results to the repository
         if: always()
         run: |

@@ -108,6 +108,9 @@ def main():
     p.add_argument("--min-overlap", type=int, default=300)
     p.add_argument("--threshold", type=float, default=0.03,
                    help="K2P distance for clustering (default 0.03)")
+    p.add_argument("--synonyms", default="",
+                   help="CSV of published synonymies (name, accepted_name); applied to names when given. "
+                        "Without it the submitted names are used, as needed to describe labelling.")
     args = p.parse_args()
     os.makedirs(args.out, exist_ok=True)
 
@@ -137,7 +140,14 @@ def main():
         D[i] = k2p_row(M[i], M, args.min_overlap)
     np.fill_diagonal(D, 0.0)
 
-    names = {rid: species_name(meta.get(rid, {}).get("species_label", "")) for rid in seqs}
+    synonyms = {}
+    if args.synonyms:
+        with open(args.synonyms, newline="") as f:
+            synonyms = {r["name"]: r["accepted_name"] for r in csv.DictReader(f)}
+    names = {}
+    for rid in seqs:
+        n = species_name(meta.get(rid, {}).get("species_label", ""))
+        names[rid] = synonyms.get(n, n)
     hap_names = {h: Counter(names[r] for r in members[h] if names[r]) for h in range(H)}
 
     # Haplotypes shared by more than one species name.
@@ -267,7 +277,8 @@ def main():
     split = [n for n in by_name if len({cluster_of[h] for h in by_name[n]}) > 1]
     mixed = [c for c in cl_rows if c["named_species"] > 1]
     with_gap = [g for g in gap_rows if g["gap_present"]]
-    lines = [f"Sequences: {len(seqs)}  Haplotypes: {H}  Named species: {len(by_name)}",
+    lines = [f"Names: {'accepted (synonymies from ' + args.synonyms + ')' if synonyms else 'as submitted'}",
+             f"Sequences: {len(seqs)}  Haplotypes: {H}  Named species: {len(by_name)}",
              f"Distance: K2P on shared sites (min overlap {args.min_overlap} bp); "
              f"clusters at {args.threshold:.3f}",
              f"Records without a species name: {checks.get('UNNAMED', 0)}",

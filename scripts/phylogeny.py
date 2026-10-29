@@ -12,7 +12,18 @@ checked for:
   other places its records fall;
 - the same for anchor specimens only (morphologically identified).
 
-Requires the mafft and iqtree2 (or iqtree) programs.
+A haplotype carried by records under several species names counts as a
+member of each of those species. Because midpoint rooting is arbitrary
+without an outgroup, the largest group is also found without regard to the
+root: any group of tips cut off by one branch of the tree (a clade, or the
+complement of a clade) is accepted.
+
+With --paired, only records that cover both windows are used, and the two
+trees are built from the same specimens, so that differences between the
+halves are not differences in sampling.
+
+Requires the mafft and iqtree2 (or iqtree) programs. With --reuse, existing
+tree files are evaluated again without rebuilding them.
 
 Reads:  results/genus/{merged_records.csv,qc_passed.fasta,qc_records.csv},
         data/anchors/*, reference COX1
@@ -62,6 +73,23 @@ def pure_clades(clade, member, neutral):
     return [c for child in clade.clades for c in pure_clades(child, member, neutral)]
 
 
+def largest_split_group(tree, member, neutral, weight):
+    """Largest pure group cut off by one branch: a clade or its complement."""
+    all_tips = tree.get_terminals()
+    total_names = [t.name for t in all_tips]
+    best_n, best_sup = 0, None
+    for clade in tree.find_clades():
+        inside = {t.name for t in clade.get_terminals()}
+        for group, node in ((inside, clade), (set(total_names) - inside, clade)):
+            if not group or not all(member(t) or neutral(t) for t in group):
+                continue
+            n = sum(weight(t) for t in group)
+            if n > best_n:
+                best_n = n
+                best_sup = None if node.is_terminal() else support(node)
+    return best_n, best_sup
+
+
 def support(node):
     if node.confidence is not None:
         return float(node.confidence)
@@ -83,8 +111,15 @@ def main():
                    help="Minimum fraction of the region window a sequence must cover")
     p.add_argument("--bootstrap", type=int, default=1000)
     p.add_argument("--threads", default="AUTO")
+    p.add_argument("--seed", type=int, default=None,
+                   help="IQ-TREE random seed (the seed used is always written to the IQ-TREE log)")
     p.add_argument("--fast", action="store_true", help="IQ-TREE -fast, no bootstrap (for testing)")
+    p.add_argument("--paired", action="store_true",
+                   help="Use only records covering both windows (written to <out>/paired)")
+    p.add_argument("--reuse", action="store_true", help="Evaluate existing tree files without rebuilding")
     args = p.parse_args()
+    if args.paired:
+        args.out = os.path.join(args.out, "paired")
     os.makedirs(args.out, exist_ok=True)
 
     iqtree = shutil.which("iqtree2") or shutil.which("iqtree")
@@ -113,9 +148,20 @@ def main():
     aligner = make_aligner()
     projected = {rid: project(aligner, ref, s) for rid, s in seqs.items()}
 
+    windows = {h: region_window(qc_rows, h) for h in ("5prime", "3prime")}
+    eligible = None
+    if args.paired:
+        eligible = set()
+        for rid, proj in projected.items():
+            if all(w and sum(c != "-" for c in proj[w[0]:w[1]]) / max(w[1] - w[0], 1) >= args.min_cover
+                   for w in windows.values()):
+                eligible.add(rid)
+
     mono_rows, lines = [], []
+    if args.paired:
+        lines.append(f"Paired mode: {len(eligible)} records cover at least {args.min_cover:.0%} of both windows")
     for half in ("5prime", "3prime"):
-        win = region_window(qc_rows, half)
+        win = windows[half]
         if not win:
             continue
         w0, w1 = win
@@ -123,6 +169,8 @@ def main():
         os.makedirs(rdir, exist_ok=True)
         haps, members = {}, defaultdict(list)
         for rid, proj in projected.items():
+            if eligible is not None and rid not in eligible:
+                continue
             seg = proj[w0:w1]
             covered = sum(c != "-" for c in seg) / max(len(seg), 1)
             if covered < args.min_cover:
@@ -147,19 +195,31 @@ def main():
                             "; ".join(f"{n} ({k})" for n, k in anchors_in[hid].most_common()), " ".join(recs)])
 
         aln = os.path.join(rdir, "alignment.fasta")
-        with open(aln, "w") as f:
-            subprocess.run(["mafft", "--auto", "--quiet", "--thread", "-1", hap_fa], stdout=f, check=True)
         prefix = os.path.join(rdir, "iqtree")
-        cmd = [iqtree, "-s", aln, "-m", "GTR+F+G4", "-T", str(args.threads), "--prefix", prefix,
-               "-redo", "--quiet"]
-        cmd += ["-fast"] if args.fast else ["-B", str(args.bootstrap)]
-        subprocess.run(cmd, check=True)
+        if not (args.reuse and os.path.exists(prefix + ".treefile")):
+            with open(aln, "w") as f:
+                subprocess.run(["mafft", "--auto", "--quiet", "--thread", "-1", hap_fa], stdout=f, check=True)
+            cmd = [iqtree, "-s", aln, "-m", "GTR+F+G4", "-T", str(args.threads), "--prefix", prefix,
+                   "-redo", "--quiet"]
+            cmd += ["-fast"] if args.fast else ["-B", str(args.bootstrap)]
+            if args.seed is not None:
+                cmd += ["-seed", str(args.seed)]
+            subprocess.run(cmd, check=True)
+        aligned = list(SeqIO.parse(aln, "fasta"))
+        cols = len(aligned[0].seq) if aligned else 0
+        internal = set()  # columns with a gap inside a sequence (not at its ends)
+        for r in aligned:
+            sq = str(r.seq)
+            a, b = len(sq) - len(sq.lstrip("-")), len(sq.rstrip("-"))
+            internal.update(i for i in range(a, b) if sq[i] == "-")
+        gap_cols = len(internal)
 
         tree = Phylo.read(prefix + ".treefile", "newick")
         tree.root_at_midpoint()
         lines.append(f"{half}: reference window {w0 + 1}-{w1}, {sum(len(v) for v in members.values())} "
                      f"sequences, {len(haps)} haplotypes, model GTR+F+G4"
-                     + (", fast search" if args.fast else f", {args.bootstrap} ultrafast bootstraps"))
+                     + (", fast search" if args.fast else f", {args.bootstrap} ultrafast bootstraps")
+                     + f"; alignment {cols} columns, {gap_cols} with an internal gap")
 
         for label, tipnames in (("all records", names), ("anchors only", anchors_in)):
             species = sorted({n for c in tipnames.values() for n in c if n})
@@ -181,13 +241,17 @@ def main():
                                 for c in clades), key=lambda x: -x[0])
                 main_n, main = sized[0]
                 sup = support(main) if not main.is_terminal() else None
+                un_n, un_sup = largest_split_group(
+                    tree, member, neutral, lambda t, sp=sp, tipnames=tipnames: tipnames[t].get(sp, 0))
                 mono_rows.append({"region": half, "basis": label, "species": sp,
                                   "records": total, "haplotypes": n_haps,
                                   "monophyletic": "yes" if len(sized) == 1 else "no",
                                   "clades": len(sized),
                                   "main_clade_share_pct": f"{100 * main_n / total:.1f}",
                                   "main_clade_support": "" if sup is None else f"{sup:.0f}",
-                                  "records_outside_main": total - main_n})
+                                  "records_outside_main": total - main_n,
+                                  "unrooted_group_share_pct": f"{100 * un_n / total:.1f}",
+                                  "unrooted_group_support": "" if un_sup is None else f"{un_sup:.0f}"})
 
     with open(os.path.join(args.out, "monophyly.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(mono_rows[0].keys()) if mono_rows else ["region"])
@@ -206,7 +270,8 @@ def main():
                              f"main clade {r['main_clade_share_pct']}% of records"
                              + (f", support {r['main_clade_support']}" if r["main_clade_support"] else "")
                              + ("" if r["monophyletic"] == "yes" else
-                                f"; {r['records_outside_main']} records in {r['clades'] - 1} other place(s)"))
+                                f"; {r['records_outside_main']} records in {r['clades'] - 1} other place(s)")
+                             + f"; root-free group {r['unrooted_group_share_pct']}%")
     summary = "\n".join(lines)
     with open(os.path.join(args.out, "phylogeny_summary.txt"), "w") as f:
         f.write(summary + "\n")

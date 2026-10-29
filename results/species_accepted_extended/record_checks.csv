@@ -1,0 +1,2166 @@
+record_id,species_label,species_name,haplotype,cluster,nearest_same_species,nearest_other_species,nearest_other_species_name,check
+QB213103.1,Tetranychus urticae,Tetranychus urticae,H0001,C028,0.0000,0.0256,Tetranychus turkestani,OK
+QB213102.1,Tetranychus urticae,Tetranychus urticae,H0002,C028,-0.0000,0.0386,Tetranychus turkestani,OK
+QB213101.1,Tetranychus urticae,Tetranychus urticae,H0001,C028,0.0000,0.0256,Tetranychus turkestani,OK
+QB207901.1,Tetranychus cinnabarinus,Tetranychus urticae,H0003,C028,0.0030,-0.0000,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+QB207900.1,Tetranychus cinnabarinus,Tetranychus urticae,H0004,C028,-0.0000,0.0098,Tetranychus turkestani,OK
+QB207899.1,Tetranychus cinnabarinus,Tetranychus urticae,H0005,C028,-0.0000,0.0388,Tetranychus turkestani,OK
+QB075612.1,Tetranychus truncatus,Tetranychus truncatus,H0006,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+PX026330.1,Tetranychus urticae,Tetranychus urticae,H0007,C028,-0.0000,0.0093,Tetranychus turkestani,OK
+PZ939398.1,Tetranychus puschelii,Tetranychus puschelii,H0008,C064,0.0019,0.1022,Tetranychus truncatus,OK
+PV991117.1,Tetranychus merganser,Tetranychus merganser,H0009,C034,-0.0000,0.0672,Tetranychus ludeni,OK
+PV991118.1,Tetranychus urticae,Tetranychus urticae,H0010,C028,-0.0000,0.0290,Tetranychus turkestani,OK
+PV991113.1,Tetranychus merganser,Tetranychus merganser,H0011,C001,,0.1173,Tetranychus truncatus,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+PZ842079.1,Tetranychus kanzawai,Tetranychus kanzawai,H0012,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+PZ740567.1,Tetranychus piercei,Tetranychus piercei,H0013,C068,0.0314,0.0867,Tetranychus pueraricola,OK
+PZ737350.1,Tetranychus truncatus,Tetranychus truncatus,H0014,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+PZ721966.1,Tetranychus urticae,Tetranychus urticae,H0015,C028,-0.0000,0.0178,Tetranychus turkestani,OK
+PZ654951.1,Tetranychus urticae,Tetranychus urticae,H0016,C028,-0.0000,0.0172,Tetranychus turkestani,OK
+PZ469357.1,Tetranychus sp.,,H0017,C002,,,,UNNAMED
+PZ418824.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0018,C002,0.0000,0.1510,Tetranychus evansi,OK
+PZ413046.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+PZ413045.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0020,C002,0.0000,0.1384,Tetranychus evansi,OK
+PZ413047.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+PZ413040.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0020,C002,0.0000,0.1384,Tetranychus evansi,OK
+PZ413044.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+PZ413042.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0021,C035,0.0000,0.1180,Tetranychus pueraricola,OK
+PZ413041.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+PZ413043.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+PZ411843.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0020,C002,0.0000,0.1384,Tetranychus evansi,OK
+PZ411705.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+PZ410424.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0022,C035,-0.0000,0.0922,Tetranychus urticae,OK
+PZ409970.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0023,C035,-0.0000,0.1051,Tetranychus neocaledonicus,OK
+PZ406922.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0021,C035,0.0000,0.1180,Tetranychus pueraricola,OK
+OZ464900.1,Tetranychus urticae,Tetranychus urticae,H0024,C028,0.0000,0.0047,Tetranychus turkestani,OK
+OZ464899.1,Tetranychus cinnabarinus,Tetranychus urticae,H0025,C028,0.0024,0.0282,Tetranychus turkestani,OK
+OZ464898.1,Tetranychus cinnabarinus,Tetranychus urticae,H0026,C028,0.0023,0.0309,Tetranychus turkestani,OK
+OZ464897.1,Tetranychus turkestani,Tetranychus turkestani,H0027,C003,0.0406,0.0329,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+OZ464896.1,Tetranychus cinnabarinus,Tetranychus urticae,H0028,C028,-0.0000,0.0191,Tetranychus turkestani,OK
+OZ464895.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0029,C080,-0.0000,0.0640,Tetranychus turkestani,OK
+OZ464894.1,Tetranychus cinnabarinus,Tetranychus urticae,H0030,C028,0.0025,0.0334,Tetranychus turkestani,OK
+OZ464893.1,Tetranychus urticae,Tetranychus urticae,H0031,C028,-0.0000,0.0035,Tetranychus turkestani,OK
+OZ464892.1,Tetranychus turkestani,Tetranychus turkestani,H0032,C028,0.0064,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+OZ464891.1,Tetranychus ludeni,Tetranychus ludeni,H0033,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+PX894988.1,Tetranychus sp.,,H0034,C004,,,,UNNAMED
+PX894987.1,Tetranychus sp.,,H0035,C005,,,,UNNAMED
+PX894986.1,Tetranychus evansi,Tetranychus evansi,H0036,C069,0.0000,-0.0000,Tetranychus malvae,OK
+PX894985.1,Tetranychus evansi,Tetranychus evansi,H0037,C069,-0.0000,0.0024,Tetranychus malvae,OK
+PX894984.1,Tetranychus urticae,Tetranychus urticae,H0038,C028,0.0024,0.0294,Tetranychus turkestani,OK
+PX894983.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894982.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894981.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894980.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894979.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894978.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894977.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894976.1,Tetranychus urticae,Tetranychus urticae,H0039,C028,0.0000,0.0432,Tetranychus turkestani,OK
+PX894975.1,Tetranychus urticae,Tetranychus urticae,H0040,C028,0.0026,0.0173,Tetranychus turkestani,OK
+PX894974.1,Tetranychus urticae,Tetranychus urticae,H0041,C028,-0.0000,0.0123,Tetranychus turkestani,OK
+PX894973.1,Tetranychus urticae,Tetranychus urticae,H0042,C028,0.0258,0.0290,Tetranychus turkestani,OK
+PX894972.1,Tetranychus turkestani,Tetranychus turkestani,H0043,C028,0.0000,0.0074,Tetranychus urticae,OK
+PX894971.1,Tetranychus turkestani,Tetranychus turkestani,H0043,C028,0.0000,0.0074,Tetranychus urticae,OK
+PX894970.1,Tetranychus turkestani,Tetranychus turkestani,H0044,C028,0.0000,-0.0000,Tetranychus urticae,OK
+PX894969.1,Tetranychus turkestani,Tetranychus turkestani,H0044,C028,0.0000,-0.0000,Tetranychus urticae,OK
+PX894968.1,Tetranychus turkestani,Tetranychus turkestani,H0045,C028,0.0100,0.0085,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+PX894967.1,Tetranychus turkestani,Tetranychus turkestani,H0044,C028,0.0000,-0.0000,Tetranychus urticae,OK
+PX894966.1,Tetranychus turkestani,Tetranychus turkestani,H0043,C028,0.0000,0.0074,Tetranychus urticae,OK
+PX894965.1,Tetranychus turkestani,Tetranychus turkestani,H0044,C028,0.0000,-0.0000,Tetranychus urticae,OK
+PX894964.1,Tetranychus turkestani,Tetranychus turkestani,H0043,C028,0.0000,0.0074,Tetranychus urticae,OK
+PX894963.1,Tetranychus turkestani,Tetranychus turkestani,H0044,C028,0.0000,-0.0000,Tetranychus urticae,OK
+PX894962.1,Tetranychus turkestani,Tetranychus turkestani,H0044,C028,0.0000,-0.0000,Tetranychus urticae,OK
+PX894961.1,Tetranychus turkestani,Tetranychus turkestani,H0043,C028,0.0000,0.0074,Tetranychus urticae,OK
+PX894960.1,Tetranychus turkestani,Tetranychus turkestani,H0043,C028,0.0000,0.0074,Tetranychus urticae,OK
+PX868744.1,Tetranychus urticae,Tetranychus urticae,H0046,C028,-0.0000,0.0033,Tetranychus turkestani,OK
+PX868743.1,Tetranychus urticae,Tetranychus urticae,H0047,C028,0.0000,0.0033,Tetranychus turkestani,OK
+PX868742.1,Tetranychus urticae,Tetranychus urticae,H0047,C028,0.0000,0.0033,Tetranychus turkestani,OK
+PX868741.1,Tetranychus merganser,Tetranychus merganser,H0048,C034,0.0000,0.0727,Tetranychus ludeni,OK
+PX868740.1,Tetranychus merganser,Tetranychus merganser,H0048,C034,0.0000,0.0727,Tetranychus ludeni,OK
+PX830483.1,Tetranychus urticae,Tetranychus urticae,H0049,C028,0.0060,0.0336,Tetranychus turkestani,OK
+PX697005.1,Tetranychus urticae,Tetranychus urticae,H0050,C028,-0.0000,0.0227,Tetranychus turkestani,OK
+PX692495.1,Tetranychus przhevalskii,Tetranychus przhevalskii,H0051,C009,0.0033,0.0767,Tetranychus pueraricola,OK
+PX692493.1,Tetranychus przhevalskii,Tetranychus przhevalskii,H0052,C009,-0.0000,0.0767,Tetranychus pueraricola,OK
+PX673132.1,Tetranychus przhevalskii,Tetranychus przhevalskii,H0053,C009,-0.0000,0.0799,Tetranychus urticae,OK
+PX666638.1,Tetranychus sawzdargi,Tetranychus sawzdargi,H0054,C028,,0.0070,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+PX660076.1,Tetranychus sp.,,H0055,C066,,,,UNNAMED
+PX660073.1,Tetranychus urticae,Tetranychus urticae,H0056,C028,0.0016,0.0340,Tetranychus turkestani,OK
+PX660068.1,Tetranychus sp.,,H0057,C028,,,,UNNAMED
+PX660067.1,Tetranychus sp.,,H0058,C044,,,,UNNAMED
+PX660066.1,Tetranychus sp.,,H0059,C028,,,,UNNAMED
+PX660064.1,Tetranychus sp.,,H0060,C006,,,,UNNAMED
+PX660061.1,Tetranychus sp.,,H0061,C044,,,,UNNAMED
+PX660057.1,Tetranychus sp.,,H0062,C028,,,,UNNAMED
+PX660053.1,Tetranychus sp.,,H0063,C008,,,,UNNAMED
+PX660051.1,Tetranychus sp.,,H0064,C007,,,,UNNAMED
+PX660050.1,Tetranychus sp.,,H0064,C007,,,,UNNAMED
+PX660048.1,Tetranychus sp.,,H0065,C066,,,,UNNAMED
+PX660046.1,Tetranychus sp.,,H0066,C008,,,,UNNAMED
+PX660043.1,Tetranychus urticae,Tetranychus urticae,H0057,C028,0.0000,0.0242,Tetranychus turkestani,OK
+PX660042.1,Tetranychus sp.,,H0063,C008,,,,UNNAMED
+PX660041.1,Tetranychus sp.,,H0067,C009,,,,UNNAMED
+PX660038.1,Tetranychus sp.,,H0068,C010,,,,UNNAMED
+PX660037.1,Tetranychus urticae,Tetranychus urticae,H0069,C028,0.0016,0.0315,Tetranychus turkestani,OK
+PX660035.1,Tetranychus urticae,Tetranychus urticae,H0057,C028,0.0000,0.0242,Tetranychus turkestani,OK
+PX642412.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0070,C011,0.0070,0.0392,Tetranychus truncatus,OK
+PX632668.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0071,C011,0.0070,0.0340,Tetranychus truncatus,OK
+PV806351.1,Tetranychus urticae,Tetranychus urticae,H0072,C028,-0.0000,0.0100,Tetranychus turkestani,OK
+PX608489.1,Tetranychus urticae,Tetranychus urticae,H0073,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+PX600468.1,Tetranychus urticae,Tetranychus urticae,H0074,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+PX600384.1,Tetranychus urticae,Tetranychus urticae,H0073,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+PX427212.1,Tetranychus gloveri,Tetranychus gloveri,H0075,C049,0.0000,0.0029,Tetranychus okinawanus,OK
+PX397474.1,Tetranychus truncatus,Tetranychus truncatus,H0076,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+PV776704.1,Tetranychus truncatus,Tetranychus truncatus,H0077,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+PV776703.1,Tetranychus truncatus,Tetranychus truncatus,H0078,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+PV776702.1,Tetranychus evansi,Tetranychus evansi,H0079,C069,0.0000,-0.0000,Tetranychus malvae,OK
+PV776701.1,Tetranychus evansi,Tetranychus evansi,H0080,C069,0.0000,-0.0000,Tetranychus malvae,OK
+PV776700.1,Tetranychus evansi,Tetranychus evansi,H0079,C069,0.0000,-0.0000,Tetranychus malvae,OK
+PV776699.1,Tetranychus evansi,Tetranychus evansi,H0080,C069,0.0000,-0.0000,Tetranychus malvae,OK
+PV776698.1,Tetranychus pueraricola,Tetranychus pueraricola,H0081,C044,-0.0000,0.0024,Tetranychus urticae,OK
+PV776697.1,Tetranychus piercei,Tetranychus piercei,H0082,C047,0.0126,0.0266,Tetranychus urticae,OK
+PV776696.1,Tetranychus piercei,Tetranychus piercei,H0083,C047,0.0013,0.0238,Tetranychus urticae,OK
+PV776695.1,Tetranychus piercei,Tetranychus piercei,H0084,C047,0.0013,0.0213,Tetranychus urticae,OK
+PV776694.1,Tetranychus kanzawai,Tetranychus kanzawai,H0085,C042,-0.0000,0.0047,Tetranychus urticae,OK
+PV776693.1,Tetranychus kanzawai,Tetranychus kanzawai,H0086,C042,-0.0000,0.0024,Tetranychus urticae,OK
+PV776692.1,Tetranychus gloveri,Tetranychus gloveri,H0087,C049,-0.0000,0.0014,Tetranychus okinawanus,OK
+PV776691.1,Tetranychus urticae,Tetranychus urticae,H0088,C028,0.0000,0.0066,Tetranychus turkestani,OK
+PV776690.1,Tetranychus urticae,Tetranychus urticae,H0088,C028,0.0000,0.0066,Tetranychus turkestani,OK
+PV776689.1,Tetranychus urticae,Tetranychus urticae,H0088,C028,0.0000,0.0066,Tetranychus turkestani,OK
+PV776688.1,Tetranychus urticae,Tetranychus urticae,H0089,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+PV776687.1,Tetranychus urticae,Tetranychus urticae,H0088,C028,0.0000,0.0066,Tetranychus turkestani,OK
+PV776686.1,Tetranychus urticae,Tetranychus urticae,H0088,C028,0.0000,0.0066,Tetranychus turkestani,OK
+PQ843216.1,Tetranychus malvae,Tetranychus malvae,H0090,C069,,-0.0000,Tetranychus evansi,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+PQ843215.1,Tetranychus piercei,Tetranychus piercei,H0091,C047,0.0249,0.0363,Tetranychus urticae,OK
+PQ822241.1,Tetranychus bambusae,Tetranychus bambusae,H0092,C042,0.1229,0.0000,Tetranychus urticae,SHARED_HAPLOTYPE;NEAREST_IS_OTHER_SPECIES
+PV566919.1,Tetranychus urticae,Tetranychus urticae,H0093,C028,0.0000,0.0258,Tetranychus turkestani,OK
+PV566918.1,Tetranychus urticae,Tetranychus urticae,H0093,C028,0.0000,0.0258,Tetranychus turkestani,OK
+PV566917.1,Tetranychus urticae,Tetranychus urticae,H0093,C028,0.0000,0.0258,Tetranychus turkestani,OK
+PV566916.1,Tetranychus urticae,Tetranychus urticae,H0094,C028,0.0016,0.0276,Tetranychus turkestani,OK
+PV566915.1,Tetranychus urticae,Tetranychus urticae,H0095,C028,0.0000,0.0274,Tetranychus turkestani,OK
+PV566914.1,Tetranychus urticae,Tetranychus urticae,H0095,C028,0.0000,0.0274,Tetranychus turkestani,OK
+PV566913.1,Tetranychus urticae,Tetranychus urticae,H0096,C028,0.0000,0.0209,Tetranychus turkestani,OK
+PV566912.1,Tetranychus urticae,Tetranychus urticae,H0096,C028,0.0000,0.0209,Tetranychus turkestani,OK
+PV545057.1,Tetranychus urticae,Tetranychus urticae,H0096,C028,0.0000,0.0209,Tetranychus turkestani,OK
+PV422801.1,Tetranychus urticae,Tetranychus urticae,H0097,C045,0.0158,0.0223,Tetranychus truncatus,OK
+PQ860816.1,Tetranychus urticae,Tetranychus urticae,H0098,C028,-0.0000,-0.0000,Tetranychus kanzawai,OK
+PQ811941.1,Tetranychus urticae,Tetranychus urticae,H0099,C028,-0.0000,0.0063,Tetranychus turkestani,OK
+PQ223437.1,Tetranychus urticae,Tetranychus urticae,H0100,C028,0.0047,0.0128,Tetranychus turkestani,OK
+PQ223435.1,Tetranychus urticae,Tetranychus urticae,H0101,C028,0.0118,0.0210,Tetranychus turkestani,OK
+PQ637448.1,Tetranychus urticae,Tetranychus urticae,H0102,C028,-0.0000,0.0063,Tetranychus turkestani,OK
+PQ616018.1,Tetranychus puschelii,Tetranychus puschelii,H0103,C045,0.1169,-0.0000,Tetranychus truncatus,NEAREST_IS_OTHER_SPECIES
+PQ571966.1,Tetranychus truncatus,Tetranychus truncatus,H0104,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+PQ570811.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0105,C063,-0.0000,0.0096,Tetranychus truncatus,OK
+PQ569761.1,Tetranychus urticae,Tetranychus urticae,H0106,C028,-0.0000,-0.0000,Tetranychus kanzawai,OK
+OR336315.1,Tetranychus truncatus,Tetranychus truncatus,H0107,C045,-0.0000,0.0023,Tetranychus puschelii,OK
+OR336314.1,Tetranychus truncatus,Tetranychus truncatus,H0108,C045,-0.0000,0.0023,Tetranychus puschelii,OK
+PP928391.1,Tetranychus sp.,,H0109,C028,,,,UNNAMED
+PP928390.1,Tetranychus sp.,,H0110,C028,,,,UNNAMED
+PP928389.1,Tetranychus sp.,,H0110,C028,,,,UNNAMED
+PP928388.1,Tetranychus sp.,,H0110,C028,,,,UNNAMED
+PP060370.1,Tetranychus evansi,Tetranychus evansi,H0111,C069,-0.0000,0.0022,Tetranychus malvae,OK
+PP227433.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0112,C063,0.0000,0.0071,Tetranychus truncatus,OK
+PP188568.1,Tetranychus truncatus,Tetranychus truncatus,H0113,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+OR916022.1,Tetranychus urticae,Tetranychus urticae,H0114,C028,0.0000,0.0082,Tetranychus turkestani,OK
+OR916021.1,Tetranychus urticae,Tetranychus urticae,H0114,C028,0.0000,0.0082,Tetranychus turkestani,OK
+OR906292.1,Tetranychus urticae,Tetranychus urticae,H0115,C028,0.0000,0.0066,Tetranychus turkestani,OK
+OR906291.1,Tetranychus urticae,Tetranychus urticae,H0116,C028,-0.0000,0.0082,Tetranychus turkestani,OK
+OR900425.1,Tetranychus urticae,Tetranychus urticae,H0115,C028,0.0000,0.0066,Tetranychus turkestani,OK
+OR690637.1,Tetranychus urticae,Tetranychus urticae,H0117,C028,-0.0000,0.0051,Tetranychus turkestani,OK
+OR534585.1,Tetranychus kanzawai,Tetranychus kanzawai,H0118,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+NC_010526.1,Tetranychus urticae,Tetranychus urticae,H0024,C028,0.0000,0.0047,Tetranychus turkestani,OK
+OQ510008.1,Tetranychus urticae,Tetranychus urticae,H0119,C028,-0.0000,0.0105,Tetranychus turkestani,OK
+OQ510007.1,Tetranychus urticae,Tetranychus urticae,H0120,C028,-0.0000,0.0404,Tetranychus turkestani,OK
+OQ510006.1,Tetranychus urticae,Tetranychus urticae,H0121,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+OQ510005.1,Tetranychus urticae,Tetranychus urticae,H0122,C028,-0.0000,0.0239,Tetranychus turkestani,OK
+OQ438705.1,Tetranychus truncatus,Tetranychus truncatus,H0123,C045,0.0075,0.0279,Tetranychus puschelii,OK
+OQ438704.1,Tetranychus truncatus,Tetranychus truncatus,H0124,C045,0.0121,0.0229,Tetranychus puschelii,OK
+OQ438703.1,Tetranychus truncatus,Tetranychus truncatus,H0125,C045,0.0090,0.0263,Tetranychus puschelii,OK
+OQ438702.1,Tetranychus truncatus,Tetranychus truncatus,H0126,C045,-0.0000,0.0081,Tetranychus puschelii,OK
+OQ438701.1,Tetranychus truncatus,Tetranychus truncatus,H0127,C045,0.0030,0.0229,Tetranychus puschelii,OK
+OQ438700.1,Tetranychus truncatus,Tetranychus truncatus,H0128,C045,0.0090,0.0196,Tetranychus puschelii,OK
+OQ438699.1,Tetranychus truncatus,Tetranychus truncatus,H0129,C045,0.0030,0.0230,Tetranychus puschelii,OK
+OQ438698.1,Tetranychus ludeni,Tetranychus ludeni,H0130,C072,0.0085,0.0791,Tetranychus urticae,OK
+OQ438697.1,Tetranychus truncatus,Tetranychus truncatus,H0131,C045,0.0075,0.0279,Tetranychus puschelii,OK
+OQ438696.1,Tetranychus truncatus,Tetranychus truncatus,H0132,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+OQ062646.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0133,C063,-0.0000,0.0047,Tetranychus truncatus,OK
+OP760197.1,Tetranychus truncatus,Tetranychus truncatus,H0134,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+OP741141.1,Tetranychus truncatus,Tetranychus truncatus,H0135,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+OP741019.1,Tetranychus truncatus,Tetranychus truncatus,H0136,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+OP741013.1,Tetranychus truncatus,Tetranychus truncatus,H0137,C045,0.0013,0.0023,Tetranychus puschelii,OK
+MG514029.1,Tetranychus pacificus,Tetranychus pacificus,H0138,C081,0.0057,0.1039,Tetranychus ludeni,OK
+MG513286.1,Tetranychus sp. BIOUG20818-B08,,H0139,C028,,,,UNNAMED
+MG512793.1,Tetranychus pacificus,Tetranychus pacificus,H0140,C081,0.0079,0.1139,Tetranychus ludeni,OK
+MG510375.1,Tetranychus sp. BIOUG08282-D04,,H0141,C028,,,,UNNAMED
+MG509656.1,Tetranychus pacificus,Tetranychus pacificus,H0142,C081,0.0127,0.0937,Tetranychus ludeni,OK
+MF748580.1,Tetranychus sp. BIOUG26741-F04,,H0143,C066,,,,UNNAMED
+MF747770.1,Tetranychus sp. BIOUG22783-D12,,H0144,C066,,,,UNNAMED
+MF749941.1,Tetranychus sp. BIOUG27456-C12,,H0145,C078,,,,UNNAMED
+MF749709.1,Tetranychus sp. BIOUG22783-D10,,H0146,C066,,,,UNNAMED
+MF749512.1,Tetranychus sp. BIOUG16811-F12,,H0147,C071,,,,UNNAMED
+MF746706.1,Tetranychus sp. BIOUG21850-H04,,H0148,C078,,,,UNNAMED
+MF745860.1,Tetranychus sp. BIOUG16811-G01,,H0149,C071,,,,UNNAMED
+MF745643.1,Tetranychus sp. BIOUG20536-F12,,H0150,C078,,,,UNNAMED
+MF744466.1,Tetranychus sp. BIOUG24596-C07,,H0151,C066,,,,UNNAMED
+MF743263.1,Tetranychus sp. BIOUG27249-G01,,H0152,C078,,,,UNNAMED
+MF742983.1,Tetranychus sp. BIOUG26462-E05,,H0153,C078,,,,UNNAMED
+MF751740.1,Tetranychus sp. BIOUG22783-E10,,H0154,C066,,,,UNNAMED
+MF751314.1,Tetranychus sp. BIOUG16811-G02,,H0155,C071,,,,UNNAMED
+MF751305.1,Tetranychus sp. BIOUG26741-F12,,H0143,C066,,,,UNNAMED
+MF750739.1,Tetranychus sp. BIOUG08036-B02,,H0156,C066,,,,UNNAMED
+MF750269.1,Tetranychus sp. BIOUG26741-F08,,H0157,C066,,,,UNNAMED
+OP727620.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0158,C030,-0.0000,0.0966,Tetranychus kanzawai,OK
+OP712190.1,Tetranychus gloveri,Tetranychus gloveri,H0159,C049,-0.0000,0.0014,Tetranychus okinawanus,OK
+OP704164.1,Tetranychus truncatus,Tetranychus truncatus,H0160,C045,-0.0000,0.0023,Tetranychus puschelii,OK
+OP703669.1,Tetranychus urticae,Tetranychus urticae,H0161,C028,-0.0000,0.0072,Tetranychus turkestani,OK
+OP703558.1,Tetranychus marianae,Tetranychus marianae,H0162,C014,-0.0000,0.0892,Tetranychus evansi,OK
+OP622880.1,Tetranychus truncatus,Tetranychus truncatus,H0163,C045,-0.0000,0.0045,Tetranychus puschelii,OK
+OP622878.1,Tetranychus truncatus,Tetranychus truncatus,H0164,C045,-0.0000,0.0023,Tetranychus puschelii,OK
+OP615139.1,Tetranychus fijiensis,Tetranychus fijiensis,H0165,C032,0.0029,0.1069,Tetranychus truncatus,OK
+OP615127.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0112,C063,0.0000,0.0071,Tetranychus truncatus,OK
+OP614953.1,Tetranychus fijiensis,Tetranychus fijiensis,H0166,C032,0.0047,0.1032,Tetranychus truncatus,OK
+OP597774.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0167,C063,-0.0000,0.0048,Tetranychus truncatus,OK
+OP363222.1,Tetranychus truncatus,Tetranychus truncatus,H0168,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+OP363220.1,Tetranychus truncatus,Tetranychus truncatus,H0169,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+OP355286.1,Tetranychus truncatus,Tetranychus truncatus,H0169,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+MN349045.1,Tetranychus sp. BOLD:ADE0656,,H0170,C028,,,,UNNAMED
+MN347166.1,Tetranychus sp. BOLD:ACJ0519,,H0171,C028,,,,UNNAMED
+MN347064.1,Tetranychus sp. BOLD:ADE0656,,H0172,C028,,,,UNNAMED
+MN359135.1,Tetranychus sp. BOLD:ADI0671,,H0173,C078,,,,UNNAMED
+MN357967.1,Tetranychus sp. BOLD:ACK8403,,H0174,C066,,,,UNNAMED
+MZ664301.1,Tetranychus pueraricola,Tetranychus pueraricola,H0175,C044,0.0030,0.0111,Tetranychus urticae,OK
+MZ664300.1,Tetranychus kanzawai,Tetranychus kanzawai,H0176,C042,0.0000,-0.0000,Tetranychus urticae,OK
+MZ664299.1,Tetranychus urticae,Tetranychus urticae,H0177,C028,0.0000,0.0228,Tetranychus turkestani,OK
+MZ664298.1,Tetranychus truncatus,Tetranychus truncatus,H0178,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+OP019388.1,Tetranychus urticae,Tetranychus urticae,H0179,C028,-0.0000,0.0048,Tetranychus turkestani,OK
+LC579429.1,Tetranychus kanzawai,Tetranychus kanzawai,H0180,C042,0.0016,0.0049,Tetranychus urticae,OK
+MZ473028.1,Tetranychus cinnabarinus,Tetranychus urticae,H0181,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+MW672208.1,Tetranychus gloveri,Tetranychus gloveri,H0182,C049,-0.0000,0.0015,Tetranychus okinawanus,OK
+MW672207.1,Tetranychus gloveri,Tetranychus gloveri,H0183,C049,-0.0000,0.0016,Tetranychus okinawanus,OK
+MW672206.1,Tetranychus gloveri,Tetranychus gloveri,H0184,C049,-0.0000,0.0015,Tetranychus okinawanus,OK
+MW672205.1,Tetranychus gloveri,Tetranychus gloveri,H0185,C049,-0.0000,0.0015,Tetranychus okinawanus,OK
+MW672204.1,Tetranychus ludeni,Tetranychus ludeni,H0186,C072,-0.0000,0.0155,Tetranychus kanzawai,OK
+MW672203.1,Tetranychus desertorum,Tetranychus desertorum,H0187,C012,-0.0000,0.0735,Tetranychus turkestani,OK
+MW672202.1,Tetranychus marianae,Tetranychus marianae,H0188,C014,-0.0000,0.0921,Tetranychus udaipurensis,OK
+MW672201.1,Tetranychus tumidellus,Tetranychus tumidellus,H0189,C013,-0.0000,0.0972,Tetranychus okinawanus,OK
+MW672200.1,Tetranychus tumidellus,Tetranychus tumidellus,H0190,C013,-0.0000,0.0972,Tetranychus okinawanus,OK
+MW672199.1,Tetranychus urticae,Tetranychus urticae,H0191,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+MW672198.1,Tetranychus urticae,Tetranychus urticae,H0192,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+OM765042.1,Tetranychus mexicanus,Tetranychus mexicanus,H0193,C073,0.0052,0.1181,Tetranychus urticae,OK
+MW326507.1,Tetranychus desertorum,Tetranychus desertorum,H0194,C012,0.0000,0.0702,Tetranychus evansi,OK
+MW326506.1,Tetranychus desertorum,Tetranychus desertorum,H0194,C012,0.0000,0.0702,Tetranychus evansi,OK
+MW326505.1,Tetranychus desertorum,Tetranychus desertorum,H0194,C012,0.0000,0.0702,Tetranychus evansi,OK
+MW326504.1,Tetranychus desertorum,Tetranychus desertorum,H0195,C012,-0.0000,0.0702,Tetranychus evansi,OK
+MW326503.1,Tetranychus desertorum,Tetranychus desertorum,H0194,C012,0.0000,0.0702,Tetranychus evansi,OK
+MW326502.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326501.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326500.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326499.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326498.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326497.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326496.1,Tetranychus urticae,Tetranychus urticae,H0197,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+MW326495.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326494.1,Tetranychus urticae,Tetranychus urticae,H0198,C028,-0.0000,0.0077,Tetranychus turkestani,OK
+MW326493.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326492.1,Tetranychus urticae,Tetranychus urticae,H0196,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW326491.1,Tetranychus urticae,Tetranychus urticae,H0199,C028,-0.0000,0.0050,Tetranychus turkestani,OK
+MW326490.1,Tetranychus urticae,Tetranychus urticae,H0200,C028,-0.0000,0.0050,Tetranychus turkestani,OK
+MW326489.1,Tetranychus urticae,Tetranychus urticae,H0201,C028,-0.0000,0.0050,Tetranychus turkestani,OK
+MW326488.1,Tetranychus urticae,Tetranychus urticae,H0202,C028,0.0013,0.0050,Tetranychus turkestani,OK
+MW326487.1,Tetranychus ludeni,Tetranychus ludeni,H0203,C072,0.0000,0.0136,Tetranychus kanzawai,OK
+MW326486.1,Tetranychus ludeni,Tetranychus ludeni,H0203,C072,0.0000,0.0136,Tetranychus kanzawai,OK
+MW326485.1,Tetranychus gloveri,Tetranychus gloveri,H0204,C049,0.0000,0.0015,Tetranychus okinawanus,OK
+MW326484.1,Tetranychus gloveri,Tetranychus gloveri,H0204,C049,0.0000,0.0015,Tetranychus okinawanus,OK
+MW326483.1,Tetranychus gloveri,Tetranychus gloveri,H0205,C049,-0.0000,0.0015,Tetranychus okinawanus,OK
+MW326482.1,Tetranychus gloveri,Tetranychus gloveri,H0204,C049,0.0000,0.0015,Tetranychus okinawanus,OK
+MW326481.1,Tetranychus gloveri,Tetranychus gloveri,H0204,C049,0.0000,0.0015,Tetranychus okinawanus,OK
+MW326480.1,Tetranychus gloveri,Tetranychus gloveri,H0206,C049,-0.0000,0.0030,Tetranychus okinawanus,OK
+MW326479.1,Tetranychus gloveri,Tetranychus gloveri,H0207,C049,-0.0000,0.0030,Tetranychus okinawanus,OK
+MW326478.1,Tetranychus tumidellus,Tetranychus tumidellus,H0208,C013,0.0037,0.0998,Tetranychus okinawanus,OK
+MW326477.1,Tetranychus tumidellus,Tetranychus tumidellus,H0209,C013,0.0000,0.1015,Tetranychus okinawanus,OK
+MW326476.1,Tetranychus tumidellus,Tetranychus tumidellus,H0210,C013,-0.0000,0.1015,Tetranychus okinawanus,OK
+MW326475.1,Tetranychus tumidellus,Tetranychus tumidellus,H0211,C013,-0.0000,0.1015,Tetranychus okinawanus,OK
+MW326474.1,Tetranychus tumidellus,Tetranychus tumidellus,H0209,C013,0.0000,0.1015,Tetranychus okinawanus,OK
+MW326473.1,Tetranychus marianae,Tetranychus marianae,H0212,C014,-0.0000,0.0866,Tetranychus udaipurensis,OK
+MW326472.1,Tetranychus marianae,Tetranychus marianae,H0213,C014,0.0000,0.0866,Tetranychus udaipurensis,OK
+MW326471.1,Tetranychus marianae,Tetranychus marianae,H0213,C014,0.0000,0.0866,Tetranychus udaipurensis,OK
+MW326470.1,Tetranychus marianae,Tetranychus marianae,H0213,C014,0.0000,0.0866,Tetranychus udaipurensis,OK
+MW326469.1,Tetranychus mexicanus,Tetranychus mexicanus,H0214,C015,-0.0000,0.0976,Tetranychus evansi,OK
+MW326468.1,Tetranychus mexicanus,Tetranychus mexicanus,H0215,C015,-0.0000,0.1006,Tetranychus urticae,OK
+MW326467.1,Tetranychus mexicanus,Tetranychus mexicanus,H0216,C015,-0.0000,0.0950,Tetranychus evansi,OK
+MW326466.1,Tetranychus mexicanus,Tetranychus mexicanus,H0217,C015,-0.0000,0.0976,Tetranychus evansi,OK
+MW326465.1,Tetranychus sp. FSCA2019_1817,,H0218,C016,,,,UNNAMED
+MW326464.1,Tetranychus sp. FSCA2019_1817,,H0219,C016,,,,UNNAMED
+MW326463.1,Tetranychus sp. FSCA2019_1817,,H0219,C016,,,,UNNAMED
+MW326462.1,Tetranychus sp. FSCA2019_1817,,H0219,C016,,,,UNNAMED
+OK598061.1,Tetranychus mexicanus,Tetranychus mexicanus,H0220,C073,0.0052,0.0855,Tetranychus neocaledonicus,OK
+OL333562.1,Tetranychus urticae,Tetranychus urticae,H0221,C028,0.0064,0.0383,Tetranychus turkestani,OK
+OL333561.1,Tetranychus sp.,,H0222,C028,,,,UNNAMED
+MT983202.1,Tetranychus lambi,Tetranychus lambi,H0223,C017,,0.0702,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+MT983201.1,Tetranychus evansi,Tetranychus evansi,H0036,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT814210.1,Tetranychus urticae,Tetranychus urticae,H0224,C028,0.0000,0.0297,Tetranychus turkestani,OK
+MT814209.1,Tetranychus urticae,Tetranychus urticae,H0224,C028,0.0000,0.0297,Tetranychus turkestani,OK
+MT814208.1,Tetranychus urticae,Tetranychus urticae,H0224,C028,0.0000,0.0297,Tetranychus turkestani,OK
+MT814207.1,Tetranychus urticae,Tetranychus urticae,H0224,C028,0.0000,0.0297,Tetranychus turkestani,OK
+MT814206.1,Tetranychus urticae,Tetranychus urticae,H0224,C028,0.0000,0.0297,Tetranychus turkestani,OK
+MT814205.1,Tetranychus urticae,Tetranychus urticae,H0225,C028,0.0000,0.0270,Tetranychus turkestani,OK
+MT814204.1,Tetranychus urticae,Tetranychus urticae,H0225,C028,0.0000,0.0270,Tetranychus turkestani,OK
+MT814203.1,Tetranychus urticae,Tetranychus urticae,H0225,C028,0.0000,0.0270,Tetranychus turkestani,OK
+MT814202.1,Tetranychus urticae,Tetranychus urticae,H0226,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814201.1,Tetranychus urticae,Tetranychus urticae,H0226,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814200.1,Tetranychus urticae,Tetranychus urticae,H0227,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+MT814199.1,Tetranychus urticae,Tetranychus urticae,H0226,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814198.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814197.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814196.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814195.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814194.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814193.1,Tetranychus urticae,Tetranychus urticae,H0229,C028,-0.0000,0.0024,Tetranychus turkestani,OK
+MT814192.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814191.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814190.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814189.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814188.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814187.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814186.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814185.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814184.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814183.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814182.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814181.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814180.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814179.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814178.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814177.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814176.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814175.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814174.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814173.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814172.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814171.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814170.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814169.1,Tetranychus urticae,Tetranychus urticae,H0228,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814168.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814167.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814166.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814165.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814164.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814163.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814162.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814161.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814160.1,Tetranychus urticae,Tetranychus urticae,H0230,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MT814159.1,Tetranychus urticae,Tetranychus urticae,H0231,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814158.1,Tetranychus urticae,Tetranychus urticae,H0231,C028,0.0000,0.0024,Tetranychus turkestani,OK
+MT814157.1,Tetranychus urticae,Tetranychus urticae,H0232,C028,0.0032,0.0347,Tetranychus turkestani,OK
+MT814156.1,Tetranychus urticae,Tetranychus urticae,H0233,C028,-0.0000,0.0320,Tetranychus turkestani,OK
+MT814155.1,Tetranychus urticae,Tetranychus urticae,H0234,C028,-0.0000,0.0270,Tetranychus turkestani,OK
+MT814154.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814153.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814152.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814151.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814150.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814149.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814148.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814147.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814146.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814145.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814144.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814143.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814142.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814141.1,Tetranychus urticae,Tetranychus urticae,H0236,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814140.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814139.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814138.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814137.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814136.1,Tetranychus urticae,Tetranychus urticae,H0237,C028,-0.0000,0.0245,Tetranychus turkestani,OK
+MT814135.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814134.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814133.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814132.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814131.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814130.1,Tetranychus urticae,Tetranychus urticae,H0236,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814129.1,Tetranychus urticae,Tetranychus urticae,H0236,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814128.1,Tetranychus urticae,Tetranychus urticae,H0238,C028,-0.0000,0.0246,Tetranychus turkestani,OK
+MT814127.1,Tetranychus urticae,Tetranychus urticae,H0239,C028,0.0000,0.0246,Tetranychus turkestani,OK
+MT814126.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814125.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814124.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814123.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814122.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814121.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814120.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814119.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814118.1,Tetranychus urticae,Tetranychus urticae,H0239,C028,0.0000,0.0246,Tetranychus turkestani,OK
+MT814117.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814116.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814115.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814114.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814113.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814112.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814111.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814110.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814109.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814108.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814107.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814106.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814105.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814104.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814103.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814102.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814101.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814100.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814099.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814098.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814097.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814096.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814095.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814094.1,Tetranychus urticae,Tetranychus urticae,H0235,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814093.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814092.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814091.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814090.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814089.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814088.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814087.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814086.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814085.1,Tetranychus urticae,Tetranychus urticae,H0240,C028,0.0000,0.0245,Tetranychus turkestani,OK
+MT814084.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814083.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814082.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814081.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814080.1,Tetranychus urticae,Tetranychus urticae,H0242,C028,-0.0000,0.0145,Tetranychus turkestani,OK
+MT814079.1,Tetranychus urticae,Tetranychus urticae,H0243,C028,-0.0000,0.0147,Tetranychus turkestani,OK
+MT814078.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814077.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814076.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814075.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814074.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814073.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814072.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814071.1,Tetranychus urticae,Tetranychus urticae,H0241,C028,0.0000,0.0145,Tetranychus turkestani,OK
+MT814070.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814069.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814068.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814067.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814066.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814065.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814064.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814063.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814062.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814061.1,Tetranychus urticae,Tetranychus urticae,H0245,C028,-0.0000,0.0171,Tetranychus turkestani,OK
+MT814060.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814059.1,Tetranychus urticae,Tetranychus urticae,H0246,C028,0.0050,0.0345,Tetranychus turkestani,OK
+MT814058.1,Tetranychus urticae,Tetranychus urticae,H0244,C028,0.0000,0.0170,Tetranychus turkestani,OK
+MT814057.1,Tetranychus urticae,Tetranychus urticae,H0247,C028,0.0000,0.0167,Tetranychus turkestani,OK
+MT814056.1,Tetranychus urticae,Tetranychus urticae,H0247,C028,0.0000,0.0167,Tetranychus turkestani,OK
+MT814055.1,Tetranychus urticae,Tetranychus urticae,H0248,C028,0.0050,0.0295,Tetranychus turkestani,OK
+MZ824619.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824618.1,Tetranychus urticae,Tetranychus urticae,H0250,C028,0.0060,0.0273,Tetranychus turkestani,OK
+MZ824617.1,Tetranychus urticae,Tetranychus urticae,H0251,C028,0.0060,0.0335,Tetranychus turkestani,OK
+MZ824616.1,Tetranychus urticae,Tetranychus urticae,H0252,C028,0.0060,0.0060,Tetranychus turkestani,OK
+MZ824615.1,Tetranychus urticae,Tetranychus urticae,H0253,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MZ824614.1,Tetranychus urticae,Tetranychus urticae,H0253,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MZ824613.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824612.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824611.1,Tetranychus urticae,Tetranychus urticae,H0254,C028,0.0030,0.0304,Tetranychus turkestani,OK
+MZ824610.1,Tetranychus urticae,Tetranychus urticae,H0255,C028,0.0060,0.0273,Tetranychus turkestani,OK
+MZ824609.1,Tetranychus urticae,Tetranychus urticae,H0256,C028,0.0000,0.0304,Tetranychus turkestani,OK
+MZ824608.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824607.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824606.1,Tetranychus urticae,Tetranychus urticae,H0256,C028,0.0000,0.0304,Tetranychus turkestani,OK
+MZ824605.1,Tetranychus urticae,Tetranychus urticae,H0257,C028,0.0000,0.0491,Tetranychus turkestani,OK
+MZ824604.1,Tetranychus urticae,Tetranychus urticae,H0258,C028,0.0000,0.0335,Tetranychus turkestani,OK
+MZ824603.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824602.1,Tetranychus urticae,Tetranychus urticae,H0249,C028,0.0000,0.0273,Tetranychus turkestani,OK
+MZ824601.1,Tetranychus urticae,Tetranychus urticae,H0258,C028,0.0000,0.0335,Tetranychus turkestani,OK
+MZ824600.1,Tetranychus urticae,Tetranychus urticae,H0259,C028,0.0000,0.0397,Tetranychus turkestani,OK
+MZ824599.1,Tetranychus urticae,Tetranychus urticae,H0259,C028,0.0000,0.0397,Tetranychus turkestani,OK
+MZ824598.1,Tetranychus urticae,Tetranychus urticae,H0257,C028,0.0000,0.0491,Tetranychus turkestani,OK
+MZ824597.1,Tetranychus urticae,Tetranychus urticae,H0260,C028,0.0265,-0.0000,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+MZ824596.1,Tetranychus urticae,Tetranychus urticae,H0253,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MZ824595.1,Tetranychus urticae,Tetranychus urticae,H0253,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MZ824594.1,Tetranychus urticae,Tetranychus urticae,H0253,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MZ674495.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0019,C002,0.0000,0.1456,Tetranychus ludeni,OK
+MZ151410.1,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+MN417333.1,Tetranychus evansi,Tetranychus evansi,H0262,C069,-0.0000,0.0007,Tetranychus malvae,OK
+MZ268250.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0263,C063,-0.0000,-0.0000,Tetranychus truncatus,OK
+MZ268249.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0264,C063,-0.0000,-0.0000,Tetranychus truncatus,OK
+MW945398.1,Tetranychus urticae,Tetranychus urticae,H0265,C028,-0.0000,0.0101,Tetranychus turkestani,OK
+MW940979.1,Tetranychus urticae,Tetranychus urticae,H0266,C028,-0.0000,0.0171,Tetranychus turkestani,OK
+MW940978.1,Tetranychus urticae,Tetranychus urticae,H0267,C028,-0.0000,0.0101,Tetranychus turkestani,OK
+MW940975.1,Tetranychus turkestani,Tetranychus turkestani,H0268,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+MW898112.1,Tetranychus fijiensis,Tetranychus fijiensis,H0269,C032,0.0131,0.0994,Tetranychus parakanzawai,OK
+MW850634.1,Tetranychus lombardinii,Tetranychus lombardinii,H0270,C065,-0.0000,0.0586,Tetranychus turkestani,OK
+MW850569.1,Tetranychus lombardinii,Tetranychus lombardinii,H0271,C065,0.0042,0.0575,Tetranychus parakanzawai,OK
+MW850568.1,Tetranychus hirsutus,Tetranychus hirsutus,H0272,C018,,0.1483,Tetranychus pueraricola,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+MW848500.1,Tetranychus lombardinii,Tetranychus lombardinii,H0273,C065,-0.0000,0.0486,Tetranychus urticae,OK
+MW535086.1,Tetranychus turkestani,Tetranychus turkestani,H0274,C028,0.0000,-0.0000,Tetranychus urticae,OK
+MW535085.1,Tetranychus turkestani,Tetranychus turkestani,H0274,C028,0.0000,-0.0000,Tetranychus urticae,OK
+MW535084.1,Tetranychus turkestani,Tetranychus turkestani,H0275,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+MW535083.1,Tetranychus turkestani,Tetranychus turkestani,H0276,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+MW535082.1,Tetranychus turkestani,Tetranychus turkestani,H0277,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+MW535081.1,Tetranychus urticae,Tetranychus urticae,H0278,C028,-0.0000,0.0051,Tetranychus turkestani,OK
+MW535080.1,Tetranychus urticae,Tetranychus urticae,H0279,C028,-0.0000,0.0052,Tetranychus turkestani,OK
+MW542515.1,Tetranychus urticae,Tetranychus urticae,H0280,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW542514.1,Tetranychus urticae,Tetranychus urticae,H0281,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MW542513.1,Tetranychus urticae,Tetranychus urticae,H0281,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MW542512.1,Tetranychus urticae,Tetranychus urticae,H0282,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MW542511.1,Tetranychus urticae,Tetranychus urticae,H0282,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MW542510.1,Tetranychus urticae,Tetranychus urticae,H0283,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+MW542509.1,Tetranychus urticae,Tetranychus urticae,H0280,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW542508.1,Tetranychus urticae,Tetranychus urticae,H0284,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+MW542507.1,Tetranychus urticae,Tetranychus urticae,H0285,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MW542506.1,Tetranychus urticae,Tetranychus urticae,H0285,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+MW542505.1,Tetranychus urticae,Tetranychus urticae,H0280,C028,0.0000,0.0066,Tetranychus turkestani,OK
+MW496109.1,Tetranychus taiwanicus,Tetranychus taiwanicus,H0286,C019,,0.0935,Tetranychus truncatus,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+MW460015.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0287,C063,-0.0000,0.0045,Tetranychus truncatus,OK
+MT738925.1,Tetranychus urticae,Tetranychus urticae,H0288,C028,0.0013,0.0053,Tetranychus turkestani,OK
+MT708536.1,Tetranychus kanzawai,Tetranychus kanzawai,H0289,C028,-0.0000,0.0043,Tetranychus urticae,OK
+MT603179.1,Tetranychus urticae,Tetranychus urticae,H0290,C028,-0.0000,0.0243,Tetranychus turkestani,OK
+MT603177.1,Tetranychus urticae,Tetranychus urticae,H0291,C028,-0.0000,0.0250,Tetranychus turkestani,OK
+MT603178.1,Tetranychus urticae,Tetranychus urticae,H0292,C028,0.0022,0.0022,Tetranychus turkestani,OK
+MT603176.1,Tetranychus urticae,Tetranychus urticae,H0293,C028,-0.0000,0.0227,Tetranychus turkestani,OK
+MN935901.1,Tetranychus truncatus,Tetranychus truncatus,H0294,C031,-0.0000,0.0509,Tetranychus puschelii,OK
+MN935900.1,Tetranychus truncatus,Tetranychus truncatus,H0295,C031,-0.0000,0.0509,Tetranychus puschelii,OK
+MT484283.1,Tetranychus fijiensis,Tetranychus fijiensis,H0296,C032,0.0029,0.0947,Tetranychus turkestani,OK
+MT462309.1,Tetranychus puschelii,Tetranychus puschelii,H0297,C064,-0.0000,0.0922,Tetranychus neocaledonicus,OK
+MT462253.1,Tetranychus puschelii,Tetranychus puschelii,H0298,C064,0.0028,0.0922,Tetranychus neocaledonicus,OK
+MT462250.1,Tetranychus puschelii,Tetranychus puschelii,H0299,C064,-0.0000,0.0860,Tetranychus urticae,OK
+MT457523.1,Tetranychus puschelii,Tetranychus puschelii,H0300,C064,0.0019,0.1045,Tetranychus truncatus,OK
+MT449777.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0301,C080,0.0157,0.0451,Tetranychus udaipurensis,OK
+MN535990.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MN530989.1,Tetranychus urticae,Tetranychus urticae,H0303,C028,0.0025,0.0092,Tetranychus turkestani,OK
+KY922441.1,Tetranychus urticae,Tetranychus urticae,H0304,C028,-0.0000,0.0049,Tetranychus turkestani,OK
+KY922440.1,Tetranychus urticae,Tetranychus urticae,H0305,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+MT019820.1,Tetranychus evansi,Tetranychus evansi,H0306,C069,-0.0000,0.0231,Tetranychus malvae,OK
+MT019819.1,Tetranychus evansi,Tetranychus evansi,H0307,C069,0.0000,0.0235,Tetranychus malvae,OK
+MT019818.1,Tetranychus evansi,Tetranychus evansi,H0307,C069,0.0000,0.0235,Tetranychus malvae,OK
+MT019817.1,Tetranychus evansi,Tetranychus evansi,H0307,C069,0.0000,0.0235,Tetranychus malvae,OK
+MT019816.1,Tetranychus evansi,Tetranychus evansi,H0307,C069,0.0000,0.0235,Tetranychus malvae,OK
+MT019815.1,Tetranychus evansi,Tetranychus evansi,H0307,C069,0.0000,0.0235,Tetranychus malvae,OK
+MT019814.1,Tetranychus evansi,Tetranychus evansi,H0307,C069,0.0000,0.0235,Tetranychus malvae,OK
+MT019813.1,Tetranychus evansi,Tetranychus evansi,H0308,C069,-0.0000,0.0276,Tetranychus malvae,OK
+MT019812.1,Tetranychus evansi,Tetranychus evansi,H0309,C069,-0.0000,0.0273,Tetranychus malvae,OK
+MT019811.1,Tetranychus evansi,Tetranychus evansi,H0310,C069,-0.0000,0.0272,Tetranychus malvae,OK
+MT019810.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019809.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019808.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019807.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019806.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019805.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019804.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019803.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019802.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019801.1,Tetranychus evansi,Tetranychus evansi,H0312,C069,-0.0000,0.0269,Tetranychus malvae,OK
+MT019800.1,Tetranychus evansi,Tetranychus evansi,H0311,C069,0.0000,0.0272,Tetranychus malvae,OK
+MT019799.1,Tetranychus evansi,Tetranychus evansi,H0313,C069,0.0047,0.0050,Tetranychus malvae,OK
+MT019798.1,Tetranychus evansi,Tetranychus evansi,H0314,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019797.1,Tetranychus evansi,Tetranychus evansi,H0315,C069,-0.0000,0.0012,Tetranychus malvae,OK
+MT019796.1,Tetranychus evansi,Tetranychus evansi,H0316,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019795.1,Tetranychus evansi,Tetranychus evansi,H0317,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019794.1,Tetranychus evansi,Tetranychus evansi,H0318,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019793.1,Tetranychus evansi,Tetranychus evansi,H0319,C069,-0.0000,0.0024,Tetranychus malvae,OK
+MT019792.1,Tetranychus evansi,Tetranychus evansi,H0320,C069,-0.0000,0.0012,Tetranychus malvae,OK
+MT019791.1,Tetranychus evansi,Tetranychus evansi,H0321,C069,-0.0000,0.0023,Tetranychus malvae,OK
+MT019790.1,Tetranychus evansi,Tetranychus evansi,H0322,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019789.1,Tetranychus evansi,Tetranychus evansi,H0323,C069,-0.0000,0.0023,Tetranychus malvae,OK
+MT019788.1,Tetranychus evansi,Tetranychus evansi,H0324,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019787.1,Tetranychus evansi,Tetranychus evansi,H0324,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019786.1,Tetranychus evansi,Tetranychus evansi,H0325,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019785.1,Tetranychus evansi,Tetranychus evansi,H0326,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019784.1,Tetranychus evansi,Tetranychus evansi,H0327,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019783.1,Tetranychus evansi,Tetranychus evansi,H0328,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019782.1,Tetranychus evansi,Tetranychus evansi,H0324,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019781.1,Tetranychus evansi,Tetranychus evansi,H0329,C069,-0.0000,0.0012,Tetranychus malvae,OK
+MT019780.1,Tetranychus evansi,Tetranychus evansi,H0330,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019779.1,Tetranychus evansi,Tetranychus evansi,H0330,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019778.1,Tetranychus evansi,Tetranychus evansi,H0331,C069,-0.0000,0.0023,Tetranychus malvae,OK
+MT019777.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019776.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019775.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019774.1,Tetranychus evansi,Tetranychus evansi,H0333,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+MT019773.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019772.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019771.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019770.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019769.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019768.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019767.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019766.1,Tetranychus evansi,Tetranychus evansi,H0332,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MT019765.1,Tetranychus evansi,Tetranychus evansi,H0334,C069,-0.0000,0.0034,Tetranychus malvae,OK
+MT019764.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019763.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019762.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019761.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019760.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019759.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019758.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019757.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019756.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019755.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019754.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019753.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019752.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019751.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019750.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019749.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019748.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019747.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019746.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019745.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019744.1,Tetranychus evansi,Tetranychus evansi,H0336,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019743.1,Tetranychus evansi,Tetranychus evansi,H0336,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019742.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019741.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019740.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019739.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019738.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019737.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019736.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019735.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019734.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019733.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019732.1,Tetranychus evansi,Tetranychus evansi,H0336,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019731.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019730.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019729.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019728.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019727.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019726.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019725.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019724.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019723.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019722.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019721.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019720.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019719.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019718.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019717.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019716.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019715.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019714.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019713.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019712.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019711.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019710.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019709.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019708.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019707.1,Tetranychus evansi,Tetranychus evansi,H0337,C069,-0.0000,0.0011,Tetranychus malvae,OK
+MT019706.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019705.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019704.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019703.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019702.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019701.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019700.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019699.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019698.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019697.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019696.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019695.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MT019694.1,Tetranychus evansi,Tetranychus evansi,H0335,C069,0.0000,0.0012,Tetranychus malvae,OK
+MN913385.1,Tetranychus urticae,Tetranychus urticae,H0338,C028,-0.0000,0.0247,Tetranychus turkestani,OK
+MK213570.1,Tetranychus cinnabarinus,Tetranychus urticae,H0339,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213569.1,Tetranychus cinnabarinus,Tetranychus urticae,H0339,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213568.1,Tetranychus cinnabarinus,Tetranychus urticae,H0340,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213567.1,Tetranychus cinnabarinus,Tetranychus urticae,H0340,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213566.1,Tetranychus cinnabarinus,Tetranychus urticae,H0341,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213565.1,Tetranychus cinnabarinus,Tetranychus urticae,H0342,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213564.1,Tetranychus cinnabarinus,Tetranychus urticae,H0343,C042,0.0011,-0.0000,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+MK213563.1,Tetranychus cinnabarinus,Tetranychus urticae,H0344,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213562.1,Tetranychus cinnabarinus,Tetranychus urticae,H0344,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213561.1,Tetranychus cinnabarinus,Tetranychus urticae,H0345,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213560.1,Tetranychus cinnabarinus,Tetranychus urticae,H0346,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213559.1,Tetranychus cinnabarinus,Tetranychus urticae,H0347,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213558.1,Tetranychus cinnabarinus,Tetranychus urticae,H0348,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213557.1,Tetranychus cinnabarinus,Tetranychus urticae,H0348,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213556.1,Tetranychus cinnabarinus,Tetranychus urticae,H0349,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK213555.1,Tetranychus cinnabarinus,Tetranychus urticae,H0350,C042,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MN348791.1,Tetranychus urticae,Tetranychus urticae,H0351,C028,0.0000,0.0109,Tetranychus turkestani,OK
+MN348303.1,Tetranychus urticae,Tetranychus urticae,H0352,C028,-0.0000,0.0238,Tetranychus turkestani,OK
+MN347589.1,Tetranychus urticae,Tetranychus urticae,H0351,C028,0.0000,0.0109,Tetranychus turkestani,OK
+MN347496.1,Tetranychus urticae,Tetranychus urticae,H0351,C028,0.0000,0.0109,Tetranychus turkestani,OK
+MN347250.1,Tetranychus urticae,Tetranychus urticae,H0351,C028,0.0000,0.0109,Tetranychus turkestani,OK
+MN359498.1,Tetranychus urticae,Tetranychus urticae,H0353,C028,-0.0000,0.0287,Tetranychus turkestani,OK
+MN275889.1,Tetranychus urticae,Tetranychus urticae,H0354,C028,-0.0000,0.0031,Tetranychus turkestani,OK
+MN275888.1,Tetranychus urticae,Tetranychus urticae,H0355,C028,-0.0000,0.0284,Tetranychus turkestani,OK
+MN255802.1,Tetranychus kanzawai,Tetranychus kanzawai,H0356,C028,-0.0000,0.0041,Tetranychus urticae,OK
+MN244683.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0357,C063,-0.0000,0.0067,Tetranychus truncatus,OK
+MN244682.1,Tetranychus okinawanus,Tetranychus okinawanus,H0358,C049,-0.0000,0.0023,Tetranychus gloveri,OK
+MN355350.1,Tetranychus sp. BOLD:ADD2476,,H0359,C020,,,,UNNAMED
+MN354445.1,Tetranychus sp. BOLD:ADE0656,,H0360,C028,,,,UNNAMED
+MN353637.1,Tetranychus urticae,Tetranychus urticae,H0361,C028,0.0030,0.0136,Tetranychus turkestani,OK
+MN352713.1,Tetranychus sp. BOLD:ADD2475,,H0362,C021,,,,UNNAMED
+MN352015.1,Tetranychus sp. BOLD:ADE0656,,H0172,C028,,,,UNNAMED
+MN351508.1,Tetranychus urticae,Tetranychus urticae,H0351,C028,0.0000,0.0109,Tetranychus turkestani,OK
+MN351457.1,Tetranychus urticae,Tetranychus urticae,H0363,C028,0.0061,0.0164,Tetranychus turkestani,OK
+EU345430.1,Tetranychus urticae,Tetranychus urticae,H0024,C028,0.0000,0.0047,Tetranychus turkestani,OK
+MN351218.1,Tetranychus sp. BIOUG30834-C01,,H0364,C075,,,,UNNAMED
+MN351128.1,Tetranychus sp. BIOUG30833-B07,,H0365,C075,,,,UNNAMED
+MN350737.1,Tetranychus urticae,Tetranychus urticae,H0351,C028,0.0000,0.0109,Tetranychus turkestani,OK
+MN349781.1,Tetranychus urticae,Tetranychus urticae,H0366,C028,0.0046,0.0164,Tetranychus turkestani,OK
+MN349728.1,Tetranychus sp. BOLD:ACJ0519,,H0367,C028,,,,UNNAMED
+MN349613.1,Tetranychus sp. BOLD:ADD2630,,H0368,C022,,,,UNNAMED
+MN362602.1,Tetranychus sp. BIOUG35908-E07,,H0369,C078,,,,UNNAMED
+MN361018.1,Tetranychus sp. BOLD:ACJ0519,,H0370,C028,,,,UNNAMED
+MN360567.1,Tetranychus sp. BIOUG35905-B12,,H0371,C078,,,,UNNAMED
+MK848081.1,Tetranychus urticae,Tetranychus urticae,H0372,C028,0.0000,0.0172,Tetranychus turkestani,OK
+MK848080.1,Tetranychus urticae,Tetranychus urticae,H0372,C028,0.0000,0.0172,Tetranychus turkestani,OK
+MK628593.1,Tetranychus viennensis,Tetranychus viennensis,H0373,C046,-0.0000,0.0769,Tetranychus truncatus,OK
+MK628592.1,Tetranychus urticae,Tetranychus urticae,H0374,C045,-0.0000,-0.0000,Tetranychus truncatus,OK
+MK628591.1,Tetranychus urticae,Tetranychus urticae,H0375,C028,0.0024,0.0123,Tetranychus turkestani,OK
+MK628590.1,Tetranychus truncatus,Tetranychus truncatus,H0376,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628589.1,Tetranychus truncatus,Tetranychus truncatus,H0377,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628588.1,Tetranychus urticae,Tetranychus urticae,H0378,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK628584.1,Tetranychus urticae,Tetranychus urticae,H0379,C044,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK628583.1,Tetranychus urticae,Tetranychus urticae,H0380,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK628582.1,Tetranychus truncatus,Tetranychus truncatus,H0381,C045,-0.0000,0.0023,Tetranychus urticae,OK
+MK628581.1,Tetranychus truncatus,Tetranychus truncatus,H0382,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628580.1,Tetranychus viennensis,Tetranychus viennensis,H0383,C046,0.0000,0.0769,Tetranychus truncatus,OK
+MK628579.1,Tetranychus viennensis,Tetranychus viennensis,H0383,C046,0.0000,0.0769,Tetranychus truncatus,OK
+MK628578.1,Tetranychus cinnabarinus,Tetranychus urticae,H0384,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK628577.1,Tetranychus cinnabarinus,Tetranychus urticae,H0385,C044,-0.0000,-0.0000,Tetranychus pueraricola,OK
+MK628576.1,Tetranychus truncatus,Tetranychus truncatus,H0386,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628575.1,Tetranychus truncatus,Tetranychus truncatus,H0387,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628574.1,Tetranychus truncatus,Tetranychus truncatus,H0388,C045,-0.0000,0.0022,Tetranychus urticae,OK
+MK628573.1,Tetranychus kanzawai,Tetranychus kanzawai,H0389,C044,0.0049,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+MK628572.1,Tetranychus truncatus,Tetranychus truncatus,H0390,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628571.1,Tetranychus truncatus,Tetranychus truncatus,H0391,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MK628570.1,Tetranychus urticae,Tetranychus urticae,H0379,C044,0.0000,-0.0000,Tetranychus kanzawai,OK
+MK628569.1,Tetranychus urticae,Tetranychus urticae,H0392,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+MK628568.1,Tetranychus truncatus,Tetranychus truncatus,H0393,C045,-0.0000,0.0046,Tetranychus urticae,OK
+MK628567.1,Tetranychus truncatus,Tetranychus truncatus,H0394,C045,0.0000,-0.0000,Tetranychus urticae,OK
+MH285775.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285774.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285773.1,Tetranychus urticae,Tetranychus urticae,H0396,C028,0.0052,0.0097,Tetranychus turkestani,OK
+MH285772.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285771.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285770.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285769.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285768.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285767.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285766.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285765.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285764.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285763.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285762.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285761.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285760.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285759.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285758.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285757.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285756.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285755.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285754.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285753.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285752.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285751.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285750.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285749.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285748.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285747.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285746.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285745.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285744.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285743.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285742.1,Tetranychus urticae,Tetranychus urticae,H0397,C028,0.0026,0.0097,Tetranychus turkestani,OK
+MH285741.1,Tetranychus urticae,Tetranychus urticae,H0398,C028,0.0052,0.0130,Tetranychus turkestani,OK
+MH285740.1,Tetranychus urticae,Tetranychus urticae,H0399,C028,0.0000,0.0065,Tetranychus turkestani,OK
+MH285739.1,Tetranychus urticae,Tetranychus urticae,H0399,C028,0.0000,0.0065,Tetranychus turkestani,OK
+MH285738.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285737.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285736.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285735.1,Tetranychus urticae,Tetranychus urticae,H0400,C028,0.0026,0.0065,Tetranychus turkestani,OK
+MH285734.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285733.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285732.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285731.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285730.1,Tetranychus urticae,Tetranychus urticae,H0401,C028,-0.0000,0.0032,Tetranychus turkestani,OK
+MH285729.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285728.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285727.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285726.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285725.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285724.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285723.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285722.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285721.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285720.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285719.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285718.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285717.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285716.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285715.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285714.1,Tetranychus urticae,Tetranychus urticae,H0402,C028,0.0026,0.0065,Tetranychus turkestani,OK
+MH285713.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285712.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285711.1,Tetranychus urticae,Tetranychus urticae,H0399,C028,0.0000,0.0065,Tetranychus turkestani,OK
+MH285710.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285709.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285708.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285707.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285706.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285705.1,Tetranychus urticae,Tetranychus urticae,H0399,C028,0.0000,0.0065,Tetranychus turkestani,OK
+MH285704.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285703.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285702.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285701.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285700.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285699.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285698.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MH285697.1,Tetranychus urticae,Tetranychus urticae,H0395,C028,0.0000,0.0032,Tetranychus turkestani,OK
+MK508722.1,Tetranychus urticae,Tetranychus urticae,H0403,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+MK508721.1,Tetranychus urticae,Tetranychus urticae,H0404,C028,0.0010,0.0285,Tetranychus turkestani,OK
+MK508720.1,Tetranychus urticae,Tetranychus urticae,H0405,C028,-0.0000,0.0193,Tetranychus turkestani,OK
+MK508719.1,Tetranychus urticae,Tetranychus urticae,H0406,C028,-0.0000,0.0193,Tetranychus turkestani,OK
+MK508718.1,Tetranychus urticae,Tetranychus urticae,H0407,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+MK508717.1,Tetranychus urticae,Tetranychus urticae,H0408,C028,-0.0000,0.0114,Tetranychus turkestani,OK
+MK508716.1,Tetranychus urticae,Tetranychus urticae,H0409,C028,-0.0000,0.0193,Tetranychus turkestani,OK
+MK508715.1,Tetranychus urticae,Tetranychus urticae,H0410,C028,-0.0000,0.0317,Tetranychus turkestani,OK
+MK508714.1,Tetranychus urticae,Tetranychus urticae,H0411,C028,-0.0000,0.0306,Tetranychus turkestani,OK
+MK508713.1,Tetranychus urticae,Tetranychus urticae,H0412,C028,-0.0000,0.0177,Tetranychus turkestani,OK
+MK508712.1,Tetranychus urticae,Tetranychus urticae,H0001,C028,0.0000,0.0256,Tetranychus turkestani,OK
+KR104836.1,Tetranychus sp. BOLD:ACD3144,,H0413,C078,,,,UNNAMED
+KR102056.1,Tetranychus sp. BOLD:ACL8248,,H0414,C023,,,,UNNAMED
+KM840392.1,Tetranychus sp. BOLD:ACF7523,,H0415,C081,,,,UNNAMED
+KM840193.1,Tetranychus sp. BOLD:ACF7523,,H0416,C081,,,,UNNAMED
+KM839883.1,Tetranychus sp. BOLD:ACF7523,,H0417,C081,,,,UNNAMED
+KM839753.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM839393.1,Tetranychus sp. BOLD:ACF7523,,H0419,C081,,,,UNNAMED
+KM839328.1,Tetranychus sp. BOLD:ACF7523,,H0420,C081,,,,UNNAMED
+KM838582.1,Tetranychus sp. BOLD:ACF7523,,H0421,C081,,,,UNNAMED
+KM838276.1,Tetranychus sp. BOLD:ACF7523,,H0422,C081,,,,UNNAMED
+KM837967.1,Tetranychus sp. BOLD:ACF7523,,H0417,C081,,,,UNNAMED
+KM837623.1,Tetranychus sp. BOLD:ACF7523,,H0423,C081,,,,UNNAMED
+KM836726.1,Tetranychus sp. BOLD:ACF7523,,H0424,C081,,,,UNNAMED
+KM836415.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM836322.1,Tetranychus sp. BOLD:ACF7523,,H0425,C081,,,,UNNAMED
+KM836315.1,Tetranychus sp. BOLD:ACJ4622,,H0426,C028,,,,UNNAMED
+KM835669.1,Tetranychus sp. BOLD:ACF7523,,H0427,C081,,,,UNNAMED
+KM835558.1,Tetranychus sp. BOLD:ACF7523,,H0428,C081,,,,UNNAMED
+KM835295.1,Tetranychus sp. BOLD:ACF7523,,H0417,C081,,,,UNNAMED
+KM835208.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM835056.1,Tetranychus sp. BOLD:ACJ4622,,H0429,C028,,,,UNNAMED
+KM834790.1,Tetranychus sp. BOLD:ACF7523,,H0417,C081,,,,UNNAMED
+KM834470.1,Tetranychus sp. BOLD:ACF7523,,H0430,C081,,,,UNNAMED
+KM834315.1,Tetranychus sp. BOLD:ACF7523,,H0416,C081,,,,UNNAMED
+KM834300.1,Tetranychus sp. BOLD:ACF7523,,H0431,C081,,,,UNNAMED
+KM833924.1,Tetranychus sp. BOLD:ACJ4622,,H0432,C028,,,,UNNAMED
+KM833793.1,Tetranychus sp. BOLD:ACJ4622,,H0433,C028,,,,UNNAMED
+KM833745.1,Tetranychus sp. BOLD:ACF7523,,H0423,C081,,,,UNNAMED
+KM833427.1,Tetranychus sp. BOLD:ACF7523,,H0422,C081,,,,UNNAMED
+KM833307.1,Tetranychus sp. BOLD:ACF7523,,H0430,C081,,,,UNNAMED
+KM833190.1,Tetranychus sp. BOLD:ACJ9022,,H0434,C028,,,,UNNAMED
+KM833127.1,Tetranychus sp. BOLD:ACJ4622,,H0435,C028,,,,UNNAMED
+KM832676.1,Tetranychus sp. BOLD:ACF7523,,H0436,C081,,,,UNNAMED
+KM832577.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM832547.1,Tetranychus sp. BOLD:ACF7523,,H0417,C081,,,,UNNAMED
+KM832239.1,Tetranychus sp. BOLD:ACJ4622,,H0437,C028,,,,UNNAMED
+KM831442.1,Tetranychus sp. BOLD:ACF7523,,H0427,C081,,,,UNNAMED
+KM830048.1,Tetranychus sp. BOLD:ACF7523,,H0438,C081,,,,UNNAMED
+KM829650.1,Tetranychus sp. BOLD:ACJ4622,,H0439,C028,,,,UNNAMED
+KM829615.1,Tetranychus sp. BOLD:ACF7523,,H0440,C081,,,,UNNAMED
+KM829308.1,Tetranychus sp. BOLD:ACF7523,,H0441,C081,,,,UNNAMED
+KM828896.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM828465.1,Tetranychus sp. BOLD:ACF7523,,H0442,C081,,,,UNNAMED
+KM828451.1,Tetranychus sp. BOLD:ACF7523,,H0430,C081,,,,UNNAMED
+KM828348.1,Tetranychus sp. BOLD:ACF7523,,H0443,C081,,,,UNNAMED
+KM828054.1,Tetranychus sp. BOLD:ACJ4622,,H0444,C028,,,,UNNAMED
+KM828007.1,Tetranychus sp. BOLD:ACF7523,,H0438,C081,,,,UNNAMED
+KM827876.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM827713.1,Tetranychus sp. BOLD:ACF7523,,H0445,C081,,,,UNNAMED
+KM827299.1,Tetranychus sp. BOLD:ACF7523,,H0421,C081,,,,UNNAMED
+KM827047.1,Tetranychus sp. BOLD:ACF7523,,H0445,C081,,,,UNNAMED
+KM826784.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM826342.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM826276.1,Tetranychus sp. BOLD:ACF7523,,H0423,C081,,,,UNNAMED
+KM825981.1,Tetranychus sp. BOLD:ACF7523,,H0418,C081,,,,UNNAMED
+KM825435.1,Tetranychus sp. BOLD:ACF7523,,H0417,C081,,,,UNNAMED
+KM824874.1,Tetranychus sp. BOLD:ACF7523,,H0446,C081,,,,UNNAMED
+KM824700.1,Tetranychus sp. BOLD:ACJ4622,,H0444,C028,,,,UNNAMED
+KM824679.1,Tetranychus sp. BOLD:ACF7523,,H0422,C081,,,,UNNAMED
+KM824538.1,Tetranychus sp. BOLD:ACF7523,,H0422,C081,,,,UNNAMED
+KM824070.1,Tetranychus sp. BOLD:ACF7523,,H0443,C081,,,,UNNAMED
+KM824019.1,Tetranychus sp. BOLD:ACJ9022,,H0447,C028,,,,UNNAMED
+MH978904.1,Tetranychus evansi,Tetranychus evansi,H0448,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MH978903.1,Tetranychus evansi,Tetranychus evansi,H0448,C069,0.0000,-0.0000,Tetranychus malvae,OK
+MK547631.1,Tetranychus urticae,Tetranychus urticae,H0449,C028,-0.0000,0.0087,Tetranychus turkestani,OK
+MH983804.1,Tetranychus urticae,Tetranychus urticae,H0450,C028,0.0000,0.0176,Tetranychus turkestani,OK
+MK627524.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0451,C063,0.0045,0.0089,Tetranychus truncatus,OK
+MK627523.1,Tetranychus truncatus,Tetranychus truncatus,H0452,C045,-0.0000,0.0019,Tetranychus puschelii,OK
+MK627522.1,Tetranychus okinawanus,Tetranychus okinawanus,H0453,C049,-0.0000,0.0022,Tetranychus gloveri,OK
+MK029061.1,Tetranychus urticae,Tetranychus urticae,H0454,C028,0.0022,-0.0000,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+MK029060.1,Tetranychus urticae,Tetranychus urticae,H0455,C028,-0.0000,0.0177,Tetranychus turkestani,OK
+MK356388.1,Tetranychus truncatus,Tetranychus truncatus,H0394,C045,0.0000,-0.0000,Tetranychus urticae,OK
+MH469617.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0456,C035,0.0000,0.0841,Tetranychus turkestani,OK
+MH469616.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0456,C035,0.0000,0.0841,Tetranychus turkestani,OK
+MG321057.1,Tetranychus turkestani,Tetranychus turkestani,H0457,C028,-0.0000,0.0201,Tetranychus urticae,OK
+MG320859.1,Tetranychus sp. BIOUG09802-G02,,H0458,C066,,,,UNNAMED
+MG320848.1,Tetranychus sp. BIOUG01946-F08,,H0459,C071,,,,UNNAMED
+MG320846.1,Tetranychus sp. BIOUG07702-A10,,H0460,C028,,,,UNNAMED
+MG320821.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG320735.1,Tetranychus sp. BIOUG24696-G02,,H0461,C066,,,,UNNAMED
+MG320728.1,Tetranychus urticae,Tetranychus urticae,H0462,C028,0.0000,0.0358,Tetranychus turkestani,OK
+MG320624.1,Tetranychus sp. BIOUG09138-G09,,H0463,C066,,,,UNNAMED
+MG320612.1,Tetranychus sp. BIOUG01946-F09,,H0464,C071,,,,UNNAMED
+MG320509.1,Tetranychus sp. BIOUG09802-E09,,H0465,C066,,,,UNNAMED
+MG320480.1,Tetranychus sp. BIOUG09803-C05,,H0466,C066,,,,UNNAMED
+MG320453.1,Tetranychus turkestani,Tetranychus turkestani,H0467,C028,0.0000,0.0230,Tetranychus urticae,OK
+MG320392.1,Tetranychus turkestani,Tetranychus turkestani,H0468,C028,-0.0000,0.0252,Tetranychus urticae,OK
+MG320375.1,Tetranychus sp. BIOUG01946-G03,,H0469,C071,,,,UNNAMED
+MG320304.1,Tetranychus urticae,Tetranychus urticae,H0470,C028,-0.0000,0.0361,Tetranychus turkestani,OK
+MG320300.1,Tetranychus sp. BIOUG09632-F10,,H0471,C066,,,,UNNAMED
+MG320247.1,Tetranychus sp. BIOUG09632-H03,,H0472,C066,,,,UNNAMED
+MG320181.1,Tetranychus sp. BIOUG09632-H10,,H0473,C066,,,,UNNAMED
+MG320170.1,Tetranychus sp. BIOUG09632-H11,,H0474,C066,,,,UNNAMED
+MG320131.1,Tetranychus turkestani,Tetranychus turkestani,H0475,C028,-0.0000,0.0232,Tetranychus urticae,OK
+MG320025.1,Tetranychus urticae,Tetranychus urticae,H0476,C028,0.0000,0.0228,Tetranychus turkestani,OK
+MG320024.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG319878.1,Tetranychus sp. BIOUG01946-F10,,H0477,C071,,,,UNNAMED
+MG319874.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG319833.1,Tetranychus urticae,Tetranychus urticae,H0478,C028,-0.0000,0.0320,Tetranychus sawzdargi,OK
+MG319769.1,Tetranychus turkestani,Tetranychus turkestani,H0479,C028,-0.0000,0.0250,Tetranychus urticae,OK
+MG319548.1,Tetranychus sp. BIOUG09633-A12,,H0480,C066,,,,UNNAMED
+MG319470.1,Tetranychus urticae,Tetranychus urticae,H0476,C028,0.0000,0.0228,Tetranychus turkestani,OK
+MG319252.1,Tetranychus sp. BIOUG09136-G04,,H0481,C066,,,,UNNAMED
+MG319241.1,Tetranychus sp. BIOUG09632-E03,,H0482,C066,,,,UNNAMED
+MG319068.1,Tetranychus sp. BIOUG07702-C01,,H0460,C028,,,,UNNAMED
+MG318931.1,Tetranychus sp. BIOUG07702-C12,,H0483,C028,,,,UNNAMED
+MG318877.1,Tetranychus sp. BIOUG09803-C04,,H0484,C066,,,,UNNAMED
+MG318714.1,Tetranychus turkestani,Tetranychus turkestani,H0467,C028,0.0000,0.0230,Tetranychus urticae,OK
+MG318683.1,Tetranychus urticae,Tetranychus urticae,H0485,C028,-0.0000,0.0321,Tetranychus turkestani,OK
+MG318565.1,Tetranychus sp. BIOUG09632-H01,,H0486,C066,,,,UNNAMED
+MG318351.1,Tetranychus sp. BIOUG09803-C02,,H0487,C066,,,,UNNAMED
+MG318001.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG317932.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG317864.1,Tetranychus urticae,Tetranychus urticae,H0488,C028,-0.0000,0.0308,Tetranychus turkestani,OK
+MG317594.1,Tetranychus turkestani,Tetranychus turkestani,H0489,C028,-0.0000,0.0200,Tetranychus urticae,OK
+MG317394.1,Tetranychus sp. BIOUG09138-F01,,H0490,C066,,,,UNNAMED
+MG317314.1,Tetranychus turkestani,Tetranychus turkestani,H0491,C028,0.0000,0.0221,Tetranychus urticae,OK
+MG317222.1,Tetranychus urticae,Tetranychus urticae,H0492,C028,-0.0000,0.0298,Tetranychus turkestani,OK
+MG317001.1,Tetranychus urticae,Tetranychus urticae,H0493,C028,-0.0000,0.0353,Tetranychus turkestani,OK
+MG316874.1,Tetranychus sp. BIOUG09802-G12,,H0494,C066,,,,UNNAMED
+MG316832.1,Tetranychus urticae,Tetranychus urticae,H0462,C028,0.0000,0.0358,Tetranychus turkestani,OK
+MG316754.1,Tetranychus urticae,Tetranychus urticae,H0495,C028,-0.0000,0.0399,Tetranychus turkestani,OK
+MG316426.1,Tetranychus urticae,Tetranychus urticae,H0496,C028,-0.0000,0.0228,Tetranychus turkestani,OK
+MG316360.1,Tetranychus sp. BIOUG09632-D07,,H0497,C066,,,,UNNAMED
+MG316268.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG315961.1,Tetranychus urticae,Tetranychus urticae,H0498,C028,0.0000,0.0299,Tetranychus turkestani,OK
+MG315959.1,Tetranychus sp. BIOUG09632-A04,,H0499,C066,,,,UNNAMED
+MG315863.1,Tetranychus sp. BIOUG01946-E05,,H0500,C024,,,,UNNAMED
+MG315702.1,Tetranychus turkestani,Tetranychus turkestani,H0501,C028,0.0000,0.0220,Tetranychus urticae,OK
+MG315434.1,Tetranychus sp. BIOUG09809-H06,,H0502,C066,,,,UNNAMED
+MG315394.1,Tetranychus urticae,Tetranychus urticae,H0177,C028,0.0000,0.0228,Tetranychus turkestani,OK
+MG315372.1,Tetranychus sp. BIOUG09632-F04,,H0503,C066,,,,UNNAMED
+MG315292.1,Tetranychus turkestani,Tetranychus turkestani,H0504,C028,-0.0000,0.0219,Tetranychus urticae,OK
+MG315106.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG315085.1,Tetranychus sp. BIOUG07257-E06,,H0505,C028,,,,UNNAMED
+MG314954.1,Tetranychus sp. BIOUG07257-F01,,H0506,C028,,,,UNNAMED
+MG314750.1,Tetranychus urticae,Tetranychus urticae,H0507,C028,-0.0000,0.0369,Tetranychus turkestani,OK
+MG314168.1,Tetranychus sp. BIOUG09632-D04,,H0508,C066,,,,UNNAMED
+MG314124.1,Tetranychus sp. BIOUG09802-E12,,H0509,C066,,,,UNNAMED
+MG314080.1,Tetranychus sp. BIOUG09802-F12,,H0466,C066,,,,UNNAMED
+MG314007.1,Tetranychus sp. BIOUG07257-E03,,H0510,C028,,,,UNNAMED
+MG313804.1,Tetranychus sp. BIOUG09632-E11,,H0480,C066,,,,UNNAMED
+MG313765.1,Tetranychus sp. BIOUG09351-E01,,H0511,C066,,,,UNNAMED
+MG313713.1,Tetranychus turkestani,Tetranychus turkestani,H0512,C028,-0.0000,0.0255,Tetranychus urticae,OK
+MG313608.1,Tetranychus turkestani,Tetranychus turkestani,H0513,C028,-0.0000,0.0251,Tetranychus urticae,OK
+MG313465.1,Tetranychus urticae,Tetranychus urticae,H0514,C028,-0.0000,0.0397,Tetranychus sawzdargi,OK
+MG313422.1,Tetranychus sp. BIOUG07702-A11,,H0515,C028,,,,UNNAMED
+MG313394.1,Tetranychus sp. BIOUG09802-G06,,H0516,C066,,,,UNNAMED
+MG313317.1,Tetranychus sp. BIOUG09351-C02,,H0511,C066,,,,UNNAMED
+MG312949.1,Tetranychus urticae,Tetranychus urticae,H0517,C028,-0.0000,0.0392,Tetranychus turkestani,OK
+MG312911.1,Tetranychus urticae,Tetranychus urticae,H0518,C028,-0.0000,0.0271,Tetranychus turkestani,OK
+MG312875.1,Tetranychus turkestani,Tetranychus turkestani,H0519,C028,0.0086,0.0144,Tetranychus urticae,OK
+MG312829.1,Tetranychus urticae,Tetranychus urticae,H0520,C028,-0.0000,0.0299,Tetranychus turkestani,OK
+MG312784.1,Tetranychus sp. BIOUG09803-D06,,H0480,C066,,,,UNNAMED
+MG312755.1,Tetranychus turkestani,Tetranychus turkestani,H0501,C028,0.0000,0.0220,Tetranychus urticae,OK
+MG312752.1,Tetranychus turkestani,Tetranychus turkestani,H0521,C028,0.0144,0.0164,Tetranychus urticae,OK
+MG312553.1,Tetranychus urticae,Tetranychus urticae,H0462,C028,0.0000,0.0358,Tetranychus turkestani,OK
+MG312255.1,Tetranychus urticae,Tetranychus urticae,H0522,C028,-0.0000,0.0309,Tetranychus turkestani,OK
+MG312210.1,Tetranychus sp. BIOUG07702-A02,,H0460,C028,,,,UNNAMED
+MG312200.1,Tetranychus sp. BIOUG07217-H08,,H0523,C066,,,,UNNAMED
+MG311907.1,Tetranychus sp. BIOUG09351-A06,,H0511,C066,,,,UNNAMED
+MG311905.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG311882.1,Tetranychus turkestani,Tetranychus turkestani,H0524,C028,-0.0000,0.0253,Tetranychus urticae,OK
+MG311728.1,Tetranychus urticae,Tetranychus urticae,H0525,C028,-0.0000,0.0352,Tetranychus turkestani,OK
+MG311516.1,Tetranychus urticae,Tetranychus urticae,H0526,C028,-0.0000,0.0308,Tetranychus turkestani,OK
+MG311432.1,Tetranychus urticae,Tetranychus urticae,H0527,C028,-0.0000,0.0352,Tetranychus turkestani,OK
+MG311328.1,Tetranychus sp. BIOUG07257-E04,,H0528,C028,,,,UNNAMED
+MG310963.1,Tetranychus sp. BIOUG09803-C10,,H0529,C066,,,,UNNAMED
+MG310881.1,Tetranychus urticae,Tetranychus urticae,H0302,C028,0.0000,0.0298,Tetranychus turkestani,OK
+MG310497.1,Tetranychus urticae,Tetranychus urticae,H0530,C028,-0.0000,0.0366,Tetranychus turkestani,OK
+MG310404.1,Tetranychus turkestani,Tetranychus turkestani,H0491,C028,0.0000,0.0221,Tetranychus urticae,OK
+MG310390.1,Tetranychus sp. BIOUG07702-A09,,H0531,C028,,,,UNNAMED
+MG310382.1,Tetranychus urticae,Tetranychus urticae,H0532,C028,-0.0000,0.0379,Tetranychus turkestani,OK
+MH675878.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0533,C063,-0.0000,0.0060,Tetranychus truncatus,OK
+MH675877.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0534,C063,-0.0000,0.0059,Tetranychus truncatus,OK
+MH664307.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0535,C063,-0.0000,0.0057,Tetranychus truncatus,OK
+MH664306.1,Tetranychus udaipurensis,Tetranychus udaipurensis,H0536,C063,-0.0000,0.0056,Tetranychus truncatus,OK
+MH493889.1,Tetranychus urticae,Tetranychus urticae,H0537,C028,0.0052,0.0325,Tetranychus turkestani,OK
+MF774636.1,Tetranychus truncatus,Tetranychus truncatus,H0538,C063,-0.0000,-0.0000,Tetranychus neocaledonicus,OK
+MF774635.1,Tetranychus truncatus,Tetranychus truncatus,H0539,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+MF774634.1,Tetranychus truncatus,Tetranychus truncatus,H0540,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+MF774633.1,Tetranychus truncatus,Tetranychus truncatus,H0541,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+MF774632.1,Tetranychus truncatus,Tetranychus truncatus,H0542,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+MF774631.1,Tetranychus truncatus,Tetranychus truncatus,H0543,C063,-0.0000,0.0025,Tetranychus neocaledonicus,OK
+MF774630.1,Tetranychus truncatus,Tetranychus truncatus,H0544,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+MF774629.1,Tetranychus truncatus,Tetranychus truncatus,H0545,C063,-0.0000,-0.0000,Tetranychus neocaledonicus,OK
+MG751384.1,Tetranychus urticae,Tetranychus urticae,H0546,C028,0.0050,0.0087,Tetranychus turkestani,OK
+MH114587.1,Tetranychus urticae,Tetranychus urticae,H0547,C028,-0.0000,0.0225,Tetranychus turkestani,OK
+MG231439.1,Tetranychus truncatus,Tetranychus truncatus,H0548,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MG231438.1,Tetranychus truncatus,Tetranychus truncatus,H0549,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MG231437.1,Tetranychus truncatus,Tetranychus truncatus,H0550,C045,-0.0000,0.0025,Tetranychus urticae,OK
+MG231436.1,Tetranychus truncatus,Tetranychus truncatus,H0551,C044,0.0025,-0.0000,Tetranychus pueraricola,NEAREST_IS_OTHER_SPECIES
+MG231435.1,Tetranychus truncatus,Tetranychus truncatus,H0552,C025,0.0601,0.0625,Tetranychus urticae,OK
+MG231434.1,Tetranychus truncatus,Tetranychus truncatus,H0553,C045,0.0025,0.0025,Tetranychus urticae,OK
+MG231433.1,Tetranychus truncatus,Tetranychus truncatus,H0554,C044,0.0025,0.0028,Tetranychus pueraricola,OK
+MG231432.1,Tetranychus truncatus,Tetranychus truncatus,H0555,C026,0.0573,0.0573,Tetranychus urticae,OK
+MG231431.1,Tetranychus truncatus,Tetranychus truncatus,H0556,C045,0.0025,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+MG231430.1,Tetranychus truncatus,Tetranychus truncatus,H0557,C044,-0.0000,-0.0000,Tetranychus urticae,OK
+MG231429.1,Tetranychus truncatus,Tetranychus truncatus,H0558,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+MG231428.1,Tetranychus truncatus,Tetranychus truncatus,H0559,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+KJ166102.1,Tetranychus sp. BOLD:ACB3442,,H0560,C066,,,,UNNAMED
+KJ092874.1,Tetranychus sp. BOLD:ACB3442,,H0561,C066,,,,UNNAMED
+MF152825.1,Tetranychus urticae,Tetranychus urticae,H0562,C028,0.0057,0.0160,Tetranychus turkestani,OK
+MF152824.1,Tetranychus urticae,Tetranychus urticae,H0563,C028,0.0057,0.0258,Tetranychus turkestani,OK
+MF428443.1,Tetranychus evansi,Tetranychus evansi,H0564,C069,-0.0000,0.0314,Tetranychus malvae,OK
+MF428442.1,Tetranychus evansi,Tetranychus evansi,H0565,C069,-0.0000,0.0051,Tetranychus malvae,OK
+MF428441.1,Tetranychus urticae,Tetranychus urticae,H0566,C028,0.0245,0.0266,Tetranychus turkestani,OK
+MF428440.1,Tetranychus urticae,Tetranychus urticae,H0567,C028,-0.0000,0.0395,Tetranychus turkestani,OK
+MG518360.1,Tetranychus pueraricola,Tetranychus pueraricola,H0568,C044,-0.0000,0.0024,Tetranychus urticae,OK
+MG518359.1,Tetranychus pueraricola,Tetranychus pueraricola,H0569,C044,-0.0000,0.0024,Tetranychus urticae,OK
+MG518358.1,Tetranychus pueraricola,Tetranychus pueraricola,H0570,C044,-0.0000,0.0047,Tetranychus urticae,OK
+MG518357.1,Tetranychus pueraricola,Tetranychus pueraricola,H0571,C044,-0.0000,-0.0000,Tetranychus urticae,OK
+MG518356.1,Tetranychus pueraricola,Tetranychus pueraricola,H0572,C044,-0.0000,0.0024,Tetranychus urticae,OK
+MG518355.1,Tetranychus pueraricola,Tetranychus pueraricola,H0573,C044,-0.0000,0.0024,Tetranychus urticae,OK
+MG518354.1,Tetranychus pueraricola,Tetranychus pueraricola,H0574,C044,-0.0000,0.0024,Tetranychus urticae,OK
+MG518353.1,Tetranychus pueraricola,Tetranychus pueraricola,H0575,C044,0.0013,-0.0000,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+MG518352.1,Tetranychus pueraricola,Tetranychus pueraricola,H0576,C044,0.0013,0.0119,Tetranychus urticae,OK
+MG518351.1,Tetranychus truncatus,Tetranychus truncatus,H0577,C045,-0.0000,0.0067,Tetranychus urticae,OK
+MG518350.1,Tetranychus truncatus,Tetranychus truncatus,H0578,C045,0.0007,0.0067,Tetranychus urticae,OK
+MG518349.1,Tetranychus truncatus,Tetranychus truncatus,H0579,C045,-0.0000,0.0067,Tetranychus urticae,OK
+MG518348.1,Tetranychus truncatus,Tetranychus truncatus,H0580,C045,-0.0000,0.0067,Tetranychus urticae,OK
+MG518347.1,Tetranychus truncatus,Tetranychus truncatus,H0581,C045,-0.0000,0.0067,Tetranychus urticae,OK
+MG518346.1,Tetranychus truncatus,Tetranychus truncatus,H0582,C045,-0.0000,0.0065,Tetranychus puschelii,OK
+MG518345.1,Tetranychus truncatus,Tetranychus truncatus,H0583,C045,0.0013,0.0065,Tetranychus puschelii,OK
+MG518344.1,Tetranychus truncatus,Tetranychus truncatus,H0584,C045,-0.0000,0.0067,Tetranychus urticae,OK
+MG518343.1,Tetranychus truncatus,Tetranychus truncatus,H0585,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518342.1,Tetranychus truncatus,Tetranychus truncatus,H0586,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518341.1,Tetranychus truncatus,Tetranychus truncatus,H0587,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518340.1,Tetranychus truncatus,Tetranychus truncatus,H0588,C045,-0.0000,0.0049,Tetranychus puschelii,OK
+MG518339.1,Tetranychus truncatus,Tetranychus truncatus,H0589,C045,-0.0000,0.0065,Tetranychus puschelii,OK
+MG518338.1,Tetranychus truncatus,Tetranychus truncatus,H0590,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+MG518337.1,Tetranychus truncatus,Tetranychus truncatus,H0591,C045,-0.0000,0.0049,Tetranychus puschelii,OK
+MG518336.1,Tetranychus truncatus,Tetranychus truncatus,H0592,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+MG518335.1,Tetranychus truncatus,Tetranychus truncatus,H0593,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+MG518334.1,Tetranychus truncatus,Tetranychus truncatus,H0594,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+MG518333.1,Tetranychus truncatus,Tetranychus truncatus,H0595,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518332.1,Tetranychus truncatus,Tetranychus truncatus,H0596,C045,-0.0000,0.0049,Tetranychus puschelii,OK
+MG518331.1,Tetranychus truncatus,Tetranychus truncatus,H0597,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+MG518330.1,Tetranychus truncatus,Tetranychus truncatus,H0598,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+MG518329.1,Tetranychus truncatus,Tetranychus truncatus,H0599,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518328.1,Tetranychus truncatus,Tetranychus truncatus,H0600,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518327.1,Tetranychus truncatus,Tetranychus truncatus,H0601,C045,-0.0000,0.0016,Tetranychus puschelii,OK
+MG518326.1,Tetranychus truncatus,Tetranychus truncatus,H0602,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+KU342805.1,Tetranychus urticae,Tetranychus urticae,H0603,C028,0.0000,0.0361,Tetranychus turkestani,OK
+KU342804.1,Tetranychus urticae,Tetranychus urticae,H0603,C028,0.0000,0.0361,Tetranychus turkestani,OK
+KU342803.1,Tetranychus urticae,Tetranychus urticae,H0603,C028,0.0000,0.0361,Tetranychus turkestani,OK
+KU342802.1,Tetranychus urticae,Tetranychus urticae,H0603,C028,0.0000,0.0361,Tetranychus turkestani,OK
+KP993523.2,Tetranychus urticae,Tetranychus urticae,H0604,C028,-0.0000,0.0188,Tetranychus turkestani,OK
+KP993524.1,Tetranychus urticae,Tetranychus urticae,H0605,C027,0.0899,0.1169,Tetranychus turkestani,OK
+MF459614.1,Tetranychus okinawanus,Tetranychus okinawanus,H0606,C049,0.0061,0.0060,Tetranychus gloveri,NEAREST_IS_OTHER_SPECIES
+MF351873.1,Tetranychus kanzawai,Tetranychus kanzawai,H0607,C028,-0.0000,0.0032,Tetranychus urticae,OK
+MF462130.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0608,C072,0.1257,-0.0000,Tetranychus ludeni,NEAREST_IS_OTHER_SPECIES
+KX648290.1,Tetranychus urticae,Tetranychus urticae,H0609,C028,0.0030,0.0105,Tetranychus turkestani,OK
+KX648289.1,Tetranychus urticae,Tetranychus urticae,H0610,C028,0.0026,0.0083,Tetranychus turkestani,OK
+KX648288.1,Tetranychus urticae,Tetranychus urticae,H0611,C028,0.0014,0.0026,Tetranychus turkestani,OK
+KX648287.1,Tetranychus urticae,Tetranychus urticae,H0612,C028,0.0015,0.0058,Tetranychus turkestani,OK
+KX648286.1,Tetranychus urticae,Tetranychus urticae,H0613,C028,0.0015,0.0130,Tetranychus turkestani,OK
+KX648285.1,Tetranychus urticae,Tetranychus urticae,H0614,C028,0.0030,0.0053,Tetranychus turkestani,OK
+KX648284.1,Tetranychus urticae,Tetranychus urticae,H0615,C028,0.0015,0.0121,Tetranychus turkestani,OK
+KX648283.1,Tetranychus urticae,Tetranychus urticae,H0616,C028,0.0025,0.0033,Tetranychus turkestani,OK
+KX648282.1,Tetranychus urticae,Tetranychus urticae,H0617,C028,-0.0000,0.0083,Tetranychus turkestani,OK
+KX648281.1,Tetranychus urticae,Tetranychus urticae,H0618,C028,0.0031,0.0150,Tetranychus turkestani,OK
+KX648280.1,Tetranychus urticae,Tetranychus urticae,H0619,C028,0.0014,0.0026,Tetranychus turkestani,OK
+KX648279.1,Tetranychus urticae,Tetranychus urticae,H0620,C028,0.0014,0.0159,Tetranychus turkestani,OK
+KX648278.1,Tetranychus urticae,Tetranychus urticae,H0621,C028,0.0030,0.0105,Tetranychus turkestani,OK
+KX648277.1,Tetranychus urticae,Tetranychus urticae,H0622,C028,0.0024,0.0033,Tetranychus turkestani,OK
+KX648276.1,Tetranychus urticae,Tetranychus urticae,H0623,C028,0.0014,0.0026,Tetranychus turkestani,OK
+KX648275.1,Tetranychus urticae,Tetranychus urticae,H0624,C028,0.0015,0.0058,Tetranychus turkestani,OK
+KX648274.1,Tetranychus urticae,Tetranychus urticae,H0625,C028,-0.0000,0.0130,Tetranychus turkestani,OK
+KX648273.1,Tetranychus urticae,Tetranychus urticae,H0626,C028,0.0014,0.0053,Tetranychus turkestani,OK
+KX648272.1,Tetranychus urticae,Tetranychus urticae,H0627,C028,-0.0000,0.0136,Tetranychus turkestani,OK
+KX648271.1,Tetranychus urticae,Tetranychus urticae,H0628,C028,0.0025,-0.0000,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+KX648270.1,Tetranychus urticae,Tetranychus urticae,H0629,C028,-0.0000,0.0033,Tetranychus turkestani,OK
+KX648269.1,Tetranychus urticae,Tetranychus urticae,H0630,C028,-0.0000,0.0150,Tetranychus turkestani,OK
+KX648268.1,Tetranychus urticae,Tetranychus urticae,H0631,C028,0.0014,0.0026,Tetranychus turkestani,OK
+KX648267.1,Tetranychus urticae,Tetranychus urticae,H0632,C028,-0.0000,0.0150,Tetranychus turkestani,OK
+KX648266.1,Tetranychus sp. DeepForest-Aristolochia,,H0633,C028,,,,UNNAMED
+KX648265.1,Tetranychus urticae,Tetranychus urticae,H0634,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+KX648261.1,Tetranychus turkestani,Tetranychus turkestani,H0635,C028,0.0033,0.0033,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KX648260.1,Tetranychus turkestani,Tetranychus turkestani,H0636,C028,0.0033,0.0032,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KX648259.1,Tetranychus turkestani,Tetranychus turkestani,H0637,C028,0.0033,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KX648258.1,Tetranychus sp. Omsk-Fragaria,,H0638,C028,,,,UNNAMED
+KX648257.1,Tetranychus turkestani,Tetranychus turkestani,H0639,C028,0.0303,0.0237,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KX281717.1,Tetranychus ludeni,Tetranychus ludeni,H0640,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281716.1,Tetranychus evansi,Tetranychus evansi,H0641,C069,0.0000,0.0022,Tetranychus malvae,OK
+KX281715.1,Tetranychus evansi,Tetranychus evansi,H0641,C069,0.0000,0.0022,Tetranychus malvae,OK
+KX281714.1,Tetranychus evansi,Tetranychus evansi,H0642,C069,0.0000,0.0010,Tetranychus malvae,OK
+KX281713.1,Tetranychus evansi,Tetranychus evansi,H0642,C069,0.0000,0.0010,Tetranychus malvae,OK
+KX281712.1,Tetranychus ludeni,Tetranychus ludeni,H0643,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281711.1,Tetranychus evansi,Tetranychus evansi,H0641,C069,0.0000,0.0022,Tetranychus malvae,OK
+KX281710.1,Tetranychus ludeni,Tetranychus ludeni,H0643,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281709.1,Tetranychus evansi,Tetranychus evansi,H0641,C069,0.0000,0.0022,Tetranychus malvae,OK
+KX281708.1,Tetranychus ludeni,Tetranychus ludeni,H0640,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281707.1,Tetranychus ludeni,Tetranychus ludeni,H0643,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281706.1,Tetranychus ludeni,Tetranychus ludeni,H0643,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281705.1,Tetranychus evansi,Tetranychus evansi,H0641,C069,0.0000,0.0022,Tetranychus malvae,OK
+KX281704.1,Tetranychus lambi,Tetranychus lambi,H0644,C029,0.0000,0.0910,Tetranychus urticae,OK
+KX281703.1,Tetranychus lambi,Tetranychus lambi,H0644,C029,0.0000,0.0910,Tetranychus urticae,OK
+KX281702.1,Tetranychus ludeni,Tetranychus ludeni,H0640,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281701.1,Tetranychus evansi,Tetranychus evansi,H0642,C069,0.0000,0.0010,Tetranychus malvae,OK
+KX281700.1,Tetranychus evansi,Tetranychus evansi,H0642,C069,0.0000,0.0010,Tetranychus malvae,OK
+KX281699.1,Tetranychus lambi,Tetranychus lambi,H0644,C029,0.0000,0.0910,Tetranychus urticae,OK
+KX281698.1,Tetranychus ludeni,Tetranychus ludeni,H0643,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KX281697.1,Tetranychus evansi,Tetranychus evansi,H0641,C069,0.0000,0.0022,Tetranychus malvae,OK
+KX281696.1,Tetranychus evansi,Tetranychus evansi,H0642,C069,0.0000,0.0010,Tetranychus malvae,OK
+KX281695.1,Tetranychus evansi,Tetranychus evansi,H0645,C069,-0.0000,0.0008,Tetranychus malvae,OK
+KX281694.1,Tetranychus ludeni,Tetranychus ludeni,H0646,C072,-0.0000,0.0024,Tetranychus neocaledonicus,OK
+KY419529.1,Tetranychus lombardinii,Tetranychus lombardinii,H0647,C065,-0.0000,0.0513,Tetranychus urticae,OK
+KP642066.1,Tetranychus urticae,Tetranychus urticae,H0648,C028,0.0022,0.0361,Tetranychus turkestani,OK
+KP642065.1,Tetranychus urticae,Tetranychus urticae,H0649,C028,0.0000,0.0361,Tetranychus turkestani,OK
+KP642064.1,Tetranychus urticae,Tetranychus urticae,H0649,C028,0.0000,0.0361,Tetranychus turkestani,OK
+KP642060.1,Tetranychus evansi,Tetranychus evansi,H0650,C069,-0.0000,0.0111,Tetranychus malvae,OK
+KT782745.1,Tetranychus okinawanus,Tetranychus okinawanus,H0651,C049,0.0061,0.0014,Tetranychus gloveri,NEAREST_IS_OTHER_SPECIES
+KX669023.1,Tetranychus truncatus,Tetranychus truncatus,H0652,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KX510049.1,Tetranychus truncatus,Tetranychus truncatus,H0653,C045,0.0000,-0.0000,Tetranychus urticae,OK
+KX510048.1,Tetranychus truncatus,Tetranychus truncatus,H0653,C045,0.0000,-0.0000,Tetranychus urticae,OK
+KX510047.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0654,C030,-0.0000,0.0939,Tetranychus kanzawai,OK
+HM565908.1,Tetranychus urticae,Tetranychus urticae,H0655,C028,-0.0000,0.0361,Tetranychus turkestani,OK
+HM565907.1,Tetranychus urticae,Tetranychus urticae,H0656,C028,-0.0000,0.0043,Tetranychus turkestani,OK
+HM565906.1,Tetranychus urticae,Tetranychus urticae,H0657,C028,0.0000,0.0361,Tetranychus turkestani,OK
+HM565905.1,Tetranychus urticae,Tetranychus urticae,H0658,C028,-0.0000,0.0361,Tetranychus turkestani,OK
+HM565904.1,Tetranychus urticae,Tetranychus urticae,H0659,C028,-0.0000,0.0361,Tetranychus turkestani,OK
+HM565903.1,Tetranychus urticae,Tetranychus urticae,H0657,C028,0.0000,0.0361,Tetranychus turkestani,OK
+HM565902.1,Tetranychus urticae,Tetranychus urticae,H0657,C028,0.0000,0.0361,Tetranychus turkestani,OK
+HM565901.1,Tetranychus urticae,Tetranychus urticae,H0660,C028,-0.0000,0.0361,Tetranychus turkestani,OK
+HM565900.1,Tetranychus urticae,Tetranychus urticae,H0661,C028,0.0011,0.0348,Tetranychus turkestani,OK
+HM565899.1,Tetranychus urticae,Tetranychus urticae,H0662,C028,0.0011,0.0314,Tetranychus turkestani,OK
+HM565898.1,Tetranychus urticae,Tetranychus urticae,H0663,C028,-0.0000,0.0308,Tetranychus turkestani,OK
+HM565897.1,Tetranychus urticae,Tetranychus urticae,H0664,C028,-0.0000,0.0316,Tetranychus turkestani,OK
+HM565896.1,Tetranychus urticae,Tetranychus urticae,H0665,C028,0.0024,0.0282,Tetranychus turkestani,OK
+HM565895.1,Tetranychus urticae,Tetranychus urticae,H0657,C028,0.0000,0.0361,Tetranychus turkestani,OK
+HM565894.1,Tetranychus urticae,Tetranychus urticae,H0666,C028,-0.0000,0.0374,Tetranychus turkestani,OK
+HM565893.1,Tetranychus urticae,Tetranychus urticae,H0667,C028,0.0025,0.0346,Tetranychus turkestani,OK
+HM565892.1,Tetranychus urticae,Tetranychus urticae,H0668,C028,0.0000,0.0308,Tetranychus turkestani,OK
+HM565891.1,Tetranychus urticae,Tetranychus urticae,H0668,C028,0.0000,0.0308,Tetranychus turkestani,OK
+EU556754.1,Tetranychus urticae,Tetranychus urticae,H0024,C028,0.0000,0.0047,Tetranychus turkestani,OK
+DQ437568.1,Tetranychus cinnabarinus,Tetranychus urticae,H0669,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437567.1,Tetranychus cinnabarinus,Tetranychus urticae,H0670,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437566.1,Tetranychus cinnabarinus,Tetranychus urticae,H0671,C041,0.0000,-0.0000,Tetranychus phaselus,OK
+DQ437565.1,Tetranychus cinnabarinus,Tetranychus urticae,H0672,C044,0.0000,0.0048,Tetranychus kanzawai,OK
+DQ437564.1,Tetranychus cinnabarinus,Tetranychus urticae,H0673,C044,0.0023,-0.0000,Tetranychus pueraricola,NEAREST_IS_OTHER_SPECIES
+DQ437563.1,Tetranychus cinnabarinus,Tetranychus urticae,H0674,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+DQ437562.1,Tetranychus cinnabarinus,Tetranychus urticae,H0675,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+DQ437561.1,Tetranychus cinnabarinus,Tetranychus urticae,H0676,C042,0.0022,0.0027,Tetranychus kanzawai,OK
+DQ437560.1,Tetranychus cinnabarinus,Tetranychus urticae,H0675,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+DQ437559.1,Tetranychus cinnabarinus,Tetranychus urticae,H0672,C044,0.0000,0.0048,Tetranychus kanzawai,OK
+DQ437558.1,Tetranychus cinnabarinus,Tetranychus urticae,H0674,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+DQ437557.1,Tetranychus cinnabarinus,Tetranychus urticae,H0669,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437556.1,Tetranychus cinnabarinus,Tetranychus urticae,H0677,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437555.1,Tetranychus cinnabarinus,Tetranychus urticae,H0678,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437554.1,Tetranychus cinnabarinus,Tetranychus urticae,H0678,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437553.1,Tetranychus cinnabarinus,Tetranychus urticae,H0679,C044,0.0047,-0.0000,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+DQ437552.1,Tetranychus cinnabarinus,Tetranychus urticae,H0669,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437551.1,Tetranychus cinnabarinus,Tetranychus urticae,H0680,C047,0.0718,0.0074,Tetranychus piercei,NEAREST_IS_OTHER_SPECIES
+DQ437550.1,Tetranychus cinnabarinus,Tetranychus urticae,H0669,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437549.1,Tetranychus cinnabarinus,Tetranychus urticae,H0674,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+DQ437548.1,Tetranychus cinnabarinus,Tetranychus urticae,H0681,C044,0.0023,-0.0000,Tetranychus truncatus,NEAREST_IS_OTHER_SPECIES
+DQ437547.1,Tetranychus cinnabarinus,Tetranychus urticae,H0670,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437546.1,Tetranychus cinnabarinus,Tetranychus urticae,H0682,C028,-0.0000,0.0075,Tetranychus turkestani,OK
+DQ437545.1,Tetranychus cinnabarinus,Tetranychus urticae,H0670,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437544.1,Tetranychus cinnabarinus,Tetranychus urticae,H0671,C041,0.0000,-0.0000,Tetranychus phaselus,OK
+DQ437543.1,Tetranychus cinnabarinus,Tetranychus urticae,H0677,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ437542.1,Tetranychus cinnabarinus,Tetranychus urticae,H0683,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ016524.1,Tetranychus urticae,Tetranychus urticae,H0684,C045,0.0000,0.0049,Tetranychus truncatus,OK
+DQ016523.1,Tetranychus urticae,Tetranychus urticae,H0685,C045,0.0022,0.0024,Tetranychus truncatus,OK
+DQ016522.1,Tetranychus urticae,Tetranychus urticae,H0686,C045,0.0044,0.0074,Tetranychus truncatus,OK
+DQ016521.1,Tetranychus urticae,Tetranychus urticae,H0687,C045,0.0044,0.0050,Tetranychus truncatus,OK
+DQ016520.1,Tetranychus urticae,Tetranychus urticae,H0688,C045,0.0022,0.0024,Tetranychus truncatus,OK
+DQ016519.1,Tetranychus urticae,Tetranychus urticae,H0689,C045,0.0044,0.0049,Tetranychus truncatus,OK
+DQ016518.1,Tetranychus urticae,Tetranychus urticae,H0690,C045,0.0044,0.0049,Tetranychus truncatus,OK
+DQ016517.1,Tetranychus urticae,Tetranychus urticae,H0691,C045,0.0000,0.0024,Tetranychus truncatus,OK
+DQ016516.1,Tetranychus urticae,Tetranychus urticae,H0683,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ016515.1,Tetranychus urticae,Tetranychus urticae,H0670,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+DQ016514.1,Tetranychus urticae,Tetranychus urticae,H0692,C045,0.0067,0.0074,Tetranychus truncatus,OK
+DQ017589.1,Tetranychus urticae,Tetranychus urticae,H0693,C045,0.0067,0.0099,Tetranychus truncatus,OK
+DQ017588.1,Tetranychus urticae,Tetranychus urticae,H0694,C028,0.0199,0.0198,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+HQ732267.1,Tetranychus urticae,Tetranychus urticae,H0695,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+HQ732266.1,Tetranychus urticae,Tetranychus urticae,H0696,C028,0.0029,0.0029,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+HQ732265.1,Tetranychus urticae,Tetranychus urticae,H0697,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+HQ732264.1,Tetranychus urticae,Tetranychus urticae,H0698,C028,-0.0000,0.0026,Tetranychus turkestani,OK
+HM486514.1,Tetranychus urticae,Tetranychus urticae,H0671,C041,0.0000,-0.0000,Tetranychus phaselus,OK
+HM486513.1,Tetranychus urticae,Tetranychus urticae,H0699,C028,-0.0000,0.0098,Tetranychus turkestani,OK
+HM486512.1,Tetranychus urticae,Tetranychus urticae,H0700,C045,0.0022,-0.0000,Tetranychus truncatus,NEAREST_IS_OTHER_SPECIES
+HM486511.1,Tetranychus urticae,Tetranychus urticae,H0701,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+HM486510.1,Tetranychus urticae,Tetranychus urticae,H0670,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+HM486509.1,Tetranychus urticae,Tetranychus urticae,H0669,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+HM486508.1,Tetranychus urticae,Tetranychus urticae,H0702,C045,0.0022,0.0025,Tetranychus truncatus,OK
+HM486507.1,Tetranychus urticae,Tetranychus urticae,H0678,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+HM486506.1,Tetranychus urticae,Tetranychus urticae,H0703,C045,0.0022,-0.0000,Tetranychus truncatus,NEAREST_IS_OTHER_SPECIES
+HM486505.1,Tetranychus urticae,Tetranychus urticae,H0704,C045,0.0022,0.0023,Tetranychus truncatus,OK
+HM486504.1,Tetranychus urticae,Tetranychus urticae,H0674,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+HM486503.1,Tetranychus urticae,Tetranychus urticae,H0705,C042,0.0022,0.0027,Tetranychus kanzawai,OK
+HM486502.1,Tetranychus urticae,Tetranychus urticae,H0675,C042,0.0000,-0.0000,Tetranychus kanzawai,OK
+HM753535.1,Tetranychus cinnabarinus,Tetranychus urticae,H0092,C042,-0.0000,0.0000,Tetranychus bambusae,SHARED_HAPLOTYPE
+GU145111.1,Tetranychus evansi,Tetranychus evansi,H0706,C069,-0.0000,0.0271,Tetranychus malvae,OK
+GU145110.1,Tetranychus evansi,Tetranychus evansi,H0707,C069,0.0023,0.0259,Tetranychus malvae,OK
+GU145109.1,Tetranychus evansi,Tetranychus evansi,H0708,C069,-0.0000,0.0012,Tetranychus malvae,OK
+GU145108.1,Tetranychus evansi,Tetranychus evansi,H0709,C069,-0.0000,0.0012,Tetranychus malvae,OK
+GU145107.1,Tetranychus evansi,Tetranychus evansi,H0710,C069,-0.0000,0.0023,Tetranychus malvae,OK
+GU145106.1,Tetranychus evansi,Tetranychus evansi,H0711,C069,-0.0000,0.0012,Tetranychus malvae,OK
+GQ141913.1,Tetranychus turkestani,Tetranychus turkestani,H0712,C028,0.0093,0.0079,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+GQ141912.1,Tetranychus truncatus,Tetranychus truncatus,H0713,C045,0.0025,0.0022,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+GQ141911.1,Tetranychus kanzawai,Tetranychus kanzawai,H0714,C072,0.0854,-0.0000,Tetranychus ludeni,NEAREST_IS_OTHER_SPECIES
+GQ141909.1,Tetranychus urticae,Tetranychus urticae,H0691,C045,0.0000,0.0024,Tetranychus truncatus,OK
+GQ141908.1,Tetranychus urticae,Tetranychus urticae,H0684,C045,0.0000,0.0049,Tetranychus truncatus,OK
+GQ141907.1,Tetranychus cinnabarinus,Tetranychus urticae,H0715,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+GQ141906.1,Tetranychus cinnabarinus,Tetranychus urticae,H0701,C045,0.0000,-0.0000,Tetranychus truncatus,OK
+FJ440678.1,Tetranychus evansi,Tetranychus evansi,H0716,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+FJ440677.1,Tetranychus evansi,Tetranychus evansi,H0717,C069,-0.0000,0.0012,Tetranychus malvae,OK
+FJ440676.1,Tetranychus evansi,Tetranychus evansi,H0718,C069,-0.0000,0.0284,Tetranychus malvae,OK
+FJ440675.1,Tetranychus evansi,Tetranychus evansi,H0719,C069,-0.0000,0.0235,Tetranychus malvae,OK
+AY044644.1,Tetranychus kanzawai,Tetranychus kanzawai,H0720,C042,0.0000,-0.0000,Tetranychus urticae,OK
+AY044646.1,Tetranychus kanzawai,Tetranychus kanzawai,H0721,C042,0.0000,0.0031,Tetranychus urticae,OK
+AY044645.1,Tetranychus kanzawai,Tetranychus kanzawai,H0721,C042,0.0000,0.0031,Tetranychus urticae,OK
+AY044643.1,Tetranychus kanzawai,Tetranychus kanzawai,H0720,C042,0.0000,-0.0000,Tetranychus urticae,OK
+AY044642.1,Tetranychus kanzawai,Tetranychus kanzawai,H0720,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KU516070.1,Tetranychus pueraricola,Tetranychus pueraricola,H0722,C044,-0.0000,0.0025,Tetranychus urticae,OK
+KU516069.1,Tetranychus pueraricola,Tetranychus pueraricola,H0723,C044,0.0013,0.0028,Tetranychus truncatus,OK
+KU516068.1,Tetranychus pueraricola,Tetranychus pueraricola,H0724,C044,-0.0000,0.0025,Tetranychus urticae,OK
+KU516067.1,Tetranychus pueraricola,Tetranychus pueraricola,H0725,C044,-0.0000,-0.0000,Tetranychus truncatus,OK
+KU516066.1,Tetranychus pueraricola,Tetranychus pueraricola,H0726,C044,-0.0000,0.0025,Tetranychus urticae,OK
+KU516065.1,Tetranychus pueraricola,Tetranychus pueraricola,H0727,C044,-0.0000,-0.0000,Tetranychus urticae,OK
+KU516064.1,Tetranychus pueraricola,Tetranychus pueraricola,H0728,C044,0.0013,0.0128,Tetranychus urticae,OK
+KU516063.1,Tetranychus pueraricola,Tetranychus pueraricola,H0729,C044,-0.0000,0.0025,Tetranychus urticae,OK
+KU516062.1,Tetranychus pueraricola,Tetranychus pueraricola,H0730,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+KU516061.1,Tetranychus pueraricola,Tetranychus pueraricola,H0731,C044,-0.0000,-0.0000,Tetranychus kanzawai,OK
+KU516060.1,Tetranychus pueraricola,Tetranychus pueraricola,H0732,C044,-0.0000,0.0025,Tetranychus urticae,OK
+KU516059.1,Tetranychus pueraricola,Tetranychus pueraricola,H0733,C044,0.0032,0.0019,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KU516058.1,Tetranychus pueraricola,Tetranychus pueraricola,H0734,C044,-0.0000,0.0051,Tetranychus urticae,OK
+KU516057.1,Tetranychus pueraricola,Tetranychus pueraricola,H0735,C044,-0.0000,0.0025,Tetranychus urticae,OK
+KU516056.1,Tetranychus pueraricola,Tetranychus pueraricola,H0736,C044,-0.0000,-0.0000,Tetranychus urticae,OK
+KU516055.1,Tetranychus pueraricola,Tetranychus pueraricola,H0737,C044,-0.0000,0.0025,Tetranychus urticae,OK
+DQ656483.1,Tetranychus cinnabarinus,Tetranychus urticae,H0738,C028,-0.0000,0.0266,Tetranychus turkestani,OK
+KX171200.1,Tetranychus puschelii,Tetranychus puschelii,H0739,C064,0.0025,0.1158,Tetranychus udaipurensis,OK
+KX171199.1,Tetranychus okinawanus,Tetranychus okinawanus,H0740,C049,0.0023,0.0045,Tetranychus gloveri,OK
+KX171198.1,Tetranychus kanzawai,Tetranychus kanzawai,H0741,C028,-0.0000,0.0033,Tetranychus urticae,OK
+KX171197.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0020,C002,0.0000,0.1384,Tetranychus evansi,OK
+KX171196.1,Tetranychus urticae,Tetranychus urticae,H0742,C028,-0.0000,0.0216,Tetranychus turkestani,OK
+KT208293.1,Tetranychus truncatus,Tetranychus truncatus,H0743,C031,-0.0000,0.0509,Tetranychus puschelii,OK
+KT208292.1,Tetranychus truncatus,Tetranychus truncatus,H0744,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KR733110.1,Tetranychus truncatus,Tetranychus truncatus,H0745,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KR271024.1,Tetranychus truncatus,Tetranychus truncatus,H0746,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KR271023.1,Tetranychus truncatus,Tetranychus truncatus,H0747,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KR260201.1,Tetranychus truncatus,Tetranychus truncatus,H0748,C045,-0.0000,0.0058,Tetranychus urticae,OK
+GU565324.1,Tetranychus urticae,Tetranychus urticae,H0649,C028,0.0000,0.0361,Tetranychus turkestani,OK
+GU565323.1,Tetranychus turkestani,Tetranychus turkestani,H0749,C028,0.0075,0.0030,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+GU565325.1,Tetranychus evansi,Tetranychus evansi,H0750,C069,0.0000,0.0123,Tetranychus malvae,OK
+GU565322.1,Tetranychus evansi,Tetranychus evansi,H0750,C069,0.0000,0.0123,Tetranychus malvae,OK
+KR870320.1,Tetranychus fijiensis,Tetranychus fijiensis,H0751,C032,0.0247,0.1171,Tetranychus neocaledonicus,OK
+KR870319.1,Tetranychus turkestani,Tetranychus turkestani,H0752,C063,0.0899,0.0058,Tetranychus udaipurensis,NEAREST_IS_OTHER_SPECIES
+KR870317.1,Tetranychus urticae,Tetranychus urticae,H0753,C028,-0.0000,0.0126,Tetranychus turkestani,OK
+KR297226.1,Tetranychus truncatus,Tetranychus truncatus,H0754,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KR269716.1,Tetranychus bambusae,Tetranychus bambusae,H0755,C033,0.1229,0.0911,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+KM596708.1,Tetranychus urticae,Tetranychus urticae,H0756,C028,-0.0000,0.0062,Tetranychus turkestani,OK
+KM596707.1,Tetranychus merganser,Tetranychus merganser,H0757,C034,0.0000,0.0672,Tetranychus ludeni,OK
+KM596706.1,Tetranychus merganser,Tetranychus merganser,H0757,C034,0.0000,0.0672,Tetranychus ludeni,OK
+KM596705.1,Tetranychus merganser,Tetranychus merganser,H0758,C034,-0.0000,0.0672,Tetranychus ludeni,OK
+KR052245.1,Tetranychus truncatus,Tetranychus truncatus,H0759,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+KR014232.1,Tetranychus urticae,Tetranychus urticae,H0760,C028,-0.0000,0.0119,Tetranychus turkestani,OK
+KP828065.1,Tetranychus kanzawai,Tetranychus kanzawai,H0761,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+KP828064.1,Tetranychus pueraricola,Tetranychus pueraricola,H0762,C044,-0.0000,-0.0000,Tetranychus urticae,OK
+KP828063.1,Tetranychus urticae,Tetranychus urticae,H0763,C028,-0.0000,0.0080,Tetranychus turkestani,OK
+KP828062.1,Tetranychus urticae,Tetranychus urticae,H0764,C028,-0.0000,0.0032,Tetranychus turkestani,OK
+KP828061.1,Tetranychus piercei,Tetranychus piercei,H0765,C047,0.0099,0.0074,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KP828060.1,Tetranychus phaselus,Tetranychus phaselus,H0766,C041,0.0025,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KP828059.1,Tetranychus ludeni,Tetranychus ludeni,H0767,C072,-0.0000,-0.0000,Tetranychus neocaledonicus,OK
+KP828058.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0768,C035,0.0025,0.0841,Tetranychus turkestani,OK
+KR072563.1,Tetranychus truncatus,Tetranychus truncatus,H0769,C045,-0.0000,0.0022,Tetranychus puschelii,OK
+KM823505.1,Tetranychus sp. UAS(B)-2014-Trivandrum (papaya),,H0770,C036,,,,UNNAMED
+KF977428.1,Tetranychus urticae,Tetranychus urticae,H0771,C028,0.0000,0.0479,Tetranychus turkestani,OK
+KF977427.1,Tetranychus urticae,Tetranychus urticae,H0772,C037,0.0398,0.0398,Tetranychus turkestani,OK
+KF977426.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977425.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977424.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977423.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977422.1,Tetranychus urticae,Tetranychus urticae,H0771,C028,0.0000,0.0479,Tetranychus turkestani,OK
+KF977421.1,Tetranychus urticae,Tetranychus urticae,H0771,C028,0.0000,0.0479,Tetranychus turkestani,OK
+KF977420.1,Tetranychus urticae,Tetranychus urticae,H0771,C028,0.0000,0.0479,Tetranychus turkestani,OK
+KF977419.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977418.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977417.1,Tetranychus urticae,Tetranychus urticae,H0771,C028,0.0000,0.0479,Tetranychus turkestani,OK
+KF977416.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977415.1,Tetranychus urticae,Tetranychus urticae,H0774,C028,0.0014,0.0468,Tetranychus turkestani,OK
+KF977414.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+KF977413.1,Tetranychus urticae,Tetranychus urticae,H0771,C028,0.0000,0.0479,Tetranychus turkestani,OK
+KM435068.1,Tetranychus urticae,Tetranychus urticae,H0775,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+KM435067.1,Tetranychus truncatus,Tetranychus truncatus,H0776,C045,0.0026,0.0077,Tetranychus urticae,OK
+KM435063.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0777,C038,0.0917,0.1228,Tetranychus udaipurensis,OK
+KM435061.1,Tetranychus fijiensis,Tetranychus fijiensis,H0778,C039,0.0806,0.1310,Tetranychus okinawanus,OK
+KJ000400.1,Tetranychus urticae,Tetranychus urticae,H0773,C028,0.0000,0.0071,Tetranychus turkestani,OK
+AB981240.1,Tetranychus turkestani,Tetranychus turkestani,H0779,C028,0.0067,0.0049,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+KJ729023.1,Tetranychus urticae,Tetranychus urticae,H0780,C028,-0.0000,0.0107,Tetranychus turkestani,OK
+KJ729022.1,Tetranychus urticae,Tetranychus urticae,H0781,C028,-0.0000,0.0116,Tetranychus turkestani,OK
+KJ729021.1,Tetranychus pueraricola,Tetranychus pueraricola,H0782,C044,-0.0000,0.0047,Tetranychus urticae,OK
+KJ729020.1,Tetranychus phaselus,Tetranychus phaselus,H0783,C041,-0.0000,0.0067,Tetranychus urticae,OK
+KJ729019.1,Tetranychus malaysiensis,Tetranychus macfarlanei,H0784,C035,-0.0000,0.0925,Tetranychus urticae,OK
+KJ729018.1,Tetranychus ludeni,Tetranychus ludeni,H0033,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+KJ729017.1,Tetranychus kanzawai,Tetranychus kanzawai,H0785,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+KM111296.1,Tetranychus truncatus,Tetranychus truncatus,H0786,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+KJ685915.1,Tetranychus okinawanus,Tetranychus okinawanus,H0787,C049,0.0111,0.0110,Tetranychus gloveri,NEAREST_IS_OTHER_SPECIES
+KF887952.1,Tetranychus urticae,Tetranychus urticae,H0788,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+KF534488.1,Tetranychus urticae,Tetranychus urticae,H0789,C028,0.0019,0.0149,Tetranychus turkestani,OK
+KF534487.1,Tetranychus urticae,Tetranychus urticae,H0790,C028,0.0019,0.0124,Tetranychus turkestani,OK
+KF534486.1,Tetranychus urticae,Tetranychus urticae,H0791,C028,0.0019,0.0232,Tetranychus turkestani,OK
+KF534485.1,Tetranychus urticae,Tetranychus urticae,H0792,C028,0.0019,0.0209,Tetranychus turkestani,OK
+KF534484.1,Tetranychus urticae,Tetranychus urticae,H0793,C028,-0.0000,0.0139,Tetranychus turkestani,OK
+KF160881.1,Tetranychus turkestani,Tetranychus turkestani,H0794,C028,-0.0000,-0.0000,Tetranychus urticae,OK
+KF544953.1,Tetranychus urticae,Tetranychus urticae,H0795,C028,-0.0000,0.0084,Tetranychus turkestani,OK
+KF544952.1,Tetranychus urticae,Tetranychus urticae,H0796,C028,-0.0000,0.0056,Tetranychus turkestani,OK
+KF447576.1,Tetranychus evansi,Tetranychus evansi,H0797,C069,-0.0000,0.0012,Tetranychus malvae,OK
+KF447575.1,Tetranychus evansi,Tetranychus evansi,H0798,C069,-0.0000,0.0222,Tetranychus malvae,OK
+KF447574.1,Tetranychus urticae,Tetranychus urticae,H0799,C028,-0.0000,0.0050,Tetranychus turkestani,OK
+KF447573.1,Tetranychus urticae,Tetranychus urticae,H0800,C028,-0.0000,0.0386,Tetranychus turkestani,OK
+KF447572.1,Tetranychus urticae,Tetranychus urticae,H0801,C028,-0.0000,0.0281,Tetranychus turkestani,OK
+KF447571.1,Tetranychus urticae,Tetranychus urticae,H0802,C028,-0.0000,0.0128,Tetranychus turkestani,OK
+KC136137.1,Tetranychus urticae,Tetranychus urticae,H0803,C028,0.0000,0.0298,Tetranychus turkestani,OK
+KC136136.1,Tetranychus urticae,Tetranychus urticae,H0803,C028,0.0000,0.0298,Tetranychus turkestani,OK
+KC136135.1,Tetranychus urticae,Tetranychus urticae,H0803,C028,0.0000,0.0298,Tetranychus turkestani,OK
+KC136134.1,Tetranychus urticae,Tetranychus urticae,H0803,C028,0.0000,0.0298,Tetranychus turkestani,OK
+KC136133.1,Tetranychus urticae,Tetranychus urticae,H0803,C028,0.0000,0.0298,Tetranychus turkestani,OK
+KC136132.1,Tetranychus urticae,Tetranychus urticae,H0804,C028,-0.0000,0.0228,Tetranychus turkestani,OK
+KC136131.1,Tetranychus kanzawai,Tetranychus kanzawai,H0805,C042,0.0000,0.0044,Tetranychus urticae,OK
+KC136130.1,Tetranychus kanzawai,Tetranychus kanzawai,H0805,C042,0.0000,0.0044,Tetranychus urticae,OK
+KC136129.1,Tetranychus kanzawai,Tetranychus kanzawai,H0805,C042,0.0000,0.0044,Tetranychus urticae,OK
+KC136128.1,Tetranychus kanzawai,Tetranychus kanzawai,H0805,C042,0.0000,0.0044,Tetranychus urticae,OK
+KC136127.1,Tetranychus kanzawai,Tetranychus kanzawai,H0805,C042,0.0000,0.0044,Tetranychus urticae,OK
+KC136126.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC136125.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC136124.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC136123.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC136122.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC136121.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC136120.1,Tetranychus kanzawai,Tetranychus kanzawai,H0806,C042,0.0000,-0.0000,Tetranychus urticae,OK
+KC667145.1,Tetranychus macfarlanei,Tetranychus macfarlanei,H0807,C040,0.0355,0.0879,Tetranychus parakanzawai,OK
+AB736081.1,Tetranychus urticae,Tetranychus urticae,H0808,C028,-0.0000,0.0177,Tetranychus turkestani,OK
+AB736080.1,Tetranychus urticae,Tetranychus urticae,H0809,C028,-0.0000,0.0198,Tetranychus turkestani,OK
+AB736079.1,Tetranychus urticae,Tetranychus urticae,H0810,C028,-0.0000,0.0097,Tetranychus turkestani,OK
+AB736078.1,Tetranychus urticae,Tetranychus urticae,H0811,C028,0.0000,0.0066,Tetranychus turkestani,OK
+AB736077.1,Tetranychus urticae,Tetranychus urticae,H0811,C028,0.0000,0.0066,Tetranychus turkestani,OK
+AB736076.1,Tetranychus urticae,Tetranychus urticae,H0812,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+AB736075.1,Tetranychus truncatus,Tetranychus truncatus,H0813,C045,0.0000,0.0032,Tetranychus puschelii,OK
+AB736074.1,Tetranychus truncatus,Tetranychus truncatus,H0813,C045,0.0000,0.0032,Tetranychus puschelii,OK
+AB736073.1,Tetranychus pueraricola,Tetranychus pueraricola,H0814,C044,0.0000,0.0167,Tetranychus urticae,OK
+AB736072.1,Tetranychus pueraricola,Tetranychus pueraricola,H0814,C044,0.0000,0.0167,Tetranychus urticae,OK
+AB736071.1,Tetranychus pueraricola,Tetranychus pueraricola,H0814,C044,0.0000,0.0167,Tetranychus urticae,OK
+AB736070.1,Tetranychus piercei,Tetranychus piercei,H0815,C047,0.0148,0.0270,Tetranychus urticae,OK
+AB736069.1,Tetranychus piercei,Tetranychus piercei,H0816,C047,0.0173,0.0270,Tetranychus urticae,OK
+AB736068.1,Tetranychus piercei,Tetranychus piercei,H0817,C047,0.0123,0.0202,Tetranychus urticae,OK
+AB736067.1,Tetranychus phaselus,Tetranychus phaselus,H0818,C041,0.0276,0.0340,Tetranychus urticae,OK
+AB736066.1,Tetranychus phaselus,Tetranychus phaselus,H0819,C041,0.0135,0.0224,Tetranychus urticae,OK
+AB736065.1,Tetranychus parakanzawai,Tetranychus parakanzawai,H0820,C051,0.0067,0.0055,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+AB736064.1,Tetranychus parakanzawai,Tetranychus parakanzawai,H0821,C042,0.0011,0.0299,Tetranychus kanzawai,OK
+AB736063.1,Tetranychus parakanzawai,Tetranychus parakanzawai,H0822,C042,0.0146,0.0306,Tetranychus kanzawai,OK
+AB736062.1,Tetranychus parakanzawai,Tetranychus parakanzawai,H0823,C051,0.0022,0.0014,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+AB736061.1,Tetranychus parakanzawai,Tetranychus parakanzawai,H0824,C042,0.0011,0.0299,Tetranychus kanzawai,OK
+AB736060.1,Tetranychus parakanzawai,Tetranychus parakanzawai,H0825,C051,0.0022,-0.0000,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES
+AB736059.1,Tetranychus okinawanus,Tetranychus okinawanus,H0826,C049,0.0045,0.0029,Tetranychus gloveri,NEAREST_IS_OTHER_SPECIES
+AB736058.1,Tetranychus okinawanus,Tetranychus okinawanus,H0827,C049,0.0045,0.0089,Tetranychus gloveri,OK
+AB736057.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0828,C080,-0.0000,0.0635,Tetranychus truncatus,OK
+AB736056.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0829,C080,0.0011,0.0640,Tetranychus turkestani,OK
+AB736055.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0830,C080,0.0011,0.0640,Tetranychus turkestani,OK
+AB736054.1,Tetranychus misumaiensis,Tetranychus misumaiensis,H0831,C043,,0.0861,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+AB736053.1,Tetranychus ludeni,Tetranychus ludeni,H0832,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+AB736052.1,Tetranychus ludeni,Tetranychus ludeni,H0833,C072,-0.0000,0.0047,Tetranychus neocaledonicus,OK
+AB736051.1,Tetranychus ludeni,Tetranychus ludeni,H0832,C072,0.0000,0.0024,Tetranychus neocaledonicus,OK
+AB736050.1,Tetranychus kanzawai,Tetranychus kanzawai,H0834,C042,0.0011,0.0031,Tetranychus urticae,OK
+AB736049.1,Tetranychus kanzawai,Tetranychus kanzawai,H0835,C042,-0.0000,0.0067,Tetranychus urticae,OK
+AB736048.1,Tetranychus kanzawai,Tetranychus kanzawai,H0836,C051,-0.0000,0.0090,Tetranychus ezoensis,OK
+AB736047.1,Tetranychus kanzawai,Tetranychus kanzawai,H0837,C042,0.0031,0.0062,Tetranychus urticae,OK
+AB736046.1,Tetranychus kanzawai,Tetranychus kanzawai,H0838,C042,0.0014,0.0062,Tetranychus urticae,OK
+AB736045.1,Tetranychus kanzawai,Tetranychus kanzawai,H0839,C051,0.0011,0.0101,Tetranychus ezoensis,OK
+AB736044.1,Tetranychus kanzawai,Tetranychus kanzawai,H0840,C042,0.0011,0.0061,Tetranychus urticae,OK
+AB736043.1,Tetranychus kanzawai,Tetranychus kanzawai,H0841,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+AB736042.1,Tetranychus ezoensis,Tetranychus ezoensis,H0842,C051,0.0000,0.0054,Tetranychus kanzawai,OK
+AB736041.1,Tetranychus ezoensis,Tetranychus ezoensis,H0842,C051,0.0000,0.0054,Tetranychus kanzawai,OK
+AB736040.1,Tetranychus evansi,Tetranychus evansi,H0843,C069,-0.0000,0.0022,Tetranychus malvae,OK
+AB736039.1,Tetranychus evansi,Tetranychus evansi,H0844,C069,-0.0000,0.0011,Tetranychus malvae,OK
+KC414661.1,Tetranychus truncatus,Tetranychus truncatus,H0845,C045,-0.0000,0.0025,Tetranychus urticae,OK
+KC414660.1,Tetranychus truncatus,Tetranychus truncatus,H0846,C045,0.0024,0.0024,Tetranychus urticae,OK
+KC414659.1,Tetranychus truncatus,Tetranychus truncatus,H0847,C045,0.0000,-0.0000,Tetranychus urticae,OK
+KC414658.1,Tetranychus truncatus,Tetranychus truncatus,H0848,C044,-0.0000,-0.0000,Tetranychus urticae,OK
+JX094378.1,Tetranychus kanzawai,Tetranychus kanzawai,H0849,C044,0.0024,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+JX094377.1,Tetranychus kanzawai,Tetranychus kanzawai,H0850,C044,0.0024,0.0024,Tetranychus urticae,OK
+JX094376.1,Tetranychus truncatus,Tetranychus truncatus,H0851,C045,-0.0000,0.0025,Tetranychus urticae,OK
+JX094375.1,Tetranychus truncatus,Tetranychus truncatus,H0852,C045,0.0024,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+JX094374.1,Tetranychus truncatus,Tetranychus truncatus,H0847,C045,0.0000,-0.0000,Tetranychus urticae,OK
+JX094373.1,Tetranychus kanzawai,Tetranychus kanzawai,H0853,C044,0.0049,-0.0000,Tetranychus pueraricola,NEAREST_IS_OTHER_SPECIES
+JX094372.1,Tetranychus phaselus,Tetranychus phaselus,H0854,C044,0.0074,0.0024,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+JX094371.1,Tetranychus phaselus,Tetranychus phaselus,H0855,C044,0.0074,0.0049,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+JX094370.1,Tetranychus pueraricola,Tetranychus pueraricola,H0856,C044,0.0026,0.0024,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+JX094367.1,Tetranychus pueraricola,Tetranychus pueraricola,H0857,C044,0.0024,0.0026,Tetranychus truncatus,OK
+JX094366.1,Tetranychus pueraricola,Tetranychus pueraricola,H0858,C044,-0.0000,0.0024,Tetranychus urticae,OK
+JX094365.1,Tetranychus truncatus,Tetranychus truncatus,H0859,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+JX094364.1,Tetranychus truncatus,Tetranychus truncatus,H0860,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+JX094363.1,Tetranychus truncatus,Tetranychus truncatus,H0861,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+JX094362.1,Tetranychus truncatus,Tetranychus truncatus,H0862,C045,-0.0000,0.0025,Tetranychus urticae,OK
+JX094361.1,Tetranychus truncatus,Tetranychus truncatus,H0863,C045,-0.0000,-0.0000,Tetranychus urticae,OK
+JX094360.1,Tetranychus truncatus,Tetranychus truncatus,H0864,C045,-0.0000,0.0025,Tetranychus urticae,OK
+JX075252.1,Tetranychus ludeni,Tetranychus ludeni,H0865,C072,-0.0000,0.0807,Tetranychus urticae,OK
+JX075251.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0866,C080,0.0086,0.0747,Tetranychus udaipurensis,OK
+JX075249.1,Tetranychus truncatus,Tetranychus truncatus,H0867,C045,0.0015,0.0016,Tetranychus puschelii,OK
+JQ438840.1,Tetranychus viennensis,Tetranychus viennensis,H0868,C046,0.0095,0.0739,Tetranychus truncatus,OK
+AB257317.1,Tetranychus truncatus,Tetranychus truncatus,H0869,C045,0.0000,0.0033,Tetranychus puschelii,OK
+AB257316.1,Tetranychus truncatus,Tetranychus truncatus,H0869,C045,0.0000,0.0033,Tetranychus puschelii,OK
+AB257315.1,Tetranychus truncatus,Tetranychus truncatus,H0869,C045,0.0000,0.0033,Tetranychus puschelii,OK
+AB257314.1,Tetranychus piercei,Tetranychus piercei,H0870,C047,0.0000,0.0393,Tetranychus urticae,OK
+AB257313.1,Tetranychus piercei,Tetranychus piercei,H0870,C047,0.0000,0.0393,Tetranychus urticae,OK
+FJ594469.1,Tetranychus urticae,Tetranychus urticae,H0871,C028,-0.0000,0.0269,Tetranychus turkestani,OK
+AF131110.1,Tetranychus piercei,Tetranychus piercei,H0872,C047,0.0251,0.0761,Tetranychus pueraricola,OK
+AF131109.1,Tetranychus viennensis,Tetranychus viennensis,H0873,C048,,0.1194,Tetranychus kanzawai,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+AF131108.1,Tetranychus truncatus,Tetranychus truncatus,H0874,C045,-0.0000,0.0023,Tetranychus puschelii,OK
+AF131107.1,Tetranychus kanzawai,Tetranychus kanzawai,H0875,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+AF131106.1,Tetranychus cinnabarinus,Tetranychus urticae,H0876,C044,0.0473,0.0019,Tetranychus pueraricola,NEAREST_IS_OTHER_SPECIES
+AF131105.1,Tetranychus urticae,Tetranychus urticae,H0877,C028,-0.0000,0.0098,Tetranychus turkestani,OK
+GQ258494.1,Tetranychus urticae,Tetranychus urticae,H0668,C028,0.0000,0.0308,Tetranychus turkestani,OK
+X80860.2,Tetranychus gloveri,Tetranychus gloveri,H0878,C049,0.0236,0.0151,Tetranychus okinawanus,NEAREST_IS_OTHER_SPECIES
+AB066470.1,Tetranychus kanzawai,Tetranychus kanzawai,H0879,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+AB066469.1,Tetranychus urticae,Tetranychus urticae,H0880,C028,0.0025,0.0280,Tetranychus turkestani,OK
+AB066468.1,Tetranychus urticae,Tetranychus urticae,H0881,C028,0.0102,0.0079,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+AB066467.1,Tetranychus urticae,Tetranychus urticae,H0882,C028,0.0000,0.0079,Tetranychus turkestani,OK
+AB066466.1,Tetranychus urticae,Tetranychus urticae,H0883,C028,-0.0000,0.0280,Tetranychus turkestani,OK
+AB066465.1,Tetranychus urticae,Tetranychus urticae,H0882,C028,0.0000,0.0079,Tetranychus turkestani,OK
+AB066464.1,Tetranychus urticae,Tetranychus urticae,H0882,C028,0.0000,0.0079,Tetranychus turkestani,OK
+AB066463.1,Tetranychus urticae,Tetranychus urticae,H0882,C028,0.0000,0.0079,Tetranychus turkestani,OK
+AB066462.1,Tetranychus urticae,Tetranychus urticae,H0882,C028,0.0000,0.0079,Tetranychus turkestani,OK
+AB066461.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066460.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066459.1,Tetranychus urticae,Tetranychus urticae,H0885,C028,-0.0000,0.0062,Tetranychus turkestani,OK
+AB066458.1,Tetranychus urticae,Tetranychus urticae,H0886,C028,0.0051,0.0197,Tetranychus turkestani,OK
+AB066457.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066456.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066455.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066454.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066453.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066452.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066451.1,Tetranychus urticae,Tetranychus urticae,H0887,C028,0.0000,0.0077,Tetranychus turkestani,OK
+AB066450.1,Tetranychus urticae,Tetranychus urticae,H0884,C028,0.0000,0.0062,Tetranychus turkestani,OK
+AB066449.1,Tetranychus urticae,Tetranychus urticae,H0887,C028,0.0000,0.0077,Tetranychus turkestani,OK
+AJ316606.1,Tetranychus urticae,Tetranychus urticae,H0888,C028,-0.0000,0.0145,Tetranychus turkestani,OK
+AJ316605.1,Tetranychus urticae,Tetranychus urticae,H0889,C028,-0.0000,-0.0000,Tetranychus turkestani,OK
+AJ316604.1,Tetranychus turkestani,Tetranychus turkestani,H0890,C028,0.0095,0.0188,Tetranychus urticae,OK
+AJ316603.1,Tetranychus turkestani,Tetranychus turkestani,H0891,C028,0.0203,0.0125,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+AJ316602.1,Tetranychus turkestani,Tetranychus turkestani,H0892,C028,0.0050,0.0105,Tetranychus urticae,OK
+AJ316601.1,Tetranychus turkestani,Tetranychus turkestani,H0893,C028,0.0000,-0.0000,Tetranychus urticae,OK
+AJ316600.1,Tetranychus turkestani,Tetranychus turkestani,H0894,C028,0.0047,-0.0000,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+AJ316599.1,Tetranychus urticae,Tetranychus urticae,H0895,C028,0.0012,0.0319,Tetranychus turkestani,OK
+AJ316598.1,Tetranychus urticae,Tetranychus urticae,H0896,C028,-0.0000,0.0012,Tetranychus turkestani,OK
+AJ316597.1,Tetranychus urticae,Tetranychus urticae,H0897,C028,0.0012,0.0320,Tetranychus turkestani,OK
+AJ414583.1,Tetranychus turkestani,Tetranychus turkestani,H0893,C028,0.0000,-0.0000,Tetranychus urticae,OK
+AJ414582.1,Tetranychus urticae,Tetranychus urticae,H0898,C028,-0.0000,0.0082,Tetranychus turkestani,OK
+AB116574.1,Tetranychus urticae,Tetranychus urticae,H0899,C028,-0.0000,0.0087,Tetranychus turkestani,OK
+AB116573.1,Tetranychus urticae,Tetranychus urticae,H0900,C028,-0.0000,0.0066,Tetranychus turkestani,OK
+AB116572.1,Tetranychus kanzawai,Tetranychus kanzawai,H0901,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+AB116571.1,Tetranychus kanzawai,Tetranychus kanzawai,H0902,C042,-0.0000,0.0024,Tetranychus urticae,OK
+AB116570.1,Tetranychus kanzawai,Tetranychus kanzawai,H0903,C042,-0.0000,0.0056,Tetranychus urticae,OK
+AB116569.1,Tetranychus kanzawai,Tetranychus kanzawai,H0904,C042,-0.0000,0.0066,Tetranychus urticae,OK
+AB116568.1,Tetranychus kanzawai,Tetranychus kanzawai,H0905,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+AB116566.1,Tetranychus kanzawai,Tetranychus kanzawai,H0906,C042,0.0014,0.0071,Tetranychus urticae,OK
+AB079105.2,Tetranychus kanzawai,Tetranychus kanzawai,H0907,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+AB079103.2,Tetranychus kanzawai,Tetranychus kanzawai,H0908,C042,-0.0000,0.0049,Tetranychus urticae,OK
+AB079051.2,Tetranychus kanzawai,Tetranychus kanzawai,H0909,C042,-0.0000,0.0013,Tetranychus urticae,OK
+AB079050.2,Tetranychus kanzawai,Tetranychus kanzawai,H0910,C042,-0.0000,0.0026,Tetranychus bambusae,OK
+AB079049.2,Tetranychus kanzawai,Tetranychus kanzawai,H0911,C042,0.0102,0.0152,Tetranychus urticae,OK
+AB079048.2,Tetranychus kanzawai,Tetranychus kanzawai,H0912,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+AB079042.2,Tetranychus kanzawai,Tetranychus kanzawai,H0913,C042,-0.0000,0.0066,Tetranychus urticae,OK
+AB079041.2,Tetranychus kanzawai,Tetranychus kanzawai,H0914,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+AB079040.2,Tetranychus kanzawai,Tetranychus kanzawai,H0915,C042,-0.0000,0.0028,Tetranychus bambusae,OK
+AB079039.2,Tetranychus kanzawai,Tetranychus kanzawai,H0916,C042,-0.0000,0.0039,Tetranychus bambusae,OK
+AB079037.2,Tetranychus kanzawai,Tetranychus kanzawai,H0917,C042,-0.0000,0.0048,Tetranychus urticae,OK
+AB079036.2,Tetranychus kanzawai,Tetranychus kanzawai,H0918,C042,-0.0000,0.0047,Tetranychus urticae,OK
+AB079035.2,Tetranychus kanzawai,Tetranychus kanzawai,H0919,C051,0.0028,0.0014,Tetranychus parakanzawai,NEAREST_IS_OTHER_SPECIES
+AB079034.2,Tetranychus kanzawai,Tetranychus kanzawai,H0920,C051,0.0270,0.0270,Tetranychus parakanzawai,OK
+AB079033.2,Tetranychus kanzawai,Tetranychus kanzawai,H0921,C051,0.0028,-0.0000,Tetranychus parakanzawai,NEAREST_IS_OTHER_SPECIES
+X99875.1,Tetranychus viennensis,Tetranychus viennensis,H0922,C050,0.0502,0.0898,Tetranychus urticae,OK
+AB079112.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079110.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079109.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079108.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079107.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079106.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079104.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079102.1,Tetranychus kanzawai,Tetranychus kanzawai,H0924,C042,-0.0000,0.0027,Tetranychus urticae,OK
+AB079052.1,Tetranychus kanzawai,Tetranychus kanzawai,H0925,C051,-0.0000,0.0054,Tetranychus ezoensis,OK
+AB079047.1,Tetranychus kanzawai,Tetranychus kanzawai,H0923,C042,0.0000,-0.0000,Tetranychus bambusae,OK
+AB079045.1,Tetranychus urticae,Tetranychus urticae,H0926,C028,-0.0000,0.0033,Tetranychus turkestani,OK
+AB079044.1,Tetranychus urticae,Tetranychus urticae,H0927,C028,-0.0000,0.0084,Tetranychus turkestani,OK
+AB079043.1,Tetranychus kanzawai,Tetranychus kanzawai,H0928,C042,-0.0000,0.0027,Tetranychus urticae,OK
+AB079038.1,Tetranychus kanzawai,Tetranychus kanzawai,H0929,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+X80855.1,Tetranychus urticae,Tetranychus urticae,H0930,C028,0.0025,-0.0000,Tetranychus turkestani,NEAREST_IS_OTHER_SPECIES
+X74571.1,Tetranychus urticae,Tetranychus urticae,H0931,C028,0.0054,0.0309,Tetranychus turkestani,OK
+X80861.1,Tetranychus viennensis,Tetranychus viennensis,H0932,C052,0.0428,0.0664,Tetranychus truncatus,OK
+X80858.1,Tetranychus pacificus,Tetranychus pacificus,H0933,C053,,0.0613,Tetranychus mcdanieli,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+X80859.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0934,C054,0.0446,0.0356,Tetranychus udaipurensis,NEAREST_IS_OTHER_SPECIES
+X80857.1,Tetranychus mcdanieli,Tetranychus mcdanieli,H0935,C055,,0.0613,Tetranychus pacificus,NEAREST_IS_OTHER_SPECIES;NO_CONSPECIFIC_FOR_COMPARISON
+X80856.1,Tetranychus kanzawai,Tetranychus kanzawai,H0936,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+ALSTA1136-17,Tetranychus,,H0511,C066,,,,UNNAMED
+ALSTB2498-17,Tetranychus urticae,Tetranychus urticae,H0476,C028,0.0000,0.0228,Tetranychus turkestani,OK
+ALSTB2505-17,Tetranychus,,H0511,C066,,,,UNNAMED
+ARCN094-10,Tetranychus pacificus,Tetranychus pacificus,H0937,C081,0.0127,0.1049,Tetranychus pueraricola,OK
+CIDTA17949-25,Tetranychus kanzawai,Tetranychus kanzawai,H0176,C042,0.0000,-0.0000,Tetranychus urticae,OK
+CIDTA21325-25,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0938,C080,0.0133,0.0763,Tetranychus udaipurensis,OK
+CISKC8628-25,Tetranychus kanzawai,Tetranychus kanzawai,H0176,C042,0.0000,-0.0000,Tetranychus urticae,OK
+CNRVC063-15,Tetranychus,,H0939,C028,,,,UNNAMED
+CNRVD1785-15,Tetranychus,,H0940,C028,,,,UNNAMED
+CNSID4307-15,Tetranychus,,H0941,C028,,,,UNNAMED
+CNSID4334-15,Tetranychus turkestani,Tetranychus turkestani,H0942,C028,0.0086,0.0109,Tetranychus urticae,OK
+CNSIE1217-15,Tetranychus,,H0943,C028,,,,UNNAMED
+CNSIE2488-15,Tetranychus,,H0944,C028,,,,UNNAMED
+CNSLP442-13,Tetranychus,,H0945,C077,,,,UNNAMED
+CRW094-21,Tetranychus,,H0177,C028,,,,UNNAMED
+CRW095-21,Tetranychus,,H0946,C028,,,,UNNAMED
+CSSDN314-14,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H0947,C080,-0.0000,0.0748,Tetranychus udaipurensis,OK
+DTULO3544-24,Tetranychus,,H0948,C066,,,,UNNAMED
+EMISA5117-22,Tetranychus,,H0949,C060,,,,UNNAMED
+EMISA5133-22,Tetranychus,,H0950,C060,,,,UNNAMED
+EMISA5629-22,Tetranychus,,H0951,C060,,,,UNNAMED
+EMISA5638-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA5641-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA582-22,Tetranychus,,H0950,C060,,,,UNNAMED
+EMISA584-22,Tetranychus,,H0953,C060,,,,UNNAMED
+EMISA596-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA601-22,Tetranychus,,H0955,C060,,,,UNNAMED
+EMISA618-22,Tetranychus,,H0956,C056,,,,UNNAMED
+EMISA627-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA638-22,Tetranychus,,H0957,C060,,,,UNNAMED
+EMISA660-22,Tetranychus,,H0958,C060,,,,UNNAMED
+EMISA681-22,Tetranychus,,H0955,C060,,,,UNNAMED
+EMISA707-22,Tetranychus,,H0949,C060,,,,UNNAMED
+EMISA7254-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA759-22,Tetranychus,,H0955,C060,,,,UNNAMED
+EMISA766-22,Tetranychus,,H0959,C060,,,,UNNAMED
+EMISA7718-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7723-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7725-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7732-22,Tetranychus,,H0960,C058,,,,UNNAMED
+EMISA7733-22,Tetranychus,,H0961,C060,,,,UNNAMED
+EMISA7735-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7740-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7741-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7746-22,Tetranychus,,H0952,C058,,,,UNNAMED
+EMISA7750-22,Tetranychus,,H0962,C058,,,,UNNAMED
+EMISA777-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA7771-22,Tetranychus,,H0963,C057,,,,UNNAMED
+EMISA7781-22,Tetranychus,,H0964,C058,,,,UNNAMED
+EMISA7788-22,Tetranychus,,H0965,C058,,,,UNNAMED
+EMISA783-22,Tetranychus,,H0955,C060,,,,UNNAMED
+EMISA796-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA798-22,Tetranychus,,H0966,C058,,,,UNNAMED
+EMISA799-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA800-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA808-22,Tetranychus,,H0960,C058,,,,UNNAMED
+EMISA813-22,Tetranychus,,H0949,C060,,,,UNNAMED
+EMISA814-22,Tetranychus,,H0960,C058,,,,UNNAMED
+EMISA816-22,Tetranychus,,H0959,C060,,,,UNNAMED
+EMISA817-22,Tetranychus,,H0954,C060,,,,UNNAMED
+EMISA820-22,Tetranychus,,H0960,C058,,,,UNNAMED
+EMPUL22534-23,Tetranychus,,H0967,C061,,,,UNNAMED
+EMSCB4379-22,Tetranychus,,H0968,C060,,,,UNNAMED
+EMSCB4390-22,Tetranychus,,H0969,C060,,,,UNNAMED
+EMSCB5088-22,Tetranychus okinawanus,Tetranychus okinawanus,H0970,C059,0.0656,0.0639,Tetranychus gloveri,NEAREST_IS_OTHER_SPECIES
+EMSCB971-22,Tetranychus,,H0971,C060,,,,UNNAMED
+EMSCZ10615-22,Tetranychus,,H0961,C060,,,,UNNAMED
+EMSCZ10633-22,Tetranychus,,H0972,C060,,,,UNNAMED
+EMSCZ1098-22,Tetranychus,,H0955,C060,,,,UNNAMED
+EMSCZ2100-22,Tetranychus,,H0973,C060,,,,UNNAMED
+EOTEL001-22,Tetranychus lewisi,Tetranychus lewisi,H0974,C061,0.0000,0.1088,Tetranychus pueraricola,OK
+EOTEL002-22,Tetranychus lewisi,Tetranychus lewisi,H0974,C061,0.0000,0.1088,Tetranychus pueraricola,OK
+EOTEL003-22,Tetranychus lewisi,Tetranychus lewisi,H0974,C061,0.0000,0.1088,Tetranychus pueraricola,OK
+EOTEL004-22,Tetranychus lewisi,Tetranychus lewisi,H0974,C061,0.0000,0.1088,Tetranychus pueraricola,OK
+GACAC6362-19,Tetranychus urticae,Tetranychus urticae,H0975,C028,-0.0000,0.0048,Tetranychus turkestani,OK
+GACAC6366-19,Tetranychus okinawanus,Tetranychus okinawanus,H0976,C062,0.0734,0.0893,Tetranychus gloveri,OK
+GACAC6380-19,Tetranychus lombardinii,Tetranychus lombardinii,H0977,C065,-0.0000,0.0421,Tetranychus urticae,OK
+GACAC6383-19,Tetranychus udaipurensis,Tetranychus udaipurensis,H0978,C063,-0.0000,0.0056,Tetranychus truncatus,OK
+GACAC6384-19,Tetranychus puschelii,Tetranychus puschelii,H0979,C064,0.0050,0.0918,Tetranychus urticae,OK
+GACAC6442-19,Tetranychus kanzawai,Tetranychus kanzawai,H0980,C028,0.0048,0.0100,Tetranychus urticae,OK
+GBMIN116037-17,Tetranychus puschelii,Tetranychus puschelii,H0981,C064,0.0025,0.0916,Tetranychus urticae,OK
+GBMIN116038-17,Tetranychus lombardinii,Tetranychus lombardinii,H0982,C065,-0.0000,0.0438,Tetranychus turkestani,OK
+GBMIN116039-17,Tetranychus udaipurensis,Tetranychus udaipurensis,H0983,C063,-0.0000,0.0030,Tetranychus neocaledonicus,OK
+GBMTG2290-16,Tetranychus cinnabarinus,Tetranychus urticae,H0984,C042,-0.0000,-0.0000,Tetranychus bambusae,OK
+GBMTG3729-16,Tetranychus kanzawai,Tetranychus kanzawai,H0985,C042,-0.0000,-0.0000,Tetranychus urticae,OK
+GBMTG3732-16,Tetranychus ludeni,Tetranychus ludeni,H0986,C072,-0.0000,0.0024,Tetranychus neocaledonicus,OK
+GBMTG3735-16,Tetranychus malaysiensis,Tetranychus macfarlanei,H0987,C035,-0.0000,0.0925,Tetranychus urticae,OK
+GBMTG3739-16,Tetranychus phaselus,Tetranychus phaselus,H0988,C041,-0.0000,0.0067,Tetranychus urticae,OK
+GBMTG3744-16,Tetranychus pueraricola,Tetranychus pueraricola,H0989,C044,-0.0000,0.0047,Tetranychus urticae,OK
+GBMTG3748-16,Tetranychus truncatus,Tetranychus truncatus,H0990,C045,-0.0000,0.0032,Tetranychus puschelii,OK
+GENSM1091-18,Tetranychus urticae,Tetranychus urticae,H0476,C028,0.0000,0.0228,Tetranychus turkestani,OK
+GENSM1092-18,Tetranychus urticae,Tetranychus urticae,H0991,C028,-0.0000,0.0269,Tetranychus turkestani,OK
+GENSM1093-18,Tetranychus urticae,Tetranychus urticae,H0992,C028,0.0000,0.0252,Tetranychus turkestani,OK
+GENSM1094-18,Tetranychus urticae,Tetranychus urticae,H0992,C028,0.0000,0.0252,Tetranychus turkestani,OK
+GENSM1095-18,Tetranychus urticae,Tetranychus urticae,H0993,C028,-0.0000,0.0267,Tetranychus turkestani,OK
+GENSM1096-18,Tetranychus urticae,Tetranychus urticae,H0992,C028,0.0000,0.0252,Tetranychus turkestani,OK
+GENSM1098-18,Tetranychus urticae,Tetranychus urticae,H0992,C028,0.0000,0.0252,Tetranychus turkestani,OK
+GMAFN744-15,Tetranychus ludeni,Tetranychus ludeni,H0994,C072,-0.0000,0.1128,Tetranychus pacificus,OK
+GMAFN948-15,Tetranychus ludeni,Tetranychus ludeni,H0995,C072,-0.0000,0.1135,Tetranychus pacificus,OK
+GMAFO545-15,Tetranychus ludeni,Tetranychus ludeni,H0996,C072,0.0016,0.0998,Tetranychus urticae,OK
+GMARX13933-23,Tetranychus,,H0997,C073,,,,UNNAMED
+GMBCC3296-15,Tetranychus ludeni,Tetranychus ludeni,H0998,C072,-0.0000,0.1143,Tetranychus urticae,OK
+GMBCH3636-15,Tetranychus truncatus,Tetranychus truncatus,H0999,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+GMBCH3638-15,Tetranychus truncatus,Tetranychus truncatus,H0999,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+GMBCI4592-15,Tetranychus truncatus,Tetranychus truncatus,H1000,C045,-0.0000,-0.0000,Tetranychus puschelii,OK
+GMBLK2995-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK3001-24,Tetranychus,,H1001,C072,,,,UNNAMED
+GMBLK3048-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK3049-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK3060-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK3072-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK6082-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK6178-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK6196-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK8112-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK8116-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK8128-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK8129-24,Tetranychus,,H1002,C072,,,,UNNAMED
+GMBLK8238-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK8599-24,Tetranychus,,H1003,C072,,,,UNNAMED
+GMBLK8602-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK8604-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK9026-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBLK9036-24,Tetranychus,,H0261,C072,,,,UNNAMED
+GMBMP2971-18,Tetranychus urticae,Tetranychus urticae,H1004,C028,0.0000,0.0269,Tetranychus turkestani,OK
+GMBMP3089-18,Tetranychus urticae,Tetranychus urticae,H1004,C028,0.0000,0.0269,Tetranychus turkestani,OK
+GMBSS2079-18,Tetranychus,,H1005,C066,,,,UNNAMED
+GMBWA3901-21,Tetranychus ludeni,Tetranychus ludeni,H1006,C072,-0.0000,0.0865,Tetranychus urticae,OK
+GMBWA9053-21,Tetranychus ludeni,Tetranychus ludeni,H1007,C072,0.0000,0.0879,Tetranychus urticae,OK
+GMBWA9054-21,Tetranychus ludeni,Tetranychus ludeni,H1008,C072,-0.0000,0.0879,Tetranychus urticae,OK
+GMBWA9055-21,Tetranychus ludeni,Tetranychus ludeni,H1007,C072,0.0000,0.0879,Tetranychus urticae,OK
+GMBWA9056-21,Tetranychus ludeni,Tetranychus ludeni,H1007,C072,0.0000,0.0879,Tetranychus urticae,OK
+GMBWA9057-21,Tetranychus ludeni,Tetranychus ludeni,H1009,C072,-0.0000,0.0879,Tetranychus urticae,OK
+GMBWA9072-21,Tetranychus ludeni,Tetranychus ludeni,H1007,C072,0.0000,0.0879,Tetranychus urticae,OK
+GMCHC733-14,Tetranychus,,H1010,C044,,,,UNNAMED
+GMCXA12373-23,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+GMEEO18045-22,Tetranychus,,H1011,C028,,,,UNNAMED
+GMEEO2799-21,Tetranychus,,H1012,C028,,,,UNNAMED
+GMEEO2806-21,Tetranychus,,H1013,C028,,,,UNNAMED
+GMEEO2811-21,Tetranychus,,H1014,C028,,,,UNNAMED
+GMEEO4914-21,Tetranychus,,H1015,C028,,,,UNNAMED
+GMEEO7604-21,Tetranychus,,H1016,C028,,,,UNNAMED
+GMEEO7605-21,Tetranychus,,H1017,C028,,,,UNNAMED
+GMEEO9916-21,Tetranychus urticae,Tetranychus urticae,H1018,C028,-0.0000,0.0142,Tetranychus turkestani,OK
+GMEGB459-14,Tetranychus,,H1019,C028,,,,UNNAMED
+GMEGC226-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC230-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC232-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC235-14,Tetranychus,,H1021,C028,,,,UNNAMED
+GMEGC237-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC239-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC240-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC241-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC242-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC243-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC245-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC248-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC249-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC250-14,Tetranychus,,H1024,C028,,,,UNNAMED
+GMEGC251-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC252-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC255-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC259-14,Tetranychus urticae,Tetranychus urticae,H1025,C028,0.0033,0.0331,Tetranychus turkestani,OK
+GMEGC262-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC263-14,Tetranychus urticae,Tetranychus urticae,H1026,C028,-0.0000,0.0160,Tetranychus turkestani,OK
+GMEGC265-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC266-14,Tetranychus,,H1027,C028,,,,UNNAMED
+GMEGC267-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC268-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC272-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC275-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC276-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC277-14,Tetranychus,,H1024,C028,,,,UNNAMED
+GMEGC279-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC282-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC284-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC285-14,Tetranychus,,H1028,C028,,,,UNNAMED
+GMEGC286-14,Tetranychus,,H1029,C028,,,,UNNAMED
+GMEGC287-14,Tetranychus,,H1024,C028,,,,UNNAMED
+GMEGC289-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC290-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC292-14,Tetranychus,,H1030,C028,,,,UNNAMED
+GMEGC293-14,Tetranychus,,H1031,C028,,,,UNNAMED
+GMEGC294-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC296-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGC297-14,Tetranychus,,H1032,C028,,,,UNNAMED
+GMEGC298-14,Tetranychus,,H1033,C028,,,,UNNAMED
+GMEGC299-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGC300-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC301-14,Tetranychus,,H1034,C028,,,,UNNAMED
+GMEGC309-14,Tetranychus,,H1035,C028,,,,UNNAMED
+GMEGC311-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC314-14,Tetranychus,,H1036,C028,,,,UNNAMED
+GMEGC315-14,Tetranychus,,H1022,C028,,,,UNNAMED
+GMEGC316-14,Tetranychus,,H1020,C028,,,,UNNAMED
+GMEGF137-14,Tetranychus,,H1029,C028,,,,UNNAMED
+GMEGK769-14,Tetranychus,,H1037,C028,,,,UNNAMED
+GMEGK793-14,Tetranychus,,H1023,C028,,,,UNNAMED
+GMEGK797-14,Tetranychus,,H1038,C028,,,,UNNAMED
+GMEGM253-14,Tetranychus,,H1039,C028,,,,UNNAMED
+GMFPS251-18,Tetranychus urticae,Tetranychus urticae,H1040,C028,-0.0000,0.0229,Tetranychus turkestani,OK
+GMFPU384-18,Tetranychus urticae,Tetranychus urticae,H1041,C028,-0.0000,0.0230,Tetranychus turkestani,OK
+GMGSJ769-13,Tetranychus,,H1042,C078,,,,UNNAMED
+GMGSQ802-13,Tetranychus,,H0152,C078,,,,UNNAMED
+GMIHB2176-18,Tetranychus,,H1043,C028,,,,UNNAMED
+GMIHD1540-18,Tetranychus ludeni,Tetranychus ludeni,H1044,C072,0.0035,0.0886,Tetranychus urticae,OK
+GMKMN1448-15,Tetranychus evansi,Tetranychus evansi,H1045,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+GMKMZ1678-15,Tetranychus,,H1046,C067,,,,UNNAMED
+GMLCL3098-23,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+GMLCL3959-23,Tetranychus,,H1047,C028,,,,UNNAMED
+GMMBQ1215-16,Tetranychus,,H1048,C068,,,,UNNAMED
+GMNHT1073-18,Tetranychus urticae,Tetranychus urticae,H1049,C028,-0.0000,0.0271,Tetranychus turkestani,OK
+GMODL10207-23,Tetranychus turkestani,Tetranychus turkestani,H1050,C028,-0.0000,0.0250,Tetranychus urticae,OK
+GMODL1904-15,Tetranychus pacificus,Tetranychus pacificus,H1051,C081,0.0154,0.1017,Tetranychus pueraricola,OK
+GMODL1915-15,Tetranychus,,H1052,C028,,,,UNNAMED
+GMODL7368-22,Tetranychus turkestani,Tetranychus turkestani,H1053,C028,0.0000,0.0251,Tetranychus urticae,OK
+GMODL7375-22,Tetranychus turkestani,Tetranychus turkestani,H1054,C028,0.0000,0.0250,Tetranychus urticae,OK
+GMODL7377-22,Tetranychus turkestani,Tetranychus turkestani,H1053,C028,0.0000,0.0251,Tetranychus urticae,OK
+GMODL7378-22,Tetranychus,,H1055,C028,,,,UNNAMED
+GMODL7380-22,Tetranychus turkestani,Tetranychus turkestani,H1054,C028,0.0000,0.0250,Tetranychus urticae,OK
+GMODL7381-22,Tetranychus turkestani,Tetranychus turkestani,H1056,C028,0.0000,0.0250,Tetranychus urticae,OK
+GMODL7382-22,Tetranychus turkestani,Tetranychus turkestani,H1056,C028,0.0000,0.0250,Tetranychus urticae,OK
+GMODL7384-22,Tetranychus,,H1057,C028,,,,UNNAMED
+GMODL7386-22,Tetranychus turkestani,Tetranychus turkestani,H1056,C028,0.0000,0.0250,Tetranychus urticae,OK
+GMPBK418-18,Tetranychus ludeni,Tetranychus ludeni,H1058,C072,-0.0000,0.0920,Tetranychus urticae,OK
+GMPBL293-18,Tetranychus ludeni,Tetranychus ludeni,H1059,C072,-0.0000,0.0894,Tetranychus urticae,OK
+GMPBL335-18,Tetranychus ludeni,Tetranychus ludeni,H1060,C072,-0.0000,0.0878,Tetranychus urticae,OK
+GMPBL478-18,Tetranychus ludeni,Tetranychus ludeni,H1061,C072,0.0000,0.0882,Tetranychus urticae,OK
+GMPBL691-18,Tetranychus ludeni,Tetranychus ludeni,H1062,C072,-0.0000,0.0885,Tetranychus urticae,OK
+GMPBL712-18,Tetranychus ludeni,Tetranychus ludeni,H1063,C072,0.0017,0.0920,Tetranychus urticae,OK
+GMPBL727-18,Tetranychus ludeni,Tetranychus ludeni,H1064,C072,0.0022,0.0992,Tetranychus urticae,OK
+GMPBL731-18,Tetranychus ludeni,Tetranychus ludeni,H1065,C072,0.0000,0.0885,Tetranychus urticae,OK
+GMPBL743-18,Tetranychus ludeni,Tetranychus ludeni,H1065,C072,0.0000,0.0885,Tetranychus urticae,OK
+GMPBL748-18,Tetranychus ludeni,Tetranychus ludeni,H1065,C072,0.0000,0.0885,Tetranychus urticae,OK
+GMPBL751-18,Tetranychus ludeni,Tetranychus ludeni,H1065,C072,0.0000,0.0885,Tetranychus urticae,OK
+GMPBL756-18,Tetranychus ludeni,Tetranychus ludeni,H1066,C072,-0.0000,0.0882,Tetranychus urticae,OK
+GMPBL758-18,Tetranychus ludeni,Tetranychus ludeni,H1065,C072,0.0000,0.0885,Tetranychus urticae,OK
+GMPCL1046-23,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+GMPJA1204-21,Tetranychus urticae,Tetranychus urticae,H1067,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPJA3795-21,Tetranychus kanzawai,Tetranychus kanzawai,H1068,C028,0.0024,0.0083,Tetranychus urticae,OK
+GMPKP014-23,Tetranychus urticae,Tetranychus urticae,H1069,C028,-0.0000,0.0261,Tetranychus turkestani,OK
+GMPKP087-23,Tetranychus urticae,Tetranychus urticae,H1070,C028,-0.0000,0.0252,Tetranychus turkestani,OK
+GMPPO10357-21,Tetranychus urticae,Tetranychus urticae,H1067,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO11486-21,Tetranychus urticae,Tetranychus urticae,H1071,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO11783-21,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPPO11784-21,Tetranychus urticae,Tetranychus urticae,H1073,C028,0.0031,0.0231,Tetranychus turkestani,OK
+GMPPO11785-21,Tetranychus urticae,Tetranychus urticae,H1067,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO11786-21,Tetranychus urticae,Tetranychus urticae,H1074,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPPO11800-21,Tetranychus urticae,Tetranychus urticae,H1075,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO12292-21,Tetranychus urticae,Tetranychus urticae,H1075,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO1490-21,Tetranychus urticae,Tetranychus urticae,H1076,C028,0.0016,0.0218,Tetranychus turkestani,OK
+GMPPO1494-21,Tetranychus urticae,Tetranychus urticae,H1071,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO21781-22,Tetranychus urticae,Tetranychus urticae,H1077,C028,-0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO45011-24,Tetranychus urticae,Tetranychus urticae,H1078,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPPO4728-21,Tetranychus urticae,Tetranychus urticae,H1079,C028,-0.0000,0.0195,Tetranychus turkestani,OK
+GMPPO5979-21,Tetranychus urticae,Tetranychus urticae,H1074,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPPO5988-21,Tetranychus urticae,Tetranychus urticae,H1075,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPSA14411-23,Tetranychus urticae,Tetranychus urticae,H1078,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA1542-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA16386-23,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA34853-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA34854-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA34891-24,Tetranychus,,H1080,C028,,,,UNNAMED
+GMPSA35340-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA35341-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA35342-24,Tetranychus,,H1081,C028,,,,UNNAMED
+GMPSA35343-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA35344-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA35349-24,Tetranychus,,H1078,C028,,,,UNNAMED
+GMPSA35604-24,Tetranychus,,H1082,C028,,,,UNNAMED
+GMPSA3811-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA3812-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA3813-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA3815-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA3818-23,Tetranychus urticae,Tetranychus urticae,H1075,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPSA3819-23,Tetranychus urticae,Tetranychus urticae,H1071,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPSA3823-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA3824-23,Tetranychus urticae,Tetranychus urticae,H1074,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA5692-23,Tetranychus urticae,Tetranychus urticae,H1074,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA6653-23,Tetranychus urticae,Tetranychus urticae,H1083,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA6654-23,Tetranychus urticae,Tetranychus urticae,H1083,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA6655-23,Tetranychus urticae,Tetranychus urticae,H1072,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSA6656-23,Tetranychus urticae,Tetranychus urticae,H1074,C028,0.0000,0.0194,Tetranychus turkestani,OK
+GMPSE14324-24,Tetranychus,,H1084,C028,,,,UNNAMED
+GMPSE17124-24,Tetranychus,,H1084,C028,,,,UNNAMED
+GMPSE9871-23,Tetranychus kanzawai,Tetranychus kanzawai,H1085,C028,0.0031,0.0083,Tetranychus urticae,OK
+GMPSE9927-23,Tetranychus urticae,Tetranychus urticae,H1067,C028,0.0000,0.0195,Tetranychus turkestani,OK
+GMPTJ8390-23,Tetranychus urticae,Tetranychus urticae,H1086,C028,0.0016,0.0278,Tetranychus turkestani,OK
+GMRBB084-15,Tetranychus ludeni,Tetranychus ludeni,H1087,C072,-0.0000,0.1141,Tetranychus urticae,OK
+GMRBV116-15,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1088,C080,-0.0000,0.0672,Tetranychus udaipurensis,OK
+GMRCA216-15,Tetranychus ludeni,Tetranychus ludeni,H1089,C072,0.0000,0.1171,Tetranychus urticae,OK
+GMRCA224-15,Tetranychus ludeni,Tetranychus ludeni,H1089,C072,0.0000,0.1171,Tetranychus urticae,OK
+GMRCA230-15,Tetranychus ludeni,Tetranychus ludeni,H1090,C072,-0.0000,0.1133,Tetranychus truncatus,OK
+GMRCA239-15,Tetranychus ludeni,Tetranychus ludeni,H1091,C072,-0.0000,0.1137,Tetranychus truncatus,OK
+GMRCA240-15,Tetranychus ludeni,Tetranychus ludeni,H1092,C072,0.0000,0.1152,Tetranychus urticae,OK
+GMRCA258-15,Tetranychus ludeni,Tetranychus ludeni,H1092,C072,0.0000,0.1152,Tetranychus urticae,OK
+GMRCA259-15,Tetranychus ludeni,Tetranychus ludeni,H1093,C072,-0.0000,0.1144,Tetranychus truncatus,OK
+GMRCB128-15,Tetranychus ludeni,Tetranychus ludeni,H1094,C072,-0.0000,0.1163,Tetranychus urticae,OK
+GMRCB153-15,Tetranychus ludeni,Tetranychus ludeni,H1095,C072,-0.0000,0.1138,Tetranychus urticae,OK
+GMRCD202-15,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1096,C080,-0.0000,0.0652,Tetranychus udaipurensis,OK
+GMRCF220-15,Tetranychus ludeni,Tetranychus ludeni,H1097,C072,-0.0000,0.1152,Tetranychus urticae,OK
+GMRDD145-18,Tetranychus evansi,Tetranychus evansi,H1098,C069,0.0024,0.0047,Tetranychus malvae,OK
+GMRDH098-18,Tetranychus ludeni,Tetranychus ludeni,H1099,C072,-0.0000,0.0998,Tetranychus urticae,OK
+GMRMG050-14,Tetranychus urticae,Tetranychus urticae,H1100,C028,0.0019,0.0155,Tetranychus turkestani,OK
+GMRSQ715-15,Tetranychus,,H1101,C044,,,,UNNAMED
+GMRSQ730-15,Tetranychus,,H1101,C044,,,,UNNAMED
+GMRSR593-15,Tetranychus,,H1102,C044,,,,UNNAMED
+GMRSR608-15,Tetranychus,,H1103,C044,,,,UNNAMED
+GMRSR612-15,Tetranychus,,H1104,C044,,,,UNNAMED
+GMRSR613-15,Tetranychus,,H1105,C044,,,,UNNAMED
+GMRSR618-15,Tetranychus,,H1106,C044,,,,UNNAMED
+GMRSR622-15,Tetranychus,,H1107,C028,,,,UNNAMED
+GMRSR630-15,Tetranychus,,H1108,C044,,,,UNNAMED
+GMRSR631-15,Tetranychus,,H1106,C044,,,,UNNAMED
+GMRSR632-15,Tetranychus,,H1105,C044,,,,UNNAMED
+GMRSR634-15,Tetranychus,,H1109,C028,,,,UNNAMED
+GMRSR637-15,Tetranychus,,H1110,C044,,,,UNNAMED
+GMRSR639-15,Tetranychus pueraricola,Tetranychus pueraricola,H1111,C044,-0.0000,0.0026,Tetranychus urticae,OK
+GMRSR645-15,Tetranychus,,H1112,C044,,,,UNNAMED
+GMRSR646-15,Tetranychus,,H1113,C044,,,,UNNAMED
+GMRSR655-15,Tetranychus,,H1114,C044,,,,UNNAMED
+GMRSS478-15,Tetranychus,,H1115,C044,,,,UNNAMED
+GMRSS489-15,Tetranychus,,H1114,C044,,,,UNNAMED
+GMRSS498-15,Tetranychus,,H1116,C044,,,,UNNAMED
+GMRSS502-15,Tetranychus,,H1102,C044,,,,UNNAMED
+GMRSS504-15,Tetranychus,,H1101,C044,,,,UNNAMED
+GMRSS505-15,Tetranychus,,H1102,C044,,,,UNNAMED
+GMRST1326-15,Tetranychus,,H1117,C044,,,,UNNAMED
+GMRST1343-15,Tetranychus,,H1104,C044,,,,UNNAMED
+GMRST1349-15,Tetranychus,,H1118,C044,,,,UNNAMED
+GMRST1396-15,Tetranychus,,H1119,C044,,,,UNNAMED
+GMRSU2040-15,Tetranychus,,H1105,C044,,,,UNNAMED
+GMRSV660-15,Tetranychus,,H1120,C044,,,,UNNAMED
+GMRSV667-15,Tetranychus,,H1121,C044,,,,UNNAMED
+GMRSV677-15,Tetranychus pueraricola,Tetranychus pueraricola,H1122,C044,0.0074,0.0673,Tetranychus urticae,OK
+GMRSV690-15,Tetranychus,,H1123,C028,,,,UNNAMED
+GMRSV696-15,Tetranychus,,H1124,C044,,,,UNNAMED
+GMRSW1820-15,Tetranychus pueraricola,Tetranychus pueraricola,H1125,C044,-0.0000,0.0087,Tetranychus urticae,OK
+GMRSW1860-15,Tetranychus,,H1126,C044,,,,UNNAMED
+GMRSW1925-15,Tetranychus,,H1106,C044,,,,UNNAMED
+GMRSW1989-15,Tetranychus,,H1127,C044,,,,UNNAMED
+GMRSW1993-15,Tetranychus,,H1128,C044,,,,UNNAMED
+GMRSW2000-15,Tetranychus urticae,Tetranychus urticae,H1129,C028,-0.0000,0.0290,Tetranychus turkestani,OK
+GMRSX2069-15,Tetranychus,,H1120,C044,,,,UNNAMED
+GMRSX2076-15,Tetranychus,,H1120,C044,,,,UNNAMED
+GMRSX2086-15,Tetranychus,,H1120,C044,,,,UNNAMED
+GMRSX2093-15,Tetranychus,,H1119,C044,,,,UNNAMED
+GMRSX2106-15,Tetranychus,,H1130,C044,,,,UNNAMED
+GMRSY266-16,Tetranychus,,H1131,C044,,,,UNNAMED
+GMRSY292-16,Tetranychus pueraricola,Tetranychus pueraricola,H1132,C044,-0.0000,0.0078,Tetranychus urticae,OK
+GMRUA1372-16,Tetranychus,,H1133,C044,,,,UNNAMED
+GMRUB1317-16,Tetranychus,,H1134,C044,,,,UNNAMED
+GMRUC909-16,Tetranychus,,H1120,C044,,,,UNNAMED
+GMRUG361-18,Tetranychus,,H1135,C044,,,,UNNAMED
+GMRUG369-18,Tetranychus,,H1136,C044,,,,UNNAMED
+GMRUG373-18,Tetranychus,,H1137,C044,,,,UNNAMED
+GMSAM359-13,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+GMSAM361-13,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+GMSAM362-13,Tetranychus ludeni,Tetranychus ludeni,H1138,C072,-0.0000,0.1139,Tetranychus urticae,OK
+GMSAN237-13,Tetranychus ludeni,Tetranychus ludeni,H1139,C072,-0.0000,0.1144,Tetranychus urticae,OK
+GMSAQ878-13,Tetranychus ludeni,Tetranychus ludeni,H0261,C072,0.0000,0.0876,Tetranychus urticae,OK
+GMSCD2413-19,Tetranychus,,H1140,C028,,,,UNNAMED
+GMSCI1787-20,Tetranychus,,H1141,C028,,,,UNNAMED
+GMSCK10623-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK10787-23,Tetranychus urticae,Tetranychus urticae,H0498,C028,0.0000,0.0299,Tetranychus turkestani,OK
+GMSCK12005-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK12038-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK12052-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK12104-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK12112-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK12156-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK4599-23,Tetranychus evansi,Tetranychus evansi,H1143,C069,0.0046,0.0062,Tetranychus malvae,OK
+GMSCK4694-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK5126-23,Tetranychus,,H1144,C028,,,,UNNAMED
+GMSCK5277-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK5299-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK7700-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK8015-23,Tetranychus,,H1145,C028,,,,UNNAMED
+GMSCK8115-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSCK9436-23,Tetranychus,,H1142,C028,,,,UNNAMED
+GMSVJ4779-24,Tetranychus urticae,Tetranychus urticae,H1146,C028,0.0020,0.0299,Tetranychus turkestani,OK
+KMPLB256-18,Tetranychus,,H1147,C070,,,,UNNAMED
+KMPLC063-18,Tetranychus,,H1147,C070,,,,UNNAMED
+KMPLC250-18,Tetranychus,,H1148,C070,,,,UNNAMED
+KMPLC272-18,Tetranychus,,H1149,C070,,,,UNNAMED
+KMPLD203-18,Tetranychus,,H1148,C070,,,,UNNAMED
+KMPLD204-18,Tetranychus,,H1147,C070,,,,UNNAMED
+KMPLD246-18,Tetranychus,,H1150,C070,,,,UNNAMED
+KMPLY184-19,Tetranychus,,H1151,C070,,,,UNNAMED
+KMPLY185-19,Tetranychus,,H1152,C070,,,,UNNAMED
+KMPUD6550-19,Tetranychus ludeni,Tetranychus ludeni,H1153,C072,-0.0000,0.0881,Tetranychus urticae,OK
+KMPUD6578-19,Tetranychus evansi,Tetranychus evansi,H1154,C069,-0.0000,0.0016,Tetranychus malvae,OK
+KMPUD6613-19,Tetranychus ludeni,Tetranychus ludeni,H1155,C072,0.0015,0.0920,Tetranychus urticae,OK
+KMPWE330-18,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1156,C080,0.0016,0.0769,Tetranychus udaipurensis,OK
+KMPWG534-18,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1157,C080,-0.0000,0.0752,Tetranychus udaipurensis,OK
+KMPYH704-19,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1158,C080,0.0109,0.0738,Tetranychus udaipurensis,OK
+KMPYH745-19,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1159,C080,-0.0000,0.0752,Tetranychus udaipurensis,OK
+KUGLA7957-23,Tetranychus,,H1160,C071,,,,UNNAMED
+LPGEO19739-24,Tetranychus,,H1161,C072,,,,UNNAMED
+LPGEP31161-24,Tetranychus,,H1162,C073,,,,UNNAMED
+LPGEP36657-24,Tetranychus,,H1163,C080,,,,UNNAMED
+LPGEP36662-24,Tetranychus,,H1163,C080,,,,UNNAMED
+LPGEP8664-24,Tetranychus,,H1164,C079,,,,UNNAMED
+MAGHP011-18,Tetranychus urticae,Tetranychus urticae,H0450,C028,0.0000,0.0176,Tetranychus turkestani,OK
+MAGHP012-18,Tetranychus urticae,Tetranychus urticae,H0450,C028,0.0000,0.0176,Tetranychus turkestani,OK
+MAGHP022-18,Tetranychus,,H1165,C028,,,,UNNAMED
+MAGHP023-18,Tetranychus,,H1166,C028,,,,UNNAMED
+MIONT615-09,Tetranychus,,H1167,C074,,,,UNNAMED
+MPGE4207-19,Tetranychus,,H1168,C075,,,,UNNAMED
+MPGO2298-19,Tetranychus,,H1169,C075,,,,UNNAMED
+MPGO2301-19,Tetranychus,,H1170,C075,,,,UNNAMED
+MPGO2775-19,Tetranychus,,H1171,C028,,,,UNNAMED
+MPGO3664-19,Tetranychus,,H1172,C075,,,,UNNAMED
+MPGO3665-19,Tetranychus,,H1173,C075,,,,UNNAMED
+MSSCA4833-16,Tetranychus turkestani,Tetranychus turkestani,H1174,C028,0.0264,0.0218,Tetranychus urticae,NEAREST_IS_OTHER_SPECIES
+NGNAG1490-13,Tetranychus,,H1175,C076,,,,UNNAMED
+NGNAG1499-13,Tetranychus,,H1176,C076,,,,UNNAMED
+NGNAG1502-13,Tetranychus,,H1175,C076,,,,UNNAMED
+NGNAG1503-13,Tetranychus,,H1175,C076,,,,UNNAMED
+NGNAG1505-13,Tetranychus,,H1175,C076,,,,UNNAMED
+NGNAG1507-13,Tetranychus,,H1177,C076,,,,UNNAMED
+NGNAG1517-13,Tetranychus,,H1178,C076,,,,UNNAMED
+NGNAG1518-13,Tetranychus,,H1179,C076,,,,UNNAMED
+NGNAI237-13,Tetranychus,,H1180,C076,,,,UNNAMED
+NGNAI256-13,Tetranychus,,H1181,C076,,,,UNNAMED
+ONTA1504-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA1511-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA1513-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA1516-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA1517-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA1518-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA1520-23,Tetranychus,,H1183,C028,,,,UNNAMED
+ONTA1522-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTA2082-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP11268-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP11275-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP11277-23,Tetranychus turkestani,Tetranychus turkestani,H1184,C028,-0.0000,0.0264,Tetranychus urticae,OK
+ONTBP11280-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP11284-23,Tetranychus,,H1183,C028,,,,UNNAMED
+ONTBP11286-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP11561-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP17640-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP17642-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP17645-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP17646-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP17649-23,Tetranychus,,H1183,C028,,,,UNNAMED
+ONTBP17651-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+ONTBP20586-23,Tetranychus turkestani,Tetranychus turkestani,H1182,C028,0.0000,0.0248,Tetranychus urticae,OK
+OPPDS1642-17,Tetranychus,,H1185,C077,,,,UNNAMED
+OPPDS1793-17,Tetranychus,,H1186,C077,,,,UNNAMED
+OPPHO3175-17,Tetranychus,,H1187,C078,,,,UNNAMED
+OPPIE910-17,Tetranychus,,H1188,C077,,,,UNNAMED
+OPPNS1223-17,Tetranychus,,H1189,C028,,,,UNNAMED
+OPPOG1654-17,Tetranychus urticae,Tetranychus urticae,H1190,C028,0.0046,0.0347,Tetranychus turkestani,OK
+OPPUS2500-17,Tetranychus,,H1191,C078,,,,UNNAMED
+OPPUS2540-17,Tetranychus,,H1192,C078,,,,UNNAMED
+PKGUJ13746-24,Tetranychus,,H0261,C072,,,,UNNAMED
+PKGUJ13748-24,Tetranychus,,H1193,C028,,,,UNNAMED
+PKGUJ13749-24,Tetranychus,,H1193,C028,,,,UNNAMED
+PKGUJ14197-24,Tetranychus,,H1193,C028,,,,UNNAMED
+PKGUJ15337-24,Tetranychus,,H1193,C028,,,,UNNAMED
+PKGUJ15632-24,Tetranychus,,H1193,C028,,,,UNNAMED
+PKHUR10206-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR10229-24,Tetranychus,,H0261,C072,,,,UNNAMED
+PKHUR10254-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR10276-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR2555-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR2569-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR2573-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR2575-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR2704-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR2775-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR7938-24,Tetranychus,,H1194,C028,,,,UNNAMED
+PKHUR8549-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8560-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8563-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8576-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8577-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8579-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8582-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8583-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8587-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8609-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8618-24,Tetranychus,,H1195,C028,,,,UNNAMED
+PKHUR8622-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8631-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8643-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8649-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8657-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8675-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR8828-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR9662-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR9671-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR9713-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKHUR9733-24,Tetranychus,,H1078,C028,,,,UNNAMED
+PKSAR6843-23,Tetranychus,,H1196,C028,,,,UNNAMED
+PKTRA4105-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4106-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4107-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4109-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4114-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4119-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4120-23,Tetranychus,,H1067,C028,,,,UNNAMED
+PKTRA4122-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4137-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4138-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4143-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4146-23,Tetranychus,,H1197,C028,,,,UNNAMED
+PKTRA4149-23,Tetranychus,,H1078,C028,,,,UNNAMED
+PKTRA4153-23,Tetranychus,,H1078,C028,,,,UNNAMED
+SAKDA11809-23,Tetranychus evansi,Tetranychus evansi,H1198,C069,0.0000,-0.0000,Tetranychus malvae,OK
+SAKWB6470-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC14443-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC14444-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC14479-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC18542-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC19713-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC20021-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKWC4193-22,Tetranychus ludeni,Tetranychus ludeni,H1199,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKWC5586-23,Tetranychus ludeni,Tetranychus ludeni,H1164,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZA22212-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB12436-23,Tetranychus ludeni,Tetranychus ludeni,H1200,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB12437-23,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB12439-23,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB16554-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB17102-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18145-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18146-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18151-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18152-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18153-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18154-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18155-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB18156-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19595-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19618-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19738-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19739-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19740-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19741-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19742-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19743-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19745-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19746-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19753-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19754-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB19755-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21257-23,Tetranychus ludeni,Tetranychus ludeni,H1164,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB21281-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21368-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21378-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21380-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21495-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21504-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21506-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21507-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21516-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21523-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21527-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21532-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB21546-23,Tetranychus,,H1164,C079,,,,UNNAMED
+SAKZB4451-22,Tetranychus ludeni,Tetranychus ludeni,H1203,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB4456-22,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB5041-22,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB5681-22,Tetranychus ludeni,Tetranychus ludeni,H1204,C079,-0.0000,0.1060,Tetranychus przhevalskii,OK
+SAKZB5709-22,Tetranychus ludeni,Tetranychus ludeni,H1205,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB5990-22,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6573-22,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6580-22,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6581-22,Tetranychus ludeni,Tetranychus ludeni,H1206,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6585-22,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6587-22,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6591-22,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6593-22,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6602-22,Tetranychus ludeni,Tetranychus ludeni,H1207,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB6603-22,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7321-22,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7323-22,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7326-22,Tetranychus ludeni,Tetranychus ludeni,H1209,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7949-23,Tetranychus ludeni,Tetranychus ludeni,H1210,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7955-23,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7956-23,Tetranychus ludeni,Tetranychus ludeni,H1211,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7957-23,Tetranychus ludeni,Tetranychus ludeni,H1211,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7958-23,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7959-23,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7961-23,Tetranychus ludeni,Tetranychus ludeni,H1212,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7963-23,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7964-23,Tetranychus ludeni,Tetranychus ludeni,H1213,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7965-23,Tetranychus ludeni,Tetranychus ludeni,H1209,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7966-23,Tetranychus ludeni,Tetranychus ludeni,H1205,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7967-23,Tetranychus ludeni,Tetranychus ludeni,H1214,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7968-23,Tetranychus ludeni,Tetranychus ludeni,H1215,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7970-23,Tetranychus ludeni,Tetranychus ludeni,H1213,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7975-23,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7976-23,Tetranychus ludeni,Tetranychus ludeni,H1216,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7977-23,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7978-23,Tetranychus ludeni,Tetranychus ludeni,H1212,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7980-23,Tetranychus ludeni,Tetranychus ludeni,H1217,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7981-23,Tetranychus ludeni,Tetranychus ludeni,H1218,C079,-0.0000,0.1052,Tetranychus przhevalskii,OK
+SAKZB7982-23,Tetranychus ludeni,Tetranychus ludeni,H1213,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7983-23,Tetranychus ludeni,Tetranychus ludeni,H1211,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7984-23,Tetranychus ludeni,Tetranychus ludeni,H1219,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7985-23,Tetranychus ludeni,Tetranychus ludeni,H1220,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7986-23,Tetranychus ludeni,Tetranychus ludeni,H1221,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7987-23,Tetranychus ludeni,Tetranychus ludeni,H1222,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7989-23,Tetranychus ludeni,Tetranychus ludeni,H1223,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7990-23,Tetranychus ludeni,Tetranychus ludeni,H1200,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7993-23,Tetranychus ludeni,Tetranychus ludeni,H1212,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7998-23,Tetranychus ludeni,Tetranychus ludeni,H1224,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB7999-23,Tetranychus ludeni,Tetranychus ludeni,H1205,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8012-23,Tetranychus ludeni,Tetranychus ludeni,H1213,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8013-23,Tetranychus ludeni,Tetranychus ludeni,H1225,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8014-23,Tetranychus ludeni,Tetranychus ludeni,H1212,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8016-23,Tetranychus ludeni,Tetranychus ludeni,H1207,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8018-23,Tetranychus ludeni,Tetranychus ludeni,H1226,C079,-0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8021-23,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8025-23,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB8027-23,Tetranychus ludeni,Tetranychus ludeni,H1208,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB9287-23,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB9343-23,Tetranychus ludeni,Tetranychus ludeni,H1201,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAKZB9401-23,Tetranychus ludeni,Tetranychus ludeni,H1202,C079,0.0000,0.0937,Tetranychus pacificus,OK
+SAMHO4198-25,Tetranychus,,H1227,C028,,,,UNNAMED
+SAPRA2052-22,Tetranychus ludeni,Tetranychus ludeni,H1061,C072,0.0000,0.0882,Tetranychus urticae,OK
+SAPRB15054-23,Tetranychus ludeni,Tetranychus ludeni,H1007,C072,0.0000,0.0879,Tetranychus urticae,OK
+SATHA24134-23,Tetranychus,,H1228,C080,,,,UNNAMED
+SATHA8208-23,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1229,C080,0.0031,0.0770,Tetranychus udaipurensis,OK
+SATHB1599-22,Tetranychus neocaledonicus,Tetranychus neocaledonicus,H1230,C080,0.0050,0.0676,Tetranychus udaipurensis,OK
+SMCK002-25,Tetranychus truncatus,Tetranychus truncatus,H0076,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+SMCK004-25,Tetranychus gloveri,Tetranychus gloveri,H0075,C049,0.0000,0.0029,Tetranychus okinawanus,OK
+SMCK005-26,Tetranychus macfarlanei,Tetranychus macfarlanei,H0018,C002,0.0000,0.1510,Tetranychus evansi,OK
+SMCK007-26,Tetranychus truncatus,Tetranychus truncatus,H0014,C045,0.0000,-0.0000,Tetranychus puschelii,OK
+SSGLA4815-15,Tetranychus,,H1231,C028,,,,UNNAMED
+SSPAC10385-13,Tetranychus turkestani,Tetranychus turkestani,H1232,C028,0.0088,0.0177,Tetranychus urticae,OK
+SSPAC2167-13,Tetranychus pacificus,Tetranychus pacificus,H1233,C081,0.0057,0.1062,Tetranychus ludeni,OK
+SSPAC6765-13,Tetranychus,,H1234,C028,,,,UNNAMED
+SSPAC7402-13,Tetranychus,,H1235,C028,,,,UNNAMED
+SSPAC7404-13,Tetranychus,,H1236,C028,,,,UNNAMED
+SSPAC7858-13,Tetranychus,,H1237,C028,,,,UNNAMED
+SSPAC7870-13,Tetranychus,,H1238,C028,,,,UNNAMED
+SSPAC7875-13,Tetranychus,,H1239,C028,,,,UNNAMED
+SSPAC7899-13,Tetranychus,,H1240,C028,,,,UNNAMED
+SSWLE471-13,Tetranychus,,H1241,C028,,,,UNNAMED
+TSMTA18111-22,Tetranychus evansi,Tetranychus evansi,H1198,C069,0.0000,-0.0000,Tetranychus malvae,OK
+TSMTB3505-22,Tetranychus evansi,Tetranychus evansi,H1242,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+TSMTB3508-22,Tetranychus evansi,Tetranychus evansi,H1198,C069,0.0000,-0.0000,Tetranychus malvae,OK
+TSMTB9083-23,Tetranychus evansi,Tetranychus evansi,H1243,C069,-0.0000,-0.0000,Tetranychus malvae,OK
+TSMTJ1030-22,Tetranychus evansi,Tetranychus evansi,H1198,C069,0.0000,-0.0000,Tetranychus malvae,OK
+TZBCA050-06,Tetranychus urticae,Tetranychus urticae,H1244,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+TZBCA051-06,Tetranychus urticae,Tetranychus urticae,H1244,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+TZBCA052-06,Tetranychus urticae,Tetranychus urticae,H1244,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+TZBCA053-06,Tetranychus urticae,Tetranychus urticae,H1244,C028,0.0000,-0.0000,Tetranychus turkestani,OK
+TZBCA198-06,Tetranychus urticae,Tetranychus urticae,H0177,C028,0.0000,0.0228,Tetranychus turkestani,OK
