@@ -14,6 +14,7 @@ The pipeline gathers COI records from GenBank and BOLD, occurrence records from 
 | 2 | `merge_records.py` | Merge GenBank and BOLD, remove duplicates, score metadata (0–7) |
 | 3 | `sequence_qc.py` | Orientation, COX1 region covered, identity, ambiguous bases, internal stop codons (genetic code 5), frameshifts |
 | 4 | `species_analysis.py` | K2P distances on shared sites, barcode gap per species, shared haplotypes, nearest-neighbour label conflicts, distance clusters |
+| 7 | `identification_test.py` | Leave-one-study-out identification of anchor specimens against the raw and the cleaned COI database |
 | 6 | `its2_analysis.py` | Nuclear ITS2 check: species distances, ITS2 clusters, and COI vs ITS2 agreement for specimens sequenced for both genes |
 | 5 | `anchor_check.py` | Compares clusters and records with anchor sequences from morphologically identified, published specimens |
 
@@ -82,6 +83,10 @@ Stop codons and frameshifts in a protein-coding mitochondrial gene usually point
 ## ITS2 check
 
 ITS2 records are downloaded separately into `data/its2/` (Fetch workflow, `ncbi_out_dir` = `data/its2`) so they never enter the COI steps. ITS2 is cut from each record by annotation, by the 5.8S and 28S boundaries, or by alignment to a reference ITS2 from an annotated *T. urticae* record. Specimens are paired across the two genes by first author and isolate, strain or voucher name. Where COI and ITS2 place a specimen with different species, the COI result may reflect shared or introgressed mitochondria (for example through *Wolbachia*) rather than a wrong name. Results are in `results/its2/`.
+
+## Identification test
+
+Anchor specimens are identified by their closest COI match within K2P 0.03, as a GenBank or BOLD user would, and scored as correct, wrong, ambiguous or no match. When one study's anchors are queried, all records of that study are removed from the reference database and its anchors are not used to clean it. The raw database contains every record that passed the quality check; the cleaned database removes unnamed records and records whose name disagrees with the anchored species of their cluster. Results are in `results/identification/`.
 
 ## Anchor records
 

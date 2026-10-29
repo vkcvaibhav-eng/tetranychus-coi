@@ -82,6 +82,11 @@ jobs:
           set -o pipefail
           python scripts/anchor_check.py 2>&1 | tee results/logs/anchors.log
 
+      - name: Identification accuracy (raw vs cleaned database)
+        run: |
+          set -o pipefail
+          python scripts/identification_test.py 2>&1 | tee results/logs/identification.log
+
       - name: ITS2 check (when ITS2 data are present)
         run: |
           set -o pipefail

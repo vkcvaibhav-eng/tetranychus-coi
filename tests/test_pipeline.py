@@ -276,6 +276,15 @@ def test_anchor_check(tmp_path):
     assert verdict["RC000003.1"]["verdict"] == "DISAGREES"
     assert verdict["RC000004.1"]["verdict"] == "UNNAMED_SUGGESTED"
 
+    run("identification_test.py", cwd=tmp_path)
+    q = {r["query"]: r for r in csv.DictReader(open(tmp_path / "results/identification/queries.csv"))}
+    assert set(q) == {"AN000001.1", "AN000002.1", "AN000003.1"}
+    # Study "good" held out: the only beta-like reference left is RC000003, labelled alpha.
+    assert q["AN000002.1"]["raw_result"] == "wrong"
+    assert q["AN000002.1"]["raw_match"] == "Tetranychus alpha"
+    # Its own study's records never serve as references.
+    assert all(r["raw_db_size"] == "5" for r in q.values() if r["study_id"] == "good")
+
 
 def its2_record(acc, seq, organism, isolate, author="Smith,J."):
     rec = SeqRecord(Seq(seq), id=acc + ".1", name=acc, description="test ITS2")
