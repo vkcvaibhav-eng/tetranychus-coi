@@ -1,0 +1,118 @@
+accession,study_id,evidence_level,found,record_id,species_name,passed_qc,cluster,cluster_anchored_species,anchor_consistency
+AB736039,matsuda2013,A,yes,AB736039.1,Tetranychus evansi,yes,C069,Tetranychus evansi,consistent
+AB736040,matsuda2013,A,yes,AB736040.1,Tetranychus evansi,yes,C069,Tetranychus evansi,consistent
+AB736041,matsuda2013,A,yes,AB736041.1,Tetranychus ezoensis,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736042,matsuda2013,A,yes,AB736042.1,Tetranychus ezoensis,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736043,matsuda2013,A,yes,AB736043.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736044,matsuda2013,A,yes,AB736044.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736045,matsuda2013,A,yes,AB736045.1,Tetranychus kanzawai,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736046,matsuda2013,A,yes,AB736046.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736047,matsuda2013,A,yes,AB736047.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736048,matsuda2013,A,yes,AB736048.1,Tetranychus kanzawai,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736049,matsuda2013,A,yes,AB736049.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736050,matsuda2013,A,yes,AB736050.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736051,matsuda2013,A,yes,AB736051.1,Tetranychus ludeni,yes,C072,Tetranychus ludeni,consistent
+AB736052,matsuda2013,A,yes,AB736052.1,Tetranychus ludeni,yes,C072,Tetranychus ludeni,consistent
+AB736053,matsuda2013,A,yes,AB736053.1,Tetranychus ludeni,yes,C072,Tetranychus ludeni,consistent
+AB736054,matsuda2013,A,yes,AB736054.1,Tetranychus misumaiensis,yes,C043,Tetranychus misumaiensis,consistent
+AB736055,matsuda2013,A,yes,AB736055.1,Tetranychus neocaledonicus,yes,C080,Tetranychus neocaledonicus,consistent
+AB736056,matsuda2013,A,yes,AB736056.1,Tetranychus neocaledonicus,yes,C080,Tetranychus neocaledonicus,consistent
+AB736057,matsuda2013,A,yes,AB736057.1,Tetranychus neocaledonicus,yes,C080,Tetranychus neocaledonicus,consistent
+AB736058,matsuda2013,A,yes,AB736058.1,Tetranychus okinawanus,yes,C049,Tetranychus okinawanus,consistent
+AB736059,matsuda2013,A,yes,AB736059.1,Tetranychus okinawanus,yes,C049,Tetranychus okinawanus,consistent
+AB736060,matsuda2013,A,yes,AB736060.1,Tetranychus parakanzawai,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736061,matsuda2013,A,yes,AB736061.1,Tetranychus parakanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736062,matsuda2013,A,yes,AB736062.1,Tetranychus parakanzawai,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736063,matsuda2013,A,yes,AB736063.1,Tetranychus parakanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736064,matsuda2013,A,yes,AB736064.1,Tetranychus parakanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736065,matsuda2013,A,yes,AB736065.1,Tetranychus parakanzawai,yes,C051,Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+AB736066,matsuda2013,A,yes,AB736066.1,Tetranychus phaselus,yes,C041,Tetranychus phaselus,consistent
+AB736067,matsuda2013,A,yes,AB736067.1,Tetranychus phaselus,yes,C041,Tetranychus phaselus,consistent
+AB736068,matsuda2013,A,yes,AB736068.1,Tetranychus piercei,yes,C047,Tetranychus piercei,consistent
+AB736069,matsuda2013,A,yes,AB736069.1,Tetranychus piercei,yes,C047,Tetranychus piercei,consistent
+AB736070,matsuda2013,A,yes,AB736070.1,Tetranychus piercei,yes,C047,Tetranychus piercei,consistent
+AB736071,matsuda2013,A,yes,AB736071.1,Tetranychus pueraricola,yes,C044,Tetranychus pueraricola,consistent
+AB736072,matsuda2013,A,yes,AB736072.1,Tetranychus pueraricola,yes,C044,Tetranychus pueraricola,consistent
+AB736073,matsuda2013,A,yes,AB736073.1,Tetranychus pueraricola,yes,C044,Tetranychus pueraricola,consistent
+AB736074,matsuda2013,A,yes,AB736074.1,Tetranychus truncatus,yes,C045,Tetranychus truncatus,consistent
+AB736075,matsuda2013,A,yes,AB736075.1,Tetranychus truncatus,yes,C045,Tetranychus truncatus,consistent
+AB736076,matsuda2013,A,yes,AB736076.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AB736077,matsuda2013,A,yes,AB736077.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AB736078,matsuda2013,A,yes,AB736078.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AB736079,matsuda2013,A,yes,AB736079.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AB736080,matsuda2013,A,yes,AB736080.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AB736081,matsuda2013,A,yes,AB736081.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565891,mendonca2011,A,yes,HM565891.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565892,mendonca2011,A,yes,HM565892.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565893,mendonca2011,A,yes,HM565893.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565894,mendonca2011,A,yes,HM565894.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565895,mendonca2011,A,yes,HM565895.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565896,mendonca2011,A,yes,HM565896.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565897,mendonca2011,A,yes,HM565897.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565898,mendonca2011,A,yes,HM565898.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565899,mendonca2011,A,yes,HM565899.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565900,mendonca2011,A,yes,HM565900.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565901,mendonca2011,A,yes,HM565901.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565902,mendonca2011,A,yes,HM565902.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565903,mendonca2011,A,yes,HM565903.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565904,mendonca2011,A,yes,HM565904.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565905,mendonca2011,A,yes,HM565905.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565906,mendonca2011,A,yes,HM565906.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565907,mendonca2011,A,yes,HM565907.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+HM565908,mendonca2011,A,yes,HM565908.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535080,inak2022,A,yes,MW535080.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535081,inak2022,A,yes,MW535081.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535082,inak2022,A,yes,MW535082.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535083,inak2022,A,yes,MW535083.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535084,inak2022,A,yes,MW535084.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535085,inak2022,A,yes,MW535085.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+MW535086,inak2022,A,yes,MW535086.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+JX075249,srinivasa2012,A,yes,JX075249.1,Tetranychus truncatus,yes,C045,Tetranychus truncatus,consistent
+FJ440675,gotoh2009,B,yes,FJ440675.1,Tetranychus evansi,yes,C069,Tetranychus evansi,consistent
+FJ440676,gotoh2009,B,yes,FJ440676.1,Tetranychus evansi,yes,C069,Tetranychus evansi,consistent
+FJ440677,gotoh2009,B,yes,FJ440677.1,Tetranychus evansi,yes,C069,Tetranychus evansi,consistent
+FJ440678,gotoh2009,B,yes,FJ440678.1,Tetranychus evansi,yes,C069,Tetranychus evansi,consistent
+GQ141906,li2010,B,yes,GQ141906.1,Tetranychus urticae,yes,C045,Tetranychus truncatus,conflict
+GQ141907,li2010,B,yes,GQ141907.1,Tetranychus urticae,yes,C044,Tetranychus pueraricola,conflict
+GQ141908,li2010,B,yes,GQ141908.1,Tetranychus urticae,yes,C045,Tetranychus truncatus,conflict
+GQ141909,li2010,B,yes,GQ141909.1,Tetranychus urticae,yes,C045,Tetranychus truncatus,conflict
+GQ141911,li2010,B,yes,GQ141911.1,Tetranychus kanzawai,yes,C072,Tetranychus ludeni,conflict
+GQ141912,li2010,B,yes,GQ141912.1,Tetranychus truncatus,yes,C045,Tetranychus truncatus,consistent
+GQ141913,li2010,B,yes,GQ141913.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316597,navajas_boursot2003,B,yes,AJ316597.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316598,navajas_boursot2003,B,yes,AJ316598.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316599,navajas_boursot2003,B,yes,AJ316599.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316600,navajas_boursot2003,B,yes,AJ316600.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316601,navajas_boursot2003,B,yes,AJ316601.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316602,navajas_boursot2003,B,yes,AJ316602.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316603,navajas_boursot2003,B,yes,AJ316603.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316604,navajas_boursot2003,B,yes,AJ316604.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316605,navajas_boursot2003,B,yes,AJ316605.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ316606,navajas_boursot2003,B,yes,AJ316606.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ414582,navajas_boursot2003,B,yes,AJ414582.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+AJ414583,navajas_boursot2003,B,yes,AJ414583.1,Tetranychus turkestani,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+KJ729017,chen2014,B,yes,KJ729017.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,cluster shared with other anchored species
+KJ729018,chen2014,B,yes,KJ729018.1,Tetranychus ludeni,yes,C072,Tetranychus ludeni,consistent
+KJ729019,chen2014,B,yes,KJ729019.1,Tetranychus malaysiensis,yes,C035,Tetranychus malaysiensis,consistent
+KJ729020,chen2014,B,yes,KJ729020.1,Tetranychus phaselus,yes,C041,Tetranychus phaselus,consistent
+KJ729021,chen2014,B,yes,KJ729021.1,Tetranychus pueraricola,yes,C044,Tetranychus pueraricola,consistent
+KJ729022,chen2014,B,yes,KJ729022.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+KJ729023,chen2014,B,yes,KJ729023.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV545057,abdolahadi2026,B,yes,PV545057.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566912,abdolahadi2026,B,yes,PV566912.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566913,abdolahadi2026,B,yes,PV566913.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566914,abdolahadi2026,B,yes,PV566914.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566915,abdolahadi2026,B,yes,PV566915.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566916,abdolahadi2026,B,yes,PV566916.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566917,abdolahadi2026,B,yes,PV566917.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566918,abdolahadi2026,B,yes,PV566918.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+PV566919,abdolahadi2026,B,yes,PV566919.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,cluster shared with other anchored species
+X80855,navajas1996,C,yes,X80855.1,Tetranychus urticae,yes,C028,Tetranychus turkestani; Tetranychus urticae,lead only
+X80856,navajas1996,C,yes,X80856.1,Tetranychus kanzawai,yes,C042,Tetranychus kanzawai; Tetranychus parakanzawai,lead only
+X80857,navajas1996,C,yes,X80857.1,Tetranychus mcdanieli,yes,C055,,lead only
+X80858,navajas1996,C,yes,X80858.1,Tetranychus pacificus,yes,C053,,lead only
+X80859,navajas1996,C,yes,X80859.1,Tetranychus neocaledonicus,yes,C054,,lead only
+X80860,navajas1996,C,yes,X80860.2,Tetranychus gloveri,yes,C049,Tetranychus okinawanus,lead only
+X80861,navajas1996,C,yes,X80861.1,Tetranychus viennensis,yes,C052,,lead only
+X99875,navajas1998,C,yes,X99875.1,Tetranychus viennensis,yes,C050,,lead only
+MH664307,srinivas_udaipurensis,C,yes,MH664307.1,Tetranychus udaipurensis,yes,C063,,lead only

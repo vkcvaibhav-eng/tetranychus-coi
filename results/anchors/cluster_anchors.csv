@@ -1,0 +1,82 @@
+cluster,records,composition,anchored_species,anchor_detail,status
+C028,972,Tetranychus urticae (656); (unnamed) (215); Tetranychus turkestani (82); Tetranychus cinnabarinus (9); Tetranychus kanzawai (9); Tetranychus sawzdargi (1),Tetranychus turkestani; Tetranychus urticae,Tetranychus turkestani [A] x5; Tetranychus turkestani [B] x7; Tetranychus urticae [A] x26; Tetranychus urticae [B] x17,several anchored species
+C069,180,Tetranychus evansi (179); Tetranychus malvae (1),Tetranychus evansi,Tetranychus evansi [A] x2; Tetranychus evansi [B] x4,one anchored species
+C045,157,Tetranychus truncatus (119); Tetranychus urticae (24); Tetranychus cinnabarinus (13); Tetranychus puschelii (1),Tetranychus truncatus,Tetranychus truncatus [A] x3; Tetranychus truncatus [B] x1; Tetranychus urticae [B] x3,one anchored species
+C044,111,(unnamed) (47); Tetranychus pueraricola (40); Tetranychus cinnabarinus (9); Tetranychus urticae (5); Tetranychus kanzawai (4); Tetranychus truncatus (4); Tetranychus phaselus (2),Tetranychus pueraricola,Tetranychus pueraricola [A] x3; Tetranychus pueraricola [B] x1; Tetranychus urticae [B] x1,one anchored species
+C079,111,Tetranychus ludeni (66); (unnamed) (45),,,no anchor
+C042,96,Tetranychus kanzawai (64); Tetranychus cinnabarinus (25); Tetranychus urticae (3); Tetranychus parakanzawai (3); Tetranychus bambusae (1),Tetranychus kanzawai; Tetranychus parakanzawai,Tetranychus kanzawai [A] x6; Tetranychus kanzawai [B] x1; Tetranychus parakanzawai [A] x3,several anchored species
+C072,95,Tetranychus ludeni (71); (unnamed) (22); Tetranychus neocaledonicus (1); Tetranychus kanzawai (1),Tetranychus ludeni,Tetranychus kanzawai [B] x1; Tetranychus ludeni [A] x3; Tetranychus ludeni [B] x1,one anchored species
+C081,55,(unnamed) (49); Tetranychus pacificus (6),,,no anchor
+C066,49,(unnamed) (49),,,no anchor
+C060,30,(unnamed) (30),,,no anchor
+C049,24,Tetranychus gloveri (16); Tetranychus okinawanus (8),Tetranychus okinawanus,Tetranychus okinawanus [A] x2,one anchored species
+C063,20,Tetranychus udaipurensis (14); Tetranychus truncatus (3); Tetranychus neocaledonicus (2); Tetranychus turkestani (1),,,no anchor
+C080,19,Tetranychus neocaledonicus (16); (unnamed) (3),Tetranychus neocaledonicus,Tetranychus neocaledonicus [A] x3,one anchored species
+C058,18,(unnamed) (18),,,no anchor
+C002,14,Tetranychus macfarlanei (8); Tetranychus malaysiensis (5); (unnamed) (1),,,no anchor
+C078,14,(unnamed) (14),,,no anchor
+C047,12,Tetranychus piercei (11); Tetranychus cinnabarinus (1),Tetranychus piercei,Tetranychus piercei [A] x3,one anchored species
+C051,11,Tetranychus kanzawai (6); Tetranychus parakanzawai (3); Tetranychus ezoensis (2),Tetranychus ezoensis; Tetranychus kanzawai; Tetranychus parakanzawai,Tetranychus ezoensis [A] x2; Tetranychus kanzawai [A] x2; Tetranychus parakanzawai [A] x3,several anchored species
+C076,10,(unnamed) (10),,,no anchor
+C035,9,Tetranychus malaysiensis (9),Tetranychus malaysiensis,Tetranychus malaysiensis [B] x1,one anchored species
+C070,9,(unnamed) (9),,,no anchor
+C064,8,Tetranychus puschelii (8),,,no anchor
+C071,8,(unnamed) (8),,,no anchor
+C041,8,Tetranychus phaselus (5); Tetranychus cinnabarinus (2); Tetranychus urticae (1),Tetranychus phaselus,Tetranychus phaselus [A] x2; Tetranychus phaselus [B] x1,one anchored species
+C013,7,Tetranychus tumidellus (7),,,no anchor
+C075,7,(unnamed) (7),,,no anchor
+C034,6,Tetranychus merganser (6),,,no anchor
+C014,6,Tetranychus marianae (6),,,no anchor
+C012,6,Tetranychus desertorum (6),,,no anchor
+C065,6,Tetranychus lombardinii (6),,,no anchor
+C032,5,Tetranychus fijiensis (5),,,no anchor
+C061,5,Tetranychus lewisi (4); (unnamed) (1),,,no anchor
+C009,4,Tetranychus przhevalskii (3); (unnamed) (1),,,no anchor
+C073,4,Tetranychus mexicanus (2); (unnamed) (2),,,no anchor
+C015,4,Tetranychus mexicanus (4),,,no anchor
+C016,4,(unnamed) (4),,,no anchor
+C046,4,Tetranychus viennensis (4),,,no anchor
+C077,4,(unnamed) (4),,,no anchor
+C008,3,(unnamed) (3),,,no anchor
+C031,3,Tetranychus truncatus (3),,,no anchor
+C029,3,Tetranychus lambi (3),,,no anchor
+C068,2,Tetranychus piercei (1); (unnamed) (1),,,no anchor
+C007,2,(unnamed) (2),,,no anchor
+C011,2,Tetranychus udaipurensis (2),,,no anchor
+C030,2,Tetranychus macfarlanei (2),,,no anchor
+C001,1,Tetranychus merganser (1),,,no anchor
+C003,1,Tetranychus turkestani (1),,,no anchor
+C004,1,(unnamed) (1),,,no anchor
+C005,1,(unnamed) (1),,,no anchor
+C006,1,(unnamed) (1),,,no anchor
+C010,1,(unnamed) (1),,,no anchor
+C017,1,Tetranychus lambi (1),,,no anchor
+C018,1,Tetranychus hirsutus (1),,,no anchor
+C019,1,Tetranychus taiwanicus (1),,,no anchor
+C020,1,(unnamed) (1),,,no anchor
+C021,1,(unnamed) (1),,,no anchor
+C022,1,(unnamed) (1),,,no anchor
+C023,1,(unnamed) (1),,,no anchor
+C024,1,(unnamed) (1),,,no anchor
+C025,1,Tetranychus truncatus (1),,,no anchor
+C026,1,Tetranychus truncatus (1),,,no anchor
+C027,1,Tetranychus urticae (1),,,no anchor
+C033,1,Tetranychus bambusae (1),,,no anchor
+C036,1,(unnamed) (1),,,no anchor
+C037,1,Tetranychus urticae (1),,,no anchor
+C038,1,Tetranychus neocaledonicus (1),,,no anchor
+C039,1,Tetranychus fijiensis (1),,,no anchor
+C040,1,Tetranychus macfarlanei (1),,,no anchor
+C043,1,Tetranychus misumaiensis (1),Tetranychus misumaiensis,Tetranychus misumaiensis [A] x1,one anchored species
+C048,1,Tetranychus viennensis (1),,,no anchor
+C050,1,Tetranychus viennensis (1),,,no anchor
+C052,1,Tetranychus viennensis (1),,,no anchor
+C053,1,Tetranychus pacificus (1),,,no anchor
+C054,1,Tetranychus neocaledonicus (1),,,no anchor
+C055,1,Tetranychus mcdanieli (1),,,no anchor
+C056,1,(unnamed) (1),,,no anchor
+C057,1,(unnamed) (1),,,no anchor
+C059,1,Tetranychus okinawanus (1),,,no anchor
+C062,1,Tetranychus okinawanus (1),,,no anchor
+C067,1,(unnamed) (1),,,no anchor
+C074,1,(unnamed) (1),,,no anchor

@@ -1,0 +1,24 @@
+Anchor studies: 12 (levels used for decisions: AB)
+Synonymies applied: Tetranychus cinnabarinus = Tetranychus urticae, Tetranychus takafujii = Tetranychus evansi
+Anchor accessions (levels AB): 108; found in data: 108; passed QC and clustered: 108
+Anchor consistency:
+  cluster shared with other anchored species: 72
+  consistent: 31
+  conflict: 5
+    conflict: GQ141906 (li2010, Tetranychus urticae) in cluster with Tetranychus truncatus
+    conflict: GQ141907 (li2010, Tetranychus urticae) in cluster with Tetranychus pueraricola
+    conflict: GQ141908 (li2010, Tetranychus urticae) in cluster with Tetranychus truncatus
+    conflict: GQ141909 (li2010, Tetranychus urticae) in cluster with Tetranychus truncatus
+    conflict: GQ141911 (li2010, Tetranychus kanzawai) in cluster with Tetranychus ludeni
+Clusters with anchors: 13 of 81 (several anchored species: 3)
+Non-anchor records: 2048
+  AGREES_SHARED_CLUSTER: 751 (36.7%)
+  NO_ANCHOR: 464 (22.7%)
+  AGREES: 428 (20.9%)
+  UNNAMED_SEVERAL_POSSIBLE: 215 (10.5%)
+  DISAGREES: 118 (5.8%)
+  UNNAMED_SUGGESTED: 72 (3.5%)
+Clusters holding several anchored species:
+  C028 (972 records): Tetranychus turkestani [A] x5; Tetranychus turkestani [B] x7; Tetranychus urticae [A] x26; Tetranychus urticae [B] x17
+  C042 (96 records): Tetranychus kanzawai [A] x6; Tetranychus kanzawai [B] x1; Tetranychus parakanzawai [A] x3
+  C051 (11 records): Tetranychus ezoensis [A] x2; Tetranychus kanzawai [A] x2; Tetranychus parakanzawai [A] x3
