@@ -1,0 +1,69 @@
+name: Fetch sequences and occurrence data
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "What to download"
+        type: choice
+        options: [all, ncbi, bold, gbif, climate-only]
+        default: all
+      ncbi_query:
+        description: "NCBI Nucleotide query"
+        required: true
+        default: 'Tetranychus urticae[Organism] AND (COI[Gene] OR COX1[Gene] OR "cytochrome oxidase subunit I" OR "cytochrome c oxidase subunit I")'
+      taxon:
+        description: "Taxon for BOLD and GBIF (species or genus name)"
+        required: true
+        default: "Tetranychus urticae"
+      name:
+        description: "Output file name (no extension)"
+        required: true
+        default: "tetranychus_urticae"
+      climate_resolution:
+        description: "WorldClim resolution"
+        type: choice
+        options: [10m, 5m, 2.5m]
+        default: 10m
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install packages
+        run: pip install biopython rasterio
+
+      - name: Download from NCBI
+        if: ${{ contains(fromJSON('["all","ncbi"]'), github.event.inputs.source) }}
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/fetch_ncbi.py "${{ github.event.inputs.ncbi_query }}" "ncbi_${{ github.event.inputs.name }}"
+
+      - name: Download from BOLD
+        if: ${{ contains(fromJSON('["all","bold"]'), github.event.inputs.source) }}
+        run: python scripts/fetch_bold.py "${{ github.event.inputs.taxon }}" "bold_${{ github.event.inputs.name }}"
+
+      - name: Download from GBIF
+        if: ${{ contains(fromJSON('["all","gbif"]'), github.event.inputs.source) }}
+        run: python scripts/fetch_gbif.py "${{ github.event.inputs.taxon }}" "gbif_${{ github.event.inputs.name }}"
+
+      - name: Extract WorldClim climate at all record locations
+        run: python scripts/climate_extract.py "${{ github.event.inputs.climate_resolution }}"
+
+      - name: Save files to the repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Add data download: ${{ github.event.inputs.name }} (${{ github.event.inputs.source }})" || echo "Nothing new to commit"
+          git push

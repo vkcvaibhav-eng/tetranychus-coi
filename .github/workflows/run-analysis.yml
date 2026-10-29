@@ -1,0 +1,53 @@
+name: Run analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      reference_accession:
+        description: "Reference mitochondrial genome (NCBI accession)"
+        required: true
+        default: "NC_010526"
+      reference_organism:
+        description: "Expected organism of the reference"
+        required: true
+        default: "Tetranychus urticae"
+      min_identity:
+        description: "Minimum identity to the reference (0.75 suits the whole genus)"
+        required: true
+        default: "0.75"
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Fetch reference COX1
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/fetch_reference.py "${{ github.event.inputs.reference_accession }}" "${{ github.event.inputs.reference_organism }}"
+
+      - name: Merge records and remove duplicates
+        run: python scripts/merge_records.py
+
+      - name: Sequence quality check
+        run: python scripts/sequence_qc.py --min-identity "${{ github.event.inputs.min_identity }}"
+
+      - name: Save results to the repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reference results/
+          git commit -m "Analysis results (reference ${{ github.event.inputs.reference_accession }})" || echo "Nothing new to commit"
+          git push
