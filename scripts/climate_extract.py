@@ -51,6 +51,8 @@ def bold_points():
         rows += json.loads(text) if text.startswith("[") else \
             [json.loads(l) for l in text.splitlines() if l.strip()]
     for r in rows:
+        if "centroid" in (r.get("coord_source") or "").lower():
+            continue  # country/province centre, not a collection site
         coord = r.get("coord")
         if isinstance(coord, list) and len(coord) == 2:
             lat, lon = coord

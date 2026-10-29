@@ -19,7 +19,8 @@ from Bio import SeqIO
 
 FIELDS = ["record_id", "source", "genbank_accession", "bold_processid", "bold_bin",
           "species_label", "country", "latitude", "longitude", "host",
-          "collection_date", "voucher", "identified_by", "institution",
+          "collection_date", "voucher", "identified_by", "identification_automated",
+          "coordinate_source", "institution",
           "marker_label", "publication", "journal", "metadata_score",
           "metadata_missing", "seq_length", "sequence"]
 
@@ -30,10 +31,14 @@ METADATA_ITEMS = {
     "host": lambda r: bool(r["host"]),
     "collection_date": lambda r: bool(r["collection_date"]),
     "voucher": lambda r: bool(r["voucher"]),
-    "identifier": lambda r: bool(r["identified_by"]),
+    # An automated match by the BOLD Identification System is not counted:
+    # it identifies a sequence by comparing it with the database itself.
+    "identifier": lambda r: bool(r["identified_by"]) and r["identification_automated"] != "yes",
     "publication": lambda r: bool(r["publication"]),
 }
 
+MINED = "Mined from GenBank, NCBI"
+AUTOMATED_ID = "BOLD Identification System"
 LATLON = re.compile(r"([\d.]+)\s*([NS])\s+([\d.]+)\s*([EW])")
 NUM = re.compile(r"-?\d+(?:\.\d+)?")
 
@@ -71,6 +76,7 @@ def parse_genbank(path):
         if m:
             r["latitude"] = float(m.group(1)) * (1 if m.group(2) == "N" else -1)
             r["longitude"] = float(m.group(3)) * (1 if m.group(4) == "E" else -1)
+            r["coordinate_source"] = "GenBank lat_lon"
         r["host"] = first(q, "host")
         r["collection_date"] = first(q, "collection_date")
         r["voucher"] = first(q, "specimen_voucher", "bio_material")
@@ -115,17 +121,35 @@ def parse_bold_row(row):
     r["genbank_accession"] = accs[0] if accs else ""
     r["species_label"] = row.get("species") or row.get("identification") or ""
     r["country"] = row.get("country/ocean") or ""
+    coord_source = row.get("coord_source") or ""
     coord = row.get("coord")
+    lat = lon = None
     if isinstance(coord, list) and len(coord) == 2:
-        r["latitude"], r["longitude"] = float(coord[0]), float(coord[1])
+        lat, lon = float(coord[0]), float(coord[1])
     else:
         nums = NUM.findall(str(coord or ""))
         if len(nums) == 2:
-            r["latitude"], r["longitude"] = float(nums[0]), float(nums[1])
+            lat, lon = float(nums[0]), float(nums[1])
+    if lat is not None:
+        if "centroid" in coord_source.lower():
+            # Placed by BOLD at a country/province centre: not a collection site.
+            r["coordinate_source"] = f"BOLD {coord_source} (excluded)"
+        else:
+            r["latitude"], r["longitude"] = lat, lon
+            r["coordinate_source"] = f"BOLD {coord_source}".strip()
     r["host"] = row.get("associated_taxa") or ""
     r["collection_date"] = row.get("collection_date_start") or row.get("collection_date") or ""
-    r["voucher"] = row.get("museumid") or row.get("sampleid") or ""
+    # For records BOLD copied from GenBank, sampleid is the GenBank accession,
+    # not a specimen voucher; only museumid can carry a voucher there.
+    mined = (row.get("inst") or "") == MINED
+    voucher_type = row.get("voucher_type") or ""
+    if row.get("museumid"):
+        r["voucher"] = row["museumid"]
+    elif not mined and "voucher" in voucher_type.lower() and row.get("sampleid"):
+        r["voucher"] = row["sampleid"]
     r["identified_by"] = row.get("identified_by") or ""
+    if r["identified_by"].startswith(AUTOMATED_ID):
+        r["identification_automated"] = "yes"
     r["institution"] = row.get("inst") or ""
     r["marker_label"] = marker
     r["sequence"] = seq
@@ -135,7 +159,8 @@ def parse_bold_row(row):
 def merge_into(base, extra):
     """Fill empty fields of a GenBank record from its BOLD copy."""
     for k in ("bold_processid", "bold_bin", "latitude", "longitude", "host",
-              "collection_date", "voucher", "identified_by", "institution", "country"):
+              "collection_date", "voucher", "identified_by", "identification_automated",
+          "coordinate_source", "institution", "country"):
         if base[k] == "" and extra[k] != "":
             base[k] = extra[k]
     base["source"] = "GenBank+BOLD"
@@ -199,6 +224,11 @@ def main():
     lines += ["Processing:"] + [f"  {k}: {v}" for k, v in sorted(log.items())]
     lines += ["Metadata score (0-7, records):"]
     lines += [f"  {s}: {scores[s]}" for s in range(len(METADATA_ITEMS) + 1)]
+    lines += ["Data-quality notes:",
+              f"  identifications by BOLD automated matching: "
+              f"{sum(r['identification_automated'] == 'yes' for r in records)}",
+              f"  coordinates excluded as country/province centroids: "
+              f"{sum('excluded' in r['coordinate_source'] for r in records)}"]
     missing = Counter(m for r in records for m in r["metadata_missing"].split(";") if m)
     lines += ["Records missing each item:"]
     lines += [f"  {k}: {v} ({100 * v / len(records):.1f}%)" for k, v in missing.most_common()] \

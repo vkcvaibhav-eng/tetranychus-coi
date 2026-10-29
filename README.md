@@ -41,6 +41,12 @@ pytest -q
 - `qc_passed.fasta`: sequences that passed, in forward orientation
 - `merge_summary.txt`, `qc_summary.txt`: counts for reporting
 
+## Metadata rules
+
+- **Voucher:** for records BOLD copied from GenBank ("Mined from GenBank, NCBI"), the BOLD sample ID is the GenBank accession and is not counted as a voucher; only a museum ID is.
+- **Identifier:** identifications made by the BOLD Identification System are flagged in `identification_automated` and not counted, because they come from matching the sequence against the database itself.
+- **Coordinates:** BOLD coordinates placed at a country or province centroid are excluded from the metadata score and from the climate extraction; the reason is kept in `coordinate_source`.
+
 ## QC flags
 
 | Flag | Meaning |

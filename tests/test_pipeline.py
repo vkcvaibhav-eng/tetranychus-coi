@@ -98,15 +98,26 @@ def build_dataset(tmp):
     SeqIO.write(file1, data / "ncbi_t1.gb", "genbank")
     SeqIO.write(file2, data / "ncbi_t2.gb", "genbank")
 
-    header = ["processid", "sampleid", "species", "country/ocean", "coord", "nuc",
-              "marker_code", "insdc_acs", "identified_by", "bin_uri", "inst"]
+    header = ["processid", "sampleid", "museumid", "voucher_type", "species",
+              "country/ocean", "coord", "coord_source", "nuc", "marker_code",
+              "insdc_acs", "identified_by", "bin_uri", "inst"]
+    mined = "Mined from GenBank, NCBI"
     rows = [
-        ["MITE001-20", "V-1", "Tetranychus urticae", "India", "[21.1, 72.8]", good,
-         "COI-5P", "AB000002.1", "A. Taxonomist", "BOLD:AAA0001", "NAU"],
-        ["MITE002-20", "V-2", "Tetranychus urticae", "Spain", "[40.4, -3.7]", good,
-         "COI-5P", "", "B. Expert", "BOLD:AAA0001", "Museum"],
-        ["MITE003-20", "V-3", "Tetranychus urticae", "Spain", "", "ACGTACGT",
+        ["MITE001-20", "V-1", "V-1", "Vouchered:Registered Collection", "Tetranychus urticae",
+         "India", "[21.1, 72.8]", "GPS", good, "COI-5P", "AB000002.1", "A. Taxonomist",
+         "BOLD:AAA0001", "NAU"],
+        ["MITE002-20", "V-2", "", "Vouchered:Registered Collection", "Tetranychus urticae",
+         "Spain", "[40.4, -3.7]", "GPS", good, "COI-5P", "", "BOLD Identification System [2023]",
+         "BOLD:AAA0001", "Museum"],
+        ["MITE003-20", "V-3", "", "", "Tetranychus urticae", "Spain", "", "", "ACGTACGT",
          "ITS2", "", "", "", ""],
+        # Copied from GenBank: sampleid is the accession, coordinate is a country centroid.
+        ["GBMIN001-13", "AB000003", "", "", "Tetranychus urticae", "Russia",
+         "[59.039433, 98.6705]", "Coordinates from country centroid", shift, "COI-5P",
+         "AB000003.1", "", "", mined],
+        ["GBMIN002-13", "XY999999", "", "", "Tetranychus urticae", "China",
+         "[38.073254, 104.69114]", "Coordinates from country centroid", good, "COI-5P",
+         "XY999999.1", "", "", mined],
     ]
     with open(data / "bold_t.tsv", "w", newline="") as f:
         w = csv.writer(f, delimiter="\t")
@@ -130,7 +141,20 @@ def test_merge_and_qc(tmp_path):
     # BOLD-only COI record kept; non-COI marker skipped.
     assert merged["MITE002-20"]["source"] == "BOLD"
     assert "MITE003-20" not in merged
-    assert len(merged) == 9
+    assert len(merged) == 10
+    # GenBank accession used as BOLD sampleid is not a voucher.
+    assert merged["AB000003.1"]["voucher"] == ""
+    assert merged["GBMIN002-13"]["voucher"] == ""
+    # Country-centroid coordinates are not used as locations.
+    assert merged["GBMIN002-13"]["latitude"] == ""
+    assert "excluded" in merged["GBMIN002-13"]["coordinate_source"]
+    assert merged["AB000003.1"]["latitude"] == ""
+    # A directly submitted, vouchered BOLD record keeps its sample ID as voucher.
+    assert merged["MITE002-20"]["voucher"] == "V-2"
+    # Automated BOLD identification does not count as an identifier.
+    assert merged["MITE002-20"]["identification_automated"] == "yes"
+    assert "identifier" in merged["MITE002-20"]["metadata_missing"]
+    assert "identifier" not in merged["AB000002.1"]["metadata_missing"]
     # Metadata score: the published record with coordinates scores higher.
     assert int(merged["AB000001.1"]["metadata_score"]) > int(merged["AB000003.1"]["metadata_score"])
     assert float(merged["AB000001.1"]["latitude"]) == 20.95
