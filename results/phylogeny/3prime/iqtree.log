@@ -1,0 +1,630 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Nov 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    runnervmnwato (AVX2, FMA3, 15 GB RAM)
+Command: /usr/bin/iqtree2 -s results/phylogeny/3prime/alignment.fasta -m GTR+F+G4 -T AUTO --prefix results/phylogeny/3prime/iqtree -redo --quiet -B 1000
+Seed:    88912 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 29 22:05:15 2026
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file results/phylogeny/3prime/alignment.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 422 sequences with 412 columns, 296 distinct patterns
+183 parsimony-informative, 58 singleton sites, 171 constant sites
+       Gap/Ambiguity  Composition  p-value
+   1  H0001    0.00%    passed     91.60%
+   2  H0002    0.00%    passed     86.36%
+   3  H0003    0.00%    passed     89.68%
+   4  H0004    0.00%    passed     94.93%
+   5  H0005    0.00%    passed     94.76%
+   6  H0006    2.43%    passed     85.71%
+   7  H0007    0.00%    passed     95.66%
+   8  H0008    0.00%    passed     92.56%
+   9  H0009    0.00%    passed     92.28%
+  10  H0010    0.00%    passed     95.61%
+  11  H0011    0.00%    passed     95.41%
+  12  H0012    0.00%    passed     86.89%
+  13  H0013    0.00%    passed     97.45%
+  14  H0014    0.00%    passed     95.84%
+  15  H0015    0.00%    passed     92.29%
+  16  H0016    0.00%    passed     95.74%
+  17  H0017    0.49%    passed     87.90%
+  18  H0018    0.49%    passed     77.27%
+  19  H0019    0.73%    passed     85.73%
+  20  H0020    0.49%    passed     87.34%
+  21  H0021    0.49%    passed     91.13%
+  22  H0022    0.49%    passed     94.13%
+  23  H0023    0.49%    passed     94.31%
+  24  H0024    0.49%    passed     96.31%
+  25  H0025    0.49%    passed     90.46%
+  26  H0026    0.49%    passed     82.20%
+  27  H0027    0.49%    passed     85.98%
+  28  H0028    0.49%    passed     93.63%
+  29  H0029   14.56%    passed     93.77%
+  30  H0030   13.35%    passed     93.20%
+  31  H0031   14.08%    passed     65.10%
+  32  H0032    1.21%    passed     99.09%
+  33  H0033    2.67%    passed     99.20%
+  34  H0034    2.67%    passed     80.06%
+  35  H0035    1.21%    passed     86.82%
+  36  H0036    1.21%    passed     96.79%
+  37  H0037    2.67%    passed     84.47%
+  38  H0038    1.21%    passed     81.17%
+  39  H0039    1.21%    passed     80.93%
+  40  H0040    1.21%    passed     94.54%
+  41  H0041    4.13%    passed     97.23%
+  42  H0042    1.21%    passed     96.22%
+  43  H0043    1.21%    passed     92.80%
+  44  H0044    0.00%    passed     88.89%
+  45  H0045    0.00%    passed     92.91%
+  46  H0046    0.00%    passed     96.90%
+  47  H0047    0.00%    passed     98.81%
+  48  H0048    1.21%    passed     97.20%
+  49  H0049    0.49%    passed     95.64%
+  50  H0050   15.53%    passed     83.64%
+  51  H0051   15.53%    passed     91.86%
+  52  H0052    1.21%    passed     96.24%
+  53  H0053    0.00%    passed     90.25%
+  54  H0054    0.00%    passed     93.45%
+  55  H0055    6.55%    passed     99.49%
+  56  H0056    2.18%    passed     98.78%
+  57  H0057    5.34%    passed     97.47%
+  58  H0058    1.46%    passed     89.86%
+  59  H0059   17.23%    passed     80.66%
+  60  H0060    4.61%    passed     95.00%
+  61  H0061    4.13%    passed     96.40%
+  62  H0062    5.58%    passed     43.44%
+  63  H0063    6.55%    passed     98.77%
+  64  H0064    4.37%    passed     44.68%
+  65  H0065    1.46%    passed     37.69%
+  66  H0066    5.34%    passed     87.75%
+  67  H0067    4.85%    passed     96.82%
+  68  H0068   15.53%    passed     88.36%
+  69  H0069   15.53%    passed     82.01%
+  70  H0070   15.53%    passed     81.94%
+  71  H0071   10.44%    passed     78.61%
+  72  H0072   13.59%    passed     30.01%
+  73  H0073   10.44%    passed     38.87%
+  74  H0074   10.68%    passed     97.07%
+  75  H0075   10.44%    passed     96.20%
+  76  H0076   14.81%    passed     94.77%
+  77  H0077   14.81%    passed     98.23%
+  78  H0078   14.81%    passed     93.45%
+  79  H0079   14.81%    passed     95.73%
+  80  H0080   15.29%    passed     74.85%
+  81  H0081   15.29%    passed     82.90%
+  82  H0082   19.42%    passed     91.86%
+  83  H0083   14.81%    passed     27.78%
+  84  H0084   17.23%    passed     35.70%
+  85  H0085   14.81%    passed     32.57%
+  86  H0086   15.29%    passed     73.19%
+  87  H0087   18.69%    passed     77.85%
+  88  H0088   15.29%    passed     83.46%
+  89  H0089    7.77%    passed     78.51%
+  90  H0090    0.73%    passed     68.44%
+  91  H0091   18.20%    passed     72.06%
+  92  H0092   18.20%    passed     66.49%
+  93  H0093   18.20%    passed     66.49%
+  94  H0094   18.20%    passed     80.12%
+  95  H0095   18.20%    passed     89.30%
+  96  H0096   18.20%    passed     65.64%
+  97  H0097   18.20%    passed     76.18%
+  98  H0098   18.20%    passed     77.82%
+  99  H0099   18.20%    passed     74.92%
+ 100  H0100   18.20%    passed     62.36%
+ 101  H0101   18.20%    passed     45.38%
+ 102  H0102   18.20%    passed     72.95%
+ 103  H0103   12.86%    passed     93.71%
+ 104  H0104    6.31%    passed     94.96%
+ 105  H0105    7.04%    passed     99.24%
+ 106  H0106    7.77%    passed     98.99%
+ 107  H0107    0.00%    passed     95.10%
+ 108  H0108    0.00%    passed     96.83%
+ 109  H0109    0.00%    passed     97.01%
+ 110  H0110    0.00%    passed     96.31%
+ 111  H0111    0.00%    passed     94.83%
+ 112  H0112   12.86%    passed     31.96%
+ 113  H0113   17.96%    passed     64.76%
+ 114  H0114   17.96%    passed     70.05%
+ 115  H0115    0.00%    passed     90.01%
+ 116  H0116    0.00%    passed     92.92%
+ 117  H0117   12.14%    passed     64.95%
+ 118  H0118    5.10%    passed     55.30%
+ 119  H0119    8.01%    passed     61.89%
+ 120  H0120    5.10%    passed     62.01%
+ 121  H0121    3.88%    passed     66.89%
+ 122  H0122    0.73%    passed     75.24%
+ 123  H0123    2.18%    passed     84.12%
+ 124  H0124   13.83%    passed     66.14%
+ 125  H0125    5.10%    passed     73.69%
+ 126  H0126    8.01%    passed     67.35%
+ 127  H0127    5.34%    passed     68.41%
+ 128  H0128    5.34%    passed     71.47%
+ 129  H0129    3.88%    passed     73.12%
+ 130  H0130    2.18%    passed     99.26%
+ 131  H0131    2.18%    passed     98.66%
+ 132  H0132    3.16%    passed     97.18%
+ 133  H0133    1.94%    passed     99.54%
+ 134  H0134    2.43%    passed     98.85%
+ 135  H0135    1.94%    passed     99.01%
+ 136  H0136    2.43%    passed     98.18%
+ 137  H0137   13.35%    passed     96.97%
+ 138  H0138    6.80%    passed     96.61%
+ 139  H0139    0.00%    passed     89.75%
+ 140  H0140    0.00%    passed     99.26%
+ 141  H0141    0.00%    passed     90.25%
+ 142  H0142    0.00%    passed     99.77%
+ 143  H0143    0.00%    passed     90.58%
+ 144  H0144    0.00%    passed     89.10%
+ 145  H0145    0.00%    passed     99.77%
+ 146  H0146    0.00%    passed     98.03%
+ 147  H0147    0.00%    passed     98.76%
+ 148  H0148    7.04%    passed     94.26%
+ 149  H0149    7.04%    passed     93.68%
+ 150  H0150    7.04%    passed     86.22%
+ 151  H0151    7.04%    passed     84.51%
+ 152  H0152    7.04%    passed     89.15%
+ 153  H0153    7.04%    passed     95.70%
+ 154  H0154    7.04%    passed     93.68%
+ 155  H0155    7.04%    passed     93.68%
+ 156  H0156    6.55%    passed     98.75%
+ 157  H0157    0.00%    passed     97.87%
+ 158  H0158   14.32%    passed     99.34%
+ 159  H0159    7.04%    passed     96.83%
+ 160  H0160    0.00%    passed     92.28%
+ 161  H0161   12.38%    passed     94.36%
+ 162  H0162    0.00%    passed     96.73%
+ 163  H0163    0.00%    passed     92.48%
+ 164  H0164    0.97%    passed     92.05%
+ 165  H0165   14.32%    passed     75.89%
+ 166  H0166   12.38%    passed     80.40%
+ 167  H0167    9.22%    passed     82.36%
+ 168  H0168    8.98%    passed     79.75%
+ 169  H0169    5.83%    passed     90.10%
+ 170  H0170    5.10%    passed     97.21%
+ 171  H0171    2.67%    passed     99.32%
+ 172  H0172    1.21%    passed     97.80%
+ 173  H0173    4.37%    passed     96.73%
+ 174  H0174    4.61%    passed     90.81%
+ 175  H0175    7.77%    passed     99.33%
+ 176  H0176    7.28%    passed     98.91%
+ 177  H0177    7.77%    passed     98.22%
+ 178  H0178    7.28%    passed     96.17%
+ 179  H0179    7.28%    passed     98.47%
+ 180  H0180    7.77%    passed     98.21%
+ 181  H0181    7.28%    passed     93.76%
+ 182  H0182    7.77%    passed     95.23%
+ 183  H0183    7.77%    passed     97.71%
+ 184  H0184    7.28%    passed     92.69%
+ 185  H0185    7.77%    passed     99.20%
+ 186  H0186    7.77%    passed     99.81%
+ 187  H0187    7.77%    passed     61.27%
+ 188  H0188    7.77%    passed     76.53%
+ 189  H0189    8.01%    passed     98.29%
+ 190  H0190    7.77%    passed     95.62%
+ 191  H0191    0.00%    passed     94.46%
+ 192  H0192    0.00%    passed     88.39%
+ 193  H0193    0.00%    passed     92.45%
+ 194  H0194    0.00%    passed     94.46%
+ 195  H0195    0.00%    passed     92.91%
+ 196  H0196    0.00%    passed     95.26%
+ 197  H0197    0.00%    passed     98.76%
+ 198  H0198    0.00%    passed     98.03%
+ 199  H0199    0.00%    passed     98.03%
+ 200  H0200    0.00%    passed     99.49%
+ 201  H0201    0.00%    passed     99.77%
+ 202  H0202    0.00%    passed     99.77%
+ 203  H0203    0.00%    passed     98.01%
+ 204  H0204    0.00%    passed     95.41%
+ 205  H0205    2.67%    failed      0.06%
+ 206  H0206   16.75%    passed     75.60%
+ 207  H0207    6.07%    passed     86.11%
+ 208  H0208    8.01%    passed     94.44%
+ 209  H0209    8.01%    passed     95.35%
+ 210  H0210    0.00%    passed     93.27%
+ 211  H0211    8.01%    passed     99.53%
+ 212  H0212    0.00%    passed     93.40%
+ 213  H0213    0.00%    passed     93.27%
+ 214  H0214    8.01%    passed     90.95%
+ 215  H0215    0.73%    passed     88.37%
+ 216  H0216    5.34%    passed     94.55%
+ 217  H0217   10.92%    passed     98.48%
+ 218  H0218    0.00%    passed     97.51%
+ 219  H0219    8.01%    passed     97.25%
+ 220  H0220    8.01%    passed     98.00%
+ 221  H0221    0.00%    passed     91.97%
+ 222  H0222    0.00%    passed     94.93%
+ 223  H0223    8.01%    passed     86.93%
+ 224  H0224   10.92%    passed     95.61%
+ 225  H0225    9.71%    passed     86.97%
+ 226  H0226    9.71%    passed     91.01%
+ 227  H0227    9.47%    passed     88.09%
+ 228  H0228    0.00%    passed     93.27%
+ 229  H0229    4.85%    passed     94.62%
+ 230  H0230    2.43%    passed     98.32%
+ 231  H0231   15.05%    passed     99.80%
+ 232  H0232   15.05%    passed     81.29%
+ 233  H0233    0.49%    passed     87.70%
+ 234  H0234    0.00%    passed     95.41%
+ 235  H0235    7.04%    passed     99.26%
+ 236  H0236    0.00%    passed     92.56%
+ 237  H0237    0.00%    passed     94.93%
+ 238  H0238    0.00%    passed     95.42%
+ 239  H0239    0.00%    passed     30.28%
+ 240  H0240    0.00%    passed     87.44%
+ 241  H0241    0.00%    passed     86.25%
+ 242  H0242    0.00%    passed     98.76%
+ 243  H0243    0.00%    passed     67.73%
+ 244  H0244    0.00%    passed     87.22%
+ 245  H0245    0.00%    passed     97.01%
+ 246  H0246    0.00%    passed     99.33%
+ 247  H0247    0.00%    passed     98.76%
+ 248  H0248    0.00%    passed     99.26%
+ 249  H0249    0.00%    passed     99.26%
+ 250  H0250    0.00%    passed     98.76%
+ 251  H0251    0.00%    passed     99.61%
+ 252  H0252    0.00%    passed     99.26%
+ 253  H0253    0.00%    passed     99.26%
+ 254  H0254    0.00%    passed     99.84%
+ 255  H0255    0.00%    passed     91.25%
+ 256  H0256    0.00%    passed     97.45%
+ 257  H0257    8.01%    passed     99.18%
+ 258  H0258    0.00%    passed     97.45%
+ 259  H0259    0.00%    passed     98.76%
+ 260  H0260    0.00%    passed     99.26%
+ 261  H0261    0.00%    passed     80.08%
+ 262  H0262    4.85%    passed     64.47%
+ 263  H0263    4.85%    passed     57.61%
+ 264  H0264    4.85%    passed     78.69%
+ 265  H0265    4.85%    passed     73.71%
+ 266  H0266    4.85%    passed     75.76%
+ 267  H0267    0.00%    passed     99.77%
+ 268  H0268    4.85%    passed     66.32%
+ 269  H0269    5.83%    passed     97.60%
+ 270  H0270    5.83%    passed     90.04%
+ 271  H0271    5.83%    passed     92.75%
+ 272  H0272    5.83%    passed     97.60%
+ 273  H0273    5.83%    passed     92.75%
+ 274  H0274    5.83%    passed     97.22%
+ 275  H0275    5.83%    passed     96.39%
+ 276  H0276    5.83%    passed     93.19%
+ 277  H0277    5.83%    passed     92.51%
+ 278  H0278    5.83%    passed     96.39%
+ 279  H0279    5.83%    passed     97.85%
+ 280  H0280    5.83%    passed     94.51%
+ 281  H0281    5.83%    passed     94.20%
+ 282  H0282    0.49%    passed     92.34%
+ 283  H0283   13.59%    passed     95.23%
+ 284  H0284    9.95%    passed     94.13%
+ 285  H0285    6.55%    passed     98.40%
+ 286  H0286    8.01%    passed     88.66%
+ 287  H0287    4.85%    passed     79.64%
+ 288  H0288   11.65%    passed     44.54%
+ 289  H0289    7.77%    passed     81.89%
+ 290  H0290    6.55%    passed     41.32%
+ 291  H0291    2.43%    passed     99.10%
+ 292  H0292   10.92%    passed     91.68%
+ 293  H0293    0.73%    passed     97.93%
+ 294  H0294    0.49%    passed     95.62%
+ 295  H0295    0.49%    passed     96.19%
+ 296  H0296    0.97%    passed     93.78%
+ 297  H0297    0.49%    passed     77.66%
+ 298  H0298    0.97%    passed     29.46%
+ 299  H0299    0.49%    passed     96.71%
+ 300  H0300    0.97%    passed     90.34%
+ 301  H0301    2.18%    passed      9.69%
+ 302  H0302    8.25%    passed     98.81%
+ 303  H0303    5.83%    passed     99.74%
+ 304  H0304    6.31%    passed     29.71%
+ 305  H0305    7.28%    passed      9.11%
+ 306  H0306    0.00%    passed     97.08%
+ 307  H0307    0.00%    passed     92.45%
+ 308  H0308    0.00%    passed     26.81%
+ 309  H0309    0.00%    passed     91.92%
+ 310  H0310    6.55%    passed     90.51%
+ 311  H0311    5.34%    passed     52.92%
+ 312  H0312    5.58%    passed     98.74%
+ 313  H0313    7.77%    passed     78.91%
+ 314  H0314    0.00%    passed     86.00%
+ 315  H0315    0.00%    passed     90.25%
+ 316  H0316    0.00%    passed     97.59%
+ 317  H0317    0.00%    passed     70.73%
+ 318  H0318    0.00%    passed     77.48%
+ 319  H0319    0.00%    passed     90.55%
+ 320  H0320    0.00%    passed     92.77%
+ 321  H0321    0.00%    passed     44.39%
+ 322  H0322    0.00%    passed     99.79%
+ 323  H0323    0.00%    passed     99.84%
+ 324  H0324    0.00%    passed     95.02%
+ 325  H0325    0.00%    passed     99.68%
+ 326  H0326    0.00%    passed     99.18%
+ 327  H0327    0.00%    passed     93.69%
+ 328  H0328    0.00%    passed     98.32%
+ 329  H0329    0.00%    passed     85.25%
+ 330  H0330    0.00%    passed     94.16%
+ 331  H0331    0.00%    passed     87.44%
+ 332  H0332    0.00%    passed     93.09%
+ 333  H0333    0.00%    passed     99.81%
+ 334  H0334    0.00%    passed     72.39%
+ 335  H0335    0.00%    passed     93.09%
+ 336  H0336    0.00%    passed     99.49%
+ 337  H0337    0.00%    passed     99.01%
+ 338  H0338    0.00%    passed     98.31%
+ 339  H0339    0.00%    passed     92.61%
+ 340  H0340    0.73%    passed     98.95%
+ 341  H0341    0.73%    passed     97.93%
+ 342  H0342    0.73%    passed     97.68%
+ 343  H0343    0.49%    passed     92.11%
+ 344  H0344    0.49%    passed     91.46%
+ 345  H0345    0.49%    passed     94.12%
+ 346  H0346    0.73%    passed     99.70%
+ 347  H0347    0.73%    passed     97.03%
+ 348  H0348    0.49%    passed     93.63%
+ 349  H0349    0.49%    passed     90.77%
+ 350  H0350    0.49%    passed     94.42%
+ 351  H0351    0.49%    passed     90.77%
+ 352  H0352    0.49%    passed     97.64%
+ 353  H0353    0.49%    passed     95.62%
+ 354  H0354    0.49%    passed     99.10%
+ 355  H0355    0.49%    passed     98.63%
+ 356  H0356    0.73%    passed     99.38%
+ 357  H0357    0.73%    passed     99.38%
+ 358  H0358    0.73%    passed     98.95%
+ 359  H0359    0.73%    passed     99.70%
+ 360  H0360    0.00%    passed     96.65%
+ 361  H0361    0.00%    passed     61.31%
+ 362  H0362    1.46%    passed     94.75%
+ 363  H0363    6.07%    passed     90.66%
+ 364  H0364    5.10%    passed     98.06%
+ 365  H0365    5.10%    passed     99.79%
+ 366  H0366    5.10%    passed     99.17%
+ 367  H0367    5.10%    passed     99.17%
+ 368  H0368    5.10%    passed     98.67%
+ 369  H0369    5.10%    passed     93.25%
+ 370  H0370    5.10%    passed     85.55%
+ 371  H0371    5.10%    passed     96.06%
+ 372  H0372    5.10%    passed     94.91%
+ 373  H0373    8.01%    passed     83.79%
+ 374  H0374    8.01%    passed     97.35%
+ 375  H0375    8.01%    passed     86.28%
+ 376  H0376    8.01%    passed     99.51%
+ 377  H0377    8.01%    passed     85.20%
+ 378  H0378    8.01%    passed     99.81%
+ 379  H0379    8.01%    passed     99.48%
+ 380  H0380    8.01%    passed     99.39%
+ 381  H0381    8.01%    passed     83.35%
+ 382  H0382    8.01%    passed     98.80%
+ 383  H0383    8.01%    passed     90.90%
+ 384  H0384    4.13%    passed     99.65%
+ 385  H0385    4.13%    passed     92.11%
+ 386  H0386    2.18%    passed     98.66%
+ 387  H0387    2.18%    passed     91.89%
+ 388  H0388    2.18%    passed     96.17%
+ 389  H0389    4.85%    passed     98.60%
+ 390  H0390    4.13%    passed     99.42%
+ 391  H0391    0.00%    passed     87.44%
+ 392  H0392    5.83%    passed     94.43%
+ 393  H0393    4.85%    passed     98.60%
+ 394  H0394    0.24%    passed     92.66%
+ 395  H0395    1.46%    passed     93.69%
+ 396  H0396    5.83%    passed     98.06%
+ 397  H0397    4.13%    passed     98.85%
+ 398  H0398    4.85%    passed     93.17%
+ 399  H0399    2.18%    passed     85.74%
+ 400  H0400    4.61%    passed     96.72%
+ 401  H0401    2.43%    passed     98.19%
+ 402  H0402   19.66%    passed     85.87%
+ 403  H0403   10.19%    passed     98.24%
+ 404  H0404   10.19%    passed     95.78%
+ 405  H0405   10.19%    passed     96.62%
+ 406  H0406    8.98%    passed     94.17%
+ 407  H0407    8.98%    passed     99.99%
+ 408  H0408    8.98%    passed     87.92%
+ 409  H0409    8.98%    passed     80.88%
+ 410  H0410    4.37%    passed     99.84%
+ 411  H0411    0.00%    passed     90.25%
+ 412  H0412    6.31%    passed     76.78%
+ 413  H0413    4.61%    passed     96.30%
+ 414  H0414    9.71%    passed     73.28%
+ 415  H0415    5.10%    passed     95.78%
+ 416  H0416    6.55%    passed     87.26%
+ 417  H0417    6.55%    passed     12.02%
+ 418  H0418    8.01%    passed     90.31%
+ 419  H0419    8.01%    passed     87.57%
+ 420  H0420    8.01%    passed     81.53%
+ 421  H0421    2.18%    passed     88.57%
+ 422  H0422   18.45%    passed     93.78%
+****  TOTAL    4.80%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.031 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 88912)...
+
+NOTE: 17 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+17 trees examined
+Threads: 1 / Time: 4.003 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -30500
+Threads: 2 / Time: 3.328 sec / Speedup: 1.203 / Efficiency: 60% / LogL: -30500
+Threads: 3 / Time: 3.617 sec / Speedup: 1.107 / Efficiency: 37% / LogL: -30500
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8122.233
+2. Current log-likelihood: -7605.312
+3. Current log-likelihood: -7592.480
+4. Current log-likelihood: -7591.928
+Optimal log-likelihood: -7591.879
+Rate parameters:  A-C: 0.57252  A-G: 2.95048  A-T: 1.47111  C-G: 0.69475  C-T: 8.70926  G-T: 1.00000
+Base frequencies:  A: 0.323  C: 0.107  G: 0.138  T: 0.433
+Gamma shape alpha: 0.370
+Parameters optimization took 4 rounds (0.674 sec)
+Computing ML distances based on estimated model parameters... 0.873 sec
+Computing BIONJ tree...
+0.097 seconds
+Log-likelihood of BIONJ tree: -7753.390
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.990 second
+Computing log-likelihood of 98 initial trees ... 2.065 seconds
+Current best score: -7584.695
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7543.316
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -7540.428
+Iteration 10 / LogL: -7562.067 / Time: 0h:0m:39s
+Iteration 20 / LogL: -7565.005 / Time: 0h:1m:1s
+Finish initializing candidate tree set (20)
+Current best tree score: -7540.428 / CPU time: 48.468
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -7611.728 / Time: 0h:1m:16s (0h:3m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -7534.314
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -7532.150
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -7520.960
+Iteration 40 / LogL: -7520.960 / Time: 0h:1m:33s (0h:3m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -7518.741
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -7516.741
+Iteration 50 / LogL: -7532.749 / Time: 0h:1m:51s (0h:3m:43s left)
+Log-likelihood cutoff on original alignment: -7611.559
+Iteration 60 / LogL: -7521.556 / Time: 0h:2m:11s (0h:3m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -7509.025
+Iteration 70 / LogL: -7527.438 / Time: 0h:2m:28s (0h:3m:21s left)
+Iteration 80 / LogL: -7541.814 / Time: 0h:2m:45s (0h:2m:55s left)
+Iteration 90 / LogL: -7535.327 / Time: 0h:3m:2s (0h:2m:31s left)
+Iteration 100 / LogL: -7534.208 / Time: 0h:3m:20s (0h:2m:9s left)
+Log-likelihood cutoff on original alignment: -7590.234
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.971
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -7529.775 / Time: 0h:3m:38s (0h:3m:0s left)
+Iteration 120 / LogL: -7532.936 / Time: 0h:3m:55s (0h:2m:38s left)
+Iteration 130 / LogL: -7522.389 / Time: 0h:4m:11s (0h:2m:16s left)
+Iteration 140 / LogL: -7514.280 / Time: 0h:4m:28s (0h:1m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 142: -7507.912
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -7506.653
+Iteration 150 / LogL: -7513.464 / Time: 0h:4m:44s (0h:3m:3s left)
+Log-likelihood cutoff on original alignment: -7590.234
+Iteration 160 / LogL: -7534.491 / Time: 0h:5m:3s (0h:2m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 163: -7505.763
+Iteration 170 / LogL: -7519.317 / Time: 0h:5m:21s (0h:2m:56s left)
+Iteration 180 / LogL: -7509.999 / Time: 0h:5m:37s (0h:2m:36s left)
+Iteration 190 / LogL: -7517.489 / Time: 0h:5m:53s (0h:2m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 196: -7503.464
+Iteration 200 / LogL: -7507.847 / Time: 0h:6m:11s (0h:2m:59s left)
+Log-likelihood cutoff on original alignment: -7590.234
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 202: -7503.323
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 208: -7503.200
+Iteration 210 / LogL: -7504.774 / Time: 0h:6m:28s (0h:3m:2s left)
+Iteration 220 / LogL: -7504.790 / Time: 0h:6m:44s (0h:2m:42s left)
+BETTER TREE FOUND at iteration 229: -7503.193
+Iteration 230 / LogL: -7519.621 / Time: 0h:7m:2s (0h:3m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 236: -7501.725
+Iteration 240 / LogL: -7531.595 / Time: 0h:7m:22s (0h:2m:57s left)
+Iteration 250 / LogL: -7518.946 / Time: 0h:7m:40s (0h:2m:39s left)
+Log-likelihood cutoff on original alignment: -7590.234
+Iteration 260 / LogL: -7520.257 / Time: 0h:7m:59s (0h:2m:20s left)
+Iteration 270 / LogL: -7528.639 / Time: 0h:8m:16s (0h:2m:1s left)
+Iteration 280 / LogL: -7530.435 / Time: 0h:8m:33s (0h:1m:43s left)
+BETTER TREE FOUND at iteration 281: -7501.719
+Iteration 290 / LogL: -7503.273 / Time: 0h:8m:51s (0h:2m:47s left)
+Iteration 300 / LogL: -7605.941 / Time: 0h:9m:8s (0h:2m:28s left)
+Log-likelihood cutoff on original alignment: -7590.234
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -7510.126 / Time: 0h:9m:26s (0h:2m:45s left)
+Iteration 320 / LogL: -7509.841 / Time: 0h:9m:44s (0h:2m:26s left)
+Iteration 330 / LogL: -7528.978 / Time: 0h:10m:2s (0h:2m:8s left)
+Iteration 340 / LogL: -7504.092 / Time: 0h:10m:20s (0h:1m:49s left)
+Iteration 350 / LogL: -7528.996 / Time: 0h:10m:39s (0h:1m:31s left)
+Log-likelihood cutoff on original alignment: -7590.234
+Iteration 360 / LogL: -7525.453 / Time: 0h:10m:58s (0h:1m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 364: -7500.425
+Iteration 370 / LogL: -7511.197 / Time: 0h:11m:15s (0h:2m:52s left)
+Iteration 380 / LogL: -7506.580 / Time: 0h:11m:32s (0h:2m:33s left)
+Iteration 390 / LogL: -7501.725 / Time: 0h:11m:49s (0h:2m:15s left)
+Iteration 400 / LogL: -7524.342 / Time: 0h:12m:8s (0h:1m:56s left)
+Log-likelihood cutoff on original alignment: -7590.234
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -7550.793 / Time: 0h:12m:28s (0h:2m:44s left)
+Iteration 420 / LogL: -7510.866 / Time: 0h:12m:47s (0h:2m:26s left)
+Iteration 430 / LogL: -7509.356 / Time: 0h:13m:4s (0h:2m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 440: -7500.220
+Iteration 440 / LogL: -7500.220 / Time: 0h:13m:24s (0h:3m:3s left)
+Iteration 450 / LogL: -7521.073 / Time: 0h:13m:41s (0h:2m:44s left)
+Log-likelihood cutoff on original alignment: -7587.628
+Iteration 460 / LogL: -7504.673 / Time: 0h:13m:59s (0h:2m:26s left)
+Iteration 470 / LogL: -7523.778 / Time: 0h:14m:16s (0h:2m:7s left)
+Iteration 480 / LogL: -7511.701 / Time: 0h:14m:34s (0h:1m:49s left)
+Iteration 490 / LogL: -7558.518 / Time: 0h:14m:51s (0h:1m:31s left)
+Iteration 500 / LogL: -7501.296 / Time: 0h:15m:10s (0h:1m:12s left)
+Log-likelihood cutoff on original alignment: -7587.628
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+Iteration 510 / LogL: -7501.141 / Time: 0h:15m:27s (0h:2m:44s left)
+Iteration 520 / LogL: -7524.321 / Time: 0h:15m:44s (0h:2m:25s left)
+Iteration 530 / LogL: -7508.933 / Time: 0h:16m:3s (0h:2m:7s left)
+Iteration 540 / LogL: -7503.609 / Time: 0h:16m:19s (0h:1m:49s left)
+TREE SEARCH COMPLETED AFTER 541 ITERATIONS / Time: 0h:16m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7500.220
+Optimal log-likelihood: -7500.218
+Rate parameters:  A-C: 0.58278  A-G: 2.89532  A-T: 1.48619  C-G: 0.71876  C-T: 9.24639  G-T: 1.00000
+Base frequencies:  A: 0.323  C: 0.107  G: 0.138  T: 0.433
+Gamma shape alpha: 0.368
+Parameters optimization took 1 rounds (0.070 sec)
+BEST SCORE FOUND : -7500.218
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/phylogeny/3prime/iqtree.splits.nex
+Total tree length: 5.667
+
+Total number of iterations: 541
+CPU time used for tree search: 1807.381 sec (0h:30m:7s)
+Wall-clock time used for tree search: 969.359 sec (0h:16m:9s)
+Total CPU time used: 1831.783 sec (0h:30m:31s)
+Total wall-clock time used: 983.083 sec (0h:16m:23s)
+
+Computing bootstrap consensus tree...
+Reading input file results/phylogeny/3prime/iqtree.splits.nex...
+422 taxa and 9091 splits.
+Consensus tree written to results/phylogeny/3prime/iqtree.contree
+Reading input trees file results/phylogeny/3prime/iqtree.contree
+Log-likelihood of consensus tree: -7500.044
+
+Analysis results written to: 
+  IQ-TREE report:                results/phylogeny/3prime/iqtree.iqtree
+  Maximum-likelihood tree:       results/phylogeny/3prime/iqtree.treefile
+  Likelihood distances:          results/phylogeny/3prime/iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/phylogeny/3prime/iqtree.splits.nex
+  Consensus tree:                results/phylogeny/3prime/iqtree.contree
+  Screen log file:               results/phylogeny/3prime/iqtree.log
+
+Date and Time: Thu Oct 29 22:21:38 2026

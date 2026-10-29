@@ -1,0 +1,46 @@
+5prime: reference window 43-696, 1154 sequences, 505 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps
+3prime: reference window 719-1130, 921 sequences, 422 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps
+5prime, anchors only: 1 of 1 species monophyletic (unnamed tips allowed)
+  Tetranychus urticae (2 records, 2 haplotypes): main clade 100.0% of records, support 99
+5prime, all records: 5 of 15 species monophyletic (unnamed tips allowed)
+  Tetranychus urticae (330 records, 117 haplotypes): main clade 76.7% of records, support 86; 77 records in 8 other place(s)
+  Tetranychus ludeni (121 records, 31 haplotypes): main clade 100.0% of records, support 66
+  Tetranychus truncatus (46 records, 30 haplotypes): main clade 19.6% of records, support 96; 37 records in 12 other place(s)
+  Tetranychus turkestani (38 records, 14 haplotypes): main clade 89.5% of records, support 76; 4 records in 4 other place(s)
+  Tetranychus kanzawai (27 records, 10 haplotypes): main clade 25.9% of records; 20 records in 6 other place(s)
+  Tetranychus pueraricola (15 records, 13 haplotypes): main clade 100.0% of records, support 100
+  Tetranychus neocaledonicus (14 records, 13 haplotypes): main clade 85.7% of records, support 95; 2 records in 1 other place(s)
+  Tetranychus evansi (11 records, 7 haplotypes): main clade 72.7% of records, support 50; 3 records in 2 other place(s)
+  Tetranychus malaysiensis (9 records, 2 haplotypes): main clade 55.6% of records; 4 records in 1 other place(s)
+  Tetranychus udaipurensis (7 records, 7 haplotypes): main clade 71.4% of records, support 97; 2 records in 1 other place(s)
+  Tetranychus macfarlanei (4 records, 2 haplotypes): main clade 100.0% of records, support 100
+  Tetranychus okinawanus (3 records, 3 haplotypes): main clade 66.7% of records, support 100; 1 records in 1 other place(s)
+  Tetranychus przhevalskii (3 records, 3 haplotypes): main clade 100.0% of records, support 99
+  Tetranychus puschelii (3 records, 3 haplotypes): main clade 66.7% of records, support 100; 1 records in 1 other place(s)
+3prime, anchors only: 5 of 11 species monophyletic (unnamed tips allowed)
+  Tetranychus urticae (38 records, 26 haplotypes): main clade 50.0% of records, support 90; 19 records in 9 other place(s)
+  Tetranychus turkestani (12 records, 9 haplotypes): main clade 25.0% of records, support 40; 9 records in 5 other place(s)
+  Tetranychus kanzawai (10 records, 9 haplotypes): main clade 70.0% of records, support 88; 3 records in 2 other place(s)
+  Tetranychus evansi (6 records, 5 haplotypes): main clade 100.0% of records, support 91
+  Tetranychus parakanzawai (6 records, 5 haplotypes): main clade 50.0% of records, support 100; 3 records in 3 other place(s)
+  Tetranychus ludeni (4 records, 2 haplotypes): main clade 100.0% of records, support 78
+  Tetranychus pueraricola (4 records, 2 haplotypes): main clade 75.0% of records; 1 records in 1 other place(s)
+  Tetranychus phaselus (3 records, 3 haplotypes): main clade 100.0% of records, support 82
+  Tetranychus piercei (3 records, 3 haplotypes): main clade 100.0% of records, support 54
+  Tetranychus truncatus (3 records, 2 haplotypes): main clade 66.7% of records; 1 records in 1 other place(s)
+  Tetranychus okinawanus (2 records, 2 haplotypes): main clade 100.0% of records, support 96
+3prime, all records: 10 of 25 species monophyletic (unnamed tips allowed)
+  Tetranychus urticae (386 records, 166 haplotypes): main clade 38.9% of records, support 85; 236 records in 55 other place(s)
+  Tetranychus evansi (162 records, 29 haplotypes): main clade 100.0% of records, support 91
+  Tetranychus truncatus (102 records, 61 haplotypes): main clade 19.6% of records; 82 records in 34 other place(s)
+  Tetranychus kanzawai (53 records, 41 haplotypes): main clade 22.6% of records, support 88; 41 records in 21 other place(s)
+  Tetranychus pueraricola (35 records, 27 haplotypes): main clade 28.6% of records, support 99; 25 records in 15 other place(s)
+  Tetranychus turkestani (29 records, 16 haplotypes): main clade 20.7% of records; 23 records in 14 other place(s)
+  Tetranychus ludeni (19 records, 5 haplotypes): main clade 73.7% of records; 5 records in 3 other place(s)
+  Tetranychus gloveri (13 records, 8 haplotypes): main clade 46.2% of records; 7 records in 6 other place(s)
+  Tetranychus piercei (10 records, 9 haplotypes): main clade 100.0% of records, support 89
+  Tetranychus udaipurensis (8 records, 7 haplotypes): main clade 75.0% of records, support 75; 2 records in 1 other place(s)
+  Tetranychus neocaledonicus (7 records, 4 haplotypes): main clade 85.7% of records, support 77; 1 records in 1 other place(s)
+  Tetranychus phaselus (7 records, 6 haplotypes): main clade 28.6% of records; 5 records in 5 other place(s)
+  Tetranychus tumidellus (7 records, 3 haplotypes): main clade 100.0% of records, support 100
+  Tetranychus malaysiensis (6 records, 4 haplotypes): main clade 100.0% of records, support 100

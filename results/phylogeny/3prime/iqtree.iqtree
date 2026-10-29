@@ -1,0 +1,1838 @@
+IQ-TREE 2.0.7 built Nov 30 2024
+
+Input file name: results/phylogeny/3prime/alignment.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 88912
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 422 sequences with 412 nucleotide sites
+Number of constant sites: 171 (= 41.5049% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 171 (= 41.5049% of all sites)
+Number of parsimony informative sites: 183
+Number of distinct site patterns: 296
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 0.5828
+  A-G: 2.8953
+  A-T: 1.4862
+  C-G: 0.7188
+  C-T: 9.2464
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3226
+  pi(C) = 0.1067
+  pi(G) = 0.1376
+  pi(T) = 0.4331
+
+Rate matrix Q:
+
+  A   -0.6467   0.03642    0.2333     0.377
+  C    0.1101    -2.513   0.05791     2.345
+  G    0.5471   0.04492   -0.8457    0.2537
+  T    0.2808    0.5779   0.08057   -0.9393
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.368
+
+ Category  Relative_rate  Proportion
+  1         0.01238        0.25
+  2         0.1575         0.25
+  3         0.6942         0.25
+  4         3.136          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+
+**NOTE**: Consensus tree has higher likelihood than ML tree found! Please use consensus tree below.
+Log-likelihood of the tree: -7500.2183 (s.e. 411.1916)
+Unconstrained log-likelihood (without tree): -2097.2177
+Number of free parameters (#branches + #model parameters): 850
+Akaike information criterion (AIC) score: 16700.4365
+Corrected Akaike information criterion (AICc) score: 1463400.4365
+Bayesian information criterion (BIC) score: 20118.3064
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 850
+Sample size (n, alignment length): 412
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 5.6665
+Sum of internal branch lengths: 2.5341 (44.7199% of tree length)
+
+WARNING: 231 near-zero internal branches (<0.0024) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'H0001' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**H0001
+|
+|                                                     +**H0002
+|                                                  +**| (99)
+|                                                  |  +**H0027
+|                                               +--| (99)
+|                                               |  +--H0028
+|                                            +--| (83)
+|                                            |  |  +**H0003
+|                                            |  +--| (82)
+|                                            |     |       +**H0103
+|                                            |     +-------| (100)
+|                                            |             |     +**H0227
+|                                            |             |  +**| (87)
+|                                            |             |  |  +**H0418
+|                                            |             +--| (100)
+|                                            |                +--H0422
+|                                         +**| (24)
+|                                         |  |                                      +**H0005
+|                                         |  |                                +-----| (100)
+|                                         |  |                                |     +**H0031
+|                                         |  |                             +--| (88)
+|                                         |  |                             |  +---------H0088
+|                                         |  |                          +--| (76)
+|                                         |  |                          |  +--------H0017
+|                                         |  |                       +--| (8)
+|                                         |  |                       |  |               +**H0012
+|                                         |  |                       |  |           +---| (81)
+|                                         |  |                       |  |           |   |             +--------H0301
+|                                         |  |                       |  |           |   +-------------| (99)
+|                                         |  |                       |  |           |                 +--H0304
+|                                         |  |                       |  |        +--| (77)
+|                                         |  |                       |  |        |  +--H0414
+|                                         |  |                       |  |     +--| (95)
+|                                         |  |                       |  |     |  |  +--H0052
+|                                         |  |                       |  |     |  +--| (79)
+|                                         |  |                       |  |     |     |        +**H0066
+|                                         |  |                       |  |     |     |     +--| (96)
+|                                         |  |                       |  |     |     |     |  +**H0419
+|                                         |  |                       |  |     |     |  +**| (75)
+|                                         |  |                       |  |     |     |  |  |        +**H0165
+|                                         |  |                       |  |     |     |  |  |     +**| (88)
+|                                         |  |                       |  |     |     |  |  |     |  +**H0166
+|                                         |  |                       |  |     |     |  |  |  +**| (81)
+|                                         |  |                       |  |     |     |  |  |  |  +**H0167
+|                                         |  |                       |  |     |     |  |  +--| (100)
+|                                         |  |                       |  |     |     |  |     +**H0168
+|                                         |  |                       |  |     |     +**| (57)
+|                                         |  |                       |  |     |        |     +**H0169
+|                                         |  |                       |  |     |        |  +**| (69)
+|                                         |  |                       |  |     |        |  |  +--H0289
+|                                         |  |                       |  |     |        +--| (99)
+|                                         |  |                       |  |     |           +**H0174
+|                                         |  |                       |  |  +--| (97)
+|                                         |  |                       |  |  |  |             +**H0113
+|                                         |  |                       |  |  |  |          +--| (99)
+|                                         |  |                       |  |  |  |          |  +--H0114
+|                                         |  |                       |  |  |  +----------| (100)
+|                                         |  |                       |  |  |             |  +**H0420
+|                                         |  |                       |  |  |             +**| (85)
+|                                         |  |                       |  |  |                +**H0421
+|                                         |  |                       |  +--| (84)
+|                                         |  |                       |     +--------H0089
+|                                         |  |                    +--| (19)
+|                                         |  |                    |  |     +-------H0018
+|                                         |  |                    |  |  +--| (83)
+|                                         |  |                    |  |  |  |             +--H0139
+|                                         |  |                    |  |  |  |          +--| (100)
+|                                         |  |                    |  |  |  |          |  +--H0360
+|                                         |  |                    |  |  |  |  +-------| (100)
+|                                         |  |                    |  |  |  |  |       |  +-----H0402
+|                                         |  |                    |  |  |  |  |       +--| (89)
+|                                         |  |                    |  |  |  |  |          +--H0412
+|                                         |  |                    |  |  |  +--| (98)
+|                                         |  |                    |  |  |     +--H0182
+|                                         |  |                    |  +--| (35)
+|                                         |  |                    |     |                                         +**H0042
+|                                         |  |                    |     |                                      +**| (76)
+|                                         |  |                    |     |                                      |  +**H0060
+|                                         |  |                    |     |                                   +**| (68)
+|                                         |  |                    |     |                                   |  +**H0229
+|                                         |  |                    |     |                                +**| (33)
+|                                         |  |                    |     |                                |  +**H0081
+|                                         |  |                    |     |                             +**| (18)
+|                                         |  |                    |     |                             |  +**H0069
+|                                         |  |                    |     |                          +**| (25)
+|                                         |  |                    |     |                          |  +**H0068
+|                                         |  |                    |     |                       +**| (29)
+|                                         |  |                    |     |                       |  +**H0070
+|                                         |  |                    |     |                    +--| (92)
+|                                         |  |                    |     |                    |  +**H0082
+|                                         |  |                    |     |                 +--| (37)
+|                                         |  |                    |     |                 |  |     +**H0310
+|                                         |  |                    |     |                 |  |  +--| (100)
+|                                         |  |                    |     |                 |  |  |  +-----------H0417
+|                                         |  |                    |     |                 |  +**| (40)
+|                                         |  |                    |     |                 |     |     +**H0327
+|                                         |  |                    |     |                 |     |  +**| (88)
+|                                         |  |                    |     |                 |     |  |  +--H0328
+|                                         |  |                    |     |                 |     +--| (78)
+|                                         |  |                    |     |                 |        +--H0363
+|                                         |  |                    |     |          +------| (98)
+|                                         |  |                    |     |          |      +**H0206
+|                                         |  |                    |     |     +----| (96)
+|                                         |  |                    |     |     |    |     +**H0073
+|                                         |  |                    |     |     |    +-----| (100)
+|                                         |  |                    |     |     |          |  +**H0083
+|                                         |  |                    |     |     |          +**| (65)
+|                                         |  |                    |     |     |             +**H0084
+|                                         |  |                    |     |  +**| (46)
+|                                         |  |                    |     |  |  |        +**H0062
+|                                         |  |                    |     |  |  |  +-----| (100)
+|                                         |  |                    |     |  |  |  |     |  +**H0072
+|                                         |  |                    |     |  |  |  |     +**| (72)
+|                                         |  |                    |     |  |  |  |        +**H0085
+|                                         |  |                    |     |  |  +--| (82)
+|                                         |  |                    |     |  |     |            +**H0239
+|                                         |  |                    |     |  |     |         +**| (67)
+|                                         |  |                    |     |  |     |         |  +**H0298
+|                                         |  |                    |     |  |     |      +--| (88)
+|                                         |  |                    |     |  |     |      |  +--H0308
+|                                         |  |                    |     |  |     |   +--| (88)
+|                                         |  |                    |     |  |     |   |  +--H0321
+|                                         |  |                    |     |  |     +---| (99)
+|                                         |  |                    |     |  |         +--H0320
+|                                         |  |                    |     +--| (65)
+|                                         |  |                    |        |                +**H0064
+|                                         |  |                    |        |             +**| (84)
+|                                         |  |                    |        |             |  |  +--H0112
+|                                         |  |                    |        |             |  +--| (100)
+|                                         |  |                    |        |             |     |  +--H0288
+|                                         |  |                    |        |             |     +--| (100)
+|                                         |  |                    |        |             |        +---------H0305
+|                                         |  |                    |        |    +--------| (100)
+|                                         |  |                    |        |    |        +**H0065
+|                                         |  |                    |        +----| (95)
+|                                         |  |                    |             +---------H0111
+|                                         |  |                 +--| (64)
+|                                         |  |                 |  |                        +**H0006
+|                                         |  |                 |  |                     +**| (92)
+|                                         |  |                 |  |                     |  +**H0309
+|                                         |  |                 |  |                  +**| (81)
+|                                         |  |                 |  |                  |  +**H0164
+|                                         |  |                 |  |               +--| (100)
+|                                         |  |                 |  |               |  +--H0300
+|                                         |  |                 |  |            +--| (99)
+|                                         |  |                 |  |            |  +--H0313
+|                                         |  |                 |  |     +------| (100)
+|                                         |  |                 |  |     |      |    +**H0059
+|                                         |  |                 |  |     |      +----| (100)
+|                                         |  |                 |  |     |           +**H0232
+|                                         |  |                 |  |  +--| (61)
+|                                         |  |                 |  |  |  +---------H0329
+|                                         |  |                 |  +**| (11)
+|                                         |  |                 |     |                   +**H0016
+|                                         |  |                 |     |                +**| (94)
+|                                         |  |                 |     |                |  |  +**H0207
+|                                         |  |                 |     |                |  +**| (90)
+|                                         |  |                 |     |                |     +**H0299
+|                                         |  |                 |     |             +--| (100)
+|                                         |  |                 |     |             |  +--H0330
+|                                         |  |                 |     |        +----| (100)
+|                                         |  |                 |     |        |    |  +**H0071
+|                                         |  |                 |     |        |    +--| (100)
+|                                         |  |                 |     |        |       +**H0080
+|                                         |  |                 |     |     +--| (77)
+|                                         |  |                 |     |     |  |  +---H0076
+|                                         |  |                 |     |     |  +--| (88)
+|                                         |  |                 |     |     |     |           +**H0086
+|                                         |  |                 |     |     |     +-----------| (100)
+|                                         |  |                 |     |     |                 +**H0087
+|                                         |  |                 |     |  +--| (78)
+|                                         |  |                 |     |  |  +----------H0290
+|                                         |  |                 |     +--| (77)
+|                                         |  |                 |        |                          +**H0019
+|                                         |  |                 |        |                       +**| (38)
+|                                         |  |                 |        |                       |  |                    +**H0020
+|                                         |  |                 |        |                       |  |                 +**| (28)
+|                                         |  |                 |        |                       |  |                 |  +--H0264
+|                                         |  |                 |        |                       |  |              +**| (12)
+|                                         |  |                 |        |                       |  |              |  +--H0124
+|                                         |  |                 |        |                       |  |           +**| (22)
+|                                         |  |                 |        |                       |  |           |  +**H0126
+|                                         |  |                 |        |                       |  |        +**| (7)
+|                                         |  |                 |        |                       |  |        |  +**H0128
+|                                         |  |                 |        |                       |  |     +**| (4)
+|                                         |  |                 |        |                       |  |     |  +**H0266
+|                                         |  |                 |        |                       |  |  +**| (63)
+|                                         |  |                 |        |                       |  |  |  +--H0127
+|                                         |  |                 |        |                       |  +**| (57)
+|                                         |  |                 |        |                       |     +**H0129
+|                                         |  |                 |        |                    +**| (27)
+|                                         |  |                 |        |                    |  +**H0035
+|                                         |  |                 |        |                 +**| (48)
+|                                         |  |                 |        |                 |  +--H0122
+|                                         |  |                 |        |              +**| (36)
+|                                         |  |                 |        |              |  +**H0123
+|                                         |  |                 |        |           +**| (33)
+|                                         |  |                 |        |           |  +**H0034
+|                                         |  |                 |        |        +**| (39)
+|                                         |  |                 |        |        |  +**H0125
+|                                         |  |                 |        |     +--| (85)
+|                                         |  |                 |        |     |  +--H0265
+|                                         |  |                 |        |  +--| (95)
+|                                         |  |                 |        |  |  |  +**H0044
+|                                         |  |                 |        |  |  +**| (85)
+|                                         |  |                 |        |  |     |     +**H0188
+|                                         |  |                 |        |  |     |  +**| (91)
+|                                         |  |                 |        |  |     |  |  +--H0287
+|                                         |  |                 |        |  |     +**| (74)
+|                                         |  |                 |        |  |        +--H0339
+|                                         |  |                 |        +--| (91)
+|                                         |  |                 |           |           +**H0117
+|                                         |  |                 |           |        +**| (43)
+|                                         |  |                 |           |        |  +**H0311
+|                                         |  |                 |           |     +**| (42)
+|                                         |  |                 |           |     |  +**H0118
+|                                         |  |                 |           |  +**| (43)
+|                                         |  |                 |           |  |  +**H0263
+|                                         |  |                 |           +--| (98)
+|                                         |  |                 |              |           +**H0119
+|                                         |  |                 |              |        +**| (97)
+|                                         |  |                 |              |        |  +**H0120
+|                                         |  |                 |              |     +**| (93)
+|                                         |  |                 |              |     |  +**H0262
+|                                         |  |                 |              |  +**| (94)
+|                                         |  |                 |              |  |  +**H0121
+|                                         |  |                 |              +--| (100)
+|                                         |  |                 |                 |  +**H0187
+|                                         |  |                 |                 +--| (100)
+|                                         |  |                 |                    +**H0268
+|                                         |  |              +--| (72)
+|                                         |  |              |  |                      +--H0037
+|                                         |  |              |  |                   +**| (49)
+|                                         |  |              |  |                   |  |  +--H0038
+|                                         |  |              |  |                   |  +--| (97)
+|                                         |  |              |  |                   |     +**H0039
+|                                         |  |              |  |                +--| (82)
+|                                         |  |              |  |                |  +--H0045
+|                                         |  |              |  |             +--| (76)
+|                                         |  |              |  |             |  +**H0297
+|                                         |  |              |  |          +--| (77)
+|                                         |  |              |  |          |  |  +--H0317
+|                                         |  |              |  |          |  +--| (100)
+|                                         |  |              |  |          |     |  +--H0318
+|                                         |  |              |  |          |     +--| (99)
+|                                         |  |              |  |          |        +--H0361
+|                                         |  |              |  |       +--| (89)
+|                                         |  |              |  |       |  +--H0319
+|                                         |  |              |  |  +----| (100)
+|                                         |  |              |  |  |    +**H0243
+|                                         |  |              |  +--| (54)
+|                                         |  |              |     +----H0090
+|                                         |  |           +--| (87)
+|                                         |  |           |  |    +---H0413
+|                                         |  |           |  +----| (99)
+|                                         |  |           |       +---H0415
+|                                         |  |        +--| (54)
+|                                         |  |        |  |                                          +**H0032
+|                                         |  |        |  |                                       +**| (54)
+|                                         |  |        |  |                                       |  |                                                              +--H0047
+|                                         |  |        |  |                                       |  |                                                           +--| (99)
+|                                         |  |        |  |                                       |  |                                                           |  +**H0251
+|                                         |  |        |  |                                       |  |                                                        +--| (96)
+|                                         |  |        |  |                                       |  |                                                        |  +--H0252
+|                                         |  |        |  |                                       |  |                                                     +**| (17)
+|                                         |  |        |  |                                       |  |                                                     |  +--H0248
+|                                         |  |        |  |                                       |  |                                                  +**| (5)
+|                                         |  |        |  |                                       |  |                                                  |  |  +--H0249
+|                                         |  |        |  |                                       |  |                                                  |  +**| (29)
+|                                         |  |        |  |                                       |  |                                                  |     +--H0254
+|                                         |  |        |  |                                       |  |                                               +**| (3)
+|                                         |  |        |  |                                       |  |                                               |  +**H0250
+|                                         |  |        |  |                                       |  |                                            +--| (96)
+|                                         |  |        |  |                                       |  |                                            |  +--H0246
+|                                         |  |        |  |                                       |  |                                         +**| (51)
+|                                         |  |        |  |                                       |  |                                         |  |  +**H0147
+|                                         |  |        |  |                                       |  |                                         |  +--| (100)
+|                                         |  |        |  |                                       |  |                                         |     +**H0354
+|                                         |  |        |  |                                       |  |                                      +**| (6)
+|                                         |  |        |  |                                       |  |                                      |  +**H0175
+|                                         |  |        |  |                                       |  |                                   +**| (23)
+|                                         |  |        |  |                                       |  |                                   |  |  +**H0197
+|                                         |  |        |  |                                       |  |                                   |  +**| (14)
+|                                         |  |        |  |                                       |  |                                   |     |  +--H0199
+|                                         |  |        |  |                                       |  |                                   |     +**| (10)
+|                                         |  |        |  |                                       |  |                                   |        +**H0355
+|                                         |  |        |  |                                       |  |                                +--| (99)
+|                                         |  |        |  |                                       |  |                                |  |  +**H0247
+|                                         |  |        |  |                                       |  |                                |  +--| (96)
+|                                         |  |        |  |                                       |  |                                |     +--H0253
+|                                         |  |        |  |                                       |  |                             +--| (96)
+|                                         |  |        |  |                                       |  |                             |  |  +**H0183
+|                                         |  |        |  |                                       |  |                             |  +**| (78)
+|                                         |  |        |  |                                       |  |                             |     +**H0198
+|                                         |  |        |  |                                       |  |                          +--| (92)
+|                                         |  |        |  |                                       |  |                          |  +**H0260
+|                                         |  |        |  |                                       |  |                       +**| (3)
+|                                         |  |        |  |                                       |  |                       |  |        +**H0242
+|                                         |  |        |  |                                       |  |                       |  |     +**| (76)
+|                                         |  |        |  |                                       |  |                       |  |     |  +**H0347
+|                                         |  |        |  |                                       |  |                       |  |  +**| (48)
+|                                         |  |        |  |                                       |  |                       |  |  |  +--H0267
+|                                         |  |        |  |                                       |  |                       |  +--| (97)
+|                                         |  |        |  |                                       |  |                       |     +--H0259
+|                                         |  |        |  |                                       |  |                    +**| (4)
+|                                         |  |        |  |                                       |  |                    |  |     +**H0177
+|                                         |  |        |  |                                       |  |                    |  |  +--| (100)
+|                                         |  |        |  |                                       |  |                    |  |  |  +**H0359
+|                                         |  |        |  |                                       |  |                    |  +**| (12)
+|                                         |  |        |  |                                       |  |                    |     |  +**H0201
+|                                         |  |        |  |                                       |  |                    |     +--| (93)
+|                                         |  |        |  |                                       |  |                    |        +**H0357
+|                                         |  |        |  |                                       |  |                 +**| (5)
+|                                         |  |        |  |                                       |  |                 |  +**H0145
+|                                         |  |        |  |                                       |  |              +**| (6)
+|                                         |  |        |  |                                       |  |              |  |        +**H0142
+|                                         |  |        |  |                                       |  |              |  |     +**| (60)
+|                                         |  |        |  |                                       |  |              |  |     |  +**H0356
+|                                         |  |        |  |                                       |  |              |  |  +--| (100)
+|                                         |  |        |  |                                       |  |              |  |  |  +**H0186
+|                                         |  |        |  |                                       |  |              |  +**| (8)
+|                                         |  |        |  |                                       |  |              |     +--H0200
+|                                         |  |        |  |                                       |  |           +**| (6)
+|                                         |  |        |  |                                       |  |           |  |                 +**H0140
+|                                         |  |        |  |                                       |  |           |  |              +**| (17)
+|                                         |  |        |  |                                       |  |           |  |              |  |  +**H0176
+|                                         |  |        |  |                                       |  |           |  |              |  +**| (21)
+|                                         |  |        |  |                                       |  |           |  |              |     |     +**H0202
+|                                         |  |        |  |                                       |  |           |  |              |     |  +--| (100)
+|                                         |  |        |  |                                       |  |           |  |              |     |  |  +**H0340
+|                                         |  |        |  |                                       |  |           |  |              |     +**| (50)
+|                                         |  |        |  |                                       |  |           |  |              |        +--H0203
+|                                         |  |        |  |                                       |  |           |  |           +**| (45)
+|                                         |  |        |  |                                       |  |           |  |           |  +**H0342
+|                                         |  |        |  |                                       |  |           |  |        +--| (81)
+|                                         |  |        |  |                                       |  |           |  |        |  +--H0146
+|                                         |  |        |  |                                       |  |           |  |     +**| (44)
+|                                         |  |        |  |                                       |  |           |  |     |  +**H0185
+|                                         |  |        |  |                                       |  |           |  |  +**| (18)
+|                                         |  |        |  |                                       |  |           |  |  |  +**H0231
+|                                         |  |        |  |                                       |  |           |  +**| (49)
+|                                         |  |        |  |                                       |  |           |     +--H0180
+|                                         |  |        |  |                                       |  |        +**| (37)
+|                                         |  |        |  |                                       |  |        |  |  +--H0303
+|                                         |  |        |  |                                       |  |        |  +**| (22)
+|                                         |  |        |  |                                       |  |        |     +--H0346
+|                                         |  |        |  |                                       |  |     +**| (32)
+|                                         |  |        |  |                                       |  |     |  +**H0358
+|                                         |  |        |  |                                       |  |  +--| (86)
+|                                         |  |        |  |                                       |  |  |  +--H0341
+|                                         |  |        |  |                                       |  +**| (30)
+|                                         |  |        |  |                                       |     |  +--H0058
+|                                         |  |        |  |                                       |     +**| (69)
+|                                         |  |        |  |                                       |        |  +**H0172
+|                                         |  |        |  |                                       |        +--| (98)
+|                                         |  |        |  |                                       |           |  +**H0230
+|                                         |  |        |  |                                       |           +**| (76)
+|                                         |  |        |  |                                       |              |  +**H0284
+|                                         |  |        |  |                                       |              +**| (93)
+|                                         |  |        |  |                                       |                 +**H0285
+|                                         |  |        |  |                                    +**| (48)
+|                                         |  |        |  |                                    |  +**H0056
+|                                         |  |        |  |                                 +**| (43)
+|                                         |  |        |  |                                 |  +**H0291
+|                                         |  |        |  |                              +**| (21)
+|                                         |  |        |  |                              |  +**H0171
+|                                         |  |        |  |                           +**| (74)
+|                                         |  |        |  |                           |  +--H0033
+|                                         |  |        |  |                        +**| (37)
+|                                         |  |        |  |                        |  +**H0173
+|                                         |  |        |  |                     +**| (76)
+|                                         |  |        |  |                     |  +**H0061
+|                                         |  |        |  |                  +**| (78)
+|                                         |  |        |  |                  |  +**H0067
+|                                         |  |        |  |               +**| (75)
+|                                         |  |        |  |               |  +**H0170
+|                                         |  |        |  |            +**| (58)
+|                                         |  |        |  |            |  +**H0057
+|                                         |  |        |  |         +**| (35)
+|                                         |  |        |  |         |  +**H0063
+|                                         |  |        |  |      +**| (47)
+|                                         |  |        |  |      |  +--H0055
+|                                         |  |        |  |   +--| (90)
+|                                         |  |        |  |   |  +--H0283
+|                                         |  |        |  +---| (99)
+|                                         |  |        |      |  +**H0048
+|                                         |  |        |      +**| (73)
+|                                         |  |        |         +**H0049
+|                                         |  |     +--| (89)
+|                                         |  |     |  |                                                                    +--H0040
+|                                         |  |     |  |                                                                 +**| (58)
+|                                         |  |     |  |                                                                 |  +**H0409
+|                                         |  |     |  |                                                              +**| (80)
+|                                         |  |     |  |                                                              |  +**H0041
+|                                         |  |     |  |                                                           +**| (82)
+|                                         |  |     |  |                                                           |  |  +**H0387
+|                                         |  |     |  |                                                           |  +**| (64)
+|                                         |  |     |  |                                                           |     |        +**H0392
+|                                         |  |     |  |                                                           |     |     +**| (98)
+|                                         |  |     |  |                                                           |     |     |  +**H0404
+|                                         |  |     |  |                                                           |     |  +**| (97)
+|                                         |  |     |  |                                                           |     |  |  +**H0398
+|                                         |  |     |  |                                                           |     +--| (99)
+|                                         |  |     |  |                                                           |        +**H0399
+|                                         |  |     |  |                                                        +**| (17)
+|                                         |  |     |  |                                                        |  +--H0241
+|                                         |  |     |  |                                                     +**| (36)
+|                                         |  |     |  |                                                     |  +**H0240
+|                                         |  |     |  |                                                  +--| (89)
+|                                         |  |     |  |                                                  |  |  +--H0261
+|                                         |  |     |  |                                                  |  +**| (82)
+|                                         |  |     |  |                                                  |     +--H0334
+|                                         |  |     |  |                                               +**| (29)
+|                                         |  |     |  |                                               |  |  +**H0046
+|                                         |  |     |  |                                               |  +--| (88)
+|                                         |  |     |  |                                               |     |  +**H0293
+|                                         |  |     |  |                                               |     +**| (83)
+|                                         |  |     |  |                                               |        |  +**H0386
+|                                         |  |     |  |                                               |        +**| (86)
+|                                         |  |     |  |                                               |           +**H0403
+|                                         |  |     |  |                                            +**| (14)
+|                                         |  |     |  |                                            |  |  +--H0331
+|                                         |  |     |  |                                            |  +**| (43)
+|                                         |  |     |  |                                            |     |     +**H0388
+|                                         |  |     |  |                                            |     |  +**| (7)
+|                                         |  |     |  |                                            |     |  |  |  +**H0389
+|                                         |  |     |  |                                            |     |  |  +**| (7)
+|                                         |  |     |  |                                            |     |  |     +**H0408
+|                                         |  |     |  |                                            |     +--| (99)
+|                                         |  |     |  |                                            |        +**H0395
+|                                         |  |     |  |                                         +**| (15)
+|                                         |  |     |  |                                         |  +**H0332
+|                                         |  |     |  |                                      +**| (78)
+|                                         |  |     |  |                                      |  |     +--H0335
+|                                         |  |     |  |                                      |  |  +--| (97)
+|                                         |  |     |  |                                      |  |  |  +**H0391
+|                                         |  |     |  |                                      |  +**| (56)
+|                                         |  |     |  |                                      |     +--H0394
+|                                         |  |     |  |                                   +**| (29)
+|                                         |  |     |  |                                   |  +**H0132
+|                                         |  |     |  |                                +**| (21)
+|                                         |  |     |  |                                |  +**H0397
+|                                         |  |     |  |                             +**| (28)
+|                                         |  |     |  |                             |  +**H0393
+|                                         |  |     |  |                          +--| (74)
+|                                         |  |     |  |                          |  +**H0364
+|                                         |  |     |  |                       +--| (83)
+|                                         |  |     |  |                       |  |     +**H0131
+|                                         |  |     |  |                       |  |  +**| (72)
+|                                         |  |     |  |                       |  |  |  +**H0136
+|                                         |  |     |  |                       |  +**| (71)
+|                                         |  |     |  |                       |     +**H0135
+|                                         |  |     |  |                    +**| (25)
+|                                         |  |     |  |                    |  |     +**H0130
+|                                         |  |     |  |                    |  |  +**| (93)
+|                                         |  |     |  |                    |  |  |  +**H0134
+|                                         |  |     |  |                    |  +--| (97)
+|                                         |  |     |  |                    |     +**H0133
+|                                         |  |     |  |                 +**| (41)
+|                                         |  |     |  |                 |  +**H0337
+|                                         |  |     |  |              +**| (66)
+|                                         |  |     |  |              |  +**H0390
+|                                         |  |     |  |           +--| (80)
+|                                         |  |     |  |           |  +**H0416
+|                                         |  |     |  |        +--| (88)
+|                                         |  |     |  |        |  +**H0396
+|                                         |  |     |  |     +--| (50)
+|                                         |  |     |  |     |  |  +--H0323
+|                                         |  |     |  |     |  +--| (100)
+|                                         |  |     |  |     |     +--H0324
+|                                         |  |     |  |  +--| (76)
+|                                         |  |     |  |  |  |     +--H0322
+|                                         |  |     |  |  |  |  +--| (98)
+|                                         |  |     |  |  |  |  |  |        +**H0325
+|                                         |  |     |  |  |  |  |  |     +**| (97)
+|                                         |  |     |  |  |  |  |  |     |  |        +**H0333
+|                                         |  |     |  |  |  |  |  |     |  |     +**| (99)
+|                                         |  |     |  |  |  |  |  |     |  |     |  +--H0336
+|                                         |  |     |  |  |  |  |  |     |  |  +--| (100)
+|                                         |  |     |  |  |  |  |  |     |  |  |  +**H0405
+|                                         |  |     |  |  |  |  |  |     |  +--| (100)
+|                                         |  |     |  |  |  |  |  |     |     +--H0338
+|                                         |  |     |  |  |  |  |  |  +--| (97)
+|                                         |  |     |  |  |  |  |  |  |  +--H0400
+|                                         |  |     |  |  |  |  |  +--| (97)
+|                                         |  |     |  |  |  |  |     +**H0326
+|                                         |  |     |  |  |  +--| (94)
+|                                         |  |     |  |  |     +--H0401
+|                                         |  |     |  +--| (72)
+|                                         |  |     |     +------H0179
+|                                         |  |  +--| (94)
+|                                         |  |  |  |                                         +**H0036
+|                                         |  |  |  |                                      +**| (97)
+|                                         |  |  |  |                                      |  +**H0269
+|                                         |  |  |  |                                   +**| (95)
+|                                         |  |  |  |                                   |  +**H0294
+|                                         |  |  |  |                                +**| (85)
+|                                         |  |  |  |                                |  +**H0194
+|                                         |  |  |  |                             +--| (99)
+|                                         |  |  |  |                             |  +--H0307
+|                                         |  |  |  |                          +**| (8)
+|                                         |  |  |  |                          |  |        +**H0144
+|                                         |  |  |  |                          |  |     +**| (87)
+|                                         |  |  |  |                          |  |     |  |  +**H0344
+|                                         |  |  |  |                          |  |     |  +**| (78)
+|                                         |  |  |  |                          |  |     |     +--H0345
+|                                         |  |  |  |                          |  |  +--| (100)
+|                                         |  |  |  |                          |  |  |  +**H0273
+|                                         |  |  |  |                          |  +--| (99)
+|                                         |  |  |  |                          |     |  +**H0193
+|                                         |  |  |  |                          |     +--| (99)
+|                                         |  |  |  |                          |        +**H0275
+|                                         |  |  |  |                       +**| (5)
+|                                         |  |  |  |                       |  +**H0184
+|                                         |  |  |  |                    +**| (2)
+|                                         |  |  |  |                    |  +**H0143
+|                                         |  |  |  |                 +**| (4)
+|                                         |  |  |  |                 |  |              +--H0277
+|                                         |  |  |  |                 |  |           +**| (64)
+|                                         |  |  |  |                 |  |           |  +--H0353
+|                                         |  |  |  |                 |  |        +**| (85)
+|                                         |  |  |  |                 |  |        |  +**H0281
+|                                         |  |  |  |                 |  |     +**| (18)
+|                                         |  |  |  |                 |  |     |  +--H0349
+|                                         |  |  |  |                 |  |  +**| (28)
+|                                         |  |  |  |                 |  |  |  |     +--H0278
+|                                         |  |  |  |                 |  |  |  |  +--| (98)
+|                                         |  |  |  |                 |  |  |  |  |  +--H0350
+|                                         |  |  |  |                 |  |  |  +**| (45)
+|                                         |  |  |  |                 |  |  |     +--H0351
+|                                         |  |  |  |                 |  +**| (33)
+|                                         |  |  |  |                 |     +**H0343
+|                                         |  |  |  |              +**| (5)
+|                                         |  |  |  |              |  |              +**H0178
+|                                         |  |  |  |              |  |           +**| (87)
+|                                         |  |  |  |              |  |           |  +--H0181
+|                                         |  |  |  |              |  |        +**| (81)
+|                                         |  |  |  |              |  |        |  +**H0191
+|                                         |  |  |  |              |  |     +**| (81)
+|                                         |  |  |  |              |  |     |  +**H0272
+|                                         |  |  |  |              |  |  +--| (95)
+|                                         |  |  |  |              |  |  |  +--H0352
+|                                         |  |  |  |              |  +**| (10)
+|                                         |  |  |  |              |     |  +**H0192
+|                                         |  |  |  |              |     +--| (100)
+|                                         |  |  |  |              |        |  +--H0270
+|                                         |  |  |  |              |        +**| (97)
+|                                         |  |  |  |              |           +**H0271
+|                                         |  |  |  |           +**| (73)
+|                                         |  |  |  |           |  +--H0244
+|                                         |  |  |  |        +--| (100)
+|                                         |  |  |  |        |  |     +**H0195
+|                                         |  |  |  |        |  |  +**| (98)
+|                                         |  |  |  |        |  |  |  +**H0348
+|                                         |  |  |  |        |  +--| (100)
+|                                         |  |  |  |        |     +**H0276
+|                                         |  |  |  |     +--| (98)
+|                                         |  |  |  |     |  |  +--H0279
+|                                         |  |  |  |     |  +**| (84)
+|                                         |  |  |  |     |     +**H0280
+|                                         |  |  |  |  +--| (94)
+|                                         |  |  |  |  |  +--H0316
+|                                         |  |  |  +--| (100)
+|                                         |  |  |     |  +**H0196
+|                                         |  |  |     +--| (99)
+|                                         |  |  |        +**H0274
+|                                         |  +--| (94)
+|                                         |     +**H0255
+|                                      +**| (22)
+|                                      |  +--H0026
+|                                   +--| (77)
+|                                   |  |  +**H0115
+|                                   |  +--| (86)
+|                                   |     |     +**H0208
+|                                   |     |  +--| (80)
+|                                   |     |  |  |  +--H0375
+|                                   |     |  |  +--| (80)
+|                                   |     |  |     +**H0377
+|                                   |     +--| (100)
+|                                   |        +**H0219
+|                                +--| (79)
+|                                |  |                    +**H0029
+|                                |  |                 +--| (36)
+|                                |  |                 |  |  +**H0030
+|                                |  |                 |  +**| (31)
+|                                |  |                 |     |     +**H0078
+|                                |  |                 |     |  +**| (84)
+|                                |  |                 |     |  |  +--H0079
+|                                |  |                 |     +**| (72)
+|                                |  |                 |        |        +--H0150
+|                                |  |                 |        |     +**| (69)
+|                                |  |                 |        |     |  +--H0151
+|                                |  |                 |        |  +**| (70)
+|                                |  |                 |        |  |  +**H0152
+|                                |  |                 |        +**| (65)
+|                                |  |                 |           +**H0370
+|                                |  |              +**| (24)
+|                                |  |              |  |                                                     +**H0043
+|                                |  |              |  |                                                  +**| (100)
+|                                |  |              |  |                                                  |  +**H0315
+|                                |  |              |  |                                               +**| (30)
+|                                |  |              |  |                                               |  +**H0385
+|                                |  |              |  |                                            +**| (14)
+|                                |  |              |  |                                            |  +--H0153
+|                                |  |              |  |                                         +**| (12)
+|                                |  |              |  |                                         |  +**H0075
+|                                |  |              |  |                                      +**| (6)
+|                                |  |              |  |                                      |  +--H0158
+|                                |  |              |  |                                   +**| (9)
+|                                |  |              |  |                                   |  +**H0077
+|                                |  |              |  |                                +**| (2)
+|                                |  |              |  |                                |  +**H0369
+|                                |  |              |  |                             +**| (5)
+|                                |  |              |  |                             |  +**H0216
+|                                |  |              |  |                          +**| (16)
+|                                |  |              |  |                          |  +**H0074
+|                                |  |              |  |                       +**| (13)
+|                                |  |              |  |                       |  +**H0148
+|                                |  |              |  |                    +**| (5)
+|                                |  |              |  |                    |  +--H0155
+|                                |  |              |  |                 +--| (8)
+|                                |  |              |  |                 |  +--H0149
+|                                |  |              |  |              +**| (5)
+|                                |  |              |  |              |  +--H0116
+|                                |  |              |  |           +**| (5)
+|                                |  |              |  |           |  +**H0054
+|                                |  |              |  |        +**| (7)
+|                                |  |              |  |        |  +--H0306
+|                                |  |              |  |     +**| (7)
+|                                |  |              |  |     |  +**H0296
+|                                |  |              |  |  +--| (7)
+|                                |  |              |  |  |  +--H0154
+|                                |  |              |  +**| (70)
+|                                |  |              |     +**H0406
+|                                |  |           +--| (71)
+|                                |  |           |  |  +**H0215
+|                                |  |           |  +--| (99)
+|                                |  |           |     +**H0225
+|                                |  |        +**| (28)
+|                                |  |        |  +**H0220
+|                                |  |     +--| (35)
+|                                |  |     |  +--H0209
+|                                |  |  +**| (29)
+|                                |  |  |  |        +**H0053
+|                                |  |  |  |     +--| (87)
+|                                |  |  |  |     |  +**H0383
+|                                |  |  |  |  +**| (13)
+|                                |  |  |  |  |  +--H0141
+|                                |  |  |  +**| (13)
+|                                |  |  |     +**H0163
+|                                |  +--| (85)
+|                                |     +**H0372
+|                             +--| (25)
+|                             |  |                 +**H0245
+|                             |  |              +**| (88)
+|                             |  |              |  +**H0295
+|                             |  |           +--| (97)
+|                             |  |           |  |     +**H0367
+|                             |  |           |  |  +**| (94)
+|                             |  |           |  |  |  +**H0407
+|                             |  |           |  +**| (94)
+|                             |  |           |     +**H0384
+|                             |  |        +--| (97)
+|                             |  |        |  +--H0366
+|                             |  |     +**| (28)
+|                             |  |     |  +--H0378
+|                             |  |  +**| (26)
+|                             |  |  |  +**H0379
+|                             |  +**| (25)
+|                             |     +**H0410
+|                          +--| (75)
+|                          |  |     +**H0007
+|                          |  |  +--| (100)
+|                          |  |  |  +--H0376
+|                          |  +**| (98)
+|                          |     +**H0014
+|                       +--| (82)
+|                       |  +--H0025
+|                    +--| (91)
+|                    |  |              +**H0011
+|                    |  |           +--| (98)
+|                    |  |           |  +--H0371
+|                    |  |        +**| (22)
+|                    |  |        |  |     +**H0024
+|                    |  |        |  |  +**| (17)
+|                    |  |        |  |  |  |        +--H0157
+|                    |  |        |  |  |  |     +**| (90)
+|                    |  |        |  |  |  |     |  +------------------H0205
+|                    |  |        |  |  |  |  +**| (53)
+|                    |  |        |  |  |  |  |  +**H0292
+|                    |  |        |  |  |  +**| (39)
+|                    |  |        |  |  |     +**H0159
+|                    |  |        |  +**| (17)
+|                    |  |        |     +**H0162
+|                    |  |     +--| (86)
+|                    |  |     |  |  +--H0023
+|                    |  |     |  +--| (83)
+|                    |  |     |     +**H0373
+|                    |  |  +--| (94)
+|                    |  |  |  |     +**H0217
+|                    |  |  |  |  +--| (92)
+|                    |  |  |  |  |  |  +**H0218
+|                    |  |  |  |  |  +--| (100)
+|                    |  |  |  |  |     +**H0224
+|                    |  |  |  +--| (74)
+|                    |  |  |     +--H0314
+|                    |  +**| (78)
+|                    |     |              +**H0015
+|                    |     |           +**| (97)
+|                    |     |           |  |  +--H0286
+|                    |     |           |  +**| (97)
+|                    |     |           |     +**H0381
+|                    |     |        +**| (67)
+|                    |     |        |  +**H0226
+|                    |     |     +--| (90)
+|                    |     |     |  +**H0137
+|                    |     |  +--| (99)
+|                    |     |  |  |     +**H0212
+|                    |     |  |  |  +**| (92)
+|                    |     |  |  |  |  +**H0214
+|                    |     |  |  +--| (94)
+|                    |     |  |     |  +**H0221
+|                    |     |  |     +--| (100)
+|                    |     |  |        +**H0223
+|                    |     +--| (96)
+|                    |        |     +--H0094
+|                    |        |  +**| (84)
+|                    |        |  |  |           +**H0095
+|                    |        |  |  |        +--| (17)
+|                    |        |  |  |        |  |        +**H0105
+|                    |        |  |  |        |  |     +**| (98)
+|                    |        |  |  |        |  |     |  +**H0109
+|                    |        |  |  |        |  |  +--| (40)
+|                    |        |  |  |        |  |  |  +**H0106
+|                    |        |  |  |        |  +**| (8)
+|                    |        |  |  |        |     |  +**H0108
+|                    |        |  |  |        |     +**| (11)
+|                    |        |  |  |        |        |     +**H0256
+|                    |        |  |  |        |        |  +--| (99)
+|                    |        |  |  |        |        |  |  |  +--H0257
+|                    |        |  |  |        |        |  |  +**| (98)
+|                    |        |  |  |        |        |  |     +**H0374
+|                    |        |  |  |        |        +**| (10)
+|                    |        |  |  |        |           +--H0258
+|                    |        |  |  |     +**| (49)
+|                    |        |  |  |     |  +**H0302
+|                    |        |  |  |  +**| (30)
+|                    |        |  |  |  |  |     +**H0210
+|                    |        |  |  |  |  |  +**| (83)
+|                    |        |  |  |  |  |  |  |  +--H0213
+|                    |        |  |  |  |  |  |  +--| (86)
+|                    |        |  |  |  |  |  |     +**H0222
+|                    |        |  |  |  |  +--| (96)
+|                    |        |  |  |  |     +--H0211
+|                    |        |  |  +--| (33)
+|                    |        |  |     +**H0107
+|                    |        +--| (100)
+|                    |           +**H0110
+|                 +--| (98)
+|                 |  |  +--H0010
+|                 |  +--| (95)
+|                 |     +--H0189
+|              +--| (99)
+|              |  |  +**H0102
+|              |  +--| (100)
+|              |     +**H0104
+|           +--| (90)
+|           |  +**H0092
+|        +--| (90)
+|        |  +--H0093
+|     +**| (12)
+|     |  +--H0236
+|  +**| (1)
+|  |  |                          +**H0004
+|  |  |                       +--| (100)
+|  |  |                       |  |  +--H0022
+|  |  |                       |  +**| (98)
+|  |  |                       |     +**H0190
+|  |  |                    +--| (100)
+|  |  |                    |  |  +**H0228
+|  |  |                    |  +**| (98)
+|  |  |                    |     |  +**H0235
+|  |  |                    |     +**| (100)
+|  |  |                    |        +**H0380
+|  |  |                 +**| (47)
+|  |  |                 |  +--H0204
+|  |  |              +**| (44)
+|  |  |              |  +--H0238
+|  |  |           +**| (44)
+|  |  |           |  +**H0237
+|  |  |        +--| (98)
+|  |  |        |  +--H0365
+|  |  |     +--| (98)
+|  |  |     |  |  +**H0009
+|  |  |     |  +**| (98)
+|  |  |     |     +--H0233
+|  |  |  +**| (71)
+|  |  |  |  +--H0411
+|  |  +--| (91)
+|  |     |     +--H0013
+|  |     |  +--| (100)
+|  |     |  |  |  +**H0234
+|  |     |  |  +**| (99)
+|  |     |  |     |  +**H0312
+|  |     |  |     +**| (100)
+|  |     |  |        +**H0368
+|  |     +**| (72)
+|  |        |     +**H0156
+|  |        |  +**| (97)
+|  |        |  |  |  +**H0161
+|  |        |  |  +**| (96)
+|  |        |  |     +--H0382
+|  |        +--| (98)
+|  |           +**H0160
++**| (36)
+|  |  +--H0008
+|  +**| (4)
+|     |           +**H0091
+|     |        +**| (7)
+|     |        |  |     +--H0099
+|     |        |  |  +--| (83)
+|     |        |  |  |  +--H0100
+|     |        |  +**| (5)
+|     |        |     +**H0138
+|     |     +**| (13)
+|     |     |  +--H0096
+|     |  +**| (30)
+|     |  |  |  +--H0097
+|     |  |  +--| (96)
+|     |  |     +**H0098
+|     +--| (67)
+|        +--H0101
+|
+|     +--H0021
+|  +**| (39)
+|  |  |     +--H0050
+|  |  |  +**| (86)
+|  |  |  |  +**H0051
+|  |  +**| (77)
+|  |     +**H0362
++**| (41)
+   +**H0282
+
+Tree in newick format:
+
+(H0001:0.0000010000,((((((((((((((((((H0002:0.0000010000,H0027:0.0000010000)99:0.0000026458,H0028:0.0204554241)99:0.0031923877,(H0003:0.0020042250,(H0103:0.0000020056,((H0227:0.0000010000,H0418:0.0000021464)87:0.0000020153,H0422:0.0039571772)100:0.0036457950)100:0.0872048895)82:0.0078781157)83:0.0032203496,((((((((((((H0005:0.0000010000,H0031:0.0000010000)100:0.0680181354,H0088:0.1044752083)88:0.0170171946,H0017:0.1026069681)76:0.0268979979,(((((H0012:0.0000026987,(H0301:0.1031478135,H0304:0.0050067505)99:0.1448739778)81:0.0470367056,H0414:0.0190592201)77:0.0096551229,(H0052:0.0068417479,(((H0066:0.0000020699,H0419:0.0000021262)96:0.0033188089,(((H0165:0.0000010000,H0166:0.0000010000)88:0.0000010000,H0167:0.0000010000)81:0.0000027944,H0168:0.0000027773)100:0.0037148983)75:0.0000022656,((H0169:0.0000010000,H0289:0.0074627066)69:0.0000027151,H0174:0.0000010000)99:0.0035164432)57:0.0000027213)79:0.0262116813)95:0.0253985809,((H0113:0.0000027649,H0114:0.0040001094)99:0.0124280224,(H0420:0.0000027330,H0421:0.0000021268)85:0.0000020009)100:0.1183950559)97:0.0314179190,H0089:0.0978918050)84:0.0205649884)8:0.0120914879,((H0018:0.0909181105,(((H0139:0.0084874654,H0360:0.0043036272)100:0.0281946474,(H0402:0.0641484492,H0412:0.0224064065)89:0.0153687466)100:0.0890463382,H0182:0.0072063285)98:0.0362697162)83:0.0344548416,((((((((((((H0042:0.0000020126,H0060:0.0000010000)76:0.0000027772,H0229:0.0000010000)68:0.0000010000,H0081:0.0000010000)33:0.0000028532,H0069:0.0000010000)18:0.0000020039,H0068:0.0000010000)25:0.0000022338,H0070:0.0000010000)29:0.0000027923,H0082:0.0000010000)92:0.0061669190,((H0310:0.0000028836,H0417:0.1270124360)100:0.0139802806,((H0327:0.0000027847,H0328:0.0062501089)88:0.0000020746,H0363:0.0223161755)78:0.0096452461)40:0.0000024631)37:0.0075607896,H0206:0.0000020076)98:0.0825264138,(H0073:0.0000010000,(H0083:0.0000010000,H0084:0.0000010000)65:0.0000024316)100:0.0679157034)96:0.0543793133,((H0062:0.0000010000,(H0072:0.0000010000,H0085:0.0000010000)72:0.0000029797)100:0.0628324858,((((H0239:0.0000010000,H0298:0.0000010000)67:0.0000024921,H0308:0.0029696548)88:0.0099169591,H0321:0.0160774722)88:0.0262894042,H0320:0.0043892764)99:0.0471963540)82:0.0290895419)46:0.0000027240,(((H0064:0.0000010000,(H0112:0.0031446275,(H0288:0.0200119246,H0305:0.1090549713)100:0.0101105204)100:0.0075327439)84:0.0000023014,H0065:0.0000010000)100:0.0937136249,H0111:0.1099571004)95:0.0542395771)65:0.0256140936)35:0.0097564958)19:0.0109162507,(((((((H0006:0.0000010000,H0309:0.0000010000)92:0.0000010000,H0164:0.0000010000)81:0.0000025029,H0300:0.0033088330)100:0.0324720936,H0313:0.0200631856)99:0.0172740472,(H0059:0.0000010000,H0232:0.0000010000)100:0.0527522909)100:0.0739080952,H0329:0.1047592569)61:0.0142310532,((((((H0016:0.0000010000,(H0207:0.0000010000,H0299:0.0000010000)90:0.0000010000)94:0.0000029469,H0330:0.0032508836)100:0.0145692320,(H0071:0.0000024516,H0080:0.0000027386)100:0.0048361364)100:0.0566225332,(H0076:0.0513408937,(H0086:0.0000020227,H0087:0.0000021050)100:0.1255208188)88:0.0209226412)77:0.0172982074,H0290:0.1163851871)78:0.0133835963,(((((((((H0019:0.0000010000,(((((((H0020:0.0000025260,H0264:0.0035258141)28:0.0000027677,H0124:0.0039641532)12:0.0000020461,H0126:0.0000010000)22:0.0000025417,H0128:0.0000010000)7:0.0000010000,H0266:0.0000010000)4:0.0000020302,H0127:0.0035354263)63:0.0000022951,H0129:0.0000010000)57:0.0000021021)38:0.0000010773,H0035:0.0000010000)27:0.0000013661,H0122:0.0068815532)48:0.0000010000,H0123:0.0000010000)36:0.0000011734,H0034:0.0000010000)33:0.0000010000,H0125:0.0000010000)39:0.0000026059,H0265:0.0035575990)85:0.0033118009,(H0044:0.0000010000,((H0188:0.0000010000,H0287:0.0070330845)91:0.0000024590,H0339:0.0033034782)74:0.0000024560)85:0.0000024142)95:0.0177008729,((((H0117:0.0000020678,H0311:0.0000028666)43:0.0000026906,H0118:0.0000010000)42:0.0000021458,H0263:0.0000010000)43:0.0000025230,((((H0119:0.0000010000,H0120:0.0000010000)97:0.0000026139,H0262:0.0000010000)93:0.0000025580,H0121:0.0000010000)94:0.0000010000,(H0187:0.0000028005,H0268:0.0000027392)100:0.0033006477)100:0.0032795058)98:0.0101228721)91:0.0389582434)77:0.0118446060)11:0.0000022991)64:0.0150205063,(((((((H0037:0.0102746552,(H0038:0.0032379460,H0039:0.0000022633)97:0.0066156505)49:0.0000026587,H0045:0.0285670576)82:0.0065691720,H0297:0.0000027168)76:0.0024750946,(H0317:0.0042932709,(H0318:0.0053387176,H0361:0.0215177120)99:0.0064996225)100:0.0127006008)77:0.0032740682,H0319:0.0154151307)89:0.0043584736,H0243:0.0000020608)100:0.0552565244,H0090:0.0554052495)54:0.0077313403)72:0.0043612860,(H0413:0.0488645900,H0415:0.0506789615)99:0.0548890170)87:0.0180558222,((((((((((((((H0032:0.0000024262,(((((((((((((((((((((H0047:0.0244915474,H0251:0.0000025969)99:0.0031999033,H0252:0.0034675843)96:0.0034009874,H0248:0.0066133937)17:0.0000029553,(H0249:0.0066153168,H0254:0.0099269688)29:0.0000022429)5:0.0000026915,H0250:0.0000010000)3:0.0000026922,H0246:0.0033280776)96:0.0033128159,(H0147:0.0000027339,H0354:0.0000022931)100:0.0033128252)51:0.0000026924,H0175:0.0000024724)6:0.0000026315,(H0197:0.0000026186,(H0199:0.0033144261,H0355:0.0000010000)10:0.0000010000)14:0.0000021448)23:0.0000025216,(H0247:0.0000024077,H0253:0.0101032320)96:0.0033137467)99:0.0033194806,(H0183:0.0000010000,H0198:0.0000010000)78:0.0000026552)96:0.0032933661,H0260:0.0000021016)92:0.0032654167,(((H0242:0.0000010000,H0347:0.0000010000)76:0.0000024712,H0267:0.0033110123)48:0.0000025069,H0259:0.0033130693)97:0.0032864820)3:0.0000024451,((H0177:0.0000010000,H0359:0.0000010000)100:0.0032526045,(H0201:0.0000026594,H0357:0.0000027202)93:0.0032586512)12:0.0000026640)4:0.0000020510,H0145:0.0000023983)5:0.0000010000,(((H0142:0.0000023909,H0356:0.0000010000)60:0.0000021602,H0186:0.0000028139)100:0.0032596176,H0200:0.0032612855)8:0.0000029154)6:0.0000028991,((((((H0140:0.0000010000,(H0176:0.0000010000,((H0202:0.0000010000,H0340:0.0000020651)100:0.0032608094,H0203:0.0032662760)50:0.0000024529)21:0.0000025797)17:0.0000024992,H0342:0.0000010000)45:0.0000024949,H0146:0.0032760208)81:0.0030265197,H0185:0.0000010000)44:0.0000014262,H0231:0.0000020089)18:0.0000021372,H0180:0.0035552732)49:0.0002299164)6:0.0000026680,(H0303:0.0069497731,H0346:0.0033444996)22:0.0000026489)37:0.0000024912,H0358:0.0000010000)32:0.0000024506,H0341:0.0033579625)86:0.0049445785,(H0058:0.0174119248,(H0172:0.0000010000,(H0230:0.0000010000,(H0284:0.0000010000,H0285:0.0000010000)93:0.0000010000)76:0.0000025036)98:0.0033486018)69:0.0000025138)30:0.0000024876)54:0.0000023911,H0056:0.0000010000)48:0.0000028668,H0291:0.0000010000)43:0.0000010000,H0171:0.0000010000)21:0.0000010000,H0033:0.0033864554)74:0.0000010000,H0173:0.0000010000)37:0.0000010000,H0061:0.0000010000)76:0.0000010000,H0067:0.0000010000)78:0.0000010000,H0170:0.0000010000)75:0.0000010000,H0057:0.0000010000)58:0.0000010000,H0063:0.0000010000)35:0.0000010000,H0055:0.0035620420)47:0.0000020701,H0283:0.0118756878)90:0.0049795456,(H0048:0.0000026503,H0049:0.0000029189)73:0.0000027744)99:0.0489433350)54:0.0118067388,(((((((((((((((((((((((H0040:0.0030912139,H0409:0.0000010000)58:0.0000020133,H0041:0.0000010000)80:0.0000023466,(H0387:0.0000025781,(((H0392:0.0000010000,H0404:0.0000010000)98:0.0000010000,H0398:0.0000026016)97:0.0000024373,H0399:0.0000025442)99:0.0031123014)64:0.0000025781)82:0.0000023330,H0241:0.0030032856)17:0.0000023929,H0240:0.0000010000)36:0.0000028718,(H0261:0.0029802574,H0334:0.0122923810)82:0.0000022768)89:0.0030069950,(H0046:0.0000024842,(H0293:0.0000010000,(H0386:0.0000010000,H0403:0.0000010000)86:0.0000024076)83:0.0000025238)88:0.0030341809)29:0.0000025397,(H0331:0.0029890857,((H0388:0.0000010000,(H0389:0.0000010000,H0408:0.0000024394)7:0.0000024189)7:0.0000025565,H0395:0.0000010000)99:0.0062371280)43:0.0000022423)14:0.0000025381,H0332:0.0000010000)15:0.0000020409,((H0335:0.0029768447,H0391:0.0000021205)97:0.0090894579,H0394:0.0123245856)56:0.0000020240)78:0.0000010300,H0132:0.0000025502)29:0.0000010542,H0397:0.0000010000)21:0.0000023814,H0393:0.0000027866)28:0.0000010671,H0364:0.0000010000)74:0.0030180144,((H0131:0.0000010000,H0136:0.0000010000)72:0.0000023429,H0135:0.0000010000)71:0.0000023850)83:0.0030585441,((H0130:0.0000010000,H0134:0.0000010000)93:0.0000021426,H0133:0.0000020062)97:0.0031835703)25:0.0000025819,H0337:0.0000025537)41:0.0000024153,H0390:0.0000024815)66:0.0000022151,H0416:0.0000024647)80:0.0035713268,H0396:0.0000021083)88:0.0228733422,(H0323:0.0082081924,H0324:0.0150913412)100:0.0190298690)50:0.0062506217,((H0322:0.0040024584,(((H0325:0.0000028398,(((H0333:0.0000010000,H0336:0.0031897219)99:0.0000024409,H0405:0.0000021634)100:0.0030775912,H0338:0.0097316834)100:0.0135001994)97:0.0007697913,H0400:0.0031379050)97:0.0061178253,H0326:0.0000024367)97:0.0093492154)98:0.0098932402,H0401:0.0338039117)94:0.0102051498)76:0.0133095295,H0179:0.0791075132)72:0.0140231530)89:0.0214383541,((((((((((((((H0036:0.0000010000,H0269:0.0000010000)97:0.0000010000,H0294:0.0000010000)95:0.0000010000,H0194:0.0000010000)85:0.0000024390,H0307:0.0032548042)99:0.0032601210,(((H0144:0.0000010000,(H0344:0.0000010000,H0345:0.0032363786)78:0.0000024971)87:0.0000024583,H0273:0.0000010000)100:0.0033705238,(H0193:0.0000023488,H0275:0.0000020297)99:0.0031644657)99:0.0033382602)8:0.0000021752,H0184:0.0000029337)5:0.0000024997,H0143:0.0000010000)2:0.0000024439,(((((H0277:0.0034701053,H0353:0.0032642288)64:0.0000028559,H0281:0.0000010000)85:0.0000023704,H0349:0.0032719445)18:0.0000026046,((H0278:0.0034398695,H0350:0.0032804363)98:0.0032804431,H0351:0.0032711040)45:0.0000020582)28:0.0000024515,H0343:0.0000010000)33:0.0000010000)4:0.0000024466,(((((H0178:0.0000010000,H0181:0.0035887752)87:0.0000010000,H0191:0.0000010000)81:0.0000010000,H0272:0.0000010000)81:0.0000024482,H0352:0.0032342066)95:0.0032594508,(H0192:0.0000022067,(H0270:0.0034599389,H0271:0.0000010000)97:0.0000022240)100:0.0032641391)10:0.0000026594)5:0.0000026980,H0244:0.0032668398)73:0.0000025470,((H0195:0.0000010000,H0348:0.0000010000)98:0.0000026094,H0276:0.0000025477)100:0.0065690697)100:0.0032972139,(H0279:0.0034440679,H0280:0.0000024127)84:0.0000027194)98:0.0066233885,H0316:0.0132818750)94:0.0035329564,(H0196:0.0000010000,H0274:0.0000010000)99:0.0034218907)100:0.0264306239)94:0.0239520014,H0255:0.0000025011)94:0.0236259665)24:0.0000024488,H0026:0.0032117810)22:0.0000020686,(H0115:0.0000026173,((H0208:0.0000029734,(H0375:0.0112163159,H0377:0.0000020995)80:0.0109942247)80:0.0034958076,H0219:0.0000024233)100:0.0298937955)86:0.0096945689)77:0.0034099791,(((((((H0029:0.0000010000,(H0030:0.0000010000,((H0078:0.0000029623,H0079:0.0037988295)84:0.0000010000,(((H0150:0.0035682949,H0151:0.0072256445)69:0.0000024367,H0152:0.0000010000)70:0.0000027102,H0370:0.0000010000)65:0.0000021742)72:0.0000026516)31:0.0000024471)36:0.0033861071,((((((((((((((((((H0043:0.0000010000,H0315:0.0000010000)100:0.0000010755,H0385:0.0000010000)30:0.0000024058,H0153:0.0035071436)14:0.0000022797,H0075:0.0000010000)12:0.0000023416,H0158:0.0153136470)6:0.0000024097,H0077:0.0000010000)9:0.0000022616,H0369:0.0000010000)2:0.0000010956,H0216:0.0000010000)5:0.0000011835,H0074:0.0000010000)16:0.0000011407,H0148:0.0000010000)13:0.0000020504,H0155:0.0035060466)5:0.0000024647,H0149:0.0073451449)8:0.0031688178,H0116:0.0031634856)5:0.0000010000,H0054:0.0000010000)5:0.0000020831,H0306:0.0096535526)7:0.0000021205,H0296:0.0000010000)7:0.0000025423,H0154:0.0035064357)7:0.0031588561,H0406:0.0000010000)70:0.0000025458)24:0.0000025449,(H0215:0.0000028895,H0225:0.0000020165)99:0.0031663039)71:0.0047109726,H0220:0.0000025498)28:0.0000027707,H0209:0.0035310758)35:0.0047475491,(((H0053:0.0000026609,H0383:0.0000028751)87:0.0031625275,H0141:0.0031639701)13:0.0000025915,H0163:0.0000010000)13:0.0000024554)29:0.0000026282,H0372:0.0000010000)85:0.0063547619)79:0.0131376689,((((((H0245:0.0000010000,H0295:0.0000010000)88:0.0000025888,((H0367:0.0000010000,H0407:0.0000010000)94:0.0000010000,H0384:0.0000010000)94:0.0000010000)97:0.0066667638,H0366:0.0064320710)97:0.0064523635,H0378:0.0069664901)28:0.0000023659,H0379:0.0000010000)26:0.0000023689,H0410:0.0000010000)25:0.0000023766)25:0.0031430819,((H0007:0.0000020967,H0376:0.0107097188)100:0.0031633142,H0014:0.0000025012)98:0.0000025909)75:0.0046190090,H0025:0.0398326886)82:0.0118081840,(((((H0011:0.0000025913,H0371:0.0069634335)98:0.0032384165,((H0024:0.0000010000,(((H0157:0.0076440115,H0205:0.2058777913)90:0.0023267291,H0292:0.0000010000)53:0.0000025953,H0159:0.0000010000)39:0.0000025816)17:0.0000029588,H0162:0.0000010000)17:0.0000025846)22:0.0000026603,(H0023:0.0032954589,H0373:0.0000025576)83:0.0032695514)86:0.0028840047,((H0217:0.0000023702,(H0218:0.0000024372,H0224:0.0000025077)100:0.0031748355)92:0.0033652410,H0314:0.0097688263)74:0.0033779376)94:0.0035727641,(((((H0015:0.0000010000,(H0286:0.0036371866,H0381:0.0000010000)97:0.0000020617)97:0.0000022613,H0226:0.0000010000)67:0.0000025537,H0137:0.0000010000)90:0.0031826824,((H0212:0.0000010000,H0214:0.0000023152)92:0.0000026943,(H0221:0.0000025591,H0223:0.0000020741)100:0.0031367160)94:0.0063643907)99:0.0100331843,((H0094:0.0082815133,((((H0095:0.0000027128,(((H0105:0.0000023575,H0109:0.0000010000)98:0.0000023525,H0106:0.0000010000)40:0.0030903458,(H0108:0.0000027086,((H0256:0.0000025202,(H0257:0.0035841049,H0374:0.0000028294)98:0.0000022032)99:0.0031152379,H0258:0.0031152364)10:0.0000023814)11:0.0000022368)8:0.0000027449)17:0.0030623805,H0302:0.0000010000)49:0.0000024606,((H0210:0.0000027215,(H0213:0.0030683336,H0222:0.0000025548)86:0.0030683384)83:0.0000029342,H0211:0.0034612640)96:0.0092920962)30:0.0000024920,H0107:0.0000025911)33:0.0030528274)84:0.0000010660,H0110:0.0000021727)100:0.0127176907)96:0.0033636906)78:0.0000022642)91:0.0112908290,(H0010:0.0266431191,H0189:0.0365403277)95:0.0158461536)98:0.0095443249,(H0102:0.0000021278,H0104:0.0000024578)100:0.0140775583)99:0.0229271813,H0092:0.0000024102)90:0.0037621920,H0093:0.0042855953)90:0.0128808653,H0236:0.0031597005)12:0.0000027557,(((((((((H0004:0.0000027161,(H0022:0.0031356726,H0190:0.0000010000)98:0.0000020936)100:0.0031083235,(H0228:0.0000023125,(H0235:0.0000010000,H0380:0.0000010000)100:0.0000010000)98:0.0000023902)100:0.0031082526,H0204:0.0031381211)47:0.0000025700,H0238:0.0031345608)44:0.0000024021,H0237:0.0000010000)44:0.0000020409,H0365:0.0033229972)98:0.0031338446,(H0009:0.0000022012,H0233:0.0031390808)98:0.0000026081)98:0.0031480823,H0411:0.0098523009)71:0.0000027298,((H0013:0.0031925484,(H0234:0.0000010000,(H0312:0.0000010000,H0368:0.0000010000)100:0.0000010000)99:0.0000024190)100:0.0031836783,((H0156:0.0000010000,(H0161:0.0000010000,H0382:0.0035251659)96:0.0000010000)97:0.0000010000,H0160:0.0000010000)98:0.0031697146)72:0.0000024162)91:0.0031791581)1:0.0000010000,(H0008:0.0031681648,((((H0091:0.0000010000,((H0099:0.0254738027,H0100:0.0039023786)83:0.0040523265,H0138:0.0000027108)5:0.0000022158)7:0.0000022253,H0096:0.0039715074)13:0.0000029041,(H0097:0.0079460985,H0098:0.0000010000)96:0.0039673874)30:0.0000022342,H0101:0.0253147388)67:0.0034715801)4:0.0000025995)36:0.0000022266,((H0021:0.0031912314,((H0050:0.0077902803,H0051:0.0000010000)86:0.0000010000,H0362:0.0000010000)77:0.0000010000)39:0.0000010000,H0282:0.0000010000)41:0.0000022561);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7500.043888
+Robinson-Foulds distance between ML tree and consensus tree: 152
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--H0001
+|
+|                                                     +--H0002
+|                                                  +--| (99)
+|                                                  |  +--H0027
+|                                               +--| (99)
+|                                               |  +--H0028
+|                                            +--| (83)
+|                                            |  |  +--H0003
+|                                            |  +--| (82)
+|                                            |     |       +--H0103
+|                                            |     +-------| (100)
+|                                            |             |     +--H0227
+|                                            |             |  +--| (87)
+|                                            |             |  |  +--H0418
+|                                            |             +--| (100)
+|                                            |                +--H0422
+|                                         +--| (77)
+|                                         |  |                                             +--H0005
+|                                         |  |                                      +------| (100)
+|                                         |  |                                      |      +--H0031
+|                                         |  |                                   +--| (88)
+|                                         |  |                                   |  +--------H0088
+|                                         |  |                                +--| (76)
+|                                         |  |                                |  +--------H0017
+|                                         |  |                             +--| (32)
+|                                         |  |                             |  |                     +--H0006
+|                                         |  |                             |  |                  +--| (92)
+|                                         |  |                             |  |                  |  +--H0309
+|                                         |  |                             |  |               +--| (81)
+|                                         |  |                             |  |               |  +--H0164
+|                                         |  |                             |  |            +--| (100)
+|                                         |  |                             |  |            |  +--H0300
+|                                         |  |                             |  |         +--| (99)
+|                                         |  |                             |  |         |  +--H0313
+|                                         |  |                             |  |  +------| (100)
+|                                         |  |                             |  |  |      |    +--H0059
+|                                         |  |                             |  |  |      +----| (100)
+|                                         |  |                             |  |  |           +--H0232
+|                                         |  |                             |  +--| (61)
+|                                         |  |                             |     +---------H0329
+|                                         |  |                          +--| (19)
+|                                         |  |                          |  |                  +--H0012
+|                                         |  |                          |  |              +---| (81)
+|                                         |  |                          |  |              |   |            +--------H0301
+|                                         |  |                          |  |              |   +------------| (99)
+|                                         |  |                          |  |              |                +--H0304
+|                                         |  |                          |  |           +--| (77)
+|                                         |  |                          |  |           |  +--H0414
+|                                         |  |                          |  |        +--| (95)
+|                                         |  |                          |  |        |  |  +--H0052
+|                                         |  |                          |  |        |  +--| (79)
+|                                         |  |                          |  |        |     |        +--H0066
+|                                         |  |                          |  |        |     |     +--| (96)
+|                                         |  |                          |  |        |     |     |  +--H0419
+|                                         |  |                          |  |        |     |  +--| (75)
+|                                         |  |                          |  |        |     |  |  |        +--H0165
+|                                         |  |                          |  |        |     |  |  |     +--| (88)
+|                                         |  |                          |  |        |     |  |  |     |  +--H0166
+|                                         |  |                          |  |        |     |  |  |  +--| (81)
+|                                         |  |                          |  |        |     |  |  |  |  +--H0167
+|                                         |  |                          |  |        |     |  |  +--| (100)
+|                                         |  |                          |  |        |     |  |     +--H0168
+|                                         |  |                          |  |        |     +--| (57)
+|                                         |  |                          |  |        |        |     +--H0169
+|                                         |  |                          |  |        |        |  +--| (69)
+|                                         |  |                          |  |        |        |  |  +--H0289
+|                                         |  |                          |  |        |        +--| (99)
+|                                         |  |                          |  |        |           +--H0174
+|                                         |  |                          |  |     +--| (97)
+|                                         |  |                          |  |     |  |              +--H0113
+|                                         |  |                          |  |     |  |           +--| (99)
+|                                         |  |                          |  |     |  |           |  +--H0114
+|                                         |  |                          |  |     |  +-----------| (100)
+|                                         |  |                          |  |     |              |  +--H0420
+|                                         |  |                          |  |     |              +--| (85)
+|                                         |  |                          |  |     |                 +--H0421
+|                                         |  |                          |  |  +--| (84)
+|                                         |  |                          |  |  |  +-------H0089
+|                                         |  |                          |  +--| (47)
+|                                         |  |                          |     |     +-------H0018
+|                                         |  |                          |     |  +--| (83)
+|                                         |  |                          |     |  |  |             +--H0139
+|                                         |  |                          |     |  |  |          +--| (100)
+|                                         |  |                          |     |  |  |          |  +--H0360
+|                                         |  |                          |     |  |  |  +-------| (100)
+|                                         |  |                          |     |  |  |  |       |  +-----H0402
+|                                         |  |                          |     |  |  |  |       +--| (89)
+|                                         |  |                          |     |  |  |  |          +--H0412
+|                                         |  |                          |     |  |  +--| (98)
+|                                         |  |                          |     |  |     +--H0182
+|                                         |  |                          |     +--| (35)
+|                                         |  |                          |        |                                            +--H0042
+|                                         |  |                          |        |                                         +--| (76)
+|                                         |  |                          |        |                                         |  +--H0060
+|                                         |  |                          |        |                                      +--| (68)
+|                                         |  |                          |        |                                      |  +--H0229
+|                                         |  |                          |        |                                   +--| (33)
+|                                         |  |                          |        |                                   |  +--H0081
+|                                         |  |                          |        |                                +--| (21)
+|                                         |  |                          |        |                                |  +--H0068
+|                                         |  |                          |        |                             +--| (25)
+|                                         |  |                          |        |                             |  +--H0069
+|                                         |  |                          |        |                          +--| (29)
+|                                         |  |                          |        |                          |  +--H0070
+|                                         |  |                          |        |                       +--| (92)
+|                                         |  |                          |        |                       |  +--H0082
+|                                         |  |                          |        |                    +--| (51)
+|                                         |  |                          |        |                    |  +--H0206
+|                                         |  |                          |        |                 +--| (59)
+|                                         |  |                          |        |                 |  |  +--H0310
+|                                         |  |                          |        |                 |  +--| (100)
+|                                         |  |                          |        |                 |     +-----------H0417
+|                                         |  |                          |        |          +------| (98)
+|                                         |  |                          |        |          |      |     +--H0327
+|                                         |  |                          |        |          |      |  +--| (88)
+|                                         |  |                          |        |          |      |  |  +--H0328
+|                                         |  |                          |        |          |      +--| (78)
+|                                         |  |                          |        |          |         +--H0363
+|                                         |  |                          |        |     +----| (96)
+|                                         |  |                          |        |     |    |      +--H0073
+|                                         |  |                          |        |     |    +------| (100)
+|                                         |  |                          |        |     |           |  +--H0083
+|                                         |  |                          |        |     |           +--| (65)
+|                                         |  |                          |        |     |              +--H0084
+|                                         |  |                          |        |  +--| (46)
+|                                         |  |                          |        |  |  |        +--H0062
+|                                         |  |                          |        |  |  |  +-----| (100)
+|                                         |  |                          |        |  |  |  |     |  +--H0072
+|                                         |  |                          |        |  |  |  |     +--| (72)
+|                                         |  |                          |        |  |  |  |        +--H0085
+|                                         |  |                          |        |  |  +--| (82)
+|                                         |  |                          |        |  |     |            +--H0239
+|                                         |  |                          |        |  |     |         +--| (67)
+|                                         |  |                          |        |  |     |         |  +--H0298
+|                                         |  |                          |        |  |     |      +--| (88)
+|                                         |  |                          |        |  |     |      |  +--H0308
+|                                         |  |                          |        |  |     |   +--| (88)
+|                                         |  |                          |        |  |     |   |  +--H0321
+|                                         |  |                          |        |  |     +---| (99)
+|                                         |  |                          |        |  |         +--H0320
+|                                         |  |                          |        +--| (65)
+|                                         |  |                          |           |                +--H0064
+|                                         |  |                          |           |             +--| (84)
+|                                         |  |                          |           |             |  |  +--H0112
+|                                         |  |                          |           |             |  +--| (100)
+|                                         |  |                          |           |             |     |  +--H0288
+|                                         |  |                          |           |             |     +--| (100)
+|                                         |  |                          |           |             |        +---------H0305
+|                                         |  |                          |           |    +--------| (100)
+|                                         |  |                          |           |    |        +--H0065
+|                                         |  |                          |           +----| (95)
+|                                         |  |                          |                +---------H0111
+|                                         |  |                       +--| (64)
+|                                         |  |                       |  |                   +--H0016
+|                                         |  |                       |  |                +--| (94)
+|                                         |  |                       |  |                |  |  +--H0207
+|                                         |  |                       |  |                |  +--| (90)
+|                                         |  |                       |  |                |     +--H0299
+|                                         |  |                       |  |             +--| (100)
+|                                         |  |                       |  |             |  +--H0330
+|                                         |  |                       |  |        +----| (100)
+|                                         |  |                       |  |        |    |  +--H0071
+|                                         |  |                       |  |        |    +--| (100)
+|                                         |  |                       |  |        |       +--H0080
+|                                         |  |                       |  |     +--| (77)
+|                                         |  |                       |  |     |  |  +---H0076
+|                                         |  |                       |  |     |  +--| (88)
+|                                         |  |                       |  |     |     |           +--H0086
+|                                         |  |                       |  |     |     +-----------| (100)
+|                                         |  |                       |  |     |                 +--H0087
+|                                         |  |                       |  |  +--| (78)
+|                                         |  |                       |  |  |  +----------H0290
+|                                         |  |                       |  +--| (77)
+|                                         |  |                       |     |                          +--H0019
+|                                         |  |                       |     |                       +--| (38)
+|                                         |  |                       |     |                       |  |                 +--H0020
+|                                         |  |                       |     |                       |  |              +--| (36)
+|                                         |  |                       |     |                       |  |              |  +--H0126
+|                                         |  |                       |     |                       |  |           +--| (28)
+|                                         |  |                       |     |                       |  |           |  +--H0264
+|                                         |  |                       |     |                       |  |        +--| (40)
+|                                         |  |                       |     |                       |  |        |  |  +--H0124
+|                                         |  |                       |     |                       |  |        |  +--| (32)
+|                                         |  |                       |     |                       |  |        |     +--H0127
+|                                         |  |                       |     |                       |  |     +--| (56)
+|                                         |  |                       |     |                       |  |     |  +--H0128
+|                                         |  |                       |     |                       |  |  +--| (63)
+|                                         |  |                       |     |                       |  |  |  +--H0266
+|                                         |  |                       |     |                       |  +--| (57)
+|                                         |  |                       |     |                       |     +--H0129
+|                                         |  |                       |     |                    +--| (27)
+|                                         |  |                       |     |                    |  +--H0035
+|                                         |  |                       |     |                 +--| (48)
+|                                         |  |                       |     |                 |  +--H0122
+|                                         |  |                       |     |              +--| (36)
+|                                         |  |                       |     |              |  +--H0123
+|                                         |  |                       |     |           +--| (33)
+|                                         |  |                       |     |           |  +--H0034
+|                                         |  |                       |     |        +--| (39)
+|                                         |  |                       |     |        |  +--H0125
+|                                         |  |                       |     |     +--| (85)
+|                                         |  |                       |     |     |  +--H0265
+|                                         |  |                       |     |  +--| (95)
+|                                         |  |                       |     |  |  |  +--H0044
+|                                         |  |                       |     |  |  +--| (85)
+|                                         |  |                       |     |  |     |     +--H0188
+|                                         |  |                       |     |  |     |  +--| (91)
+|                                         |  |                       |     |  |     |  |  +--H0287
+|                                         |  |                       |     |  |     +--| (74)
+|                                         |  |                       |     |  |        +--H0339
+|                                         |  |                       |     +--| (91)
+|                                         |  |                       |        |  +--H0117
+|                                         |  |                       |        +--| (98)
+|                                         |  |                       |           |        +--H0118
+|                                         |  |                       |           |     +--| (50)
+|                                         |  |                       |           |     |  +--H0311
+|                                         |  |                       |           |  +--| (47)
+|                                         |  |                       |           |  |  +--H0263
+|                                         |  |                       |           +--| (47)
+|                                         |  |                       |              |           +--H0119
+|                                         |  |                       |              |        +--| (97)
+|                                         |  |                       |              |        |  +--H0120
+|                                         |  |                       |              |     +--| (93)
+|                                         |  |                       |              |     |  +--H0262
+|                                         |  |                       |              |  +--| (94)
+|                                         |  |                       |              |  |  +--H0121
+|                                         |  |                       |              +--| (100)
+|                                         |  |                       |                 |  +--H0187
+|                                         |  |                       |                 +--| (100)
+|                                         |  |                       |                    +--H0268
+|                                         |  |                    +--| (72)
+|                                         |  |                    |  |                      +--H0037
+|                                         |  |                    |  |                   +--| (49)
+|                                         |  |                    |  |                   |  |  +--H0038
+|                                         |  |                    |  |                   |  +--| (97)
+|                                         |  |                    |  |                   |     +--H0039
+|                                         |  |                    |  |                +--| (82)
+|                                         |  |                    |  |                |  +--H0045
+|                                         |  |                    |  |             +--| (76)
+|                                         |  |                    |  |             |  +--H0297
+|                                         |  |                    |  |          +--| (77)
+|                                         |  |                    |  |          |  |  +--H0317
+|                                         |  |                    |  |          |  +--| (100)
+|                                         |  |                    |  |          |     |  +--H0318
+|                                         |  |                    |  |          |     +--| (99)
+|                                         |  |                    |  |          |        +--H0361
+|                                         |  |                    |  |       +--| (89)
+|                                         |  |                    |  |       |  +--H0319
+|                                         |  |                    |  |  +----| (100)
+|                                         |  |                    |  |  |    +--H0243
+|                                         |  |                    |  +--| (54)
+|                                         |  |                    |     +----H0090
+|                                         |  |                 +--| (87)
+|                                         |  |                 |  |    +---H0413
+|                                         |  |                 |  +----| (99)
+|                                         |  |                 |       +---H0415
+|                                         |  |              +--| (54)
+|                                         |  |              |  |                                          +--H0032
+|                                         |  |              |  |                                       +--| (54)
+|                                         |  |              |  |                                       |  |                                                     +--H0047
+|                                         |  |              |  |                                       |  |                                                  +--| (99)
+|                                         |  |              |  |                                       |  |                                                  |  +--H0251
+|                                         |  |              |  |                                       |  |                                               +--| (96)
+|                                         |  |              |  |                                       |  |                                               |  +--H0252
+|                                         |  |              |  |                                       |  |                                            +--| (96)
+|                                         |  |              |  |                                       |  |                                            |  |     +--H0246
+|                                         |  |              |  |                                       |  |                                            |  |  +--| (13)
+|                                         |  |              |  |                                       |  |                                            |  |  |  +--H0250
+|                                         |  |              |  |                                       |  |                                            |  +--| (11)
+|                                         |  |              |  |                                       |  |                                            |     |     +--H0248
+|                                         |  |              |  |                                       |  |                                            |     |  +--| (29)
+|                                         |  |              |  |                                       |  |                                            |     |  |  +--H0254
+|                                         |  |              |  |                                       |  |                                            |     +--| (12)
+|                                         |  |              |  |                                       |  |                                            |        +--H0249
+|                                         |  |              |  |                                       |  |                                         +--| (51)
+|                                         |  |              |  |                                       |  |                                         |  |  +--H0147
+|                                         |  |              |  |                                       |  |                                         |  +--| (100)
+|                                         |  |              |  |                                       |  |                                         |     +--H0354
+|                                         |  |              |  |                                       |  |                                      +--| (21)
+|                                         |  |              |  |                                       |  |                                      |  +--H0355
+|                                         |  |              |  |                                       |  |                                   +--| (21)
+|                                         |  |              |  |                                       |  |                                   |  +--H0197
+|                                         |  |              |  |                                       |  |                                +--| (23)
+|                                         |  |              |  |                                       |  |                                |  |  +--H0175
+|                                         |  |              |  |                                       |  |                                |  +--| (22)
+|                                         |  |              |  |                                       |  |                                |     +--H0199
+|                                         |  |              |  |                                       |  |                             +--| (99)
+|                                         |  |              |  |                                       |  |                             |  |  +--H0247
+|                                         |  |              |  |                                       |  |                             |  +--| (96)
+|                                         |  |              |  |                                       |  |                             |     +--H0253
+|                                         |  |              |  |                                       |  |                          +--| (96)
+|                                         |  |              |  |                                       |  |                          |  |  +--H0183
+|                                         |  |              |  |                                       |  |                          |  +--| (78)
+|                                         |  |              |  |                                       |  |                          |     +--H0198
+|                                         |  |              |  |                                       |  |                       +--| (92)
+|                                         |  |              |  |                                       |  |                       |  +--H0260
+|                                         |  |              |  |                                       |  |                    +--| (13)
+|                                         |  |              |  |                                       |  |                    |  +--H0200
+|                                         |  |              |  |                                       |  |                 +--| (5)
+|                                         |  |              |  |                                       |  |                 |  |                       +--H0140
+|                                         |  |              |  |                                       |  |                 |  |                    +--| (28)
+|                                         |  |              |  |                                       |  |                 |  |                    |  |        +--H0202
+|                                         |  |              |  |                                       |  |                 |  |                    |  |     +--| (100)
+|                                         |  |              |  |                                       |  |                 |  |                    |  |     |  +--H0340
+|                                         |  |              |  |                                       |  |                 |  |                    |  |  +--| (50)
+|                                         |  |              |  |                                       |  |                 |  |                    |  |  |  +--H0203
+|                                         |  |              |  |                                       |  |                 |  |                    |  +--| (23)
+|                                         |  |              |  |                                       |  |                 |  |                    |     +--H0342
+|                                         |  |              |  |                                       |  |                 |  |                 +--| (45)
+|                                         |  |              |  |                                       |  |                 |  |                 |  +--H0176
+|                                         |  |              |  |                                       |  |                 |  |              +--| (81)
+|                                         |  |              |  |                                       |  |                 |  |              |  +--H0146
+|                                         |  |              |  |                                       |  |                 |  |           +--| (44)
+|                                         |  |              |  |                                       |  |                 |  |           |  +--H0185
+|                                         |  |              |  |                                       |  |                 |  |        +--| (18)
+|                                         |  |              |  |                                       |  |                 |  |        |  +--H0231
+|                                         |  |              |  |                                       |  |                 |  |     +--| (49)
+|                                         |  |              |  |                                       |  |                 |  |     |  +--H0180
+|                                         |  |              |  |                                       |  |                 |  |  +--| (9)
+|                                         |  |              |  |                                       |  |                 |  |  |  +--H0303
+|                                         |  |              |  |                                       |  |                 |  +--| (8)
+|                                         |  |              |  |                                       |  |                 |     |     +--H0142
+|                                         |  |              |  |                                       |  |                 |     |  +--| (60)
+|                                         |  |              |  |                                       |  |                 |     |  |  +--H0356
+|                                         |  |              |  |                                       |  |                 |     +--| (100)
+|                                         |  |              |  |                                       |  |                 |        +--H0186
+|                                         |  |              |  |                                       |  |              +--| (6)
+|                                         |  |              |  |                                       |  |              |  +--H0145
+|                                         |  |              |  |                                       |  |           +--| (49)
+|                                         |  |              |  |                                       |  |           |  |        +--H0177
+|                                         |  |              |  |                                       |  |           |  |     +--| (100)
+|                                         |  |              |  |                                       |  |           |  |     |  +--H0359
+|                                         |  |              |  |                                       |  |           |  |  +--| (35)
+|                                         |  |              |  |                                       |  |           |  |  |  |        +--H0242
+|                                         |  |              |  |                                       |  |           |  |  |  |     +--| (76)
+|                                         |  |              |  |                                       |  |           |  |  |  |     |  +--H0347
+|                                         |  |              |  |                                       |  |           |  |  |  |  +--| (48)
+|                                         |  |              |  |                                       |  |           |  |  |  |  |  +--H0267
+|                                         |  |              |  |                                       |  |           |  |  |  +--| (97)
+|                                         |  |              |  |                                       |  |           |  |  |     +--H0259
+|                                         |  |              |  |                                       |  |           |  +--| (10)
+|                                         |  |              |  |                                       |  |           |     |  +--H0201
+|                                         |  |              |  |                                       |  |           |     +--| (93)
+|                                         |  |              |  |                                       |  |           |        +--H0357
+|                                         |  |              |  |                                       |  |        +--| (37)
+|                                         |  |              |  |                                       |  |        |  +--H0346
+|                                         |  |              |  |                                       |  |     +--| (32)
+|                                         |  |              |  |                                       |  |     |  +--H0358
+|                                         |  |              |  |                                       |  |  +--| (86)
+|                                         |  |              |  |                                       |  |  |  +--H0341
+|                                         |  |              |  |                                       |  +--| (30)
+|                                         |  |              |  |                                       |     |  +--H0058
+|                                         |  |              |  |                                       |     +--| (69)
+|                                         |  |              |  |                                       |        |  +--H0172
+|                                         |  |              |  |                                       |        +--| (98)
+|                                         |  |              |  |                                       |           |  +--H0230
+|                                         |  |              |  |                                       |           +--| (76)
+|                                         |  |              |  |                                       |              |  +--H0284
+|                                         |  |              |  |                                       |              +--| (93)
+|                                         |  |              |  |                                       |                 +--H0285
+|                                         |  |              |  |                                    +--| (48)
+|                                         |  |              |  |                                    |  +--H0056
+|                                         |  |              |  |                                 +--| (43)
+|                                         |  |              |  |                                 |  +--H0291
+|                                         |  |              |  |                              +--| (53)
+|                                         |  |              |  |                              |  +--H0033
+|                                         |  |              |  |                           +--| (74)
+|                                         |  |              |  |                           |  +--H0171
+|                                         |  |              |  |                        +--| (37)
+|                                         |  |              |  |                        |  +--H0173
+|                                         |  |              |  |                     +--| (76)
+|                                         |  |              |  |                     |  +--H0061
+|                                         |  |              |  |                  +--| (78)
+|                                         |  |              |  |                  |  +--H0067
+|                                         |  |              |  |               +--| (75)
+|                                         |  |              |  |               |  +--H0170
+|                                         |  |              |  |            +--| (58)
+|                                         |  |              |  |            |  +--H0057
+|                                         |  |              |  |         +--| (35)
+|                                         |  |              |  |         |  +--H0063
+|                                         |  |              |  |      +--| (47)
+|                                         |  |              |  |      |  +--H0055
+|                                         |  |              |  |   +--| (90)
+|                                         |  |              |  |   |  +--H0283
+|                                         |  |              |  +---| (99)
+|                                         |  |              |      |  +--H0048
+|                                         |  |              |      +--| (73)
+|                                         |  |              |         +--H0049
+|                                         |  |           +--| (89)
+|                                         |  |           |  |                                                                    +--H0040
+|                                         |  |           |  |                                                                 +--| (58)
+|                                         |  |           |  |                                                                 |  +--H0409
+|                                         |  |           |  |                                                              +--| (80)
+|                                         |  |           |  |                                                              |  +--H0041
+|                                         |  |           |  |                                                           +--| (82)
+|                                         |  |           |  |                                                           |  |  +--H0387
+|                                         |  |           |  |                                                           |  +--| (64)
+|                                         |  |           |  |                                                           |     |        +--H0392
+|                                         |  |           |  |                                                           |     |     +--| (98)
+|                                         |  |           |  |                                                           |     |     |  +--H0404
+|                                         |  |           |  |                                                           |     |  +--| (97)
+|                                         |  |           |  |                                                           |     |  |  +--H0398
+|                                         |  |           |  |                                                           |     +--| (99)
+|                                         |  |           |  |                                                           |        +--H0399
+|                                         |  |           |  |                                                        +--| (45)
+|                                         |  |           |  |                                                        |  +--H0240
+|                                         |  |           |  |                                                     +--| (36)
+|                                         |  |           |  |                                                     |  +--H0241
+|                                         |  |           |  |                                                  +--| (89)
+|                                         |  |           |  |                                                  |  |  +--H0261
+|                                         |  |           |  |                                                  |  +--| (82)
+|                                         |  |           |  |                                                  |     +--H0334
+|                                         |  |           |  |                                               +--| (29)
+|                                         |  |           |  |                                               |  |  +--H0046
+|                                         |  |           |  |                                               |  +--| (88)
+|                                         |  |           |  |                                               |     |  +--H0293
+|                                         |  |           |  |                                               |     +--| (83)
+|                                         |  |           |  |                                               |        |  +--H0386
+|                                         |  |           |  |                                               |        +--| (86)
+|                                         |  |           |  |                                               |           +--H0403
+|                                         |  |           |  |                                            +--| (14)
+|                                         |  |           |  |                                            |  |  +--H0331
+|                                         |  |           |  |                                            |  +--| (43)
+|                                         |  |           |  |                                            |     |        +--H0388
+|                                         |  |           |  |                                            |     |     +--| (91)
+|                                         |  |           |  |                                            |     |     |  +--H0389
+|                                         |  |           |  |                                            |     |  +--| (92)
+|                                         |  |           |  |                                            |     |  |  +--H0395
+|                                         |  |           |  |                                            |     +--| (99)
+|                                         |  |           |  |                                            |        +--H0408
+|                                         |  |           |  |                                         +--| (15)
+|                                         |  |           |  |                                         |  +--H0332
+|                                         |  |           |  |                                      +--| (78)
+|                                         |  |           |  |                                      |  |     +--H0335
+|                                         |  |           |  |                                      |  |  +--| (97)
+|                                         |  |           |  |                                      |  |  |  +--H0391
+|                                         |  |           |  |                                      |  +--| (56)
+|                                         |  |           |  |                                      |     +--H0394
+|                                         |  |           |  |                                   +--| (29)
+|                                         |  |           |  |                                   |  +--H0132
+|                                         |  |           |  |                                +--| (21)
+|                                         |  |           |  |                                |  +--H0397
+|                                         |  |           |  |                             +--| (28)
+|                                         |  |           |  |                             |  +--H0393
+|                                         |  |           |  |                          +--| (74)
+|                                         |  |           |  |                          |  +--H0364
+|                                         |  |           |  |                       +--| (83)
+|                                         |  |           |  |                       |  |     +--H0131
+|                                         |  |           |  |                       |  |  +--| (72)
+|                                         |  |           |  |                       |  |  |  +--H0136
+|                                         |  |           |  |                       |  +--| (71)
+|                                         |  |           |  |                       |     +--H0135
+|                                         |  |           |  |                    +--| (46)
+|                                         |  |           |  |                    |  +--H0337
+|                                         |  |           |  |                 +--| (41)
+|                                         |  |           |  |                 |  |     +--H0130
+|                                         |  |           |  |                 |  |  +--| (93)
+|                                         |  |           |  |                 |  |  |  +--H0134
+|                                         |  |           |  |                 |  +--| (97)
+|                                         |  |           |  |                 |     +--H0133
+|                                         |  |           |  |              +--| (66)
+|                                         |  |           |  |              |  +--H0390
+|                                         |  |           |  |           +--| (80)
+|                                         |  |           |  |           |  +--H0416
+|                                         |  |           |  |        +--| (88)
+|                                         |  |           |  |        |  +--H0396
+|                                         |  |           |  |     +--| (50)
+|                                         |  |           |  |     |  |  +--H0323
+|                                         |  |           |  |     |  +--| (100)
+|                                         |  |           |  |     |     +--H0324
+|                                         |  |           |  |  +--| (76)
+|                                         |  |           |  |  |  |     +--H0322
+|                                         |  |           |  |  |  |  +--| (98)
+|                                         |  |           |  |  |  |  |  |        +--H0325
+|                                         |  |           |  |  |  |  |  |     +--| (97)
+|                                         |  |           |  |  |  |  |  |     |  |        +--H0333
+|                                         |  |           |  |  |  |  |  |     |  |     +--| (99)
+|                                         |  |           |  |  |  |  |  |     |  |     |  +--H0336
+|                                         |  |           |  |  |  |  |  |     |  |  +--| (100)
+|                                         |  |           |  |  |  |  |  |     |  |  |  +--H0405
+|                                         |  |           |  |  |  |  |  |     |  +--| (100)
+|                                         |  |           |  |  |  |  |  |     |     +--H0338
+|                                         |  |           |  |  |  |  |  |  +--| (97)
+|                                         |  |           |  |  |  |  |  |  |  +--H0400
+|                                         |  |           |  |  |  |  |  +--| (97)
+|                                         |  |           |  |  |  |  |     +--H0326
+|                                         |  |           |  |  |  +--| (94)
+|                                         |  |           |  |  |     +--H0401
+|                                         |  |           |  +--| (72)
+|                                         |  |           |     +------H0179
+|                                         |  |        +--| (94)
+|                                         |  |        |  |                                      +--H0036
+|                                         |  |        |  |                                   +--| (97)
+|                                         |  |        |  |                                   |  +--H0269
+|                                         |  |        |  |                                +--| (95)
+|                                         |  |        |  |                                |  +--H0294
+|                                         |  |        |  |                             +--| (85)
+|                                         |  |        |  |                             |  +--H0194
+|                                         |  |        |  |                          +--| (99)
+|                                         |  |        |  |                          |  +--H0307
+|                                         |  |        |  |                       +--| (40)
+|                                         |  |        |  |                       |  |           +--H0178
+|                                         |  |        |  |                       |  |        +--| (87)
+|                                         |  |        |  |                       |  |        |  +--H0181
+|                                         |  |        |  |                       |  |     +--| (81)
+|                                         |  |        |  |                       |  |     |  +--H0191
+|                                         |  |        |  |                       |  |  +--| (81)
+|                                         |  |        |  |                       |  |  |  +--H0272
+|                                         |  |        |  |                       |  +--| (95)
+|                                         |  |        |  |                       |     +--H0352
+|                                         |  |        |  |                    +--| (10)
+|                                         |  |        |  |                    |  |  +--H0184
+|                                         |  |        |  |                    |  +--| (69)
+|                                         |  |        |  |                    |     +--H0244
+|                                         |  |        |  |                 +--| (7)
+|                                         |  |        |  |                 |  |  +--H0143
+|                                         |  |        |  |                 |  +--| (15)
+|                                         |  |        |  |                 |     |              +--H0277
+|                                         |  |        |  |                 |     |           +--| (64)
+|                                         |  |        |  |                 |     |           |  +--H0353
+|                                         |  |        |  |                 |     |        +--| (85)
+|                                         |  |        |  |                 |     |        |  +--H0281
+|                                         |  |        |  |                 |     |     +--| (18)
+|                                         |  |        |  |                 |     |     |  +--H0349
+|                                         |  |        |  |                 |     |  +--| (28)
+|                                         |  |        |  |                 |     |  |  |     +--H0278
+|                                         |  |        |  |                 |     |  |  |  +--| (98)
+|                                         |  |        |  |                 |     |  |  |  |  +--H0350
+|                                         |  |        |  |                 |     |  |  +--| (45)
+|                                         |  |        |  |                 |     |  |     +--H0351
+|                                         |  |        |  |                 |     +--| (33)
+|                                         |  |        |  |                 |        +--H0343
+|                                         |  |        |  |              +--| (23)
+|                                         |  |        |  |              |  |        +--H0144
+|                                         |  |        |  |              |  |     +--| (87)
+|                                         |  |        |  |              |  |     |  |  +--H0344
+|                                         |  |        |  |              |  |     |  +--| (78)
+|                                         |  |        |  |              |  |     |     +--H0345
+|                                         |  |        |  |              |  |  +--| (100)
+|                                         |  |        |  |              |  |  |  +--H0273
+|                                         |  |        |  |              |  +--| (99)
+|                                         |  |        |  |              |     |  +--H0193
+|                                         |  |        |  |              |     +--| (99)
+|                                         |  |        |  |              |        +--H0275
+|                                         |  |        |  |           +--| (73)
+|                                         |  |        |  |           |  |  +--H0192
+|                                         |  |        |  |           |  +--| (100)
+|                                         |  |        |  |           |     |  +--H0270
+|                                         |  |        |  |           |     +--| (97)
+|                                         |  |        |  |           |        +--H0271
+|                                         |  |        |  |        +--| (100)
+|                                         |  |        |  |        |  |     +--H0195
+|                                         |  |        |  |        |  |  +--| (98)
+|                                         |  |        |  |        |  |  |  +--H0348
+|                                         |  |        |  |        |  +--| (100)
+|                                         |  |        |  |        |     +--H0276
+|                                         |  |        |  |     +--| (98)
+|                                         |  |        |  |     |  |  +--H0279
+|                                         |  |        |  |     |  +--| (84)
+|                                         |  |        |  |     |     +--H0280
+|                                         |  |        |  |  +--| (94)
+|                                         |  |        |  |  |  +--H0316
+|                                         |  |        |  +--| (100)
+|                                         |  |        |     |  +--H0196
+|                                         |  |        |     +--| (99)
+|                                         |  |        |        +--H0274
+|                                         |  |     +--| (94)
+|                                         |  |     |  +--H0255
+|                                         |  |  +--| (37)
+|                                         |  |  |  |  +--H0115
+|                                         |  |  |  +--| (86)
+|                                         |  |  |     |     +--H0208
+|                                         |  |  |     |  +--| (80)
+|                                         |  |  |     |  |  |  +--H0375
+|                                         |  |  |     |  |  +--| (80)
+|                                         |  |  |     |  |     +--H0377
+|                                         |  |  |     +--| (100)
+|                                         |  |  |        +--H0219
+|                                         |  +--| (31)
+|                                         |     +--H0026
+|                                      +--| (79)
+|                                      |  |           +--H0029
+|                                      |  |        +--| (32)
+|                                      |  |        |  |     +--H0078
+|                                      |  |        |  |  +--| (84)
+|                                      |  |        |  |  |  +--H0079
+|                                      |  |        |  +--| (72)
+|                                      |  |        |     |        +--H0150
+|                                      |  |        |     |     +--| (69)
+|                                      |  |        |     |     |  +--H0151
+|                                      |  |        |     |  +--| (70)
+|                                      |  |        |     |  |  +--H0152
+|                                      |  |        |     +--| (65)
+|                                      |  |        |        +--H0370
+|                                      |  |     +--| (36)
+|                                      |  |     |  +--H0030
+|                                      |  |  +--| (71)
+|                                      |  |  |  |                                                  +--H0043
+|                                      |  |  |  |                                               +--| (100)
+|                                      |  |  |  |                                               |  +--H0315
+|                                      |  |  |  |                                            +--| (30)
+|                                      |  |  |  |                                            |  +--H0385
+|                                      |  |  |  |                                         +--| (14)
+|                                      |  |  |  |                                         |  +--H0153
+|                                      |  |  |  |                                      +--| (12)
+|                                      |  |  |  |                                      |  +--H0075
+|                                      |  |  |  |                                   +--| (6)
+|                                      |  |  |  |                                   |  +--H0158
+|                                      |  |  |  |                                +--| (9)
+|                                      |  |  |  |                                |  +--H0077
+|                                      |  |  |  |                             +--| (7)
+|                                      |  |  |  |                             |  +--H0074
+|                                      |  |  |  |                          +--| (13)
+|                                      |  |  |  |                          |  +--H0216
+|                                      |  |  |  |                       +--| (16)
+|                                      |  |  |  |                       |  +--H0369
+|                                      |  |  |  |                    +--| (13)
+|                                      |  |  |  |                    |  +--H0148
+|                                      |  |  |  |                 +--| (11)
+|                                      |  |  |  |                 |  +--H0406
+|                                      |  |  |  |              +--| (39)
+|                                      |  |  |  |              |  +--H0149
+|                                      |  |  |  |           +--| (36)
+|                                      |  |  |  |           |  |  +--H0054
+|                                      |  |  |  |           |  +--| (20)
+|                                      |  |  |  |           |     |  +--H0116
+|                                      |  |  |  |           |     +--| (43)
+|                                      |  |  |  |           |        +--H0306
+|                                      |  |  |  |        +--| (41)
+|                                      |  |  |  |        |  +--H0296
+|                                      |  |  |  |     +--| (38)
+|                                      |  |  |  |     |  +--H0155
+|                                      |  |  |  |  +--| (70)
+|                                      |  |  |  |  |  +--H0154
+|                                      |  |  |  +--| (30)
+|                                      |  |  |     |  +--H0215
+|                                      |  |  |     +--| (99)
+|                                      |  |  |        +--H0225
+|                                      |  +--| (85)
+|                                      |     |        +--H0053
+|                                      |     |     +--| (87)
+|                                      |     |     |  +--H0383
+|                                      |     |  +--| (42)
+|                                      |     |  |  |  +--H0141
+|                                      |     |  |  +--| (27)
+|                                      |     |  |     |  +--H0163
+|                                      |     |  |     +--| (38)
+|                                      |     |  |        +--H0372
+|                                      |     +--| (55)
+|                                      |        |  +--H0209
+|                                      |        +--| (25)
+|                                      |           +--H0220
+|                                   +--| (47)
+|                                   |  |        +--H0007
+|                                   |  |     +--| (100)
+|                                   |  |     |  +--H0376
+|                                   |  |  +--| (98)
+|                                   |  |  |  +--H0014
+|                                   |  +--| (46)
+|                                   |     +--H0410
+|                                +--| (42)
+|                                |  +--H0379
+|                             +--| (48)
+|                             |  +--H0378
+|                          +--| (75)
+|                          |  |        +--H0245
+|                          |  |     +--| (88)
+|                          |  |     |  +--H0295
+|                          |  |  +--| (97)
+|                          |  |  |  |     +--H0367
+|                          |  |  |  |  +--| (94)
+|                          |  |  |  |  |  +--H0407
+|                          |  |  |  +--| (94)
+|                          |  |  |     +--H0384
+|                          |  +--| (97)
+|                          |     +--H0366
+|                       +--| (82)
+|                       |  +--H0025
+|                    +--| (91)
+|                    |  |           +--H0011
+|                    |  |        +--| (98)
+|                    |  |        |  +--H0371
+|                    |  |     +--| (86)
+|                    |  |     |  |        +--H0023
+|                    |  |     |  |     +--| (83)
+|                    |  |     |  |     |  +--H0373
+|                    |  |     |  |  +--| (34)
+|                    |  |     |  |  |  |  +--H0024
+|                    |  |     |  |  |  +--| (17)
+|                    |  |     |  |  |     |        +--H0157
+|                    |  |     |  |  |     |     +--| (90)
+|                    |  |     |  |  |     |     |  +------------------H0205
+|                    |  |     |  |  |     |  +--| (53)
+|                    |  |     |  |  |     |  |  +--H0292
+|                    |  |     |  |  |     +--| (39)
+|                    |  |     |  |  |        +--H0159
+|                    |  |     |  +--| (39)
+|                    |  |     |     +--H0162
+|                    |  |  +--| (94)
+|                    |  |  |  |     +--H0217
+|                    |  |  |  |  +--| (92)
+|                    |  |  |  |  |  |  +--H0218
+|                    |  |  |  |  |  +--| (100)
+|                    |  |  |  |  |     +--H0224
+|                    |  |  |  +--| (74)
+|                    |  |  |     +--H0314
+|                    |  +--| (78)
+|                    |     |              +--H0015
+|                    |     |           +--| (97)
+|                    |     |           |  |  +--H0286
+|                    |     |           |  +--| (97)
+|                    |     |           |     +--H0381
+|                    |     |        +--| (67)
+|                    |     |        |  +--H0226
+|                    |     |     +--| (90)
+|                    |     |     |  +--H0137
+|                    |     |  +--| (99)
+|                    |     |  |  |     +--H0212
+|                    |     |  |  |  +--| (92)
+|                    |     |  |  |  |  +--H0214
+|                    |     |  |  +--| (94)
+|                    |     |  |     |  +--H0221
+|                    |     |  |     +--| (100)
+|                    |     |  |        +--H0223
+|                    |     +--| (96)
+|                    |        |           +--H0094
+|                    |        |        +--| (47)
+|                    |        |        |  |  +--H0095
+|                    |        |        |  +--| (49)
+|                    |        |        |     |           +--H0105
+|                    |        |        |     |        +--| (98)
+|                    |        |        |     |        |  +--H0109
+|                    |        |        |     |     +--| (40)
+|                    |        |        |     |     |  +--H0106
+|                    |        |        |     |  +--| (23)
+|                    |        |        |     |  |  +--H0302
+|                    |        |        |     +--| (22)
+|                    |        |        |        |  +--H0108
+|                    |        |        |        +--| (11)
+|                    |        |        |           |     +--H0256
+|                    |        |        |           |  +--| (99)
+|                    |        |        |           |  |  |  +--H0257
+|                    |        |        |           |  |  +--| (98)
+|                    |        |        |           |  |     +--H0374
+|                    |        |        |           +--| (10)
+|                    |        |        |              +--H0258
+|                    |        |     +--| (42)
+|                    |        |     |  |     +--H0210
+|                    |        |     |  |  +--| (83)
+|                    |        |     |  |  |  |  +--H0213
+|                    |        |     |  |  |  +--| (86)
+|                    |        |     |  |  |     +--H0222
+|                    |        |     |  +--| (96)
+|                    |        |     |     +--H0211
+|                    |        |  +--| (84)
+|                    |        |  |  +--H0107
+|                    |        +--| (100)
+|                    |           +--H0110
+|                 +--| (98)
+|                 |  |  +--H0010
+|                 |  +--| (95)
+|                 |     +--H0189
+|              +--| (99)
+|              |  |  +--H0102
+|              |  +--| (100)
+|              |     +--H0104
+|           +--| (90)
+|           |  +--H0092
+|        +--| (90)
+|        |  +--H0093
+|     +--| (57)
+|     |  |              +--H0091
+|     |  |           +--| (47)
+|     |  |           |  +--H0138
+|     |  |        +--| (33)
+|     |  |        |  +--H0096
+|     |  |     +--| (39)
+|     |  |     |  |  +--H0097
+|     |  |     |  +--| (96)
+|     |  |     |     +--H0098
+|     |  |  +--| (30)
+|     |  |  |  |  +--H0099
+|     |  |  |  +--| (83)
+|     |  |  |     +--H0100
+|     |  +--| (67)
+|     |     +--H0101
+|  +--| (18)
+|  |  +--H0236
++--| (36)
+|  |                             +--H0004
+|  |                          +--| (100)
+|  |                          |  |  +--H0022
+|  |                          |  +--| (98)
+|  |                          |     +--H0190
+|  |                       +--| (100)
+|  |                       |  |  +--H0228
+|  |                       |  +--| (98)
+|  |                       |     |  +--H0235
+|  |                       |     +--| (100)
+|  |                       |        +--H0380
+|  |                    +--| (47)
+|  |                    |  +--H0204
+|  |                 +--| (44)
+|  |                 |  +--H0238
+|  |              +--| (44)
+|  |              |  +--H0237
+|  |           +--| (98)
+|  |           |  +--H0365
+|  |        +--| (98)
+|  |        |  |  +--H0009
+|  |        |  +--| (98)
+|  |        |     +--H0233
+|  |     +--| (71)
+|  |     |  +--H0411
+|  |  +--| (91)
+|  |  |  |     +--H0013
+|  |  |  |  +--| (100)
+|  |  |  |  |  |  +--H0234
+|  |  |  |  |  +--| (99)
+|  |  |  |  |     |  +--H0312
+|  |  |  |  |     +--| (100)
+|  |  |  |  |        +--H0368
+|  |  |  +--| (72)
+|  |  |     |     +--H0156
+|  |  |     |  +--| (97)
+|  |  |     |  |  |  +--H0161
+|  |  |     |  |  +--| (96)
+|  |  |     |  |     +--H0382
+|  |  |     +--| (98)
+|  |  |        +--H0160
+|  +--| (36)
+|     +--H0008
+|
+|     +--H0021
+|  +--| (39)
+|  |  |     +--H0050
+|  |  |  +--| (86)
+|  |  |  |  +--H0051
+|  |  +--| (77)
+|  |     +--H0362
++--| (41)
+   +--H0282
+
+
+Consensus tree in newick format: 
+
+(H0001:0.0000021926,((((((((((((((((((H0002:0.0000021926,H0027:0.0000021926)99:0.0000021926,H0028:0.0204187397)99:0.0031867464,(H0003:0.0019914601,(H0103:0.0000021926,((H0227:0.0000021926,H0418:0.0000020378)87:0.0000022399,H0422:0.0039503965)100:0.0036418840)100:0.0871540476)82:0.0078723839)83:0.0032133958,((((((((((((((H0005:0.0000028136,H0031:0.0000021926)100:0.0755316320,H0088:0.1014944632)88:0.0253032180,H0017:0.0962848320)76:0.0302695497,((((((H0006:0.0000021926,H0309:0.0000021926)92:0.0000021926,H0164:0.0000021926)81:0.0000021926,H0300:0.0033037017)100:0.0324277396,H0313:0.0203082374)99:0.0164510965,(H0059:0.0000021926,H0232:0.0000021926)100:0.0537132217)100:0.0769771800,H0329:0.1084877893)61:0.0050427108)32:0.0046403610,((((((H0012:0.0000022955,(H0301:0.1029411942,H0304:0.0050048030)99:0.1444547646)81:0.0462707820,H0414:0.0189727532)77:0.0038415198,(H0052:0.0068349164,(((H0066:0.0000021926,H0419:0.0000021926)96:0.0033147934,(((H0165:0.0000021926,H0166:0.0000021926)88:0.0000021926,H0167:0.0000021926)81:0.0000021926,H0168:0.0000021926)100:0.0037158342)75:0.0000022009,((H0169:0.0000021926,H0289:0.0074526087)69:0.0000021926,H0174:0.0000021926)99:0.0035124934)57:0.0000022009)79:0.0323253867)95:0.0229892431,((H0113:0.0000021926,H0114:0.0040013790)99:0.0124229168,(H0420:0.0000021926,H0421:0.0000021926)85:0.0000029957)100:0.1251066258)97:0.0301075883,H0089:0.0924358268)84:0.0294606523,((H0018:0.0891281178,(((H0139:0.0085870968,H0360:0.0041814095)100:0.0282573517,(H0402:0.0642001618,H0412:0.0224869142)89:0.0150336817)100:0.0883029791,H0182:0.0079324871)98:0.0361362941)83:0.0319470284,(((((((((((((H0042:0.0061735906,H0060:0.0000021926)76:0.0000020148,H0229:0.0000021926)68:0.0000022009,H0081:0.0000021926)33:0.0000022009,H0068:0.0000021926)21:0.0000022009,H0069:0.0000021926)25:0.0000022009,H0070:0.0000021926)29:0.0000022009,H0082:0.0000021926)92:0.0000022009,H0206:0.0079100902)51:0.0000021926,(H0310:0.0000021926,H0417:0.1267263447)100:0.0139131020)59:0.0095499323,((H0327:0.0000021926,H0328:0.0062341208)88:0.0000021926,H0363:0.0222429564)78:0.0000023269)98:0.0726653828,(H0073:0.0000021926,(H0083:0.0000021926,H0084:0.0000021926)65:0.0000021926)100:0.0776145250)96:0.0536790712,((H0062:0.0000021926,(H0072:0.0000021926,H0085:0.0000021926)72:0.0000021926)100:0.0628999346,((((H0239:0.0000021926,H0298:0.0000021926)67:0.0000021926,H0308:0.0029653620)88:0.0099054162,H0321:0.0160525045)88:0.0263954626,H0320:0.0042358377)99:0.0477288743)82:0.0274968985)46:0.0000023192,(((H0064:0.0000021926,(H0112:0.0031556391,(H0288:0.0199722291,H0305:0.1088035855)100:0.0100907180)100:0.0075099599)84:0.0000021926,H0065:0.0000021926)100:0.0932322665,H0111:0.1098838337)95:0.0565153246)65:0.0216446502)35:0.0000026505)47:0.0258144460)19:0.0000028510,((((((H0016:0.0000021926,(H0207:0.0000021926,H0299:0.0000021926)90:0.0000021926)94:0.0000021926,H0330:0.0032450081)100:0.0144928628,(H0071:0.0000025759,H0080:0.0000021926)100:0.0048338108)100:0.0561877648,(H0076:0.0513594230,(H0086:0.0000021926,H0087:0.0000021926)100:0.1251109156)88:0.0210651617)77:0.0172066407,H0290:0.1161149387)78:0.0134146696,(((((((((H0019:0.0000021926,((((((H0020:0.0028147452,H0126:0.0000021926)36:0.0004862183,H0264:0.0035180700)28:0.0000021926,(H0124:0.0039564286,H0127:0.0027741263)32:0.0007484384)40:0.0000021926,H0128:0.0000021926)56:0.0000021926,H0266:0.0000021926)63:0.0000021926,H0129:0.0000021926)57:0.0000021926)38:0.0000021926,H0035:0.0000021926)27:0.0000021926,H0122:0.0068710878)48:0.0000021926,H0123:0.0000021926)36:0.0000021926,H0034:0.0000021926)33:0.0000021926,H0125:0.0000021926)39:0.0000021926,H0265:0.0035498983)85:0.0000021926,(H0044:0.0000021926,((H0188:0.0000021926,H0287:0.0070209950)91:0.0000021926,H0339:0.0032972302)74:0.0000021926)85:0.0000021926)95:0.0176417462,(H0117:0.0000021926,(((H0118:0.0000021926,H0311:0.0000021926)50:0.0000021926,H0263:0.0000021926)47:0.0000021926,((((H0119:0.0000021926,H0120:0.0000021926)97:0.0000021926,H0262:0.0000021926)93:0.0000021926,H0121:0.0000021926)94:0.0000021926,(H0187:0.0000021926,H0268:0.0000021926)100:0.0032935795)100:0.0032724962)47:0.0000022009)98:0.0101435748)91:0.0391264859)77:0.0122543275)64:0.0146085898,(((((((H0037:0.0102568245,(H0038:0.0032328684,H0039:0.0000021926)97:0.0066041900)49:0.0000021926,H0045:0.0285231118)82:0.0065578665,H0297:0.0000021926)76:0.0024711197,(H0317:0.0042865428,(H0318:0.0053297989,H0361:0.0214833042)99:0.0064887439)100:0.0126796372)77:0.0032689391,H0319:0.0153903810)89:0.0043506502,H0243:0.0000022009)100:0.0547580878,H0090:0.0556413639)54:0.0073612597)72:0.0043733989,(H0413:0.0487323007,H0415:0.0506060833)99:0.0547391618)87:0.0181725219,((((((((((((((H0032:0.0000021926,((((((((((((((((((H0047:0.0244493238,H0251:0.0000021926)99:0.0031950506,H0252:0.0034610065)96:0.0033952674,((H0246:0.0033224490,H0250:0.0000021926)13:0.0000021926,((H0248:0.0066025499,H0254:0.0099090689)29:0.0000021926,H0249:0.0066044223)12:0.0000021926)11:0.0000021926)96:0.0033074180,(H0147:0.0000021926,H0354:0.0000021926)100:0.0033074250)51:0.0000021926,H0355:0.0000021926)21:0.0000021926,H0197:0.0000021926)21:0.0000021926,(H0175:0.0000021926,H0199:0.0033089977)22:0.0000021926)23:0.0000021926,(H0247:0.0000021926,H0253:0.0100852787)96:0.0033083226)99:0.0033142974,(H0183:0.0000021926,H0198:0.0000021926)78:0.0000021926)96:0.0032882995,H0260:0.0000021926)92:0.0032604277,H0200:0.0032563386)13:0.0000021926,((((((((H0140:0.0000021926,(((H0202:0.0000021926,H0340:0.0000021926)100:0.0032558775,H0203:0.0032612857)50:0.0000021926,H0342:0.0000021926)23:0.0000021926)28:0.0000021926,H0176:0.0000021926)45:0.0000021926,H0146:0.0032710032)81:0.0028888892,H0185:0.0000021926)44:0.0003600893,H0231:0.0000021926)18:0.0000021926,H0180:0.0035548899)49:0.0000021350,H0303:0.0069487544)9:0.0000021926,((H0142:0.0000021926,H0356:0.0000021926)60:0.0000021926,H0186:0.0000021926)100:0.0032546604)8:0.0000021926)5:0.0000021926,H0145:0.0000021926)6:0.0000021926,(((H0177:0.0000021926,H0359:0.0000021926)100:0.0032476372,(((H0242:0.0000021926,H0347:0.0000021926)76:0.0000021926,H0267:0.0033059155)48:0.0000021926,H0259:0.0033079743)97:0.0032814724)35:0.0000021926,(H0201:0.0000021926,H0357:0.0000021926)93:0.0032537178)10:0.0000021926)49:0.0000021926,H0346:0.0033419447)37:0.0000021926,H0358:0.0000021926)32:0.0000021926,H0341:0.0033527262)86:0.0049344199,(H0058:0.0173831135,(H0172:0.0000021926,(H0230:0.0000021926,(H0284:0.0000021926,H0285:0.0000021926)93:0.0000021926)76:0.0000021926)98:0.0033435849)69:0.0000021594)30:0.0000021926)54:0.0000021926,H0056:0.0000021926)48:0.0000021926,H0291:0.0000021926)43:0.0000021926,H0033:0.0033812007)53:0.0000021926,H0171:0.0000021926)74:0.0000021926,H0173:0.0000021926)37:0.0000021926,H0061:0.0000021926)76:0.0000021926,H0067:0.0000021926)78:0.0000021926,H0170:0.0000021926)75:0.0000021926,H0057:0.0000021926)58:0.0000021926,H0063:0.0000021926)35:0.0000021926,H0055:0.0035557782)47:0.0000021926,H0283:0.0118572924)90:0.0049697234,(H0048:0.0000021926,H0049:0.0000021926)73:0.0000021926)99:0.0492814467)54:0.0117578095,(((((((((((((((((((((((H0040:0.0028479920,H0409:0.0000021926)58:0.0002387469,H0041:0.0000021926)80:0.0000021926,(H0387:0.0000021926,(((H0392:0.0000021926,H0404:0.0000021926)98:0.0000021926,H0398:0.0000021926)97:0.0000021926,H0399:0.0000021926)99:0.0031078857)64:0.0000021926)82:0.0000021926,H0240:0.0000021926)45:0.0000021926,H0241:0.0029991130)36:0.0000021926,(H0261:0.0029761453,H0334:0.0122745355)82:0.0000021926)89:0.0030028122,(H0046:0.0000021926,(H0293:0.0000021926,(H0386:0.0000021926,H0403:0.0000021926)86:0.0000021926)83:0.0000021926)88:0.0030299421)29:0.0000021926,(H0331:0.0029849483,(((H0388:0.0000021926,H0389:0.0000021926)91:0.0000021926,H0395:0.0000021926)92:0.0000021926,H0408:0.0000021926)99:0.0062269634)43:0.0000021926)14:0.0000021926,H0332:0.0000021926)15:0.0000021926,((H0335:0.0029724770,H0391:0.0000021926)97:0.0090767261,H0394:0.0123080620)56:0.0000021926)78:0.0029004292,H0132:0.0000021926)29:0.0001108064,H0397:0.0000021926)21:0.0000021926,H0393:0.0000021926)28:0.0000021926,H0364:0.0000021926)74:0.0000021926,((H0131:0.0000021926,H0136:0.0000021926)72:0.0000021926,H0135:0.0000021926)71:0.0000021926)83:0.0030537859,H0337:0.0000021926)46:0.0000021926,((H0130:0.0000021926,H0134:0.0000021926)93:0.0000021926,H0133:0.0000021926)97:0.0031783741)41:0.0000021926,H0390:0.0000021926)66:0.0000022199,H0416:0.0000021926)80:0.0035640609,H0396:0.0000021926)88:0.0228573611,(H0323:0.0081887451,H0324:0.0150767879)100:0.0190328349)50:0.0064654382,((H0322:0.0039870748,(((H0325:0.0000021926,(((H0333:0.0000021926,H0336:0.0031833354)99:0.0000026070,H0405:0.0000021926)100:0.0030713840,H0338:0.0097139428)100:0.0134755810)97:0.0007697046,H0400:0.0031304854)97:0.0061046621,H0326:0.0000021926)97:0.0093399670)98:0.0097056392,H0401:0.0338909189)94:0.0101012325)76:0.0131156379,H0179:0.0794774692)72:0.0140508106)89:0.0214426578,(((((((((((((H0036:0.0000021926,H0269:0.0000021926)97:0.0000021926,H0294:0.0000021926)95:0.0000021926,H0194:0.0000021926)85:0.0000021926,H0307:0.0032496239)99:0.0032549309,((((H0178:0.0000021926,H0181:0.0035875148)87:0.0000021926,H0191:0.0000021926)81:0.0000021926,H0272:0.0000021926)81:0.0000021926,H0352:0.0032291185)95:0.0032542657)40:0.0000021926,(H0184:0.0000021926,H0244:0.0029076814)69:0.0003506388)10:0.0000021926,(H0143:0.0000021926,(((((H0277:0.0034624324,H0353:0.0027204767)64:0.0005384074,H0281:0.0000021926)85:0.0000021926,H0349:0.0032667244)18:0.0000021926,((H0278:0.0034339406,H0350:0.0032751581)98:0.0032751775,H0351:0.0032659062)45:0.0000021926)28:0.0000021926,H0343:0.0000021926)33:0.0000021926)15:0.0000021926)7:0.0000021926,(((H0144:0.0000021926,(H0344:0.0000021926,H0345:0.0032312147)78:0.0000021926)87:0.0000028541,H0273:0.0000021926)100:0.0033641759,(H0193:0.0000021926,H0275:0.0000021926)99:0.0031589203)99:0.0033326747)23:0.0000021926,(H0192:0.0000021926,(H0270:0.0034539018,H0271:0.0000021926)97:0.0000021926)100:0.0032589951)73:0.0000020187,((H0195:0.0000021926,H0348:0.0000021926)98:0.0000021926,H0276:0.0000021926)100:0.0065588493)100:0.0032918954,(H0279:0.0034379884,H0280:0.0000021926)84:0.0000021926)98:0.0066122233,H0316:0.0132590779)94:0.0035300329,(H0196:0.0000021926,H0274:0.0000021926)99:0.0034122995)100:0.0266120187)94:0.0236583439,H0255:0.0000021286)94:0.0235883728,(H0115:0.0000020314,((H0208:0.0000021926,(H0375:0.0111946741,H0377:0.0000021926)80:0.0109589777)80:0.0034809503,H0219:0.0000021926)100:0.0297967349)86:0.0096784462)37:0.0000022009,H0026:0.0032066093)31:0.0000021926)77:0.0035751204,((((H0029:0.0000021926,((H0078:0.0000021926,H0079:0.0037827792)84:0.0000021926,(((H0150:0.0035528665,H0151:0.0071937543)69:0.0000021926,H0152:0.0000021926)70:0.0000021926,H0370:0.0000021926)65:0.0000021926)72:0.0028756645)32:0.0004951047,H0030:0.0000021926)36:0.0000021926,(((((((((((((((((H0043:0.0000021926,H0315:0.0000021926)100:0.0029493004,H0385:0.0000021926)30:0.0002038112,H0153:0.0034920685)14:0.0000021926,H0075:0.0000021926)12:0.0000021926,H0158:0.0152467640)6:0.0000021926,H0077:0.0000021926)9:0.0000021926,H0074:0.0000021926)7:0.0000021926,H0216:0.0000021926)13:0.0000021926,H0369:0.0000021926)16:0.0000021926,H0148:0.0000021926)13:0.0000021926,H0406:0.0000021926)11:0.0000021926,H0149:0.0073585785)39:0.0000021926,(H0054:0.0000021926,(H0116:0.0031513343,H0306:0.0096152356)43:0.0000021926)20:0.0000021926)36:0.0029772575,H0296:0.0000021926)41:0.0001701520,H0155:0.0034909779)38:0.0000021926,H0154:0.0034913606)70:0.0000021926,(H0215:0.0000021926,H0225:0.0000021926)99:0.0031539153)30:0.0000021926)71:0.0030844168,(((H0053:0.0000021926,H0383:0.0000021926)87:0.0031607781,(H0141:0.0031621223,(H0163:0.0000021926,H0372:0.0000021926)38:0.0000021926)27:0.0000021926)42:0.0031637435,(H0209:0.0035199595,H0220:0.0000021926)25:0.0000021926)55:0.0031414142)85:0.0061963140)79:0.0132509194,(((H0007:0.0000021926,H0376:0.0106899268)100:0.0031582700,H0014:0.0000021926)98:0.0031630646,H0410:0.0000021926)46:0.0000021926)47:0.0000021926,H0379:0.0000021926)42:0.0000021740,H0378:0.0069536179)48:0.0031355241,(((H0245:0.0000021926,H0295:0.0000021926)88:0.0000021926,((H0367:0.0000021926,H0407:0.0000021926)94:0.0000021926,H0384:0.0000021926)94:0.0000021926)97:0.0064849266,H0366:0.0064313579)97:0.0033007425)75:0.0050467024,H0025:0.0398665497)82:0.0116594199,((((H0011:0.0000021926,H0371:0.0069504607)98:0.0032331092,(((H0023:0.0032899456,H0373:0.0000021926)83:0.0032640586,(H0024:0.0000021926,(((H0157:0.0076323340,H0205:0.2060341593)90:0.0023232843,H0292:0.0000021926)53:0.0000021832,H0159:0.0000021926)39:0.0000021926)17:0.0000021926)34:0.0000021926,H0162:0.0000021926)39:0.0000021926)86:0.0028860399,((H0217:0.0000021926,(H0218:0.0000021926,H0224:0.0000021926)100:0.0031626070)92:0.0033148895,H0314:0.0097930339)74:0.0034055534)94:0.0035632473,(((((H0015:0.0000021926,(H0286:0.0036300477,H0381:0.0000021926)97:0.0000021926)97:0.0029271999,H0226:0.0000021926)67:0.0002227845,H0137:0.0000021926)90:0.0000254375,((H0212:0.0000021926,H0214:0.0000021926)92:0.0000021926,(H0221:0.0000021926,H0223:0.0000021926)100:0.0031247773)94:0.0063389965)99:0.0100165192,((((H0094:0.0082782935,(H0095:0.0000021926,((((H0105:0.0000021926,H0109:0.0000021926)98:0.0028941763,H0106:0.0000021926)40:0.0001895292,H0302:0.0000021926)23:0.0000021926,(H0108:0.0000021926,((H0256:0.0000021926,(H0257:0.0035773310,H0374:0.0000021926)98:0.0000021926)99:0.0031101526,H0258:0.0031101511)10:0.0000021926)11:0.0000021926)22:0.0028272611)49:0.0002308832)47:0.0000027013,((H0210:0.0000021926,(H0213:0.0030565902,H0222:0.0000021926)86:0.0030565938)83:0.0000021926,H0211:0.0034465128)96:0.0092665734)42:0.0000021926,H0107:0.0000021926)84:0.0030488054,H0110:0.0000021926)100:0.0126995638)96:0.0033578895)78:0.0000028136)91:0.0112709224,(H0010:0.0266075743,H0189:0.0365456821)95:0.0158233478)98:0.0095499571,(H0102:0.0000021926,H0104:0.0000021926)100:0.0140995456)99:0.0228479556,H0092:0.0000021926)90:0.0037517515,H0093:0.0042748112)90:0.0128413866,(((((H0091:0.0000021926,H0138:0.0028772219)47:0.0005856285,H0096:0.0039631115)33:0.0000021926,(H0097:0.0079285587,H0098:0.0000021926)96:0.0039590244)39:0.0000021926,(H0099:0.0254195807,H0100:0.0038941298)83:0.0040430986)30:0.0000021926,H0101:0.0252571516)67:0.0000025774)57:0.0000021926,H0236:0.0031503706)18:0.0000021926,((((((((((H0004:0.0000021926,(H0022:0.0031254881,H0190:0.0000021926)98:0.0000025040)100:0.0030990509,(H0228:0.0000021926,(H0235:0.0000021926,H0380:0.0000021926)100:0.0000021926)98:0.0000021926)100:0.0030989991,H0204:0.0031286865)47:0.0000021926,H0238:0.0031251519)44:0.0000021926,H0237:0.0000021926)44:0.0000021926,H0365:0.0033116179)98:0.0031244424,(H0009:0.0000021926,H0233:0.0031295845)98:0.0000021926)98:0.0031386321,H0411:0.0098209071)71:0.0000021926,((H0013:0.0031828270,(H0234:0.0000021926,(H0312:0.0000021926,H0368:0.0000021926)100:0.0000021926)99:0.0000021926)100:0.0031739987,((H0156:0.0000021926,(H0161:0.0000021926,H0382:0.0035124665)96:0.0000021926)97:0.0000021926,H0160:0.0000021926)98:0.0031601027)72:0.0000021926)91:0.0031695125,H0008:0.0031584092)36:0.0000021926)36:0.0000021926,((H0021:0.0031814978,((H0050:0.0077624569,H0051:0.0000021926)86:0.0000021926,H0362:0.0000021926)77:0.0000021926)39:0.0000021926,H0282:0.0000021926)41:0.0000021926);
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct 29 22:21:38 2026
+Total CPU time used: 1831.782734 seconds (0h:30m:31s)
+Total wall-clock time used: 983.7749617 seconds (0h:16m:23s)
+
