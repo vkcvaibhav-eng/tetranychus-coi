@@ -27,15 +27,27 @@ def main():
     acc = sys.argv[1]
     expected = sys.argv[2] if len(sys.argv) > 2 else None
 
-    Entrez.email = os.environ.get("NCBI_EMAIL") or sys.exit("Set NCBI_EMAIL")
-    if os.environ.get("NCBI_API_KEY"):
-        Entrez.api_key = os.environ["NCBI_API_KEY"]
+    email = (os.environ.get("NCBI_EMAIL") or "").strip()
+    if not email:
+        sys.exit("ERROR: the NCBI_EMAIL secret is empty or missing.")
+    Entrez.email = email
+    api_key = (os.environ.get("NCBI_API_KEY") or "").strip()
 
     os.makedirs(OUT_DIR, exist_ok=True)
     gb_path = os.path.join(OUT_DIR, f"{acc}.gb")
-    with Entrez.efetch(db="nuccore", id=acc, rettype="gb", retmode="text") as h, \
-            open(gb_path, "w") as out:
-        out.write(h.read())
+    text = None
+    for key_value in ([api_key, None] if api_key else [None]):
+        Entrez.api_key = key_value
+        try:
+            with Entrez.efetch(db="nuccore", id=acc, rettype="gb", retmode="text") as h:
+                text = h.read()
+            break
+        except Exception as err:
+            print(f"NCBI fetch failed ({'with' if key_value else 'without'} API key): {err}")
+    if not text:
+        sys.exit("ERROR: could not download the reference record.")
+    with open(gb_path, "w") as out:
+        out.write(text)
 
     rec = SeqIO.read(gb_path, "genbank")
     organism = rec.annotations.get("organism", "")

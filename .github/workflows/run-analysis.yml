@@ -23,31 +23,40 @@ jobs:
   analyse:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install packages
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          mkdir -p results/logs
 
       - name: Fetch reference COX1
         env:
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-        run: python scripts/fetch_reference.py "${{ github.event.inputs.reference_accession }}" "${{ github.event.inputs.reference_organism }}"
+        run: |
+          set -o pipefail
+          python scripts/fetch_reference.py "${{ github.event.inputs.reference_accession }}" "${{ github.event.inputs.reference_organism }}" 2>&1 | tee results/logs/reference.log
 
       - name: Merge records and remove duplicates
-        run: python scripts/merge_records.py
+        run: |
+          set -o pipefail
+          python scripts/merge_records.py 2>&1 | tee results/logs/merge.log
 
       - name: Sequence quality check
-        run: python scripts/sequence_qc.py --min-identity "${{ github.event.inputs.min_identity }}"
+        run: |
+          set -o pipefail
+          python scripts/sequence_qc.py --min-identity "${{ github.event.inputs.min_identity }}" 2>&1 | tee results/logs/qc.log
 
       - name: Save results to the repository
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/reference results/
+          git add -A data results
           git commit -m "Analysis results (reference ${{ github.event.inputs.reference_accession }})" || echo "Nothing new to commit"
           git push

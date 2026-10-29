@@ -17,15 +17,37 @@ def main():
         sys.exit('Usage: python fetch_ncbi.py "<query>" <output_name>')
     query, name = sys.argv[1], sys.argv[2]
 
-    Entrez.email = os.environ.get("NCBI_EMAIL") or sys.exit("Set NCBI_EMAIL")
-    api_key = os.environ.get("NCBI_API_KEY")
-    if api_key:
-        Entrez.api_key = api_key
-    pause = 0.12 if api_key else 0.4
+    email = (os.environ.get("NCBI_EMAIL") or "").strip()
+    if not email:
+        sys.exit("ERROR: the NCBI_EMAIL secret is empty or missing. "
+                 "Add it under Settings > Secrets and variables > Actions.")
+    Entrez.email = email
+    api_key = (os.environ.get("NCBI_API_KEY") or "").strip()
+    print(f"Email set: yes. API key set: {'yes' if api_key else 'no'}")
 
-    handle = Entrez.esearch(db="nuccore", term=query, usehistory="y", retmax=0)
-    result = Entrez.read(handle)
-    handle.close()
+    result = None
+    for key_value in ([api_key, None] if api_key else [None]):
+        Entrez.api_key = key_value
+        try:
+            handle = Entrez.esearch(db="nuccore", term=query, usehistory="y", retmax=0)
+            result = Entrez.read(handle)
+            handle.close()
+            break
+        except Exception as err:
+            body = ""
+            if hasattr(err, "read"):
+                try:
+                    body = err.read().decode("utf-8", "replace")[:300]
+                except Exception:
+                    pass
+            print(f"NCBI search failed ({'with' if key_value else 'without'} API key): {err} {body}")
+            if key_value:
+                print("Retrying without the API key. Check that NCBI_API_KEY was pasted "
+                      "correctly, with no spaces.")
+    if result is None:
+        sys.exit("ERROR: NCBI search failed. See messages above.")
+    api_key = Entrez.api_key
+    pause = 0.12 if api_key else 0.4
     count = int(result["Count"])
     webenv, key = result["WebEnv"], result["QueryKey"]
     print(f"{count} records found for: {query}")

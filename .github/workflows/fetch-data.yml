@@ -32,38 +32,74 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install packages
-        run: pip install biopython rasterio
+        run: |
+          pip install -r requirements.txt
+          mkdir -p data/logs
 
       - name: Download from NCBI
+        id: ncbi
         if: ${{ contains(fromJSON('["all","ncbi"]'), github.event.inputs.source) }}
+        continue-on-error: true
         env:
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-        run: python scripts/fetch_ncbi.py "${{ github.event.inputs.ncbi_query }}" "ncbi_${{ github.event.inputs.name }}"
+        run: |
+          set -o pipefail
+          python scripts/fetch_ncbi.py "${{ github.event.inputs.ncbi_query }}" "ncbi_${{ github.event.inputs.name }}" 2>&1 | tee data/logs/ncbi.log
 
       - name: Download from BOLD
+        id: bold
         if: ${{ contains(fromJSON('["all","bold"]'), github.event.inputs.source) }}
-        run: python scripts/fetch_bold.py "${{ github.event.inputs.taxon }}" "bold_${{ github.event.inputs.name }}"
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python scripts/fetch_bold.py "${{ github.event.inputs.taxon }}" "bold_${{ github.event.inputs.name }}" 2>&1 | tee data/logs/bold.log
 
       - name: Download from GBIF
+        id: gbif
         if: ${{ contains(fromJSON('["all","gbif"]'), github.event.inputs.source) }}
-        run: python scripts/fetch_gbif.py "${{ github.event.inputs.taxon }}" "gbif_${{ github.event.inputs.name }}"
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python scripts/fetch_gbif.py "${{ github.event.inputs.taxon }}" "gbif_${{ github.event.inputs.name }}" 2>&1 | tee data/logs/gbif.log
 
       - name: Extract WorldClim climate at all record locations
-        run: python scripts/climate_extract.py "${{ github.event.inputs.climate_resolution }}"
-
-      - name: Save files to the repository
+        id: climate
+        continue-on-error: true
         run: |
+          set -o pipefail
+          python scripts/climate_extract.py "${{ github.event.inputs.climate_resolution }}" 2>&1 | tee data/logs/climate.log
+
+      - name: Save files and logs to the repository
+        if: always()
+        run: |
+          {
+            echo "Run: ${{ github.run_id }} ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            echo "NCBI: ${{ steps.ncbi.outcome }}"
+            echo "BOLD: ${{ steps.bold.outcome }}"
+            echo "GBIF: ${{ steps.gbif.outcome }}"
+            echo "Climate: ${{ steps.climate.outcome }}"
+          } > data/logs/last_run.txt
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git commit -m "Add data download: ${{ github.event.inputs.name }} (${{ github.event.inputs.source }})" || echo "Nothing new to commit"
+          git commit -m "Data download: ${{ github.event.inputs.name }} (${{ github.event.inputs.source }})" || echo "Nothing new to commit"
           git push
+
+      - name: Report failures
+        if: ${{ steps.ncbi.outcome == 'failure' || steps.bold.outcome == 'failure' || steps.gbif.outcome == 'failure' || steps.climate.outcome == 'failure' }}
+        run: |
+          cat data/logs/last_run.txt
+          echo "One or more steps failed; see data/logs/ in the repository."
+          exit 1
