@@ -338,3 +338,20 @@ def test_its2_pairs(tmp_path):
     assert pairs["smith:cx000001"]["genes_agree"] == "no"
     assert pairs["smith:cx000001"]["coi_cluster_dominant"] == "Tetranychus truncatus"
     assert pairs["smith:cx000001"]["its2_nearest_species"] == "Tetranychus urticae"
+
+
+def test_trends(tmp_path):
+    build_dataset(tmp_path)
+    run("merge_records.py", "data", "results/genus", cwd=tmp_path)
+    run("sequence_qc.py", "--results", "results/genus", cwd=tmp_path)
+    run("trends.py", "--min-country", "1", cwd=tmp_path)
+    with open(tmp_path / "results/trends/by_country.csv", newline="") as f:
+        countries = {r["country"]: r for r in csv.DictReader(f)}
+    # GenBank "India: Gujarat" and BOLD-only records are both counted.
+    assert int(countries["India"]["records"]) >= 8
+    assert "Spain" in countries
+    with open(tmp_path / "results/trends/by_year.csv", newline="") as f:
+        years = list(csv.DictReader(f))
+    # The published record has no "Direct Submission" date and the BOLD test rows
+    # carry no upload date, so 7 of the 10 records get a submission year.
+    assert sum(int(y["records"]) for y in years) == 7

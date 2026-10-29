@@ -87,6 +87,11 @@ jobs:
           set -o pipefail
           python scripts/identification_test.py 2>&1 | tee results/logs/identification.log
 
+      - name: Trends by submission year and country
+        run: |
+          set -o pipefail
+          python scripts/trends.py 2>&1 | tee results/logs/trends.log
+
       - name: ITS2 check (when ITS2 data are present)
         run: |
           set -o pipefail

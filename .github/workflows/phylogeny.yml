@@ -1,0 +1,55 @@
+name: Phylogeny
+
+on:
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: "Ultrafast bootstrap replicates"
+        required: true
+        default: "1000"
+      min_cover:
+        description: "Minimum fraction of the region window a sequence must cover"
+        required: true
+        default: "0.8"
+
+permissions:
+  contents: write
+
+jobs:
+  tree:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    defaults:
+      run:
+        shell: bash
+    env:
+      BOOT: ${{ inputs.bootstrap }}
+      COVER: ${{ inputs.min_cover }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install packages and programs
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -q
+          sudo apt-get install -y -q mafft iqtree
+          mkdir -p results/logs
+
+      - name: Alignment and maximum-likelihood trees
+        run: |
+          set -o pipefail
+          python scripts/phylogeny.py --bootstrap "$BOOT" --min-cover "$COVER" 2>&1 | tee results/logs/phylogeny.log
+
+      - name: Save results to the repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A results/phylogeny results/logs
+          git commit -m "Phylogeny results ($BOOT ultrafast bootstraps)" || echo "Nothing new to commit"
+          git pull --rebase -q
+          git push
