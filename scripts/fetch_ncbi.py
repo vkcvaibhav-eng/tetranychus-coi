@@ -1,6 +1,8 @@
 """Download nucleotide records from NCBI GenBank as FASTA and GenBank (full) files.
 
-Usage: python fetch_ncbi.py "<NCBI query>" <output_name>
+Usage: python fetch_ncbi.py "<NCBI query>" <output_name> [output_dir]
+output_dir defaults to data; use a subfolder (e.g. data/its2) for non-COI markers
+so the COI merge step does not read them.
 Needs NCBI_EMAIL in the environment; NCBI_API_KEY is optional (raises the rate limit).
 """
 import os
@@ -13,9 +15,10 @@ BATCH = 500
 
 
 def main():
-    if len(sys.argv) != 3:
-        sys.exit('Usage: python fetch_ncbi.py "<query>" <output_name>')
+    if len(sys.argv) not in (3, 4):
+        sys.exit('Usage: python fetch_ncbi.py "<query>" <output_name> [output_dir]')
     query, name = sys.argv[1], sys.argv[2]
+    out_dir = sys.argv[3] if len(sys.argv) == 4 else "data"
 
     email = (os.environ.get("NCBI_EMAIL") or "").strip()
     if not email:
@@ -54,9 +57,9 @@ def main():
     if count == 0:
         return
 
-    os.makedirs("data", exist_ok=True)
+    os.makedirs(out_dir, exist_ok=True)
     for rettype, ext in (("fasta", "fasta"), ("gb", "gb")):
-        path = os.path.join("data", f"{name}.{ext}")
+        path = os.path.join(out_dir, f"{name}.{ext}")
         with open(path, "w") as out:
             for start in range(0, count, BATCH):
                 for attempt in range(3):
@@ -76,7 +79,7 @@ def main():
                 time.sleep(pause)
         print(f"Saved {path}")
 
-    with open(os.path.join("data", f"{name}_query.txt"), "w") as f:
+    with open(os.path.join(out_dir, f"{name}_query.txt"), "w") as f:
         f.write(f"Query: {query}\nRecords: {count}\nDownloaded: {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}\n")
 
 

@@ -20,6 +20,10 @@ on:
         description: "Output file name (no extension)"
         required: true
         default: "tetranychus_urticae"
+      ncbi_out_dir:
+        description: "Folder for NCBI files (use data/its2 for ITS2 or other non-COI markers)"
+        required: true
+        default: "data"
       climate_resolution:
         description: "WorldClim resolution"
         type: choice
@@ -56,9 +60,10 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           QUERY: ${{ inputs.ncbi_query }}
           NAME: ${{ inputs.name }}
+          OUT_DIR: ${{ inputs.ncbi_out_dir }}
         run: |
           set -o pipefail
-          python scripts/fetch_ncbi.py "$QUERY" "ncbi_$NAME" 2>&1 | tee data/logs/ncbi.log
+          python scripts/fetch_ncbi.py "$QUERY" "ncbi_$NAME" "$OUT_DIR" 2>&1 | tee data/logs/ncbi.log
 
       - name: Download from BOLD
         id: bold
