@@ -6,9 +6,10 @@ collapsed to unique haplotypes, aligned with MAFFT and analysed with IQ-TREE
 (maximum likelihood, ultrafast bootstrap). The tree is midpoint-rooted and
 checked for:
 
-- monophyly of each species name (after published synonymies), with the
-  bootstrap support of its clade and the number of separate clades
-  ("fragments") its haplotypes fall into;
+- for each species name (after published synonymies): the largest clade
+  holding only that species (unnamed tips allowed), the share of the
+  species' records inside it, its bootstrap support, and the number of
+  other places its records fall;
 - the same for anchor specimens only (morphologically identified).
 
 Requires the mafft and iqtree2 (or iqtree) programs.
@@ -51,14 +52,14 @@ def region_window(qc_rows, half):
     return starts[len(starts) // 2], ends[len(ends) // 2]
 
 
-def fragments(clade, is_member):
-    """Number of maximal clades whose tips are all members."""
+def pure_clades(clade, member, neutral):
+    """Maximal clades whose tips are all members or neutral, with at least one member."""
     tips = clade.get_terminals()
-    if all(is_member(t.name) for t in tips):
-        return 1
+    if all(member(t.name) or neutral(t.name) for t in tips):
+        return [clade] if any(member(t.name) for t in tips) else []
     if clade.is_terminal():
-        return 0
-    return sum(fragments(c, is_member) for c in clade.clades)
+        return []
+    return [c for child in clade.clades for c in pure_clades(child, member, neutral)]
 
 
 def support(node):
@@ -163,19 +164,30 @@ def main():
         for label, tipnames in (("all records", names), ("anchors only", anchors_in)):
             species = sorted({n for c in tipnames.values() for n in c if n})
             for sp in species:
-                member_tips = [t for t in tree.get_terminals() if tipnames[t.name].get(sp)]
-                if len(member_tips) < 2:
+                def member(t, sp=sp, tipnames=tipnames):
+                    return bool(tipnames[t].get(sp))
+
+                def neutral(t, tipnames=tipnames):
+                    # Unnamed tips (all records) or tips without anchors (anchors only)
+                    # do not contradict a species.
+                    return not any(n for n in tipnames[t])
+
+                total = sum(c.get(sp, 0) for c in tipnames.values())
+                n_haps = sum(1 for c in tipnames.values() if c.get(sp))
+                if n_haps < 2:
                     continue
-                mrca = tree.common_ancestor(member_tips)
-                clade_tips = mrca.get_terminals()
-                mono = all(tipnames[t.name].get(sp) for t in clade_tips)
-                n_frag = fragments(tree.root, lambda n: bool(tipnames[n].get(sp))) if not mono else 1
-                others = Counter(o for t in clade_tips for o in names[t.name] if o and o != sp)
+                clades = pure_clades(tree.root, member, neutral)
+                sized = sorted(((sum(tipnames[t.name].get(sp, 0) for t in c.get_terminals()), c)
+                                for c in clades), key=lambda x: -x[0])
+                main_n, main = sized[0]
+                sup = support(main) if not main.is_terminal() else None
                 mono_rows.append({"region": half, "basis": label, "species": sp,
-                                  "haplotypes": len(member_tips), "monophyletic": "yes" if mono else "no",
-                                  "clade_support": "" if not mono or support(mrca) is None else f"{support(mrca):.0f}",
-                                  "fragments": n_frag,
-                                  "other_names_in_mrca_clade": "; ".join(f"{o} ({k})" for o, k in others.most_common(5))})
+                                  "records": total, "haplotypes": n_haps,
+                                  "monophyletic": "yes" if len(sized) == 1 else "no",
+                                  "clades": len(sized),
+                                  "main_clade_share_pct": f"{100 * main_n / total:.1f}",
+                                  "main_clade_support": "" if sup is None else f"{sup:.0f}",
+                                  "records_outside_main": total - main_n})
 
     with open(os.path.join(args.out, "monophyly.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(mono_rows[0].keys()) if mono_rows else ["region"])
@@ -188,12 +200,13 @@ def main():
             if not rs:
                 continue
             lines.append(f"{half}, {basis}: {sum(r['monophyletic'] == 'yes' for r in rs)} of {len(rs)} "
-                         f"species monophyletic")
-            for r in sorted(rs, key=lambda r: -r["haplotypes"])[:14]:
-                extra = f"support {r['clade_support']}" if r["monophyletic"] == "yes" else \
-                    f"{r['fragments']} fragments; MRCA also holds {r['other_names_in_mrca_clade'] or '-'}"
-                lines.append(f"  {r['species']} ({r['haplotypes']} haplotypes): "
-                             f"{'monophyletic' if r['monophyletic'] == 'yes' else 'not monophyletic'}, {extra}")
+                         f"species monophyletic (unnamed tips allowed)")
+            for r in sorted(rs, key=lambda r: -r["records"])[:14]:
+                lines.append(f"  {r['species']} ({r['records']} records, {r['haplotypes']} haplotypes): "
+                             f"main clade {r['main_clade_share_pct']}% of records"
+                             + (f", support {r['main_clade_support']}" if r["main_clade_support"] else "")
+                             + ("" if r["monophyletic"] == "yes" else
+                                f"; {r['records_outside_main']} records in {r['clades'] - 1} other place(s)"))
     summary = "\n".join(lines)
     with open(os.path.join(args.out, "phylogeny_summary.txt"), "w") as f:
         f.write(summary + "\n")
