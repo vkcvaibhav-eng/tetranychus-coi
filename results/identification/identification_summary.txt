@@ -1,0 +1,39 @@
+Queries: 108 anchor records from 9 studies (leave-one-study-out; closest match within K2P 0.03)
+Database size: raw about 2156, cleaned about 1473 records
+Raw database:     correct 76 (70.4%), wrong 21 (19.4%), ambiguous 6 (5.6%), no match 5 (4.6%)
+Cleaned database: correct 81 (75.0%), wrong 24 (22.2%), ambiguous 1 (0.9%), no match 2 (1.9%)
+Excluding T. turkestani (not separable from T. urticae by COI):
+  Raw:     correct 74 (77.1%), wrong 11 (11.5%), ambiguous 6 (6.2%), no match 5 (5.2%)
+  Cleaned: correct 79 (82.3%), wrong 14 (14.6%), ambiguous 1 (1.0%), no match 2 (2.1%)
+By study (raw correct -> cleaned correct, of queries):
+  abdolahadi2026 [B]: 9 -> 9 of 9
+  chen2014 [B]: 6 -> 7 of 7
+  gotoh2009 [B]: 3 -> 4 of 4
+  inak2022 [A]: 2 -> 2 of 7
+  li2010 [B]: 2 -> 1 of 7
+  matsuda2013 [A]: 28 -> 32 of 43
+  mendonca2011 [A]: 18 -> 18 of 18
+  navajas_boursot2003 [B]: 7 -> 7 of 12
+  srinivasa2012 [A]: 1 -> 1 of 1
+By species (raw correct -> cleaned correct, of queries):
+  Tetranychus urticae: 44 -> 42 of 47
+  Tetranychus turkestani: 2 -> 2 of 12
+  Tetranychus kanzawai: 7 -> 9 of 10
+  Tetranychus evansi: 5 -> 6 of 6
+  Tetranychus parakanzawai: 0 -> 0 of 6
+  Tetranychus ludeni: 4 -> 4 of 4
+  Tetranychus pueraricola: 1 -> 4 of 4
+  Tetranychus truncatus: 3 -> 4 of 4
+  Tetranychus phaselus: 3 -> 3 of 3
+  Tetranychus neocaledonicus: 3 -> 3 of 3
+  Tetranychus piercei: 3 -> 3 of 3
+  Tetranychus ezoensis: 0 -> 0 of 2
+  Tetranychus okinawanus: 0 -> 0 of 2
+  Tetranychus malaysiensis: 1 -> 1 of 1
+  Tetranychus misumaiensis: 0 -> 0 of 1
+Changes from raw to cleaned:
+  ambiguous -> correct: 3
+  no match -> correct: 3
+  ambiguous -> wrong: 2
+  correct -> wrong: 2
+  wrong -> correct: 1
