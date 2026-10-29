@@ -77,6 +77,12 @@ jobs:
           set -o pipefail
           python scripts/species_analysis.py --results results/genus --out results/species --threshold "$THRESHOLD" 2>&1 | tee results/logs/species.log
 
+      - name: Species-level analysis under accepted names
+        run: |
+          set -o pipefail
+          python scripts/species_analysis.py --results results/genus --out results/species_accepted --threshold "$THRESHOLD" --synonyms data/anchors/synonyms.csv 2>&1 | tee results/logs/species_accepted.log
+          python scripts/species_analysis.py --results results/genus --out results/species_accepted_extended --threshold "$THRESHOLD" --synonyms data/anchors/synonyms_extended.csv 2>&1 | tee results/logs/species_accepted_extended.log
+
       - name: Anchor check
         run: |
           set -o pipefail
