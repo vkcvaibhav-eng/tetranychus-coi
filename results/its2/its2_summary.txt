@@ -1,7 +1,7 @@
 ITS2 records: 791; usable: 783; unique: 627
 Single-linkage clusters chain related species; species assignment uses nearest neighbours.
 Extraction: aligned to reference ITS2 539, ITS2 feature 245, not found 7
-Distance: local alignment, min aligned length 150 bp; clusters at 0.015
+Distance: semi-global alignment (free end gaps), min overlap 150 bp; clusters at 0.015
 ITS2 clusters: 49; with more than one species name: 5
   I022 (458): Tetranychus urticae (229); Tetranychus truncatus (107); Tetranychus turkestani (43); Tetranychus kanzawai (21); Tetranychus lombardinii (16); Tetranychus piercei (12); Tetranychus macfarlanei (8); Tetranychus parakanzawai (8); Tetranychus pueraricola (6); Tetranychus ezoensis (3); (unnamed) (2); Tetranychus udaipurensis (2); Tetranychus neocaledonicus (1)
   I033 (102): Tetranychus neocaledonicus (69); Tetranychus udaipurensis (17); Tetranychus puschelii (6); Tetranychus okinawanus (4); Tetranychus truncatus (2); Tetranychus macfarlanei (2); Tetranychus ludeni (1); (unnamed) (1)

@@ -310,7 +310,7 @@ def main():
     lines = [f"ITS2 records: {len(records)}; usable: {len(hap_of)}; unique: {H}",
              "Single-linkage clusters chain related species; species assignment uses nearest neighbours.",
              "Extraction: " + ", ".join(f"{k} {v}" for k, v in Counter(r["extraction"] for r in rows).most_common()),
-             f"Distance: local alignment, min aligned length {args.min_length} bp; clusters at {args.threshold}",
+             f"Distance: semi-global alignment (free end gaps), min overlap {args.min_length} bp; clusters at {args.threshold}",
              f"ITS2 clusters: {len(cl_rows)}; with more than one species name: "
              f"{sum(c['named_species'] > 1 for c in cl_rows)}"]
     for c in cl_rows[:12]:
