@@ -1,7 +1,7 @@
 species,queries,studies,coverage_named,all_correct,all_wrong,all_ambiguous,all_nearest_unnamed,all_no_match,named_correct,named_wrong,named_ambiguous,named_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,conservative_correct,conservative_wrong,conservative_ambiguous,conservative_no_match,wrong_names_named
 Oligonychus punicae,100,3,overlapping record (100),96,0,0,0,4,96,0,0,4,96,0,0,4,96,0,0,4,
 Oligonychus perseae,70,2,overlapping record (70),55,0,0,0,15,55,0,0,15,55,0,0,15,55,0,0,15,
-Oligonychus castaneae,32,2,overlapping record (32),30,0,0,0,2,30,0,0,2,30,0,0,2,30,0,0,2,
+Oligonychus castaneae,30,2,overlapping record (30),30,0,0,0,0,30,0,0,0,30,0,0,0,30,0,0,0,
 Oligonychus neocastaneae,6,2,no record of the species (2); overlapping record (4),4,2,0,0,0,4,2,0,0,4,0,0,2,4,2,0,0,Oligonychus castaneae (2)
 Oligonychus thelytokus,4,1,no overlapping record (4),0,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,
 Oligonychus afrasiaticus,3,1,overlapping record (3),2,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,

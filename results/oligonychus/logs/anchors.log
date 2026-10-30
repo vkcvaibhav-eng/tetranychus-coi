@@ -1,14 +1,14 @@
 Anchor studies: 12 (levels used for decisions: AB)
 Synonymies applied: none
-Anchor accessions (levels AB): 253; found in data: 253; passed QC and clustered: 251
+Anchor accessions (levels AB): 251; found in data: 251; passed QC and clustered: 249
 Anchor consistency:
-  consistent: 250
+  consistent: 248
   conflict: 1
     conflict: MT506028 (majeed2026, Oligonychus plegas) in cluster with Oligonychus tylus
-Clusters with anchors: 34 of 95 (several anchored species: 0)
-Records other than the anchors used for decisions (level C leads included): 309
-  NO_ANCHOR: 246 (79.6%)
-  AGREES: 32 (10.4%)
-  DISAGREES: 29 (9.4%)
+Clusters with anchors: 33 of 95 (several anchored species: 0)
+Records other than the anchors used for decisions (level C leads included): 311
+  NO_ANCHOR: 248 (79.7%)
+  AGREES: 32 (10.3%)
+  DISAGREES: 29 (9.3%)
   UNNAMED_SUGGESTED: 2 (0.6%)
 Clusters holding several anchored species:

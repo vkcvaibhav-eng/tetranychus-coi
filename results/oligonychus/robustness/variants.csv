@@ -1,6 +1,6 @@
 variant,queries,studies,all_correct,all_wrong,all_ambiguous,all_nearest_unnamed,all_no_match,named_correct,named_wrong,named_ambiguous,named_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,conservative_correct,conservative_wrong,conservative_ambiguous,conservative_no_match,queries_changed_vs_main,anchored_clusters,records_disagree,records_outside_anchors_used
-main (levels A+B; no synonymies; folds isolated),251,10,190,3,0,2,56,190,3,0,58,190,1,0,60,190,3,0,58,0,34,29,309
+main (levels A+B; no synonymies; folds isolated),249,10,190,3,0,2,54,190,3,0,56,190,1,0,58,190,3,0,56,0,33,29,311
 level A anchors only,50,6,16,2,0,1,31,16,2,0,32,16,2,0,32,16,2,0,32,,25,33,510
-plus mangiferus = punicae; vitis = punicae,251,10,190,3,0,2,56,190,3,0,58,190,1,0,60,190,3,0,58,0,34,24,309
-earlier version (clusters from all records; title membership),251,10,190,3,0,2,56,190,3,0,58,190,1,0,60,190,3,0,58,0,34,29,309
-"related studies held out together (guzman2014+2017: guzman2014, guzman2017)",251,10,103,3,0,2,143,103,3,0,145,103,1,0,147,103,3,0,145,87,34,29,309
+plus mangiferus = punicae; vitis = punicae,249,10,190,3,0,2,54,190,3,0,56,190,1,0,58,190,3,0,56,0,33,24,311
+earlier version (clusters from all records; title membership),249,10,190,3,0,2,54,190,3,0,56,190,1,0,58,190,3,0,56,0,33,29,311
+"related studies held out together (guzman2014+2017: guzman2014, guzman2017)",249,10,103,3,0,2,141,103,3,0,143,103,1,0,145,103,3,0,143,87,33,29,311

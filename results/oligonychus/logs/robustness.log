@@ -1,12 +1,12 @@
 560 records, 274 haplotypes
 1a. Thresholds, cluster threshold = largest match distance:
    K2P | clusters | several names | species split | disagree % | correct all/named/cleaned/conservative (wrong likewise)
-   0.010 | 124 | 4 | 19 | 1.9 | 172/172/170/172 of 251 (3/3/1/3)
-   0.015 | 111 | 5 | 17 | 1.9 | 172/172/172/172 of 251 (3/3/1/3)
-   0.020 | 106 | 5 | 17 | 1.9 | 189/189/189/189 of 251 (3/3/1/3)
-   0.030 | 95 | 5 | 13 | 9.4 | 190/190/190/190 of 251 (3/3/1/3)
-   0.040 | 88 | 5 | 13 | 9.4 | 191/191/191/191 of 251 (3/3/1/3)
-   0.050 | 85 | 5 | 12 | 9.4 | 191/191/191/191 of 251 (3/3/1/3)
+   0.010 | 124 | 4 | 19 | 1.9 | 172/172/170/172 of 249 (3/3/1/3)
+   0.015 | 111 | 5 | 17 | 1.9 | 172/172/172/172 of 249 (3/3/1/3)
+   0.020 | 106 | 5 | 17 | 1.9 | 189/189/189/189 of 249 (3/3/1/3)
+   0.030 | 95 | 5 | 13 | 9.3 | 190/190/190/190 of 249 (3/3/1/3)
+   0.040 | 88 | 5 | 13 | 9.3 | 191/191/191/191 of 249 (3/3/1/3)
+   0.050 | 85 | 5 | 12 | 9.3 | 191/191/191/191 of 249 (3/3/1/3)
 1b. Correct answers by cluster threshold (rows) and largest match distance (columns): named / cleaned / conservative:
    cluster \ match | 0.01 | 0.02 | 0.03 | 0.04 | 0.05
    0.010 | 172/170/172 | 189/188/189 | 190/190/190 | 191/191/191 | 191/191/191
@@ -16,16 +16,16 @@
    0.040 | 172/172/172 | 189/189/189 | 190/190/190 | 191/191/191 | 191/191/191
    0.050 | 172/172/172 | 189/189/189 | 190/190/190 | 191/191/191 | 191/191/191
 2. Anchor evidence, taxonomic treatment, fold isolation and grouping (K2P 0.03):
-   main (levels A+B; no synonymies; folds isolated): 251 queries from 10 studies; all correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 56; named correct 190, wrong 3, ambiguous 0, no match 58; cleaned correct 190, wrong 1, ambiguous 0, no match 60; conservative correct 190, wrong 3, ambiguous 0, no match 58; queries changed vs main 0
+   main (levels A+B; no synonymies; folds isolated): 249 queries from 10 studies; all correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 54; named correct 190, wrong 3, ambiguous 0, no match 56; cleaned correct 190, wrong 1, ambiguous 0, no match 58; conservative correct 190, wrong 3, ambiguous 0, no match 56; queries changed vs main 0
    level A anchors only: 50 queries from 6 studies; all correct 16, wrong 2, ambiguous 0, nearest unnamed 1, no match 31; named correct 16, wrong 2, ambiguous 0, no match 32; cleaned correct 16, wrong 2, ambiguous 0, no match 32; conservative correct 16, wrong 2, ambiguous 0, no match 32
-   plus mangiferus = punicae; vitis = punicae: 251 queries from 10 studies; all correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 56; named correct 190, wrong 3, ambiguous 0, no match 58; cleaned correct 190, wrong 1, ambiguous 0, no match 60; conservative correct 190, wrong 3, ambiguous 0, no match 58; queries changed vs main 0
-   earlier version (clusters from all records; title membership): 251 queries from 10 studies; all correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 56; named correct 190, wrong 3, ambiguous 0, no match 58; cleaned correct 190, wrong 1, ambiguous 0, no match 60; conservative correct 190, wrong 3, ambiguous 0, no match 58; queries changed vs main 0
-   related studies held out together (guzman2014+2017: guzman2014, guzman2017): 251 queries from 10 studies; all correct 103, wrong 3, ambiguous 0, nearest unnamed 2, no match 143; named correct 103, wrong 3, ambiguous 0, no match 145; cleaned correct 103, wrong 1, ambiguous 0, no match 147; conservative correct 103, wrong 3, ambiguous 0, no match 145; queries changed vs main 87
+   plus mangiferus = punicae; vitis = punicae: 249 queries from 10 studies; all correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 54; named correct 190, wrong 3, ambiguous 0, no match 56; cleaned correct 190, wrong 1, ambiguous 0, no match 58; conservative correct 190, wrong 3, ambiguous 0, no match 56; queries changed vs main 0
+   earlier version (clusters from all records; title membership): 249 queries from 10 studies; all correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 54; named correct 190, wrong 3, ambiguous 0, no match 56; cleaned correct 190, wrong 1, ambiguous 0, no match 58; conservative correct 190, wrong 3, ambiguous 0, no match 56; queries changed vs main 0
+   related studies held out together (guzman2014+2017: guzman2014, guzman2017): 249 queries from 10 studies; all correct 103, wrong 3, ambiguous 0, nearest unnamed 2, no match 141; named correct 103, wrong 3, ambiguous 0, no match 143; cleaned correct 103, wrong 1, ambiguous 0, no match 145; conservative correct 103, wrong 3, ambiguous 0, no match 143; queries changed vs main 87
 3. Main identification test:
-   all: correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 56
-   named: correct 190, wrong 3, ambiguous 0, no match 58
-   cleaned: correct 190, wrong 1, ambiguous 0, no match 60
-   conservative: correct 190, wrong 3, ambiguous 0, no match 58
+   all: correct 190, wrong 3, ambiguous 0, nearest unnamed 2, no match 54
+   named: correct 190, wrong 3, ambiguous 0, no match 56
+   cleaned: correct 190, wrong 1, ambiguous 0, no match 58
+   conservative: correct 190, wrong 3, ambiguous 0, no match 56
    all -> named, correct: +0 / -0; studies up 0, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 1.000)
    all -> named, wrong: +0 / -0; studies up 0, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 1.000)
    named -> cleaned, correct: +0 / -0; studies up 0, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 1.000)
@@ -35,29 +35,29 @@
    all -> cleaned, correct: +0 / -0; studies up 0, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 1.000)
    all -> cleaned, wrong: +0 / -2; studies up 0, down 1; sign-flip over studies p = 1.000 (query-level McNemar p = 0.500)
    95% intervals, bootstrap over 10 anchor studies (10000 replicates, seed 20261030):
-     all_correct: 75.7% (29.0 to 89.1)
-     all_wrong: 1.2% (0.0 to 7.8)
-     all_no match: 22.3% (9.8 to 64.1)
-     named_correct: 75.7% (29.0 to 89.1)
-     named_wrong: 1.2% (0.0 to 7.8)
-     named_no match: 23.1% (10.1 to 67.2)
-     cleaned_correct: 75.7% (29.0 to 89.1)
+     all_correct: 76.3% (29.0 to 90.1)
+     all_wrong: 1.2% (0.0 to 7.9)
+     all_no match: 21.7% (8.5 to 64.0)
+     named_correct: 76.3% (29.0 to 90.1)
+     named_wrong: 1.2% (0.0 to 7.9)
+     named_no match: 22.5% (8.9 to 67.1)
+     cleaned_correct: 76.3% (29.0 to 90.1)
      cleaned_wrong: 0.4% (0.0 to 3.0)
-     cleaned_no match: 23.9% (10.7 to 69.9)
-     conservative_correct: 75.7% (29.0 to 89.1)
-     conservative_wrong: 1.2% (0.0 to 7.8)
-     conservative_no match: 23.1% (10.1 to 67.2)
+     cleaned_no match: 23.3% (9.6 to 69.8)
+     conservative_correct: 76.3% (29.0 to 90.1)
+     conservative_wrong: 1.2% (0.0 to 7.9)
+     conservative_no match: 22.5% (8.9 to 67.1)
      cleaned_minus_named_correct: 0.0% (0.0 to 0.0)
      named_minus_all_correct: 0.0% (0.0 to 0.0)
    Correct answers pooled / mean over 10 studies / mean over 28 species; median reference records and species per fold:
-     all: 75.7 / 51.3 / 17.9; 420 records, 38 species
-     named: 75.7 / 51.3 / 17.9; 303 records, 38 species
-     cleaned: 75.7 / 51.3 / 17.9; 270 records, 36 species
-     conservative: 75.7 / 51.3 / 17.9; 275 records, 38 species
+     all: 76.3 / 51.9 / 18.1; 420 records, 38 species
+     named: 76.3 / 51.9 / 18.1; 303 records, 38 species
+     cleaned: 76.3 / 51.9 / 18.1; 270 records, 36 species
+     conservative: 76.3 / 51.9 / 18.1; 275 records, 38 species
    Coverage of the query's species in the named set (queries; correct, named set):
      no record of the species: 29; 0.0%
      no overlapping record: 5; 0.0%
-     overlapping record: 217; 87.6%
+     overlapping record: 215; 88.4%
 4. Cluster structure at K2P 0.03:
    Clusters whose largest internal K2P exceeds 0.03 (chaining): 8 of 95
      C044 (67 records): largest 0.0304

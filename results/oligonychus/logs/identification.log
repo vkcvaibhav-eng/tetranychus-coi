@@ -1,17 +1,17 @@
-Queries: 251 anchor records from 10 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
-           all: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.3%)
-         named: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
-       cleaned: correct 190 (75.7%), wrong 1 (0.4%), ambiguous 0 (0.0%), no match 60 (23.9%)
-  conservative: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
-Coverage of the query's species in the named reference set: no record of the species 29; no overlapping record 5; overlapping record 217
+Queries: 249 anchor records from 10 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
+           all: correct 190 (76.3%), wrong 3 (1.2%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 54 (21.7%)
+         named: correct 190 (76.3%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 56 (22.5%)
+       cleaned: correct 190 (76.3%), wrong 1 (0.4%), ambiguous 0 (0.0%), no match 58 (23.3%)
+  conservative: correct 190 (76.3%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 56 (22.5%)
+Coverage of the query's species in the named reference set: no record of the species 29; no overlapping record 5; overlapping record 215
   no record of the species (29): named -> correct 0 (0.0%), wrong 3 (10.3%), ambiguous 0 (0.0%), no match 26 (89.7%)
   no overlapping record (5): named -> correct 0 (0.0%), wrong 0 (0.0%), ambiguous 0 (0.0%), no match 5 (100.0%)
-  overlapping record (217): named -> correct 190 (87.6%), wrong 0 (0.0%), ambiguous 0 (0.0%), no match 27 (12.4%)
+  overlapping record (215): named -> correct 190 (88.4%), wrong 0 (0.0%), ambiguous 0 (0.0%), no match 25 (11.6%)
 Earlier version (clusters from all records, study membership by publication title only):
-           all: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.3%)
-         named: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
-       cleaned: correct 190 (75.7%), wrong 1 (0.4%), ambiguous 0 (0.0%), no match 60 (23.9%)
-  conservative: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
+           all: correct 190 (76.3%), wrong 3 (1.2%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 54 (21.7%)
+         named: correct 190 (76.3%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 56 (22.5%)
+       cleaned: correct 190 (76.3%), wrong 1 (0.4%), ambiguous 0 (0.0%), no match 58 (23.3%)
+  conservative: correct 190 (76.3%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 56 (22.5%)
 Queries whose outcome differs from the earlier version: 0
 Records held out per study (publication title -> title or submission batch):
   arabuli2018: 2 -> 2
@@ -34,11 +34,11 @@ By study (correct: all / named / cleaned / conservative; wrong likewise; of quer
   muralidharan2020: 1 / 1 / 1 / 1; 0 / 0 / 0 / 0; of 1
   mushtaq2023a: 9 / 9 / 9 / 9; 0 / 0 / 0 / 0; of 9
   mushtaq2023b: 4 / 4 / 4 / 4; 0 / 0 / 0 / 0; of 8
-  sakamoto2019: 32 / 32 / 32 / 32; 0 / 0 / 0 / 0; of 34
+  sakamoto2019: 32 / 32 / 32 / 32; 0 / 0 / 0 / 0; of 32
 By species (correct: all / named / cleaned / conservative, of queries):
   Oligonychus punicae: 96 / 96 / 96 / 96 of 100
   Oligonychus perseae: 55 / 55 / 55 / 55 of 70
-  Oligonychus castaneae: 30 / 30 / 30 / 30 of 32
+  Oligonychus castaneae: 30 / 30 / 30 / 30 of 30
   Oligonychus neocastaneae: 4 / 4 / 4 / 4 of 6
   Oligonychus thelytokus: 0 / 0 / 0 / 0 of 4
   Oligonychus tylus: 3 / 3 / 3 / 3 of 3
