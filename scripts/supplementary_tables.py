@@ -244,7 +244,7 @@ def main():
               "their cluster, the kind of COI overlap behind each pair of names, and the COI-ITS2 comparison for "
               "linked records.", blocks)
 
-    # S7: every tip of the four trees (Figures 4 and S1-S4) with the records behind it,
+    # S7: every tip of the four trees (Figures 5 and S1-S4) with the records behind it,
     # in the order the tips appear in the figures (midpoint-rooted, ladderized).
     from collections import Counter
     from Bio import Phylo
@@ -273,7 +273,7 @@ def main():
                        "Anchor specimens": r.get("anchor_names", ""),
                        "Record identifiers (accession.version or BOLD process ID)": " ".join(ids)})
     if s7:
-        add_sheet(wb, "S7 Tree tips", "Table S7. Tips of the trees in Figures 4 and S1-S4, in the order they appear "
+        add_sheet(wb, "S7 Tree tips", "Table S7. Tips of the trees in Figures 5 and S1-S4, in the order they appear "
                   "from top to bottom, with every record behind each tip.", [("", list(s7[0].keys()), s7)])
 
     # S8, S9: the second genus, from data/oligonychus and results/oligonychus

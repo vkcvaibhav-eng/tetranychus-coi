@@ -3,10 +3,12 @@
 Figure 1  steps of the pipeline
 Figure 2  clusters holding the records named T. cinnabarinus
 Figure 3  identification of anchor specimens, raw against cleaned database
-Figure 4  maximum-likelihood trees of the two halves of COX1 (all records and
-          the same records in both halves), with the names carried by each tip
-Figure 5  documentation of records by submission period
-Figures S1-S4  the four trees of Figure 4 at full size, with labelled tips
+Figure 4  identification of anchor specimens in both genera, by evidence level
+          and, for Oligonychus, by study
+Figure 5  maximum-likelihood trees of the two halves of COX1 built from the
+          same records, with the names carried by each tip
+Figures S1-S4  the trees of both halves at full size, with labelled tips
+Figure S5  documentation of records by submission period
               (also written as labelled Newick files next to each tree)
 
 Each figure is written as PDF (vector) and PNG (600 dpi) to results/figures.
@@ -223,7 +225,7 @@ def figure3():
     save(fig, "Figure3")
 
 
-# Figure 4 ------------------------------------------------------------------
+# Figure 5 ------------------------------------------------------------------
 COLUMNS = [("Tetranychus urticae", SERIES[0]), ("Tetranychus turkestani", SERIES[1]),
            ("Tetranychus truncatus", SERIES[2]), ("Tetranychus kanzawai", SERIES[3]),
            ("other names", MUTED), ("unnamed", BASE), ("anchor", INK)]
@@ -300,7 +302,7 @@ def draw_tree(ax, treefile, tipsfile, title, show_support=True, lw=0.35):
     ax.text(0.058, ybar, "0.05 substitutions/site", ha="left", va="center", fontsize=6, color=INK2)
 
 
-def figure4():
+def figure5():
     """The two halves of COX1 from the same records; full trees are Figures S1 and S2."""
     fig = plt.figure(figsize=(6.9, 6.4))
     gs = fig.add_gridspec(1, 2, wspace=0.12)
@@ -310,23 +312,23 @@ def figure4():
         ax = fig.add_subplot(gs[0, k])
         draw_tree(ax, os.path.join(d, "iqtree.treefile"), os.path.join(d, "tips.csv"),
                   f"{'ab'[k]}  {half} half, the same {n_rec} records ({len(tips)} haplotypes)", lw=0.6)
-    save(fig, "Figure4")
+    save(fig, "Figure5")
 
 
-# Figures S1-S4: the trees of Figure 4 at full size, with labelled tips ------------
+# Figures S1-S4: the trees at full size, with labelled tips ------------
 SUPP_TREES = [
     ("results/phylogeny/5prime", "FigureS1",
      "Figure S1. Maximum-likelihood tree of the 5′ half of COX1 (reference positions 43–696), all records "
-     "covering at least 80% of the window, collapsed to haplotypes (Figure 4a)."),
+     "covering at least 80% of the window, collapsed to haplotypes."),
     ("results/phylogeny/3prime", "FigureS2",
      "Figure S2. Maximum-likelihood tree of the 3′ half of COX1 (reference positions 719–1,130), all records "
-     "covering at least 80% of the window, collapsed to haplotypes (Figure 4b)."),
+     "covering at least 80% of the window, collapsed to haplotypes."),
     ("results/phylogeny/paired/5prime", "FigureS3",
      "Figure S3. Maximum-likelihood tree of the 5′ half of COX1 for the 98 records that cover both windows "
-     "(Figure 4c)."),
+     "(Figure 5a)."),
     ("results/phylogeny/paired/3prime", "FigureS4",
      "Figure S4. Maximum-likelihood tree of the 3′ half of COX1 for the 98 records that cover both windows "
-     "(Figure 4d)."),
+     "(Figure 5b)."),
 ]
 
 
@@ -418,7 +420,7 @@ def supplementary_tree(d, name, caption):
     fig.text(0.03, 1 - 0.25 / height, caption, ha="left", va="top", fontsize=7.5, color=INK, wrap=True)
     fig.text(0.03, 1 - 0.55 / height, "Tips are haplotypes, labelled with their identifier, the accepted names of the "
              "records carrying them (number of records) and any anchor specimens; Table S7 lists the accession of "
-             "every record. Numbers at nodes are ultrafast bootstrap values of at least 70. Columns as in Figure 4.",
+             "every record. Numbers at nodes are ultrafast bootstrap values of at least 70. Columns as in Figure 5.",
              ha="left", va="top", fontsize=6.2, color=INK2, wrap=True)
     os.makedirs(OUT, exist_ok=True)
     fig.savefig(os.path.join(OUT, f"{name}.pdf"))
@@ -494,7 +496,7 @@ def figure_s5():
     save(fig, "FigureS5")
 
 
-# Figure 5 ------------------------------------------------------------------
+# Figure 4 ------------------------------------------------------------------
 O_STUDY_LABEL = {"matsuda2012": "Matsuda et al. 2012", "arabuli2018": "Arabuli & Gotoh 2018",
                  "mushtaq2023a": "Mushtaq et al. 2023a", "mushtaq2023b": "Mushtaq et al. 2023b",
                  "majeed2026": "Safeena Majeed et al. 2026", "guzman2014": "Guzmán-Valencia et al. 2014",
@@ -515,7 +517,7 @@ def stacked_rows(ax, rows, key="all_result"):
         ax.spines[sp].set_visible(False)
 
 
-def figure5():
+def figure4():
     """Oligonychus beside Tetranychus, all-records reference set (what a database user meets)."""
     tq = read("results/robustness/queries_main.csv")
     oq = read("results/oligonychus/robustness/queries_main.csv")
@@ -542,7 +544,7 @@ def figure5():
         a_.text(-0.02, 1.02 if a_ is bx else 1.14, letter, transform=a_.transAxes, fontsize=10,
                 fontweight="bold", va="bottom", ha="right")
     fig.tight_layout(h_pad=1.6)
-    save(fig, "Figure5")
+    save(fig, "Figure4")
 
 
 def main():
