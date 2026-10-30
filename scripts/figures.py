@@ -453,8 +453,8 @@ def supplementary_figures():
         labelled_newick(d)
 
 
-# Figure 5 ------------------------------------------------------------------
-def figure5():
+# Figure S5 -----------------------------------------------------------------
+def figure_s5():
     rows = read("results/trends/by_period.csv")
     periods = [r["period"].replace("before 2006", "Before 2006").replace("2021 onwards", "2021 to\n29 Oct 2026")
                .replace("-", "–") for r in rows]
@@ -491,10 +491,10 @@ def figure5():
         ax.spines[s].set_visible(False)
     ax.legend(fontsize=6.5, frameon=False, loc="upper left", bbox_to_anchor=(0.0, -0.28), ncol=4,
               handlelength=1.6)
-    save(fig, "Figure5")
+    save(fig, "FigureS5")
 
 
-# Figure 6 ------------------------------------------------------------------
+# Figure 5 ------------------------------------------------------------------
 O_STUDY_LABEL = {"matsuda2012": "Matsuda et al. 2012", "arabuli2018": "Arabuli & Gotoh 2018",
                  "mushtaq2023a": "Mushtaq et al. 2023a", "mushtaq2023b": "Mushtaq et al. 2023b",
                  "majeed2026": "Safeena Majeed et al. 2026", "guzman2014": "Guzmán-Valencia et al. 2014",
@@ -515,7 +515,7 @@ def stacked_rows(ax, rows, key="all_result"):
         ax.spines[sp].set_visible(False)
 
 
-def figure6():
+def figure5():
     """Oligonychus beside Tetranychus, all-records reference set (what a database user meets)."""
     tq = read("results/robustness/queries_main.csv")
     oq = read("results/oligonychus/robustness/queries_main.csv")
@@ -542,7 +542,7 @@ def figure6():
         a_.text(-0.02, 1.02 if a_ is bx else 1.14, letter, transform=a_.transAxes, fontsize=10,
                 fontweight="bold", va="bottom", ha="right")
     fig.tight_layout(h_pad=1.6)
-    save(fig, "Figure6")
+    save(fig, "Figure5")
 
 
 def main():
@@ -550,8 +550,8 @@ def main():
     figure2()
     figure3()
     figure4()
+    figure_s5()
     figure5()
-    figure6()
     supplementary_figures()
     print(f"Figures written to {OUT}")
 
