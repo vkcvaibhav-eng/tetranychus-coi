@@ -97,7 +97,7 @@ class UnionFind:
 def fmt(x):
     if x is None or (isinstance(x, float) and (math.isnan(x) or math.isinf(x))):
         return ""
-    return f"{max(float(x), 0.0):.4f}"
+    return f"{abs(max(float(x), 0.0)):.4f}"  # abs() avoids printing -0.0000
 
 
 def main():

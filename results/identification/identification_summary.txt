@@ -1,20 +1,33 @@
-Queries: 108 anchor records from 9 studies (leave-one-study-out; closest match within K2P 0.03)
-Database size: raw about 2156, cleaned about 1473 records
+Queries: 108 anchor records from 9 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
 Raw database:     correct 76 (70.4%), wrong 21 (19.4%), ambiguous 6 (5.6%), no match 5 (4.6%)
 Cleaned database: correct 81 (75.0%), wrong 24 (22.2%), ambiguous 1 (0.9%), no match 2 (1.9%)
+Earlier version (clusters from all records, study membership by publication title only):
+  Raw:     correct 76 (70.4%), wrong 21 (19.4%), ambiguous 6 (5.6%), no match 5 (4.6%)
+  Cleaned: correct 81 (75.0%), wrong 24 (22.2%), ambiguous 1 (0.9%), no match 2 (1.9%)
+Records held out per study (publication title -> title or submission batch):
+  abdolahadi2026: 9 -> 9
+  chen2014: 7 -> 8
+  gotoh2009: 4 -> 4
+  inak2022: 7 -> 44
+  li2010: 7 -> 7
+  matsuda2013: 43 -> 43
+  mendonca2011: 18 -> 18
+  navajas_boursot2003: 12 -> 12
+  srinivasa2012: 1 -> 3
+Queries whose outcome differs from the earlier version: 0
 Excluding T. turkestani (not separable from T. urticae by COI):
   Raw:     correct 74 (77.1%), wrong 11 (11.5%), ambiguous 6 (6.2%), no match 5 (5.2%)
   Cleaned: correct 79 (82.3%), wrong 14 (14.6%), ambiguous 1 (1.0%), no match 2 (2.1%)
-By study (raw correct -> cleaned correct, of queries):
-  abdolahadi2026 [B]: 9 -> 9 of 9
-  chen2014 [B]: 6 -> 7 of 7
-  gotoh2009 [B]: 3 -> 4 of 4
-  inak2022 [A]: 2 -> 2 of 7
-  li2010 [B]: 2 -> 1 of 7
-  matsuda2013 [A]: 28 -> 32 of 43
-  mendonca2011 [A]: 18 -> 18 of 18
-  navajas_boursot2003 [B]: 7 -> 7 of 12
-  srinivasa2012 [A]: 1 -> 1 of 1
+By study (raw correct -> cleaned correct; raw wrong -> cleaned wrong; of queries):
+  abdolahadi2026 [B]: 9 -> 9; 0 -> 0; of 9
+  chen2014 [B]: 6 -> 7; 0 -> 0; of 7
+  gotoh2009 [B]: 3 -> 4; 0 -> 0; of 4
+  inak2022 [A]: 2 -> 2; 5 -> 5; of 7
+  li2010 [B]: 2 -> 1; 3 -> 6; of 7
+  matsuda2013 [A]: 28 -> 32; 9 -> 9; of 43
+  mendonca2011 [A]: 18 -> 18; 0 -> 0; of 18
+  navajas_boursot2003 [B]: 7 -> 7; 4 -> 4; of 12
+  srinivasa2012 [A]: 1 -> 1; 0 -> 0; of 1
 By species (raw correct -> cleaned correct, of queries):
   Tetranychus urticae: 44 -> 42 of 47
   Tetranychus turkestani: 2 -> 2 of 12

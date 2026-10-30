@@ -1,5 +1,5 @@
-variant,queries,studies,raw_correct,raw_wrong,raw_ambiguous,raw_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,anchored_clusters,records_disagree,non_anchor_records
-main (levels A+B; 2 synonymies),108,9,76,21,6,5,81,24,1,2,13,118,2048
-level A anchors only,69,4,49,14,1,5,52,14,1,2,12,118,2048
-plus malaysiensis = macfarlanei,108,9,76,21,6,5,81,24,1,2,13,118,2048
-"level A only, plus malaysiensis = macfarlanei",69,4,49,14,1,5,52,14,1,2,12,118,2048
+variant,queries,studies,raw_correct,raw_wrong,raw_ambiguous,raw_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,queries_changed_vs_main,anchored_clusters,records_disagree,non_anchor_records
+main (levels A+B; two synonymies; folds isolated),108,9,76,21,6,5,81,24,1,2,0,13,118,2048
+level A anchors only,69,4,49,14,1,5,52,14,1,2,,12,118,2048
+plus malaysiensis = macfarlanei,108,9,76,21,6,5,81,24,1,2,0,13,118,2048
+earlier version (clusters from all records; title membership),108,9,76,21,6,5,81,24,1,2,0,13,118,2048

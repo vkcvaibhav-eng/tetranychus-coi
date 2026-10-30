@@ -14,9 +14,14 @@ The pipeline gathers COI records from GenBank and BOLD, occurrence records from 
 | 2 | `merge_records.py` | Merge GenBank and BOLD, remove duplicates, score metadata (0–7) |
 | 3 | `sequence_qc.py` | Orientation, COX1 region covered, identity, ambiguous bases, internal stop codons (genetic code 5), frameshifts |
 | 4 | `species_analysis.py` | K2P distances on shared sites, barcode gap per species, shared haplotypes, nearest-neighbour label conflicts, distance clusters |
-| 7 | `identification_test.py` | Leave-one-study-out identification of anchor specimens against the raw and the cleaned COI database |
-| 6 | `its2_analysis.py` | Nuclear ITS2 check: species distances, ITS2 clusters, and COI vs ITS2 agreement for specimens sequenced for both genes |
 | 5 | `anchor_check.py` | Compares clusters and records with anchor sequences from morphologically identified, published specimens |
+| 6 | `its2_analysis.py` | Nuclear ITS2 check: species distances, nearest names (all records and other submission batches), one-to-one COI–ITS2 specimen links |
+| 7 | `identification_test.py` | Leave-one-study-out identification of anchor specimens against the raw and the cleaned COI database, with clusters and cleaning rebuilt in each fold |
+| 8 | `phylogeny.py` | MAFFT + IQ-TREE trees of the 5′ and 3′ halves of COX1 (and of the same records in both halves, `--paired`); exclusive clades and permissive groups per species |
+| 9 | `trends.py` | Data quality by submission year and country, with submission-batch level tests |
+| 10 | `robustness.py` | Thresholds (together and separately), level A anchors, synonymy, fold isolation, study bootstrap, cluster chaining, COI vs ITS2 label agreement with batch-level uncertainty |
+| – | `study_keys.py` | Submission batches (first author or consortium and year; BOLD project code) used to group records |
+| – | `supplementary_tables.py`, `figures.py` | Supplementary Tables S1–S6 (Excel) and Figures 1–5 (PDF and PNG) |
 
 ## Running it on GitHub
 
@@ -82,11 +87,11 @@ Stop codons and frameshifts in a protein-coding mitochondrial gene usually point
 
 ## ITS2 check
 
-ITS2 records are downloaded separately into `data/its2/` (Fetch workflow, `ncbi_out_dir` = `data/its2`) so they never enter the COI steps. ITS2 is cut from each record by annotation, by the 5.8S and 28S boundaries, or by alignment to a reference ITS2 from an annotated *T. urticae* record. Specimens are paired across the two genes by first author and isolate, strain or voucher name. Where COI and ITS2 place a specimen with different species, the COI result may reflect shared or introgressed mitochondria (for example through *Wolbachia*) rather than a wrong name. Results are in `results/its2/`.
+ITS2 records are downloaded separately into `data/its2/` (Fetch workflow, `ncbi_out_dir` = `data/its2`) so they never enter the COI steps. ITS2 is cut from each record by annotation, by the 5.8S and 28S boundaries, or by alignment to a reference ITS2 from an annotated *T. urticae* record. Specimens are linked across the two genes by first author and isolate, strain or voucher name; a link is used only when exactly one COI and one ITS2 record share the key and their names and countries do not conflict (column `confident` in `coi_its2_pairs.csv`). Disagreement between the genes is a lead, not proof: it may reflect shared or introgressed mitochondria, a wrong name or a wrong link. `--distance-cache file.npz` stores the ITS2 distances so that later runs take seconds. Results are in `results/its2/`.
 
 ## Identification test
 
-Anchor specimens are identified by their closest COI match within K2P 0.03, as a GenBank or BOLD user would, and scored as correct, wrong, ambiguous or no match. When one study's anchors are queried, all records of that study are removed from the reference database and its anchors are not used to clean it. The raw database contains every record that passed the quality check; the cleaned database removes unnamed records and records whose name disagrees with the anchored species of their cluster. Results are in `results/identification/`.
+Anchor specimens are identified by their closest COI match within K2P 0.03, as a GenBank or BOLD user would, and scored as correct, wrong, ambiguous or no match. When one study's anchors are queried, every record of that study is removed: its anchors, records citing the same publication and records from the same submission batch as any of its anchors (`membership.csv`). The clusters and the cleaning are then rebuilt from the remaining records only, using the anchors of the other studies. The raw database contains every record that passed the quality check; the cleaned database removes unnamed records and records whose name disagrees with the anchored species of their cluster. The summary also reports the earlier, less strict version (clusters from all records, membership by publication title) so that any leakage can be seen. Results are in `results/identification/`; sensitivity checks are in `results/robustness/`.
 
 ## Anchor records
 
@@ -96,7 +101,7 @@ Anchor specimens are identified by their closest COI match within K2P 0.03, as a
 - **B**: morphology stated, vouchers not confirmed
 - **C**: lead only, not used for decisions
 
-Within a cluster, level A anchors outrank level B. Names are compared after the synonymies in `synonyms.csv`, each with its published source. Results are in `results/anchors/`.
+Within a cluster, level A anchors outrank level B. Names are compared after the synonymies in `synonyms.csv`, each with its published source; `synonyms_extended.csv` adds *T. malaysiensis* = *T. macfarlanei* for the sensitivity check. The columns `material_sequenced`, `supporting_passage` and `verification_status` record what was checked against the full text of each publication; anything not checked is exported as "unverified" in Table S1. Results are in `results/anchors/`.
 
 ## Data sources
 

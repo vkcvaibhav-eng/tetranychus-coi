@@ -117,6 +117,12 @@ jobs:
           set -o pipefail
           python scripts/supplementary_tables.py 2>&1 | tee results/logs/supplementary.log
 
+      - name: Figures
+        run: |
+          set -o pipefail
+          sudo apt-get install -y -q fonts-liberation
+          python scripts/figures.py 2>&1 | tee results/logs/figures.log
+
       - name: Save results to the repository
         if: always()
         run: |

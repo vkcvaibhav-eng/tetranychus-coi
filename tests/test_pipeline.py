@@ -42,7 +42,7 @@ REF = random_orf(510)  # ~1.5 kb, similar to COX1
 
 
 def gb_record(acc, seq, organism="Tetranychus urticae", country="India: Gujarat",
-              lat_lon=None, voucher=None, published=False):
+              lat_lon=None, voucher=None, published=False, author=None):
     rec = SeqRecord(Seq(seq), id=acc + ".1", name=acc, description="test COI")
     rec.annotations["molecule_type"] = "DNA"
     rec.annotations["organism"] = organism
@@ -57,6 +57,8 @@ def gb_record(acc, seq, organism="Tetranychus urticae", country="India: Gujarat"
     ref = Reference()
     ref.title = "Population genetics of Tetranychus" if published else "Direct Submission"
     ref.journal = "Exp Appl Acarol 1:1-10" if published else "Submitted (01-JAN-2024)"
+    if author:
+        ref.authors = author
     rec.annotations["references"] = [ref]
     return rec
 
@@ -252,7 +254,10 @@ def test_anchor_check(tmp_path):
             gb_record("RC000001", a1, organism="Tetranychus alpha"),
             gb_record("RC000002", a1, organism="Tetranychus gamma"),      # synonym of alpha
             gb_record("RC000003", b1, organism="Tetranychus alpha"),      # disagrees
-            gb_record("RC000004", b1, organism="Tetranychus sp.")]        # unnamed
+            gb_record("RC000004", b1, organism="Tetranychus sp."),        # unnamed
+            gb_record("RC000005", b1, organism="Tetranychus beta", author="Good,A.")]  # same submission as
+    recs[0].annotations["references"][0].authors = "Good,A."              # the good anchors, no paper link
+    recs[1].annotations["references"][0].authors = "Good,A."
     SeqIO.write(recs, data / "ncbi_a.gb", "genbank")
     (data / "anchors" / "anchor_studies.csv").write_text(
         "study_id,citation,doi,morphology_verified,males_examined,identifier_named,voucher_linked,"
@@ -279,11 +284,15 @@ def test_anchor_check(tmp_path):
     run("identification_test.py", cwd=tmp_path)
     q = {r["query"]: r for r in csv.DictReader(open(tmp_path / "results/identification/queries.csv"))}
     assert set(q) == {"AN000001.1", "AN000002.1", "AN000003.1"}
-    # Study "good" held out: the only beta-like reference left is RC000003, labelled alpha.
+    # Study "good" held out together with RC000005, deposited in the same submission
+    # without a link to the paper: the only beta-like references left are RC000003
+    # (labelled alpha) and the unnamed RC000004, which tie, so the answer is alpha.
     assert q["AN000002.1"]["raw_result"] == "wrong"
     assert q["AN000002.1"]["raw_match"] == "Tetranychus alpha"
-    # Its own study's records never serve as references.
+    # Its own study's records never serve as references (2 anchors + RC000005 held out).
     assert all(r["raw_db_size"] == "5" for r in q.values() if r["study_id"] == "good")
+    members = {r["study_id"]: r for r in csv.DictReader(open(tmp_path / "results/identification/membership.csv"))}
+    assert members["good"]["added_by_batch"] == "RC000005.1"
 
 
 def its2_record(acc, seq, organism, isolate, author="Smith,J."):

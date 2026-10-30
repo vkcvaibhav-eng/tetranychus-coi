@@ -1,12 +1,12 @@
-region,basis,species,records,haplotypes,monophyletic,clades,main_clade_share_pct,main_clade_support,records_outside_main,unrooted_group_share_pct,unrooted_group_support
-5prime,all records,Tetranychus evansi,2,2,no,2,50.0,,1,50.0,
-5prime,all records,Tetranychus pueraricola,11,9,yes,1,100.0,99,0,100.0,99
-5prime,all records,Tetranychus truncatus,28,16,yes,1,100.0,100,0,100.0,100
-5prime,all records,Tetranychus turkestani,2,2,no,2,50.0,,1,50.0,
-5prime,all records,Tetranychus urticae,36,23,no,3,63.9,87,13,63.9,87
-5prime,anchors only,Tetranychus urticae,2,2,yes,1,100.0,98,0,100.0,98
-3prime,all records,Tetranychus pueraricola,11,8,yes,1,100.0,97,0,100.0,97
-3prime,all records,Tetranychus truncatus,28,11,yes,1,100.0,100,0,100.0,100
-3prime,all records,Tetranychus turkestani,2,2,no,2,50.0,,1,50.0,
-3prime,all records,Tetranychus urticae,36,26,no,4,52.8,94,17,52.8,94
-3prime,anchors only,Tetranychus urticae,2,2,yes,1,100.0,89,0,100.0,89
+region,basis,species,records,haplotypes,records_on_shared_haplotypes,exclusive_clade_share_pct,exclusive_clade_support,exclusive_clades,monophyletic_exclusive,root_free_exclusive_share_pct,concentration_share_pct,concentration_support,other_named_records_in_concentration_group
+5prime,all records,Tetranychus evansi,2,2,0,50.0,,2,no,50.0,50.0,,0
+5prime,all records,Tetranychus pueraricola,11,9,0,100.0,99,1,yes,100.0,100.0,99,0
+5prime,all records,Tetranychus truncatus,28,16,0,100.0,100,1,yes,100.0,100.0,100,0
+5prime,all records,Tetranychus turkestani,2,2,0,50.0,,2,no,50.0,50.0,,0
+5prime,all records,Tetranychus urticae,36,23,2,63.9,87,2,no,63.9,63.9,87,0
+5prime,anchors only,Tetranychus urticae,2,2,0,100.0,98,1,yes,100.0,100.0,98,0
+3prime,all records,Tetranychus pueraricola,11,8,0,100.0,97,1,yes,100.0,100.0,97,0
+3prime,all records,Tetranychus truncatus,28,11,0,100.0,100,1,yes,100.0,100.0,100,0
+3prime,all records,Tetranychus turkestani,2,2,0,50.0,,2,no,50.0,50.0,,0
+3prime,all records,Tetranychus urticae,36,26,2,52.8,94,3,no,52.8,52.8,94,0
+3prime,anchors only,Tetranychus urticae,2,2,0,100.0,89,1,yes,100.0,100.0,89,0

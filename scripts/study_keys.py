@@ -5,8 +5,9 @@ specimens, laboratories, primers and naming decisions. The checks in
 robustness.py, its2_analysis.py and trends.py therefore group records by
 submission batch:
 
-  GenBank records   first author of the "Direct Submission" reference and
-                    the year of submission (for example "li,g.-q.|2009")
+  GenBank records   first author (or consortium) of the "Direct Submission"
+                    reference and the year of submission (for example
+                    "li,g.-q.|2009")
   BOLD-only records the BOLD project code, i.e. the letters at the start of
                     the process identifier (for example "CNSID")
 
@@ -31,14 +32,16 @@ def first_author(authors):
 
 
 def submission_key(rec):
+    """First author (or consortium) of the direct submission, with its year."""
     refs = rec.annotations.get("references", [])
-    for ref in refs:
-        if (ref.title or "").strip() == "Direct Submission":
-            m = SUBMITTED.search(ref.journal or "")
-            return f"{first_author(ref.authors)}|{m.group(1) if m else ''}"
-    if refs:
-        return f"{first_author(refs[0].authors)}|"
-    return ""
+    ds = next((r for r in refs if (r.title or "").strip() == "Direct Submission"), None)
+    m = SUBMITTED.search(ds.journal or "") if ds else None
+    year = m.group(1) if m else ""
+    for ref in ([ds] if ds else []) + refs:
+        who = first_author(ref.authors) or (getattr(ref, "consrtm", "") or "").strip().lower()
+        if who:
+            return f"{who}|{year}"
+    return ""  # no author or consortium: the record is not grouped with others
 
 
 def genbank_keys(pattern):

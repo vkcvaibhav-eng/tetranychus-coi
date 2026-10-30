@@ -30,6 +30,7 @@ Usage: python scripts/its2_analysis.py [--threshold 0.015]
 """
 import argparse
 import csv
+import hashlib
 from concurrent.futures import ProcessPoolExecutor
 import glob
 import os
@@ -38,6 +39,7 @@ import sys
 from collections import Counter, defaultdict
 from statistics import median
 
+import numpy as np
 from Bio import SeqIO
 from Bio.Align import PairwiseAligner
 
@@ -139,6 +141,8 @@ def main():
     p.add_argument("--threshold", type=float, default=0.015)
     p.add_argument("--min-length", type=int, default=150)
     p.add_argument("--workers", type=int, default=os.cpu_count() or 1)
+    p.add_argument("--distance-cache", default="",
+                   help="Optional .npz file to store or reuse the ITS2 distances (checked against the haplotypes)")
     args = p.parse_args()
     os.makedirs(args.out, exist_ok=True)
 
@@ -192,10 +196,21 @@ def main():
     global _HAPS, _MIN
     _HAPS, _MIN = hap_seqs, args.min_length
     D = {}
-    with ProcessPoolExecutor(max_workers=args.workers) as pool:
-        for chunk in pool.map(_row, range(H), chunksize=4):
-            for i, j, d in chunk:
-                D[(i, j)] = d
+    digest = hashlib.sha256(("\n".join(hap_seqs) + f"|{args.min_length}").encode()).hexdigest()
+    if args.distance_cache and os.path.exists(args.distance_cache):
+        z = np.load(args.distance_cache)
+        if str(z["digest"]) == digest:
+            D = {(int(i), int(j)): float(d) for i, j, d in zip(z["i"], z["j"], z["d"])}
+            print(f"ITS2 distances read from {args.distance_cache}")
+    if not D:
+        with ProcessPoolExecutor(max_workers=args.workers) as pool:
+            for chunk in pool.map(_row, range(H), chunksize=4):
+                for i, j, d in chunk:
+                    D[(i, j)] = d
+        if args.distance_cache:
+            keys = list(D)
+            np.savez_compressed(args.distance_cache, digest=digest, i=np.array([k[0] for k in keys]),
+                                j=np.array([k[1] for k in keys]), d=np.array([D[k] for k in keys]))
 
     parent = list(range(H))
 
@@ -308,30 +323,48 @@ def main():
         coi_checks = {r["record_id"]: r for r in csv.DictReader(f)}
     with open(os.path.join(args.species, "clusters.csv"), newline="") as f:
         coi_dom = {r["cluster"]: r["composition"].split(" (")[0] for r in csv.DictReader(f)}
-    coi_by_key = {}
+    # Specimens are linked by first author and isolate, strain or voucher name. A link is
+    # accepted only when exactly one COI record and one ITS2 record share the key and
+    # their names (after synonymies) and countries do not conflict; other links are kept
+    # in the table but flagged and left out of the comparison.
+    coi_by_key, coi_country = defaultdict(list), {}
     for path in sorted(glob.glob(args.coi_glob)):
         for rec in SeqIO.parse(path, "genbank"):
             k = specimen_key(rec)
-            if k and rec.id in coi_checks:
-                coi_by_key.setdefault(k, rec.id)
+            if k and rec.id in coi_checks and rec.id not in coi_by_key[k]:
+                coi_by_key[k].append(rec.id)
+                coi_country[rec.id] = country(rec)
     its_rows = {r["record_id"]: r for r in rows}
-    pairs = []
+    its_by_key = defaultdict(list)
     for rid, rec in records.items():
         k = specimen_key(rec)
-        if not k or k not in coi_by_key or not its_rows[rid]["cluster"]:
-            continue
-        crid = coi_by_key[k]
-        c = coi_checks[crid]
-        coi_name = canon(c["species_label"])
-        its_name = its_rows[rid]["accepted_name"]
-        coi_cluster_name = canon(coi_dom.get(c["cluster"], ""))
-        its_cluster_name = its_rows[rid]["nn_name"]
-        pairs.append({"specimen": f"{k[0]}:{k[1]}", "coi_record": crid, "its2_record": rid,
-                      "coi_label": coi_name, "its2_label": its_name,
-                      "coi_cluster": c["cluster"], "coi_cluster_dominant": coi_cluster_name,
-                      "its2_cluster": its_rows[rid]["cluster"], "its2_nearest_species": its_cluster_name,
-                      "country": its_rows[rid]["country"],
-                      "genes_agree": "yes" if coi_cluster_name == its_cluster_name else "no"})
+        if k and its_rows[rid]["cluster"]:
+            its_by_key[k].append(rid)
+    pairs = []
+    for k in sorted(set(coi_by_key) & set(its_by_key)):
+        cois, itss = coi_by_key[k], its_by_key[k]
+        link = "one-to-one" if len(cois) == 1 and len(itss) == 1 else \
+            f"ambiguous ({len(cois)} COI, {len(itss)} ITS2 records)"
+        for crid in cois:
+            for rid in itss:
+                c = coi_checks[crid]
+                coi_name = canon(c["species_label"])
+                its_name = its_rows[rid]["accepted_name"]
+                coi_cluster_name = canon(coi_dom.get(c["cluster"], ""))
+                its_cluster_name = its_rows[rid]["nn_name"]
+                conflicts = []
+                if coi_name and its_name and coi_name != its_name:
+                    conflicts.append("names differ")
+                cc, ic = coi_country.get(crid, ""), its_rows[rid]["country"]
+                if cc and ic and cc != ic:
+                    conflicts.append("countries differ")
+                pairs.append({"specimen": f"{k[0]}:{k[1]}", "coi_record": crid, "its2_record": rid,
+                              "coi_label": coi_name, "its2_label": its_name,
+                              "coi_cluster": c["cluster"], "coi_cluster_dominant": coi_cluster_name,
+                              "its2_cluster": its_rows[rid]["cluster"], "its2_nearest_species": its_cluster_name,
+                              "country": ic or cc, "link": link, "link_conflict": "; ".join(conflicts),
+                              "confident": "yes" if link == "one-to-one" and not conflicts else "no",
+                              "genes_agree": "yes" if coi_cluster_name == its_cluster_name else "no"})
     with open(os.path.join(args.out, "coi_its2_pairs.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(pairs[0].keys()) if pairs else ["specimen"])
         w.writeheader()
@@ -359,7 +392,6 @@ def main():
             w_ = pair_d.get((n, n))
             within.append(f"within {n.split()[1]} {median(w_):.4f}" if w_ else f"within {n.split()[1]} n/a")
         lines.append(f"  {a.split()[1]} vs {b.split()[1]}: {between}  ({'; '.join(within)})")
-    agree = Counter(p["genes_agree"] for p in pairs)
     nn = [r for r in rows if r["nn_match"]]
     lines.append(f"ITS2 nearest-neighbour name matches own name: "
                  f"{sum(r['nn_match'] == 'yes' for r in nn)} of {len(nn)} named records "
@@ -378,10 +410,16 @@ def main():
         per_sp[r["accepted_name"]][r["nn_match_other_batch"]] += 1
     for sp, c in sorted(per_sp.items(), key=lambda kv: -sum(kv[1].values()))[:12]:
         lines.append(f"  {sp}: {c['yes']} of {c['yes'] + c['no']} match")
-    lines.append("COI vs ITS2 for specimens with both genes (COI cluster species vs ITS2 nearest species):")
-    lines.append(f"  agree {agree.get('yes', 0)}, disagree {agree.get('no', 0)} of {len(pairs)}")
+    conf = [p for p in pairs if p["confident"] == "yes"]
+    lines.append(f"Specimen links between genes: {len(pairs)} pairs for {len({p['specimen'] for p in pairs})} keys; "
+                 f"one-to-one without conflict: {len(conf)}; ambiguous: "
+                 f"{sum(p['link'] != 'one-to-one' for p in pairs)} pairs; one-to-one with conflicting names or "
+                 f"countries: {sum(p['link'] == 'one-to-one' and p['confident'] == 'no' for p in pairs)}")
+    agree = Counter(p["genes_agree"] for p in conf)
+    lines.append("COI vs ITS2 for one-to-one specimens (COI cluster species vs ITS2 nearest species):")
+    lines.append(f"  agree {agree.get('yes', 0)}, disagree {agree.get('no', 0)} of {len(conf)}")
     dis = Counter((p["coi_label"], p["coi_cluster_dominant"], p["its2_nearest_species"], p["country"])
-                  for p in pairs if p["genes_agree"] == "no")
+                  for p in conf if p["genes_agree"] == "no")
     for (lab, cdom, idom, ctry), n in dis.most_common(12):
         lines.append(f"  {n} x labelled {lab or '(unnamed)'} ({ctry}): COI groups with {cdom or '-'}, "
                      f"ITS2 nearest {idom or '-'}")

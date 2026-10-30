@@ -1,186 +1,194 @@
-specimen,coi_record,its2_record,label,coi_nn_other_batch,its2_nn_other_batch,coi_match,its2_match
-rhaif:iraqfarah3,QB213103.1,QB212998.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,no
-rhaif:iraqfarah2,QB213102.1,QB212997.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,no
-rhaif:iraqfarah1,QB213101.1,QB212996.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-rhaif:iraqfarah3,QB213103.1,QB208490.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,yes
-rhaif:iraqfarah2,QB213102.1,QB208489.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,yes
-rhaif:iraqfarah1,QB213101.1,QB208488.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,no
-mirza:te32_tetranychus_sp_tabuk,PX894988.1,PX912542.1,,Tetranychus evansi,Tetranychus truncatus,,
-mirza:te22_tetranychus_sp_baha,PX894987.1,PX912541.1,,Tetranychus pueraricola,Tetranychus urticae,,
-mirza:te21_tetranychus_evansi_baha,PX894986.1,PX912540.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-mirza:te2_tetranychus_evansi_almedina,PX894985.1,PX912539.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-mirza:te69_tetranychus_urticae_almedina,PX894984.1,PX912538.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te64_tetranychus_urticae_almedina,PX894983.1,PX912537.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te62_tetranychus_urticae_almedina,PX894982.1,PX912536.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te63_tetranychus_urticae_almedina,PX894981.1,PX912535.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te61_tetranychus_urticae_almedina,PX894980.1,PX912534.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te60_tetranychus_urticae_almedina,PX894979.1,PX912533.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te59_tetranychus_urticae_almedina,PX894978.1,PX912532.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te33_tetranychus_urticae_tabuk,PX894977.1,PX912531.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te24_tetranychus_urticae_tabuk,PX894976.1,PX912530.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te66_tetranychus_urticae_almedina,PX894975.1,PX912529.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,no
-mirza:te18_tetranychus_urticae_baha,PX894974.1,PX912528.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mirza:te16_tetranychus_urticae_baha,PX894973.1,PX912527.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,no
-mirza:te68_tetranychus_turkestani_almedina,PX894972.1,PX912526.1,Tetranychus turkestani,Tetranychus turkestani,Tetranychus turkestani,yes,yes
-mirza:te67_tetranychus_turkestani_almedina,PX894971.1,PX912525.1,Tetranychus turkestani,Tetranychus turkestani,Tetranychus turkestani,yes,yes
-mirza:te65_tetranychus_turkestani_almedina,PX894970.1,PX912524.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te31_tetranychus_turkestani_tabuk,PX894969.1,PX912523.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te30_tetranychus_turkestani_tabuk,PX894968.1,PX912522.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te15_tetranychus_turkestani_almedina,PX894967.1,PX912521.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te14_tetranychus_turkestani_almedina,PX894966.1,PX912520.1,Tetranychus turkestani,Tetranychus turkestani,Tetranychus turkestani,yes,yes
-mirza:te13_tetranychus_turkestani_almedina,PX894965.1,PX912519.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te12_tetranychus_turkestanialmedina,PX894964.1,PX912518.1,Tetranychus turkestani,Tetranychus turkestani,Tetranychus turkestani,yes,yes
-mirza:te11_tetranychus_turkestani_almedina,PX894963.1,PX912517.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te4_tetranychus_turkestani_almedina,PX894962.1,PX912516.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-mirza:te3_tetranychus_turkestani_almedina,PX894961.1,PX912515.1,Tetranychus turkestani,Tetranychus turkestani,Tetranychus turkestani,yes,yes
-mirza:te1_tetranychus_turkestani_almedina,PX894960.1,PX912514.1,Tetranychus turkestani,Tetranychus turkestani,Tetranychus turkestani,yes,yes
-zabeti:lab1,PX830483.1,PX830481.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mocchetti:teva4,PV776702.1,PV776659.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-mocchetti:teva2,PV776700.1,PV776658.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-mocchetti:teva3,PV776701.1,PV776657.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-mocchetti:teva1,PV776699.1,PV776656.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-mocchetti:tpie3,PV776697.1,PV776655.1,Tetranychus piercei,Tetranychus piercei,Tetranychus piercei,yes,yes
-mocchetti:tpie2,PV776696.1,PV776654.1,Tetranychus piercei,Tetranychus piercei,Tetranychus piercei,yes,yes
-mocchetti:tpie1,PV776695.1,PV776653.1,Tetranychus piercei,Tetranychus piercei,Tetranychus piercei,yes,yes
-mocchetti:tglo,PV776692.1,PV776652.1,Tetranychus gloveri,Tetranychus gloveri,Tetranychus piercei,yes,yes
-mocchetti:ttru2,PV776704.1,PV776651.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-mocchetti:ttru1,PV776703.1,PV776650.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-mocchetti:tpue,PV776698.1,PV776649.1,Tetranychus pueraricola,Tetranychus pueraricola,Tetranychus urticae,yes,no
-mocchetti:tkan2,PV776694.1,PV776648.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus kanzawai,yes,yes
-mocchetti:tkan1,PV776693.1,PV776647.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus kanzawai,yes,yes
-mocchetti:turt6,PV776691.1,PV776646.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mocchetti:turt5,PV776690.1,PV776645.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mocchetti:turt4,PV776689.1,PV776644.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mocchetti:turt3,PV776688.1,PV776643.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mocchetti:turt2,PV776687.1,PV776642.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-mocchetti:turt1,PV776686.1,PV776641.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_50595n,MW326502.1,MW682857.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_50594n,MW326501.1,MW682856.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_50593n,MW326500.1,MW682855.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_50592n,MW326499.1,MW682854.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_50591n,MW326498.1,MW682853.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_46845m,MW326497.1,MW682852.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_30838b,MW326496.1,MW682851.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_30837b,MW326495.1,MW682850.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_30836b,MW326494.1,MW682849.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_30834b,MW326493.1,MW682848.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_17304i,MW326490.1,MW682847.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_17303i,MW326489.1,MW682846.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_17302i,MW326488.1,MW682845.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-sharkey:fsca2019_57705o,MW326507.1,MW682844.1,Tetranychus desertorum,Tetranychus desertorum,Tetranychus ludeni,yes,no
-sharkey:fsca2019_57704o,MW326506.1,MW682843.1,Tetranychus desertorum,Tetranychus desertorum,Tetranychus ludeni,yes,no
-sharkey:fsca2019_57703o,MW326505.1,MW682842.1,Tetranychus desertorum,Tetranychus desertorum,Tetranychus ludeni,yes,no
-sharkey:fsca2019_57702o,MW326504.1,MW682841.1,Tetranychus desertorum,Tetranychus desertorum,Tetranychus ludeni,yes,no
-sharkey:fsca2019_57701o,MW326503.1,MW682840.1,Tetranychus desertorum,Tetranychus desertorum,Tetranychus ludeni,yes,no
-sharkey:fsca2019_12691k,MW326486.1,MW682839.1,Tetranychus ludeni,Tetranychus ludeni,Tetranychus ludeni,yes,yes
-sharkey:fsca2019_18172j,MW326463.1,MW682838.1,,Tetranychus merganser,Tetranychus urticae,,
-sharkey:fsca2019_18171j,MW326462.1,MW682837.1,,Tetranychus merganser,Tetranychus urticae,,
-sharkey:fsca2019_18391h,MW326479.1,MW682836.1,Tetranychus gloveri,Tetranychus gloveri,Tetranychus okinawanus,yes,no
-sharkey:fsca2019_33257a,MW326484.1,MW682835.1,Tetranychus gloveri,Tetranychus gloveri,Tetranychus okinawanus,yes,no
-sharkey:fsca2019_12615d,MW326478.1,MW682834.1,Tetranychus tumidellus,Tetranychus tumidellus,Tetranychus okinawanus,yes,no
-sharkey:fsca2019_12613d,MW326476.1,MW682833.1,Tetranychus tumidellus,Tetranychus tumidellus,Tetranychus okinawanus,yes,no
-sharkey:fsca2019_12612d,MW326475.1,MW682832.1,Tetranychus tumidellus,Tetranychus tumidellus,Tetranychus okinawanus,yes,no
-srinivas:uasb2869,MW940975.1,MW940974.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus macfarlanei,no,no
-srinivas:uasb2854,MW940979.1,MW940973.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-srinivas:uasb2861,MW940978.1,MW940971.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-srinivas:uasb2860,MW945398.1,MW940970.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-inak:ka,MW535080.1,MW534222.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-inak:kc,MW535081.1,MW534221.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-inak:nalt1,MW535082.1,MW534220.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus urticae,no,no
-inak:nalt3,MW535084.1,MW534219.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus urticae,no,no
-inak:nalt2,MW535083.1,MW534218.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus urticae,no,no
-inak:nkust2,MW535085.1,MW534217.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus urticae,no,no
-inak:nkust4,MW535086.1,MW534216.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus urticae,no,no
-srinivas:uasb2610b,MT449777.1,MT015706.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
-srinivas:uasb2623,MT484283.1,MN963777.1,Tetranychus fijiensis,Tetranychus fijiensis,Tetranychus fijiensis,yes,yes
-srinivas:uasb2595,MT457523.1,MN963775.1,Tetranychus puschelii,Tetranychus puschelii,Tetranychus truncatus,yes,no
-pooja:uasb2414a,MK627523.1,MK559750.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-pooja:uasb2410,MK627524.1,MK559748.1,Tetranychus udaipurensis,Tetranychus udaipurensis,Tetranychus neocaledonicus,yes,no
-pooja:uasb2173,MK627522.1,MK559747.1,Tetranychus okinawanus,Tetranychus okinawanus,Tetranychus gloveri,yes,no
-srinivas:uasb2338,MH675878.1,MH507501.1,Tetranychus udaipurensis,Tetranychus udaipurensis,Tetranychus neocaledonicus,yes,
-srinivas:uasb2173,MF459614.1,MF459615.1,Tetranychus okinawanus,Tetranychus gloveri,Tetranychus gloveri,no,no
-srinivas:uasb2149,MF351873.1,MF351874.1,Tetranychus kanzawai,Tetranychus kanzawai,,yes,
-perez-sayas:mallorca,KU342805.1,KP642053.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-srinivas:uasb2110,KY419529.1,KY319389.1,Tetranychus lombardinii,Tetranychus lombardinii,Tetranychus lombardinii,yes,yes
-srinivas:uasb1948,KX510048.1,KX437749.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-srinivas:uasb1925,KX171197.1,KU641560.1,Tetranychus macfarlanei,Tetranychus macfarlanei,Tetranychus macfarlanei,yes,yes
-bennur:vcu1,KR260201.1,KT070711.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-bennur:ec1,KR297226.1,KR297223.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-ge:shihezig,KF544953.1,KF544955.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-ge:nanjingg,KF544952.1,KF544954.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-matsuda:tur0174,AB736081.1,AB736038.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-matsuda:tur0173,AB736080.1,AB736037.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-matsuda:tur0171,AB736079.1,AB736036.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-matsuda:tug0188,AB736078.1,AB736035.1,Tetranychus urticae,Tetranychus urticae,Tetranychus turkestani,yes,no
-matsuda:tug0185,AB736077.1,AB736034.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-matsuda:tug0181,AB736076.1,AB736033.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-matsuda:ttr0195,AB736075.1,AB736032.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-matsuda:ttr0196,AB736074.1,AB736031.1,Tetranychus truncatus,Tetranychus truncatus,Tetranychus truncatus,yes,yes
-matsuda:tpu0204,AB736073.1,AB736030.1,Tetranychus pueraricola,,Tetranychus pueraricola,,yes
-matsuda:tpu0205,AB736072.1,AB736029.1,Tetranychus pueraricola,,Tetranychus pueraricola,,yes
-matsuda:tpu0203,AB736071.1,AB736028.1,Tetranychus pueraricola,,Tetranychus pueraricola,,yes
-matsuda:tpi0397,AB736070.1,AB736027.1,Tetranychus piercei,Tetranychus piercei,Tetranychus piercei,yes,yes
-matsuda:tpi0063,AB736069.1,AB736026.1,Tetranychus piercei,Tetranychus piercei,Tetranychus piercei,yes,yes
-matsuda:tpi0014,AB736068.1,AB736025.1,Tetranychus piercei,Tetranychus piercei,Tetranychus piercei,yes,yes
-matsuda:tph0338,AB736067.1,AB736024.1,Tetranychus phaselus,Tetranychus phaselus,Tetranychus phaselus,yes,yes
-matsuda:tph0191,AB736066.1,AB736023.1,Tetranychus phaselus,Tetranychus phaselus,Tetranychus phaselus,yes,yes
-matsuda:tpa0339,AB736065.1,AB736022.1,Tetranychus parakanzawai,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tpa0365,AB736064.1,AB736021.1,Tetranychus parakanzawai,Tetranychus kanzawai,Tetranychus kanzawai,no,no
-matsuda:tpa0030,AB736063.1,AB736020.1,Tetranychus parakanzawai,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tpa0256,AB736062.1,AB736019.1,Tetranychus parakanzawai,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tpa0051,AB736061.1,AB736018.1,Tetranychus parakanzawai,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tpa0155,AB736060.1,AB736017.1,Tetranychus parakanzawai,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tok0373,AB736059.1,AB736016.1,Tetranychus okinawanus,Tetranychus gloveri,Tetranychus okinawanus,no,yes
-matsuda:tok0208,AB736058.1,AB736015.1,Tetranychus okinawanus,Tetranychus gloveri,Tetranychus okinawanus,no,yes
-matsuda:tne0008,AB736057.1,AB736014.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
-matsuda:tne0003,AB736056.1,AB736013.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
-matsuda:tne0192,AB736055.1,AB736012.1,Tetranychus neocaledonicus,Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
-matsuda:tmi0218,AB736054.1,AB736011.1,Tetranychus misumaiensis,,Tetranychus urticae,,no
-matsuda:tlu0275,AB736053.1,AB736010.1,Tetranychus ludeni,Tetranychus ludeni,Tetranychus ludeni,yes,yes
-matsuda:tlu0017,AB736052.1,AB736009.1,Tetranychus ludeni,Tetranychus ludeni,Tetranychus ludeni,yes,yes
-matsuda:tlu0189,AB736051.1,AB736008.1,Tetranychus ludeni,Tetranychus ludeni,Tetranychus ludeni,yes,yes
-matsuda:teka0385,AB736050.1,AB736007.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:teka0250,AB736049.1,AB736006.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tka0249,AB736048.1,AB736005.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tka0247,AB736047.1,AB736004.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tka0010,AB736046.1,AB736003.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tka0166,AB736045.1,AB736002.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tka0159,AB736044.1,AB736001.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tka0158,AB736043.1,AB736000.1,Tetranychus kanzawai,Tetranychus kanzawai,Tetranychus urticae,yes,no
-matsuda:tez0281,AB736042.1,AB735999.1,Tetranychus ezoensis,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tez0207,AB736041.1,AB735998.1,Tetranychus ezoensis,Tetranychus kanzawai,Tetranychus urticae,no,no
-matsuda:tev0211,AB736040.1,AB735997.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-matsuda:tev0210,AB736039.1,AB735996.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-de mendonca:175_1brazil,HM565908.1,HM565890.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:13_1greece,HM565907.1,HM565889.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:128_2canary,HM565906.1,HM565888.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:119_3canary,HM565905.1,HM565887.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:119_2canary,HM565904.1,HM565886.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:116_2canary,HM565903.1,HM565885.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:97_1canary,HM565902.1,HM565884.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:43_1spain,HM565901.1,HM565883.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:ejspain,HM565900.1,HM565882.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:42_1spain,HM565899.1,HM565881.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:41_2spain,HM565898.1,HM565880.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:120_1france,HM565897.1,HM565879.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:116_2france,HM565896.1,HM565878.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:24_3france,HM565895.1,HM565877.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:8_2_07spain,HM565894.1,HM565876.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:12_1france,HM565893.1,HM565875.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:6_1france,HM565892.1,HM565874.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-de mendonca:reffrance,HM565891.1,HM565873.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-boubou:sanmigueldetucuman,GU145107.1,GU145105.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-gotoh:tw,FJ440677.1,FJ440674.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-gotoh:bp,FJ440675.1,FJ440673.1,Tetranychus evansi,Tetranychus evansi,Tetranychus evansi,yes,yes
-hong:njauacariteka0405fj01,GQ141911.1,GQ141928.1,Tetranychus kanzawai,Tetranychus ludeni,Tetranychus ludeni,no,no
-hong:njauacaritetu0808xj01,GQ141913.1,GQ141927.1,Tetranychus turkestani,Tetranychus urticae,Tetranychus turkestani,no,yes
-hong:njauacaritetr0808xj01,GQ141912.1,GQ141926.1,Tetranychus truncatus,Tetranychus urticae,Tetranychus truncatus,no,yes
-hong:njauacariteur0808gs01,GQ141909.1,GQ141924.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-hong:njauacariteur0808sd01,GQ141908.1,GQ141923.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-hong:njauacariteci0808hen01,GQ141906.1,GQ141922.1,Tetranychus urticae,Tetranychus truncatus,Tetranychus truncatus,no,no
-hong:njauacariteci0808yn01,GQ141907.1,GQ141921.1,Tetranychus urticae,Tetranychus urticae,Tetranychus urticae,yes,yes
-navajas:ibaraki,X99875.1,X99883.1,Tetranychus viennensis,Tetranychus viennensis,Tetranychus viennensis,yes,yes
-navajas:montpellier,X80861.1,X99882.1,Tetranychus viennensis,Tetranychus viennensis,Tetranychus viennensis,yes,yes
-navajas:davis,X80858.1,X99879.1,Tetranychus pacificus,Tetranychus turkestani,Tetranychus pacificus,no,yes
-navajas:cotonou,X80859.1,X99878.1,Tetranychus neocaledonicus,Tetranychus udaipurensis,Tetranychus neocaledonicus,no,yes
-navajas:verzeney,X80857.1,X99877.1,Tetranychus mcdanieli,Tetranychus urticae,Tetranychus pacificus,no,no
+specimen,coi_record,its2_record,link,confident,label,coi_batch,coi_nn_other_batch,its2_nn_other_batch,coi_match,its2_match
+bennur:ec1,KR297226.1,KR297223.1,one-to-one,yes,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+bennur:vcu1,KR260201.1,KT070711.1,one-to-one,yes,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+boubou:sanmigueldetucuman,GU145107.1,GU145105.1,one-to-one,yes,Tetranychus evansi,"boubou,a.|2009",Tetranychus evansi,Tetranychus evansi,yes,yes
+de mendonca:116_2canary,HM565903.1,HM565885.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:116_2france,HM565896.1,HM565878.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:119_2canary,HM565904.1,HM565886.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:119_3canary,HM565905.1,HM565887.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:120_1france,HM565897.1,HM565879.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:128_2canary,HM565906.1,HM565888.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:12_1france,HM565893.1,HM565875.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:13_1greece,HM565907.1,HM565889.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:175_1brazil,HM565908.1,HM565890.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:24_3france,HM565895.1,HM565877.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:41_2spain,HM565898.1,HM565880.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:42_1spain,HM565899.1,HM565881.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:43_1spain,HM565901.1,HM565883.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:6_1france,HM565892.1,HM565874.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:8_2_07spain,HM565894.1,HM565876.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:97_1canary,HM565902.1,HM565884.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:ejspain,HM565900.1,HM565882.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+de mendonca:reffrance,HM565891.1,HM565873.1,one-to-one,yes,Tetranychus urticae,"mendonca,r.s.|2010",Tetranychus urticae,Tetranychus urticae,yes,yes
+ge:nanjingg,KF544952.1,KF544954.1,one-to-one,yes,Tetranychus urticae,"ge,c.|2013",Tetranychus urticae,Tetranychus urticae,yes,yes
+ge:shihezig,KF544953.1,KF544955.1,one-to-one,yes,Tetranychus urticae,"ge,c.|2013",Tetranychus urticae,Tetranychus urticae,yes,yes
+gotoh:bp,FJ440675.1,FJ440673.1,one-to-one,yes,Tetranychus evansi,"boubou,a.|2008",Tetranychus evansi,Tetranychus evansi,yes,yes
+gotoh:tw,FJ440677.1,FJ440674.1,one-to-one,yes,Tetranychus evansi,"boubou,a.|2008",Tetranychus evansi,Tetranychus evansi,yes,yes
+hong:njauacariteci0808hen01,GQ141906.1,GQ141922.1,one-to-one,yes,Tetranychus urticae,"hong,x.-y.|2009",Tetranychus truncatus,Tetranychus truncatus,no,no
+hong:njauacariteci0808yn01,GQ141907.1,GQ141921.1,one-to-one,yes,Tetranychus urticae,"hong,x.-y.|2009",Tetranychus urticae,Tetranychus urticae,yes,yes
+hong:njauacariteka0405fj01,GQ141911.1,GQ141928.1,one-to-one,yes,Tetranychus kanzawai,"hong,x.-y.|2009",Tetranychus ludeni,Tetranychus ludeni,no,no
+hong:njauacaritetr0808xj01,GQ141912.1,GQ141926.1,one-to-one,yes,Tetranychus truncatus,"hong,x.-y.|2009",Tetranychus urticae,Tetranychus truncatus,no,yes
+hong:njauacaritetu0808xj01,GQ141913.1,GQ141927.1,one-to-one,yes,Tetranychus turkestani,"hong,x.-y.|2009",Tetranychus urticae,Tetranychus turkestani,no,yes
+hong:njauacariteur0808gs01,GQ141909.1,GQ141924.1,one-to-one,yes,Tetranychus urticae,"hong,x.-y.|2009",Tetranychus urticae,Tetranychus urticae,yes,yes
+hong:njauacariteur0808sd01,GQ141908.1,GQ141923.1,one-to-one,yes,Tetranychus urticae,"hong,x.-y.|2009",Tetranychus urticae,Tetranychus urticae,yes,yes
+inak:ka,MW535080.1,MW534222.1,"ambiguous (2 COI, 1 ITS2 records)",no,Tetranychus urticae,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+inak:ka,MW542505.1,MW534222.1,"ambiguous (2 COI, 1 ITS2 records)",no,Tetranychus urticae,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+inak:kc,MW535081.1,MW534221.1,"ambiguous (2 COI, 1 ITS2 records)",no,Tetranychus urticae,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+inak:kc,MW542506.1,MW534221.1,"ambiguous (2 COI, 1 ITS2 records)",no,Tetranychus urticae,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+inak:nalt1,MW535082.1,MW534220.1,one-to-one,yes,Tetranychus turkestani,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,no,no
+inak:nalt2,MW535083.1,MW534218.1,one-to-one,yes,Tetranychus turkestani,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,no,no
+inak:nalt3,MW535084.1,MW534219.1,one-to-one,yes,Tetranychus turkestani,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,no,no
+inak:nkust2,MW535085.1,MW534217.1,one-to-one,yes,Tetranychus turkestani,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,no,no
+inak:nkust4,MW535086.1,MW534216.1,one-to-one,yes,Tetranychus turkestani,"inak,e.|2021",Tetranychus urticae,Tetranychus urticae,no,no
+matsuda:teka0250,AB736049.1,AB736006.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:teka0385,AB736050.1,AB736007.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tev0210,AB736039.1,AB735996.1,one-to-one,yes,Tetranychus evansi,"matsuda,t.|2012",Tetranychus evansi,Tetranychus evansi,yes,yes
+matsuda:tev0211,AB736040.1,AB735997.1,one-to-one,yes,Tetranychus evansi,"matsuda,t.|2012",Tetranychus evansi,Tetranychus evansi,yes,yes
+matsuda:tez0207,AB736041.1,AB735998.1,one-to-one,yes,Tetranychus ezoensis,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tez0281,AB736042.1,AB735999.1,one-to-one,yes,Tetranychus ezoensis,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tka0010,AB736046.1,AB736003.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tka0158,AB736043.1,AB736000.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tka0159,AB736044.1,AB736001.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tka0166,AB736045.1,AB736002.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tka0247,AB736047.1,AB736004.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tka0249,AB736048.1,AB736005.1,one-to-one,yes,Tetranychus kanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,yes,no
+matsuda:tlu0017,AB736052.1,AB736009.1,one-to-one,yes,Tetranychus ludeni,"matsuda,t.|2012",Tetranychus ludeni,Tetranychus ludeni,yes,yes
+matsuda:tlu0189,AB736051.1,AB736008.1,one-to-one,yes,Tetranychus ludeni,"matsuda,t.|2012",Tetranychus ludeni,Tetranychus ludeni,yes,yes
+matsuda:tlu0275,AB736053.1,AB736010.1,one-to-one,yes,Tetranychus ludeni,"matsuda,t.|2012",Tetranychus ludeni,Tetranychus ludeni,yes,yes
+matsuda:tmi0218,AB736054.1,AB736011.1,one-to-one,yes,Tetranychus misumaiensis,"matsuda,t.|2012",,Tetranychus urticae,,no
+matsuda:tne0003,AB736056.1,AB736013.1,one-to-one,yes,Tetranychus neocaledonicus,"matsuda,t.|2012",Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
+matsuda:tne0008,AB736057.1,AB736014.1,one-to-one,yes,Tetranychus neocaledonicus,"matsuda,t.|2012",Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
+matsuda:tne0192,AB736055.1,AB736012.1,one-to-one,yes,Tetranychus neocaledonicus,"matsuda,t.|2012",Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
+matsuda:tok0208,AB736058.1,AB736015.1,one-to-one,yes,Tetranychus okinawanus,"matsuda,t.|2012",Tetranychus gloveri,Tetranychus okinawanus,no,yes
+matsuda:tok0373,AB736059.1,AB736016.1,one-to-one,yes,Tetranychus okinawanus,"matsuda,t.|2012",Tetranychus gloveri,Tetranychus okinawanus,no,yes
+matsuda:tpa0030,AB736063.1,AB736020.1,one-to-one,yes,Tetranychus parakanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tpa0051,AB736061.1,AB736018.1,one-to-one,yes,Tetranychus parakanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tpa0155,AB736060.1,AB736017.1,one-to-one,yes,Tetranychus parakanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tpa0256,AB736062.1,AB736019.1,one-to-one,yes,Tetranychus parakanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tpa0339,AB736065.1,AB736022.1,one-to-one,yes,Tetranychus parakanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus urticae,no,no
+matsuda:tpa0365,AB736064.1,AB736021.1,one-to-one,yes,Tetranychus parakanzawai,"matsuda,t.|2012",Tetranychus kanzawai,Tetranychus kanzawai,no,no
+matsuda:tph0191,AB736066.1,AB736023.1,one-to-one,yes,Tetranychus phaselus,"matsuda,t.|2012",Tetranychus phaselus,Tetranychus phaselus,yes,yes
+matsuda:tph0338,AB736067.1,AB736024.1,one-to-one,yes,Tetranychus phaselus,"matsuda,t.|2012",Tetranychus phaselus,Tetranychus phaselus,yes,yes
+matsuda:tpi0014,AB736068.1,AB736025.1,one-to-one,yes,Tetranychus piercei,"matsuda,t.|2012",Tetranychus piercei,Tetranychus piercei,yes,yes
+matsuda:tpi0063,AB736069.1,AB736026.1,one-to-one,yes,Tetranychus piercei,"matsuda,t.|2012",Tetranychus piercei,Tetranychus piercei,yes,yes
+matsuda:tpi0397,AB736070.1,AB736027.1,one-to-one,yes,Tetranychus piercei,"matsuda,t.|2012",Tetranychus piercei,Tetranychus piercei,yes,yes
+matsuda:tpu0203,AB736071.1,AB736028.1,one-to-one,yes,Tetranychus pueraricola,"matsuda,t.|2012",,Tetranychus pueraricola,,yes
+matsuda:tpu0204,AB736073.1,AB736030.1,one-to-one,yes,Tetranychus pueraricola,"matsuda,t.|2012",,Tetranychus pueraricola,,yes
+matsuda:tpu0205,AB736072.1,AB736029.1,one-to-one,yes,Tetranychus pueraricola,"matsuda,t.|2012",,Tetranychus pueraricola,,yes
+matsuda:ttr0195,AB736075.1,AB736032.1,one-to-one,yes,Tetranychus truncatus,"matsuda,t.|2012",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+matsuda:ttr0196,AB736074.1,AB736031.1,one-to-one,yes,Tetranychus truncatus,"matsuda,t.|2012",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+matsuda:tug0181,AB736076.1,AB736033.1,one-to-one,yes,Tetranychus urticae,"matsuda,t.|2012",Tetranychus urticae,Tetranychus urticae,yes,yes
+matsuda:tug0185,AB736077.1,AB736034.1,one-to-one,yes,Tetranychus urticae,"matsuda,t.|2012",Tetranychus urticae,Tetranychus urticae,yes,yes
+matsuda:tug0188,AB736078.1,AB736035.1,one-to-one,yes,Tetranychus urticae,"matsuda,t.|2012",Tetranychus urticae,Tetranychus turkestani,yes,no
+matsuda:tur0171,AB736079.1,AB736036.1,one-to-one,yes,Tetranychus urticae,"matsuda,t.|2012",Tetranychus urticae,Tetranychus urticae,yes,yes
+matsuda:tur0173,AB736080.1,AB736037.1,one-to-one,yes,Tetranychus urticae,"matsuda,t.|2012",Tetranychus urticae,Tetranychus urticae,yes,yes
+matsuda:tur0174,AB736081.1,AB736038.1,one-to-one,yes,Tetranychus urticae,"matsuda,t.|2012",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te11_tetranychus_turkestani_almedina,PX894963.1,PX912517.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te12_tetranychus_turkestanialmedina,PX894964.1,PX912518.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus turkestani,Tetranychus turkestani,yes,yes
+mirza:te13_tetranychus_turkestani_almedina,PX894965.1,PX912519.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te14_tetranychus_turkestani_almedina,PX894966.1,PX912520.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus turkestani,Tetranychus turkestani,yes,yes
+mirza:te15_tetranychus_turkestani_almedina,PX894967.1,PX912521.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te16_tetranychus_urticae_baha,PX894973.1,PX912527.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,yes,no
+mirza:te18_tetranychus_urticae_baha,PX894974.1,PX912528.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te1_tetranychus_turkestani_almedina,PX894960.1,PX912514.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus turkestani,Tetranychus turkestani,yes,yes
+mirza:te21_tetranychus_evansi_baha,PX894986.1,PX912540.1,one-to-one,yes,Tetranychus evansi,"mirza,j.h.|2026",Tetranychus evansi,Tetranychus evansi,yes,yes
+mirza:te22_tetranychus_sp_baha,PX894987.1,PX912541.1,one-to-one,yes,,"mirza,j.h.|2026",Tetranychus pueraricola,Tetranychus urticae,,
+mirza:te24_tetranychus_urticae_tabuk,PX894976.1,PX912530.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te2_tetranychus_evansi_almedina,PX894985.1,PX912539.1,one-to-one,yes,Tetranychus evansi,"mirza,j.h.|2026",Tetranychus evansi,Tetranychus evansi,yes,yes
+mirza:te30_tetranychus_turkestani_tabuk,PX894968.1,PX912522.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te31_tetranychus_turkestani_tabuk,PX894969.1,PX912523.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te32_tetranychus_sp_tabuk,PX894988.1,PX912542.1,one-to-one,yes,,"mirza,j.h.|2026",Tetranychus evansi,Tetranychus truncatus,,
+mirza:te33_tetranychus_urticae_tabuk,PX894977.1,PX912531.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te3_tetranychus_turkestani_almedina,PX894961.1,PX912515.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus turkestani,Tetranychus turkestani,yes,yes
+mirza:te4_tetranychus_turkestani_almedina,PX894962.1,PX912516.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te59_tetranychus_urticae_almedina,PX894978.1,PX912532.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te60_tetranychus_urticae_almedina,PX894979.1,PX912533.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te61_tetranychus_urticae_almedina,PX894980.1,PX912534.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te62_tetranychus_urticae_almedina,PX894982.1,PX912536.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te63_tetranychus_urticae_almedina,PX894981.1,PX912535.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te64_tetranychus_urticae_almedina,PX894983.1,PX912537.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mirza:te65_tetranychus_turkestani_almedina,PX894970.1,PX912524.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,no,yes
+mirza:te66_tetranychus_urticae_almedina,PX894975.1,PX912529.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus turkestani,yes,no
+mirza:te67_tetranychus_turkestani_almedina,PX894971.1,PX912525.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus turkestani,Tetranychus turkestani,yes,yes
+mirza:te68_tetranychus_turkestani_almedina,PX894972.1,PX912526.1,one-to-one,yes,Tetranychus turkestani,"mirza,j.h.|2026",Tetranychus turkestani,Tetranychus turkestani,yes,yes
+mirza:te69_tetranychus_urticae_almedina,PX894984.1,PX912538.1,one-to-one,yes,Tetranychus urticae,"mirza,j.h.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+mocchetti:teva1,PV776699.1,PV776656.1,one-to-one,yes,Tetranychus evansi,"mocchetti,a.|2025",Tetranychus evansi,Tetranychus evansi,yes,yes
+mocchetti:teva2,PV776700.1,PV776658.1,one-to-one,yes,Tetranychus evansi,"mocchetti,a.|2025",Tetranychus evansi,Tetranychus evansi,yes,yes
+mocchetti:teva3,PV776701.1,PV776657.1,one-to-one,yes,Tetranychus evansi,"mocchetti,a.|2025",Tetranychus evansi,Tetranychus evansi,yes,yes
+mocchetti:teva4,PV776702.1,PV776659.1,one-to-one,yes,Tetranychus evansi,"mocchetti,a.|2025",Tetranychus evansi,Tetranychus evansi,yes,yes
+mocchetti:tglo,PV776692.1,PV776652.1,one-to-one,no,Tetranychus gloveri,"mocchetti,a.|2025",Tetranychus gloveri,Tetranychus piercei,yes,yes
+mocchetti:tkan1,PV776693.1,PV776647.1,one-to-one,yes,Tetranychus kanzawai,"mocchetti,a.|2025",Tetranychus kanzawai,Tetranychus kanzawai,yes,yes
+mocchetti:tkan2,PV776694.1,PV776648.1,one-to-one,yes,Tetranychus kanzawai,"mocchetti,a.|2025",Tetranychus kanzawai,Tetranychus kanzawai,yes,yes
+mocchetti:tpie1,PV776695.1,PV776653.1,one-to-one,yes,Tetranychus piercei,"mocchetti,a.|2025",Tetranychus piercei,Tetranychus piercei,yes,yes
+mocchetti:tpie2,PV776696.1,PV776654.1,one-to-one,yes,Tetranychus piercei,"mocchetti,a.|2025",Tetranychus piercei,Tetranychus piercei,yes,yes
+mocchetti:tpie3,PV776697.1,PV776655.1,one-to-one,yes,Tetranychus piercei,"mocchetti,a.|2025",Tetranychus piercei,Tetranychus piercei,yes,yes
+mocchetti:tpue,PV776698.1,PV776649.1,one-to-one,yes,Tetranychus pueraricola,"mocchetti,a.|2025",Tetranychus pueraricola,Tetranychus urticae,yes,no
+mocchetti:ttru1,PV776703.1,PV776650.1,one-to-one,yes,Tetranychus truncatus,"mocchetti,a.|2025",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+mocchetti:ttru2,PV776704.1,PV776651.1,one-to-one,yes,Tetranychus truncatus,"mocchetti,a.|2025",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+mocchetti:turt1,PV776686.1,PV776641.1,one-to-one,yes,Tetranychus urticae,"mocchetti,a.|2025",Tetranychus urticae,Tetranychus urticae,yes,yes
+mocchetti:turt2,PV776687.1,PV776642.1,one-to-one,yes,Tetranychus urticae,"mocchetti,a.|2025",Tetranychus urticae,Tetranychus urticae,yes,yes
+mocchetti:turt3,PV776688.1,PV776643.1,one-to-one,yes,Tetranychus urticae,"mocchetti,a.|2025",Tetranychus urticae,Tetranychus urticae,yes,yes
+mocchetti:turt4,PV776689.1,PV776644.1,one-to-one,yes,Tetranychus urticae,"mocchetti,a.|2025",Tetranychus urticae,Tetranychus urticae,yes,yes
+mocchetti:turt5,PV776690.1,PV776645.1,one-to-one,yes,Tetranychus urticae,"mocchetti,a.|2025",Tetranychus urticae,Tetranychus urticae,yes,yes
+mocchetti:turt6,PV776691.1,PV776646.1,one-to-one,yes,Tetranychus urticae,"mocchetti,a.|2025",Tetranychus urticae,Tetranychus urticae,yes,yes
+navajas:cotonou,X80859.1,X99878.1,one-to-one,yes,Tetranychus neocaledonicus,"navajas,m.|1994",Tetranychus udaipurensis,Tetranychus neocaledonicus,no,yes
+navajas:davis,X80858.1,X99879.1,one-to-one,yes,Tetranychus pacificus,"navajas,m.|1994",Tetranychus turkestani,Tetranychus pacificus,no,yes
+navajas:ibaraki,X99875.1,X99883.1,one-to-one,yes,Tetranychus viennensis,"navajas,m.|1996",Tetranychus viennensis,Tetranychus viennensis,yes,yes
+navajas:montpellier,X80861.1,X99882.1,one-to-one,yes,Tetranychus viennensis,"navajas,m.|1994",Tetranychus viennensis,Tetranychus viennensis,yes,yes
+navajas:verzeney,X80857.1,X99877.1,one-to-one,yes,Tetranychus mcdanieli,"navajas,m.|1994",Tetranychus urticae,Tetranychus pacificus,no,no
+perez-sayas:mallorca,KU342805.1,KP642053.1,one-to-one,yes,Tetranychus urticae,"perez-sayas,c.|2015",Tetranychus urticae,Tetranychus urticae,yes,yes
+pooja:uasb2173,MK627522.1,MK559747.1,one-to-one,yes,Tetranychus okinawanus,"pooja,m.|2019",Tetranychus okinawanus,Tetranychus gloveri,yes,no
+pooja:uasb2410,MK627524.1,MK559748.1,one-to-one,yes,Tetranychus udaipurensis,"pooja,m.|2019",Tetranychus udaipurensis,Tetranychus neocaledonicus,yes,no
+pooja:uasb2414a,MK627523.1,MK559750.1,one-to-one,yes,Tetranychus truncatus,"pooja,m.|2019",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+rhaif:iraqfarah1,QB213101.1,QB212996.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+rhaif:iraqfarah1,QB213101.1,QB208488.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus urticae,yes,no
+rhaif:iraqfarah1,QB207899.1,QB212996.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes
+rhaif:iraqfarah1,QB207899.1,QB208488.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus urticae,yes,no
+rhaif:iraqfarah2,QB213102.1,QB212997.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus turkestani,yes,no
+rhaif:iraqfarah2,QB213102.1,QB208489.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus turkestani,yes,yes
+rhaif:iraqfarah2,QB207900.1,QB212997.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus turkestani,Tetranychus turkestani,no,no
+rhaif:iraqfarah2,QB207900.1,QB208489.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus turkestani,Tetranychus turkestani,no,yes
+rhaif:iraqfarah3,QB213103.1,QB212998.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus turkestani,yes,no
+rhaif:iraqfarah3,QB213103.1,QB208490.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus urticae,Tetranychus turkestani,yes,yes
+rhaif:iraqfarah3,QB207901.1,QB212998.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus turkestani,Tetranychus turkestani,no,no
+rhaif:iraqfarah3,QB207901.1,QB208490.1,"ambiguous (2 COI, 2 ITS2 records)",no,Tetranychus urticae,"rhaif,f.s.|2026",Tetranychus turkestani,Tetranychus turkestani,no,yes
+sharkey:fsca2019_12612d,MW326475.1,MW682832.1,one-to-one,yes,Tetranychus tumidellus,"moore,m.r.|2020",Tetranychus tumidellus,Tetranychus okinawanus,yes,no
+sharkey:fsca2019_12613d,MW326476.1,MW682833.1,one-to-one,yes,Tetranychus tumidellus,"moore,m.r.|2020",Tetranychus tumidellus,Tetranychus okinawanus,yes,no
+sharkey:fsca2019_12615d,MW326478.1,MW682834.1,one-to-one,yes,Tetranychus tumidellus,"moore,m.r.|2020",Tetranychus tumidellus,Tetranychus okinawanus,yes,no
+sharkey:fsca2019_12691k,MW326486.1,MW682839.1,one-to-one,yes,Tetranychus ludeni,"moore,m.r.|2020",Tetranychus ludeni,Tetranychus ludeni,yes,yes
+sharkey:fsca2019_17302i,MW326488.1,MW682845.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_17303i,MW326489.1,MW682846.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_17304i,MW326490.1,MW682847.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_18171j,MW326462.1,MW682837.1,one-to-one,yes,,"moore,m.r.|2020",Tetranychus merganser,Tetranychus urticae,,
+sharkey:fsca2019_18172j,MW326463.1,MW682838.1,one-to-one,yes,,"moore,m.r.|2020",Tetranychus merganser,Tetranychus urticae,,
+sharkey:fsca2019_18391h,MW326479.1,MW682836.1,one-to-one,yes,Tetranychus gloveri,"moore,m.r.|2020",Tetranychus gloveri,Tetranychus okinawanus,yes,no
+sharkey:fsca2019_30834b,MW326493.1,MW682848.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_30836b,MW326494.1,MW682849.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_30837b,MW326495.1,MW682850.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_30838b,MW326496.1,MW682851.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_33257a,MW326484.1,MW682835.1,one-to-one,yes,Tetranychus gloveri,"moore,m.r.|2020",Tetranychus gloveri,Tetranychus okinawanus,yes,no
+sharkey:fsca2019_46845m,MW326497.1,MW682852.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_50591n,MW326498.1,MW682853.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_50592n,MW326499.1,MW682854.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_50593n,MW326500.1,MW682855.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_50594n,MW326501.1,MW682856.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_50595n,MW326502.1,MW682857.1,one-to-one,yes,Tetranychus urticae,"moore,m.r.|2020",Tetranychus urticae,Tetranychus urticae,yes,yes
+sharkey:fsca2019_57701o,MW326503.1,MW682840.1,one-to-one,yes,Tetranychus desertorum,"moore,m.r.|2020",Tetranychus desertorum,Tetranychus ludeni,yes,no
+sharkey:fsca2019_57702o,MW326504.1,MW682841.1,one-to-one,yes,Tetranychus desertorum,"moore,m.r.|2020",Tetranychus desertorum,Tetranychus ludeni,yes,no
+sharkey:fsca2019_57703o,MW326505.1,MW682842.1,one-to-one,yes,Tetranychus desertorum,"moore,m.r.|2020",Tetranychus desertorum,Tetranychus ludeni,yes,no
+sharkey:fsca2019_57704o,MW326506.1,MW682843.1,one-to-one,yes,Tetranychus desertorum,"moore,m.r.|2020",Tetranychus desertorum,Tetranychus ludeni,yes,no
+sharkey:fsca2019_57705o,MW326507.1,MW682844.1,one-to-one,yes,Tetranychus desertorum,"moore,m.r.|2020",Tetranychus desertorum,Tetranychus ludeni,yes,no
+srinivas:uasb1925,KX171197.1,KU641560.1,one-to-one,yes,Tetranychus macfarlanei,"srinivas,n.|2016",Tetranychus macfarlanei,Tetranychus macfarlanei,yes,yes
+srinivas:uasb1948,KX510048.1,KX437749.1,one-to-one,yes,Tetranychus truncatus,"srinivas,n.|2016",Tetranychus truncatus,Tetranychus truncatus,yes,yes
+srinivas:uasb2110,KY419529.1,KY319389.1,one-to-one,yes,Tetranychus lombardinii,"srinivas,n.|2016",Tetranychus lombardinii,Tetranychus lombardinii,yes,yes
+srinivas:uasb2149,MF351873.1,MF351874.1,one-to-one,yes,Tetranychus kanzawai,"srinivas,n.|2017",Tetranychus kanzawai,,yes,
+srinivas:uasb2173,MF459614.1,MF459615.1,one-to-one,yes,Tetranychus okinawanus,"srinivas,n.|2017",Tetranychus gloveri,Tetranychus gloveri,no,no
+srinivas:uasb2338,MH675878.1,MH507501.1,one-to-one,yes,Tetranychus udaipurensis,"srinivas,n.|2018",Tetranychus udaipurensis,Tetranychus neocaledonicus,yes,
+srinivas:uasb2595,MT457523.1,MN963775.1,one-to-one,yes,Tetranychus puschelii,"srinivas,n.|2020",Tetranychus puschelii,Tetranychus truncatus,yes,no
+srinivas:uasb2610b,MT449777.1,MT015706.1,one-to-one,yes,Tetranychus neocaledonicus,"srinivas,n.|2020",Tetranychus neocaledonicus,Tetranychus neocaledonicus,yes,yes
+srinivas:uasb2623,MT484283.1,MN963777.1,one-to-one,yes,Tetranychus fijiensis,"srinivas,n.|2020",Tetranychus fijiensis,Tetranychus fijiensis,yes,yes
+srinivas:uasb2854,MW940979.1,MW940973.1,one-to-one,yes,Tetranychus urticae,"srinivas,n.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+srinivas:uasb2860,MW945398.1,MW940970.1,one-to-one,yes,Tetranychus urticae,"srinivas,n.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+srinivas:uasb2861,MW940978.1,MW940971.1,one-to-one,yes,Tetranychus urticae,"srinivas,n.|2021",Tetranychus urticae,Tetranychus urticae,yes,yes
+srinivas:uasb2869,MW940975.1,MW940974.1,one-to-one,yes,Tetranychus turkestani,"srinivas,n.|2021",Tetranychus urticae,Tetranychus macfarlanei,no,no
+zabeti:lab1,PX830483.1,PX830481.1,one-to-one,yes,Tetranychus urticae,"zabeti,s.|2026",Tetranychus urticae,Tetranychus urticae,yes,yes

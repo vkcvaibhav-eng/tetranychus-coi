@@ -6,14 +6,18 @@ collapsed to unique haplotypes, aligned with MAFFT and analysed with IQ-TREE
 (maximum likelihood, ultrafast bootstrap). The tree is midpoint-rooted and
 checked for:
 
-- for each species name (after published synonymies): the largest clade
-  holding only that species (unnamed tips allowed), the share of the
-  species' records inside it, its bootstrap support, and the number of
-  other places its records fall;
+- for each species name (after published synonymies): the share of its
+  records in its exclusive clade and in its permissive group (below), with
+  bootstrap support;
 - the same for anchor specimens only (morphologically identified).
 
-A haplotype carried by records under several species names counts as a
-member of each of those species. Because midpoint rooting is arbitrary
+Two measures are reported for each species. The exclusive clade is the
+largest clade whose tips carry only that name (unnamed tips allowed); a
+haplotype carried by records under several names conflicts with every one of
+them. The permissive group lets such shared haplotypes count towards each of
+their names, so it measures how concentrated a species is, not whether it is
+exclusive; the number of records of other names inside it is reported.
+Because midpoint rooting is arbitrary
 without an outgroup, the largest group is also found without regard to the
 root: any group of tips cut off by one branch of the tree (a clade, or the
 complement of a clade) is accepted.
@@ -224,7 +228,13 @@ def main():
         for label, tipnames in (("all records", names), ("anchors only", anchors_in)):
             species = sorted({n for c in tipnames.values() for n in c if n})
             for sp in species:
-                def member(t, sp=sp, tipnames=tipnames):
+                def strict(t, sp=sp, tipnames=tipnames):
+                    # an exclusive member carries this species name and no other name
+                    named = {n for n in tipnames[t] if n}
+                    return named == {sp}
+
+                def shared(t, sp=sp, tipnames=tipnames):
+                    # permissive: any tip carrying the name, even if it also carries others
                     return bool(tipnames[t].get(sp))
 
                 def neutral(t, tipnames=tipnames):
@@ -232,26 +242,42 @@ def main():
                     # do not contradict a species.
                     return not any(n for n in tipnames[t])
 
+                def weight(t, sp=sp, tipnames=tipnames):
+                    return tipnames[t].get(sp, 0)
+
                 total = sum(c.get(sp, 0) for c in tipnames.values())
                 n_haps = sum(1 for c in tipnames.values() if c.get(sp))
                 if n_haps < 2:
                     continue
-                clades = pure_clades(tree.root, member, neutral)
-                sized = sorted(((sum(tipnames[t.name].get(sp, 0) for t in c.get_terminals()), c)
-                                for c in clades), key=lambda x: -x[0])
-                main_n, main = sized[0]
-                sup = support(main) if not main.is_terminal() else None
-                un_n, un_sup = largest_split_group(
-                    tree, member, neutral, lambda t, sp=sp, tipnames=tipnames: tipnames[t].get(sp, 0))
+                on_mixed = sum(c.get(sp, 0) for c in tipnames.values()
+                               if c.get(sp) and len({n for n in c if n}) > 1)
+
+                def largest(member):
+                    clades = pure_clades(tree.root, member, neutral)
+                    sized = sorted(((sum(weight(t.name) for t in c.get_terminals()), c) for c in clades),
+                                   key=lambda x: -x[0])
+                    if not sized:
+                        return 0, None, 0, None
+                    n_main, main = sized[0]
+                    sup = support(main) if not main.is_terminal() else None
+                    return n_main, sup, len(sized), main
+
+                ex_n, ex_sup, ex_k, _ = largest(strict)
+                pm_n, pm_sup, pm_k, pm_main = largest(shared)
+                other_in = sum(sum(v for n, v in tipnames[t.name].items() if n and n != sp)
+                               for t in pm_main.get_terminals()) if pm_main is not None else 0
+                rf_n, rf_sup = largest_split_group(tree, strict, neutral, weight)
                 mono_rows.append({"region": half, "basis": label, "species": sp,
                                   "records": total, "haplotypes": n_haps,
-                                  "monophyletic": "yes" if len(sized) == 1 else "no",
-                                  "clades": len(sized),
-                                  "main_clade_share_pct": f"{100 * main_n / total:.1f}",
-                                  "main_clade_support": "" if sup is None else f"{sup:.0f}",
-                                  "records_outside_main": total - main_n,
-                                  "unrooted_group_share_pct": f"{100 * un_n / total:.1f}",
-                                  "unrooted_group_support": "" if un_sup is None else f"{un_sup:.0f}"})
+                                  "records_on_shared_haplotypes": on_mixed,
+                                  "exclusive_clade_share_pct": f"{100 * ex_n / total:.1f}",
+                                  "exclusive_clade_support": "" if ex_sup is None else f"{ex_sup:.0f}",
+                                  "exclusive_clades": ex_k,
+                                  "monophyletic_exclusive": "yes" if ex_n == total else "no",
+                                  "root_free_exclusive_share_pct": f"{100 * rf_n / total:.1f}",
+                                  "concentration_share_pct": f"{100 * pm_n / total:.1f}",
+                                  "concentration_support": "" if pm_sup is None else f"{pm_sup:.0f}",
+                                  "other_named_records_in_concentration_group": other_in})
 
     with open(os.path.join(args.out, "monophyly.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(mono_rows[0].keys()) if mono_rows else ["region"])
@@ -263,15 +289,17 @@ def main():
             rs = [r for r in mono_rows if r["region"] == half and r["basis"] == basis]
             if not rs:
                 continue
-            lines.append(f"{half}, {basis}: {sum(r['monophyletic'] == 'yes' for r in rs)} of {len(rs)} "
-                         f"species monophyletic (unnamed tips allowed)")
+            lines.append(f"{half}, {basis}: {sum(r['monophyletic_exclusive'] == 'yes' for r in rs)} of {len(rs)} "
+                         f"species form one exclusive clade (unnamed tips allowed, shared haplotypes not)")
             for r in sorted(rs, key=lambda r: -r["records"])[:14]:
                 lines.append(f"  {r['species']} ({r['records']} records, {r['haplotypes']} haplotypes): "
-                             f"main clade {r['main_clade_share_pct']}% of records"
-                             + (f", support {r['main_clade_support']}" if r["main_clade_support"] else "")
-                             + ("" if r["monophyletic"] == "yes" else
-                                f"; {r['records_outside_main']} records in {r['clades'] - 1} other place(s)")
-                             + f"; root-free group {r['unrooted_group_share_pct']}%")
+                             f"exclusive clade {r['exclusive_clade_share_pct']}%"
+                             + (f" (support {r['exclusive_clade_support']})" if r["exclusive_clade_support"] else "")
+                             + f", root-free {r['root_free_exclusive_share_pct']}%; "
+                             f"{r['records_on_shared_haplotypes']} records on shared haplotypes; "
+                             f"permissive group {r['concentration_share_pct']}%"
+                             + (f" (support {r['concentration_support']})" if r["concentration_support"] else "")
+                             + f" with {r['other_named_records_in_concentration_group']} records of other names")
     summary = "\n".join(lines)
     with open(os.path.join(args.out, "phylogeny_summary.txt"), "w") as f:
         f.write(summary + "\n")

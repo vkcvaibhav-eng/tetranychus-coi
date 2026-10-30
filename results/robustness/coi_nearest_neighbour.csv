@@ -31,16 +31,16 @@ PZ411705.1,Tetranychus macfarlanei,"kalaria,r.k.|2026",Tetranychus malaysiensis,
 PZ410424.1,Tetranychus malaysiensis,"kalaria,r.k.|2026",Tetranychus malaysiensis,-0.0000,yes,Tetranychus malaysiensis,-0.0000,yes
 PZ409970.1,Tetranychus malaysiensis,"kalaria,r.k.|2026",Tetranychus malaysiensis,-0.0000,yes,Tetranychus malaysiensis,-0.0000,yes
 PZ406922.1,Tetranychus malaysiensis,"kalaria,r.k.|2026",Tetranychus malaysiensis,0.0000,yes,Tetranychus malaysiensis,-0.0000,yes
-OZ464900.1,Tetranychus urticae,|2026,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,0.0000,yes
-OZ464899.1,Tetranychus urticae,|2026,Tetranychus urticae,0.0024,yes,Tetranychus urticae,0.0024,yes
-OZ464898.1,Tetranychus urticae,|2026,Tetranychus urticae,0.0023,yes,Tetranychus urticae,0.0023,yes
-OZ464897.1,Tetranychus turkestani,|2026,Tetranychus urticae,0.0329,no,Tetranychus urticae,0.0329,no
-OZ464896.1,Tetranychus urticae,|2026,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
-OZ464895.1,Tetranychus neocaledonicus,|2026,Tetranychus neocaledonicus,-0.0000,yes,Tetranychus neocaledonicus,-0.0000,yes
-OZ464894.1,Tetranychus urticae,|2026,Tetranychus urticae,0.0025,yes,Tetranychus urticae,0.0025,yes
-OZ464893.1,Tetranychus urticae,|2026,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
-OZ464892.1,Tetranychus turkestani,|2026,Tetranychus urticae,-0.0000,no,Tetranychus urticae,-0.0000,no
-OZ464891.1,Tetranychus ludeni,|2026,Tetranychus ludeni,-0.0000,yes,Tetranychus ludeni,-0.0000,yes
+OZ464900.1,Tetranychus urticae,wybouw lab|2026,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,0.0000,yes
+OZ464899.1,Tetranychus urticae,wybouw lab|2026,Tetranychus urticae,0.0024,yes,Tetranychus urticae,0.0024,yes
+OZ464898.1,Tetranychus urticae,wybouw lab|2026,Tetranychus urticae,0.0023,yes,Tetranychus urticae,0.0023,yes
+OZ464897.1,Tetranychus turkestani,wybouw lab|2026,Tetranychus urticae,0.0329,no,Tetranychus urticae,0.0329,no
+OZ464896.1,Tetranychus urticae,wybouw lab|2026,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
+OZ464895.1,Tetranychus neocaledonicus,wybouw lab|2026,Tetranychus neocaledonicus,-0.0000,yes,Tetranychus neocaledonicus,-0.0000,yes
+OZ464894.1,Tetranychus urticae,wybouw lab|2026,Tetranychus urticae,0.0025,yes,Tetranychus urticae,0.0025,yes
+OZ464893.1,Tetranychus urticae,wybouw lab|2026,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
+OZ464892.1,Tetranychus turkestani,wybouw lab|2026,Tetranychus urticae,-0.0000,no,Tetranychus urticae,-0.0000,no
+OZ464891.1,Tetranychus ludeni,wybouw lab|2026,Tetranychus ludeni,-0.0000,yes,Tetranychus ludeni,-0.0000,yes
 PX894988.1,,"mirza,j.h.|2026",Tetranychus evansi,0.0910,,Tetranychus evansi,0.0910,
 PX894987.1,,"mirza,j.h.|2026",Tetranychus pueraricola,0.0689,,Tetranychus pueraricola,0.0689,
 PX894986.1,Tetranychus evansi,"mirza,j.h.|2026",Tetranychus evansi,-0.0000,yes,Tetranychus evansi,-0.0000,yes
@@ -165,7 +165,7 @@ OR906291.1,Tetranychus urticae,"chen,y.|2023",Tetranychus urticae,-0.0000,yes,Te
 OR900425.1,Tetranychus urticae,"chen,y.|2023",Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
 OR690637.1,Tetranychus urticae,"suriya,s.|2023",Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
 OR534585.1,Tetranychus kanzawai,"swathi,p.|2023",Tetranychus kanzawai,-0.0000,yes,Tetranychus kanzawai,-0.0000,yes
-NC_010526.1,Tetranychus urticae,|2008,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
+NC_010526.1,Tetranychus urticae,ncbi genome project|2008,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
 OQ510008.1,Tetranychus urticae,"teodoro-paulo,j.|2023",Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
 OQ510007.1,Tetranychus urticae,"teodoro-paulo,j.|2023",Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
 OQ510006.1,Tetranychus urticae,"teodoro-paulo,j.|2023",Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
@@ -1595,13 +1595,13 @@ GACAC6442-19,Tetranychus kanzawai,bold:GACAC,Tetranychus kanzawai,0.0048,yes,Tet
 GBMIN116037-17,Tetranychus puschelii,bold:GBMIN,Tetranychus puschelii,0.0025,yes,Tetranychus puschelii,0.0025,yes
 GBMIN116038-17,Tetranychus lombardinii,bold:GBMIN,Tetranychus lombardinii,-0.0000,yes,Tetranychus lombardinii,-0.0000,yes
 GBMIN116039-17,Tetranychus udaipurensis,bold:GBMIN,Tetranychus udaipurensis,-0.0000,yes,Tetranychus udaipurensis,-0.0000,yes
-GBMTG2290-16,Tetranychus urticae,|2010,Tetranychus kanzawai,-0.0000,no,Tetranychus kanzawai,-0.0000,no
-GBMTG3729-16,Tetranychus kanzawai,|2014,Tetranychus kanzawai,-0.0000,yes,Tetranychus kanzawai,-0.0000,yes
-GBMTG3732-16,Tetranychus ludeni,|2014,Tetranychus ludeni,-0.0000,yes,Tetranychus ludeni,-0.0000,yes
-GBMTG3735-16,Tetranychus malaysiensis,|2014,Tetranychus malaysiensis,-0.0000,yes,Tetranychus malaysiensis,-0.0000,yes
-GBMTG3739-16,Tetranychus phaselus,|2014,Tetranychus phaselus,-0.0000,yes,Tetranychus phaselus,-0.0000,yes
-GBMTG3744-16,Tetranychus pueraricola,|2014,Tetranychus pueraricola,-0.0000,yes,Tetranychus pueraricola,-0.0000,yes
-GBMTG3748-16,Tetranychus truncatus,|2014,Tetranychus truncatus,-0.0000,yes,Tetranychus truncatus,-0.0000,yes
+GBMTG2290-16,Tetranychus urticae,ncbi genome project|2010,Tetranychus kanzawai,-0.0000,no,Tetranychus kanzawai,-0.0000,no
+GBMTG3729-16,Tetranychus kanzawai,ncbi genome project|2014,Tetranychus kanzawai,-0.0000,yes,Tetranychus kanzawai,-0.0000,yes
+GBMTG3732-16,Tetranychus ludeni,ncbi genome project|2014,Tetranychus ludeni,-0.0000,yes,Tetranychus ludeni,-0.0000,yes
+GBMTG3735-16,Tetranychus malaysiensis,ncbi genome project|2014,Tetranychus malaysiensis,-0.0000,yes,Tetranychus malaysiensis,-0.0000,yes
+GBMTG3739-16,Tetranychus phaselus,ncbi genome project|2014,Tetranychus phaselus,-0.0000,yes,Tetranychus phaselus,-0.0000,yes
+GBMTG3744-16,Tetranychus pueraricola,ncbi genome project|2014,Tetranychus pueraricola,-0.0000,yes,Tetranychus pueraricola,-0.0000,yes
+GBMTG3748-16,Tetranychus truncatus,ncbi genome project|2014,Tetranychus truncatus,-0.0000,yes,Tetranychus truncatus,-0.0000,yes
 GENSM1091-18,Tetranychus urticae,bold:GENSM,Tetranychus urticae,0.0000,yes,Tetranychus urticae,-0.0000,yes
 GENSM1092-18,Tetranychus urticae,bold:GENSM,Tetranychus urticae,-0.0000,yes,Tetranychus urticae,-0.0000,yes
 GENSM1093-18,Tetranychus urticae,bold:GENSM,Tetranychus urticae,0.0000,yes,Tetranychus urticae,-0.0000,yes
