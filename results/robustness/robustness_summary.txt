@@ -5,7 +5,7 @@
    0.020 | 98 | 14 | 22 | 7 | 83.1 | 5.8 | 75/78/80/77 of 108 (17/17/20/20)
    0.030 | 82 | 12 | 22 | 6 | 94.9 | 5.8 | 76/79/81/78 of 108 (21/21/24/24)
    0.040 | 68 | 10 | 19 | 4 | 96.2 | 3.2 | 76/79/77/78 of 108 (22/22/27/24)
-   0.050 | 60 | 9 | 19 | 3 | 99.7 | 2.7 | 76/79/70/79 of 108 (22/22/33/22)
+   0.050 | 60 | 9 | 19 | 3 | 99.7 | 2.7 | 76/79/68/79 of 108 (22/22/35/22)
 1b. Correct answers by cluster threshold (rows) and largest match distance (columns): named / cleaned / conservative:
    cluster \ match | 0.01 | 0.02 | 0.03 | 0.04 | 0.05
    0.010 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
@@ -13,10 +13,10 @@
    0.020 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
    0.030 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
    0.040 | 70/71/69 | 78/76/77 | 79/77/78 | 79/77/78 | 79/77/78
-   0.050 | 70/64/70 | 78/69/78 | 79/70/79 | 79/70/79 | 79/70/79
+   0.050 | 70/62/70 | 78/67/78 | 79/68/79 | 79/68/79 | 79/68/79
 2. Anchor evidence, taxonomic treatment, fold isolation and grouping (K2P 0.03):
    main (levels A+B; two synonymies; folds isolated): 108 queries from 9 studies; all correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2; named correct 79, wrong 21, ambiguous 6, no match 2; cleaned correct 81, wrong 24, ambiguous 1, no match 2; conservative correct 78, wrong 24, ambiguous 4, no match 2; queries changed vs main 0
-   level A anchors only: 69 queries from 4 studies; all correct 49, wrong 14, ambiguous 1, nearest unnamed 3, no match 2; named correct 52, wrong 14, ambiguous 1, no match 2; cleaned correct 52, wrong 14, ambiguous 1, no match 2; conservative correct 52, wrong 14, ambiguous 1, no match 2
+   level A anchors only: 68 queries from 3 studies; all correct 48, wrong 14, ambiguous 1, nearest unnamed 3, no match 2; named correct 51, wrong 14, ambiguous 1, no match 2; cleaned correct 51, wrong 14, ambiguous 1, no match 2; conservative correct 51, wrong 14, ambiguous 1, no match 2
    plus malaysiensis = macfarlanei: 108 queries from 9 studies; all correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2; named correct 79, wrong 21, ambiguous 6, no match 2; cleaned correct 81, wrong 24, ambiguous 1, no match 2; conservative correct 78, wrong 24, ambiguous 4, no match 2; queries changed vs main 0
    earlier version (clusters from all records; title membership): 108 queries from 9 studies; all correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2; named correct 79, wrong 21, ambiguous 6, no match 2; cleaned correct 81, wrong 24, ambiguous 1, no match 2; conservative correct 78, wrong 24, ambiguous 4, no match 2; queries changed vs main 0
 3. Main identification test:
@@ -50,7 +50,7 @@
    Correct answers pooled / mean over 9 studies / mean over 15 species; median reference records and species per fold:
      all: 70.4 / 71.3 / 57.6; 2158 records, 37 species
      named: 73.1 / 72.0 / 62.6; 1598 records, 37 species
-     cleaned: 75.0 / 75.1 / 66.4; 1481 records, 34 species
+     cleaned: 75.0 / 75.1 / 66.4; 1488 records, 34 species
      conservative: 72.2 / 70.4 / 64.0; 1557 records, 35 species
    Coverage of the query's species in the named set (queries; correct, named set):
      no record of the species: 9; 0.0%

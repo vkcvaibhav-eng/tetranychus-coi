@@ -1,7 +1,7 @@
 cluster,records,composition,anchored_species,anchor_detail,status
 C028,975,Tetranychus urticae (658); (unnamed) (216); Tetranychus turkestani (82); Tetranychus cinnabarinus (9); Tetranychus kanzawai (9); Tetranychus sawzdargi (1),Tetranychus turkestani; Tetranychus urticae,Tetranychus turkestani [A] x5; Tetranychus turkestani [B] x7; Tetranychus urticae [A] x26; Tetranychus urticae [B] x17,several anchored species
 C070,180,Tetranychus evansi (179); Tetranychus malvae (1),Tetranychus evansi,Tetranychus evansi [A] x2; Tetranychus evansi [B] x4,one anchored species
-C046,157,Tetranychus truncatus (119); Tetranychus urticae (24); Tetranychus cinnabarinus (13); Tetranychus puschelii (1),Tetranychus truncatus,Tetranychus truncatus [A] x3; Tetranychus truncatus [B] x1; Tetranychus urticae [B] x3,one anchored species
+C046,157,Tetranychus truncatus (119); Tetranychus urticae (24); Tetranychus cinnabarinus (13); Tetranychus puschelii (1),Tetranychus truncatus,Tetranychus truncatus [A] x2; Tetranychus truncatus [B] x2; Tetranychus urticae [B] x3,one anchored species
 C080,113,Tetranychus ludeni (68); (unnamed) (45),,,no anchor
 C045,111,(unnamed) (47); Tetranychus pueraricola (40); Tetranychus cinnabarinus (9); Tetranychus urticae (5); Tetranychus kanzawai (4); Tetranychus truncatus (4); Tetranychus phaselus (2),Tetranychus pueraricola,Tetranychus pueraricola [A] x3; Tetranychus pueraricola [B] x1; Tetranychus urticae [B] x1,one anchored species
 C043,98,Tetranychus kanzawai (66); Tetranychus cinnabarinus (25); Tetranychus urticae (3); Tetranychus parakanzawai (3); Tetranychus bambusae (1),Tetranychus kanzawai; Tetranychus parakanzawai,Tetranychus kanzawai [A] x6; Tetranychus kanzawai [B] x1; Tetranychus parakanzawai [A] x3,several anchored species
