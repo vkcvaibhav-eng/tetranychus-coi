@@ -1,17 +1,17 @@
-Queries: 252 anchor records from 10 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
-           all: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.2%)
-         named: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
-       cleaned: correct 190 (75.4%), wrong 2 (0.8%), ambiguous 0 (0.0%), no match 60 (23.8%)
-  conservative: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
-Coverage of the query's species in the named reference set: no record of the species 29; no overlapping record 6; overlapping record 217
+Queries: 251 anchor records from 10 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
+           all: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.3%)
+         named: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
+       cleaned: correct 190 (75.7%), wrong 1 (0.4%), ambiguous 0 (0.0%), no match 60 (23.9%)
+  conservative: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
+Coverage of the query's species in the named reference set: no record of the species 29; no overlapping record 5; overlapping record 217
   no record of the species (29): named -> correct 0 (0.0%), wrong 3 (10.3%), ambiguous 0 (0.0%), no match 26 (89.7%)
-  no overlapping record (6): named -> correct 0 (0.0%), wrong 1 (16.7%), ambiguous 0 (0.0%), no match 5 (83.3%)
+  no overlapping record (5): named -> correct 0 (0.0%), wrong 0 (0.0%), ambiguous 0 (0.0%), no match 5 (100.0%)
   overlapping record (217): named -> correct 190 (87.6%), wrong 0 (0.0%), ambiguous 0 (0.0%), no match 27 (12.4%)
 Earlier version (clusters from all records, study membership by publication title only):
-           all: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.2%)
-         named: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
-       cleaned: correct 190 (75.4%), wrong 2 (0.8%), ambiguous 0 (0.0%), no match 60 (23.8%)
-  conservative: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
+           all: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.3%)
+         named: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
+       cleaned: correct 190 (75.7%), wrong 1 (0.4%), ambiguous 0 (0.0%), no match 60 (23.9%)
+  conservative: correct 190 (75.7%), wrong 3 (1.2%), ambiguous 0 (0.0%), no match 58 (23.1%)
 Queries whose outcome differs from the earlier version: 0
 Records held out per study (publication title -> title or submission batch):
   arabuli2018: 2 -> 2
@@ -29,7 +29,7 @@ By study (correct: all / named / cleaned / conservative; wrong likewise; of quer
   guzman2014: 15 / 15 / 15 / 15; 0 / 0 / 0 / 0; of 21
   guzman2017: 127 / 127 / 127 / 127; 0 / 0 / 0 / 0; of 140
   majeed2022: 0 / 0 / 0 / 0; 0 / 0 / 0 / 0; of 4
-  majeed2026: 0 / 0 / 0 / 0; 2 / 2 / 2 / 2; of 4
+  majeed2026: 0 / 0 / 0 / 0; 1 / 1 / 1 / 1; of 3
   matsuda2012: 2 / 2 / 2 / 2; 0 / 0 / 0 / 0; of 29
   muralidharan2020: 1 / 1 / 1 / 1; 0 / 0 / 0 / 0; of 1
   mushtaq2023a: 9 / 9 / 9 / 9; 0 / 0 / 0 / 0; of 9
@@ -56,7 +56,6 @@ By species (correct: all / named / cleaned / conservative, of queries):
   Oligonychus biharensis: 0 / 0 / 0 / 0 of 2
   Oligonychus rubicundus: 0 / 0 / 0 / 0 of 2
   Oligonychus bellarensis: 0 / 0 / 0 / 0 of 1
-  Oligonychus grypus: 0 / 0 / 0 / 0 of 1
   Oligonychus pustulosus: 0 / 0 / 0 / 0 of 1
   Oligonychus karamatus: 0 / 0 / 0 / 0 of 1
   Oligonychus tsudomei: 0 / 0 / 0 / 0 of 1

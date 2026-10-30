@@ -23,7 +23,7 @@ PX660065.1,Oligonychus sp.,,C006,,no,no,NO_ANCHOR
 PX660049.1,Oligonychus piceae,Oligonychus piceae,C007,,no,no,NO_ANCHOR
 PX660047.1,Oligonychus sp.,,C008,,no,no,NO_ANCHOR
 PX419194.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,no,no,AGREES
-PX415460.1,Oligonychus oryzae,Oligonychus oryzae,C017,Oligonychus grypus,no,no,DISAGREES
+PX415460.1,Oligonychus oryzae,Oligonychus oryzae,C017,,no,no,NO_ANCHOR
 PX133189.1,Oligonychus trichardti,Oligonychus trichardti,C009,,no,no,NO_ANCHOR
 PQ273722.1,Oligonychus indicus,Oligonychus indicus,C032,Oligonychus tylus,no,no,DISAGREES
 PV162787.1,Oligonychus biharensis,Oligonychus biharensis,C014,,no,no,NO_ANCHOR
@@ -79,7 +79,7 @@ ON630335.1,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C018,,no,no,NO_ANCH
 OM056929.1,Oligonychus sp. UAS-B 3030,,C016,,no,no,NO_ANCHOR
 MZ604344.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,Oligonychus thelytokus,yes,yes,AGREES
 MZ496533.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,no,AGREES
-MW898015.1,Oligonychus grypus,Oligonychus grypus,C017,Oligonychus grypus,yes,yes,AGREES
+MW898015.1,Oligonychus grypus,Oligonychus grypus,C017,,yes,no,NO_ANCHOR
 MW045520.3,Oligonychus ununguis,Oligonychus ununguis,C080,,no,no,NO_ANCHOR
 MW045518.3,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C018,,no,no,NO_ANCHOR
 MW850427.1,Oligonychus indicus,Oligonychus indicus,C021,,no,no,NO_ANCHOR
@@ -550,7 +550,7 @@ SATHB1600-22,Oligonychus,,C087,,no,no,NO_ANCHOR
 SATHB5349-23,Oligonychus,,C087,,no,no,NO_ANCHOR
 SCCBB380-23,Oligonychus,,C088,,no,no,NO_ANCHOR
 SMCK001-25,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,no,no,AGREES
-SMCK003-25,Oligonychus oryzae,Oligonychus oryzae,C017,Oligonychus grypus,no,no,DISAGREES
+SMCK003-25,Oligonychus oryzae,Oligonychus oryzae,C017,,no,no,NO_ANCHOR
 SMTPO11030-15,Oligonychus,,C089,,no,no,NO_ANCHOR
 SMTPO1720-15,Oligonychus,,C090,,no,no,NO_ANCHOR
 SMTPO9494-15,Oligonychus,,C091,,no,no,NO_ANCHOR

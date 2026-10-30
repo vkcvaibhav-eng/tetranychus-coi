@@ -3,7 +3,7 @@ Oligonychus castaneae,Oligonychus neocastaneae,36,2,1,0.0000,identical,0.0929,0.
 Oligonychus castaneae,Oligonychus ununguis,36,30,1,0.0280,close,0.0929,0.1384,32,1,0.0780,separate
 Oligonychus neocastaneae,Oligonychus ununguis,2,30,1,0.0283,close,0.0028,0.1384,6,1,0.1049,separate
 Oligonychus plegas,Oligonychus tylus,1,19,0,0.1302,separate,0.0000,0.0895,2,3,0.1377,chained only
-Oligonychus grypus,Oligonychus oryzae,3,3,2,0.0000,identical,0.0079,0.0000,1,0,,no anchors of both
+Oligonychus grypus,Oligonychus oryzae,3,3,2,0.0000,identical,0.0079,0.0000,0,0,,no anchors of both
 Oligonychus indicus,Oligonychus tylus,7,19,1,0.0044,close,0.1624,0.0895,0,3,,no anchors of both
 Oligonychus mangiferus,Oligonychus punicae,4,113,1,0.0028,close,0.0292,0.1497,0,100,,no anchors of both
 Oligonychus mangiferus,Oligonychus vitis,4,1,1,0.0027,close,0.0292,0.0000,0,0,,no anchors of both

@@ -1,11 +1,11 @@
 from,to,outcome_from,correct,wrong,ambiguous,nearest unnamed,no match,total
 all,named,correct,190,0,0,0,0,190
-all,named,wrong,0,4,0,0,0,4
+all,named,wrong,0,3,0,0,0,3
 all,named,nearest unnamed,0,0,0,0,2,2
 all,named,no match,0,0,0,0,56,56
 named,cleaned,correct,190,0,0,0,0,190
-named,cleaned,wrong,0,2,0,0,2,4
+named,cleaned,wrong,0,1,0,0,2,3
 named,cleaned,no match,0,0,0,0,58,58
 named,conservative,correct,190,0,0,0,0,190
-named,conservative,wrong,0,4,0,0,0,4
+named,conservative,wrong,0,3,0,0,0,3
 named,conservative,no match,0,0,0,0,58,58

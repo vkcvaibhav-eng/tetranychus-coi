@@ -1,8 +1,8 @@
 reference_set,pooled_correct_pct,mean_over_studies_pct,mean_over_species_pct,median_db_records,median_db_species
-all,75.4,51.3,17.3,420,38
-named,75.4,51.3,17.3,303,38
-cleaned,75.4,51.3,17.3,268,36
-conservative,75.4,51.3,17.3,275,38
+all,75.7,51.3,17.9,420,38
+named,75.7,51.3,17.9,303,38
+cleaned,75.7,51.3,17.9,270,36
+conservative,75.7,51.3,17.9,275,38
 named; queries with no record of the species,0.0,,,29,
-named; queries with no overlapping record,0.0,,,6,
+named; queries with no overlapping record,0.0,,,5,
 named; queries with overlapping record,87.6,,,217,
