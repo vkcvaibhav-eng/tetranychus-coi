@@ -1,0 +1,106 @@
+name: Run analysis for another genus
+
+# Runs the same audit on a second genus kept apart from the Tetranychus data:
+#   data/<folder>/ncbi_*.gb, bold_*.tsv        COI records
+#   data/<folder>/its2/*.gb                    ITS2 records (optional)
+#   data/<folder>/reference/coi_reference.fasta
+#   data/<folder>/anchors/                     anchor tables (optional)
+# Results go to results/<folder>/.
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: "Folder name under data/ and results/ (for example oligonychus)"
+        required: true
+        default: "oligonychus"
+      min_identity:
+        description: "Minimum identity to the reference COX1"
+        required: true
+        default: "0.75"
+      cluster_threshold:
+        description: "K2P distance for species clusters"
+        required: true
+        default: "0.03"
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    env:
+      G: ${{ inputs.folder }}
+      MIN_ID: ${{ inputs.min_identity }}
+      THRESHOLD: ${{ inputs.cluster_threshold }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install packages and check inputs
+        run: |
+          pip install -r requirements.txt
+          D="data/$G"; R="results/$G"
+          test -f "$D/reference/coi_reference.fasta" || { echo "Missing $D/reference/coi_reference.fasta"; exit 1; }
+          ls "$D"/ncbi_*.gb >/dev/null 2>&1 || ls "$D"/bold_*.tsv >/dev/null 2>&1 || { echo "No COI data in $D"; exit 1; }
+          mkdir -p "$R/logs"
+          echo "D=$D" >> "$GITHUB_ENV"; echo "R=$R" >> "$GITHUB_ENV"
+          n=$(( $(wc -l < "$D/anchors/anchor_records.csv" 2>/dev/null || echo 1) - 1 ))
+          echo "ANCHORS=$n" >> "$GITHUB_ENV"
+
+      - name: Merge, metadata audit and quality check
+        run: |
+          set -o pipefail
+          python scripts/merge_records.py "$D" "$R/genus" 2>&1 | tee "$R/logs/merge.log"
+          python scripts/sequence_qc.py --results "$R/genus" --reference "$D/reference/coi_reference.fasta" --min-identity "$MIN_ID" 2>&1 | tee "$R/logs/qc.log"
+
+      - name: Species-level analysis
+        run: |
+          set -o pipefail
+          python scripts/species_analysis.py --results "$R/genus" --out "$R/species" --reference "$D/reference/coi_reference.fasta" --threshold "$THRESHOLD" 2>&1 | tee "$R/logs/species.log"
+          if [ -f "$D/anchors/synonyms.csv" ]; then
+            python scripts/species_analysis.py --results "$R/genus" --out "$R/species_accepted" --reference "$D/reference/coi_reference.fasta" --threshold "$THRESHOLD" --synonyms "$D/anchors/synonyms.csv" 2>&1 | tee "$R/logs/species_accepted.log"
+          fi
+
+      - name: Anchors, identification test and sensitivity (when anchors are present)
+        if: env.ANCHORS != '0'
+        run: |
+          set -o pipefail
+          python scripts/anchor_check.py --anchors "$D/anchors" --genus "$R/genus" --species "$R/species" --out "$R/anchors" 2>&1 | tee "$R/logs/anchors.log"
+          python scripts/identification_test.py --genus "$R/genus" --species "$R/species" --anchors "$D/anchors" --reference "$D/reference/coi_reference.fasta" --data "$D" --out "$R/identification" 2>&1 | tee "$R/logs/identification.log"
+
+      - name: ITS2 (when ITS2 records are present)
+        run: |
+          set -o pipefail
+          if ls "$D"/its2/*.gb >/dev/null 2>&1; then
+            python scripts/its2_analysis.py --its2-dir "$D/its2" --coi-glob "$D/ncbi_*.gb" --species "$R/species" --anchors "$D/anchors" --out "$R/its2" 2>&1 | tee "$R/logs/its2.log"
+          else
+            echo "No ITS2 data in $D/its2; skipped" | tee "$R/logs/its2.log"
+          fi
+
+      - name: Sensitivity and uncertainty checks (when anchors are present)
+        if: env.ANCHORS != '0'
+        run: |
+          set -o pipefail
+          python scripts/robustness.py --genus "$R/genus" --species "$R/species" --anchors "$D/anchors" --its2 "$R/its2" --data "$D" --reference "$D/reference/coi_reference.fasta" --out "$R/robustness" 2>&1 | tee "$R/logs/robustness.log"
+
+      - name: Trends by year and country
+        run: |
+          set -o pipefail
+          python scripts/trends.py --data "$D" --genus "$R/genus" --anchors-out "$R/anchors" --out "$R/trends" 2>&1 | tee "$R/logs/trends.log"
+
+      - name: Save results to the repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A "$R"
+          git commit -m "Analysis results for $G" || echo "Nothing new to commit"
+          git pull --rebase -q
+          git push
