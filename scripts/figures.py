@@ -480,12 +480,73 @@ def figure5():
     save(fig, "Figure5")
 
 
+# Figure 6 ------------------------------------------------------------------
+O_STUDY_LABEL = {"matsuda2012": "Matsuda et al. 2012", "arabuli2018": "Arabuli & Gotoh 2018",
+                 "mushtaq2023a_males": "Mushtaq et al. 2023a", "mushtaq2023b_males": "Mushtaq et al. 2023b",
+                 "majeed2026": "Safeena Majeed et al. 2026", "guzman2014": "Guzmán-Valencia et al. 2014",
+                 "guzman2017": "Guzmán-Valencia et al. 2017", "sakamoto2019": "Sakamoto et al. 2019",
+                 "majeed2022": "Safeena Majeed et al. 2022", "muralidharan2020": "Muralidharan et al. 2020"}
+
+
+def stacked_rows(ax, rows, key="raw_result"):
+    """One horizontal stacked bar per (label, queries) row; returns tick positions."""
+    ypos = []
+    for y, (label, rs) in enumerate(rows):
+        c = Counter(r[key] for r in rs)
+        left = 0
+        for k, o in enumerate(OUTCOMES):
+            if c[o]:
+                ax.barh(y, c[o] / len(rs) * 100, left=left, height=0.64, color=SERIES[k],
+                        edgecolor="white", linewidth=0.8)
+                left += c[o] / len(rs) * 100
+        ypos.append(y)
+    ax.set_yticks(ypos)
+    ax.set_yticklabels([f"{label} (n = {len(rs)})" for label, rs in rows], fontsize=6.3)
+    ax.invert_yaxis()
+    ax.set_xlim(0, 100)
+    ax.set_xlabel("Anchor queries (%)")
+    for sp in ("top", "right"):
+        ax.spines[sp].set_visible(False)
+
+
+def figure6():
+    """Oligonychus beside Tetranychus: outcomes in the raw database (leave-one-study-out)."""
+    tq = read("results/robustness/queries_main.csv")
+    oq = read("results/oligonychus/robustness/queries_main.csv")
+    mex = {"guzman2014", "guzman2017"}
+    summary = [("Tetranychus, all studies", tq),
+               ("Tetranychus, level A", [r for r in tq if r["evidence_level"] == "A"]),
+               ("Oligonychus, all studies", oq),
+               ("Oligonychus, level A", [r for r in oq if r["evidence_level"] == "A"]),
+               ("Oligonychus, without the Mexican studies", [r for r in oq if r["study_id"] not in mex])]
+    by = defaultdict(list)
+    for r in oq:
+        by[r["study_id"]].append(r)
+    order = sorted(by, key=lambda sid: (by[sid][0]["evidence_level"], -len(by[sid])))
+    studies = [(f"{O_STUDY_LABEL[sid]} [{by[sid][0]['evidence_level']}]", by[sid]) for sid in order]
+    fig, (ax, bx) = plt.subplots(2, 1, figsize=(5.6, 5.0), gridspec_kw={"height_ratios": [5, 10]})
+    stacked_rows(ax, summary)
+    ax.set_yticklabels([lab.get_text().replace("Tetranychus", "$\\mathit{Tetranychus}$")
+                        .replace("Oligonychus", "$\\mathit{Oligonychus}$") for lab in ax.get_yticklabels()],
+                       fontsize=6.3)
+    stacked_rows(bx, studies)
+    handles = [plt.Rectangle((0, 0), 1, 1, color=SERIES[k]) for k in range(4)]
+    ax.legend(handles, ["Correct", "Wrong", "Ambiguous", "No match"], ncol=4, fontsize=6.5, frameon=False,
+              loc="lower left", bbox_to_anchor=(-0.02, 1.0), handlelength=1.0, columnspacing=1.0)
+    for a, letter in ((ax, "a"), (bx, "b")):
+        a.text(-0.02, 1.02 if a is bx else 1.12, letter, transform=a.transAxes, fontsize=10,
+               fontweight="bold", va="bottom", ha="right")
+    fig.tight_layout(h_pad=1.6)
+    save(fig, "Figure6")
+
+
 def main():
     figure1()
     figure2()
     figure3()
     figure4()
     figure5()
+    figure6()
     supplementary_figures()
     print(f"Figures written to {OUT}")
 
