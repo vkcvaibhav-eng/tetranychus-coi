@@ -21,22 +21,22 @@ Clusters containing more than one species name: 12
   C041 (8 records): Tetranychus phaselus (5); Tetranychus urticae (3)
 Species without a barcode gap:
   Tetranychus bambusae: max within 0.1229, nearest Tetranychus urticae at 0.0000
-  Tetranychus evansi: max within 0.0414, nearest Tetranychus malvae at -0.0000
+  Tetranychus evansi: max within 0.0414, nearest Tetranychus malvae at 0.0000
   Tetranychus gloveri: max within 0.0297, nearest Tetranychus okinawanus at 0.0014
-  Tetranychus kanzawai: max within 0.1273, nearest Tetranychus urticae at -0.0000
-  Tetranychus ludeni: max within 0.1317, nearest Tetranychus neocaledonicus at -0.0000
+  Tetranychus kanzawai: max within 0.1273, nearest Tetranychus urticae at 0.0000
+  Tetranychus ludeni: max within 0.1317, nearest Tetranychus neocaledonicus at 0.0000
   Tetranychus macfarlanei: max within 0.0545, nearest Tetranychus malaysiensis at 0.0000
   Tetranychus malaysiensis: max within 0.0682, nearest Tetranychus macfarlanei at 0.0000
   Tetranychus mexicanus: max within 0.1311, nearest Tetranychus neocaledonicus at 0.0855
-  Tetranychus neocaledonicus: max within 0.2210, nearest Tetranychus truncatus at -0.0000
+  Tetranychus neocaledonicus: max within 0.2210, nearest Tetranychus truncatus at 0.0000
   Tetranychus okinawanus: max within 0.1061, nearest Tetranychus gloveri at 0.0014
-  Tetranychus parakanzawai: max within 0.0474, nearest Tetranychus kanzawai at -0.0000
-  Tetranychus phaselus: max within 0.1161, nearest Tetranychus urticae at -0.0000
+  Tetranychus parakanzawai: max within 0.0474, nearest Tetranychus kanzawai at 0.0000
+  Tetranychus phaselus: max within 0.1161, nearest Tetranychus urticae at 0.0000
   Tetranychus piercei: max within 0.0583, nearest Tetranychus urticae at 0.0074
-  Tetranychus pueraricola: max within 0.0264, nearest Tetranychus urticae at -0.0000
-  Tetranychus puschelii: max within 0.1389, nearest Tetranychus truncatus at -0.0000
-  Tetranychus truncatus: max within 0.1619, nearest Tetranychus puschelii at -0.0000
-  Tetranychus turkestani: max within 0.1580, nearest Tetranychus urticae at -0.0000
+  Tetranychus pueraricola: max within 0.0264, nearest Tetranychus urticae at 0.0000
+  Tetranychus puschelii: max within 0.1389, nearest Tetranychus truncatus at 0.0000
+  Tetranychus truncatus: max within 0.1619, nearest Tetranychus puschelii at 0.0000
+  Tetranychus turkestani: max within 0.1580, nearest Tetranychus urticae at 0.0000
   Tetranychus udaipurensis: max within 0.0420, nearest Tetranychus neocaledonicus at 0.0030
-  Tetranychus urticae: max within 0.2058, nearest Tetranychus turkestani at -0.0000
+  Tetranychus urticae: max within 0.2058, nearest Tetranychus turkestani at 0.0000
   Tetranychus viennensis: max within 0.0702, nearest Tetranychus truncatus at 0.0664
