@@ -1,0 +1,9 @@
+Panel: 3 references (main reference, Oligonychus indicus (PQ273722.1), Oligonychus punicae (PP531494.1))
+Failed sequences rechecked: 12; still failing with the best panel reference: 11
+Flags, main reference -> best panel reference:
+  AMBIGUOUS: 8 -> 8
+  FRAMESHIFT: 3 -> 2
+  SHORT: 1 -> 1
+  STOP_CODON: 1 -> 0
+Sequences flagged for frameshift or stop codon: 3; with an open frame (no internal stop) in some reading frame: 1
+Passing sequences with odd-length alignment gaps: 221; still with such gaps against the best panel reference: 181; failing against it: 0

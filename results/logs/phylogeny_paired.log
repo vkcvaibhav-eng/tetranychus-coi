@@ -1,0 +1,18 @@
+Paired mode: 98 records cover at least 80% of both windows
+5prime: reference window 43-696, 98 sequences, 59 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps; alignment 654 columns, 0 with an internal gap
+3prime: reference window 719-1130, 98 sequences, 54 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps; alignment 412 columns, 0 with an internal gap
+5prime, anchors only: 1 of 1 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
+  Tetranychus urticae (2 records, 2 haplotypes): exclusive clade 100.0% (support 99), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 99) with 0 records of other names
+5prime, all records: 2 of 5 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
+  Tetranychus urticae (36 records, 23 haplotypes): exclusive clade 63.9% (support 86), root-free 63.9%; 2 records on shared haplotypes; permissive group 63.9% (support 86) with 0 records of other names
+  Tetranychus truncatus (28 records, 16 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names
+  Tetranychus pueraricola (11 records, 9 haplotypes): exclusive clade 100.0% (support 99), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 99) with 0 records of other names
+  Tetranychus evansi (2 records, 2 haplotypes): exclusive clade 50.0%, root-free 50.0%; 0 records on shared haplotypes; permissive group 50.0% with 0 records of other names
+  Tetranychus turkestani (2 records, 2 haplotypes): exclusive clade 50.0%, root-free 50.0%; 0 records on shared haplotypes; permissive group 50.0% with 0 records of other names
+3prime, anchors only: 1 of 1 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
+  Tetranychus urticae (2 records, 2 haplotypes): exclusive clade 100.0% (support 92), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 92) with 0 records of other names
+3prime, all records: 2 of 4 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
+  Tetranychus urticae (36 records, 26 haplotypes): exclusive clade 52.8% (support 96), root-free 52.8%; 2 records on shared haplotypes; permissive group 52.8% (support 96) with 0 records of other names
+  Tetranychus truncatus (28 records, 11 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names
+  Tetranychus pueraricola (11 records, 8 haplotypes): exclusive clade 100.0% (support 99), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 99) with 0 records of other names
+  Tetranychus turkestani (2 records, 2 haplotypes): exclusive clade 50.0%, root-free 50.0%; 0 records on shared haplotypes; permissive group 50.0% with 0 records of other names

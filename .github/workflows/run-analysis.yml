@@ -107,6 +107,12 @@ jobs:
             echo "No ITS2 data in data/its2; skipped" | tee results/logs/its2.log
           fi
 
+      - name: Species pairs and recheck of flagged sequences
+        run: |
+          set -o pipefail
+          python scripts/species_pairs.py 2>&1 | tee results/logs/species_pairs.log
+          python scripts/qc_recheck.py 2>&1 | tee results/logs/qc_recheck.log
+
       - name: Sensitivity and uncertainty checks
         run: |
           set -o pipefail

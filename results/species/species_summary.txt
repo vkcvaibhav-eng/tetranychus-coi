@@ -1,24 +1,24 @@
 Names: as submitted
-Sequences: 2165  Haplotypes: 1244  Named species: 38
+Sequences: 2176  Haplotypes: 1253  Named species: 38
 Distance: K2P on shared sites (min overlap 300 bp); clusters at 0.030
-Records without a species name: 559
+Records without a species name: 560
 Records on haplotypes shared by more than one species name: 36
-Records whose nearest neighbour is another species: 90
+Records whose nearest neighbour is another species: 93
 Species with barcode gap (of 32 testable): 11
 Species split over more than one cluster: 22 (Tetranychus bambusae, Tetranychus cinnabarinus, Tetranychus fijiensis, Tetranychus kanzawai, Tetranychus lambi, Tetranychus ludeni, Tetranychus macfarlanei, Tetranychus malaysiensis, Tetranychus merganser, Tetranychus mexicanus, Tetranychus neocaledonicus, Tetranychus okinawanus, Tetranychus pacificus, Tetranychus parakanzawai, Tetranychus phaselus, Tetranychus piercei, Tetranychus puschelii, Tetranychus truncatus, Tetranychus turkestani, Tetranychus udaipurensis, Tetranychus urticae, Tetranychus viennensis)
 Clusters containing more than one species name: 12
-  C028 (972 records): Tetranychus urticae (656); (unnamed) (215); Tetranychus turkestani (82); Tetranychus cinnabarinus (9); Tetranychus kanzawai (9); Tetranychus sawzdargi (1)
-  C069 (180 records): Tetranychus evansi (179); Tetranychus malvae (1)
-  C045 (157 records): Tetranychus truncatus (119); Tetranychus urticae (24); Tetranychus cinnabarinus (13); Tetranychus puschelii (1)
-  C044 (111 records): (unnamed) (47); Tetranychus pueraricola (40); Tetranychus cinnabarinus (9); Tetranychus urticae (5); Tetranychus kanzawai (4); Tetranychus truncatus (4); Tetranychus phaselus (2)
-  C042 (96 records): Tetranychus kanzawai (64); Tetranychus cinnabarinus (25); Tetranychus urticae (3); Tetranychus parakanzawai (3); Tetranychus bambusae (1)
-  C072 (95 records): Tetranychus ludeni (71); (unnamed) (22); Tetranychus neocaledonicus (1); Tetranychus kanzawai (1)
-  C049 (24 records): Tetranychus gloveri (16); Tetranychus okinawanus (8)
-  C063 (20 records): Tetranychus udaipurensis (14); Tetranychus truncatus (3); Tetranychus neocaledonicus (2); Tetranychus turkestani (1)
+  C028 (975 records): Tetranychus urticae (658); (unnamed) (216); Tetranychus turkestani (82); Tetranychus cinnabarinus (9); Tetranychus kanzawai (9); Tetranychus sawzdargi (1)
+  C070 (180 records): Tetranychus evansi (179); Tetranychus malvae (1)
+  C046 (157 records): Tetranychus truncatus (119); Tetranychus urticae (24); Tetranychus cinnabarinus (13); Tetranychus puschelii (1)
+  C045 (111 records): (unnamed) (47); Tetranychus pueraricola (40); Tetranychus cinnabarinus (9); Tetranychus urticae (5); Tetranychus kanzawai (4); Tetranychus truncatus (4); Tetranychus phaselus (2)
+  C043 (98 records): Tetranychus kanzawai (66); Tetranychus cinnabarinus (25); Tetranychus urticae (3); Tetranychus parakanzawai (3); Tetranychus bambusae (1)
+  C073 (95 records): Tetranychus ludeni (71); (unnamed) (22); Tetranychus neocaledonicus (1); Tetranychus kanzawai (1)
+  C050 (24 records): Tetranychus gloveri (16); Tetranychus okinawanus (8)
+  C064 (22 records): Tetranychus udaipurensis (15); Tetranychus truncatus (3); Tetranychus neocaledonicus (2); Tetranychus okinawanus (1); Tetranychus turkestani (1)
   C002 (14 records): Tetranychus macfarlanei (8); Tetranychus malaysiensis (5); (unnamed) (1)
-  C047 (12 records): Tetranychus piercei (11); Tetranychus cinnabarinus (1)
-  C051 (11 records): Tetranychus kanzawai (6); Tetranychus parakanzawai (3); Tetranychus ezoensis (2)
-  C041 (8 records): Tetranychus phaselus (5); Tetranychus cinnabarinus (2); Tetranychus urticae (1)
+  C048 (12 records): Tetranychus piercei (11); Tetranychus cinnabarinus (1)
+  C052 (11 records): Tetranychus kanzawai (6); Tetranychus parakanzawai (3); Tetranychus ezoensis (2)
+  C042 (8 records): Tetranychus phaselus (5); Tetranychus cinnabarinus (2); Tetranychus urticae (1)
 Species without a barcode gap:
   Tetranychus bambusae: max within 0.1229, nearest Tetranychus cinnabarinus at 0.0000
   Tetranychus cinnabarinus: max within 0.1247, nearest Tetranychus turkestani at 0.0000
@@ -30,7 +30,7 @@ Species without a barcode gap:
   Tetranychus malaysiensis: max within 0.0682, nearest Tetranychus macfarlanei at 0.0000
   Tetranychus mexicanus: max within 0.1311, nearest Tetranychus neocaledonicus at 0.0855
   Tetranychus neocaledonicus: max within 0.2210, nearest Tetranychus truncatus at 0.0000
-  Tetranychus okinawanus: max within 0.1061, nearest Tetranychus gloveri at 0.0014
+  Tetranychus okinawanus: max within 0.1211, nearest Tetranychus gloveri at 0.0014
   Tetranychus parakanzawai: max within 0.0474, nearest Tetranychus kanzawai at 0.0000
   Tetranychus phaselus: max within 0.1161, nearest Tetranychus cinnabarinus at 0.0000
   Tetranychus piercei: max within 0.0583, nearest Tetranychus cinnabarinus at 0.0074
@@ -38,6 +38,6 @@ Species without a barcode gap:
   Tetranychus puschelii: max within 0.1389, nearest Tetranychus truncatus at 0.0000
   Tetranychus truncatus: max within 0.1619, nearest Tetranychus puschelii at 0.0000
   Tetranychus turkestani: max within 0.1580, nearest Tetranychus urticae at 0.0000
-  Tetranychus udaipurensis: max within 0.0420, nearest Tetranychus neocaledonicus at 0.0030
+  Tetranychus udaipurensis: max within 0.0420, nearest Tetranychus truncatus at 0.0000
   Tetranychus urticae: max within 0.2058, nearest Tetranychus cinnabarinus at 0.0000
   Tetranychus viennensis: max within 0.0702, nearest Tetranychus truncatus at 0.0664

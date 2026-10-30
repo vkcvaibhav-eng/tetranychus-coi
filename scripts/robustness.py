@@ -4,23 +4,28 @@
    repeated at several K2P thresholds, first with the cluster threshold and
    the largest accepted match distance equal, then varied separately.
 2. Anchors, taxonomy and fold isolation. At K2P 0.03 the identification
-   test is repeated with level A anchors only, with T. malaysiensis treated
-   as a junior synonym of T. macfarlanei (Zeity et al. 2017), and in the
-   earlier, less strict form (clusters from all records, study membership by
-   publication title only) to measure any leakage from held-out records.
-3. Uncertainty. For the main identification test: the full table of
-   outcomes raw -> cleaned, an exact McNemar test on the queries whose
-   correctness changed, and 95% intervals from a bootstrap that resamples
-   anchor studies, since anchors of one study are not independent.
+   test is repeated with level A anchors only, with the extended synonymy
+   (synonyms_extended.csv), with related studies held out together
+   (study_groups.csv, when present), and in the earlier, less strict form
+   (clusters from all records, study membership by publication title only)
+   to measure any leakage from held-out records.
+3. Uncertainty. For the main identification test: transitions between the
+   four reference sets (all, named, cleaned, conservative), a sign-flip test
+   on study totals for each comparison (queries of one study are not
+   independent; the query-level McNemar test is kept as a secondary
+   statistic), 95% intervals from a bootstrap over anchor studies, and
+   accuracy pooled, averaged over studies and averaged over species, by the
+   coverage of the query's species in the reference set.
 4. Cluster structure. Largest K2P distance within each cluster (single
    linkage can chain records that are far apart), and the clusters whose 5'
    and 3' fragments are joined only through records long enough to overlap
    both.
 5. Label agreement comparable with ITS2. For every named COI record, the
    name of its nearest other record, over all records and over records from
-   other submission batches only. For specimens linked one-to-one to an ITS2
-   record (its2_analysis.py), the two markers are compared on the same
-   specimens, with a bootstrap over submission batches and a sign-flip test
+   other submission batches only. For COI records linked one-to-one to an
+   ITS2 record (its2_analysis.py; a putative material link by author and
+   isolate, strain or voucher name, not a demonstrated individual), the two
+   markers are compared on the linked records, with a bootstrap over submission batches and a sign-flip test
    on batch totals, because specimens of one batch are not independent.
 6. Records that disagree with the anchored species of their cluster, by
    pair of names and by submission batch.
@@ -42,7 +47,8 @@ from collections import Counter, defaultdict
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from identification_test import OUTCOMES, cluster_ids, evaluate, load_context, tally  # noqa: E402
+from identification_test import (COVERAGE, OUTCOMES, SETS, anchors_at, cluster_ids, evaluate,  # noqa: E402
+                                 load_context, tally)
 from species_analysis import UnionFind  # noqa: E402
 
 THRESHOLDS = [0.01, 0.015, 0.02, 0.03, 0.04, 0.05]
@@ -122,16 +128,16 @@ def main():
             if raw_name[rid]:
                 sp_clusters[raw_name[rid]].add(cl[rid])
         urt = Counter(cl[r] for r in records if raw_name[r] == "Tetranychus urticae")
-        anchors = {rid: sid for rid, sid in anchor_all.items() if studies[sid]["evidence_level"] in levels}
+        anchors = anchors_at(ctx, levels)
         best = defaultdict(lambda: defaultdict(set))
         for rid, sid in anchors.items():
             n = study_name.get(rid, name[rid])
             if n:
-                best[cl[rid]][studies[sid]["evidence_level"]].add(n)
+                best[cl[rid]][ctx["anchor_level"][rid]].add(n)
         anchored = {c: sorted(v[min(v)]) for c, v in best.items()}
         verdict = {}
         for rid in records:
-            if rid in anchor_all:  # anchors of every level are left out, as in anchor_check.py
+            if rid in anchors:  # anchors used for decisions are left out; level C leads count as ordinary records
                 continue
             names, own = anchored.get(cl[rid], []), name[rid]
             if not names:
@@ -152,9 +158,16 @@ def main():
                 "verdict": verdict, "anchored": anchored, "cluster": cl, "name": name}
 
     def outcome_cols(qs):
-        a, b = tally(qs, "raw_result"), tally(qs, "cleaned_result")
-        return {**{f"raw_{o.replace(' ', '_')}": a[o] for o in OUTCOMES},
-                **{f"cleaned_{o.replace(' ', '_')}": b[o] for o in OUTCOMES}}
+        cols = {}
+        for s_ in SETS:
+            t_ = tally(qs, f"{s_}_result")
+            cols.update({f"{s_}_{o.replace(' ', '_')}": t_[o] for o in OUTCOMES
+                         if not (o == "nearest unnamed" and s_ != "all")})
+        return cols
+
+    def short(qs):
+        return "; ".join(f"{s_} " + ", ".join(f"{o} {tally(qs, s_ + '_result')[o]}" for o in OUTCOMES
+                                              if not (o == "nearest unnamed" and s_ != "all")) for s_ in SETS)
 
     lines = []
     # 1a. thresholds, cluster and match distance equal
@@ -166,29 +179,25 @@ def main():
             base, base_q = st, qs
         v = Counter(st["verdict"].values())
         nv = sum(v.values())
-        n = len(qs)
-        oc = outcome_cols(qs)
         thr_rows.append({"threshold": t, "clusters": st["clusters"], "clusters_several_names": st["mixed"],
                          "species_split": st["split"], "cinnabarinus_clusters": st["cinnabarinus_clusters"],
                          "urticae_in_largest_cluster_pct": f"{st['urticae_main_pct']:.1f}",
                          "anchored_clusters": len(st["anchored"]),
                          "records_disagree_pct": f"{100 * v['DISAGREES'] / nv:.1f}",
                          "records_no_anchor_pct": f"{100 * v['NO_ANCHOR'] / nv:.1f}",
-                         "queries": n, **oc,
-                         "raw_correct_pct": f"{100 * oc['raw_correct'] / n:.1f}",
-                         "cleaned_correct_pct": f"{100 * oc['cleaned_correct'] / n:.1f}"})
+                         "queries": len(qs), **outcome_cols(qs)})
     write(os.path.join(args.out, "thresholds.csv"), thr_rows)
     lines.append("1a. Thresholds, cluster threshold = largest match distance:")
     tetra = any(raw_name[r] == "Tetranychus urticae" for r in records)
     lines.append("   K2P | clusters | several names | species split | "
                  + ("cinnabarinus clusters | urticae largest % | " if tetra else "")
-                 + "disagree % | correct raw -> cleaned (wrong raw -> cleaned)")
+                 + "disagree % | correct all/named/cleaned/conservative (wrong likewise)")
     for r in thr_rows:
         extra = f"{r['cinnabarinus_clusters']} | {r['urticae_in_largest_cluster_pct']} | " if tetra else ""
         lines.append(f"   {r['threshold']:.3f} | {r['clusters']} | {r['clusters_several_names']} | "
-                     f"{r['species_split']} | {extra}"
-                     f"{r['records_disagree_pct']} | {r['raw_correct']}/{r['queries']} -> {r['cleaned_correct']}/"
-                     f"{r['queries']} ({r['raw_wrong']} -> {r['cleaned_wrong']})")
+                     f"{r['species_split']} | {extra}{r['records_disagree_pct']} | "
+                     + "/".join(str(r[f"{s_}_correct"]) for s_ in SETS) + f" of {r['queries']} ("
+                     + "/".join(str(r[f"{s_}_wrong"]) for s_ in SETS) + ")")
 
     # 1b. cluster threshold and match distance varied separately
     grid_rows = []
@@ -197,92 +206,134 @@ def main():
             qs = base_q if (abs(tc - 0.03) < 1e-9 and abs(tm - 0.03) < 1e-9) else evaluate(ctx, tc, tm)
             grid_rows.append({"cluster_threshold": tc, "match_distance": tm, "queries": len(qs), **outcome_cols(qs)})
     write(os.path.join(args.out, "threshold_grid.csv"), grid_rows)
-    lines.append("1b. Correct answers, cleaned database (raw in brackets), by cluster threshold (rows) "
-                 "and largest match distance (columns):")
+    lines.append("1b. Correct answers by cluster threshold (rows) and largest match distance (columns): "
+                 "named / cleaned / conservative:")
     lines.append("   cluster \\ match | " + " | ".join(f"{tm:.2f}" for tm in MATCH_DISTANCES))
     for tc in THRESHOLDS:
         cells = [r for r in grid_rows if r["cluster_threshold"] == tc]
-        lines.append(f"   {tc:.3f} | " + " | ".join(f"{r['cleaned_correct']} ({r['raw_correct']})" for r in cells))
+        lines.append(f"   {tc:.3f} | " + " | ".join(
+            f"{r['named_correct']}/{r['cleaned_correct']}/{r['conservative_correct']}" for r in cells))
 
-    # 2. anchors, taxonomy, isolation
+    # 2. anchors, taxonomy, isolation, related studies held out together
     n_syn = {0: "no synonymies", 1: "one synonymy", 2: "two synonymies"}.get(len(base_syn), f"{len(base_syn)} synonymies")
     added = sorted(set(syn_plus.items()) - set(base_syn.items()))
     plus_label = "plus " + "; ".join(f"{a.split()[-1]} = {b.split()[-1]}" for a, b in added) if added else "extended synonymy (no change)"
     variants = [(f"main (levels A+B; {n_syn}; folds isolated)", base_q, base),
                 ("level A anchors only", evaluate(ctx, 0.03, 0.03, "A"), cluster_stats(0.03, "A")),
-                (plus_label, evaluate(ctx, 0.03, 0.03, "AB", syn_plus),
-                 cluster_stats(0.03, "AB", syn_plus)),
+                (plus_label, evaluate(ctx, 0.03, 0.03, "AB", syn_plus), cluster_stats(0.03, "AB", syn_plus)),
                 ("earlier version (clusters from all records; title membership)",
                  evaluate(ctx, 0.03, 0.03, isolate=False, rule="title"), base)]
+    if ctx["groups"]:
+        gl = "; ".join(f"{g}: {', '.join(sorted(k for k, v in ctx['groups'].items() if v == g))}"
+                       for g in sorted(set(ctx["groups"].values())))
+        grouped_q = evaluate(ctx, 0.03, 0.03, groups=ctx["groups"])
+        write(os.path.join(args.out, "queries_grouped.csv"), grouped_q)
+        variants.append((f"related studies held out together ({gl})", grouped_q, base))
     var_rows = []
-    lines.append("2. Anchor evidence, taxonomic treatment and fold isolation (K2P 0.03):")
+    lines.append("2. Anchor evidence, taxonomic treatment, fold isolation and grouping (K2P 0.03):")
     for label, qs, st in variants:
-        oc = outcome_cols(qs)
         v = Counter(st["verdict"].values())
-        changed = sum(1 for a, b in zip(qs, base_q)
-                      if (a["raw_result"], a["cleaned_result"]) != (b["raw_result"], b["cleaned_result"])) \
-            if len(qs) == len(base_q) else ""
-        var_rows.append({"variant": label, "queries": len(qs), "studies": len({q["study_id"] for q in qs}), **oc,
-                         "queries_changed_vs_main": changed, "anchored_clusters": len(st["anchored"]),
-                         "records_disagree": v["DISAGREES"], "non_anchor_records": sum(v.values())})
-        lines.append(f"   {label}: {len(qs)} queries from {var_rows[-1]['studies']} studies; raw "
-                     + ", ".join(f"{o} {oc['raw_' + o.replace(' ', '_')]}" for o in OUTCOMES) + "; cleaned "
-                     + ", ".join(f"{o} {oc['cleaned_' + o.replace(' ', '_')]}" for o in OUTCOMES)
+        same = len(qs) == len(base_q) and all(a["query"] == b["query"] for a, b in zip(qs, base_q))
+        changed = sum(1 for a, b in zip(qs, base_q) if any(a[f"{s_}_result"] != b[f"{s_}_result"] for s_ in SETS)) \
+            if same else ""
+        var_rows.append({"variant": label, "queries": len(qs), "studies": len({q["study_id"] for q in qs}),
+                         **outcome_cols(qs), "queries_changed_vs_main": changed,
+                         "anchored_clusters": len(st["anchored"]), "records_disagree": v["DISAGREES"],
+                         "records_outside_anchors_used": sum(v.values())})
+        lines.append(f"   {label}: {len(qs)} queries from {var_rows[-1]['studies']} studies; {short(qs)}"
                      + (f"; queries changed vs main {changed}" if changed != "" else ""))
     write(os.path.join(args.out, "variants.csv"), var_rows)
 
-    # 3. uncertainty of the main test
+    # 3. the main test: comparisons between reference sets, by study, with study-level inference
     qs = base_q
     write(os.path.join(args.out, "queries_main.csv"), qs)
-    trans = Counter((q["raw_result"], q["cleaned_result"]) for q in qs)
-    trans_rows = [{"raw": a, **{b: trans[(a, b)] for b in OUTCOMES}, "total": sum(trans[(a, b)] for b in OUTCOMES)}
-                  for a in OUTCOMES]
-    trans_rows.append({"raw": "total", **{b: sum(trans[(a, b)] for a in OUTCOMES) for b in OUTCOMES},
-                       "total": len(qs)})
-    write(os.path.join(args.out, "transitions.csv"), trans_rows)
-    gained = sum(1 for q in qs if q["raw_result"] != "correct" and q["cleaned_result"] == "correct")
-    lost = sum(1 for q in qs if q["raw_result"] == "correct" and q["cleaned_result"] != "correct")
-    p_mc = binom_two_sided(min(gained, lost), gained + lost)
     by_study = defaultdict(list)
     for q in qs:
         by_study[q["study_id"]].append(q)
     sids = sorted(by_study)
+    trans_rows = []
+    for a_, b_ in (("all", "named"), ("named", "cleaned"), ("named", "conservative")):
+        tr = Counter((q[f"{a_}_result"], q[f"{b_}_result"]) for q in qs)
+        for o in OUTCOMES:
+            if any(tr[(o, o2)] for o2 in OUTCOMES):
+                trans_rows.append({"from": a_, "to": b_, "outcome_from": o, **{o2: tr[(o, o2)] for o2 in OUTCOMES},
+                                   "total": sum(tr[(o, o2)] for o2 in OUTCOMES)})
+    write(os.path.join(args.out, "transitions.csv"), trans_rows)
+    lines.append("3. Main identification test:")
+    for s_ in SETS:
+        lines.append(f"   {s_}: " + ", ".join(f"{o} {tally(qs, s_ + '_result')[o]}" for o in OUTCOMES
+                                             if not (o == "nearest unnamed" and s_ != "all")))
+    comp_rows = []
+    for a_, b_ in (("all", "named"), ("named", "cleaned"), ("named", "conservative"), ("all", "cleaned")):
+        for o in ("correct", "wrong"):
+            gained = sum(1 for q in qs if q[f"{a_}_result"] != o and q[f"{b_}_result"] == o)
+            lost = sum(1 for q in qs if q[f"{a_}_result"] == o and q[f"{b_}_result"] != o)
+            totals = [sum((q[f"{b_}_result"] == o) - (q[f"{a_}_result"] == o) for q in by_study[s]) for s in sids]
+            comp_rows.append({"from": a_, "to": b_, "outcome": o, "gained": gained, "lost": lost,
+                              "studies_up": sum(t > 0 for t in totals), "studies_down": sum(t < 0 for t in totals),
+                              "study_sign_flip_p": f"{sign_flip_p(totals):.3f}",
+                              "query_mcnemar_p": f"{binom_two_sided(min(gained, lost), gained + lost):.3f}"})
+            lines.append(f"   {a_} -> {b_}, {o}: +{gained} / -{lost}; studies up {comp_rows[-1]['studies_up']}, "
+                         f"down {comp_rows[-1]['studies_down']}; sign-flip over studies p = "
+                         f"{comp_rows[-1]['study_sign_flip_p']} (query-level McNemar p = {comp_rows[-1]['query_mcnemar_p']})")
+    write(os.path.join(args.out, "set_comparisons.csv"), comp_rows)
+
     rng = np.random.default_rng(args.seed)
     stat = defaultdict(list)
+    keys = [(s_, o) for s_ in SETS for o in ("correct", "wrong", "no match")]
     for _ in range(args.boot):
         pick = [q for s in rng.choice(sids, size=len(sids), replace=True) for q in by_study[s]]
         n = len(pick)
-        for key in ("raw", "cleaned"):
-            for o in ("correct", "wrong"):
-                stat[f"{key}_{o}"].append(100 * sum(q[f"{key}_result"] == o for q in pick) / n)
-        stat["diff_correct"].append(stat["cleaned_correct"][-1] - stat["raw_correct"][-1])
-        stat["diff_wrong"].append(stat["cleaned_wrong"][-1] - stat["raw_wrong"][-1])
+        for s_, o in keys:
+            stat[f"{s_}_{o}"].append(100 * sum(q[f"{s_}_result"] == o for q in pick) / n)
+        stat["cleaned_minus_named_correct"].append(stat["cleaned_correct"][-1] - stat["named_correct"][-1])
+        stat["named_minus_all_correct"].append(stat["named_correct"][-1] - stat["all_correct"][-1])
     n = len(qs)
-    point = {f"{k}_{o}": 100 * sum(q[f"{k}_result"] == o for q in qs) / n
-             for k in ("raw", "cleaned") for o in ("correct", "wrong")}
-    point["diff_correct"] = point["cleaned_correct"] - point["raw_correct"]
-    point["diff_wrong"] = point["cleaned_wrong"] - point["raw_wrong"]
-    ci_rows = [{"measure": k, "estimate_pct": f"{point[k]:.1f}",
-                "ci_low": f"{np.percentile(v, 2.5):.1f}", "ci_high": f"{np.percentile(v, 97.5):.1f}"}
-               for k, v in stat.items()]
+    point = {f"{s_}_{o}": 100 * sum(q[f"{s_}_result"] == o for q in qs) / n for s_, o in keys}
+    point["cleaned_minus_named_correct"] = point["cleaned_correct"] - point["named_correct"]
+    point["named_minus_all_correct"] = point["named_correct"] - point["all_correct"]
+    ci_rows = [{"measure": k, "estimate_pct": f"{point[k]:.1f}", "ci_low": f"{np.percentile(v, 2.5):.1f}",
+                "ci_high": f"{np.percentile(v, 97.5):.1f}"} for k, v in stat.items()]
     write(os.path.join(args.out, "identification_intervals.csv"), ci_rows)
-    lines.append("3. Main identification test: outcomes raw (rows) -> cleaned (columns):")
-    lines.append("   " + " | ".join(["raw \\ cleaned"] + OUTCOMES + ["total"]))
-    for r in trans_rows:
-        lines.append("   " + " | ".join(str(r[k]) for k in ["raw"] + OUTCOMES + ["total"]))
-    lines.append(f"   Became correct {gained}, stopped being correct {lost}; exact McNemar p = {p_mc:.3f}")
     lines.append(f"   95% intervals, bootstrap over {len(sids)} anchor studies ({args.boot} replicates, seed {args.seed}):")
     for r in ci_rows:
         lines.append(f"     {r['measure']}: {r['estimate_pct']}% ({r['ci_low']} to {r['ci_high']})")
-    sp_rows = []
+
+    # unweighted summaries and coverage strata
+    def pct(rs, s_):
+        return 100 * sum(r[f"{s_}_result"] == "correct" for r in rs) / len(rs)
     per_sp = defaultdict(list)
     for q in qs:
         per_sp[q["species"]].append(q)
+    summ_rows = []
+    for s_ in SETS:
+        summ_rows.append({"reference_set": s_, "pooled_correct_pct": f"{pct(qs, s_):.1f}",
+                          "mean_over_studies_pct": f"{np.mean([pct(by_study[s], s_) for s in sids]):.1f}",
+                          "mean_over_species_pct": f"{np.mean([pct(v, s_) for v in per_sp.values()]):.1f}",
+                          "median_db_records": int(np.median([q[f'{s_}_db_size'] for q in qs])),
+                          "median_db_species": int(np.median([q[f'{s_}_db_species'] for q in qs]))})
+    for c in COVERAGE:
+        rs = [q for q in qs if q["coverage_named"] == c]
+        summ_rows.append({"reference_set": f"named; queries with {c}", "pooled_correct_pct":
+                          f"{pct(rs, 'named'):.1f}" if rs else "", "mean_over_studies_pct": "",
+                          "mean_over_species_pct": "", "median_db_records": len(rs), "median_db_species": ""})
+    write(os.path.join(args.out, "identification_summaries.csv"), summ_rows)
+    lines.append(f"   Correct answers pooled / mean over {len(sids)} studies / mean over {len(per_sp)} species; "
+                 "median reference records and species per fold:")
+    for r in summ_rows[:len(SETS)]:
+        lines.append(f"     {r['reference_set']}: {r['pooled_correct_pct']} / {r['mean_over_studies_pct']} / "
+                     f"{r['mean_over_species_pct']}; {r['median_db_records']} records, {r['median_db_species']} species")
+    lines.append("   Coverage of the query's species in the named set (queries; correct, named set):")
+    for r in summ_rows[len(SETS):]:
+        lines.append(f"     {r['reference_set'].split('with ')[1]}: {r['median_db_records']}; {r['pooled_correct_pct']}%")
+
+    sp_rows = []
     for sp, rs in sorted(per_sp.items(), key=lambda kv: (-len(kv[1]), kv[0])):
         sp_rows.append({"species": sp, "queries": len(rs), "studies": len({r["study_id"] for r in rs}),
+                        "coverage_named": "; ".join(f"{k} ({v})" for k, v in Counter(r["coverage_named"] for r in rs).items()),
                         **outcome_cols(rs),
-                        "wrong_names_cleaned": "; ".join(f"{k} ({v})" for k, v in Counter(
-                            r["cleaned_match"] for r in rs if r["cleaned_result"] == "wrong").most_common())})
+                        "wrong_names_named": "; ".join(f"{k} ({v})" for k, v in Counter(
+                            r["named_match"] for r in rs if r["named_result"] == "wrong").most_common())})
     write(os.path.join(args.out, "identification_by_species.csv"), sp_rows)
 
     # 4. cluster structure at 0.03
@@ -389,6 +440,7 @@ def main():
                 continue
             pair_rows.append({"specimen": pr["specimen"], "coi_record": pr["coi_record"],
                               "its2_record": pr["its2_record"], "link": pr.get("link", ""),
+                              "material_link": pr.get("material_link", ""),
                               "confident": pr.get("confident", "yes"),
                               "label": c["accepted_name"] or i["accepted_name"],
                               "coi_batch": c["batch"],
@@ -417,7 +469,13 @@ def main():
                                     - sum(r["its2_match"] == "yes" for r in pick)) / len(pick))
             lo, hi = np.percentile(diffs, [2.5, 97.5])
             p_flip = sign_flip_p(totals)
-            lines.append(f"   Same specimens ({len(both)} one-to-one, other batches only, {len(groups)} COI submission "
+            lines.append("   Linked records by what the key can establish: " + "; ".join(
+                f"{k} {v}" for k, v in Counter(r["material_link"] for r in both).most_common()))
+            for ml in sorted({r["material_link"] for r in both}):
+                g = [r for r in both if r["material_link"] == ml]
+                lines.append(f"     {ml}: COI {sum(r['coi_match'] == 'yes' for r in g)}, "
+                             f"ITS2 {sum(r['its2_match'] == 'yes' for r in g)} of {len(g)}")
+            lines.append(f"   Linked records ({len(both)} one-to-one, other batches only, {len(groups)} COI submission "
                          f"batches): COI {kc} ({100 * kc / len(both):.1f}%), ITS2 {ki} ({100 * ki / len(both):.1f}%); "
                          f"COI only {only_c}, ITS2 only {only_i}")
             lines.append(f"     difference {100 * (kc - ki) / len(both):.1f} points; 95% interval over batches "

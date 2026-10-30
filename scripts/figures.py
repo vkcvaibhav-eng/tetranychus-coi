@@ -81,14 +81,14 @@ def figure1():
     bold = box(1, 27, 15, 7, "BOLD COI\n(BCDM files)")
     its = box(1, 8, 15, 7, "GenBank ITS2")
     merge = box(22, 32, 15, 8, "Merge and\nmetadata audit\n(0-7 score)")
-    qc = box(43, 32, 15, 8, "Sequence QC\n(length, frame,\nidentity)")
+    qc = box(43, 32, 15, 8, "Sequence QC\n(length, identity,\nframe; translation)")
     clus = box(64, 32, 16, 8, "Haplotypes, K2P,\nclusters,\nbarcode gaps")
-    anc = box(82.4, 37, 18, 9.5, "Anchor check:\n12 candidate sources,\n9 studies used\n(108 anchors)")
-    ident = box(82.4, 25.5, 18, 7.5, "Identification\ntest (leave one\nstudy out)")
+    anc = box(82.4, 37, 18, 9.5, "Anchor check:\nTetranychus 9 studies,\nOligonychus 10\n(evidence per record)")
+    ident = box(82.4, 25.5, 18, 7.5, "Identification test\n(leave one study out;\nfour reference sets)")
     phy = box(64, 18, 16, 8, "Trees: 5′, 3′ and\nsame records\nin both halves")
-    sens = box(82.4, 14.5, 18, 7.5, "Sensitivity:\nthresholds,\nanchors, folds")
+    sens = box(82.4, 14.5, 18, 7.5, "Sensitivity:\nthresholds, anchors,\nfolds, species pairs")
     its2 = box(22, 8, 15, 7, "ITS2 distances,\nnearest names")
-    pair = box(43, 8, 15, 7, "COI–ITS2 pairs\n(one-to-one links)")
+    pair = box(43, 8, 15, 7, "COI–ITS2 links\n(one-to-one,\nby key type)")
     trend = box(22, 19.5, 15, 7, "Trends by year\nand country")
     arrow(gb, merge)
     arrow(bold, merge)
@@ -144,47 +144,59 @@ STUDY_LABEL = {"matsuda2013": "Matsuda et al. 2013", "mendonca2011": "de Mendon�
                "inak2022": "İnak et al. 2022", "srinivasa2012": "Srinivasa et al. 2012",
                "navajas_boursot2003": "Navajas & Boursot 2003", "abdolahadi2026": "Abdolahadi et al. 2025",
                "chen2014": "Chen et al. 2014", "li2010": "Li et al. 2010", "gotoh2009": "Gotoh et al. 2009"}
-OUTCOMES = ["correct", "wrong", "ambiguous", "no match"]
+OUTCOMES = ["correct", "wrong", "ambiguous", "nearest unnamed", "no match"]
+OUT_LABEL = ["Correct", "Wrong", "Ambiguous", "Nearest record unnamed", "No match"]
+OUT_COLOR = [SERIES[0], SERIES[1], SERIES[2], MUTED, SERIES[3]]
+SET_LABEL = {"all": "all records", "named": "named records", "cleaned": "cleaned", "conservative": "conservative"}
+
+
+def outcome_bar(ax, y, rs, key, height=0.62):
+    c = Counter(r[key] for r in rs)
+    left = 0
+    for k, o in enumerate(OUTCOMES):
+        if c[o]:
+            ax.barh(y, c[o] / len(rs) * 100, left=left, height=height, color=OUT_COLOR[k],
+                    edgecolor="white", linewidth=0.8)
+            left += c[o] / len(rs) * 100
+
+
+def outcome_legend(ax, y=1.0):
+    handles = [plt.Rectangle((0, 0), 1, 1, color=c) for c in OUT_COLOR]
+    ax.legend(handles, OUT_LABEL, ncol=5, fontsize=6.2, frameon=False, loc="lower left",
+              bbox_to_anchor=(-0.02, y), handlelength=1.0, columnspacing=0.9)
 
 
 def figure3():
     qs = read("results/robustness/queries_main.csv")
-    trans = read("results/robustness/transitions.csv")
     order = ["matsuda2013", "mendonca2011", "inak2022", "srinivasa2012", "navajas_boursot2003",
              "abdolahadi2026", "chen2014", "li2010", "gotoh2009"]
     by = defaultdict(list)
     for q in qs:
         by[q["study_id"]].append(q)
-    fig, (ax, bx) = plt.subplots(1, 2, figsize=(6.9, 3.4), gridspec_kw={"width_ratios": [1.65, 1]})
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(6.9, 4.4), gridspec_kw={"width_ratios": [1.7, 1]})
     ypos, labels, y = [], [], 0.0
-    for sid in order + ["all"]:
+    for sid in ["all"] + order:
         rs = qs if sid == "all" else by[sid]
-        for key, tag in (("raw_result", "raw"), ("cleaned_result", "cleaned")):
-            c = Counter(r[key] for r in rs)
-            left = 0
-            for k, o in enumerate(OUTCOMES):
-                if c[o]:
-                    ax.barh(y, c[o] / len(rs) * 100, left=left, height=0.62, color=SERIES[k],
-                            edgecolor="white", linewidth=0.8)
-                    left += c[o] / len(rs) * 100
+        for key in ("all", "named", "cleaned"):
+            outcome_bar(ax, y, rs, f"{key}_result")
             ypos.append(y)
-            name = "All studies" if sid == "all" else STUDY_LABEL[sid]
-            labels.append(f"{name} (n = {len(rs)}), {tag}" if tag == "raw" else "cleaned")
-            y += 0.75
-        y += 0.55
+            name = f"All studies ({len(order)})" if sid == "all" else STUDY_LABEL[sid]
+            labels.append(f"{name}, {len(rs)} quer{'y' if len(rs) == 1 else 'ies'}: {SET_LABEL[key]}"
+                          if key == "all" else SET_LABEL[key])
+            y += 0.72
+        y += 0.5
     ax.set_yticks(ypos)
-    ax.set_yticklabels(labels, fontsize=6.3)
+    ax.set_yticklabels(labels, fontsize=5.6)
     ax.invert_yaxis()
     ax.set_xlim(0, 100)
     ax.set_xlabel("Anchor queries (%)")
-    for s in ("top", "right"):
-        ax.spines[s].set_visible(False)
-    handles = [plt.Rectangle((0, 0), 1, 1, color=SERIES[k]) for k in range(4)]
-    ax.legend(handles, ["Correct", "Wrong", "Ambiguous", "No match"], ncol=4, fontsize=6.5, frameon=False,
-              loc="lower left", bbox_to_anchor=(-0.02, 1.0), handlelength=1.0, columnspacing=1.0)
-    ax.text(-0.02, 1.09, "a", transform=ax.transAxes, fontsize=10, fontweight="bold", va="bottom", ha="right")
+    for sp in ("top", "right"):
+        ax.spines[sp].set_visible(False)
+    outcome_legend(ax)
+    ax.text(-0.02, 1.07, "a", transform=ax.transAxes, fontsize=10, fontweight="bold", va="bottom", ha="right")
 
-    m = [[int(r[o]) for o in OUTCOMES] for r in trans if r["raw"] in OUTCOMES]
+    outs = ["correct", "wrong", "ambiguous", "no match"]
+    m = [[sum(1 for q in qs if q["named_result"] == a_ and q["cleaned_result"] == b_) for b_ in outs] for a_ in outs]
     vmax = max(max(r) for r in m)
     for i, row in enumerate(m):
         for j, v in enumerate(row):
@@ -198,13 +210,13 @@ def figure3():
     bx.set_xticklabels(["Correct", "Wrong", "Ambig.", "No match"], fontsize=6.8)
     bx.set_yticks([k + 0.48 for k in range(4)])
     bx.set_yticklabels(["Correct", "Wrong", "Ambig.", "No match"], fontsize=6.8)
-    bx.set_xlabel("Cleaned database")
-    bx.set_ylabel("Raw database")
+    bx.set_xlabel("Cleaned records")
+    bx.set_ylabel("Named records")
     bx.xaxis.set_label_position("top")
     bx.xaxis.tick_top()
     bx.tick_params(length=0)
-    for s in bx.spines.values():
-        s.set_visible(False)
+    for sp in bx.spines.values():
+        sp.set_visible(False)
     bx.set_aspect("equal")
     bx.text(-0.30, 1.22, "b", transform=bx.transAxes, fontsize=10, fontweight="bold", va="bottom")
     fig.tight_layout(w_pad=2.5)
@@ -289,16 +301,15 @@ def draw_tree(ax, treefile, tipsfile, title, show_support=True, lw=0.35):
 
 
 def figure4():
-    fig = plt.figure(figsize=(6.9, 9.2))
-    gs = fig.add_gridspec(2, 2, height_ratios=[2.25, 1], hspace=0.30, wspace=0.12)
-    panels = [("results/phylogeny/5prime", "a  5′ half, all records (505 haplotypes)"),
-              ("results/phylogeny/3prime", "b  3′ half, all records (422 haplotypes)"),
-              ("results/phylogeny/paired/5prime", "c  5′ half, the same 98 records"),
-              ("results/phylogeny/paired/3prime", "d  3′ half, the same 98 records")]
-    for k, (d, title) in enumerate(panels):
-        ax = fig.add_subplot(gs[k // 2, k % 2])
-        draw_tree(ax, os.path.join(d, "iqtree.treefile"), os.path.join(d, "tips.csv"), title,
-                  lw=0.3 if k < 2 else 0.5)
+    """The two halves of COX1 from the same records; full trees are Figures S1 and S2."""
+    fig = plt.figure(figsize=(6.9, 6.4))
+    gs = fig.add_gridspec(1, 2, wspace=0.12)
+    for k, (d, half) in enumerate((("results/phylogeny/paired/5prime", "5′"), ("results/phylogeny/paired/3prime", "3′"))):
+        tips = read(os.path.join(d, "tips.csv"))
+        n_rec = sum(int(t["records"]) for t in tips)
+        ax = fig.add_subplot(gs[0, k])
+        draw_tree(ax, os.path.join(d, "iqtree.treefile"), os.path.join(d, "tips.csv"),
+                  f"{'ab'[k]}  {half} half, the same {n_rec} records ({len(tips)} haplotypes)", lw=0.6)
     save(fig, "Figure4")
 
 
@@ -445,7 +456,7 @@ def supplementary_figures():
 # Figure 5 ------------------------------------------------------------------
 def figure5():
     rows = read("results/trends/by_period.csv")
-    periods = [r["period"].replace("before 2006", "Before 2006").replace("2021 onwards", "2021 on")
+    periods = [r["period"].replace("before 2006", "Before 2006").replace("2021 onwards", "2021 to\n29 Oct 2026")
                .replace("-", "–") for r in rows]
     series = [("Species name", [100 - float(r["unnamed_pct"]) for r in rows]),
               ("Voucher", [float(r["voucher_pct"]) for r in rows]),
@@ -465,6 +476,9 @@ def figure5():
         placed.append(yv)
         ax.annotate(name, (x[-1], v), xytext=(x[-1] + 0.18, yv), fontsize=6.8, color=INK, va="center",
                     arrowprops=dict(arrowstyle="-", lw=0.4, color=MUTED) if abs(yv - v) > 0.5 else None)
+    pub = series[3][1][-1]
+    ax.annotate(f"{pub:.1f}%", (x[-1], pub), xytext=(-6, 9), textcoords="offset points", ha="right",
+                fontsize=6.5, color=INK2)
     ax.set_xticks(x)
     ax.set_xticklabels([f"{p}\nn = {r['records']}" for p, r in zip(periods, rows)], fontsize=7)
     ax.set_xlim(-0.2, len(periods) - 0.2 + 1.1)
@@ -482,26 +496,18 @@ def figure5():
 
 # Figure 6 ------------------------------------------------------------------
 O_STUDY_LABEL = {"matsuda2012": "Matsuda et al. 2012", "arabuli2018": "Arabuli & Gotoh 2018",
-                 "mushtaq2023a_males": "Mushtaq et al. 2023a", "mushtaq2023b_males": "Mushtaq et al. 2023b",
+                 "mushtaq2023a": "Mushtaq et al. 2023a", "mushtaq2023b": "Mushtaq et al. 2023b",
                  "majeed2026": "Safeena Majeed et al. 2026", "guzman2014": "Guzmán-Valencia et al. 2014",
                  "guzman2017": "Guzmán-Valencia et al. 2017", "sakamoto2019": "Sakamoto et al. 2019",
                  "majeed2022": "Safeena Majeed et al. 2022", "muralidharan2020": "Muralidharan et al. 2020"}
 
 
-def stacked_rows(ax, rows, key="raw_result"):
-    """One horizontal stacked bar per (label, queries) row; returns tick positions."""
-    ypos = []
+def stacked_rows(ax, rows, key="all_result"):
+    """One horizontal stacked bar per (label, queries) row."""
     for y, (label, rs) in enumerate(rows):
-        c = Counter(r[key] for r in rs)
-        left = 0
-        for k, o in enumerate(OUTCOMES):
-            if c[o]:
-                ax.barh(y, c[o] / len(rs) * 100, left=left, height=0.64, color=SERIES[k],
-                        edgecolor="white", linewidth=0.8)
-                left += c[o] / len(rs) * 100
-        ypos.append(y)
-    ax.set_yticks(ypos)
-    ax.set_yticklabels([f"{label} (n = {len(rs)})" for label, rs in rows], fontsize=6.3)
+        outcome_bar(ax, y, rs, key, height=0.64)
+    ax.set_yticks(range(len(rows)))
+    ax.set_yticklabels([label for label, _ in rows], fontsize=6.0)
     ax.invert_yaxis()
     ax.set_xlim(0, 100)
     ax.set_xlabel("Anchor queries (%)")
@@ -510,32 +516,31 @@ def stacked_rows(ax, rows, key="raw_result"):
 
 
 def figure6():
-    """Oligonychus beside Tetranychus: outcomes in the raw database (leave-one-study-out)."""
+    """Oligonychus beside Tetranychus, all-records reference set (what a database user meets)."""
     tq = read("results/robustness/queries_main.csv")
     oq = read("results/oligonychus/robustness/queries_main.csv")
-    mex = {"guzman2014", "guzman2017"}
-    summary = [("Tetranychus, all studies", tq),
-               ("Tetranychus, level A", [r for r in tq if r["evidence_level"] == "A"]),
-               ("Oligonychus, all studies", oq),
-               ("Oligonychus, level A", [r for r in oq if r["evidence_level"] == "A"]),
-               ("Oligonychus, without the Mexican studies", [r for r in oq if r["study_id"] not in mex])]
+    grouped = read("results/oligonychus/robustness/queries_grouped.csv")
+
+    def lab(genus, what, rs):
+        return f"$\\mathit{{{genus}}}$, {what}: {len(rs)} queries, {len({r['study_id'] for r in rs})} studies"
+    tA = [r for r in tq if r["evidence_level"] == "A"]
+    oA = [r for r in oq if r["evidence_level"] == "A"]
+    summary = [(lab("Tetranychus", "all studies", tq), tq), (lab("Tetranychus", "level A", tA), tA),
+               (lab("Oligonychus", "all studies", oq), oq), (lab("Oligonychus", "level A", oA), oA),
+               (lab("Oligonychus", "Mexican studies held out together", grouped), grouped)]
     by = defaultdict(list)
     for r in oq:
         by[r["study_id"]].append(r)
-    order = sorted(by, key=lambda sid: (by[sid][0]["evidence_level"], -len(by[sid])))
-    studies = [(f"{O_STUDY_LABEL[sid]} [{by[sid][0]['evidence_level']}]", by[sid]) for sid in order]
-    fig, (ax, bx) = plt.subplots(2, 1, figsize=(5.6, 5.0), gridspec_kw={"height_ratios": [5, 10]})
+    order = sorted(by, key=lambda sid: (min(r["evidence_level"] for r in by[sid]), -len(by[sid])))
+    studies = [(f"{O_STUDY_LABEL[sid]} [{'/'.join(sorted({r['evidence_level'] for r in by[sid]}))}]: "
+                f"{len(by[sid])} quer{'y' if len(by[sid]) == 1 else 'ies'}", by[sid]) for sid in order]
+    fig, (ax, bx) = plt.subplots(2, 1, figsize=(5.8, 5.2), gridspec_kw={"height_ratios": [5, 10]})
     stacked_rows(ax, summary)
-    ax.set_yticklabels([lab.get_text().replace("Tetranychus", "$\\mathit{Tetranychus}$")
-                        .replace("Oligonychus", "$\\mathit{Oligonychus}$") for lab in ax.get_yticklabels()],
-                       fontsize=6.3)
     stacked_rows(bx, studies)
-    handles = [plt.Rectangle((0, 0), 1, 1, color=SERIES[k]) for k in range(4)]
-    ax.legend(handles, ["Correct", "Wrong", "Ambiguous", "No match"], ncol=4, fontsize=6.5, frameon=False,
-              loc="lower left", bbox_to_anchor=(-0.02, 1.0), handlelength=1.0, columnspacing=1.0)
-    for a, letter in ((ax, "a"), (bx, "b")):
-        a.text(-0.02, 1.02 if a is bx else 1.12, letter, transform=a.transAxes, fontsize=10,
-               fontweight="bold", va="bottom", ha="right")
+    outcome_legend(ax, 1.02)
+    for a_, letter in ((ax, "a"), (bx, "b")):
+        a_.text(-0.02, 1.02 if a_ is bx else 1.14, letter, transform=a_.transAxes, fontsize=10,
+                fontweight="bold", va="bottom", ha="right")
     fig.tight_layout(h_pad=1.6)
     save(fig, "Figure6")
 

@@ -1,4 +1,4 @@
-791 ITS2 records; reference ITS2 645 bp from 92 annotated T. urticae
+791 ITS2 records; reference ITS2 645 bp from 92 annotated ITS2 sequences
 783 usable ITS2 sequences, 627 unique
 ITS2 records: 791; usable: 783; unique: 627
 Single-linkage clusters chain related species; species assignment uses nearest neighbours.
@@ -36,17 +36,31 @@ ITS2 nearest-neighbour name matches own name: 664 of 771 named records (86.1%)
   Tetranychus udaipurensis: 9 of 19 match
   Tetranychus lombardinii: 15 of 18 match
   Tetranychus piercei: 12 of 12 match
-COI vs ITS2 for specimens with both genes (COI cluster species vs ITS2 nearest species):
-  agree 147, disagree 38 of 185
+Nearest neighbour from another submission batch matches own name: 621 of 772 named records (80.4%)
+  Tetranychus urticae: 201 of 234 match
+  Tetranychus truncatus: 95 of 113 match
+  Tetranychus macfarlanei: 63 of 76 match
+  Tetranychus neocaledonicus: 72 of 74 match
+  Tetranychus ludeni: 43 of 44 match
+  Tetranychus turkestani: 22 of 42 match
+  Tetranychus okinawanus: 21 of 28 match
+  Tetranychus evansi: 26 of 26 match
+  Tetranychus kanzawai: 9 of 21 match
+  Tetranychus udaipurensis: 9 of 19 match
+  Tetranychus lombardinii: 15 of 18 match
+  Tetranychus piercei: 12 of 12 match
+Specimen links between genes: 193 pairs for 182 keys; one-to-one without conflict: 176; ambiguous: 16 pairs; one-to-one with conflicting names or countries: 1
+COI vs ITS2 for one-to-one specimens (COI cluster species vs ITS2 nearest species):
+  agree 141, disagree 35 of 176
   11 x labelled Tetranychus turkestani (Saudi Arabia): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus turkestani
   3 x labelled Tetranychus pueraricola (Japan): COI groups with -, ITS2 nearest Tetranychus pueraricola
-  2 x labelled Tetranychus urticae (Iraq): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus turkestani
-  2 x labelled (unnamed) (Saudi Arabia): COI groups with -, ITS2 nearest Tetranychus urticae
-  2 x labelled Tetranychus urticae (Saudi Arabia): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus turkestani
-  2 x labelled Tetranychus udaipurensis (India): COI groups with Tetranychus udaipurensis, ITS2 nearest Tetranychus neocaledonicus
-  2 x labelled Tetranychus okinawanus (Japan): COI groups with Tetranychus gloveri, ITS2 nearest Tetranychus okinawanus
   2 x labelled Tetranychus urticae (China): COI groups with Tetranychus truncatus, ITS2 nearest Tetranychus urticae
+  2 x labelled Tetranychus okinawanus (Japan): COI groups with Tetranychus gloveri, ITS2 nearest Tetranychus okinawanus
+  2 x labelled Tetranychus urticae (Saudi Arabia): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus turkestani
+  2 x labelled (unnamed) (Saudi Arabia): COI groups with -, ITS2 nearest Tetranychus urticae
+  2 x labelled Tetranychus udaipurensis (India): COI groups with Tetranychus udaipurensis, ITS2 nearest Tetranychus neocaledonicus
+  1 x labelled Tetranychus urticae (China): COI groups with -, ITS2 nearest Tetranychus urticae
+  1 x labelled Tetranychus turkestani (China): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus turkestani
+  1 x labelled Tetranychus misumaiensis (Japan): COI groups with Tetranychus misumaiensis, ITS2 nearest Tetranychus urticae
+  1 x labelled Tetranychus urticae (Japan): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus turkestani
   1 x labelled Tetranychus urticae (Saudi Arabia): COI groups with Tetranychus urticae, ITS2 nearest -
-  1 x labelled Tetranychus gloveri (Viet Nam): COI groups with Tetranychus gloveri, ITS2 nearest Tetranychus piercei
-  1 x labelled Tetranychus pueraricola (Viet Nam): COI groups with -, ITS2 nearest Tetranychus urticae
-  1 x labelled Tetranychus turkestani (India): COI groups with Tetranychus urticae, ITS2 nearest Tetranychus macfarlanei

@@ -1,4 +1,4 @@
-study_id,anchors,held_out_by_title,held_out_by_title_and_batch,added_by_batch
+study_id,anchor_queries,held_out_by_title,held_out_by_title_and_batch,added_by_batch
 arabuli2018,2,2,2,
 guzman2014,21,21,21,
 guzman2017,140,140,140,
@@ -6,6 +6,6 @@ majeed2022,4,4,18,KX013767.1 KX510044.1 KX644137.1 KX669024.1 KY419530.1 MT06616
 majeed2026,4,4,15,MT066161.1 MT445766.1 MT477910.1 MT479179.1 MT815743.1 MT821525.1 MW367899.1 MW791265.1 MW850427.1 MZ496533.1 OM056929.1
 matsuda2012,29,29,29,
 muralidharan2020,1,1,7,KX013767.1 KX644137.1 KX669024.1 KX681448.1 KX944298.1 KY419530.1
-mushtaq2023a_males,9,17,17,
-mushtaq2023b_males,8,8,16,OQ180826.1 OQ180827.1 OQ180829.1 OQ180830.1 OQ180831.1 OQ180832.1 OQ180837.1 OQ180841.1
+mushtaq2023a,9,17,17,
+mushtaq2023b,8,16,16,
 sakamoto2019,34,34,34,

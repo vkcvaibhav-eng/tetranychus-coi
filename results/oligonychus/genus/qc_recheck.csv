@@ -1,0 +1,234 @@
+record_id,species_label,flags_main_reference,status_main_reference,odd_gaps_main_reference,best_panel_reference,identity_best,flags_best_reference,status_best_reference,odd_gaps_best_reference,six_frame_min_internal_stops,six_frame_best
+PX672270.1,Oligonychus sp.,,PASS,2,Oligonychus punicae (PP531494.1),0.8497,,PASS,0,0,+1
+PX672269.1,Oligonychus sp.,,PASS,2,Oligonychus punicae (PP531494.1),0.8504,,PASS,0,0,+1
+PX672268.1,Oligonychus sp.,,PASS,2,Oligonychus punicae (PP531494.1),0.8496,,PASS,0,0,+3
+PX353979.1,Oligonychus yothersi,,PASS,2,Oligonychus punicae (PP531494.1),0.9075,,PASS,4,0,+1
+PX353978.1,Oligonychus yothersi,,PASS,2,Oligonychus punicae (PP531494.1),0.9075,,PASS,4,0,+1
+PX353977.1,Oligonychus yothersi,,PASS,2,Oligonychus punicae (PP531494.1),0.9073,,PASS,2,0,+1
+PX353976.1,Oligonychus yothersi,,PASS,2,Oligonychus punicae (PP531494.1),0.909,,PASS,4,0,+1
+PX660075.1,Oligonychus karamatus,,PASS,2,Oligonychus punicae (PP531494.1),0.8974,,PASS,2,0,+1
+PX660074.1,Oligonychus sp.,,PASS,2,Oligonychus punicae (PP531494.1),0.8944,,PASS,0,0,+1
+PX660065.1,Oligonychus sp.,,PASS,2,Oligonychus punicae (PP531494.1),0.897,,PASS,0,0,+1
+PX419194.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.869,,PASS,4,0,+2
+PP531494.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),1.0,,PASS,0,0,+1
+OQ180839.1,Oligonychus pratensis,,PASS,2,main reference,0.8783,,PASS,2,0,+3
+MZ604344.1,Oligonychus thelytokus,,PASS,2,Oligonychus punicae (PP531494.1),0.8863,,PASS,0,0,+1
+MW045520.3,Oligonychus ununguis,,PASS,2,Oligonychus punicae (PP531494.1),0.8936,,PASS,2,0,+2
+MT815743.1,Oligonychus thelytokus,,PASS,2,Oligonychus punicae (PP531494.1),0.8817,,PASS,0,0,+1
+MN562089.1,Oligonychus biharensis,FRAMESHIFT,FAIL,2,main reference,0.8466,FRAMESHIFT,FAIL,2,3,+1
+KM837806.1,Oligonychus sp. BOLD:ACK3451,,PASS,2,Oligonychus punicae (PP531494.1),0.8741,,PASS,0,0,+2
+KM831891.1,Oligonychus sp. BOLD:ACE5084,,PASS,4,Oligonychus punicae (PP531494.1),0.8936,,PASS,2,0,+2
+KM826727.1,Oligonychus sp. BOLD:AAZ5846,,PASS,6,Oligonychus punicae (PP531494.1),0.9038,,PASS,0,0,+2
+LC375579.1,Oligonychus castaneae,,PASS,3,Oligonychus punicae (PP531494.1),0.8813,,PASS,0,0,+1
+LC375578.1,Oligonychus castaneae,,PASS,3,Oligonychus punicae (PP531494.1),0.8827,,PASS,0,0,+1
+MG320092.1,Oligonychus sp. BIOUG07668-C05,,PASS,2,Oligonychus punicae (PP531494.1),0.8949,,PASS,0,0,+3
+MG319008.1,Oligonychus sp. BIOUG09351-C06,,PASS,4,Oligonychus punicae (PP531494.1),0.8894,,PASS,0,0,+1
+MG310745.1,Oligonychus sp. BIOUG08112-H04,,PASS,4,Oligonychus punicae (PP531494.1),0.8952,,PASS,0,0,+2
+MG916906.1,Oligonychus sp. UAS-B 2206,,PASS,1,main reference,0.8782,,PASS,1,0,+3
+MF320737.1,Oligonychus indicus,,PASS,2,main reference,0.9604,,PASS,2,0,+2
+KX681448.1,Oligonychus thelytokus,,PASS,2,Oligonychus punicae (PP531494.1),0.8883,,PASS,0,0,+1
+KY474145.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.882,,PASS,0,0,+1
+KY474140.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.8656,,PASS,0,0,+1
+KY474139.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.8623,,PASS,0,0,+1
+KY474138.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.8623,,PASS,0,0,+1
+KY474137.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.8557,,PASS,0,0,+1
+KY474136.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.859,,PASS,0,0,+1
+KY474135.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.859,,PASS,0,0,+1
+KY474134.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.859,,PASS,0,0,+1
+KY474133.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.859,,PASS,0,0,+1
+KY474132.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.859,,PASS,0,0,+1
+KY593991.1,Oligonychus oryzae,,PASS,1,Oligonychus punicae (PP531494.1),0.8679,,PASS,3,0,+1
+KX073028.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073027.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073026.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073025.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073024.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9011,,PASS,2,0,+1
+KX073023.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9011,,PASS,2,0,+1
+KX073022.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9011,,PASS,2,0,+1
+KX073021.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073020.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073019.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073018.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073017.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073016.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073015.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073014.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073013.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073012.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073011.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073010.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073009.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073008.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073007.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073006.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073005.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073004.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073003.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073002.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073001.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX073000.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072999.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9011,,PASS,2,0,+1
+KX072998.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072997.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9011,,PASS,2,0,+1
+KX072996.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072995.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072994.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.897,,PASS,4,0,+1
+KX072993.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072992.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072991.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072990.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072989.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.897,,PASS,4,0,+1
+KX072988.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072987.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.897,,PASS,4,0,+1
+KX072986.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072985.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.897,,PASS,4,0,+1
+KX072984.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.897,,PASS,4,0,+1
+KX072983.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072982.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072981.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072980.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072979.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072978.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072977.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072976.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072975.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072974.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072973.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072972.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072971.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072970.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072969.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072968.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072967.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072966.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072965.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072964.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072963.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072962.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072961.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072960.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072959.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072958.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072957.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072956.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072955.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9011,,PASS,2,0,+1
+KX072954.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072953.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072952.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8989,,PASS,2,0,+1
+KX072951.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072950.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072949.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072948.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072947.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072946.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072945.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072944.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072943.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072942.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072941.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072940.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072939.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072938.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072937.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072936.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072935.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072934.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072933.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072932.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072931.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072930.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072929.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072928.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072927.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072926.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072925.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072924.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072923.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072922.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KX072921.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8506,,PASS,4,0,+1
+KX072920.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8506,,PASS,4,0,+1
+KX072919.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8506,,PASS,4,0,+1
+KX072918.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8506,,PASS,4,0,+1
+KX072917.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072916.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8506,,PASS,4,0,+1
+KX072915.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8506,,PASS,4,0,+1
+KX072914.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072913.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072912.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072911.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072910.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072909.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8525,,PASS,4,0,+1
+KX072908.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072907.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072906.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072905.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072904.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072903.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072902.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072901.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072900.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072899.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072898.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072897.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072896.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072895.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072894.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072893.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072892.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072891.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072890.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+KX072889.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8602,,PASS,4,0,+1
+GU329972.1,Oligonychus ununguis,,PASS,2,Oligonychus punicae (PP531494.1),0.9171,,PASS,0,0,-3
+GU329971.1,Oligonychus ununguis,,PASS,2,Oligonychus punicae (PP531494.1),0.9171,,PASS,0,0,-3
+GU329968.1,Oligonychus ununguis,,PASS,2,Oligonychus punicae (PP531494.1),0.9171,,PASS,0,0,-3
+KC667151.1,Oligonychus biharensis,FRAMESHIFT,FAIL,1,main reference,0.8523,FRAMESHIFT,FAIL,1,0,+1
+KF011474.1,Oligonychus perseae,,PASS,2,Oligonychus punicae (PP531494.1),0.8887,,PASS,2,0,+3
+KF011473.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8617,,PASS,4,0,+2
+KF011472.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.865,,PASS,4,0,+1
+KF011471.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8671,,PASS,4,0,+2
+KF011470.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.864,,PASS,4,0,+1
+KF011469.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8627,,PASS,2,0,+3
+KF011468.1,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.8624,,PASS,4,0,+1
+KF011467.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8995,,PASS,2,0,+3
+KF011466.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8953,,PASS,2,0,+1
+KF011465.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8994,,PASS,2,0,+3
+KF011464.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8947,,PASS,2,0,+1
+KF011463.1,Oligonychus punicae,SHORT,FAIL,0,Oligonychus punicae (PP531494.1),0.8528,SHORT,FAIL,0,0,+1
+KF011462.1,Oligonychus punicae,FRAMESHIFT;STOP_CODON,FAIL,5,Oligonychus punicae (PP531494.1),0.8958,,PASS,2,1,+1
+KF011461.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8975,,PASS,2,0,+3
+KF011460.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8981,,PASS,2,0,+3
+KF011459.1,Oligonychus punicae,,PASS,6,Oligonychus punicae (PP531494.1),0.8986,,PASS,3,0,+3
+KF011458.1,Oligonychus punicae,,PASS,2,Oligonychus punicae (PP531494.1),0.89,,PASS,2,0,+1
+KF011457.1,Oligonychus punicae,,PASS,2,Oligonychus punicae (PP531494.1),0.8905,,PASS,2,0,+2
+KF011456.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8965,,PASS,2,0,+1
+KF011455.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.9005,,PASS,2,0,+1
+KF011454.1,Oligonychus punicae,,PASS,2,Oligonychus punicae (PP531494.1),0.8753,,PASS,2,0,+2
+KF011453.1,Oligonychus punicae,,PASS,5,Oligonychus punicae (PP531494.1),0.8991,,PASS,2,0,+1
+KF011452.1,Oligonychus punicae,,PASS,2,Oligonychus punicae (PP531494.1),0.8876,,PASS,2,0,+1
+KC283027.1,Oligonychus biharensis,,PASS,1,main reference,0.8687,,PASS,1,0,+3
+AB683671.1,Oligonychus coffeae,,PASS,2,Oligonychus punicae (PP531494.1),0.9001,,PASS,4,0,+1
+AB683670.1,Oligonychus coffeae,,PASS,2,Oligonychus punicae (PP531494.1),0.9012,,PASS,4,0,+1
+AB683669.1,Oligonychus gotohi,,PASS,2,Oligonychus punicae (PP531494.1),0.8999,,PASS,0,0,+1
+AB683668.1,Oligonychus gotohi,,PASS,2,Oligonychus punicae (PP531494.1),0.8977,,PASS,0,0,+1
+AB683667.1,Oligonychus castaneae,,PASS,2,Oligonychus punicae (PP531494.1),0.8922,,PASS,0,0,+1
+AB683666.1,Oligonychus castaneae,,PASS,2,Oligonychus punicae (PP531494.1),0.8922,,PASS,0,0,+1
+AB683663.1,Oligonychus camelliae,,PASS,2,Oligonychus punicae (PP531494.1),0.8857,,PASS,2,0,+1
+AB683662.1,Oligonychus camelliae,,PASS,2,Oligonychus punicae (PP531494.1),0.8879,,PASS,2,0,+1
+ABOTH9055-22,Oligonychus,,PASS,2,Oligonychus punicae (PP531494.1),0.8882,,PASS,0,0,+2
+ABWYT29686-24,Oligonychus,,PASS,2,Oligonychus punicae (PP531494.1),0.8858,,PASS,0,0,+2
+BIOSC1370-25,Oligonychus brevipilosus,AMBIGUOUS,FAIL,4,Oligonychus punicae (PP531494.1),0.8486,AMBIGUOUS,FAIL,2,0,+1
+BIOSC1408-25,Oligonychus longiclavatus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.8303,AMBIGUOUS,FAIL,6,0,+3
+BIOSC1413-25,Oligonychus longiclavatus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.8219,AMBIGUOUS,FAIL,6,0,+1
+BIOSC1414-25,Oligonychus longiclavatus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.8593,AMBIGUOUS,FAIL,6,0,+3
+CNJAF1980-12,Oligonychus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.8852,AMBIGUOUS,FAIL,0,0,+2
+CNPKF2287-14,Oligonychus,,PASS,4,Oligonychus punicae (PP531494.1),0.9054,,PASS,0,0,+3
+CNROG1154-13,Oligonychus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.8878,AMBIGUOUS,FAIL,2,0,+1
+GMOOG237-15,Oligonychus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.9091,AMBIGUOUS,FAIL,0,0,+1
+GMPHZ5357-23,Oligonychus ununguis,,PASS,2,Oligonychus punicae (PP531494.1),0.8952,,PASS,2,0,+1
+MSSCA5367-16,Oligonychus,AMBIGUOUS,FAIL,0,Oligonychus punicae (PP531494.1),0.8781,AMBIGUOUS,FAIL,2,0,+2
+MYMCB636-11,Oligonychus,,PASS,6,Oligonychus punicae (PP531494.1),0.9041,,PASS,0,0,+2
+MYMCB653-11,Oligonychus,,PASS,4,Oligonychus punicae (PP531494.1),0.9085,,PASS,0,0,+2
+RRSSA1567-15,Oligonychus,,PASS,4,Oligonychus punicae (PP531494.1),0.9087,,PASS,0,0,+2
+SCCBB380-23,Oligonychus,,PASS,4,Oligonychus punicae (PP531494.1),0.8936,,PASS,2,0,+2
+SMCK001-25,Oligonychus perseae,,PASS,4,Oligonychus punicae (PP531494.1),0.869,,PASS,4,0,+2
+SMTPO9494-15,Oligonychus,,PASS,4,Oligonychus punicae (PP531494.1),0.8935,,PASS,0,0,+2

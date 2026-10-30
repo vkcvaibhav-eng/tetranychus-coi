@@ -1,20 +1,14 @@
-Anchor studies: 14 (levels used for decisions: AB)
+Anchor studies: 12 (levels used for decisions: AB)
 Synonymies applied: none
 Anchor accessions (levels AB): 254; found in data: 254; passed QC and clustered: 252
 Anchor consistency:
-  consistent: 244
-  cluster shared with other anchored species: 4
-  conflict: 4
-    conflict: LC375580 (sakamoto2019, Oligonychus castaneae) in cluster with Oligonychus neocastaneae
-    conflict: LC375581 (sakamoto2019, Oligonychus castaneae) in cluster with Oligonychus neocastaneae
-    conflict: LC375582 (sakamoto2019, Oligonychus castaneae) in cluster with Oligonychus neocastaneae
-    conflict: LC375583 (sakamoto2019, Oligonychus castaneae) in cluster with Oligonychus neocastaneae
-Clusters with anchors: 35 of 95 (several anchored species: 1)
-Non-anchor records: 205
-  NO_ANCHOR: 155 (75.6%)
-  DISAGREES: 31 (15.1%)
-  AGREES_SHARED_CLUSTER: 13 (6.3%)
-  AGREES: 4 (2.0%)
-  UNNAMED_SUGGESTED: 2 (1.0%)
+  consistent: 251
+  conflict: 1
+    conflict: MT506028 (majeed2026, Oligonychus plegas) in cluster with Oligonychus tylus
+Clusters with anchors: 35 of 95 (several anchored species: 0)
+Records other than the anchors used for decisions (level C leads included): 308
+  NO_ANCHOR: 243 (78.9%)
+  AGREES: 32 (10.4%)
+  DISAGREES: 31 (10.1%)
+  UNNAMED_SUGGESTED: 2 (0.6%)
 Clusters holding several anchored species:
-  C032 (20 records): Oligonychus plegas [A] x1; Oligonychus tylus [A] x2; Oligonychus tylus [B] x1

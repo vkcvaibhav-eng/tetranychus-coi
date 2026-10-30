@@ -287,10 +287,15 @@ def test_anchor_check(tmp_path):
     # Study "good" held out together with RC000005, deposited in the same submission
     # without a link to the paper: the only beta-like references left are RC000003
     # (labelled alpha) and the unnamed RC000004, which tie, so the answer is alpha.
-    assert q["AN000002.1"]["raw_result"] == "wrong"
-    assert q["AN000002.1"]["raw_match"] == "Tetranychus alpha"
+    assert q["AN000002.1"]["all_result"] == "wrong"
+    assert q["AN000002.1"]["all_match"] == "Tetranychus alpha"
+    # Against named records only the unnamed RC000004 drops out, and the answer stays alpha.
+    assert q["AN000002.1"]["named_result"] == "wrong"
     # Its own study's records never serve as references (2 anchors + RC000005 held out).
-    assert all(r["raw_db_size"] == "5" for r in q.values() if r["study_id"] == "good")
+    assert all(r["all_db_size"] == "5" for r in q.values() if r["study_id"] == "good")
+    # Four reference sets and the coverage of the query's species are reported for every query.
+    assert all(r[f"{s}_result"] for r in q.values() for s in ("all", "named", "cleaned", "conservative"))
+    assert all(r["coverage_named"] for r in q.values())
     members = {r["study_id"]: r for r in csv.DictReader(open(tmp_path / "results/identification/membership.csv"))}
     assert members["good"]["added_by_batch"] == "RC000005.1"
 

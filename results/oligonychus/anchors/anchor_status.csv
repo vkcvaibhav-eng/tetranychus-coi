@@ -30,38 +30,38 @@ AB683680,matsuda2012,A,yes,AB683680.1,Oligonychus rubicundus,yes,C056,Oligonychu
 AB683681,matsuda2012,A,yes,AB683681.1,Oligonychus rubicundus,yes,C056,Oligonychus rubicundus,consistent
 LC341206,arabuli2018,A,yes,LC341206.1,Oligonychus neocastaneae,yes,C042,Oligonychus neocastaneae,consistent
 LC341207,arabuli2018,A,yes,LC341207.1,Oligonychus neocastaneae,yes,C042,Oligonychus neocastaneae,consistent
-MZ425481,mushtaq2023a_males,A,yes,MZ425481.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425482,mushtaq2023a_males,A,yes,MZ425482.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425483,mushtaq2023a_males,A,yes,MZ425483.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425484,mushtaq2023a_males,A,yes,MZ425484.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425485,mushtaq2023a_males,A,yes,MZ425485.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425486,mushtaq2023a_males,A,yes,MZ425486.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425487,mushtaq2023a_males,A,yes,MZ425487.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425488,mushtaq2023a_males,A,yes,MZ425488.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425489,mushtaq2023a_males,A,yes,MZ425489.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
-MZ425490,mushtaq2023a_females,C,yes,MZ425490.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-MZ425491,mushtaq2023a_females,C,yes,MZ425491.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-MZ425492,mushtaq2023a_females,C,yes,MZ425492.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-MZ425493,mushtaq2023a_females,C,yes,MZ425493.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-OP825121,mushtaq2023a_females,C,yes,OP825121.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-OP825122,mushtaq2023a_females,C,yes,OP825122.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-OP825123,mushtaq2023a_females,C,yes,OP825123.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-OQ180828,mushtaq2023b_males,A,yes,OQ180828.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,consistent
-OQ180833,mushtaq2023b_males,A,yes,OQ180833.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,consistent
-OQ180834,mushtaq2023b_males,A,yes,OQ180834.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,consistent
-OQ180835,mushtaq2023b_males,A,yes,OQ180835.1,Oligonychus tylus,yes,C032,Oligonychus plegas; Oligonychus tylus,cluster shared with other anchored species
-OQ180836,mushtaq2023b_males,A,yes,OQ180836.1,Oligonychus tylus,yes,C032,Oligonychus plegas; Oligonychus tylus,cluster shared with other anchored species
-OQ180838,mushtaq2023b_males,A,yes,OQ180838.1,Oligonychus washingtoniae,yes,C012,Oligonychus washingtoniae,consistent
-OQ180839,mushtaq2023b_males,A,yes,OQ180839.1,Oligonychus pratensis,yes,C011,Oligonychus pratensis,consistent
-OQ180840,mushtaq2023b_males,A,yes,OQ180840.1,Oligonychus dactyloni,yes,C010,Oligonychus dactyloni,consistent
-OQ180826,mushtaq2023b_females,C,yes,OQ180826.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-OQ180827,mushtaq2023b_females,C,yes,OQ180827.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
-OQ180829,mushtaq2023b_females,C,yes,OQ180829.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
-OQ180830,mushtaq2023b_females,C,yes,OQ180830.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
-OQ180831,mushtaq2023b_females,C,yes,OQ180831.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
-OQ180832,mushtaq2023b_females,C,yes,OQ180832.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
-OQ180837,mushtaq2023b_females,C,yes,OQ180837.1,Oligonychus tylus,yes,C032,Oligonychus plegas; Oligonychus tylus,lead only
-OQ180841,mushtaq2023b_females,C,yes,OQ180841.1,Oligonychus dactyloni,yes,C010,Oligonychus dactyloni,lead only
+MZ425481,mushtaq2023a,A,yes,MZ425481.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425482,mushtaq2023a,A,yes,MZ425482.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425483,mushtaq2023a,A,yes,MZ425483.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425484,mushtaq2023a,A,yes,MZ425484.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425485,mushtaq2023a,A,yes,MZ425485.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425486,mushtaq2023a,A,yes,MZ425486.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425487,mushtaq2023a,A,yes,MZ425487.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425488,mushtaq2023a,A,yes,MZ425488.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425489,mushtaq2023a,A,yes,MZ425489.1,Oligonychus punicae,yes,C046,Oligonychus punicae,consistent
+MZ425490,mushtaq2023a,C,yes,MZ425490.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+MZ425491,mushtaq2023a,C,yes,MZ425491.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+MZ425492,mushtaq2023a,C,yes,MZ425492.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+MZ425493,mushtaq2023a,C,yes,MZ425493.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+OP825121,mushtaq2023a,C,yes,OP825121.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+OP825122,mushtaq2023a,C,yes,OP825122.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+OP825123,mushtaq2023a,C,yes,OP825123.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+OQ180828,mushtaq2023b,A,yes,OQ180828.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,consistent
+OQ180833,mushtaq2023b,A,yes,OQ180833.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,consistent
+OQ180834,mushtaq2023b,A,yes,OQ180834.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,consistent
+OQ180835,mushtaq2023b,A,yes,OQ180835.1,Oligonychus tylus,yes,C032,Oligonychus tylus,consistent
+OQ180836,mushtaq2023b,A,yes,OQ180836.1,Oligonychus tylus,yes,C032,Oligonychus tylus,consistent
+OQ180838,mushtaq2023b,A,yes,OQ180838.1,Oligonychus washingtoniae,yes,C012,Oligonychus washingtoniae,consistent
+OQ180839,mushtaq2023b,A,yes,OQ180839.1,Oligonychus pratensis,yes,C011,Oligonychus pratensis,consistent
+OQ180840,mushtaq2023b,A,yes,OQ180840.1,Oligonychus dactyloni,yes,C010,Oligonychus dactyloni,consistent
+OQ180826,mushtaq2023b,C,yes,OQ180826.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+OQ180827,mushtaq2023b,C,yes,OQ180827.1,Oligonychus punicae,yes,C046,Oligonychus punicae,lead only
+OQ180829,mushtaq2023b,C,yes,OQ180829.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
+OQ180830,mushtaq2023b,C,yes,OQ180830.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
+OQ180831,mushtaq2023b,C,yes,OQ180831.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
+OQ180832,mushtaq2023b,C,yes,OQ180832.1,Oligonychus afrasiaticus,yes,C045,Oligonychus afrasiaticus,lead only
+OQ180837,mushtaq2023b,C,yes,OQ180837.1,Oligonychus tylus,yes,C032,Oligonychus tylus,lead only
+OQ180841,mushtaq2023b,C,yes,OQ180841.1,Oligonychus dactyloni,yes,C010,Oligonychus dactyloni,lead only
 KF011452,guzman2014,B,yes,KF011452.1,Oligonychus punicae,yes,C052,Oligonychus punicae,consistent
 KF011453,guzman2014,B,yes,KF011453.1,Oligonychus punicae,yes,C051,Oligonychus punicae,consistent
 KF011454,guzman2014,B,yes,KF011454.1,Oligonychus punicae,yes,C052,Oligonychus punicae,consistent
@@ -308,10 +308,10 @@ MT815743,majeed2022,B,yes,MT815743.1,Oligonychus thelytokus,yes,C034,Oligonychus
 MZ604344,majeed2022,B,yes,MZ604344.1,Oligonychus thelytokus,yes,C034,Oligonychus thelytokus,consistent
 KX944298,majeed2022,B,yes,KX944298.1,Oligonychus thelytokus,yes,C033,Oligonychus thelytokus,consistent
 MT472382,majeed2026,A,yes,MT472382.1,Oligonychus bellarensis,yes,C020,Oligonychus bellarensis,consistent
-MT506028,majeed2026,A,yes,MT506028.1,Oligonychus plegas,yes,C032,Oligonychus plegas; Oligonychus tylus,cluster shared with other anchored species
-MT492157,majeed2026,A,yes,MT492157.1,Oligonychus plegas,yes,C030,Oligonychus plegas,consistent
-MW898015,majeed2026,A,yes,MW898015.1,Oligonychus grypus,yes,C017,Oligonychus grypus,consistent
-KX510044,muralidharan2020,B,yes,KX510044.1,Oligonychus tylus,yes,C032,Oligonychus plegas; Oligonychus tylus,cluster shared with other anchored species
+MT506028,majeed2026,B,yes,MT506028.1,Oligonychus plegas,yes,C032,Oligonychus tylus,conflict
+MT492157,majeed2026,B,yes,MT492157.1,Oligonychus plegas,yes,C030,Oligonychus plegas,consistent
+MW898015,majeed2026,B,yes,MW898015.1,Oligonychus grypus,yes,C017,Oligonychus grypus,consistent
+KX510044,muralidharan2020,A,yes,KX510044.1,Oligonychus tylus,yes,C032,Oligonychus tylus,consistent
 LC375550,sakamoto2019,B,yes,LC375550.1,Oligonychus castaneae,yes,C062,Oligonychus castaneae,consistent
 LC375551,sakamoto2019,B,yes,LC375551.1,Oligonychus castaneae,yes,C062,Oligonychus castaneae,consistent
 LC375552,sakamoto2019,B,yes,LC375552.1,Oligonychus castaneae,yes,C062,Oligonychus castaneae,consistent
@@ -342,10 +342,10 @@ LC375576,sakamoto2019,B,yes,LC375576.1,Oligonychus castaneae,yes,C062,Oligonychu
 LC375577,sakamoto2019,B,yes,LC375577.1,Oligonychus castaneae,yes,C062,Oligonychus castaneae,consistent
 LC375578,sakamoto2019,B,yes,LC375578.1,Oligonychus castaneae,yes,C026,Oligonychus castaneae,consistent
 LC375579,sakamoto2019,B,yes,LC375579.1,Oligonychus castaneae,yes,C026,Oligonychus castaneae,consistent
-LC375580,sakamoto2019,B,yes,LC375580.1,Oligonychus castaneae,yes,C042,Oligonychus neocastaneae,conflict
-LC375581,sakamoto2019,B,yes,LC375581.1,Oligonychus castaneae,yes,C042,Oligonychus neocastaneae,conflict
-LC375582,sakamoto2019,B,yes,LC375582.1,Oligonychus castaneae,yes,C042,Oligonychus neocastaneae,conflict
-LC375583,sakamoto2019,B,yes,LC375583.1,Oligonychus castaneae,yes,C042,Oligonychus neocastaneae,conflict
+LC375580,sakamoto2019,B,yes,LC375580.1,Oligonychus neocastaneae,yes,C042,Oligonychus neocastaneae,consistent
+LC375581,sakamoto2019,B,yes,LC375581.1,Oligonychus neocastaneae,yes,C042,Oligonychus neocastaneae,consistent
+LC375582,sakamoto2019,B,yes,LC375582.1,Oligonychus neocastaneae,yes,C042,Oligonychus neocastaneae,consistent
+LC375583,sakamoto2019,B,yes,LC375583.1,Oligonychus neocastaneae,yes,C042,Oligonychus neocastaneae,consistent
 PX353976,borges2025,C,yes,PX353976.1,Oligonychus yothersi,yes,C001,,lead only
 PX353977,borges2025,C,yes,PX353977.1,Oligonychus yothersi,yes,C001,,lead only
 PX353978,borges2025,C,yes,PX353978.1,Oligonychus yothersi,yes,C001,,lead only

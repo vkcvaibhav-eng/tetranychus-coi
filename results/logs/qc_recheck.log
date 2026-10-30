@@ -1,0 +1,12 @@
+Panel: 13 references (main reference, Tetranychus malvae (PQ843216.1), Tetranychus piercei (PQ843215.1), Tetranychus bambusae (PQ822241.1), Tetranychus urticae (OR916022.1), Tetranychus truncatus (NC_024874.1), Tetranychus pueraricola (NC_024680.1), Tetranychus phaselus (NC_024679.1), Tetranychus malaysiensis (NC_024678.1), Tetranychus ludeni (NC_024677.1), Tetranychus kanzawai (NC_024676.1), Tetranychus cinnabarinus (NC_014399.1), Tetranychus evansi (MN417333.1))
+Failed sequences rechecked: 22; still failing with the best panel reference: 22
+Flags, main reference -> best panel reference:
+  AMBIGUOUS: 2 -> 2
+  FRAMESHIFT: 7 -> 7
+  LOW_IDENTITY: 4 -> 3
+  NOT_ALIGNED: 8 -> 7
+  PARTIAL_ALIGNMENT: 3 -> 7
+  SHORT: 4 -> 4
+  STOP_CODON: 2 -> 2
+Sequences flagged for frameshift or stop codon: 7; with an open frame (no internal stop) in some reading frame: 3
+Passing sequences with odd-length alignment gaps: 114; still with such gaps against the best panel reference: 86; failing against it: 0

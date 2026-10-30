@@ -1,7 +1,15 @@
 measure,estimate_pct,ci_low,ci_high
-raw_correct,73.8,28.1,87.5
-raw_wrong,3.2,0.0,13.3
-cleaned_correct,73.0,26.0,87.3
-cleaned_wrong,3.2,0.0,13.3
-diff_correct,-0.8,-5.4,0.0
-diff_wrong,0.0,0.0,0.0
+all_correct,75.4,28.6,88.9
+all_wrong,1.6,0.0,10.0
+all_no match,22.2,9.8,63.6
+named_correct,75.4,28.6,88.9
+named_wrong,1.6,0.0,10.0
+named_no match,23.0,10.1,66.3
+cleaned_correct,75.4,28.6,88.9
+cleaned_wrong,0.8,0.0,5.8
+cleaned_no match,23.8,10.6,68.9
+conservative_correct,75.4,28.6,88.9
+conservative_wrong,1.6,0.0,10.0
+conservative_no match,23.0,10.1,66.3
+cleaned_minus_named_correct,0.0,0.0,0.0
+named_minus_all_correct,0.0,0.0,0.0

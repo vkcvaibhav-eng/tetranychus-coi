@@ -1,30 +1,44 @@
 """Module 7: how well does the public COI database identify a specimen?
 
-Queries are the anchor records (morphologically identified specimens,
-evidence levels A and B). Each query is identified by its closest COI match
-in a reference database, the way a user of GenBank or BOLD would:
+Queries are the anchor records (morphologically identified specimens or
+populations, evidence levels A and B, set per record when a study mixes
+evidence). Each query is identified by its closest COI match within the
+match distance, the way a user of GenBank or BOLD would. Four reference sets
+are compared, all built from the records left after holding out the query's
+study:
 
-  correct      the closest match(es) carry the query's species name
-  wrong        the closest match(es) carry one other species name
-  ambiguous    the closest matches carry different species names
-  no match     nothing within the match distance, or only unnamed records
+  all           every record that passed quality control
+  named         records with a species name
+  cleaned       named records minus those whose name differs from the
+                anchored species (best evidence level present) of their cluster
+  conservative  named records minus those whose name differs from every
+                anchored species of their cluster, and only where one of those
+                names is supported by anchors from at least two studies
 
-Two databases are compared:
-  raw      every record that passed the quality check, with its public name
-  cleaned  raw minus unnamed records and minus records whose name
-           disagrees with the anchored species of their distance cluster
+Outcomes:
+  correct          the closest match(es) carry the query's species name
+  wrong            the closest match(es) carry one other species name
+  ambiguous        the closest matches carry different species names
+  nearest unnamed  the closest match(es) carry no species name ('all' only)
+  no match         nothing within the match distance
 
-Leave-one-study-out with fold isolation: when the anchors of one study are
-queried, every record of that study is removed, and the clusters and the
-cleaning are rebuilt from the remaining (training) records only, using the
-anchors of the other studies. A record belongs to a study when it is one of
-the study's anchors, cites the same publication title as one of them, or was
-deposited in the same submission batch (study_keys.py) as one of them.
+For every query the coverage of its species in the named reference set is
+recorded: no record of the species, records that do not overlap the query
+by the minimum number of sites, or an overlapping record (with the distance
+to the nearest one).
 
-For comparison the earlier, less strict version is also run: clusters from
-all records, and study membership by publication title only.
+Leave-one-study-out with fold isolation: when the anchors of one study (or of
+a group of related studies, data/anchors/study_groups.csv) are queried, every
+record of that study is removed, and the clusters and the cleaning are rebuilt
+from the remaining records, using the anchors of the other studies. A record
+belongs to a study when it is one of the study's anchor records (any level),
+cites the same publication title as one of them, or was deposited in the same
+submission batch (study_keys.py). The query is judged by the name given in its
+study (anchor_records.csv, column species), while reference records keep the
+name in the database.
 
-Names are compared after the published synonymies in data/anchors/synonyms.csv.
+The earlier, less strict version (clusters from all records, membership by
+publication title only) is also run to measure leakage.
 
 Reads:  results/genus/{merged_records.csv,qc_passed.fasta},
         results/species/record_checks.csv, data/anchors/*, data/ncbi_*.gb,
@@ -48,7 +62,9 @@ from sequence_qc import make_aligner  # noqa: E402
 from species_analysis import UnionFind, encode, k2p_row, project, species_name  # noqa: E402
 from study_keys import genbank_keys, record_keys  # noqa: E402
 
-OUTCOMES = ["correct", "wrong", "ambiguous", "no match"]
+OUTCOMES = ["correct", "wrong", "ambiguous", "nearest unnamed", "no match"]
+SETS = ["all", "named", "cleaned", "conservative"]
+COVERAGE = ["no record of the species", "no overlapping record", "overlapping record"]
 
 
 def read(path):
@@ -64,13 +80,18 @@ def load_context(genus, species_dir, anchors_dir, reference, data_dir, min_overl
     studies = {s["study_id"]: s for s in read(os.path.join(anchors_dir, "anchor_studies.csv"))}
     synonyms = {r["name"]: r["accepted_name"] for r in read(os.path.join(anchors_dir, "synonyms.csv"))}
     by_acc = {r["genbank_accession"]: rid for rid, r in merged.items() if r["genbank_accession"]}
-    anchor_all, anchor_name = {}, {}
+    anchor_all, anchor_name, anchor_level = {}, {}, {}
     for a in read(os.path.join(anchors_dir, "anchor_records.csv")):
         rid = by_acc.get(a["accession"])
         if rid and rid in checks:
             anchor_all[rid] = a["study_id"]
+            # evidence level of the record: its own when the study mixes evidence, else the study's
+            anchor_level[rid] = (a.get("evidence_level") or "").strip() or studies[a["study_id"]]["evidence_level"]
             if (a.get("species") or "").strip():  # name given in the study, when the record's label differs
                 anchor_name[rid] = a["species"].strip()
+
+    gpath = os.path.join(anchors_dir, "study_groups.csv")  # optional: studies held out together
+    groups = {r["study_id"]: r["group"] for r in read(gpath)} if os.path.exists(gpath) else {}
 
     ref = str(SeqIO.read(reference, "fasta").seq).upper()
     seqs = {r.id: str(r.seq) for r in SeqIO.parse(os.path.join(genus, "qc_passed.fasta"), "fasta")}
@@ -87,7 +108,8 @@ def load_context(genus, species_dir, anchors_dir, reference, data_dir, min_overl
     np.fill_diagonal(D, 0.0)
     records = [rid for rid in seqs if rid in checks]
     return {"merged": merged, "merged_rows": merged_rows, "checks": checks, "studies": studies,
-            "synonyms": synonyms, "anchor_all": anchor_all, "anchor_name": anchor_name, "hap_seqs": hap_seqs, "hap_of": hap_of,
+            "synonyms": synonyms, "anchor_all": anchor_all, "anchor_name": anchor_name,
+            "anchor_level": anchor_level, "groups": groups, "hap_seqs": hap_seqs, "hap_of": hap_of,
             "D": D, "Dfin": np.nan_to_num(D, nan=np.inf), "records": records,
             "index": {rid: i for i, rid in enumerate(records)},
             "rec_hap": np.array([hap_of[r] for r in records]),
@@ -128,21 +150,33 @@ def study_members(ctx, anchors, rule):
     return members
 
 
-def evaluate(ctx, t_cluster=0.03, t_match=0.03, levels="AB", synonyms=None, isolate=True, rule="title+batch"):
-    """Leave-one-study-out identification of anchor specimens; one row per query."""
+def anchors_at(ctx, levels):
+    """Anchor records whose own evidence level is in levels."""
+    return {rid: sid for rid, sid in ctx["anchor_all"].items() if ctx["anchor_level"][rid] in levels}
+
+
+def evaluate(ctx, t_cluster=0.03, t_match=0.03, levels="AB", synonyms=None, isolate=True, rule="title+batch",
+             groups=None):
+    """Leave-one-study-out identification of anchor records; one row per query."""
     syn = ctx["synonyms"] if synonyms is None else synonyms
-    records, idx, rec_hap, D = ctx["records"], ctx["index"], ctx["rec_hap"], ctx["D"]
-    studies = ctx["studies"]
-    name = {rid: syn.get(n, n) for rid, n in ctx["raw_name"].items()}
-    names_arr = np.array([name[r] for r in records], dtype=object)  # names as the database holds them
-    for rid, n in ctx.get("anchor_name", {}).items():  # anchors are judged by the name given in their study
-        name[rid] = syn.get(n, n)
+    records, rec_hap, D = ctx["records"], ctx["rec_hap"], ctx["D"]
+    lvl = ctx["anchor_level"]
+    db_name = {rid: syn.get(n, n) for rid, n in ctx["raw_name"].items()}  # names as the database holds them
+    names_arr = np.array([db_name[r] for r in records], dtype=object)
     named = names_arr != ""
-    anchors = {rid: sid for rid, sid in ctx["anchor_all"].items() if studies[sid]["evidence_level"] in levels}
-    members = study_members(ctx, anchors, rule)
+    truth = dict(db_name)  # anchors are judged by the name given in their study
+    for rid, n in ctx.get("anchor_name", {}).items():
+        truth[rid] = syn.get(n, n)
+    anchors = anchors_at(ctx, levels)
+    used = set(anchors.values())
+    members = study_members(ctx, {r: s for r, s in ctx["anchor_all"].items() if s in used}, rule)
+    groups = {} if groups is None else groups  # studies held out together (sensitivity run)
+    folds = defaultdict(set)
+    for sid in used:
+        folds[groups.get(sid, sid)].add(sid)
     shared_clusters = None if isolate else cluster_ids(ctx, t_cluster)
 
-    def identify(q, mask):
+    def identify(q, mask, allow_unnamed):
         d = D[ctx["hap_of"][q], rec_hap]
         ok = mask & ~np.isnan(d)
         if not ok.any():
@@ -153,37 +187,56 @@ def evaluate(ctx, t_cluster=0.03, t_match=0.03, levels="AB", synonyms=None, isol
         hits = np.where(ok & (np.abs(d - dmin) <= 1e-12))[0]
         c = Counter(names_arr[i] for i in hits if names_arr[i])
         if not c:
-            return "no match", "", float(dmin)
+            return ("nearest unnamed" if allow_unnamed else "no match"), "", float(dmin)
         if len(c) > 1:
             return "ambiguous", "; ".join(n for n, _ in c.most_common()), float(dmin)
         top = next(iter(c))
-        return ("correct" if top == name[q] else "wrong"), top, float(dmin)
+        return ("correct" if top == truth[q] else "wrong"), top, float(dmin)
+
+    def fmt(x):
+        return "" if np.isinf(x) else f"{abs(max(x, 0.0)):.4f}"
 
     rows = []
-    for sid in sorted(set(anchors.values())):
-        held = members[sid]
+    for fold, sids in sorted(folds.items()):
+        held = set().union(*(members[s] for s in sids))
         train = np.array([r not in held for r in records])
         cl = cluster_ids(ctx, t_cluster, train) if isolate else shared_clusters
-        best = defaultdict(lambda: defaultdict(set))
+        best = defaultdict(lambda: defaultdict(set))   # cluster -> level -> names
+        support = defaultdict(lambda: defaultdict(set))  # cluster -> name -> studies
         for rid, s2 in anchors.items():
-            if s2 != sid and rid not in held and name[rid]:
-                best[cl[rid]][studies[s2]["evidence_level"]].add(name[rid])
-        keep = train & named
+            if s2 not in sids and rid not in held and truth[rid]:
+                best[cl[rid]][lvl[rid]].add(truth[rid])
+                support[cl[rid]][truth[rid]].add(s2)
+        keep_c = train & named
+        keep_k = train & named
         for k, rid in enumerate(records):
-            if keep[k]:
-                v = best.get(cl[rid])
-                if v and name[rid] not in v[min(v)]:
-                    keep[k] = False
-        for q in sorted(r for r, s2 in anchors.items() if s2 == sid):
-            rr, rm, rd = identify(q, train)
-            cr, cm, cd = identify(q, keep)
-            rows.append({"query": q, "study_id": sid, "evidence_level": studies[sid]["evidence_level"],
-                         "species": name[q], "raw_result": rr, "raw_match": rm,
-                         "raw_distance": "" if np.isinf(rd) else f"{abs(max(rd, 0.0)):.4f}",
-                         "cleaned_result": cr, "cleaned_match": cm,
-                         "cleaned_distance": "" if np.isinf(cd) else f"{abs(max(cd, 0.0)):.4f}",
-                         "held_out_records": len(held), "raw_db_size": int(train.sum()),
-                         "cleaned_db_size": int(keep.sum())})
+            if not keep_c[k]:
+                continue
+            v = best.get(cl[rid])
+            if v and db_name[rid] not in v[min(v)]:
+                keep_c[k] = False
+            sup = support.get(cl[rid])
+            if sup and db_name[rid] not in sup and any(len(st) >= 2 for st in sup.values()):
+                keep_k[k] = False
+        masks = {"all": train, "named": train & named, "cleaned": keep_c, "conservative": keep_k}
+        for q in sorted(r for r, s2 in anchors.items() if s2 in sids):
+            row = {"query": q, "study_id": anchors[q], "fold": fold, "evidence_level": lvl[q], "species": truth[q]}
+            for name_, m in masks.items():
+                res, match, dist = identify(q, m, name_ == "all")
+                row.update({f"{name_}_result": res, f"{name_}_match": match, f"{name_}_distance": fmt(dist)})
+            for name_ in ("named", "cleaned"):
+                same = masks[name_] & (names_arr == truth[q])
+                d = D[ctx["hap_of"][q], rec_hap][same]
+                if not same.any():
+                    cov, near = COVERAGE[0], np.inf
+                elif np.all(np.isnan(d)):
+                    cov, near = COVERAGE[1], np.inf
+                else:
+                    cov, near = COVERAGE[2], float(np.nanmin(d))
+                row.update({f"coverage_{name_}": cov, f"nearest_same_species_{name_}": fmt(near)})
+            row.update({"held_out_records": len(held), **{f"{n}_db_size": int(m.sum()) for n, m in masks.items()},
+                        **{f"{n}_db_species": len(set(names_arr[m]) - {""}) for n, m in masks.items()}})
+            rows.append(row)
     return rows
 
 
@@ -195,11 +248,12 @@ def tally(rows, key):
 def describe(rows, key):
     n = len(rows)
     c = tally(rows, key)
-    return ", ".join(f"{o} {c[o]} ({100 * c[o] / n:.1f}%)" for o in OUTCOMES) if n else "none"
+    return ", ".join(f"{o} {c[o]} ({100 * c[o] / n:.1f}%)" for o in OUTCOMES if c[o] or o != "nearest unnamed") \
+        if n else "none"
 
 
 def main():
-    p = argparse.ArgumentParser(description="Identification accuracy of raw vs cleaned COI databases")
+    p = argparse.ArgumentParser(description="Identification accuracy against four reference sets")
     p.add_argument("--genus", default=os.path.join("results", "genus"))
     p.add_argument("--species", default=os.path.join("results", "species"))
     p.add_argument("--anchors", default=os.path.join("data", "anchors"))
@@ -221,57 +275,53 @@ def main():
         w.writeheader()
         w.writerows(rows)
 
-    anchors = {rid: sid for rid, sid in ctx["anchor_all"].items()
-               if ctx["studies"][sid]["evidence_level"] in args.levels}
-    m_title = study_members(ctx, anchors, "title")
-    m_batch = study_members(ctx, anchors, "title+batch")
-    mem_rows = [{"study_id": sid, "anchors": sum(1 for s in anchors.values() if s == sid),
+    anchors = anchors_at(ctx, args.levels)
+    used = set(anchors.values())
+    allstudy = {r: s for r, s in ctx["anchor_all"].items() if s in used}
+    m_title = study_members(ctx, allstudy, "title")
+    m_batch = study_members(ctx, allstudy, "title+batch")
+    mem_rows = [{"study_id": sid, "anchor_queries": sum(1 for s in anchors.values() if s == sid),
                  "held_out_by_title": len(m_title[sid]), "held_out_by_title_and_batch": len(m_batch[sid]),
-                 "added_by_batch": " ".join(sorted(m_batch[sid] - m_title[sid]))}
-                for sid in sorted(set(anchors.values()))]
+                 "added_by_batch": " ".join(sorted(m_batch[sid] - m_title[sid]))} for sid in sorted(used)]
     with open(os.path.join(args.out, "membership.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(mem_rows[0].keys()))
         w.writeheader()
         w.writerows(mem_rows)
 
     n = len(rows)
-    lines = [f"Queries: {n} anchor records from {len({r['study_id'] for r in rows})} studies "
-             f"(leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P "
-             f"{args.cluster}, matches within {args.match})",
-             f"Raw database:     {describe(rows, 'raw_result')}",
-             f"Cleaned database: {describe(rows, 'cleaned_result')}",
-             "Earlier version (clusters from all records, study membership by publication title only):",
-             f"  Raw:     {describe(legacy, 'raw_result')}",
-             f"  Cleaned: {describe(legacy, 'cleaned_result')}",
-             "Records held out per study (publication title -> title or submission batch):"]
+    lines = [f"Queries: {n} anchor records from {len(used)} studies (leave-one-study-out with clusters and "
+             f"cleaning rebuilt in each fold; clusters at K2P {args.cluster}, matches within {args.match})"]
+    for s_ in SETS:
+        lines.append(f"  {s_:>12}: {describe(rows, s_ + '_result')}")
+    cov = Counter(r["coverage_named"] for r in rows)
+    lines.append("Coverage of the query's species in the named reference set: "
+                 + "; ".join(f"{c} {cov[c]}" for c in COVERAGE))
+    for c in COVERAGE:
+        rs = [r for r in rows if r["coverage_named"] == c]
+        if rs:
+            lines.append(f"  {c} ({len(rs)}): named -> {describe(rs, 'named_result')}")
+    lines.append("Earlier version (clusters from all records, study membership by publication title only):")
+    for s_ in SETS:
+        lines.append(f"  {s_:>12}: {describe(legacy, s_ + '_result')}")
+    changed = sum(1 for a, b in zip(rows, legacy) if any(a[f"{s_}_result"] != b[f"{s_}_result"] for s_ in SETS))
+    lines.append(f"Queries whose outcome differs from the earlier version: {changed}")
+    lines.append("Records held out per study (publication title -> title or submission batch):")
     lines += [f"  {r['study_id']}: {r['held_out_by_title']} -> {r['held_out_by_title_and_batch']}" for r in mem_rows]
-    changed = [(a["query"], a["study_id"], f"{b['raw_result']}/{b['cleaned_result']}",
-                f"{a['raw_result']}/{a['cleaned_result']}")
-               for a, b in zip(rows, legacy) if (a["raw_result"], a["cleaned_result"]) != (b["raw_result"], b["cleaned_result"])]
-    lines.append(f"Queries whose outcome differs from the earlier version: {len(changed)}")
-    lines += [f"  {q} ({s}): raw/cleaned {old} -> {new}" for q, s, old, new in changed]
-    if any(r["species"] == "Tetranychus turkestani" for r in rows):
-        excl = [r for r in rows if r["species"] != "Tetranychus turkestani"]
-        lines.append("Excluding T. turkestani (not separable from T. urticae by COI):")
-        lines.append(f"  Raw:     {describe(excl, 'raw_result')}")
-        lines.append(f"  Cleaned: {describe(excl, 'cleaned_result')}")
-    lines.append("By study (raw correct -> cleaned correct; raw wrong -> cleaned wrong; of queries):")
+    lines.append("By study (correct: all / named / cleaned / conservative; wrong likewise; of queries):")
     per_study = defaultdict(list)
     for r in rows:
-        per_study[(r["study_id"], r["evidence_level"])].append(r)
-    for (sid, lvl), rs in sorted(per_study.items()):
-        a, b = tally(rs, "raw_result"), tally(rs, "cleaned_result")
-        lines.append(f"  {sid} [{lvl}]: {a['correct']} -> {b['correct']}; {a['wrong']} -> {b['wrong']}; of {len(rs)}")
-    lines.append("By species (raw correct -> cleaned correct, of queries):")
+        per_study[r["study_id"]].append(r)
+    for sid, rs in sorted(per_study.items()):
+        c = [tally(rs, s_ + "_result") for s_ in SETS]
+        lines.append(f"  {sid}: {' / '.join(str(x['correct']) for x in c)}; {' / '.join(str(x['wrong']) for x in c)};"
+                     f" of {len(rs)}")
+    lines.append("By species (correct: all / named / cleaned / conservative, of queries):")
     per = defaultdict(list)
     for r in rows:
         per[r["species"]].append(r)
     for sp, rs in sorted(per.items(), key=lambda kv: -len(kv[1])):
-        lines.append(f"  {sp}: {sum(r['raw_result'] == 'correct' for r in rs)} -> "
-                     f"{sum(r['cleaned_result'] == 'correct' for r in rs)} of {len(rs)}")
-    moves = Counter((r["raw_result"], r["cleaned_result"]) for r in rows if r["raw_result"] != r["cleaned_result"])
-    lines.append("Changes from raw to cleaned:")
-    lines += [f"  {a} -> {b}: {k}" for (a, b), k in moves.most_common()] or ["  none"]
+        lines.append(f"  {sp}: " + " / ".join(str(sum(r[s_ + '_result'] == 'correct' for r in rs)) for s_ in SETS)
+                     + f" of {len(rs)}")
     summary = "\n".join(lines)
     with open(os.path.join(args.out, "identification_summary.txt"), "w") as f:
         f.write(summary + "\n")

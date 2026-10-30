@@ -1000,11 +1000,13 @@ MF774635.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,
 MF774634.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 MF774633.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 MF774632.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
-MF774631.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus neocaledonicus,0.0025,no
+MF774631.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus udaipurensis,0.0000,no
 MF774630.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 MF774629.1,Tetranychus truncatus,"arunima,v.|2017",Tetranychus neocaledonicus,0.0000,no,Tetranychus neocaledonicus,0.0000,no
 MG751384.1,Tetranychus urticae,"khadri,s.n.e.n.|2017",,,,,,
+MG751383.1,Tetranychus urticae,"khadri,s.n.e.n.|2017",Tetranychus urticae,0.0022,yes,Tetranychus urticae,0.0022,yes
 MH114587.1,Tetranychus urticae,"srinivas,n.|2018",Tetranychus urticae,0.0000,yes,Tetranychus urticae,0.0000,yes
+MG982985.1,Tetranychus udaipurensis,"srinivas,n.|2018",Tetranychus truncatus,0.0000,no,Tetranychus truncatus,0.0000,no
 MG231439.1,Tetranychus truncatus,"xinglong,z.|2017",Tetranychus urticae,0.0000,no,Tetranychus urticae,0.0000,no
 MG231438.1,Tetranychus truncatus,"xinglong,z.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 MG231437.1,Tetranychus truncatus,"xinglong,z.|2017",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
@@ -1257,6 +1259,7 @@ KX171197.1,Tetranychus macfarlanei,"srinivas,n.|2016",Tetranychus macfarlanei,0.
 KX171196.1,Tetranychus urticae,"srinivas,n.|2016",Tetranychus urticae,0.0000,yes,Tetranychus urticae,0.0000,yes
 KT208293.1,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 KT208292.1,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
+KT186807.1,Tetranychus okinawanus,"bennur,s.m.|2015",Tetranychus turkestani,0.0225,no,Tetranychus turkestani,0.0225,no
 KR733110.1,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 KR271024.1,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 KR271023.1,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
@@ -1266,7 +1269,8 @@ GU565323.1,Tetranychus turkestani,"perez-sayas,c.|2010",Tetranychus urticae,0.00
 GU565325.1,Tetranychus evansi,"perez-sayas,c.|2010",Tetranychus evansi,0.0000,yes,Tetranychus evansi,0.0026,yes
 GU565322.1,Tetranychus evansi,"perez-sayas,c.|2010",Tetranychus evansi,0.0000,yes,Tetranychus evansi,0.0026,yes
 KR870320.1,Tetranychus fijiensis,"kowsika,s.|2015",Tetranychus fijiensis,0.0247,yes,Tetranychus fijiensis,0.0247,yes
-KR870319.1,Tetranychus turkestani,"kowsika,s.|2015",Tetranychus udaipurensis,0.0058,no,Tetranychus udaipurensis,0.0058,no
+KR870319.1,Tetranychus turkestani,"kowsika,s.|2015",Tetranychus udaipurensis,0.0000,no,Tetranychus udaipurensis,0.0000,no
+KR870318.1,Tetranychus macfarlanei,"kowsika,s.|2015",Tetranychus macfarlanei,0.0000,yes,Tetranychus macfarlanei,0.0000,yes
 KR870317.1,Tetranychus urticae,"kowsika,s.|2015",Tetranychus urticae,0.0000,yes,Tetranychus urticae,0.0000,yes
 KR297226.1,Tetranychus truncatus,"bennur,s.m.|2015",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 KR269716.1,Tetranychus bambusae,"srinivas,n.|2015",Tetranychus kanzawai,0.0911,no,Tetranychus kanzawai,0.0911,no
@@ -1305,6 +1309,7 @@ KF977413.1,Tetranychus urticae,"kwon,d.h.|2013",Tetranychus urticae,0.0000,yes,,
 KM435068.1,Tetranychus urticae,"srinivas,n.|2014",Tetranychus urticae,0.0000,yes,Tetranychus urticae,0.0000,yes
 KM435067.1,Tetranychus truncatus,"srinivas,n.|2014",Tetranychus truncatus,0.0026,yes,Tetranychus truncatus,0.0026,yes
 KM435063.1,Tetranychus neocaledonicus,"srinivas,n.|2014",,,,Tetranychus neocaledonicus,0.0917,yes
+KM435062.1,Tetranychus ludeni,"srinivas,n.|2014",Tetranychus kanzawai,0.0703,no,Tetranychus kanzawai,0.0703,no
 KM435061.1,Tetranychus fijiensis,"srinivas,n.|2014",Tetranychus fijiensis,0.0806,yes,Tetranychus fijiensis,0.0806,yes
 KJ000400.1,Tetranychus urticae,"kwon,d.h.|2013",Tetranychus urticae,0.0000,yes,Tetranychus urticae,0.0000,yes
 AB981240.1,Tetranychus turkestani,"matsuda,t.|2014",Tetranychus urticae,0.0049,no,Tetranychus urticae,0.0049,no
@@ -1417,6 +1422,7 @@ JX094361.1,Tetranychus truncatus,"hong,x.y.|2012",Tetranychus truncatus,0.0000,y
 JX094360.1,Tetranychus truncatus,"hong,x.y.|2012",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
 JX075252.1,Tetranychus ludeni,"srinivas,n.|2012",Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 JX075251.1,Tetranychus neocaledonicus,"srinivas,n.|2012",,,,,,
+JX075250.1,Tetranychus urticae,"srinivas,n.|2012",Tetranychus urticae,0.0000,yes,Tetranychus urticae,0.0000,yes
 JX075249.1,Tetranychus truncatus,"srinivas,n.|2012",Tetranychus truncatus,0.0015,yes,Tetranychus truncatus,0.0015,yes
 JQ438840.1,Tetranychus viennensis,"son,y.|2012",Tetranychus viennensis,0.0095,yes,Tetranychus viennensis,0.0095,yes
 AB257317.1,Tetranychus truncatus,"hinomoto,n.|2006",Tetranychus truncatus,0.0000,yes,Tetranychus truncatus,0.0000,yes
@@ -1474,12 +1480,14 @@ AB116571.1,Tetranychus kanzawai,"hinomoto,n.|2003",Tetranychus kanzawai,0.0000,y
 AB116570.1,Tetranychus kanzawai,"hinomoto,n.|2003",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB116569.1,Tetranychus kanzawai,"hinomoto,n.|2003",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB116568.1,Tetranychus kanzawai,"hinomoto,n.|2003",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
+AB116567.1,Tetranychus kanzawai,"hinomoto,n.|2003",Tetranychus kanzawai,0.0041,yes,Tetranychus kanzawai,0.0041,yes
 AB116566.1,Tetranychus kanzawai,"hinomoto,n.|2003",Tetranychus kanzawai,0.0014,yes,Tetranychus kanzawai,0.0014,yes
+AB079111.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB079105.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB079103.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0013,yes
 AB079051.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB079050.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
-AB079049.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0102,yes,Tetranychus kanzawai,0.0102,yes
+AB079049.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0041,yes,Tetranychus kanzawai,0.0041,yes
 AB079048.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB079042.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
 AB079041.2,Tetranychus kanzawai,"hinomoto,n.|2002",Tetranychus kanzawai,0.0000,yes,Tetranychus kanzawai,0.0000,yes
@@ -2016,6 +2024,7 @@ PKTRA4114-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
 PKTRA4119-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
 PKTRA4120-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
 PKTRA4122-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
+PKTRA4135-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
 PKTRA4137-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
 PKTRA4138-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
 PKTRA4143-23,,bold:PKTRA,Tetranychus urticae,0.0000,,Tetranychus urticae,0.0000,
@@ -2097,6 +2106,7 @@ SAKZB7956-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetrany
 SAKZB7957-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB7958-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB7959-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
+SAKZB7960-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB7961-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB7963-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB7964-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
@@ -2128,6 +2138,7 @@ SAKZB8014-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetrany
 SAKZB8016-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB8018-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB8021-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
+SAKZB8023-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB8025-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB8027-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes
 SAKZB9287-23,Tetranychus ludeni,bold:SAKZB,Tetranychus ludeni,0.0000,yes,Tetranychus ludeni,0.0000,yes

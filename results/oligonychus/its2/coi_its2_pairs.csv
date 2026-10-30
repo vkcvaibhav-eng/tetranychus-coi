@@ -1,111 +1,111 @@
-specimen,coi_record,its2_record,coi_label,its2_label,coi_cluster,coi_cluster_dominant,its2_cluster,its2_nearest_species,country,link,link_conflict,confident,genes_agree
-lara:ca1411,KY474149.1,KY474275.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:ca1412,KY474150.1,KY474276.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:ca1413,KY474151.1,KY474277.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:ca1414,KY474152.1,KY474278.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:ca2292,KY474146.1,KY474271.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:ca2293,KY474147.1,KY474272.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:ca2294,KY474148.1,KY474273.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:cabr1,KY474153.1,KY474279.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:cabr2,KY474154.1,KY474274.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:cabr3,KY474155.1,KY474280.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:cabr4,KY474156.1,KY474281.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:crsj1,KY474138.1,KY474297.1,Oligonychus perseae,Oligonychus perseae,C037,Oligonychus perseae,I005,Oligonychus perseae,,one-to-one,,yes,yes
-lara:crsj2,KY474140.1,KY474298.1,Oligonychus perseae,Oligonychus perseae,C037,Oligonychus perseae,I005,Oligonychus perseae,,one-to-one,,yes,yes
-lara:crsj3,KY474139.1,KY474299.1,Oligonychus perseae,Oligonychus perseae,C037,Oligonychus perseae,I005,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac1,KY474196.1,KY474233.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac191,KY474190.1,KY474266.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac192,KY474191.1,KY474237.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac193,KY474192.1,KY474267.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac194,KY474193.1,KY474268.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac2,KY474197.1,KY474256.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxac4,KY474198.1,KY474258.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxat1,KY474199.1,KY474282.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxat161,KY474194.1,KY474285.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxat163,KY474195.1,KY474286.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxat2,KY474200.1,KY474283.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxat3,KY474201.1,KY474284.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxbj1,KY474159.1,KY474210.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxbj3,KY474160.1,KY474212.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxbj4,KY474161.1,KY474213.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxc081,KY474169.1,KY474245.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxc082,KY474170.1,KY474246.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxc083,KY474171.1,KY474247.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxc084,KY474172.1,KY474248.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxch3,KY474202.1,KY474231.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxch4,KY474203.1,KY474232.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxco1,KY474137.1,KY474291.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxco92,KY474135.1,KY474295.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxco94,KY474136.1,KY474296.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxhg1,KY474141.1,KY474214.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxhg2,KY474142.1,KY474215.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxhg3,KY474143.1,KY474249.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxhg4,KY474144.1,KY474216.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxjt1,KY474204.1,KY474242.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxjt2,KY474205.1,KY474217.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxjt3,KY474206.1,KY474243.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxmr1,KY474173.1,KY474250.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxmr2,KY474174.1,KY474251.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxmr3,KY474175.1,KY474252.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxmr4,KY474176.1,KY474253.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxpz2,KY474132.1,KY474288.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxpz3,KY474133.1,KY474289.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxpz4,KY474134.1,KY474290.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxsv3,KY474184.1,KY474235.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxta1,KY474177.1,KY474218.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxta2,KY474178.1,KY474219.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxta3,KY474145.1,KY474220.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxta4,KY474179.1,KY474244.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxtj2,KY474157.1,KY474239.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxtj3,KY474158.1,KY474240.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup2,KY474162.1,KY474221.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup3,KY474163.1,KY474222.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup4,KY474164.1,KY474223.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup61,KY474165.1,KY474224.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup62,KY474166.1,KY474225.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup63,KY474167.1,KY474226.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxup64,KY474168.1,KY474227.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxza111,KY474185.1,KY474261.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxza112,KY474186.1,KY474262.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxza113,KY474187.1,KY474263.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxza114,KY474188.1,KY474264.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxza115,KY474189.1,KY474265.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxzt1,KY474180.1,KY474287.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxzt2,KY474181.1,KY474254.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxzt3,KY474182.1,KY474228.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-lara:mxzt4,KY474183.1,KY474255.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,yes,yes
-matsuda:oc0025,AB683671.1,AB757829.1,Oligonychus coffeae,Oligonychus coffeae,C060,Oligonychus coffeae,I010,Oligonychus mangiferus,Japan,one-to-one,,yes,no
-matsuda:og0076,AB683668.1,AB757828.1,Oligonychus gotohi,Oligonychus gotohi,C061,Oligonychus gotohi,I011,Oligonychus mangiferus,Japan,one-to-one,,yes,no
-mushtaq:134,OP825121.1,OP821242.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:137,OP825122.1,OP821243.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:147,OP825123.1,OP821244.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:biap42,MZ425484.1,MZ435901.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Egypt,one-to-one,,yes,yes
-mushtaq:dhrp37,MZ425483.1,MZ435900.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:dppp48,MZ425485.1,MZ435904.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,yes,yes
-mushtaq:fdpp71,MZ425489.1,MZ435911.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,yes,yes
-mushtaq:fdpp72,MZ425490.1,MZ435912.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,yes,yes
-mushtaq:hqrp21,MZ425482.1,MZ435897.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:jhrp63,MZ425488.1,MZ435908.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:qhmp59,MZ425486.1,MZ435906.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:sapp74,MZ425491.1,MZ435914.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,yes,yes
-mushtaq:tctp78,MZ425492.1,MZ435917.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:tfmp104,MZ425493.1,MZ435919.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:uhrp62,MZ425487.1,MZ435907.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-mushtaq:wdrp1,MZ425481.1,MZ435892.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,yes,yes
-srinivas:uasb2588,MT479179.1,MN969994.1,Oligonychus mangiferus,Oligonychus mangiferus,C046,Oligonychus punicae,I003,Oligonychus punicae,India,one-to-one,,yes,yes
-yin:cl1,GU166399.1,GU166393.1,Oligonychus ununguis,Oligonychus ununguis,C043,Oligonychus ununguis,I020,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:cl2,GU166400.1,GU166394.1,Oligonychus ununguis,Oligonychus ununguis,C043,Oligonychus ununguis,I020,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:cl3,GU166401.1,HQ709243.1,Oligonychus ununguis,Oligonychus ununguis,C043,Oligonychus ununguis,I020,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:clcm1,GU329968.1,GU329978.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:clcm2,GU329969.1,GU329979.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:clcma1,GU329971.1,GU329980.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:clcma2,GU329972.1,GU329981.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:cm1,GU166395.1,GU166391.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:cm2,GU166396.1,GU166392.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:hnqv1,GU329973.1,GU329983.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:hnqv2,GU329974.1,GU329984.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:jlpk,HQ709241.1,HQ709242.1,Oligonychus ununguis,Oligonychus ununguis,C041,Oligonychus ununguis,I016,Oligonychus ununguis,,one-to-one,,yes,yes
-yin:tsqa1,GU329960.1,GU329987.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:tsqa2,GU329961.1,GU329988.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:tsqv1,GU329963.1,GU329989.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
-yin:tsqv2,GU329964.1,GU329990.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,yes,yes
+specimen,coi_record,its2_record,coi_label,its2_label,coi_cluster,coi_cluster_dominant,its2_cluster,its2_nearest_species,country,link,link_conflict,key_from,material_link,confident,genes_agree
+lara:ca1411,KY474149.1,KY474275.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:ca1412,KY474150.1,KY474276.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:ca1413,KY474151.1,KY474277.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:ca1414,KY474152.1,KY474278.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:ca2292,KY474146.1,KY474271.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:ca2293,KY474147.1,KY474272.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:ca2294,KY474148.1,KY474273.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:cabr1,KY474153.1,KY474279.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:cabr2,KY474154.1,KY474274.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:cabr3,KY474155.1,KY474280.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:cabr4,KY474156.1,KY474281.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:crsj1,KY474138.1,KY474297.1,Oligonychus perseae,Oligonychus perseae,C037,Oligonychus perseae,I005,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:crsj2,KY474140.1,KY474298.1,Oligonychus perseae,Oligonychus perseae,C037,Oligonychus perseae,I005,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:crsj3,KY474139.1,KY474299.1,Oligonychus perseae,Oligonychus perseae,C037,Oligonychus perseae,I005,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac1,KY474196.1,KY474233.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac191,KY474190.1,KY474266.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac192,KY474191.1,KY474237.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac193,KY474192.1,KY474267.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac194,KY474193.1,KY474268.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac2,KY474197.1,KY474256.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxac4,KY474198.1,KY474258.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxat1,KY474199.1,KY474282.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxat161,KY474194.1,KY474285.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxat163,KY474195.1,KY474286.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxat2,KY474200.1,KY474283.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxat3,KY474201.1,KY474284.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxbj1,KY474159.1,KY474210.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxbj3,KY474160.1,KY474212.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxbj4,KY474161.1,KY474213.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxc081,KY474169.1,KY474245.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxc082,KY474170.1,KY474246.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxc083,KY474171.1,KY474247.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxc084,KY474172.1,KY474248.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxch3,KY474202.1,KY474231.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxch4,KY474203.1,KY474232.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxco1,KY474137.1,KY474291.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxco92,KY474135.1,KY474295.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxco94,KY474136.1,KY474296.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxhg1,KY474141.1,KY474214.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxhg2,KY474142.1,KY474215.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxhg3,KY474143.1,KY474249.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxhg4,KY474144.1,KY474216.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxjt1,KY474204.1,KY474242.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxjt2,KY474205.1,KY474217.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxjt3,KY474206.1,KY474243.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxmr1,KY474173.1,KY474250.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxmr2,KY474174.1,KY474251.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxmr3,KY474175.1,KY474252.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxmr4,KY474176.1,KY474253.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxpz2,KY474132.1,KY474288.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxpz3,KY474133.1,KY474289.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxpz4,KY474134.1,KY474290.1,Oligonychus perseae,Oligonychus perseae,C038,Oligonychus perseae,I012,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxsv3,KY474184.1,KY474235.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxta1,KY474177.1,KY474218.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxta2,KY474178.1,KY474219.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxta3,KY474145.1,KY474220.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxta4,KY474179.1,KY474244.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxtj2,KY474157.1,KY474239.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxtj3,KY474158.1,KY474240.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup2,KY474162.1,KY474221.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup3,KY474163.1,KY474222.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup4,KY474164.1,KY474223.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup61,KY474165.1,KY474224.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup62,KY474166.1,KY474225.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup63,KY474167.1,KY474226.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxup64,KY474168.1,KY474227.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxza111,KY474185.1,KY474261.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxza112,KY474186.1,KY474262.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxza113,KY474187.1,KY474263.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxza114,KY474188.1,KY474264.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxza115,KY474189.1,KY474265.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxzt1,KY474180.1,KY474287.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxzt2,KY474181.1,KY474254.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxzt3,KY474182.1,KY474228.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+lara:mxzt4,KY474183.1,KY474255.1,Oligonychus perseae,Oligonychus perseae,C044,Oligonychus perseae,I006,Oligonychus perseae,,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+matsuda:oc0025,AB683671.1,AB757829.1,Oligonychus coffeae,Oligonychus coffeae,C060,Oligonychus coffeae,I010,Oligonychus mangiferus,Japan,one-to-one,,strain/strain,culture or population (strain),yes,no
+matsuda:og0076,AB683668.1,AB757828.1,Oligonychus gotohi,Oligonychus gotohi,C061,Oligonychus gotohi,I011,Oligonychus mangiferus,Japan,one-to-one,,strain/strain,culture or population (strain),yes,no
+mushtaq:134,OP825121.1,OP821242.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:137,OP825122.1,OP821243.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:147,OP825123.1,OP821244.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:biap42,MZ425484.1,MZ435901.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Egypt,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:dhrp37,MZ425483.1,MZ435900.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:dppp48,MZ425485.1,MZ435904.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:fdpp71,MZ425489.1,MZ435911.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:fdpp72,MZ425490.1,MZ435912.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:hqrp21,MZ425482.1,MZ435897.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:jhrp63,MZ425488.1,MZ435908.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:qhmp59,MZ425486.1,MZ435906.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:sapp74,MZ425491.1,MZ435914.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Pakistan,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:tctp78,MZ425492.1,MZ435917.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:tfmp104,MZ425493.1,MZ435919.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:uhrp62,MZ425487.1,MZ435907.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+mushtaq:wdrp1,MZ425481.1,MZ435892.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,I003,Oligonychus punicae,Saudi Arabia,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+srinivas:uasb2588,MT479179.1,MN969994.1,Oligonychus mangiferus,Oligonychus mangiferus,C046,Oligonychus punicae,I003,Oligonychus punicae,India,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+yin:cl1,GU166399.1,GU166393.1,Oligonychus ununguis,Oligonychus ununguis,C043,Oligonychus ununguis,I020,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:cl2,GU166400.1,GU166394.1,Oligonychus ununguis,Oligonychus ununguis,C043,Oligonychus ununguis,I020,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:cl3,GU166401.1,HQ709243.1,Oligonychus ununguis,Oligonychus ununguis,C043,Oligonychus ununguis,I020,Oligonychus ununguis,China,one-to-one,,isolate/specimen_voucher,unresolved (isolate),yes,yes
+yin:clcm1,GU329968.1,GU329978.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:clcm2,GU329969.1,GU329979.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:clcma1,GU329971.1,GU329980.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:clcma2,GU329972.1,GU329981.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:cm1,GU166395.1,GU166391.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:cm2,GU166396.1,GU166392.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:hnqv1,GU329973.1,GU329983.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:hnqv2,GU329974.1,GU329984.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:jlpk,HQ709241.1,HQ709242.1,Oligonychus ununguis,Oligonychus ununguis,C041,Oligonychus ununguis,I016,Oligonychus ununguis,,one-to-one,,specimen_voucher/specimen_voucher,voucher specimen,yes,yes
+yin:tsqa1,GU329960.1,GU329987.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:tsqa2,GU329961.1,GU329988.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:tsqv1,GU329963.1,GU329989.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes
+yin:tsqv2,GU329964.1,GU329990.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus ununguis,I023,Oligonychus ununguis,China,one-to-one,,isolate/isolate,unresolved (isolate),yes,yes

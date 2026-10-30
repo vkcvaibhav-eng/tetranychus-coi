@@ -1,46 +1,46 @@
-5prime: reference window 43-696, 1154 sequences, 505 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps; alignment 654 columns, 8 with an internal gap
-3prime: reference window 719-1130, 921 sequences, 422 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps; alignment 412 columns, 30 with an internal gap
+5prime: reference window 43-696, 1158 sequences, 507 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps; alignment 654 columns, 9 with an internal gap
+3prime: reference window 719-1130, 926 sequences, 427 haplotypes, model GTR+F+G4, 1000 ultrafast bootstraps; alignment 412 columns, 32 with an internal gap
 5prime, anchors only: 1 of 1 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
-  Tetranychus urticae (2 records, 2 haplotypes): exclusive clade 100.0% (support 99), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 99) with 0 records of other names
+  Tetranychus urticae (2 records, 2 haplotypes): exclusive clade 100.0% (support 48), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 48) with 0 records of other names
 5prime, all records: 4 of 15 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
-  Tetranychus urticae (330 records, 117 haplotypes): exclusive clade 76.7% (support 86), root-free 76.7%; 2 records on shared haplotypes; permissive group 76.7% (support 86) with 0 records of other names
-  Tetranychus ludeni (121 records, 31 haplotypes): exclusive clade 100.0% (support 66), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 66) with 0 records of other names
-  Tetranychus truncatus (46 records, 30 haplotypes): exclusive clade 19.6% (support 96), root-free 19.6%; 0 records on shared haplotypes; permissive group 19.6% (support 96) with 0 records of other names
-  Tetranychus turkestani (38 records, 14 haplotypes): exclusive clade 89.5% (support 76), root-free 89.5%; 0 records on shared haplotypes; permissive group 89.5% (support 76) with 0 records of other names
+  Tetranychus urticae (331 records, 118 haplotypes): exclusive clade 76.4% (support 93), root-free 76.4%; 2 records on shared haplotypes; permissive group 76.4% (support 93) with 0 records of other names
+  Tetranychus ludeni (123 records, 31 haplotypes): exclusive clade 100.0% (support 78), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 78) with 0 records of other names
+  Tetranychus truncatus (46 records, 30 haplotypes): exclusive clade 19.6% (support 98), root-free 19.6%; 0 records on shared haplotypes; permissive group 19.6% (support 98) with 0 records of other names
+  Tetranychus turkestani (38 records, 14 haplotypes): exclusive clade 89.5% (support 31), root-free 89.5%; 0 records on shared haplotypes; permissive group 89.5% (support 31) with 0 records of other names
   Tetranychus kanzawai (27 records, 10 haplotypes): exclusive clade 25.9%, root-free 25.9%; 0 records on shared haplotypes; permissive group 25.9% with 0 records of other names
   Tetranychus pueraricola (15 records, 13 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names
-  Tetranychus neocaledonicus (14 records, 13 haplotypes): exclusive clade 85.7% (support 95), root-free 85.7%; 0 records on shared haplotypes; permissive group 85.7% (support 95) with 0 records of other names
-  Tetranychus evansi (11 records, 7 haplotypes): exclusive clade 72.7% (support 50), root-free 72.7%; 0 records on shared haplotypes; permissive group 72.7% (support 50) with 0 records of other names
+  Tetranychus neocaledonicus (14 records, 13 haplotypes): exclusive clade 85.7% (support 91), root-free 85.7%; 0 records on shared haplotypes; permissive group 85.7% (support 91) with 0 records of other names
+  Tetranychus evansi (11 records, 7 haplotypes): exclusive clade 72.7% (support 63), root-free 72.7%; 0 records on shared haplotypes; permissive group 72.7% (support 63) with 0 records of other names
   Tetranychus malaysiensis (9 records, 2 haplotypes): exclusive clade 44.4%, root-free 44.4%; 5 records on shared haplotypes; permissive group 55.6% with 2 records of other names
-  Tetranychus udaipurensis (7 records, 7 haplotypes): exclusive clade 71.4% (support 97), root-free 71.4%; 0 records on shared haplotypes; permissive group 71.4% (support 97) with 0 records of other names
+  Tetranychus udaipurensis (7 records, 7 haplotypes): exclusive clade 71.4% (support 90), root-free 71.4%; 0 records on shared haplotypes; permissive group 71.4% (support 90) with 0 records of other names
   Tetranychus macfarlanei (4 records, 2 haplotypes): exclusive clade 50.0%, root-free 50.0%; 2 records on shared haplotypes; permissive group 100.0% (support 100) with 5 records of other names
   Tetranychus okinawanus (3 records, 3 haplotypes): exclusive clade 66.7% (support 100), root-free 66.7%; 0 records on shared haplotypes; permissive group 66.7% (support 100) with 0 records of other names
-  Tetranychus przhevalskii (3 records, 3 haplotypes): exclusive clade 100.0% (support 99), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 99) with 0 records of other names
+  Tetranychus przhevalskii (3 records, 3 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names
   Tetranychus puschelii (3 records, 3 haplotypes): exclusive clade 66.7% (support 100), root-free 66.7%; 0 records on shared haplotypes; permissive group 66.7% (support 100) with 0 records of other names
 3prime, anchors only: 4 of 11 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
   Tetranychus urticae (38 records, 26 haplotypes): exclusive clade 50.0% (support 90), root-free 50.0%; 0 records on shared haplotypes; permissive group 50.0% (support 90) with 0 records of other names
-  Tetranychus turkestani (12 records, 9 haplotypes): exclusive clade 25.0% (support 40), root-free 25.0%; 0 records on shared haplotypes; permissive group 25.0% (support 40) with 0 records of other names
-  Tetranychus kanzawai (10 records, 9 haplotypes): exclusive clade 70.0% (support 88), root-free 70.0%; 1 records on shared haplotypes; permissive group 70.0% (support 88) with 0 records of other names
-  Tetranychus evansi (6 records, 5 haplotypes): exclusive clade 100.0% (support 91), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 91) with 0 records of other names
+  Tetranychus turkestani (12 records, 9 haplotypes): exclusive clade 16.7% (support 100), root-free 16.7%; 0 records on shared haplotypes; permissive group 16.7% (support 100) with 0 records of other names
+  Tetranychus kanzawai (10 records, 9 haplotypes): exclusive clade 70.0% (support 99), root-free 70.0%; 1 records on shared haplotypes; permissive group 70.0% (support 99) with 0 records of other names
+  Tetranychus evansi (6 records, 5 haplotypes): exclusive clade 100.0% (support 94), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 94) with 0 records of other names
   Tetranychus parakanzawai (6 records, 5 haplotypes): exclusive clade 50.0% (support 100), root-free 50.0%; 0 records on shared haplotypes; permissive group 50.0% (support 100) with 0 records of other names
-  Tetranychus ludeni (4 records, 2 haplotypes): exclusive clade 25.0%, root-free 25.0%; 3 records on shared haplotypes; permissive group 100.0% (support 78) with 1 records of other names
+  Tetranychus ludeni (4 records, 2 haplotypes): exclusive clade 25.0% (support 87), root-free 25.0%; 3 records on shared haplotypes; permissive group 100.0% (support 68) with 1 records of other names
   Tetranychus pueraricola (4 records, 2 haplotypes): exclusive clade 75.0%, root-free 75.0%; 0 records on shared haplotypes; permissive group 75.0% with 0 records of other names
-  Tetranychus phaselus (3 records, 3 haplotypes): exclusive clade 100.0% (support 82), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 82) with 0 records of other names
-  Tetranychus piercei (3 records, 3 haplotypes): exclusive clade 100.0% (support 54), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 54) with 0 records of other names
+  Tetranychus phaselus (3 records, 3 haplotypes): exclusive clade 100.0% (support 89), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 89) with 0 records of other names
+  Tetranychus piercei (3 records, 3 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names
   Tetranychus truncatus (3 records, 2 haplotypes): exclusive clade 66.7%, root-free 66.7%; 0 records on shared haplotypes; permissive group 66.7% with 0 records of other names
-  Tetranychus okinawanus (2 records, 2 haplotypes): exclusive clade 100.0% (support 96), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 96) with 0 records of other names
+  Tetranychus okinawanus (2 records, 2 haplotypes): exclusive clade 100.0% (support 76), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 76) with 0 records of other names
 3prime, all records: 9 of 25 species form one exclusive clade (unnamed tips allowed, shared haplotypes not)
   Tetranychus urticae (386 records, 166 haplotypes): exclusive clade 38.9% (support 85), root-free 38.9%; 42 records on shared haplotypes; permissive group 38.9% (support 85) with 0 records of other names
-  Tetranychus evansi (162 records, 29 haplotypes): exclusive clade 74.1% (support 85), root-free 74.1%; 11 records on shared haplotypes; permissive group 100.0% (support 91) with 1 records of other names
-  Tetranychus truncatus (102 records, 61 haplotypes): exclusive clade 4.9% (support 69), root-free 4.9%; 39 records on shared haplotypes; permissive group 19.6% with 5 records of other names
-  Tetranychus kanzawai (53 records, 41 haplotypes): exclusive clade 20.8% (support 83), root-free 20.8%; 6 records on shared haplotypes; permissive group 22.6% (support 88) with 7 records of other names
-  Tetranychus pueraricola (35 records, 27 haplotypes): exclusive clade 14.3% (support 95), root-free 14.3%; 6 records on shared haplotypes; permissive group 28.6% (support 99) with 1 records of other names
+  Tetranychus evansi (162 records, 29 haplotypes): exclusive clade 73.5% (support 35), root-free 73.5%; 11 records on shared haplotypes; permissive group 100.0% (support 94) with 1 records of other names
+  Tetranychus truncatus (102 records, 61 haplotypes): exclusive clade 5.9% (support 5), root-free 5.9%; 39 records on shared haplotypes; permissive group 19.6% with 5 records of other names
+  Tetranychus kanzawai (55 records, 43 haplotypes): exclusive clade 23.6% (support 51), root-free 23.6%; 6 records on shared haplotypes; permissive group 43.6% (support 39) with 7 records of other names
+  Tetranychus pueraricola (35 records, 27 haplotypes): exclusive clade 14.3% (support 90), root-free 14.3%; 6 records on shared haplotypes; permissive group 28.6% (support 100) with 1 records of other names
   Tetranychus turkestani (29 records, 16 haplotypes): exclusive clade 20.7%, root-free 20.7%; 2 records on shared haplotypes; permissive group 20.7% with 0 records of other names
-  Tetranychus ludeni (19 records, 5 haplotypes): exclusive clade 15.8% (support 100), root-free 15.8%; 14 records on shared haplotypes; permissive group 73.7% with 1 records of other names
+  Tetranychus ludeni (20 records, 6 haplotypes): exclusive clade 15.0% (support 100), root-free 15.0%; 14 records on shared haplotypes; permissive group 70.0% with 1 records of other names
   Tetranychus gloveri (13 records, 8 haplotypes): exclusive clade 46.2%, root-free 46.2%; 0 records on shared haplotypes; permissive group 46.2% with 0 records of other names
-  Tetranychus piercei (10 records, 9 haplotypes): exclusive clade 100.0% (support 89), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 89) with 0 records of other names
-  Tetranychus udaipurensis (8 records, 7 haplotypes): exclusive clade 75.0% (support 75), root-free 75.0%; 0 records on shared haplotypes; permissive group 75.0% (support 75) with 0 records of other names
-  Tetranychus neocaledonicus (7 records, 4 haplotypes): exclusive clade 85.7% (support 77), root-free 85.7%; 0 records on shared haplotypes; permissive group 85.7% (support 77) with 0 records of other names
+  Tetranychus piercei (10 records, 9 haplotypes): exclusive clade 100.0% (support 83), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 83) with 0 records of other names
+  Tetranychus udaipurensis (9 records, 8 haplotypes): exclusive clade 66.7% (support 57), root-free 66.7%; 0 records on shared haplotypes; permissive group 66.7% (support 57) with 0 records of other names
+  Tetranychus neocaledonicus (7 records, 4 haplotypes): exclusive clade 85.7% (support 91), root-free 85.7%; 0 records on shared haplotypes; permissive group 85.7% (support 91) with 0 records of other names
   Tetranychus phaselus (7 records, 6 haplotypes): exclusive clade 28.6%, root-free 28.6%; 0 records on shared haplotypes; permissive group 28.6% with 0 records of other names
   Tetranychus tumidellus (7 records, 3 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names
   Tetranychus malaysiensis (6 records, 4 haplotypes): exclusive clade 100.0% (support 100), root-free 100.0%; 0 records on shared haplotypes; permissive group 100.0% (support 100) with 0 records of other names

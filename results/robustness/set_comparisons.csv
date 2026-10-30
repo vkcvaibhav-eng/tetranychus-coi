@@ -1,0 +1,9 @@
+from,to,outcome,gained,lost,studies_up,studies_down,study_sign_flip_p,query_mcnemar_p
+all,named,correct,3,0,1,0,1.000,0.250
+all,named,wrong,0,0,0,0,1.000,1.000
+named,cleaned,correct,4,2,3,1,0.625,0.688
+named,cleaned,wrong,4,1,1,0,1.000,0.375
+named,conservative,correct,1,2,0,1,1.000,1.000
+named,conservative,wrong,4,1,1,0,1.000,0.375
+all,cleaned,correct,7,2,3,1,0.500,0.180
+all,cleaned,wrong,4,1,1,0,1.000,0.375

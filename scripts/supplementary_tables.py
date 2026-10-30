@@ -1,4 +1,4 @@
-"""Supplementary tables S1-S9 as one Excel workbook.
+"""Supplementary tables S1-S10 as one Excel workbook.
 
 S1  Anchor studies and anchor accessions
 S2  Metadata and quality control for every record (accession versions)
@@ -11,6 +11,7 @@ S6  Records disagreeing with the anchored species of their cluster, and
 S7  Tips of the four trees, in figure order, with the records behind each tip
 S8  Oligonychus: anchor studies and anchor accessions
 S9  Oligonychus: records, clusters, identification test and sensitivity
+S10 Change by submission period and country, both genera
 
 Usage: python scripts/supplementary_tables.py [--out results/supplementary]
 """
@@ -101,7 +102,8 @@ def anchor_tables(studies, anchors, status, merged):
         rid = st.get("record_id", "")
         s1_acc.append({"Accession": rid or a["accession"], "Study": by_id[a["study_id"]]["citation"].split(" (")[0]
                        + " (" + by_id[a["study_id"]]["citation"].split(" (")[1].split(")")[0] + ")",
-                       "Evidence level": by_id[a["study_id"]]["evidence_level"],
+                       "Evidence level": st.get("evidence_level") or by_id[a["study_id"]]["evidence_level"],
+                       "Name given in the study": a.get("species", ""),
                        "Name in record": merged.get(rid, {}).get("species_label", ""),
                        "Accepted name": st.get("species_name", ""),
                        "Passed QC": st.get("passed_qc", ""), "Cluster": st.get("cluster", ""),
@@ -152,10 +154,17 @@ def main():
                    "Length (bp)": r["seq_length"], "COX1 region": r["cox1_half"],
                    "Reference start": r["ref_start"], "Reference end": r["ref_end"],
                    "Identity to reference": r["identity"], "Reading frame intact": r["reading_frame_intact"],
+                   "Translation check": r.get("translation_check", ""),
                    "QC flags": r["qc_flags"].replace(";", "; "), "QC result": r["qc_status"]})
-    add_sheet(wb, "S2 Records and QC", "Table S2. Metadata and quality-control result for every record. "
-              "Records are identified by accession and version, or by BOLD process ID for BOLD-only records.",
-              [("", list(s2[0].keys()), s2)])
+    recheck = read("results/genus/qc_recheck.csv")
+    blocks2 = [("", list(s2[0].keys()), s2)]
+    if recheck:
+        blocks2.append(("Failed sequences and sequences with odd-length alignment gaps, rechecked against a panel of "
+                        "COX1 references (one per species with a mitochondrial genome) and in six reading frames",
+                        list(recheck[0].keys()), recheck))
+    add_sheet(wb, "S2 Records and QC", "Table S2. Metadata and quality-control result for every record, with the "
+              "translation-guided check of frame flags. Records are identified by accession and version, or by BOLD "
+              "process ID for BOLD-only records.", blocks2)
 
     # S3: nearest-neighbour columns under accepted names (two synonymies applied)
     acc_checks = {r["record_id"]: r for r in read("results/species_accepted/record_checks.csv")}
@@ -194,9 +203,17 @@ def main():
     sp = read("results/robustness/identification_by_species.csv")
     tr = read("results/robustness/transitions.csv")
     ci = read("results/robustness/identification_intervals.csv")
-    add_sheet(wb, "S5 Identification", "Table S5. Identification of anchor specimens by closest COI match "
-              "(K2P 0.03, leaving out each anchor study in turn).",
-              [("Outcomes, raw database (rows) against cleaned database (columns)", list(tr[0].keys()), tr),
+    cmp_ = read("results/robustness/set_comparisons.csv")
+    summ = read("results/robustness/identification_summaries.csv")
+    add_sheet(wb, "S5 Identification", "Table S5. Identification of anchor queries by closest COI match "
+              "(K2P 0.03, leaving out each anchor study in turn) against four reference sets: all records that "
+              "passed quality control, named records, named records cleaned by anchors, and named records cleaned "
+              "by the conservative rule (anchors from at least two studies).",
+              [("Comparisons between reference sets: queries gained and lost, studies up and down, sign-flip test "
+                "over studies and query-level McNemar test", list(cmp_[0].keys()), cmp_),
+               ("Accuracy pooled, averaged over studies and over species, reference-set size, and accuracy by "
+                "coverage of the query's species", list(summ[0].keys()), summ),
+               ("Transitions between reference sets", list(tr[0].keys()), tr),
                ("Percentages with 95% intervals from a bootstrap over anchor studies", list(ci[0].keys()), ci),
                ("By species", list(sp[0].keys()), sp),
                ("Every query", list(qs[0].keys()), qs)])
@@ -212,13 +229,20 @@ def main():
     by_batch = read("results/robustness/paired_by_batch.csv") if os.path.exists(
         "results/robustness/paired_by_batch.csv") else []
     blocks = [("Records disagreeing with the anchored species of their cluster", list(dis[0].keys()), dis)]
+    sp_pairs = read("results/pairs/species_pairs.csv")
+    if sp_pairs:
+        blocks.append(("Pairs of names sharing a cluster or within K2P 0.03: identical sequences, close but distinct, "
+                       "or joined only by chaining; for all records and for anchors only", list(sp_pairs[0].keys()),
+                       sp_pairs))
     if pairs:
-        blocks.append(("Specimens linked between COI and ITS2 records (only one-to-one links without conflicting "
-                       "names or countries are used in the comparison)", list(pairs[0].keys()), pairs))
+        blocks.append(("COI and ITS2 records linked by first author and isolate, strain or voucher name (putative "
+                       "material links; only one-to-one links without conflicting names or countries are used in the "
+                       "comparison)", list(pairs[0].keys()), pairs))
     if by_batch:
         blocks.append(("One-to-one specimens by COI submission batch", list(by_batch[0].keys()), by_batch))
-    add_sheet(wb, "S6 Disagreements and ITS2", "Table S6. Records that disagree with the anchored species of "
-              "their cluster, and COI-ITS2 comparison for specimens sequenced for both genes.", blocks)
+    add_sheet(wb, "S6 Pairs, disagreements, ITS2", "Table S6. Records that disagree with the anchored species of "
+              "their cluster, the kind of COI overlap behind each pair of names, and the COI-ITS2 comparison for "
+              "linked records.", blocks)
 
     # S7: every tip of the four trees (Figures 4 and S1-S4) with the records behind it,
     # in the order the tips appear in the figures (midpoint-rooted, ladderized).
@@ -282,24 +306,45 @@ def main():
                          "QC result": r["qc_status"], "Haplotype": c.get("haplotype", ""),
                          "Cluster (K2P 0.03)": c.get("cluster", ""),
                          "Anchored species of cluster": v.get("anchored_species", ""),
-                         "Anchor": v.get("is_anchor", ""), "Verdict": v.get("verdict", ""),
+                         "Anchor": v.get("is_anchor", ""), "Anchor used for decisions": v.get("anchor_used", ""),
+                         "Verdict": v.get("verdict", ""),
                          "Submission batch": n.get("batch", "")})
         blocks = [("Every record: metadata, quality control, cluster and anchor verdict", list(recs[0].keys()), recs)]
         for heading, f in [("Identification test, every query (K2P 0.03, leaving out each anchor study in turn)",
                             "queries_main.csv"),
+                           ("Comparisons between reference sets", "set_comparisons.csv"),
+                           ("Accuracy pooled, averaged over studies and species, and by coverage",
+                            "identification_summaries.csv"),
+                           ("Identification test with the two Mexican studies held out together", "queries_grouped.csv"),
                            ("Identification test by species", "identification_by_species.csv"),
                            ("Records disagreeing with the anchored species of their cluster", "disagreements.csv"),
                            ("Cluster threshold and largest accepted match distance equal", "thresholds.csv"),
                            ("Cluster threshold and largest accepted match distance varied separately",
                             "threshold_grid.csv"),
-                           ("Anchor evidence, taxonomic treatment and fold isolation, K2P 0.03", "variants.csv")]:
-            rows = read(f"{RG}/robustness/{f}")
+                           ("Anchor evidence, taxonomic treatment, fold isolation and grouping, K2P 0.03", "variants.csv"),
+                           ("Pairs of names sharing a cluster or within K2P 0.03", "species_pairs.csv")]:
+            rows = read(f"{RG}/robustness/{f}") if not f.startswith("species_pairs") else read(f"{RG}/pairs/{f}")
             if rows:
                 blocks.append((heading, list(rows[0].keys()), rows))
+        rc = read(f"{RG}/genus/qc_recheck.csv")
+        if rc:
+            blocks.append(("Failed sequences and sequences with odd-length alignment gaps, rechecked against a panel "
+                           "of references and in six reading frames", list(rc[0].keys()), rc))
         add_sheet(wb, "S9 Oligonychus results", "Table S9. Oligonychus: metadata, quality control, clusters and "
                   "anchor verdicts for every record, the identification test and its sensitivity.", blocks)
 
-    path = os.path.join(args.out, "Supplementary_Tables_S1-S9.xlsx")
+    # S10: change by submission period and country, both genera
+    blocks10 = []
+    for genus, d in (("Tetranychus", "results/trends"), ("Oligonychus", "results/oligonychus/trends")):
+        for heading, f in (("by submission period", "by_period.csv"), ("by country", "by_country.csv")):
+            rows = read(os.path.join(d, f))
+            if rows:
+                blocks10.append((f"{genus}, {heading}", list(rows[0].keys()), rows))
+    if blocks10:
+        add_sheet(wb, "S10 Change over time", "Table S10. Data quality by submission period and by country "
+                  "(percentage of records), with the number of submission batches behind each country.", blocks10)
+
+    path = os.path.join(args.out, "Supplementary_Tables_S1-S10.xlsx")
     wb.save(path)
     print(f"Written {path}")
 

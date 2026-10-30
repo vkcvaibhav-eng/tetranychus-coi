@@ -3,10 +3,10 @@ region,basis,species,records,haplotypes,records_on_shared_haplotypes,exclusive_c
 5prime,all records,Tetranychus pueraricola,11,9,0,100.0,99,1,yes,100.0,100.0,99,0
 5prime,all records,Tetranychus truncatus,28,16,0,100.0,100,1,yes,100.0,100.0,100,0
 5prime,all records,Tetranychus turkestani,2,2,0,50.0,,2,no,50.0,50.0,,0
-5prime,all records,Tetranychus urticae,36,23,2,63.9,87,2,no,63.9,63.9,87,0
-5prime,anchors only,Tetranychus urticae,2,2,0,100.0,98,1,yes,100.0,100.0,98,0
-3prime,all records,Tetranychus pueraricola,11,8,0,100.0,97,1,yes,100.0,100.0,97,0
+5prime,all records,Tetranychus urticae,36,23,2,63.9,86,2,no,63.9,63.9,86,0
+5prime,anchors only,Tetranychus urticae,2,2,0,100.0,99,1,yes,100.0,100.0,99,0
+3prime,all records,Tetranychus pueraricola,11,8,0,100.0,99,1,yes,100.0,100.0,99,0
 3prime,all records,Tetranychus truncatus,28,11,0,100.0,100,1,yes,100.0,100.0,100,0
 3prime,all records,Tetranychus turkestani,2,2,0,50.0,,2,no,50.0,50.0,,0
-3prime,all records,Tetranychus urticae,36,26,2,52.8,94,3,no,52.8,52.8,94,0
-3prime,anchors only,Tetranychus urticae,2,2,0,100.0,89,1,yes,100.0,100.0,89,0
+3prime,all records,Tetranychus urticae,36,26,2,52.8,96,3,no,52.8,52.8,96,0
+3prime,anchors only,Tetranychus urticae,2,2,0,100.0,92,1,yes,100.0,100.0,92,0

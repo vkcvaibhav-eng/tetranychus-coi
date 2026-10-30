@@ -10,15 +10,15 @@ Anchor consistency:
     conflict: GQ141908 (li2010, Tetranychus urticae) in cluster with Tetranychus truncatus
     conflict: GQ141909 (li2010, Tetranychus urticae) in cluster with Tetranychus truncatus
     conflict: GQ141911 (li2010, Tetranychus kanzawai) in cluster with Tetranychus ludeni
-Clusters with anchors: 13 of 81 (several anchored species: 3)
-Non-anchor records: 2048
-  AGREES_SHARED_CLUSTER: 751 (36.7%)
-  NO_ANCHOR: 464 (22.7%)
-  AGREES: 428 (20.9%)
-  UNNAMED_SEVERAL_POSSIBLE: 215 (10.5%)
-  DISAGREES: 118 (5.8%)
+Clusters with anchors: 13 of 82 (several anchored species: 3)
+Records other than the anchors used for decisions (level C leads included): 2068
+  AGREES_SHARED_CLUSTER: 757 (36.6%)
+  NO_ANCHOR: 476 (23.0%)
+  AGREES: 428 (20.7%)
+  UNNAMED_SEVERAL_POSSIBLE: 216 (10.4%)
+  DISAGREES: 119 (5.8%)
   UNNAMED_SUGGESTED: 72 (3.5%)
 Clusters holding several anchored species:
-  C028 (972 records): Tetranychus turkestani [A] x5; Tetranychus turkestani [B] x7; Tetranychus urticae [A] x26; Tetranychus urticae [B] x17
-  C042 (96 records): Tetranychus kanzawai [A] x6; Tetranychus kanzawai [B] x1; Tetranychus parakanzawai [A] x3
-  C051 (11 records): Tetranychus ezoensis [A] x2; Tetranychus kanzawai [A] x2; Tetranychus parakanzawai [A] x3
+  C028 (975 records): Tetranychus turkestani [A] x5; Tetranychus turkestani [B] x7; Tetranychus urticae [A] x26; Tetranychus urticae [B] x17
+  C043 (98 records): Tetranychus kanzawai [A] x6; Tetranychus kanzawai [B] x1; Tetranychus parakanzawai [A] x3
+  C052 (11 records): Tetranychus ezoensis [A] x2; Tetranychus kanzawai [A] x2; Tetranychus parakanzawai [A] x3

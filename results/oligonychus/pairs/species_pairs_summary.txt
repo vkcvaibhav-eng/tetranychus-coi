@@ -1,0 +1,11 @@
+Pairs of accepted names sharing a cluster (K2P 0.03) or within it: 9
+species pair | all records: kind (min K2P) | anchors: kind (min K2P)
+  Oligonychus castaneae / Oligonychus neocastaneae | identical (0.0000) | separate (0.0703)
+  Oligonychus castaneae / Oligonychus ununguis | close (0.0280) | separate (0.0780)
+  Oligonychus neocastaneae / Oligonychus ununguis | close (0.0283) | separate (0.1049)
+  Oligonychus plegas / Oligonychus tylus | separate (0.1302) | chained only (0.1377)
+  Oligonychus grypus / Oligonychus oryzae | identical (0.0000) | no anchors of both ()
+  Oligonychus indicus / Oligonychus tylus | close (0.0044) | no anchors of both ()
+  Oligonychus mangiferus / Oligonychus punicae | close (0.0028) | no anchors of both ()
+  Oligonychus mangiferus / Oligonychus vitis | close (0.0027) | no anchors of both ()
+  Oligonychus punicae / Oligonychus vitis | close (0.0025) | no anchors of both ()

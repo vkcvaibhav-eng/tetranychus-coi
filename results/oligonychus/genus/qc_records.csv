@@ -1,573 +1,573 @@
-record_id,source,species_label,seq_length,orientation,ref_start,ref_end,ref_coverage,cox1_half,identity,query_aligned_fraction,ambiguous_bases,ambiguous_fraction,reading_frame_intact,internal_stops,alignment_frameshift_gaps,qc_flags,qc_status
-PZ484972.1,GenBank,Oligonychus tylus,443,forward,709,1149,0.286,3prime,0.9887,0.995,0,0.0,yes,0,0,,PASS
-PX672270.1,GenBank+BOLD,Oligonychus sp.,845,forward,245,1085,0.545,5prime,0.8456,0.995,0,0.0,yes,0,2,,PASS
-PX672269.1,GenBank+BOLD,Oligonychus sp.,849,forward,283,1131,0.551,5prime,0.8482,1.0,0,0.0,yes,0,2,,PASS
-PX672268.1,GenBank+BOLD,Oligonychus sp.,840,forward,245,1081,0.543,5prime,0.8461,0.996,0,0.0,yes,0,2,,PASS
-PX353985.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8383,0.999,0,0.0,yes,0,0,,PASS
-PX353984.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8394,0.999,0,0.0,yes,0,0,,PASS
-PX353983.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8394,0.999,0,0.0,yes,0,0,,PASS
-PX353982.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8405,0.999,0,0.0,yes,0,0,,PASS
-PX353981.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8394,0.999,0,0.0,yes,0,0,,PASS
-PX353979.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8378,1.0,0,0.0,yes,0,2,,PASS
-PX353980.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8405,0.999,0,0.0,yes,0,0,,PASS
-PX353978.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8378,1.0,0,0.0,yes,0,2,,PASS
-PX353977.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8393,1.0,0,0.0,yes,0,2,,PASS
-PX353976.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8393,1.0,0,0.0,yes,0,2,,PASS
-PX667140.1,GenBank+BOLD,Oligonychus sp.,639,forward,28,666,0.414,5prime,0.856,1.0,0,0.0,yes,0,0,,PASS
-PX667139.1,GenBank+BOLD,Oligonychus sp.,639,forward,28,666,0.414,5prime,0.856,1.0,0,0.0,yes,0,0,,PASS
-PX667138.1,GenBank+BOLD,Oligonychus sp.,639,forward,28,666,0.414,5prime,0.856,1.0,0,0.0,yes,0,0,,PASS
-PX660075.1,GenBank,Oligonychus karamatus,603,forward,64,666,0.391,5prime,0.8364,1.0,0,0.0,yes,0,2,,PASS
-PX660074.1,GenBank,Oligonychus sp.,606,forward,76,672,0.387,5prime,0.8311,0.985,0,0.0,yes,0,2,,PASS
-PX660071.1,GenBank+BOLD,Oligonychus sp.,645,forward,28,671,0.418,5prime,0.8214,0.998,0,0.0,yes,0,0,,PASS
-PX660065.1,GenBank+BOLD,Oligonychus sp.,645,forward,28,672,0.418,5prime,0.8331,1.0,0,0.0,yes,0,2,,PASS
-PX660049.1,GenBank,Oligonychus piceae,612,forward,63,672,0.396,5prime,0.8328,0.997,0,0.0,yes,0,0,,PASS
-PX660047.1,GenBank,Oligonychus sp.,612,forward,61,671,0.396,5prime,0.8331,0.998,0,0.0,yes,0,0,,PASS
-PX419194.1,GenBank,Oligonychus perseae,540,forward,131,662,0.345,5prime,0.8352,0.985,0,0.0,yes,0,4,,PASS
-PX415460.1,GenBank+BOLD,Oligonychus oryzae,655,forward,22,675,0.424,5prime,0.8746,0.998,0,0.0,yes,0,0,,PASS
-PX133189.1,GenBank,Oligonychus trichardti,432,forward,706,1136,0.28,3prime,0.877,0.998,0,0.0,yes,0,0,,PASS
-PQ273722.1,GenBank,Oligonychus indicus,1542,forward,1,1542,1.0,full,1.0,1.0,0,0.0,yes,0,0,,PASS
-PV162787.1,GenBank+BOLD,Oligonychus biharensis,684,forward,25,707,0.443,5prime,0.8433,0.999,0,0.0,yes,0,0,,PASS
-PP531494.1,GenBank,Oligonychus punicae,1539,forward,1,1532,0.994,full,0.8116,0.995,0,0.0,yes,0,5,,PASS
-OQ180841.1,GenBank,Oligonychus dactyloni,410,forward,719,1127,0.265,3prime,0.8729,0.998,0,0.0,yes,0,0,,PASS
-OQ180840.1,GenBank,Oligonychus dactyloni,410,forward,719,1127,0.265,3prime,0.8729,0.998,0,0.0,yes,0,0,,PASS
-OQ180839.1,GenBank,Oligonychus pratensis,410,forward,719,1128,0.266,3prime,0.8783,1.0,0,0.0,yes,0,2,,PASS
-OQ180838.1,GenBank,Oligonychus washingtoniae,410,forward,721,1128,0.265,3prime,0.8725,0.995,0,0.0,yes,0,0,,PASS
-OQ180837.1,GenBank,Oligonychus tylus,410,forward,719,1128,0.266,3prime,0.9927,1.0,0,0.0,yes,0,0,,PASS
-OQ180836.1,GenBank,Oligonychus tylus,410,forward,719,1128,0.266,3prime,0.9927,1.0,0,0.0,yes,0,0,,PASS
-OQ180835.1,GenBank,Oligonychus tylus,410,forward,719,1128,0.266,3prime,0.9927,1.0,0,0.0,yes,0,0,,PASS
-OQ180834.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8634,1.0,0,0.0,yes,0,0,,PASS
-OQ180833.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8634,1.0,0,0.0,yes,0,0,,PASS
-OQ180832.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,PASS
-OQ180831.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,PASS
-OQ180830.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,PASS
-OQ180829.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,PASS
-OQ180828.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,PASS
-OQ180827.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-OQ180826.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-OP825124.1,GenBank,Oligonychus sp. HM-2022,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,PASS
-OP825123.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-OP825122.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,PASS
-OP825121.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,PASS
-MZ425493.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,PASS
-MZ425492.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425491.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425490.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425489.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425488.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,PASS
-MZ425487.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,PASS
-MZ425486.1,GenBank,Oligonychus punicae,408,forward,721,1128,0.265,3prime,0.8407,1.0,0,0.0,yes,0,0,,PASS
-MZ425485.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425484.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425483.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-MZ425482.1,GenBank,Oligonychus punicae,408,forward,721,1128,0.265,3prime,0.8358,1.0,0,0.0,yes,0,0,,PASS
-MZ425481.1,GenBank,Oligonychus punicae,408,forward,721,1128,0.265,3prime,0.8407,1.0,0,0.0,yes,0,0,,PASS
-OP704190.1,GenBank+BOLD,Oligonychus tylus,841,forward,271,1111,0.545,5prime,0.9905,1.0,0,0.0,yes,0,0,,PASS
-OP703735.1,GenBank+BOLD,Oligonychus biharensis,738,forward,337,1074,0.479,5prime,0.8442,1.0,0,0.0,yes,0,0,,PASS
-OP703592.1,GenBank+BOLD,Oligonychus tylus,845,forward,278,1121,0.547,5prime,0.9941,0.999,0,0.0,yes,0,0,,PASS
-OP630817.1,GenBank+BOLD,Oligonychus biharensis,587,forward,476,1061,0.38,5prime,0.8498,0.998,0,0.0,yes,0,0,,PASS
-OP623518.1,GenBank+BOLD,Oligonychus tylus,887,forward,239,1121,0.573,5prime,0.9887,0.995,0,0.0,yes,0,0,,PASS
-OP623496.1,GenBank+BOLD,Oligonychus biharensis,774,forward,277,1050,0.502,5prime,0.8463,1.0,0,0.0,yes,0,0,,PASS
-OP622877.1,GenBank+BOLD,Oligonychus biharensis,865,forward,245,1106,0.559,5prime,0.848,0.997,0,0.0,yes,0,0,,PASS
-OP615200.1,GenBank+BOLD,Oligonychus tylus,864,forward,250,1113,0.56,5prime,0.9896,1.0,0,0.0,yes,0,0,,PASS
-OP615102.1,GenBank+BOLD,Oligonychus tylus,828,forward,279,1106,0.537,5prime,0.9952,1.0,0,0.0,yes,0,0,,PASS
-OP615093.1,GenBank+BOLD,Oligonychus tylus,838,forward,278,1115,0.543,5prime,0.9857,1.0,0,0.0,yes,0,0,,PASS
-OP615070.1,GenBank+BOLD,Oligonychus tylus,845,forward,278,1121,0.547,5prime,0.9953,0.999,0,0.0,yes,0,0,,PASS
-OP363224.1,GenBank+BOLD,Oligonychus biharensis,851,forward,271,1121,0.552,5prime,0.8484,1.0,0,0.0,yes,0,0,,PASS
-MN348237.1,GenBank+BOLD,Oligonychus sp. BOLD:ADE0622,639,forward,39,677,0.414,5prime,0.8623,1.0,0,0.0,yes,0,0,,PASS
-MN358374.1,GenBank,Oligonychus sp. BOLD:ACE0013,658,forward,40,695,0.425,5prime,0.8483,0.997,0,0.0,yes,0,0,,PASS
-ON630335.1,GenBank+BOLD,Oligonychus afrasiaticus,657,forward,41,696,0.425,5prime,0.8521,0.998,0,0.0,yes,0,0,,PASS
-OM056929.1,GenBank+BOLD,Oligonychus sp. UAS-B 3030,550,forward,352,901,0.357,5prime,0.8927,1.0,0,0.0,yes,0,0,,PASS
-MZ604344.1,GenBank+BOLD,Oligonychus thelytokus,346,forward,808,1149,0.222,3prime,0.8343,0.988,0,0.0,yes,0,2,,PASS
-MZ496533.1,GenBank+BOLD,Oligonychus tylus,391,forward,760,1149,0.253,3prime,0.9897,0.997,0,0.0,yes,0,0,,PASS
-MW898015.1,GenBank+BOLD,Oligonychus grypus,539,forward,184,722,0.35,5prime,0.8701,1.0,0,0.0,yes,0,0,,PASS
-MW045520.3,GenBank+BOLD,Oligonychus ununguis,658,forward,39,695,0.426,5prime,0.8359,0.998,0,0.0,yes,0,2,,PASS
-MW045518.3,GenBank+BOLD,Oligonychus afrasiaticus,657,forward,41,696,0.425,5prime,0.8643,0.998,0,0.0,yes,0,0,,PASS
-MW850427.1,GenBank+BOLD,Oligonychus indicus,682,forward,337,1018,0.442,5prime,0.871,1.0,0,0.0,yes,0,0,,PASS
-MW791265.1,GenBank+BOLD,Oligonychus grypus,383,forward,769,1149,0.247,3prime,0.874,0.995,0,0.0,yes,0,0,,PASS
-MW517748.1,GenBank+BOLD,Oligonychus vitis,445,forward,706,1149,0.288,3prime,0.8446,0.998,0,0.0,yes,0,0,,PASS
-MW491838.1,GenBank+BOLD,Oligonychus grypus,436,forward,715,1149,0.282,3prime,0.8713,0.998,0,0.0,yes,0,0,,PASS
-MW367899.1,GenBank+BOLD,Oligonychus tylus,415,forward,700,1110,0.267,3prime,0.9903,0.99,0,0.0,yes,0,0,,PASS
-MT821525.1,GenBank+BOLD,Oligonychus indicus,397,forward,754,1149,0.257,3prime,0.8813,0.997,0,0.0,yes,0,0,,PASS
-MT815743.1,GenBank+BOLD,Oligonychus thelytokus,391,forward,760,1149,0.253,3prime,0.8393,0.997,0,0.0,yes,0,2,,PASS
-MN562089.1,GenBank,Oligonychus biharensis,826,forward,277,1104,0.537,5prime,0.8466,1.0,0,0.0,no,3,2,FRAMESHIFT,FAIL
-MT506028.1,GenBank+BOLD,Oligonychus sp. UAS-B 2206,606,forward,94,699,0.393,5prime,0.9917,1.0,0,0.0,yes,0,0,,PASS
-MT492157.1,GenBank+BOLD,Oligonychus plegas,391,forward,763,1149,0.251,3prime,0.8667,0.997,0,0.0,yes,0,0,,PASS
-MT479179.1,GenBank+BOLD,Oligonychus mangiferus,321,forward,820,1140,0.208,3prime,0.8318,1.0,0,0.0,yes,0,0,,PASS
-MT477910.1,GenBank+BOLD,Oligonychus tylus,548,forward,148,695,0.355,5prime,0.9343,1.0,0,0.0,yes,0,0,,PASS
-MT472382.1,GenBank+BOLD,Oligonychus sp. UAS-B 2205,569,forward,136,704,0.369,5prime,0.8524,1.0,0,0.0,yes,0,0,,PASS
-MT445766.1,GenBank+BOLD,Oligonychus indicus,539,forward,112,650,0.35,5prime,0.8664,1.0,0,0.0,yes,0,0,,PASS
-MT066161.1,GenBank+BOLD,Oligonychus tylus,570,forward,124,693,0.37,5prime,0.9895,1.0,0,0.0,yes,0,0,,PASS
-MN255801.1,GenBank+BOLD,Oligonychus thelytokus,616,forward,85,698,0.398,5prime,0.8436,0.997,0,0.0,yes,0,0,,PASS
-MN337796.1,GenBank+BOLD,Oligonychus tylus,385,forward,766,1149,0.249,3prime,0.9635,0.997,0,0.0,yes,0,0,,PASS
-MN327705.1,GenBank+BOLD,Oligonychus biharensis,568,forward,140,707,0.368,5prime,0.8433,1.0,0,0.0,yes,0,0,,PASS
-MN349917.1,GenBank+BOLD,Oligonychus sp. BIOUG30582-D08,616,forward,39,654,0.399,5prime,0.8588,1.0,0,0.0,yes,0,0,,PASS
-KR101410.1,GenBank+BOLD,Oligonychus aceris,612,forward,39,650,0.397,5prime,0.8333,1.0,2,0.0033,yes,0,0,,PASS
-KM837846.1,GenBank,Oligonychus sp. BOLD:ACD4286,576,forward,53,626,0.372,5prime,0.8423,0.997,1,0.0017,yes,0,0,,PASS
-KM837806.1,GenBank,Oligonychus sp. BOLD:ACK3451,589,forward,39,626,0.381,5prime,0.8514,0.998,0,0.0,yes,0,2,,PASS
-KM831891.1,GenBank+BOLD,Oligonychus sp. BOLD:ACE5084,658,forward,39,695,0.426,5prime,0.8513,0.998,0,0.0,yes,0,4,,PASS
-KM829116.1,GenBank,Oligonychus sp. BOLD:ACD4286,591,forward,40,629,0.383,5prime,0.8482,0.998,0,0.0,yes,0,0,,PASS
-KM828286.1,GenBank,Oligonychus sp. BOLD:ACD4286,658,forward,40,695,0.425,5prime,0.8513,0.997,0,0.0,yes,0,0,,PASS
-KM827506.1,GenBank,Oligonychus sp. BOLD:ACJ8660,594,forward,40,633,0.385,5prime,0.8485,1.0,0,0.0,yes,0,0,,PASS
-KM826727.1,GenBank+BOLD,Oligonychus sp. BOLD:AAZ5846,614,forward,39,652,0.398,5prime,0.8414,1.0,0,0.0,yes,0,6,,PASS
-KM826643.1,GenBank+BOLD,Oligonychus sp. BOLD:ACF7822,603,forward,39,641,0.391,5prime,0.8474,1.0,0,0.0,yes,0,0,,PASS
-KM826428.1,GenBank,Oligonychus sp. BOLD:ACD4286,584,forward,40,618,0.375,5prime,0.8488,0.991,0,0.0,yes,0,0,,PASS
-LC375583.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375582.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,PASS
-LC375581.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375580.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375579.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8468,1.0,0,0.0,yes,0,3,,PASS
-LC375578.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8454,1.0,0,0.0,yes,0,3,,PASS
-LC375577.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375576.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375575.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,PASS
-LC375574.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375573.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375572.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,PASS
-LC375571.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,PASS
-LC375570.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375569.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375568.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375567.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375566.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375565.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,PASS
-LC375564.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375563.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,PASS
-LC375562.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8547,1.0,0,0.0,yes,0,0,,PASS
-LC375561.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375560.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375559.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375558.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375557.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1080,0.461,5prime,0.8509,0.993,0,0.0,yes,0,0,,PASS
-LC375556.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,PASS
-LC375555.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,PASS
-LC375554.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375553.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,PASS
-LC375552.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8478,1.0,0,0.0,yes,0,0,,PASS
-LC375551.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,PASS
-LC375550.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,PASS
-MG320092.1,GenBank+BOLD,Oligonychus sp. BIOUG07668-C05,409,forward,110,517,0.265,5prime,0.8557,0.998,0,0.0,yes,0,2,,PASS
-MG320035.1,GenBank+BOLD,Oligonychus sp. BIOUG23998-G11,342,forward,40,380,0.221,5prime,0.827,0.997,1,0.0029,yes,0,0,,PASS
-MG319008.1,GenBank+BOLD,Oligonychus sp. BIOUG09351-C06,633,forward,64,695,0.41,5prime,0.8378,0.998,0,0.0,yes,0,4,,PASS
-MG313188.1,GenBank,Oligonychus sp. BIOUG23414-D04,474,forward,40,512,0.307,5prime,0.8562,0.998,0,0.0,yes,0,0,,PASS
-MG313169.1,GenBank+BOLD,Oligonychus aceris,609,forward,40,648,0.395,5prime,0.8391,1.0,0,0.0,yes,0,0,,PASS
-MG311261.1,GenBank+BOLD,Oligonychus sp. BIOUG21152-H10,351,forward,40,390,0.228,5prime,0.8262,1.0,2,0.0057,yes,0,0,,PASS
-MG310745.1,GenBank+BOLD,Oligonychus sp. BIOUG08112-H04,631,forward,39,669,0.409,5prime,0.8515,1.0,0,0.0,yes,0,4,,PASS
-MH647654.1,GenBank,Oligonychus tylus,404,forward,752,1149,0.258,3prime,0.9372,0.985,0,0.0,yes,0,0,,PASS
-MG916906.1,GenBank,Oligonychus sp. UAS-B 2206,396,forward,757,1149,0.255,3prime,0.8782,0.995,0,0.0,yes,0,1,,PASS
-MH260569.1,GenBank,Oligonychus sp. UAS-B 2206,633,forward,139,713,0.373,5prime,0.8748,0.908,0,0.0,yes,0,0,,PASS
-MF320737.1,GenBank,Oligonychus indicus,658,forward,40,695,0.425,5prime,0.9604,0.997,0,0.0,yes,0,2,,PASS
-LC341207.1,GenBank,Oligonychus neocastaneae,714,forward,370,1082,0.462,5prime,0.8527,0.999,0,0.0,yes,0,0,,PASS
-LC341206.1,GenBank,Oligonychus neocastaneae,714,forward,370,1082,0.462,5prime,0.8527,0.999,0,0.0,yes,0,0,,PASS
-KX944298.1,GenBank,Oligonychus thelytokus,488,forward,495,982,0.316,5prime,0.8627,1.0,0,0.0,yes,0,0,,PASS
-KX681448.1,GenBank,Oligonychus thelytokus,358,forward,781,1136,0.231,3prime,0.838,0.994,0,0.0,yes,0,2,,PASS
-MF462136.1,GenBank+BOLD,Oligonychus sp. OAI433,447,forward,682,1128,0.29,3prime,0.8479,1.0,0,0.0,yes,0,0,,PASS
-KY474209.1,GenBank,Oligonychus punicae,305,forward,769,1073,0.198,3prime,0.8623,1.0,0,0.0,yes,0,0,,PASS
-KY474208.1,GenBank,Oligonychus punicae,305,forward,769,1073,0.198,3prime,0.8623,1.0,0,0.0,yes,0,0,,PASS
-KY474207.1,GenBank,Oligonychus punicae,305,forward,769,1073,0.198,3prime,0.8623,1.0,0,0.0,yes,0,0,,PASS
-KY474206.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474205.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474204.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474203.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474202.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474201.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474200.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474199.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474198.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474197.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474196.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,PASS
-KY474195.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474194.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474193.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474192.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474191.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474190.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474189.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474188.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474187.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474186.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474185.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474184.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474183.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474182.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474181.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474180.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,PASS
-KY474179.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474178.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474177.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474176.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474175.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474174.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474173.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474172.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474171.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474170.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474169.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474168.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474167.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474166.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474165.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474164.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474163.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474162.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474161.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474160.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474159.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474158.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474157.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474156.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474155.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474154.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474153.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474152.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474151.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474150.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474149.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474148.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474147.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474146.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,PASS
-KY474145.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8409,1.0,0,0.0,yes,0,2,,PASS
-KY474144.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,PASS
-KY474143.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,PASS
-KY474142.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,PASS
-KY474141.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,PASS
-KY474140.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8377,1.0,0,0.0,yes,0,2,,PASS
-KY474139.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8377,1.0,0,0.0,yes,0,2,,PASS
-KY474138.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8377,1.0,0,0.0,yes,0,2,,PASS
-KY474137.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,PASS
-KY474136.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8084,1.0,0,0.0,yes,0,2,,PASS
-KY474135.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8084,1.0,0,0.0,yes,0,2,,PASS
-KY474134.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,PASS
-KY474133.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,PASS
-KY474132.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,PASS
-KY593991.1,GenBank,Oligonychus oryzae,395,forward,760,1149,0.253,3prime,0.867,0.99,0,0.0,yes,0,1,,PASS
-KX073028.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073027.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073026.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073025.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073024.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,PASS
-KX073023.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,PASS
-KX073022.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,PASS
-KX073021.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073020.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073019.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073018.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073017.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073016.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073015.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073014.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073013.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073012.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073011.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073010.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073009.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073008.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073007.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073006.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073005.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073004.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073003.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073002.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073001.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX073000.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072999.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,PASS
-KX072998.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072997.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,PASS
-KX072996.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072995.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072994.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072993.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072992.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072991.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072990.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072989.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072988.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072987.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072986.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072985.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072984.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072983.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072982.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072981.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072980.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072979.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072978.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072977.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072976.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072975.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072974.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072973.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072972.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072971.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072970.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072969.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072968.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072967.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072966.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072965.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072964.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072963.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072962.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072961.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072960.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072959.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072958.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072957.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072956.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072955.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,PASS
-KX072954.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072953.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072952.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,PASS
-KX072951.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072950.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072949.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072948.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072947.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072946.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072945.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072944.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072943.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072942.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072941.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072940.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072939.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072938.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072937.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072936.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072935.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072934.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072933.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072932.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072931.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072930.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072929.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072928.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072927.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072926.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072925.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072924.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072923.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072922.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,PASS
-KX072921.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,PASS
-KX072920.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,PASS
-KX072919.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,PASS
-KX072918.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,PASS
-KX072917.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072916.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,PASS
-KX072915.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,PASS
-KX072914.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072913.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072912.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072911.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072910.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072909.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,PASS
-KX072908.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072907.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072906.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072905.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072904.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072903.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072902.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072901.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072900.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072899.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072898.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072897.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072896.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072895.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072894.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072893.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072892.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072891.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072890.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KX072889.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,PASS
-KY419530.1,GenBank,Oligonychus tylus,367,forward,755,1121,0.238,3prime,0.9946,1.0,0,0.0,yes,0,0,,PASS
-KX669024.1,GenBank+BOLD,Oligonychus mangiferus,376,forward,767,1142,0.244,3prime,0.8457,1.0,0,0.0,yes,0,0,,PASS
-KX644137.1,GenBank+BOLD,Oligonychus mangiferus,631,forward,310,938,0.408,5prime,0.814,0.997,0,0.0,yes,0,0,,PASS
-KX510044.1,GenBank,Oligonychus tylus,361,forward,781,1141,0.234,3prime,0.9778,1.0,0,0.0,yes,0,0,,PASS
-HQ709241.1,GenBank,Oligonychus ununguis,377,forward,721,1086,0.237,3prime,0.8415,0.971,0,0.0,yes,0,0,,PASS
-GU329977.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329976.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329975.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329974.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,PASS
-GU329973.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8358,0.995,0,0.0,yes,0,0,,PASS
-GU329972.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8362,0.995,0,0.0,yes,0,2,,PASS
-GU329971.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8362,0.995,0,0.0,yes,0,2,,PASS
-GU329970.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329969.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329968.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8362,0.995,0,0.0,yes,0,2,,PASS
-GU329967.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329966.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329965.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329964.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329963.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8456,0.995,0,0.0,yes,0,0,,PASS
-GU329962.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329961.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU329960.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU166401.1,GenBank,Oligonychus ununguis,410,forward,719,1128,0.266,3prime,0.8463,1.0,0,0.0,yes,0,0,,PASS
-GU166400.1,GenBank,Oligonychus ununguis,410,forward,719,1128,0.266,3prime,0.8488,1.0,0,0.0,yes,0,0,,PASS
-GU166399.1,GenBank,Oligonychus ununguis,410,forward,719,1128,0.266,3prime,0.8488,1.0,0,0.0,yes,0,0,,PASS
-GU166398.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU166397.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU166396.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-GU166395.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,PASS
-DQ656485.1,GenBank+BOLD,Oligonychus perseae,410,forward,721,1128,0.265,3prime,0.8358,0.995,0,0.0,yes,0,0,,PASS
-DQ656482.1,GenBank+BOLD,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8732,1.0,0,0.0,yes,0,0,,PASS
-KX013767.1,GenBank+BOLD,Oligonychus mangiferus,779,forward,301,1079,0.505,5prime,0.8318,1.0,0,0.0,yes,0,0,,PASS
-KR870322.1,GenBank+BOLD,Oligonychus coffeae,440,forward,710,1149,0.285,3prime,0.85,1.0,0,0.0,yes,0,0,,PASS
-KR870321.1,GenBank,Oligonychus indicus,440,forward,711,1149,0.285,3prime,0.8656,0.998,0,0.0,yes,0,0,,PASS
-KC667151.1,GenBank,Oligonychus biharensis,386,reverse,697,1081,0.25,3prime,0.8523,1.0,0,0.0,no,1,1,FRAMESHIFT,FAIL
-KP180428.1,GenBank+BOLD,Oligonychus sp. JCVR-2015,437,forward,709,1143,0.282,3prime,0.8805,0.995,0,0.0,yes,0,0,,PASS
-KF011474.1,GenBank+BOLD,Oligonychus perseae,487,forward,29,515,0.316,5prime,0.8381,1.0,0,0.0,yes,0,2,,PASS
-KF011473.1,GenBank+BOLD,Oligonychus perseae,631,forward,16,642,0.407,5prime,0.8203,0.994,0,0.0,yes,0,4,,PASS
-KF011472.1,GenBank+BOLD,Oligonychus perseae,639,forward,16,650,0.412,5prime,0.8242,0.994,0,0.0,yes,0,4,,PASS
-KF011471.1,GenBank,Oligonychus perseae,682,forward,43,722,0.441,5prime,0.827,0.997,0,0.0,yes,0,4,,PASS
-KF011470.1,GenBank+BOLD,Oligonychus perseae,709,forward,16,721,0.458,5prime,0.8291,0.996,0,0.0,yes,0,4,,PASS
-KF011469.1,GenBank+BOLD,Oligonychus perseae,589,forward,26,614,0.382,5prime,0.8325,1.0,0,0.0,yes,0,4,,PASS
-KF011468.1,GenBank+BOLD,Oligonychus perseae,598,forward,28,625,0.388,5prime,0.8183,1.0,0,0.0,yes,0,4,,PASS
-KF011467.1,GenBank+BOLD,Oligonychus punicae,658,forward,38,695,0.427,5prime,0.8356,1.0,0,0.0,yes,0,5,,PASS
-KF011466.1,GenBank+BOLD,Oligonychus punicae,601,forward,97,695,0.388,5prime,0.8361,0.997,0,0.0,yes,0,5,,PASS
-KF011465.1,GenBank+BOLD,Oligonychus punicae,665,forward,35,699,0.431,5prime,0.8358,1.0,0,0.0,yes,0,5,,PASS
-KF011464.1,GenBank+BOLD,Oligonychus punicae,710,forward,16,720,0.457,5prime,0.8366,0.993,0,0.0,yes,0,5,,PASS
-KF011463.1,GenBank+BOLD,Oligonychus punicae,299,forward,281,570,0.188,5prime,0.8034,0.97,0,0.0,yes,0,0,SHORT,FAIL
-KF011462.1,GenBank,Oligonychus punicae,649,forward,37,685,0.421,5prime,0.8257,1.0,0,0.0,no,1,5,FRAMESHIFT;STOP_CODON,FAIL
-KF011461.1,GenBank+BOLD,Oligonychus punicae,695,forward,16,707,0.449,5prime,0.8393,0.996,0,0.0,yes,0,5,,PASS
-KF011460.1,GenBank+BOLD,Oligonychus punicae,713,forward,20,720,0.455,5prime,0.8385,0.983,0,0.0,yes,0,5,,PASS
-KF011459.1,GenBank,Oligonychus punicae,697,forward,29,720,0.449,5prime,0.8367,0.994,0,0.0,yes,0,6,,PASS
-KF011458.1,GenBank+BOLD,Oligonychus punicae,602,forward,16,614,0.388,5prime,0.8256,0.995,0,0.0,yes,0,2,,PASS
-KF011457.1,GenBank+BOLD,Oligonychus punicae,677,forward,33,707,0.438,5prime,0.8348,0.997,0,0.0,yes,0,2,,PASS
-KF011456.1,GenBank+BOLD,Oligonychus punicae,711,forward,16,720,0.457,5prime,0.8394,0.992,0,0.0,yes,0,5,,PASS
-KF011455.1,GenBank+BOLD,Oligonychus punicae,616,forward,28,643,0.399,5prime,0.8293,1.0,0,0.0,yes,0,5,,PASS
-KF011454.1,GenBank+BOLD,Oligonychus punicae,409,forward,204,612,0.265,5prime,0.8131,1.0,0,0.0,yes,0,2,,PASS
-KF011453.1,GenBank+BOLD,Oligonychus punicae,685,forward,25,707,0.443,5prime,0.8387,0.997,0,0.0,yes,0,5,,PASS
-KF011452.1,GenBank+BOLD,Oligonychus punicae,613,forward,25,637,0.398,5prime,0.8214,1.0,0,0.0,yes,0,2,,PASS
-KC283027.1,GenBank+BOLD,Oligonychus biharensis,396,forward,755,1149,0.256,3prime,0.8687,1.0,0,0.0,yes,0,1,,PASS
-KC009700.1,GenBank,Oligonychus indicus,400,forward,751,1149,0.259,3prime,0.8822,0.998,0,0.0,yes,0,0,,PASS
-KC009699.1,GenBank+BOLD,Oligonychus coffeae,397,forward,754,1149,0.257,3prime,0.846,0.997,0,0.0,yes,0,0,,PASS
-AB683681.1,GenBank+BOLD,Oligonychus rubicundus,909,forward,370,1278,0.589,3prime,0.8757,1.0,0,0.0,yes,0,0,,PASS
-AB683680.1,GenBank+BOLD,Oligonychus rubicundus,909,forward,370,1278,0.589,3prime,0.8713,1.0,0,0.0,yes,0,0,,PASS
-AB683679.1,GenBank+BOLD,Oligonychus biharensis,909,forward,370,1278,0.589,3prime,0.8438,1.0,0,0.0,yes,0,0,,PASS
-AB683678.1,GenBank+BOLD,Oligonychus biharensis,909,forward,370,1278,0.589,3prime,0.8372,1.0,0,0.0,yes,0,0,,PASS
-AB683677.1,GenBank+BOLD,Oligonychus modestus,909,forward,370,1278,0.589,3prime,0.8768,1.0,0,0.0,yes,0,0,,PASS
-AB683676.1,GenBank+BOLD,Oligonychus modestus,909,forward,370,1278,0.589,3prime,0.8768,1.0,0,0.0,yes,0,0,,PASS
-AB683675.1,GenBank+BOLD,Oligonychus orthius,909,forward,370,1278,0.589,3prime,0.8867,1.0,0,0.0,yes,0,0,,PASS
-AB683674.1,GenBank+BOLD,Oligonychus orthius,909,forward,370,1278,0.589,3prime,0.8856,1.0,0,0.0,yes,0,0,,PASS
-AB683673.1,GenBank+BOLD,Oligonychus amiensis,909,forward,370,1278,0.589,3prime,0.8317,1.0,0,0.0,yes,0,0,,PASS
-AB683672.1,GenBank+BOLD,Oligonychus amiensis,909,forward,370,1278,0.589,3prime,0.8339,1.0,0,0.0,yes,0,0,,PASS
-AB683671.1,GenBank+BOLD,Oligonychus coffeae,909,forward,370,1278,0.589,3prime,0.8516,1.0,0,0.0,yes,0,2,,PASS
-AB683670.1,GenBank+BOLD,Oligonychus coffeae,909,forward,370,1278,0.589,3prime,0.8527,1.0,0,0.0,yes,0,2,,PASS
-AB683669.1,GenBank+BOLD,Oligonychus gotohi,909,forward,370,1278,0.589,3prime,0.8429,1.0,0,0.0,yes,0,2,,PASS
-AB683668.1,GenBank+BOLD,Oligonychus gotohi,909,forward,370,1278,0.589,3prime,0.8451,1.0,0,0.0,yes,0,2,,PASS
-AB683667.1,GenBank+BOLD,Oligonychus castaneae,909,forward,370,1278,0.589,3prime,0.8473,1.0,0,0.0,yes,0,2,,PASS
-AB683666.1,GenBank+BOLD,Oligonychus castaneae,909,forward,370,1278,0.589,3prime,0.8473,1.0,0,0.0,yes,0,2,,PASS
-AB683665.1,GenBank+BOLD,Oligonychus perditus,909,forward,370,1278,0.589,3prime,0.857,1.0,0,0.0,yes,0,0,,PASS
-AB683664.1,GenBank+BOLD,Oligonychus ununguis,909,forward,370,1278,0.589,3prime,0.8526,1.0,0,0.0,yes,0,0,,PASS
-AB683663.1,GenBank+BOLD,Oligonychus camelliae,909,forward,370,1278,0.589,3prime,0.8443,1.0,0,0.0,yes,0,2,,PASS
-AB683662.1,GenBank+BOLD,Oligonychus camelliae,909,forward,370,1278,0.589,3prime,0.8454,1.0,0,0.0,yes,0,2,,PASS
-AB683661.1,GenBank+BOLD,Oligonychus ilicis,909,forward,370,1278,0.589,3prime,0.8493,1.0,0,0.0,yes,0,0,,PASS
-AB683660.1,GenBank+BOLD,Oligonychus ilicis,909,forward,370,1278,0.589,3prime,0.8493,1.0,0,0.0,yes,0,0,,PASS
-AB683659.1,GenBank+BOLD,Oligonychus tsudomei,909,forward,370,1278,0.589,3prime,0.8592,1.0,0,0.0,yes,0,0,,PASS
-AB683658.1,GenBank+BOLD,Oligonychus hondoensis,909,forward,370,1278,0.589,3prime,0.857,1.0,0,0.0,yes,0,0,,PASS
-AB683657.1,GenBank+BOLD,Oligonychus hondoensis,909,forward,370,1278,0.589,3prime,0.8625,1.0,0,0.0,yes,0,0,,PASS
-AB683656.1,GenBank+BOLD,Oligonychus karamatus,909,forward,370,1278,0.589,3prime,0.8482,1.0,0,0.0,yes,0,0,,PASS
-AB683655.1,GenBank+BOLD,Oligonychus pustulosus,909,forward,370,1278,0.589,3prime,0.8581,1.0,0,0.0,yes,0,0,,PASS
-AB683654.1,GenBank+BOLD,Oligonychus clavatus,909,forward,370,1278,0.589,3prime,0.8603,1.0,0,0.0,yes,0,0,,PASS
-AB683653.1,GenBank+BOLD,Oligonychus clavatus,909,forward,370,1278,0.589,3prime,0.8603,1.0,0,0.0,yes,0,0,,PASS
-X80865.1,GenBank,Oligonychus ununguis,392,forward,724,1115,0.254,3prime,0.8622,1.0,0,0.0,yes,0,0,,PASS
-X80866.1,GenBank,Oligonychus platani,373,forward,745,1115,0.241,3prime,0.8464,0.995,0,0.0,yes,0,0,,PASS
-X80862.1,GenBank,Oligonychus gossypii,374,forward,736,1109,0.243,3prime,0.8583,1.0,0,0.0,yes,0,0,,PASS
-ABOTH9055-22,BOLD,Oligonychus,654,forward,42,695,0.424,5prime,0.8399,1.0,0,0.0,yes,0,2,,PASS
-ABWYT29686-24,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8587,0.998,0,0.0,yes,0,2,,PASS
-BIOSC1370-25,BOLD,Oligonychus brevipilosus,653,forward,43,695,0.423,5prime,0.7893,1.0,30,0.0459,yes,0,4,AMBIGUOUS,FAIL
-BIOSC1408-25,BOLD,Oligonychus longiclavatus,652,forward,46,695,0.422,5prime,0.7785,0.997,39,0.0598,yes,0,0,AMBIGUOUS,FAIL
-BIOSC1413-25,BOLD,Oligonychus longiclavatus,653,forward,43,695,0.423,5prime,0.7718,1.0,48,0.0735,yes,0,0,AMBIGUOUS,FAIL
-BIOSC1414-25,BOLD,Oligonychus longiclavatus,652,forward,46,695,0.422,5prime,0.8077,0.997,18,0.0276,yes,0,0,AMBIGUOUS,FAIL
-CIBFA13943-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA13967-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA13968-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA15109-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA15160-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA15244-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA15260-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA17159-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIBFA17171-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIDTA18246-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIGHA21859-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIGHA25263-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIGHB15272-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIKPA6244-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIKPB7395-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIKPC20533-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIKPC20545-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIKPC21436-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CIPBA598-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CISKB3082-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CISKC12687-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-CNBPM166-13,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8584,0.998,0,0.0,yes,0,0,,PASS
-CNGCC1000-15,BOLD,Oligonychus,624,forward,39,662,0.405,5prime,0.851,1.0,0,0.0,yes,0,0,,PASS
-CNJAF1980-12,BOLD,Oligonychus,611,forward,39,649,0.396,5prime,0.8347,1.0,8,0.0131,yes,0,0,AMBIGUOUS,FAIL
-CNKJE2349-14,BOLD,Oligonychus,600,forward,39,638,0.389,5prime,0.8292,1.0,1,0.0017,yes,0,0,,PASS
-CNKOH2058-14,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8432,0.998,0,0.0,yes,0,0,,PASS
-CNKOP1498-14,BOLD,Oligonychus,575,forward,39,611,0.372,5prime,0.8377,0.997,0,0.0,yes,0,0,,PASS
-CNLMD1867-14,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8447,0.998,0,0.0,yes,0,0,,PASS
-CNPKF2032-14,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8447,0.998,0,0.0,yes,0,0,,PASS
-CNPKF2033-14,BOLD,Oligonychus,365,forward,39,403,0.237,5prime,0.8247,1.0,0,0.0,yes,0,0,,PASS
-CNPKF2287-14,BOLD,Oligonychus,593,forward,77,668,0.384,5prime,0.8342,0.998,0,0.0,yes,0,4,,PASS
-CNPKG1213-14,BOLD,Oligonychus,646,forward,53,695,0.417,5prime,0.8445,0.995,0,0.0,yes,0,0,,PASS
-CNPKG1376-14,BOLD,Oligonychus,595,forward,35,629,0.386,5prime,0.8403,1.0,0,0.0,yes,0,0,,PASS
-CNROG1154-13,BOLD,Oligonychus,588,forward,40,627,0.381,5prime,0.8299,1.0,6,0.0102,yes,0,0,AMBIGUOUS,FAIL
-CRBCA566-24,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8387,0.998,0,0.0,yes,0,0,,PASS
-GHABA10820-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GHABC503-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GHATA2881-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GHDUC9969-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GMBDC6490-24,BOLD,Oligonychus,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,PASS
-GMBDC7649-24,BOLD,Oligonychus,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,PASS
-GMBDE3466-23,BOLD,Oligonychus biharensis,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,PASS
-GMBDE5336-23,BOLD,Oligonychus biharensis,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,PASS
-GMGAK176-17,BOLD,Oligonychus,591,forward,49,638,0.383,5prime,0.8237,0.998,0,0.0,yes,0,0,,PASS
-GMOAF1293-21,BOLD,Oligonychus,655,forward,42,695,0.424,5prime,0.8379,0.998,0,0.0,yes,0,0,,PASS
-GMOJG1510-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8584,0.998,0,0.0,yes,0,0,,PASS
-GMOJG1546-15,BOLD,Oligonychus,351,forward,40,389,0.227,5prime,0.8486,0.997,0,0.0,yes,0,0,,PASS
-GMOOG237-15,BOLD,Oligonychus,342,forward,40,380,0.221,5prime,0.8182,0.997,5,0.0146,yes,0,0,AMBIGUOUS,FAIL
-GMOZZ1869-21,BOLD,Oligonychus,656,forward,41,695,0.425,5prime,0.8427,0.998,0,0.0,yes,0,0,,PASS
-GMPHZ5357-23,BOLD,Oligonychus ununguis,648,forward,43,690,0.42,5prime,0.8367,1.0,0,0.0,yes,0,2,,PASS
-GMRST1321-15,BOLD,Oligonychus,540,forward,40,569,0.344,5prime,0.8396,0.981,0,0.0,yes,0,0,,PASS
-GMRSW1956-15,BOLD,Oligonychus,543,forward,73,615,0.352,5prime,0.8379,1.0,0,0.0,yes,0,0,,PASS
-GNBAA5023-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNBAA6946-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNBAA719-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNGBA1378-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNGBA8272-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNGBA8369-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNKHA15912-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNKHA15931-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-GNKHA15960-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-LPGEQ10310-24,BOLD,Oligonychus,658,forward,40,695,0.425,5prime,0.8491,0.997,0,0.0,yes,0,0,,PASS
-LPMDA12607-24,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8407,0.992,4,0.0061,yes,0,0,,PASS
-LPMDB34339-24,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8453,0.992,0,0.0,yes,0,0,,PASS
-MSSCA5367-16,BOLD,Oligonychus,641,forward,39,679,0.416,5prime,0.8237,1.0,7,0.0109,yes,0,0,AMBIGUOUS,FAIL
-MYMCB636-11,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8487,0.998,0,0.0,yes,0,6,,PASS
-MYMCB653-11,BOLD,Oligonychus,481,forward,40,517,0.31,5prime,0.8462,0.994,0,0.0,yes,0,4,,PASS
-NGAAC2026-14,BOLD,Oligonychus,625,forward,39,662,0.405,5prime,0.8325,0.998,2,0.0032,yes,0,0,,PASS
-OPPUE1694-17,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8478,0.998,4,0.0061,yes,0,0,,PASS
-RRSSA1567-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8399,0.998,0,0.0,yes,0,4,,PASS
-SAKZA22695-23,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,PASS
-SALVA1012-22,BOLD,Oligonychus,652,forward,43,693,0.422,5prime,0.8479,0.998,0,0.0,yes,0,0,,PASS
-SALVA13282-23,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8484,0.992,0,0.0,yes,0,0,,PASS
-SATHA14463-23,BOLD,Oligonychus,651,forward,43,693,0.422,5prime,0.8464,1.0,0,0.0,yes,0,0,,PASS
-SATHA14471-23,BOLD,Oligonychus,655,forward,43,695,0.423,5prime,0.8484,0.997,0,0.0,yes,0,0,,PASS
-SATHA15902-23,BOLD,Oligonychus,655,forward,43,695,0.423,5prime,0.8484,0.997,0,0.0,yes,0,0,,PASS
-SATHA17036-23,BOLD,Oligonychus,652,forward,43,693,0.422,5prime,0.8479,0.998,0,0.0,yes,0,0,,PASS
-SATHB1600-22,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8484,0.992,0,0.0,yes,0,0,,PASS
-SATHB5349-23,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8484,0.992,0,0.0,yes,0,0,,PASS
-SCCBB380-23,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8513,0.998,0,0.0,yes,0,4,,PASS
-SMCK001-25,BOLD,Oligonychus perseae,540,forward,131,662,0.345,5prime,0.8352,0.985,0,0.0,yes,0,4,,PASS
-SMCK003-25,BOLD,Oligonychus oryzae,655,forward,22,675,0.424,5prime,0.8746,0.998,0,0.0,yes,0,0,,PASS
-SMTPO11030-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8447,0.998,0,0.0,yes,0,0,,PASS
-SMTPO1720-15,BOLD,Oligonychus,657,forward,40,696,0.426,5prime,0.8364,1.0,0,0.0,yes,0,0,,PASS
-SMTPO9494-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8323,0.998,0,0.0,yes,0,4,,PASS
-SSWLF2224-13,BOLD,Oligonychus,418,forward,74,491,0.271,5prime,0.8445,1.0,0,0.0,yes,0,0,,PASS
-SSWLF721-13,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8326,0.998,0,0.0,yes,0,0,,PASS
-THAMA4273-22,BOLD,Oligonychus,651,forward,43,693,0.422,5prime,0.831,1.0,0,0.0,yes,0,0,,PASS
-TZBCA197-06,BOLD,Oligonychus aceris,618,forward,39,656,0.401,5prime,0.8447,1.0,0,0.0,yes,0,0,,PASS
-TZBCA199-06,BOLD,Oligonychus aceris,582,forward,55,629,0.373,5prime,0.8348,0.988,3,0.0052,yes,0,0,,PASS
+record_id,source,species_label,seq_length,orientation,ref_start,ref_end,ref_coverage,cox1_half,identity,query_aligned_fraction,ambiguous_bases,ambiguous_fraction,reading_frame_intact,internal_stops,alignment_frameshift_gaps,translation_check,qc_flags,qc_status
+PZ484972.1,GenBank,Oligonychus tylus,443,forward,709,1149,0.286,3prime,0.9887,0.995,0,0.0,yes,0,0,,,PASS
+PX672270.1,GenBank+BOLD,Oligonychus sp.,845,forward,245,1085,0.545,5prime,0.8456,0.995,0,0.0,yes,0,2,,,PASS
+PX672269.1,GenBank+BOLD,Oligonychus sp.,849,forward,283,1131,0.551,5prime,0.8482,1.0,0,0.0,yes,0,2,,,PASS
+PX672268.1,GenBank+BOLD,Oligonychus sp.,840,forward,245,1081,0.543,5prime,0.8461,0.996,0,0.0,yes,0,2,,,PASS
+PX353985.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8383,0.999,0,0.0,yes,0,0,,,PASS
+PX353984.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8394,0.999,0,0.0,yes,0,0,,,PASS
+PX353983.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8394,0.999,0,0.0,yes,0,0,,,PASS
+PX353982.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8405,0.999,0,0.0,yes,0,0,,,PASS
+PX353981.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8394,0.999,0,0.0,yes,0,0,,,PASS
+PX353979.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8378,1.0,0,0.0,yes,0,2,,,PASS
+PX353980.1,GenBank+BOLD,Oligonychus yothersi,876,forward,245,1119,0.567,5prime,0.8405,0.999,0,0.0,yes,0,0,,,PASS
+PX353978.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8378,1.0,0,0.0,yes,0,2,,,PASS
+PX353977.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8393,1.0,0,0.0,yes,0,2,,,PASS
+PX353976.1,GenBank+BOLD,Oligonychus yothersi,668,forward,40,707,0.433,5prime,0.8393,1.0,0,0.0,yes,0,2,,,PASS
+PX667140.1,GenBank+BOLD,Oligonychus sp.,639,forward,28,666,0.414,5prime,0.856,1.0,0,0.0,yes,0,0,,,PASS
+PX667139.1,GenBank+BOLD,Oligonychus sp.,639,forward,28,666,0.414,5prime,0.856,1.0,0,0.0,yes,0,0,,,PASS
+PX667138.1,GenBank+BOLD,Oligonychus sp.,639,forward,28,666,0.414,5prime,0.856,1.0,0,0.0,yes,0,0,,,PASS
+PX660075.1,GenBank,Oligonychus karamatus,603,forward,64,666,0.391,5prime,0.8364,1.0,0,0.0,yes,0,2,,,PASS
+PX660074.1,GenBank,Oligonychus sp.,606,forward,76,672,0.387,5prime,0.8311,0.985,0,0.0,yes,0,2,,,PASS
+PX660071.1,GenBank+BOLD,Oligonychus sp.,645,forward,28,671,0.418,5prime,0.8214,0.998,0,0.0,yes,0,0,,,PASS
+PX660065.1,GenBank+BOLD,Oligonychus sp.,645,forward,28,672,0.418,5prime,0.8331,1.0,0,0.0,yes,0,2,,,PASS
+PX660049.1,GenBank,Oligonychus piceae,612,forward,63,672,0.396,5prime,0.8328,0.997,0,0.0,yes,0,0,,,PASS
+PX660047.1,GenBank,Oligonychus sp.,612,forward,61,671,0.396,5prime,0.8331,0.998,0,0.0,yes,0,0,,,PASS
+PX419194.1,GenBank,Oligonychus perseae,540,forward,131,662,0.345,5prime,0.8352,0.985,0,0.0,yes,0,4,,,PASS
+PX415460.1,GenBank+BOLD,Oligonychus oryzae,655,forward,22,675,0.424,5prime,0.8746,0.998,0,0.0,yes,0,0,,,PASS
+PX133189.1,GenBank,Oligonychus trichardti,432,forward,706,1136,0.28,3prime,0.877,0.998,0,0.0,yes,0,0,,,PASS
+PQ273722.1,GenBank,Oligonychus indicus,1542,forward,1,1542,1.0,full,1.0,1.0,0,0.0,yes,0,0,,,PASS
+PV162787.1,GenBank+BOLD,Oligonychus biharensis,684,forward,25,707,0.443,5prime,0.8433,0.999,0,0.0,yes,0,0,,,PASS
+PP531494.1,GenBank,Oligonychus punicae,1539,forward,1,1532,0.994,full,0.8116,0.995,0,0.0,yes,0,5,,,PASS
+OQ180841.1,GenBank,Oligonychus dactyloni,410,forward,719,1127,0.265,3prime,0.8729,0.998,0,0.0,yes,0,0,,,PASS
+OQ180840.1,GenBank,Oligonychus dactyloni,410,forward,719,1127,0.265,3prime,0.8729,0.998,0,0.0,yes,0,0,,,PASS
+OQ180839.1,GenBank,Oligonychus pratensis,410,forward,719,1128,0.266,3prime,0.8783,1.0,0,0.0,yes,0,2,,,PASS
+OQ180838.1,GenBank,Oligonychus washingtoniae,410,forward,721,1128,0.265,3prime,0.8725,0.995,0,0.0,yes,0,0,,,PASS
+OQ180837.1,GenBank,Oligonychus tylus,410,forward,719,1128,0.266,3prime,0.9927,1.0,0,0.0,yes,0,0,,,PASS
+OQ180836.1,GenBank,Oligonychus tylus,410,forward,719,1128,0.266,3prime,0.9927,1.0,0,0.0,yes,0,0,,,PASS
+OQ180835.1,GenBank,Oligonychus tylus,410,forward,719,1128,0.266,3prime,0.9927,1.0,0,0.0,yes,0,0,,,PASS
+OQ180834.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8634,1.0,0,0.0,yes,0,0,,,PASS
+OQ180833.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8634,1.0,0,0.0,yes,0,0,,,PASS
+OQ180832.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,,PASS
+OQ180831.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,,PASS
+OQ180830.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,,PASS
+OQ180829.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,,PASS
+OQ180828.1,GenBank,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,,PASS
+OQ180827.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+OQ180826.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+OP825124.1,GenBank,Oligonychus sp. HM-2022,410,forward,719,1128,0.266,3prime,0.8561,1.0,0,0.0,yes,0,0,,,PASS
+OP825123.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+OP825122.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,,PASS
+OP825121.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,,PASS
+MZ425493.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,,PASS
+MZ425492.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425491.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425490.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425489.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425488.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,,PASS
+MZ425487.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8407,0.995,0,0.0,yes,0,0,,,PASS
+MZ425486.1,GenBank,Oligonychus punicae,408,forward,721,1128,0.265,3prime,0.8407,1.0,0,0.0,yes,0,0,,,PASS
+MZ425485.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425484.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425483.1,GenBank,Oligonychus punicae,410,forward,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+MZ425482.1,GenBank,Oligonychus punicae,408,forward,721,1128,0.265,3prime,0.8358,1.0,0,0.0,yes,0,0,,,PASS
+MZ425481.1,GenBank,Oligonychus punicae,408,forward,721,1128,0.265,3prime,0.8407,1.0,0,0.0,yes,0,0,,,PASS
+OP704190.1,GenBank+BOLD,Oligonychus tylus,841,forward,271,1111,0.545,5prime,0.9905,1.0,0,0.0,yes,0,0,,,PASS
+OP703735.1,GenBank+BOLD,Oligonychus biharensis,738,forward,337,1074,0.479,5prime,0.8442,1.0,0,0.0,yes,0,0,,,PASS
+OP703592.1,GenBank+BOLD,Oligonychus tylus,845,forward,278,1121,0.547,5prime,0.9941,0.999,0,0.0,yes,0,0,,,PASS
+OP630817.1,GenBank+BOLD,Oligonychus biharensis,587,forward,476,1061,0.38,5prime,0.8498,0.998,0,0.0,yes,0,0,,,PASS
+OP623518.1,GenBank+BOLD,Oligonychus tylus,887,forward,239,1121,0.573,5prime,0.9887,0.995,0,0.0,yes,0,0,,,PASS
+OP623496.1,GenBank+BOLD,Oligonychus biharensis,774,forward,277,1050,0.502,5prime,0.8463,1.0,0,0.0,yes,0,0,,,PASS
+OP622877.1,GenBank+BOLD,Oligonychus biharensis,865,forward,245,1106,0.559,5prime,0.848,0.997,0,0.0,yes,0,0,,,PASS
+OP615200.1,GenBank+BOLD,Oligonychus tylus,864,forward,250,1113,0.56,5prime,0.9896,1.0,0,0.0,yes,0,0,,,PASS
+OP615102.1,GenBank+BOLD,Oligonychus tylus,828,forward,279,1106,0.537,5prime,0.9952,1.0,0,0.0,yes,0,0,,,PASS
+OP615093.1,GenBank+BOLD,Oligonychus tylus,838,forward,278,1115,0.543,5prime,0.9857,1.0,0,0.0,yes,0,0,,,PASS
+OP615070.1,GenBank+BOLD,Oligonychus tylus,845,forward,278,1121,0.547,5prime,0.9953,0.999,0,0.0,yes,0,0,,,PASS
+OP363224.1,GenBank+BOLD,Oligonychus biharensis,851,forward,271,1121,0.552,5prime,0.8484,1.0,0,0.0,yes,0,0,,,PASS
+MN348237.1,GenBank+BOLD,Oligonychus sp. BOLD:ADE0622,639,forward,39,677,0.414,5prime,0.8623,1.0,0,0.0,yes,0,0,,,PASS
+MN358374.1,GenBank,Oligonychus sp. BOLD:ACE0013,658,forward,40,695,0.425,5prime,0.8483,0.997,0,0.0,yes,0,0,,,PASS
+ON630335.1,GenBank+BOLD,Oligonychus afrasiaticus,657,forward,41,696,0.425,5prime,0.8521,0.998,0,0.0,yes,0,0,,,PASS
+OM056929.1,GenBank+BOLD,Oligonychus sp. UAS-B 3030,550,forward,352,901,0.357,5prime,0.8927,1.0,0,0.0,yes,0,0,,,PASS
+MZ604344.1,GenBank+BOLD,Oligonychus thelytokus,346,forward,808,1149,0.222,3prime,0.8343,0.988,0,0.0,yes,0,2,,,PASS
+MZ496533.1,GenBank+BOLD,Oligonychus tylus,391,forward,760,1149,0.253,3prime,0.9897,0.997,0,0.0,yes,0,0,,,PASS
+MW898015.1,GenBank+BOLD,Oligonychus grypus,539,forward,184,722,0.35,5prime,0.8701,1.0,0,0.0,yes,0,0,,,PASS
+MW045520.3,GenBank+BOLD,Oligonychus ununguis,658,forward,39,695,0.426,5prime,0.8359,0.998,0,0.0,yes,0,2,,,PASS
+MW045518.3,GenBank+BOLD,Oligonychus afrasiaticus,657,forward,41,696,0.425,5prime,0.8643,0.998,0,0.0,yes,0,0,,,PASS
+MW850427.1,GenBank+BOLD,Oligonychus indicus,682,forward,337,1018,0.442,5prime,0.871,1.0,0,0.0,yes,0,0,,,PASS
+MW791265.1,GenBank+BOLD,Oligonychus grypus,383,forward,769,1149,0.247,3prime,0.874,0.995,0,0.0,yes,0,0,,,PASS
+MW517748.1,GenBank+BOLD,Oligonychus vitis,445,forward,706,1149,0.288,3prime,0.8446,0.998,0,0.0,yes,0,0,,,PASS
+MW491838.1,GenBank+BOLD,Oligonychus grypus,436,forward,715,1149,0.282,3prime,0.8713,0.998,0,0.0,yes,0,0,,,PASS
+MW367899.1,GenBank+BOLD,Oligonychus tylus,415,forward,700,1110,0.267,3prime,0.9903,0.99,0,0.0,yes,0,0,,,PASS
+MT821525.1,GenBank+BOLD,Oligonychus indicus,397,forward,754,1149,0.257,3prime,0.8813,0.997,0,0.0,yes,0,0,,,PASS
+MT815743.1,GenBank+BOLD,Oligonychus thelytokus,391,forward,760,1149,0.253,3prime,0.8393,0.997,0,0.0,yes,0,2,,,PASS
+MN562089.1,GenBank,Oligonychus biharensis,826,forward,277,1104,0.537,5prime,0.8466,1.0,0,0.0,no,3,2,no open frame,FRAMESHIFT,FAIL
+MT506028.1,GenBank+BOLD,Oligonychus sp. UAS-B 2206,606,forward,94,699,0.393,5prime,0.9917,1.0,0,0.0,yes,0,0,,,PASS
+MT492157.1,GenBank+BOLD,Oligonychus plegas,391,forward,763,1149,0.251,3prime,0.8667,0.997,0,0.0,yes,0,0,,,PASS
+MT479179.1,GenBank+BOLD,Oligonychus mangiferus,321,forward,820,1140,0.208,3prime,0.8318,1.0,0,0.0,yes,0,0,,,PASS
+MT477910.1,GenBank+BOLD,Oligonychus tylus,548,forward,148,695,0.355,5prime,0.9343,1.0,0,0.0,yes,0,0,,,PASS
+MT472382.1,GenBank+BOLD,Oligonychus sp. UAS-B 2205,569,forward,136,704,0.369,5prime,0.8524,1.0,0,0.0,yes,0,0,,,PASS
+MT445766.1,GenBank+BOLD,Oligonychus indicus,539,forward,112,650,0.35,5prime,0.8664,1.0,0,0.0,yes,0,0,,,PASS
+MT066161.1,GenBank+BOLD,Oligonychus tylus,570,forward,124,693,0.37,5prime,0.9895,1.0,0,0.0,yes,0,0,,,PASS
+MN255801.1,GenBank+BOLD,Oligonychus thelytokus,616,forward,85,698,0.398,5prime,0.8436,0.997,0,0.0,yes,0,0,,,PASS
+MN337796.1,GenBank+BOLD,Oligonychus tylus,385,forward,766,1149,0.249,3prime,0.9635,0.997,0,0.0,yes,0,0,,,PASS
+MN327705.1,GenBank+BOLD,Oligonychus biharensis,568,forward,140,707,0.368,5prime,0.8433,1.0,0,0.0,yes,0,0,,,PASS
+MN349917.1,GenBank+BOLD,Oligonychus sp. BIOUG30582-D08,616,forward,39,654,0.399,5prime,0.8588,1.0,0,0.0,yes,0,0,,,PASS
+KR101410.1,GenBank+BOLD,Oligonychus aceris,612,forward,39,650,0.397,5prime,0.8333,1.0,2,0.0033,yes,0,0,,,PASS
+KM837846.1,GenBank,Oligonychus sp. BOLD:ACD4286,576,forward,53,626,0.372,5prime,0.8423,0.997,1,0.0017,yes,0,0,,,PASS
+KM837806.1,GenBank,Oligonychus sp. BOLD:ACK3451,589,forward,39,626,0.381,5prime,0.8514,0.998,0,0.0,yes,0,2,,,PASS
+KM831891.1,GenBank+BOLD,Oligonychus sp. BOLD:ACE5084,658,forward,39,695,0.426,5prime,0.8513,0.998,0,0.0,yes,0,4,,,PASS
+KM829116.1,GenBank,Oligonychus sp. BOLD:ACD4286,591,forward,40,629,0.383,5prime,0.8482,0.998,0,0.0,yes,0,0,,,PASS
+KM828286.1,GenBank,Oligonychus sp. BOLD:ACD4286,658,forward,40,695,0.425,5prime,0.8513,0.997,0,0.0,yes,0,0,,,PASS
+KM827506.1,GenBank,Oligonychus sp. BOLD:ACJ8660,594,forward,40,633,0.385,5prime,0.8485,1.0,0,0.0,yes,0,0,,,PASS
+KM826727.1,GenBank+BOLD,Oligonychus sp. BOLD:AAZ5846,614,forward,39,652,0.398,5prime,0.8414,1.0,0,0.0,yes,0,6,,,PASS
+KM826643.1,GenBank+BOLD,Oligonychus sp. BOLD:ACF7822,603,forward,39,641,0.391,5prime,0.8474,1.0,0,0.0,yes,0,0,,,PASS
+KM826428.1,GenBank,Oligonychus sp. BOLD:ACD4286,584,forward,40,618,0.375,5prime,0.8488,0.991,0,0.0,yes,0,0,,,PASS
+LC375583.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375582.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,,PASS
+LC375581.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375580.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375579.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8468,1.0,0,0.0,yes,0,3,,,PASS
+LC375578.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8454,1.0,0,0.0,yes,0,3,,,PASS
+LC375577.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375576.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375575.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,,PASS
+LC375574.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375573.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375572.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,,PASS
+LC375571.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,,PASS
+LC375570.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375569.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375568.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375567.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375566.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375565.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8534,1.0,0,0.0,yes,0,0,,,PASS
+LC375564.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375563.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,,PASS
+LC375562.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8547,1.0,0,0.0,yes,0,0,,,PASS
+LC375561.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375560.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375559.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375558.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375557.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1080,0.461,5prime,0.8509,0.993,0,0.0,yes,0,0,,,PASS
+LC375556.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,,PASS
+LC375555.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,,PASS
+LC375554.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375553.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.852,1.0,0,0.0,yes,0,0,,,PASS
+LC375552.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8478,1.0,0,0.0,yes,0,0,,,PASS
+LC375551.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8506,1.0,0,0.0,yes,0,0,,,PASS
+LC375550.1,GenBank+BOLD,Oligonychus castaneae,716,forward,370,1085,0.464,5prime,0.8492,1.0,0,0.0,yes,0,0,,,PASS
+MG320092.1,GenBank+BOLD,Oligonychus sp. BIOUG07668-C05,409,forward,110,517,0.265,5prime,0.8557,0.998,0,0.0,yes,0,2,,,PASS
+MG320035.1,GenBank+BOLD,Oligonychus sp. BIOUG23998-G11,342,forward,40,380,0.221,5prime,0.827,0.997,1,0.0029,yes,0,0,,,PASS
+MG319008.1,GenBank+BOLD,Oligonychus sp. BIOUG09351-C06,633,forward,64,695,0.41,5prime,0.8378,0.998,0,0.0,yes,0,4,,,PASS
+MG313188.1,GenBank,Oligonychus sp. BIOUG23414-D04,474,forward,40,512,0.307,5prime,0.8562,0.998,0,0.0,yes,0,0,,,PASS
+MG313169.1,GenBank+BOLD,Oligonychus aceris,609,forward,40,648,0.395,5prime,0.8391,1.0,0,0.0,yes,0,0,,,PASS
+MG311261.1,GenBank+BOLD,Oligonychus sp. BIOUG21152-H10,351,forward,40,390,0.228,5prime,0.8262,1.0,2,0.0057,yes,0,0,,,PASS
+MG310745.1,GenBank+BOLD,Oligonychus sp. BIOUG08112-H04,631,forward,39,669,0.409,5prime,0.8515,1.0,0,0.0,yes,0,4,,,PASS
+MH647654.1,GenBank,Oligonychus tylus,404,forward,752,1149,0.258,3prime,0.9372,0.985,0,0.0,yes,0,0,,,PASS
+MG916906.1,GenBank,Oligonychus sp. UAS-B 2206,396,forward,757,1149,0.255,3prime,0.8782,0.995,0,0.0,yes,0,1,,,PASS
+MH260569.1,GenBank,Oligonychus sp. UAS-B 2206,633,forward,139,713,0.373,5prime,0.8748,0.908,0,0.0,yes,0,0,,,PASS
+MF320737.1,GenBank,Oligonychus indicus,658,forward,40,695,0.425,5prime,0.9604,0.997,0,0.0,yes,0,2,,,PASS
+LC341207.1,GenBank,Oligonychus neocastaneae,714,forward,370,1082,0.462,5prime,0.8527,0.999,0,0.0,yes,0,0,,,PASS
+LC341206.1,GenBank,Oligonychus neocastaneae,714,forward,370,1082,0.462,5prime,0.8527,0.999,0,0.0,yes,0,0,,,PASS
+KX944298.1,GenBank,Oligonychus thelytokus,488,forward,495,982,0.316,5prime,0.8627,1.0,0,0.0,yes,0,0,,,PASS
+KX681448.1,GenBank,Oligonychus thelytokus,358,forward,781,1136,0.231,3prime,0.838,0.994,0,0.0,yes,0,2,,,PASS
+MF462136.1,GenBank+BOLD,Oligonychus sp. OAI433,447,forward,682,1128,0.29,3prime,0.8479,1.0,0,0.0,yes,0,0,,,PASS
+KY474209.1,GenBank,Oligonychus punicae,305,forward,769,1073,0.198,3prime,0.8623,1.0,0,0.0,yes,0,0,,,PASS
+KY474208.1,GenBank,Oligonychus punicae,305,forward,769,1073,0.198,3prime,0.8623,1.0,0,0.0,yes,0,0,,,PASS
+KY474207.1,GenBank,Oligonychus punicae,305,forward,769,1073,0.198,3prime,0.8623,1.0,0,0.0,yes,0,0,,,PASS
+KY474206.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474205.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474204.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474203.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474202.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474201.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474200.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474199.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474198.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474197.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474196.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8459,1.0,0,0.0,yes,0,0,,,PASS
+KY474195.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474194.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474193.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474192.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474191.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474190.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474189.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474188.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474187.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474186.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474185.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474184.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474183.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474182.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474181.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474180.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8426,1.0,0,0.0,yes,0,0,,,PASS
+KY474179.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474178.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474177.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474176.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474175.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474174.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474173.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474172.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474171.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474170.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474169.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474168.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474167.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474166.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474165.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474164.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474163.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474162.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474161.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474160.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474159.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474158.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474157.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474156.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474155.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474154.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474153.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474152.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474151.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474150.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474149.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474148.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474147.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474146.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8393,1.0,0,0.0,yes,0,0,,,PASS
+KY474145.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8409,1.0,0,0.0,yes,0,2,,,PASS
+KY474144.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,,PASS
+KY474143.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,,PASS
+KY474142.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,,PASS
+KY474141.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8361,1.0,0,0.0,yes,0,0,,,PASS
+KY474140.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8377,1.0,0,0.0,yes,0,2,,,PASS
+KY474139.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8377,1.0,0,0.0,yes,0,2,,,PASS
+KY474138.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8377,1.0,0,0.0,yes,0,2,,,PASS
+KY474137.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,,PASS
+KY474136.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8084,1.0,0,0.0,yes,0,2,,,PASS
+KY474135.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8084,1.0,0,0.0,yes,0,2,,,PASS
+KY474134.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,,PASS
+KY474133.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,,PASS
+KY474132.1,GenBank,Oligonychus perseae,305,forward,769,1073,0.198,3prime,0.8052,1.0,0,0.0,yes,0,2,,,PASS
+KY593991.1,GenBank,Oligonychus oryzae,395,forward,760,1149,0.253,3prime,0.867,0.99,0,0.0,yes,0,1,,,PASS
+KX073028.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073027.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073026.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073025.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073024.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,,PASS
+KX073023.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,,PASS
+KX073022.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,,PASS
+KX073021.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073020.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073019.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073018.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073017.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073016.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073015.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073014.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073013.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073012.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073011.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073010.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073009.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073008.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073007.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073006.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073005.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073004.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073003.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073002.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073001.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX073000.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072999.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,,PASS
+KX072998.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072997.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,,PASS
+KX072996.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072995.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072994.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072993.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072992.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072991.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072990.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072989.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072988.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072987.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072986.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072985.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072984.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072983.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072982.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072981.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072980.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072979.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072978.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072977.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072976.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072975.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072974.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072973.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072972.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072971.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072970.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072969.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072968.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072967.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072966.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072965.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072964.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072963.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072962.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072961.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072960.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072959.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072958.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072957.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072956.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072955.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8305,0.994,0,0.0,yes,0,5,,,PASS
+KX072954.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072953.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072952.1,GenBank+BOLD,Oligonychus punicae,464,forward,133,593,0.299,5prime,0.8283,0.994,0,0.0,yes,0,5,,,PASS
+KX072951.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072950.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072949.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072948.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072947.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072946.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072945.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072944.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072943.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072942.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072941.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072940.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072939.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072938.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072937.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072936.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072935.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072934.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072933.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072932.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072931.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072930.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072929.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072928.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072927.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072926.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072925.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072924.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072923.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072922.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8287,0.973,0,0.0,yes,0,4,,,PASS
+KX072921.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,,PASS
+KX072920.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,,PASS
+KX072919.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,,PASS
+KX072918.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,,PASS
+KX072917.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072916.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,,PASS
+KX072915.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.815,0.973,0,0.0,yes,0,4,,,PASS
+KX072914.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072913.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072912.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072911.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072910.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072909.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8169,0.973,0,0.0,yes,0,4,,,PASS
+KX072908.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072907.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072906.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072905.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072904.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072903.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072902.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072901.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072900.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072899.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072898.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072897.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072896.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072895.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072894.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072893.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072892.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072891.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072890.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KX072889.1,GenBank+BOLD,Oligonychus perseae,520,forward,97,602,0.328,5prime,0.8248,0.973,0,0.0,yes,0,4,,,PASS
+KY419530.1,GenBank,Oligonychus tylus,367,forward,755,1121,0.238,3prime,0.9946,1.0,0,0.0,yes,0,0,,,PASS
+KX669024.1,GenBank+BOLD,Oligonychus mangiferus,376,forward,767,1142,0.244,3prime,0.8457,1.0,0,0.0,yes,0,0,,,PASS
+KX644137.1,GenBank+BOLD,Oligonychus mangiferus,631,forward,310,938,0.408,5prime,0.814,0.997,0,0.0,yes,0,0,,,PASS
+KX510044.1,GenBank,Oligonychus tylus,361,forward,781,1141,0.234,3prime,0.9778,1.0,0,0.0,yes,0,0,,,PASS
+HQ709241.1,GenBank,Oligonychus ununguis,377,forward,721,1086,0.237,3prime,0.8415,0.971,0,0.0,yes,0,0,,,PASS
+GU329977.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329976.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329975.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329974.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8382,0.995,0,0.0,yes,0,0,,,PASS
+GU329973.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8358,0.995,0,0.0,yes,0,0,,,PASS
+GU329972.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8362,0.995,0,0.0,yes,0,2,,,PASS
+GU329971.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8362,0.995,0,0.0,yes,0,2,,,PASS
+GU329970.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329969.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329968.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8362,0.995,0,0.0,yes,0,2,,,PASS
+GU329967.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329966.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329965.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329964.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329963.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8456,0.995,0,0.0,yes,0,0,,,PASS
+GU329962.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329961.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU329960.1,GenBank,Oligonychus ununguis,410,reverse,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU166401.1,GenBank,Oligonychus ununguis,410,forward,719,1128,0.266,3prime,0.8463,1.0,0,0.0,yes,0,0,,,PASS
+GU166400.1,GenBank,Oligonychus ununguis,410,forward,719,1128,0.266,3prime,0.8488,1.0,0,0.0,yes,0,0,,,PASS
+GU166399.1,GenBank,Oligonychus ununguis,410,forward,719,1128,0.266,3prime,0.8488,1.0,0,0.0,yes,0,0,,,PASS
+GU166398.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU166397.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU166396.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+GU166395.1,GenBank,Oligonychus ununguis,410,forward,721,1128,0.265,3prime,0.8431,0.995,0,0.0,yes,0,0,,,PASS
+DQ656485.1,GenBank+BOLD,Oligonychus perseae,410,forward,721,1128,0.265,3prime,0.8358,0.995,0,0.0,yes,0,0,,,PASS
+DQ656482.1,GenBank+BOLD,Oligonychus afrasiaticus,410,forward,719,1128,0.266,3prime,0.8732,1.0,0,0.0,yes,0,0,,,PASS
+KX013767.1,GenBank+BOLD,Oligonychus mangiferus,779,forward,301,1079,0.505,5prime,0.8318,1.0,0,0.0,yes,0,0,,,PASS
+KR870322.1,GenBank+BOLD,Oligonychus coffeae,440,forward,710,1149,0.285,3prime,0.85,1.0,0,0.0,yes,0,0,,,PASS
+KR870321.1,GenBank,Oligonychus indicus,440,forward,711,1149,0.285,3prime,0.8656,0.998,0,0.0,yes,0,0,,,PASS
+KC667151.1,GenBank,Oligonychus biharensis,386,reverse,697,1081,0.25,3prime,0.8523,1.0,0,0.0,no,1,1,no open frame,FRAMESHIFT,FAIL
+KP180428.1,GenBank+BOLD,Oligonychus sp. JCVR-2015,437,forward,709,1143,0.282,3prime,0.8805,0.995,0,0.0,yes,0,0,,,PASS
+KF011474.1,GenBank+BOLD,Oligonychus perseae,487,forward,29,515,0.316,5prime,0.8381,1.0,0,0.0,yes,0,2,,,PASS
+KF011473.1,GenBank+BOLD,Oligonychus perseae,631,forward,16,642,0.407,5prime,0.8203,0.994,0,0.0,yes,0,4,,,PASS
+KF011472.1,GenBank+BOLD,Oligonychus perseae,639,forward,16,650,0.412,5prime,0.8242,0.994,0,0.0,yes,0,4,,,PASS
+KF011471.1,GenBank,Oligonychus perseae,682,forward,43,722,0.441,5prime,0.827,0.997,0,0.0,yes,0,4,,,PASS
+KF011470.1,GenBank+BOLD,Oligonychus perseae,709,forward,16,721,0.458,5prime,0.8291,0.996,0,0.0,yes,0,4,,,PASS
+KF011469.1,GenBank+BOLD,Oligonychus perseae,589,forward,26,614,0.382,5prime,0.8325,1.0,0,0.0,yes,0,4,,,PASS
+KF011468.1,GenBank+BOLD,Oligonychus perseae,598,forward,28,625,0.388,5prime,0.8183,1.0,0,0.0,yes,0,4,,,PASS
+KF011467.1,GenBank+BOLD,Oligonychus punicae,658,forward,38,695,0.427,5prime,0.8356,1.0,0,0.0,yes,0,5,,,PASS
+KF011466.1,GenBank+BOLD,Oligonychus punicae,601,forward,97,695,0.388,5prime,0.8361,0.997,0,0.0,yes,0,5,,,PASS
+KF011465.1,GenBank+BOLD,Oligonychus punicae,665,forward,35,699,0.431,5prime,0.8358,1.0,0,0.0,yes,0,5,,,PASS
+KF011464.1,GenBank+BOLD,Oligonychus punicae,710,forward,16,720,0.457,5prime,0.8366,0.993,0,0.0,yes,0,5,,,PASS
+KF011463.1,GenBank+BOLD,Oligonychus punicae,299,forward,281,570,0.188,5prime,0.8034,0.97,0,0.0,yes,0,0,,SHORT,FAIL
+KF011462.1,GenBank,Oligonychus punicae,649,forward,37,685,0.421,5prime,0.8257,1.0,0,0.0,no,1,5,no open frame,FRAMESHIFT;STOP_CODON,FAIL
+KF011461.1,GenBank+BOLD,Oligonychus punicae,695,forward,16,707,0.449,5prime,0.8393,0.996,0,0.0,yes,0,5,,,PASS
+KF011460.1,GenBank+BOLD,Oligonychus punicae,713,forward,20,720,0.455,5prime,0.8385,0.983,0,0.0,yes,0,5,,,PASS
+KF011459.1,GenBank,Oligonychus punicae,697,forward,29,720,0.449,5prime,0.8367,0.994,0,0.0,yes,0,6,,,PASS
+KF011458.1,GenBank+BOLD,Oligonychus punicae,602,forward,16,614,0.388,5prime,0.8256,0.995,0,0.0,yes,0,2,,,PASS
+KF011457.1,GenBank+BOLD,Oligonychus punicae,677,forward,33,707,0.438,5prime,0.8348,0.997,0,0.0,yes,0,2,,,PASS
+KF011456.1,GenBank+BOLD,Oligonychus punicae,711,forward,16,720,0.457,5prime,0.8394,0.992,0,0.0,yes,0,5,,,PASS
+KF011455.1,GenBank+BOLD,Oligonychus punicae,616,forward,28,643,0.399,5prime,0.8293,1.0,0,0.0,yes,0,5,,,PASS
+KF011454.1,GenBank+BOLD,Oligonychus punicae,409,forward,204,612,0.265,5prime,0.8131,1.0,0,0.0,yes,0,2,,,PASS
+KF011453.1,GenBank+BOLD,Oligonychus punicae,685,forward,25,707,0.443,5prime,0.8387,0.997,0,0.0,yes,0,5,,,PASS
+KF011452.1,GenBank+BOLD,Oligonychus punicae,613,forward,25,637,0.398,5prime,0.8214,1.0,0,0.0,yes,0,2,,,PASS
+KC283027.1,GenBank+BOLD,Oligonychus biharensis,396,forward,755,1149,0.256,3prime,0.8687,1.0,0,0.0,yes,0,1,,,PASS
+KC009700.1,GenBank,Oligonychus indicus,400,forward,751,1149,0.259,3prime,0.8822,0.998,0,0.0,yes,0,0,,,PASS
+KC009699.1,GenBank+BOLD,Oligonychus coffeae,397,forward,754,1149,0.257,3prime,0.846,0.997,0,0.0,yes,0,0,,,PASS
+AB683681.1,GenBank+BOLD,Oligonychus rubicundus,909,forward,370,1278,0.589,3prime,0.8757,1.0,0,0.0,yes,0,0,,,PASS
+AB683680.1,GenBank+BOLD,Oligonychus rubicundus,909,forward,370,1278,0.589,3prime,0.8713,1.0,0,0.0,yes,0,0,,,PASS
+AB683679.1,GenBank+BOLD,Oligonychus biharensis,909,forward,370,1278,0.589,3prime,0.8438,1.0,0,0.0,yes,0,0,,,PASS
+AB683678.1,GenBank+BOLD,Oligonychus biharensis,909,forward,370,1278,0.589,3prime,0.8372,1.0,0,0.0,yes,0,0,,,PASS
+AB683677.1,GenBank+BOLD,Oligonychus modestus,909,forward,370,1278,0.589,3prime,0.8768,1.0,0,0.0,yes,0,0,,,PASS
+AB683676.1,GenBank+BOLD,Oligonychus modestus,909,forward,370,1278,0.589,3prime,0.8768,1.0,0,0.0,yes,0,0,,,PASS
+AB683675.1,GenBank+BOLD,Oligonychus orthius,909,forward,370,1278,0.589,3prime,0.8867,1.0,0,0.0,yes,0,0,,,PASS
+AB683674.1,GenBank+BOLD,Oligonychus orthius,909,forward,370,1278,0.589,3prime,0.8856,1.0,0,0.0,yes,0,0,,,PASS
+AB683673.1,GenBank+BOLD,Oligonychus amiensis,909,forward,370,1278,0.589,3prime,0.8317,1.0,0,0.0,yes,0,0,,,PASS
+AB683672.1,GenBank+BOLD,Oligonychus amiensis,909,forward,370,1278,0.589,3prime,0.8339,1.0,0,0.0,yes,0,0,,,PASS
+AB683671.1,GenBank+BOLD,Oligonychus coffeae,909,forward,370,1278,0.589,3prime,0.8516,1.0,0,0.0,yes,0,2,,,PASS
+AB683670.1,GenBank+BOLD,Oligonychus coffeae,909,forward,370,1278,0.589,3prime,0.8527,1.0,0,0.0,yes,0,2,,,PASS
+AB683669.1,GenBank+BOLD,Oligonychus gotohi,909,forward,370,1278,0.589,3prime,0.8429,1.0,0,0.0,yes,0,2,,,PASS
+AB683668.1,GenBank+BOLD,Oligonychus gotohi,909,forward,370,1278,0.589,3prime,0.8451,1.0,0,0.0,yes,0,2,,,PASS
+AB683667.1,GenBank+BOLD,Oligonychus castaneae,909,forward,370,1278,0.589,3prime,0.8473,1.0,0,0.0,yes,0,2,,,PASS
+AB683666.1,GenBank+BOLD,Oligonychus castaneae,909,forward,370,1278,0.589,3prime,0.8473,1.0,0,0.0,yes,0,2,,,PASS
+AB683665.1,GenBank+BOLD,Oligonychus perditus,909,forward,370,1278,0.589,3prime,0.857,1.0,0,0.0,yes,0,0,,,PASS
+AB683664.1,GenBank+BOLD,Oligonychus ununguis,909,forward,370,1278,0.589,3prime,0.8526,1.0,0,0.0,yes,0,0,,,PASS
+AB683663.1,GenBank+BOLD,Oligonychus camelliae,909,forward,370,1278,0.589,3prime,0.8443,1.0,0,0.0,yes,0,2,,,PASS
+AB683662.1,GenBank+BOLD,Oligonychus camelliae,909,forward,370,1278,0.589,3prime,0.8454,1.0,0,0.0,yes,0,2,,,PASS
+AB683661.1,GenBank+BOLD,Oligonychus ilicis,909,forward,370,1278,0.589,3prime,0.8493,1.0,0,0.0,yes,0,0,,,PASS
+AB683660.1,GenBank+BOLD,Oligonychus ilicis,909,forward,370,1278,0.589,3prime,0.8493,1.0,0,0.0,yes,0,0,,,PASS
+AB683659.1,GenBank+BOLD,Oligonychus tsudomei,909,forward,370,1278,0.589,3prime,0.8592,1.0,0,0.0,yes,0,0,,,PASS
+AB683658.1,GenBank+BOLD,Oligonychus hondoensis,909,forward,370,1278,0.589,3prime,0.857,1.0,0,0.0,yes,0,0,,,PASS
+AB683657.1,GenBank+BOLD,Oligonychus hondoensis,909,forward,370,1278,0.589,3prime,0.8625,1.0,0,0.0,yes,0,0,,,PASS
+AB683656.1,GenBank+BOLD,Oligonychus karamatus,909,forward,370,1278,0.589,3prime,0.8482,1.0,0,0.0,yes,0,0,,,PASS
+AB683655.1,GenBank+BOLD,Oligonychus pustulosus,909,forward,370,1278,0.589,3prime,0.8581,1.0,0,0.0,yes,0,0,,,PASS
+AB683654.1,GenBank+BOLD,Oligonychus clavatus,909,forward,370,1278,0.589,3prime,0.8603,1.0,0,0.0,yes,0,0,,,PASS
+AB683653.1,GenBank+BOLD,Oligonychus clavatus,909,forward,370,1278,0.589,3prime,0.8603,1.0,0,0.0,yes,0,0,,,PASS
+X80865.1,GenBank,Oligonychus ununguis,392,forward,724,1115,0.254,3prime,0.8622,1.0,0,0.0,yes,0,0,,,PASS
+X80866.1,GenBank,Oligonychus platani,373,forward,745,1115,0.241,3prime,0.8464,0.995,0,0.0,yes,0,0,,,PASS
+X80862.1,GenBank,Oligonychus gossypii,374,forward,736,1109,0.243,3prime,0.8583,1.0,0,0.0,yes,0,0,,,PASS
+ABOTH9055-22,BOLD,Oligonychus,654,forward,42,695,0.424,5prime,0.8399,1.0,0,0.0,yes,0,2,,,PASS
+ABWYT29686-24,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8587,0.998,0,0.0,yes,0,2,,,PASS
+BIOSC1370-25,BOLD,Oligonychus brevipilosus,653,forward,43,695,0.423,5prime,0.7893,1.0,30,0.0459,yes,0,4,,AMBIGUOUS,FAIL
+BIOSC1408-25,BOLD,Oligonychus longiclavatus,652,forward,46,695,0.422,5prime,0.7785,0.997,39,0.0598,yes,0,0,,AMBIGUOUS,FAIL
+BIOSC1413-25,BOLD,Oligonychus longiclavatus,653,forward,43,695,0.423,5prime,0.7718,1.0,48,0.0735,yes,0,0,,AMBIGUOUS,FAIL
+BIOSC1414-25,BOLD,Oligonychus longiclavatus,652,forward,46,695,0.422,5prime,0.8077,0.997,18,0.0276,yes,0,0,,AMBIGUOUS,FAIL
+CIBFA13943-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA13967-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA13968-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA15109-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA15160-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA15244-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA15260-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA17159-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIBFA17171-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIDTA18246-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIGHA21859-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIGHA25263-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIGHB15272-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIKPA6244-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIKPB7395-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIKPC20533-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIKPC20545-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIKPC21436-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CIPBA598-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CISKB3082-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CISKC12687-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+CNBPM166-13,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8584,0.998,0,0.0,yes,0,0,,,PASS
+CNGCC1000-15,BOLD,Oligonychus,624,forward,39,662,0.405,5prime,0.851,1.0,0,0.0,yes,0,0,,,PASS
+CNJAF1980-12,BOLD,Oligonychus,611,forward,39,649,0.396,5prime,0.8347,1.0,8,0.0131,yes,0,0,,AMBIGUOUS,FAIL
+CNKJE2349-14,BOLD,Oligonychus,600,forward,39,638,0.389,5prime,0.8292,1.0,1,0.0017,yes,0,0,,,PASS
+CNKOH2058-14,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8432,0.998,0,0.0,yes,0,0,,,PASS
+CNKOP1498-14,BOLD,Oligonychus,575,forward,39,611,0.372,5prime,0.8377,0.997,0,0.0,yes,0,0,,,PASS
+CNLMD1867-14,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8447,0.998,0,0.0,yes,0,0,,,PASS
+CNPKF2032-14,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8447,0.998,0,0.0,yes,0,0,,,PASS
+CNPKF2033-14,BOLD,Oligonychus,365,forward,39,403,0.237,5prime,0.8247,1.0,0,0.0,yes,0,0,,,PASS
+CNPKF2287-14,BOLD,Oligonychus,593,forward,77,668,0.384,5prime,0.8342,0.998,0,0.0,yes,0,4,,,PASS
+CNPKG1213-14,BOLD,Oligonychus,646,forward,53,695,0.417,5prime,0.8445,0.995,0,0.0,yes,0,0,,,PASS
+CNPKG1376-14,BOLD,Oligonychus,595,forward,35,629,0.386,5prime,0.8403,1.0,0,0.0,yes,0,0,,,PASS
+CNROG1154-13,BOLD,Oligonychus,588,forward,40,627,0.381,5prime,0.8299,1.0,6,0.0102,yes,0,0,,AMBIGUOUS,FAIL
+CRBCA566-24,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8387,0.998,0,0.0,yes,0,0,,,PASS
+GHABA10820-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GHABC503-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GHATA2881-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GHDUC9969-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GMBDC6490-24,BOLD,Oligonychus,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,,PASS
+GMBDC7649-24,BOLD,Oligonychus,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,,PASS
+GMBDE3466-23,BOLD,Oligonychus biharensis,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,,PASS
+GMBDE5336-23,BOLD,Oligonychus biharensis,658,forward,40,695,0.425,5prime,0.843,0.997,0,0.0,yes,0,0,,,PASS
+GMGAK176-17,BOLD,Oligonychus,591,forward,49,638,0.383,5prime,0.8237,0.998,0,0.0,yes,0,0,,,PASS
+GMOAF1293-21,BOLD,Oligonychus,655,forward,42,695,0.424,5prime,0.8379,0.998,0,0.0,yes,0,0,,,PASS
+GMOJG1510-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8584,0.998,0,0.0,yes,0,0,,,PASS
+GMOJG1546-15,BOLD,Oligonychus,351,forward,40,389,0.227,5prime,0.8486,0.997,0,0.0,yes,0,0,,,PASS
+GMOOG237-15,BOLD,Oligonychus,342,forward,40,380,0.221,5prime,0.8182,0.997,5,0.0146,yes,0,0,,AMBIGUOUS,FAIL
+GMOZZ1869-21,BOLD,Oligonychus,656,forward,41,695,0.425,5prime,0.8427,0.998,0,0.0,yes,0,0,,,PASS
+GMPHZ5357-23,BOLD,Oligonychus ununguis,648,forward,43,690,0.42,5prime,0.8367,1.0,0,0.0,yes,0,2,,,PASS
+GMRST1321-15,BOLD,Oligonychus,540,forward,40,569,0.344,5prime,0.8396,0.981,0,0.0,yes,0,0,,,PASS
+GMRSW1956-15,BOLD,Oligonychus,543,forward,73,615,0.352,5prime,0.8379,1.0,0,0.0,yes,0,0,,,PASS
+GNBAA5023-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNBAA6946-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNBAA719-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNGBA1378-25,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNGBA8272-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNGBA8369-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNKHA15912-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNKHA15931-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+GNKHA15960-26,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+LPGEQ10310-24,BOLD,Oligonychus,658,forward,40,695,0.425,5prime,0.8491,0.997,0,0.0,yes,0,0,,,PASS
+LPMDA12607-24,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8407,0.992,4,0.0061,yes,0,0,,,PASS
+LPMDB34339-24,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8453,0.992,0,0.0,yes,0,0,,,PASS
+MSSCA5367-16,BOLD,Oligonychus,641,forward,39,679,0.416,5prime,0.8237,1.0,7,0.0109,yes,0,0,,AMBIGUOUS,FAIL
+MYMCB636-11,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8487,0.998,0,0.0,yes,0,6,,,PASS
+MYMCB653-11,BOLD,Oligonychus,481,forward,40,517,0.31,5prime,0.8462,0.994,0,0.0,yes,0,4,,,PASS
+NGAAC2026-14,BOLD,Oligonychus,625,forward,39,662,0.405,5prime,0.8325,0.998,2,0.0032,yes,0,0,,,PASS
+OPPUE1694-17,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8478,0.998,4,0.0061,yes,0,0,,,PASS
+RRSSA1567-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8399,0.998,0,0.0,yes,0,4,,,PASS
+SAKZA22695-23,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8469,0.992,0,0.0,yes,0,0,,,PASS
+SALVA1012-22,BOLD,Oligonychus,652,forward,43,693,0.422,5prime,0.8479,0.998,0,0.0,yes,0,0,,,PASS
+SALVA13282-23,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8484,0.992,0,0.0,yes,0,0,,,PASS
+SATHA14463-23,BOLD,Oligonychus,651,forward,43,693,0.422,5prime,0.8464,1.0,0,0.0,yes,0,0,,,PASS
+SATHA14471-23,BOLD,Oligonychus,655,forward,43,695,0.423,5prime,0.8484,0.997,0,0.0,yes,0,0,,,PASS
+SATHA15902-23,BOLD,Oligonychus,655,forward,43,695,0.423,5prime,0.8484,0.997,0,0.0,yes,0,0,,,PASS
+SATHA17036-23,BOLD,Oligonychus,652,forward,43,693,0.422,5prime,0.8479,0.998,0,0.0,yes,0,0,,,PASS
+SATHB1600-22,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8484,0.992,0,0.0,yes,0,0,,,PASS
+SATHB5349-23,BOLD,Oligonychus,658,forward,43,695,0.423,5prime,0.8484,0.992,0,0.0,yes,0,0,,,PASS
+SCCBB380-23,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8513,0.998,0,0.0,yes,0,4,,,PASS
+SMCK001-25,BOLD,Oligonychus perseae,540,forward,131,662,0.345,5prime,0.8352,0.985,0,0.0,yes,0,4,,,PASS
+SMCK003-25,BOLD,Oligonychus oryzae,655,forward,22,675,0.424,5prime,0.8746,0.998,0,0.0,yes,0,0,,,PASS
+SMTPO11030-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8447,0.998,0,0.0,yes,0,0,,,PASS
+SMTPO1720-15,BOLD,Oligonychus,657,forward,40,696,0.426,5prime,0.8364,1.0,0,0.0,yes,0,0,,,PASS
+SMTPO9494-15,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8323,0.998,0,0.0,yes,0,4,,,PASS
+SSWLF2224-13,BOLD,Oligonychus,418,forward,74,491,0.271,5prime,0.8445,1.0,0,0.0,yes,0,0,,,PASS
+SSWLF721-13,BOLD,Oligonychus,658,forward,39,695,0.426,5prime,0.8326,0.998,0,0.0,yes,0,0,,,PASS
+THAMA4273-22,BOLD,Oligonychus,651,forward,43,693,0.422,5prime,0.831,1.0,0,0.0,yes,0,0,,,PASS
+TZBCA197-06,BOLD,Oligonychus aceris,618,forward,39,656,0.401,5prime,0.8447,1.0,0,0.0,yes,0,0,,,PASS
+TZBCA199-06,BOLD,Oligonychus aceris,582,forward,55,629,0.373,5prime,0.8348,0.988,3,0.0052,yes,0,0,,,PASS

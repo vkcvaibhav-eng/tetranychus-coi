@@ -65,8 +65,9 @@ def main():
     for a in anchor_rows:
         st = studies[a["study_id"]]
         rec = by_acc.get(a["accession"])
+        level = (a.get("evidence_level") or "").strip() or st["evidence_level"]  # record level when given
         row = {"accession": a["accession"], "study_id": a["study_id"],
-               "evidence_level": st["evidence_level"], "found": "no", "record_id": "",
+               "evidence_level": level, "found": "no", "record_id": "",
                "species_name": "", "passed_qc": "", "cluster": ""}
         if rec:
             rid = rec["record_id"]
@@ -78,8 +79,8 @@ def main():
             if chk:
                 anchor_record_ids[rid] = row
                 own = row["species_name"] if (a.get("species") or "").strip() else canon(chk["species_name"])
-                if st["evidence_level"] in args.levels and own:
-                    cluster_anchor[chk["cluster"]][(own, st["evidence_level"])] += 1
+                if level in args.levels and own:
+                    cluster_anchor[chk["cluster"]][(own, level)] += 1
         status.append(row)
 
     def anchored_names(cluster):
@@ -140,7 +141,10 @@ def main():
             verdict = "DISAGREES"
         rec_rows.append({"record_id": rid, "species_label": chk["species_label"], "accepted_name": own,
                          "cluster": chk["cluster"], "anchored_species": "; ".join(names),
-                         "is_anchor": "yes" if rid in anchor_record_ids else "no", "verdict": verdict})
+                         "is_anchor": "yes" if rid in anchor_record_ids else "no",
+                         "anchor_used": "yes" if rid in anchor_record_ids
+                         and anchor_record_ids[rid]["evidence_level"] in args.levels else "no",
+                         "verdict": verdict})
     with open(os.path.join(args.out, "record_anchor_check.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rec_rows[0].keys()))
         w.writeheader()
@@ -151,7 +155,8 @@ def main():
     found = [s for s in used if s["found"] == "yes"]
     in_cl = [s for s in used if s["cluster"]]
     cons = Counter(s["anchor_consistency"] for s in in_cl)
-    verdicts = Counter(r["verdict"] for r in rec_rows if r["is_anchor"] == "no")
+    # anchors used for decisions are left out; level C leads are counted as ordinary records
+    verdicts = Counter(r["verdict"] for r in rec_rows if r["anchor_used"] == "no")
     n_other = sum(verdicts.values())
     anchored_clusters = [c for c in cl_rows if c["anchored_species"]]
     lines = [f"Anchor studies: {len(studies)} (levels used for decisions: {args.levels})",
@@ -165,7 +170,7 @@ def main():
                      f"in cluster with {s['cluster_anchored_species']}")
     lines += [f"Clusters with anchors: {len(anchored_clusters)} of {len(cl_rows)} "
               f"(several anchored species: {sum(c['status'] == 'several anchored species' for c in cl_rows)})",
-              f"Non-anchor records: {n_other}"]
+              f"Records other than the anchors used for decisions (level C leads included): {n_other}"]
     lines += [f"  {k}: {v} ({100 * v / n_other:.1f}%)" for k, v in verdicts.most_common()] if n_other else []
     lines.append("Clusters holding several anchored species:")
     for c in cl_rows:

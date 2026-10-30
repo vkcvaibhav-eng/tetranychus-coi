@@ -42,12 +42,12 @@ jobs:
       - name: Alignment and maximum-likelihood trees
         run: |
           set -o pipefail
-          python scripts/phylogeny.py --bootstrap "$BOOT" --min-cover "$COVER" 2>&1 | tee results/logs/phylogeny.log
+          python scripts/phylogeny.py --bootstrap "$BOOT" --min-cover "$COVER" --seed 20261030 2>&1 | tee results/logs/phylogeny.log
 
       - name: Same records in both halves of COX1
         run: |
           set -o pipefail
-          python scripts/phylogeny.py --paired --bootstrap "$BOOT" --min-cover "$COVER" 2>&1 | tee results/logs/phylogeny_paired.log
+          python scripts/phylogeny.py --paired --bootstrap "$BOOT" --min-cover "$COVER" --seed 20261030 2>&1 | tee results/logs/phylogeny_paired.log
 
       - name: Save results to the repository
         if: always()

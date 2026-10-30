@@ -5,7 +5,10 @@ For each sequence it records orientation, the part of COI covered, identity
 to the reference, ambiguous bases, internal stop codons (invertebrate
 mitochondrial code, table 5), and indels that break the reading frame.
 Stop codons and frameshifts point to sequencing errors or nuclear
-pseudogenes (NUMTs).
+pseudogenes (NUMTs). A sequence flagged in the reference frame is checked
+again by translation in all six frames: if one frame is open and its protein
+matches the reference protein (identity >= 0.70 over >= 90% of its length),
+the flag is treated as an alignment artefact and dropped.
 
 Reads:  results/merged_records.csv
 Writes: results/qc_records.csv, results/qc_passed.fasta, results/qc_summary.txt
@@ -20,7 +23,7 @@ import sys
 from collections import Counter
 
 from Bio import SeqIO
-from Bio.Align import PairwiseAligner
+from Bio.Align import PairwiseAligner, substitution_matrices
 from Bio.Seq import Seq
 
 GENETIC_CODE = 5  # invertebrate mitochondrial
@@ -28,7 +31,49 @@ QC_FIELDS = ["record_id", "source", "species_label", "seq_length", "orientation"
              "ref_start", "ref_end", "ref_coverage", "cox1_half", "identity",
              "query_aligned_fraction", "ambiguous_bases", "ambiguous_fraction",
              "reading_frame_intact", "internal_stops", "alignment_frameshift_gaps",
-             "qc_flags", "qc_status"]
+             "translation_check", "qc_flags", "qc_status"]
+MIN_PROTEIN_IDENTITY = 0.70   # translation-guided check: open frame must match the reference protein
+MIN_PROTEIN_COVER = 0.90      # over this share of the translated sequence
+_PROT_ALIGNER = None
+
+
+def translation_check(seq, ref):
+    """Translation-guided check of a sequence flagged for a frameshift or stop codon.
+
+    The flag comes from reading the nucleotide alignment in the reference
+    frame, and a local alignment against a divergent reference can place
+    compensating gaps that misplace that frame. Here the sequence is read in
+    all six frames; if one frame has no internal stop codon and its protein
+    matches the reference protein over most of its length, the sequence
+    encodes an intact COX1 stretch and the flag is an alignment artefact.
+    Returns (verdict, protein identity, frame).
+    """
+    global _PROT_ALIGNER
+    if _PROT_ALIGNER is None:
+        _PROT_ALIGNER = PairwiseAligner()
+        _PROT_ALIGNER.mode = "local"
+        _PROT_ALIGNER.substitution_matrix = substitution_matrices.load("BLOSUM62")
+        _PROT_ALIGNER.open_gap_score, _PROT_ALIGNER.extend_gap_score = -10, -1
+    ref_prot = str(Seq(ref[:len(ref) - len(ref) % 3]).translate(table=GENETIC_CODE)).rstrip("*")
+    best = ("no open frame", 0.0, "")
+    for strand, s in (("+", seq), ("-", str(Seq(seq).reverse_complement()))):
+        for f in range(3):
+            coding = s[f:]
+            coding = coding[:len(coding) - len(coding) % 3]
+            if len(coding) < 90:
+                continue
+            prot = str(Seq(coding).translate(table=GENETIC_CODE))
+            if "*" in prot[:-1]:
+                continue
+            prot = prot.rstrip("*")
+            aln = _PROT_ALIGNER.align(ref_prot, prot)[0]
+            span = sum(qe - qs for (qs, qe) in aln.aligned[1])
+            same = sum(ref_prot[ts + i] == prot[qs + i]
+                       for (ts, te), (qs, qe) in zip(*aln.aligned) for i in range(te - ts))
+            ident = same / span if span else 0.0
+            if span >= MIN_PROTEIN_COVER * len(prot) and ident >= MIN_PROTEIN_IDENTITY and ident > best[1]:
+                best = ("open COX1 frame", ident, f"{strand}{f + 1}")
+    return best
 
 
 def make_aligner():
@@ -142,11 +187,15 @@ def check(aligner, ref, rec, args):
         flags.append("PARTIAL_ALIGNMENT")
     # Flag only when the reading frame is really broken. Gaps of odd length
     # with an intact frame are alignment artefacts against a divergent reference.
+    out["translation_check"] = ""
     if whole_stops:
-        if shifts:
-            flags.append("FRAMESHIFT")
-        if block_stops or not shifts:
-            flags.append("STOP_CODON")
+        verdict, ident, frame = translation_check(oriented, ref)
+        out["translation_check"] = f"{verdict} ({frame}, protein identity {ident:.2f})" if frame else verdict
+        if verdict != "open COX1 frame":
+            if shifts:
+                flags.append("FRAMESHIFT")
+            if block_stops or not shifts:
+                flags.append("STOP_CODON")
     out["qc_flags"] = ";".join(flags)
     out["qc_status"] = "PASS" if not flags else "FAIL"
     return out, oriented

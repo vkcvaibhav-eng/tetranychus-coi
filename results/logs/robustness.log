@@ -1,0 +1,125 @@
+2176 records, 1253 haplotypes
+1a. Thresholds, cluster threshold = largest match distance:
+   K2P | clusters | several names | species split | cinnabarinus clusters | urticae largest % | disagree % | correct all/named/cleaned/conservative (wrong likewise)
+   0.010 | 144 | 16 | 25 | 8 | 47.8 | 6.0 | 70/70/72/69 of 108 (16/16/19/19)
+   0.015 | 112 | 17 | 24 | 7 | 81.1 | 5.4 | 73/76/78/75 of 108 (17/17/20/20)
+   0.020 | 98 | 14 | 22 | 7 | 83.1 | 5.8 | 75/78/80/77 of 108 (17/17/20/20)
+   0.030 | 82 | 12 | 22 | 6 | 94.9 | 5.8 | 76/79/81/78 of 108 (21/21/24/24)
+   0.040 | 68 | 10 | 19 | 4 | 96.2 | 3.2 | 76/79/77/78 of 108 (22/22/27/24)
+   0.050 | 60 | 9 | 19 | 3 | 99.7 | 2.7 | 76/79/70/79 of 108 (22/22/33/22)
+1b. Correct answers by cluster threshold (rows) and largest match distance (columns): named / cleaned / conservative:
+   cluster \ match | 0.01 | 0.02 | 0.03 | 0.04 | 0.05
+   0.010 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
+   0.015 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
+   0.020 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
+   0.030 | 70/72/69 | 78/80/77 | 79/81/78 | 79/81/78 | 79/81/78
+   0.040 | 70/71/69 | 78/76/77 | 79/77/78 | 79/77/78 | 79/77/78
+   0.050 | 70/64/70 | 78/69/78 | 79/70/79 | 79/70/79 | 79/70/79
+2. Anchor evidence, taxonomic treatment, fold isolation and grouping (K2P 0.03):
+   main (levels A+B; two synonymies; folds isolated): 108 queries from 9 studies; all correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2; named correct 79, wrong 21, ambiguous 6, no match 2; cleaned correct 81, wrong 24, ambiguous 1, no match 2; conservative correct 78, wrong 24, ambiguous 4, no match 2; queries changed vs main 0
+   level A anchors only: 69 queries from 4 studies; all correct 49, wrong 14, ambiguous 1, nearest unnamed 3, no match 2; named correct 52, wrong 14, ambiguous 1, no match 2; cleaned correct 52, wrong 14, ambiguous 1, no match 2; conservative correct 52, wrong 14, ambiguous 1, no match 2
+   plus malaysiensis = macfarlanei: 108 queries from 9 studies; all correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2; named correct 79, wrong 21, ambiguous 6, no match 2; cleaned correct 81, wrong 24, ambiguous 1, no match 2; conservative correct 78, wrong 24, ambiguous 4, no match 2; queries changed vs main 0
+   earlier version (clusters from all records; title membership): 108 queries from 9 studies; all correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2; named correct 79, wrong 21, ambiguous 6, no match 2; cleaned correct 81, wrong 24, ambiguous 1, no match 2; conservative correct 78, wrong 24, ambiguous 4, no match 2; queries changed vs main 0
+3. Main identification test:
+   all: correct 76, wrong 21, ambiguous 6, nearest unnamed 3, no match 2
+   named: correct 79, wrong 21, ambiguous 6, no match 2
+   cleaned: correct 81, wrong 24, ambiguous 1, no match 2
+   conservative: correct 78, wrong 24, ambiguous 4, no match 2
+   all -> named, correct: +3 / -0; studies up 1, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 0.250)
+   all -> named, wrong: +0 / -0; studies up 0, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 1.000)
+   named -> cleaned, correct: +4 / -2; studies up 3, down 1; sign-flip over studies p = 0.625 (query-level McNemar p = 0.688)
+   named -> cleaned, wrong: +4 / -1; studies up 1, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 0.375)
+   named -> conservative, correct: +1 / -2; studies up 0, down 1; sign-flip over studies p = 1.000 (query-level McNemar p = 1.000)
+   named -> conservative, wrong: +4 / -1; studies up 1, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 0.375)
+   all -> cleaned, correct: +7 / -2; studies up 3, down 1; sign-flip over studies p = 0.500 (query-level McNemar p = 0.180)
+   all -> cleaned, wrong: +4 / -1; studies up 1, down 0; sign-flip over studies p = 1.000 (query-level McNemar p = 0.375)
+   95% intervals, bootstrap over 9 anchor studies (10000 replicates, seed 20261030):
+     all_correct: 70.4% (55.2 to 87.5)
+     all_wrong: 19.4% (6.7 to 33.3)
+     all_no match: 1.9% (0.0 to 3.6)
+     named_correct: 73.1% (56.1 to 87.9)
+     named_wrong: 19.4% (6.7 to 33.3)
+     named_no match: 1.9% (0.0 to 3.6)
+     cleaned_correct: 75.0% (55.9 to 91.2)
+     cleaned_wrong: 22.2% (7.8 to 41.7)
+     cleaned_no match: 1.9% (0.0 to 3.6)
+     conservative_correct: 72.2% (53.1 to 87.6)
+     conservative_wrong: 22.2% (7.8 to 41.7)
+     conservative_no match: 1.9% (0.0 to 3.6)
+     cleaned_minus_named_correct: 1.9% (-2.1 to 6.2)
+     named_minus_all_correct: 2.8% (0.0 to 5.3)
+   Correct answers pooled / mean over 9 studies / mean over 15 species; median reference records and species per fold:
+     all: 70.4 / 71.3 / 57.6; 2158 records, 37 species
+     named: 73.1 / 72.0 / 62.6; 1598 records, 37 species
+     cleaned: 75.0 / 75.1 / 66.4; 1481 records, 34 species
+     conservative: 72.2 / 70.4 / 64.0; 1557 records, 35 species
+   Coverage of the query's species in the named set (queries; correct, named set):
+     no record of the species: 9; 0.0%
+     no overlapping record: 0; %
+     overlapping record: 99; 79.8%
+4. Cluster structure at K2P 0.03:
+   Clusters whose largest internal K2P exceeds 0.03 (chaining): 12 of 82
+     C028 (975 records): largest 0.1041
+     C070 (180 records): largest 0.0414
+     C046 (157 records): largest 0.0458
+     C045 (111 records): largest 0.0651
+     C043 (98 records): largest 0.0577
+     C073 (95 records): largest 0.0310
+     C067 (49 records): largest 0.0335
+     C050 (24 records): largest 0.0305
+     C064 (22 records): largest 0.0473
+     C048 (12 records): largest 0.0444
+   Records overlapping both halves by >= 300 sites (bridges): 515
+   Clusters holding both 5'-only and 3'-only records: 14; of these, joined only through bridges: 11
+5. Nearest-neighbour label agreement:
+   COI, all named records, any: 1464 of 1592 (92.0%)
+   COI, all named records, other batch: 1362 of 1573 (86.6%)
+   ITS2, all named records, any: 664 of 771 (86.1%)
+   ITS2, all named records, other batch: 621 of 772 (80.4%)
+   Specimen links: 193 pairs, 176 one-to-one without conflict
+   Linked records by what the key can establish: voucher specimen 95; culture or population (strain) 49; unresolved (isolate) 22
+     culture or population (strain): COI 36, ITS2 31 of 49
+     unresolved (isolate): COI 22, ITS2 21 of 22
+     voucher specimen: COI 77, ITS2 71 of 95
+   Linked records (166 one-to-one, other batches only, 20 COI submission batches): COI 135 (81.3%), ITS2 123 (74.1%); COI only 25, ITS2 only 13
+     difference 7.2 points; 95% interval over batches -8.6 to 21.2; sign-flip test on batch totals p = 0.453; McNemar ignoring batches p = 0.073
+     Tetranychus urticae: 66 specimens; COI 65, ITS2 62
+     Tetranychus turkestani: 20 specimens; COI 6, ITS2 14
+     Tetranychus evansi: 11 specimens; COI 11, ITS2 11
+     Tetranychus kanzawai: 11 specimens; COI 10, ITS2 2
+     Tetranychus truncatus: 9 specimens; COI 8, ITS2 9
+     Tetranychus parakanzawai: 6 specimens; COI 0, ITS2 0
+     Tetranychus piercei: 6 specimens; COI 6, ITS2 6
+     Tetranychus neocaledonicus: 5 specimens; COI 4, ITS2 5
+     Tetranychus desertorum: 5 specimens; COI 5, ITS2 0
+     Tetranychus ludeni: 4 specimens; COI 4, ITS2 4
+     Tetranychus okinawanus: 4 specimens; COI 1, ITS2 2
+     Tetranychus tumidellus: 3 specimens; COI 3, ITS2 0
+     Tetranychus ezoensis: 2 specimens; COI 0, ITS2 0
+     Tetranychus phaselus: 2 specimens; COI 2, ITS2 2
+     Tetranychus viennensis: 2 specimens; COI 2, ITS2 2
+     Tetranychus gloveri: 2 specimens; COI 2, ITS2 0
+     Tetranychus pueraricola: 1 specimens; COI 1, ITS2 0
+     Tetranychus pacificus: 1 specimens; COI 0, ITS2 1
+     Tetranychus mcdanieli: 1 specimens; COI 0, ITS2 0
+     Tetranychus udaipurensis: 1 specimens; COI 1, ITS2 0
+     Tetranychus macfarlanei: 1 specimens; COI 1, ITS2 1
+     Tetranychus lombardinii: 1 specimens; COI 1, ITS2 1
+     Tetranychus puschelii: 1 specimens; COI 1, ITS2 0
+     Tetranychus fijiensis: 1 specimens; COI 1, ITS2 1
+6. Records disagreeing with the anchored species of their cluster: 119 from 33 submission batches
+   34 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus truncatus (5 batches; China (33); India (1))
+   28 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus kanzawai; Tetranychus parakanzawai (6 batches; Philippines (16); China (9); (not given) (3))
+   16 x Tetranychus gloveri in cluster anchored as Tetranychus okinawanus (7 batches; USA (11); India (3); Viet Nam (1); (not given) (1))
+   13 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus pueraricola (3 batches; China (12); South Korea (1))
+   9 x Tetranychus kanzawai in cluster anchored as Tetranychus turkestani; Tetranychus urticae (9 batches; India (7); Pakistan (2))
+   4 x Tetranychus kanzawai in cluster anchored as Tetranychus pueraricola (2 batches; China (4))
+   4 x Tetranychus truncatus in cluster anchored as Tetranychus pueraricola (2 batches; China (3); (not given) (1))
+   3 x Tetranychus cinnabarinus; Tetranychus urticae in cluster anchored as Tetranychus phaselus (2 batches; China (3))
+   2 x Tetranychus phaselus in cluster anchored as Tetranychus pueraricola (1 batches; China (2))
+   1 x Tetranychus sawzdargi in cluster anchored as Tetranychus turkestani; Tetranychus urticae (1 batches; Russia (1))
+   1 x Tetranychus malvae in cluster anchored as Tetranychus evansi (1 batches; (not given) (1))
+   1 x Tetranychus bambusae in cluster anchored as Tetranychus kanzawai; Tetranychus parakanzawai (1 batches; (not given) (1))
+   1 x Tetranychus puschelii in cluster anchored as Tetranychus truncatus (1 batches; Unrecoverable (1))
+   1 x Tetranychus neocaledonicus in cluster anchored as Tetranychus ludeni (1 batches; Australia (1))
+   1 x Tetranychus cinnabarinus in cluster anchored as Tetranychus piercei (1 batches; China (1))

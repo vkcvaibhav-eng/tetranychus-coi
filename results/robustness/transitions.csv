@@ -1,6 +1,14 @@
-raw,correct,wrong,ambiguous,no match,total
-correct,74,2,0,0,76
-wrong,1,20,0,0,21
-ambiguous,3,2,1,0,6
-no match,3,0,0,2,5
-total,81,24,1,2,108
+from,to,outcome_from,correct,wrong,ambiguous,nearest unnamed,no match,total
+all,named,correct,76,0,0,0,0,76
+all,named,wrong,0,21,0,0,0,21
+all,named,ambiguous,0,0,6,0,0,6
+all,named,nearest unnamed,3,0,0,0,0,3
+all,named,no match,0,0,0,0,2,2
+named,cleaned,correct,77,2,0,0,0,79
+named,cleaned,wrong,1,20,0,0,0,21
+named,cleaned,ambiguous,3,2,1,0,0,6
+named,cleaned,no match,0,0,0,0,2,2
+named,conservative,correct,77,2,0,0,0,79
+named,conservative,wrong,1,20,0,0,0,21
+named,conservative,ambiguous,0,2,4,0,0,6
+named,conservative,no match,0,0,0,0,2,2

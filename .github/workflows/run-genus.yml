@@ -90,6 +90,12 @@ jobs:
           set -o pipefail
           python scripts/robustness.py --genus "$R/genus" --species "$R/species" --anchors "$D/anchors" --its2 "$R/its2" --data "$D" --reference "$D/reference/coi_reference.fasta" --out "$R/robustness" 2>&1 | tee "$R/logs/robustness.log"
 
+      - name: Species pairs and recheck of flagged sequences
+        run: |
+          set -o pipefail
+          python scripts/species_pairs.py --genus "$R/genus" --species "$R/species" --anchors "$D/anchors" --reference "$D/reference/coi_reference.fasta" --data "$D" --out "$R/pairs" 2>&1 | tee "$R/logs/species_pairs.log"
+          python scripts/qc_recheck.py --results "$R/genus" --data "$D" --reference "$D/reference/coi_reference.fasta" 2>&1 | tee "$R/logs/qc_recheck.log"
+
       - name: Trends by year and country
         run: |
           set -o pipefail

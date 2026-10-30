@@ -77,6 +77,22 @@ def specimen_key(rec):
     return (author, sid) if author and sid else None
 
 
+def key_qualifier(rec):
+    """Which source qualifier supplied the specimen key."""
+    src = next((f for f in rec.features if f.type == "source"), None)
+    q = src.qualifiers if src else {}
+    return next((k for k in ("isolate", "strain", "specimen_voucher") if k in q), "")
+
+
+def material_link(qa, qb):
+    """What a shared key can establish: never the same individual from the records alone."""
+    if "strain" in (qa, qb):
+        return "culture or population (strain)"
+    if qa == qb == "specimen_voucher":
+        return "voucher specimen"
+    return "unresolved (isolate)"
+
+
 def country(rec):
     src = next((f for f in rec.features if f.type == "source"), None)
     q = src.qualifiers if src else {}
@@ -335,19 +351,21 @@ def main():
     # accepted only when exactly one COI record and one ITS2 record share the key and
     # their names (after synonymies) and countries do not conflict; other links are kept
     # in the table but flagged and left out of the comparison.
-    coi_by_key, coi_country = defaultdict(list), {}
+    coi_by_key, coi_country, qual = defaultdict(list), {}, {}
     for path in sorted(glob.glob(args.coi_glob)):
         for rec in SeqIO.parse(path, "genbank"):
             k = specimen_key(rec)
             if k and rec.id in coi_checks and rec.id not in coi_by_key[k]:
                 coi_by_key[k].append(rec.id)
                 coi_country[rec.id] = country(rec)
+                qual[rec.id] = key_qualifier(rec)
     its_rows = {r["record_id"]: r for r in rows}
     its_by_key = defaultdict(list)
     for rid, rec in records.items():
         k = specimen_key(rec)
         if k and its_rows[rid]["cluster"]:
             its_by_key[k].append(rid)
+            qual[rid] = key_qualifier(rec)
     pairs = []
     for k in sorted(set(coi_by_key) & set(its_by_key)):
         cois, itss = coi_by_key[k], its_by_key[k]
@@ -371,6 +389,8 @@ def main():
                               "coi_cluster": c["cluster"], "coi_cluster_dominant": coi_cluster_name,
                               "its2_cluster": its_rows[rid]["cluster"], "its2_nearest_species": its_cluster_name,
                               "country": ic or cc, "link": link, "link_conflict": "; ".join(conflicts),
+                              "key_from": f"{qual.get(crid, '')}/{qual.get(rid, '')}",
+                              "material_link": material_link(qual.get(crid, ""), qual.get(rid, "")),
                               "confident": "yes" if link == "one-to-one" and not conflicts else "no",
                               "genes_agree": "yes" if coi_cluster_name == its_cluster_name else "no"})
     with open(os.path.join(args.out, "coi_its2_pairs.csv"), "w", newline="") as f:

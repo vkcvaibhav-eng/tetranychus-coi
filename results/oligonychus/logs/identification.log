@@ -1,9 +1,18 @@
 Queries: 252 anchor records from 10 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
-Raw database:     correct 186 (73.8%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 58 (23.0%)
-Cleaned database: correct 184 (73.0%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 60 (23.8%)
+           all: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.2%)
+         named: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
+       cleaned: correct 190 (75.4%), wrong 2 (0.8%), ambiguous 0 (0.0%), no match 60 (23.8%)
+  conservative: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
+Coverage of the query's species in the named reference set: no record of the species 29; no overlapping record 6; overlapping record 217
+  no record of the species (29): named -> correct 0 (0.0%), wrong 3 (10.3%), ambiguous 0 (0.0%), no match 26 (89.7%)
+  no overlapping record (6): named -> correct 0 (0.0%), wrong 1 (16.7%), ambiguous 0 (0.0%), no match 5 (83.3%)
+  overlapping record (217): named -> correct 190 (87.6%), wrong 0 (0.0%), ambiguous 0 (0.0%), no match 27 (12.4%)
 Earlier version (clusters from all records, study membership by publication title only):
-  Raw:     correct 188 (74.6%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 56 (22.2%)
-  Cleaned: correct 186 (73.8%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 58 (23.0%)
+           all: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), nearest unnamed 2 (0.8%), no match 56 (22.2%)
+         named: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
+       cleaned: correct 190 (75.4%), wrong 2 (0.8%), ambiguous 0 (0.0%), no match 60 (23.8%)
+  conservative: correct 190 (75.4%), wrong 4 (1.6%), ambiguous 0 (0.0%), no match 58 (23.0%)
+Queries whose outcome differs from the earlier version: 0
 Records held out per study (publication title -> title or submission batch):
   arabuli2018: 2 -> 2
   guzman2014: 21 -> 21
@@ -12,52 +21,47 @@ Records held out per study (publication title -> title or submission batch):
   majeed2026: 4 -> 15
   matsuda2012: 29 -> 29
   muralidharan2020: 1 -> 7
-  mushtaq2023a_males: 17 -> 17
-  mushtaq2023b_males: 8 -> 16
+  mushtaq2023a: 17 -> 17
+  mushtaq2023b: 16 -> 16
   sakamoto2019: 34 -> 34
-Queries whose outcome differs from the earlier version: 2
-  OQ180828.1 (mushtaq2023b_males): raw/cleaned correct/correct -> no match/no match
-  OQ180840.1 (mushtaq2023b_males): raw/cleaned correct/correct -> no match/no match
-By study (raw correct -> cleaned correct; raw wrong -> cleaned wrong; of queries):
-  arabuli2018 [A]: 0 -> 0; 2 -> 2; of 2
-  guzman2014 [B]: 15 -> 15; 0 -> 0; of 21
-  guzman2017 [B]: 127 -> 127; 0 -> 0; of 140
-  majeed2022 [B]: 0 -> 0; 0 -> 0; of 4
-  majeed2026 [A]: 0 -> 0; 2 -> 2; of 4
-  matsuda2012 [A]: 2 -> 2; 0 -> 0; of 29
-  muralidharan2020 [B]: 1 -> 1; 0 -> 0; of 1
-  mushtaq2023a_males [A]: 9 -> 9; 0 -> 0; of 9
-  mushtaq2023b_males [A]: 4 -> 2; 0 -> 0; of 8
-  sakamoto2019 [B]: 28 -> 28; 4 -> 4; of 34
-By species (raw correct -> cleaned correct, of queries):
-  Oligonychus punicae: 96 -> 96 of 100
-  Oligonychus perseae: 55 -> 55 of 70
-  Oligonychus castaneae: 30 -> 30 of 36
-  Oligonychus thelytokus: 0 -> 0 of 4
-  Oligonychus tylus: 3 -> 1 of 3
-  Oligonychus afrasiaticus: 2 -> 2 of 3
-  Oligonychus neocastaneae: 0 -> 0 of 2
-  Oligonychus plegas: 0 -> 0 of 2
-  Oligonychus clavatus: 0 -> 0 of 2
-  Oligonychus hondoensis: 0 -> 0 of 2
-  Oligonychus ilicis: 0 -> 0 of 2
-  Oligonychus camelliae: 0 -> 0 of 2
-  Oligonychus gotohi: 0 -> 0 of 2
-  Oligonychus coffeae: 0 -> 0 of 2
-  Oligonychus amiensis: 0 -> 0 of 2
-  Oligonychus orthius: 0 -> 0 of 2
-  Oligonychus modestus: 0 -> 0 of 2
-  Oligonychus biharensis: 0 -> 0 of 2
-  Oligonychus rubicundus: 0 -> 0 of 2
-  Oligonychus bellarensis: 0 -> 0 of 1
-  Oligonychus grypus: 0 -> 0 of 1
-  Oligonychus pustulosus: 0 -> 0 of 1
-  Oligonychus karamatus: 0 -> 0 of 1
-  Oligonychus tsudomei: 0 -> 0 of 1
-  Oligonychus ununguis: 0 -> 0 of 1
-  Oligonychus perditus: 0 -> 0 of 1
-  Oligonychus washingtoniae: 0 -> 0 of 1
-  Oligonychus pratensis: 0 -> 0 of 1
-  Oligonychus dactyloni: 0 -> 0 of 1
-Changes from raw to cleaned:
-  correct -> no match: 2
+By study (correct: all / named / cleaned / conservative; wrong likewise; of queries):
+  arabuli2018: 0 / 0 / 0 / 0; 2 / 2 / 0 / 2; of 2
+  guzman2014: 15 / 15 / 15 / 15; 0 / 0 / 0 / 0; of 21
+  guzman2017: 127 / 127 / 127 / 127; 0 / 0 / 0 / 0; of 140
+  majeed2022: 0 / 0 / 0 / 0; 0 / 0 / 0 / 0; of 4
+  majeed2026: 0 / 0 / 0 / 0; 2 / 2 / 2 / 2; of 4
+  matsuda2012: 2 / 2 / 2 / 2; 0 / 0 / 0 / 0; of 29
+  muralidharan2020: 1 / 1 / 1 / 1; 0 / 0 / 0 / 0; of 1
+  mushtaq2023a: 9 / 9 / 9 / 9; 0 / 0 / 0 / 0; of 9
+  mushtaq2023b: 4 / 4 / 4 / 4; 0 / 0 / 0 / 0; of 8
+  sakamoto2019: 32 / 32 / 32 / 32; 0 / 0 / 0 / 0; of 34
+By species (correct: all / named / cleaned / conservative, of queries):
+  Oligonychus punicae: 96 / 96 / 96 / 96 of 100
+  Oligonychus perseae: 55 / 55 / 55 / 55 of 70
+  Oligonychus castaneae: 30 / 30 / 30 / 30 of 32
+  Oligonychus neocastaneae: 4 / 4 / 4 / 4 of 6
+  Oligonychus thelytokus: 0 / 0 / 0 / 0 of 4
+  Oligonychus tylus: 3 / 3 / 3 / 3 of 3
+  Oligonychus afrasiaticus: 2 / 2 / 2 / 2 of 3
+  Oligonychus plegas: 0 / 0 / 0 / 0 of 2
+  Oligonychus clavatus: 0 / 0 / 0 / 0 of 2
+  Oligonychus hondoensis: 0 / 0 / 0 / 0 of 2
+  Oligonychus ilicis: 0 / 0 / 0 / 0 of 2
+  Oligonychus camelliae: 0 / 0 / 0 / 0 of 2
+  Oligonychus gotohi: 0 / 0 / 0 / 0 of 2
+  Oligonychus coffeae: 0 / 0 / 0 / 0 of 2
+  Oligonychus amiensis: 0 / 0 / 0 / 0 of 2
+  Oligonychus orthius: 0 / 0 / 0 / 0 of 2
+  Oligonychus modestus: 0 / 0 / 0 / 0 of 2
+  Oligonychus biharensis: 0 / 0 / 0 / 0 of 2
+  Oligonychus rubicundus: 0 / 0 / 0 / 0 of 2
+  Oligonychus bellarensis: 0 / 0 / 0 / 0 of 1
+  Oligonychus grypus: 0 / 0 / 0 / 0 of 1
+  Oligonychus pustulosus: 0 / 0 / 0 / 0 of 1
+  Oligonychus karamatus: 0 / 0 / 0 / 0 of 1
+  Oligonychus tsudomei: 0 / 0 / 0 / 0 of 1
+  Oligonychus ununguis: 0 / 0 / 0 / 0 of 1
+  Oligonychus perditus: 0 / 0 / 0 / 0 of 1
+  Oligonychus washingtoniae: 0 / 0 / 0 / 0 of 1
+  Oligonychus pratensis: 0 / 0 / 0 / 0 of 1
+  Oligonychus dactyloni: 0 / 0 / 0 / 0 of 1

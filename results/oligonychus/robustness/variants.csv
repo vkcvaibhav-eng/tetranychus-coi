@@ -1,5 +1,6 @@
-variant,queries,studies,raw_correct,raw_wrong,raw_ambiguous,raw_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,queries_changed_vs_main,anchored_clusters,records_disagree,non_anchor_records
-main (levels A+B; no synonymies; folds isolated),252,10,186,8,0,58,184,8,0,60,0,35,31,205
-level A anchors only,52,5,15,4,0,33,13,4,0,35,,27,31,205
-plus mangiferus = punicae; vitis = punicae,252,10,186,8,0,58,184,8,0,60,0,35,26,205
-earlier version (clusters from all records; title membership),252,10,188,8,0,56,186,8,0,58,2,35,31,205
+variant,queries,studies,all_correct,all_wrong,all_ambiguous,all_nearest_unnamed,all_no_match,named_correct,named_wrong,named_ambiguous,named_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,conservative_correct,conservative_wrong,conservative_ambiguous,conservative_no_match,queries_changed_vs_main,anchored_clusters,records_disagree,records_outside_anchors_used
+main (levels A+B; no synonymies; folds isolated),252,10,190,4,0,2,56,190,4,0,58,190,2,0,60,190,4,0,58,0,35,31,308
+level A anchors only,50,6,16,2,0,1,31,16,2,0,32,16,2,0,32,16,2,0,32,,25,33,510
+plus mangiferus = punicae; vitis = punicae,252,10,190,4,0,2,56,190,4,0,58,190,2,0,60,190,4,0,58,0,35,26,308
+earlier version (clusters from all records; title membership),252,10,190,4,0,2,56,190,4,0,58,190,2,0,60,190,4,0,58,0,35,31,308
+"related studies held out together (guzman2014+2017: guzman2014, guzman2017)",252,10,103,4,0,2,143,103,4,0,145,103,2,0,147,103,4,0,145,87,35,31,308

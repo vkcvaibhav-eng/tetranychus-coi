@@ -1,0 +1,137 @@
+record_id,species_label,flags_main_reference,status_main_reference,odd_gaps_main_reference,best_panel_reference,identity_best,flags_best_reference,status_best_reference,odd_gaps_best_reference,six_frame_min_internal_stops,six_frame_best
+PZ939398.1,Tetranychus puschelii,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8868,,PASS,0,0,+1
+PZ852673.1,Tetranychus udaipurensis,SHORT,FAIL,2,Tetranychus phaselus (NC_024679.1),0.8737,SHORT,FAIL,2,0,+1
+PZ412362.1,Tetranychus urticae,LOW_IDENTITY,FAIL,21,Tetranychus malvae (PQ843216.1),0.7532,PARTIAL_ALIGNMENT,FAIL,9,0,+1
+PX642412.1,Tetranychus udaipurensis,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8729,,PASS,4,0,+3
+PX632668.1,Tetranychus udaipurensis,,PASS,4,Tetranychus truncatus (NC_024874.1),0.8772,,PASS,2,0,+3
+PX427212.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8731,,PASS,2,0,+2
+PV776692.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.879,,PASS,0,0,+1
+PQ843216.1,Tetranychus malvae,,PASS,2,Tetranychus malvae (PQ843216.1),1.0,,PASS,0,0,+1
+PQ570811.1,Tetranychus udaipurensis,,PASS,2,Tetranychus phaselus (NC_024679.1),0.8799,,PASS,2,0,+1
+PP227433.1,Tetranychus udaipurensis,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8889,,PASS,2,0,+3
+OQ062646.1,Tetranychus udaipurensis,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8731,,PASS,2,0,+3
+OP712190.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8723,,PASS,0,0,+1
+OP615139.1,Tetranychus fijiensis,,PASS,7,main reference,0.8708,,PASS,7,0,+3
+OP615127.1,Tetranychus udaipurensis,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8889,,PASS,2,0,+3
+OP614953.1,Tetranychus fijiensis,,PASS,7,Tetranychus evansi (MN417333.1),0.8721,,PASS,4,0,+3
+OP597774.1,Tetranychus udaipurensis,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8874,,PASS,2,0,+3
+ON365875.1,Tetranychus urticae,SHORT,FAIL,0,main reference,0.9583,SHORT,FAIL,0,0,+1
+MW672208.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8719,,PASS,0,0,+1
+MW672207.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8704,,PASS,0,0,+1
+MW672206.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8696,,PASS,0,0,+1
+MW672205.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8705,,PASS,0,0,+1
+MW672201.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8648,,PASS,2,0,+1
+MW672200.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8648,,PASS,2,0,+1
+MW326485.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.869,,PASS,0,0,+1
+MW326484.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.869,,PASS,0,0,+1
+MW326483.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8662,,PASS,0,0,+1
+MW326482.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.869,,PASS,0,0,+1
+MW326481.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.869,,PASS,0,0,+1
+MW326480.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8747,,PASS,0,0,+1
+MW326479.1,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.869,,PASS,0,0,+1
+MW326478.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8642,,PASS,4,0,+1
+MW326477.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8605,,PASS,4,0,+1
+MW326476.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8588,,PASS,2,0,+1
+MW326475.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8588,,PASS,4,0,+1
+MW326474.1,Tetranychus tumidellus,,PASS,2,Tetranychus malvae (PQ843216.1),0.8605,,PASS,4,0,+1
+MW326465.1,Tetranychus sp. FSCA2019_1817,,PASS,2,Tetranychus urticae (OR916022.1),0.8937,,PASS,2,0,+1
+MW326464.1,Tetranychus sp. FSCA2019_1817,,PASS,2,Tetranychus urticae (OR916022.1),0.8949,,PASS,2,0,+1
+MW326463.1,Tetranychus sp. FSCA2019_1817,,PASS,2,Tetranychus urticae (OR916022.1),0.8949,,PASS,2,0,+1
+MW326462.1,Tetranychus sp. FSCA2019_1817,,PASS,2,Tetranychus urticae (OR916022.1),0.8949,,PASS,2,0,+1
+MN417333.1,Tetranychus evansi,,PASS,2,Tetranychus evansi (MN417333.1),1.0,,PASS,0,0,+1
+MZ268250.1,Tetranychus neocaledonicus,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8707,,PASS,2,0,+2
+MZ268249.1,Tetranychus neocaledonicus,,PASS,2,Tetranychus truncatus (NC_024874.1),0.871,,PASS,2,0,+2
+MW898112.1,Tetranychus fijiensis,,PASS,5,Tetranychus bambusae (PQ822241.1),0.8646,,PASS,3,0,+1
+MW460015.1,Tetranychus udaipurensis,,PASS,2,Tetranychus phaselus (NC_024679.1),0.875,,PASS,2,0,+1
+MT603181.1,Tetranychus urticae,LOW_IDENTITY;FRAMESHIFT;STOP_CODON,FAIL,24,main reference,0.7273,LOW_IDENTITY;FRAMESHIFT;STOP_CODON,FAIL,24,0,+1
+MT603180.1,Tetranychus urticae,LOW_IDENTITY;FRAMESHIFT;STOP_CODON,FAIL,24,main reference,0.7265,LOW_IDENTITY;FRAMESHIFT;STOP_CODON,FAIL,24,0,+1
+MN530988.1,Tetranychus marianae,FRAMESHIFT,FAIL,1,Tetranychus phaselus (NC_024679.1),0.8792,FRAMESHIFT,FAIL,1,1,+1
+MT484283.1,Tetranychus fijiensis,,PASS,2,main reference,0.8925,,PASS,2,0,+1
+MT457523.1,Tetranychus puschelii,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8907,,PASS,0,0,+1
+MT416713.1,Tetranychus urticae,LOW_IDENTITY,FAIL,21,Tetranychus malvae (PQ843216.1),0.7532,PARTIAL_ALIGNMENT,FAIL,9,0,+1
+MN530989.1,Tetranychus urticae,,PASS,1,Tetranychus urticae (OR916022.1),0.9864,,PASS,1,0,+1
+MN275889.1,Tetranychus urticae,,PASS,2,main reference,0.9735,,PASS,2,0,+2
+MN275888.1,Tetranychus urticae,,PASS,1,main reference,0.9525,,PASS,1,0,+2
+MN244683.1,Tetranychus udaipurensis,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8785,,PASS,2,0,+1
+MN244682.1,Tetranychus okinawanus,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8754,,PASS,0,0,+1
+MN351218.1,Tetranychus sp. BIOUG30834-C01,,PASS,2,Tetranychus urticae (OR916022.1),0.8828,,PASS,0,0,+2
+MN351128.1,Tetranychus sp. BIOUG30833-B07,,PASS,2,Tetranychus urticae (OR916022.1),0.8828,,PASS,0,0,+2
+MK508722.1,Tetranychus urticae,,PASS,2,Tetranychus urticae (OR916022.1),0.9816,,PASS,2,0,+1
+MK627524.1,Tetranychus udaipurensis,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8761,,PASS,2,0,+3
+MK627522.1,Tetranychus okinawanus,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8761,,PASS,0,0,+1
+MH664307.1,Tetranychus udaipurensis,,PASS,1,Tetranychus bambusae (PQ822241.1),0.9036,,PASS,1,0,+2
+MH664306.1,Tetranychus udaipurensis,,PASS,1,Tetranychus bambusae (PQ822241.1),0.9013,,PASS,1,0,+2
+MF774636.1,Tetranychus truncatus,,PASS,2,Tetranychus bambusae (PQ822241.1),0.883,,PASS,2,0,+1
+MF774631.1,Tetranychus truncatus,,PASS,2,Tetranychus bambusae (PQ822241.1),0.8831,,PASS,2,0,+1
+MF774630.1,Tetranychus truncatus,,PASS,1,Tetranychus truncatus (NC_024874.1),0.9964,,PASS,1,0,+1
+MF774629.1,Tetranychus truncatus,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8835,,PASS,2,0,+3
+MG751383.1,Tetranychus urticae,,PASS,1,Tetranychus urticae (OR916022.1),0.958,,PASS,1,0,+3
+MG982985.1,Tetranychus udaipurensis,,PASS,1,Tetranychus bambusae (PQ822241.1),0.8952,,PASS,1,0,+1
+KP993524.1,Tetranychus urticae,,PASS,3,main reference,0.8814,,PASS,3,0,+1
+MF459614.1,Tetranychus okinawanus,,PASS,2,main reference,0.8899,,PASS,2,0,+1
+KX648283.1,Tetranychus urticae,,PASS,1,Tetranychus urticae (OR916022.1),0.9815,,PASS,1,3,+2
+KX648271.1,Tetranychus urticae,,PASS,1,Tetranychus urticae (OR916022.1),0.9844,,PASS,1,3,+2
+KX648264.1,Tetranychus urticae,SHORT;PARTIAL_ALIGNMENT,FAIL,6,Tetranychus bambusae (PQ822241.1),0.9624,SHORT;PARTIAL_ALIGNMENT,FAIL,0,0,+2
+KX648263.1,Tetranychus urticae,SHORT;AMBIGUOUS;FRAMESHIFT,FAIL,4,Tetranychus malaysiensis (NC_024678.1),0.9048,SHORT;AMBIGUOUS;PARTIAL_ALIGNMENT;FRAMESHIFT,FAIL,1,3,-3
+KX648262.1,Tetranychus sp. Krasnodar-Xanthium,AMBIGUOUS;FRAMESHIFT,FAIL,4,Tetranychus urticae (OR916022.1),0.882,AMBIGUOUS;FRAMESHIFT,FAIL,4,5,+1
+KX648261.1,Tetranychus turkestani,,PASS,5,Tetranychus urticae (OR916022.1),0.9773,,PASS,5,1,+2
+KX648260.1,Tetranychus turkestani,,PASS,4,Tetranychus urticae (OR916022.1),0.974,,PASS,4,5,+2
+KX648259.1,Tetranychus turkestani,,PASS,1,Tetranychus urticae (OR916022.1),0.9852,,PASS,1,2,+2
+KX648258.1,Tetranychus sp. Omsk-Fragaria,,PASS,5,Tetranychus urticae (OR916022.1),0.9805,,PASS,5,2,+2
+KX648257.1,Tetranychus turkestani,,PASS,2,Tetranychus urticae (OR916022.1),0.9576,,PASS,2,2,+2
+KT782745.1,Tetranychus okinawanus,,PASS,3,main reference,0.8753,,PASS,3,0,+1
+KX171200.1,Tetranychus puschelii,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8837,,PASS,0,0,+2
+KX171199.1,Tetranychus okinawanus,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8644,,PASS,0,0,+2
+KT186807.1,Tetranychus okinawanus,,PASS,1,Tetranychus pueraricola (NC_024680.1),0.9055,,PASS,1,0,+3
+KR271024.1,Tetranychus truncatus,,PASS,1,Tetranychus truncatus (NC_024874.1),0.9951,,PASS,1,0,+1
+KR870320.1,Tetranychus fijiensis,,PASS,3,Tetranychus ludeni (NC_024677.1),0.881,,PASS,5,0,+3
+KR870318.1,Tetranychus macfarlanei,,PASS,2,Tetranychus malaysiensis (NC_024678.1),0.938,,PASS,2,0,+2
+KR269716.1,Tetranychus bambusae,,PASS,1,Tetranychus ludeni (NC_024677.1),0.9116,,PASS,1,0,+1
+KR063239.1,Tetranychus truncatus,FRAMESHIFT,FAIL,1,Tetranychus truncatus (NC_024874.1),0.9944,FRAMESHIFT,FAIL,1,1,+1
+KM823507.1,Tetranychus sp. UAS(B)-2014-Kasargod,PARTIAL_ALIGNMENT,FAIL,3,Tetranychus urticae (OR916022.1),0.8143,PARTIAL_ALIGNMENT,FAIL,2,0,+1
+KM823506.1,Tetranychus lombardinii,PARTIAL_ALIGNMENT,FAIL,5,main reference,0.8445,PARTIAL_ALIGNMENT,FAIL,5,0,+1
+KM823505.1,Tetranychus sp. UAS(B)-2014-Trivandrum (papaya),,PASS,2,Tetranychus bambusae (PQ822241.1),0.8345,,PASS,3,0,+1
+KM435062.1,Tetranychus ludeni,,PASS,3,Tetranychus ludeni (NC_024677.1),0.9326,,PASS,0,0,+1
+KM435061.1,Tetranychus fijiensis,,PASS,2,main reference,0.8397,,PASS,2,0,+1
+KM580509.1,Tetranychus turkestani,FRAMESHIFT,FAIL,2,main reference,0.8941,FRAMESHIFT,FAIL,2,0,+1
+KJ685915.1,Tetranychus okinawanus,,PASS,1,main reference,0.8911,,PASS,1,0,+1
+KF160881.1,Tetranychus turkestani,,PASS,2,Tetranychus urticae (OR916022.1),0.9699,,PASS,2,0,+1
+AB736059.1,Tetranychus okinawanus,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8695,,PASS,1,0,+1
+AB736058.1,Tetranychus okinawanus,,PASS,4,Tetranychus phaselus (NC_024679.1),0.865,,PASS,1,0,+1
+JX075250.1,Tetranychus urticae,,PASS,1,main reference,0.9679,,PASS,1,0,+1
+AF131110.1,Tetranychus piercei,,PASS,2,Tetranychus piercei (PQ843215.1),0.9682,,PASS,0,0,+2
+AB116567.1,Tetranychus kanzawai,,PASS,1,Tetranychus bambusae (PQ822241.1),0.9812,,PASS,1,0,+3
+AB079111.2,Tetranychus kanzawai,,PASS,1,Tetranychus bambusae (PQ822241.1),0.9974,,PASS,1,0,+1
+AB079049.2,Tetranychus kanzawai,,PASS,2,Tetranychus bambusae (PQ822241.1),0.9803,,PASS,3,1,+3
+X74571.1,Tetranychus urticae,,PASS,2,main reference,0.9504,,PASS,2,0,+1
+X80861.1,Tetranychus viennensis,,PASS,2,Tetranychus urticae (OR916022.1),0.9049,,PASS,2,0,+1
+EMISA618-22,Tetranychus,,PASS,2,Tetranychus truncatus (NC_024874.1),0.8792,,PASS,2,0,+3
+EMPUL22534-23,Tetranychus,,PASS,2,main reference,0.8691,,PASS,2,0,+2
+EMSCB5088-22,Tetranychus okinawanus,,PASS,2,Tetranychus pueraricola (NC_024680.1),0.8586,,PASS,0,0,+1
+EOTEL001-22,Tetranychus lewisi,,PASS,2,main reference,0.8676,,PASS,2,0,+1
+EOTEL002-22,Tetranychus lewisi,,PASS,2,main reference,0.8676,,PASS,2,0,+1
+EOTEL003-22,Tetranychus lewisi,,PASS,2,main reference,0.8676,,PASS,2,0,+1
+EOTEL004-22,Tetranychus lewisi,,PASS,2,main reference,0.8676,,PASS,2,0,+1
+GACAC6366-19,Tetranychus okinawanus,,PASS,1,main reference,0.83,,PASS,1,0,+1
+GACAC6383-19,Tetranychus udaipurensis,,PASS,1,Tetranychus bambusae (PQ822241.1),0.9048,,PASS,1,0,+1
+GBMIN116037-17,Tetranychus puschelii,,PASS,2,main reference,0.8872,,PASS,2,0,+1
+GBMTG2290-16_COII,Tetranychus cinnabarinus,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GBMTG3729-16_COII,Tetranychus kanzawai,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GBMTG3732-16_COII,Tetranychus ludeni,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GBMTG3735-16_COII,Tetranychus malaysiensis,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GBMTG3739-16_COII,Tetranychus phaselus,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GBMTG3744-16_COII,Tetranychus pueraricola,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GBMTG3748-16_COII,Tetranychus truncatus,NOT_ALIGNED,FAIL,,main reference,,NOT_ALIGNED,FAIL,,0,+1
+GMAMA590-15,Tetranychus,NOT_ALIGNED,FAIL,,Tetranychus pueraricola (NC_024680.1),0.7031,LOW_IDENTITY;PARTIAL_ALIGNMENT,FAIL,2,0,+1
+GMPKP087-23,Tetranychus urticae,,PASS,6,Tetranychus urticae (OR916022.1),0.9834,,PASS,6,0,+2
+KMPUD6613-19,Tetranychus ludeni,,PASS,1,Tetranychus ludeni (NC_024677.1),0.9969,,PASS,1,0,+2
+MPGO2298-19,Tetranychus,,PASS,2,Tetranychus urticae (OR916022.1),0.8781,,PASS,0,0,+2
+MPGO2301-19,Tetranychus,,PASS,2,Tetranychus bambusae (PQ822241.1),0.8781,,PASS,2,0,+2
+MPGO3664-19,Tetranychus,,PASS,2,Tetranychus urticae (OR916022.1),0.8801,,PASS,0,0,+3
+MPGO3665-19,Tetranychus,,PASS,2,Tetranychus bambusae (PQ822241.1),0.883,,PASS,2,0,+1
+OPPNS1223-17,Tetranychus,,PASS,1,main reference,0.9453,,PASS,1,1,+2
+PKTRA4120-23,Tetranychus,,PASS,1,Tetranychus urticae (OR916022.1),0.9663,,PASS,1,0,+1
+PKTRA4135-23,Tetranychus,,PASS,1,Tetranychus urticae (OR916022.1),0.9662,,PASS,1,0,+1
+SAKZB7960-23,Tetranychus ludeni,,PASS,1,Tetranychus ludeni (NC_024677.1),0.9102,,PASS,1,0,+2
+SAKZB8023-23,Tetranychus ludeni,,PASS,1,Tetranychus ludeni (NC_024677.1),0.9106,,PASS,1,0,+2
+SMCK004-25,Tetranychus gloveri,,PASS,4,Tetranychus phaselus (NC_024679.1),0.8731,,PASS,2,0,+2

@@ -1,10 +1,10 @@
 Reference COX1: 1539 bp
 Records checked: 700
-Passed: 691 (98.7%)
+Passed: 693 (99.0%)
 Flags (a record can have several):
-  FRAMESHIFT: 5 (0.7%)
   LOW_IDENTITY: 4 (0.6%)
   SHORT: 3 (0.4%)
+  FRAMESHIFT: 3 (0.4%)
   STOP_CODON: 2 (0.3%)
   PARTIAL_ALIGNMENT: 1 (0.1%)
   AMBIGUOUS: 1 (0.1%)
