@@ -21,7 +21,7 @@ The pipeline gathers COI records from GenBank and BOLD, occurrence records from 
 | 9 | `trends.py` | Data quality by submission year and country, with submission-batch level tests |
 | 10 | `robustness.py` | Thresholds (together and separately), level A anchors, synonymy, fold isolation, study bootstrap, cluster chaining, COI vs ITS2 label agreement with batch-level uncertainty |
 | – | `study_keys.py` | Submission batches (first author or consortium and year; BOLD project code) used to group records |
-| – | `supplementary_tables.py`, `figures.py` | Supplementary Tables S1–S6 (Excel) and Figures 1–5 (PDF and PNG) |
+| – | `supplementary_tables.py`, `figures.py` | Supplementary Tables S1–S7 (Excel), Figures 1–5 (PDF and PNG), full-size labelled trees as Figures S1–S4 (PDF) and labelled Newick files (`results/phylogeny/**/labelled_tree.nwk`) |
 
 ## Running it on GitHub
 

@@ -6,6 +6,8 @@ Figure 3  identification of anchor specimens, raw against cleaned database
 Figure 4  maximum-likelihood trees of the two halves of COX1 (all records and
           the same records in both halves), with the names carried by each tip
 Figure 5  documentation of records by submission period
+Figures S1-S4  the four trees of Figure 4 at full size, with labelled tips
+              (also written as labelled Newick files next to each tree)
 
 Each figure is written as PDF (vector) and PNG (600 dpi) to results/figures.
 
@@ -57,14 +59,15 @@ def italic_species(name):
 # Figure 1 ------------------------------------------------------------------
 def figure1():
     fig, ax = plt.subplots(figsize=(6.7, 3.3))
-    ax.set_xlim(0, 100)
+    ax.set_xlim(0, 101)
     ax.set_ylim(0, 50)
     ax.axis("off")
 
     def box(x, y, w, h, text, fill="#f4f3ef"):
         ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.4,rounding_size=1.2",
                                     fc=fill, ec=BASE, lw=0.6))
-        ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=7, color=INK, linespacing=1.25)
+        ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=6.4 if text.count("\n") >= 3 else 7,
+                color=INK, linespacing=1.25)
         return (x, y, w, h)
 
     def arrow(a, b, start="r", end="l"):
@@ -80,10 +83,10 @@ def figure1():
     merge = box(22, 32, 15, 8, "Merge and\nmetadata audit\n(0-7 score)")
     qc = box(43, 32, 15, 8, "Sequence QC\n(length, frame,\nidentity)")
     clus = box(64, 32, 16, 8, "Haplotypes, K2P,\nclusters,\nbarcode gaps")
-    anc = box(85, 38, 14, 7, "Anchor check\n(12 sources)")
-    ident = box(85, 27.5, 14, 7.5, "Identification\ntest (leave one\nstudy out)")
+    anc = box(82.4, 37, 18, 9.5, "Anchor check:\n12 candidate sources,\n9 studies used\n(108 anchors)")
+    ident = box(82.4, 25.5, 18, 7.5, "Identification\ntest (leave one\nstudy out)")
     phy = box(64, 18, 16, 8, "Trees: 5′, 3′ and\nsame records\nin both halves")
-    sens = box(85, 17, 14, 7.5, "Sensitivity:\nthresholds,\nanchors, folds")
+    sens = box(82.4, 14.5, 18, 7.5, "Sensitivity:\nthresholds,\nanchors, folds")
     its2 = box(22, 8, 15, 7, "ITS2 distances,\nnearest names")
     pair = box(43, 8, 15, 7, "COI–ITS2 pairs\n(one-to-one links)")
     trend = box(22, 19.5, 15, 7, "Trends by year\nand country")
@@ -299,6 +302,146 @@ def figure4():
     save(fig, "Figure4")
 
 
+# Figures S1-S4: the trees of Figure 4 at full size, with labelled tips ------------
+SUPP_TREES = [
+    ("results/phylogeny/5prime", "FigureS1",
+     "Figure S1. Maximum-likelihood tree of the 5′ half of COX1 (reference positions 43–696), all records "
+     "covering at least 80% of the window, collapsed to haplotypes (Figure 4a)."),
+    ("results/phylogeny/3prime", "FigureS2",
+     "Figure S2. Maximum-likelihood tree of the 3′ half of COX1 (reference positions 719–1,130), all records "
+     "covering at least 80% of the window, collapsed to haplotypes (Figure 4b)."),
+    ("results/phylogeny/paired/5prime", "FigureS3",
+     "Figure S3. Maximum-likelihood tree of the 5′ half of COX1 for the 98 records that cover both windows "
+     "(Figure 4c)."),
+    ("results/phylogeny/paired/3prime", "FigureS4",
+     "Figure S4. Maximum-likelihood tree of the 3′ half of COX1 for the 98 records that cover both windows "
+     "(Figure 4d)."),
+]
+
+
+def ordered_tree(treefile):
+    tree = Phylo.read(treefile, "newick")
+    tree.root_at_midpoint()
+    tree.ladderize()
+    return tree
+
+
+def node_support(c):
+    sup = c.confidence
+    if sup is None and c.name:
+        try:
+            sup = float(c.name.split("/")[-1])
+        except ValueError:
+            sup = None
+    return sup
+
+
+def tip_label(row):
+    def names(field):
+        parts = []
+        for part in (row.get(field) or "").split("; "):
+            m = re.match(r"(.+) \((\d+)\)$", part)
+            if m:
+                n = m.group(1)
+                parts.append(f"{italic_species(n) if n.startswith('Tetranychus') else n.strip('()')} ({m.group(2)})")
+        return ", ".join(parts)
+    text = f"{row['haplotype']}   {names('species_names')}"
+    if row.get("anchor_names"):
+        text += f"   [anchor: {names('anchor_names')}]"
+    return text
+
+
+def supplementary_tree(d, name, caption):
+    tree = ordered_tree(os.path.join(d, "iqtree.treefile"))
+    rows = {r["haplotype"]: r for r in read(os.path.join(d, "tips.csv"))}
+    tips = tree.get_terminals()
+    n = len(tips)
+    height = 0.115 * n + 2.5
+    fig = plt.figure(figsize=(8.27, height))
+    ax = fig.add_axes([0.03, 0.7 / height, 0.95, (height - 2.4) / height])
+    ypos = {t: i for i, t in enumerate(tips)}
+    depths = tree.depths()
+
+    def y_of(c):
+        if c in ypos:
+            return ypos[c]
+        ys = [y_of(k) for k in c.clades]
+        ypos[c] = (min(ys) + max(ys)) / 2
+        return ypos[c]
+
+    y_of(tree.root)
+    segs = []
+    for c in tree.find_clades(order="preorder"):
+        if c.clades:
+            segs.append([(depths[c], ypos[c.clades[0]]), (depths[c], ypos[c.clades[-1]])])
+            for k in c.clades:
+                segs.append([(depths[c], ypos[k]), (depths[k], ypos[k])])
+    ax.add_collection(LineCollection(segs, colors=INK2, linewidths=0.4))
+    xmax = max(depths.values())
+    span = xmax / 0.42  # the tree takes 42% of the width
+    for c in tree.get_nonterminals():
+        sup = node_support(c)
+        if sup is not None and sup >= 70 and c is not tree.root:
+            ax.text(depths[c] - span * 0.002, ypos[c] - 0.15, f"{sup:.0f}", ha="right", va="bottom",
+                    fontsize=3.6, color=INK2)
+    x0, dx = xmax + span * 0.012, span * 0.011
+    for t in tips:
+        sp, anchor = tip_names_row(rows.get(t.name, {}))
+        flags = [sp.get(COLUMNS[0][0]), sp.get(COLUMNS[1][0]), sp.get(COLUMNS[2][0]), sp.get(COLUMNS[3][0]),
+                 any(k not in ("(unnamed)",) + tuple(nm for nm, _ in COLUMNS[:4]) for k in sp),
+                 "(unnamed)" in sp, anchor]
+        for j, on in enumerate(flags):
+            if on:
+                ax.add_patch(plt.Rectangle((x0 + j * dx, ypos[t] - 0.42), dx * 0.8, 0.84, color=COLUMNS[j][1], lw=0))
+        ax.plot([depths[t], x0 - span * 0.004], [ypos[t]] * 2, color=GRID, lw=0.3, zorder=0)
+        ax.text(x0 + len(COLUMNS) * dx + span * 0.008, ypos[t], tip_label(rows.get(t.name, {"haplotype": t.name})),
+                va="center", ha="left", fontsize=5.2, color=INK)
+    for j, (nm, _) in enumerate(COLUMNS):
+        lab = italic_species(nm) if nm.startswith("Tetranychus") else nm
+        ax.text(x0 + j * dx + dx * 0.4, -1.2, lab, rotation=90, ha="center", va="bottom", fontsize=5.2, color=INK)
+    ax.set_xlim(-span * 0.005, span)
+    ax.set_ylim(n - 0.5, -0.5)
+    ax.axis("off")
+    ax.plot([0, 0.05], [n + 1.2, n + 1.2], color=INK2, lw=0.6, clip_on=False)
+    ax.text(0.055, n + 1.2, "0.05 substitutions/site", ha="left", va="center", fontsize=6, color=INK2, clip_on=False)
+    fig.text(0.03, 1 - 0.25 / height, caption, ha="left", va="top", fontsize=7.5, color=INK, wrap=True)
+    fig.text(0.03, 1 - 0.55 / height, "Tips are haplotypes, labelled with their identifier, the accepted names of the "
+             "records carrying them (number of records) and any anchor specimens; Table S7 lists the accession of "
+             "every record. Numbers at nodes are ultrafast bootstrap values of at least 70. Columns as in Figure 4.",
+             ha="left", va="top", fontsize=6.2, color=INK2, wrap=True)
+    os.makedirs(OUT, exist_ok=True)
+    fig.savefig(os.path.join(OUT, f"{name}.pdf"))
+    plt.close(fig)
+
+
+def tip_names_row(row):
+    names = {}
+    for part in (row.get("species_names") or "").split("; "):
+        m = re.match(r"(.+) \((\d+)\)$", part)
+        if m:
+            names[m.group(1)] = int(m.group(2))
+    return names, bool(row.get("anchor_names"))
+
+
+def labelled_newick(d):
+    """IQ-TREE tree with tips renamed to haplotype|names|records (Newick-safe)."""
+    tree = Phylo.read(os.path.join(d, "iqtree.treefile"), "newick")
+    rows = {r["haplotype"]: r for r in read(os.path.join(d, "tips.csv"))}
+    for t in tree.get_terminals():
+        r = rows.get(t.name)
+        if r:
+            names = re.sub(r"[^A-Za-z0-9_.+-]", "", r["species_names"].replace("Tetranychus ", "T.")
+                           .replace(" (", "_").replace(")", "").replace("; ", "+").replace(" ", "_"))
+            t.name = f"{r['haplotype']}|{names}|n{r['records']}"
+    Phylo.write(tree, os.path.join(d, "labelled_tree.nwk"), "newick")
+
+
+def supplementary_figures():
+    for d, name, caption in SUPP_TREES:
+        supplementary_tree(d, name, caption)
+        labelled_newick(d)
+
+
 # Figure 5 ------------------------------------------------------------------
 def figure5():
     rows = read("results/trends/by_period.csv")
@@ -343,6 +486,7 @@ def main():
     figure3()
     figure4()
     figure5()
+    supplementary_figures()
     print(f"Figures written to {OUT}")
 
 

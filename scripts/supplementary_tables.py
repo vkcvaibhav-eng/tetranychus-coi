@@ -1,4 +1,4 @@
-"""Supplementary tables S1-S6 as one Excel workbook.
+"""Supplementary tables S1-S7 as one Excel workbook.
 
 S1  Anchor studies and anchor accessions
 S2  Metadata and quality control for every record (accession versions)
@@ -8,6 +8,7 @@ S4  Sensitivity: K2P thresholds, anchor evidence and taxonomic treatment
 S5  Identification test: every query, outcomes by species, raw -> cleaned
 S6  Records disagreeing with the anchored species of their cluster, and
     COI-ITS2 comparison for specimens sequenced for both genes
+S7  Tips of the four trees, in figure order, with the records behind each tip
 
 Usage: python scripts/supplementary_tables.py [--out results/supplementary]
 """
@@ -209,7 +210,39 @@ def main():
     add_sheet(wb, "S6 Disagreements and ITS2", "Table S6. Records that disagree with the anchored species of "
               "their cluster, and COI-ITS2 comparison for specimens sequenced for both genes.", blocks)
 
-    path = os.path.join(args.out, "Supplementary_Tables_S1-S6.xlsx")
+    # S7: every tip of the four trees (Figures 4 and S1-S4) with the records behind it,
+    # in the order the tips appear in the figures (midpoint-rooted, ladderized).
+    from collections import Counter
+    from Bio import Phylo
+    trees = [("Figure S1 (5′ half, all records)", "results/phylogeny/5prime"),
+             ("Figure S2 (3′ half, all records)", "results/phylogeny/3prime"),
+             ("Figure S3 (5′ half, same 98 records)", "results/phylogeny/paired/5prime"),
+             ("Figure S4 (3′ half, same 98 records)", "results/phylogeny/paired/3prime")]
+    s7 = []
+    for label, d in trees:
+        tf = os.path.join(d, "iqtree.treefile")
+        if not os.path.exists(tf):
+            continue
+        tree = Phylo.read(tf, "newick")
+        tree.root_at_midpoint()
+        tree.ladderize()
+        tips = {r["haplotype"]: r for r in read(os.path.join(d, "tips.csv"))}
+        for pos, t in enumerate(tree.get_terminals(), start=1):
+            r = tips.get(t.name, {})
+            ids = (r.get("record_ids") or "").split()
+            submitted = Counter(merged.get(i, {}).get("species_label", "") or "(unnamed)" for i in ids)
+            s7.append({"Tree": label, "Position (top = 1)": pos, "Haplotype": t.name,
+                       "Records": r.get("records", ""),
+                       "Accepted names (records)": r.get("species_names", ""),
+                       "Names in records as submitted (records)": "; ".join(
+                           f"{k} ({v})" for k, v in submitted.most_common()),
+                       "Anchor specimens": r.get("anchor_names", ""),
+                       "Record identifiers (accession.version or BOLD process ID)": " ".join(ids)})
+    if s7:
+        add_sheet(wb, "S7 Tree tips", "Table S7. Tips of the trees in Figures 4 and S1-S4, in the order they appear "
+                  "from top to bottom, with every record behind each tip.", [("", list(s7[0].keys()), s7)])
+
+    path = os.path.join(args.out, "Supplementary_Tables_S1-S7.xlsx")
     wb.save(path)
     print(f"Written {path}")
 
