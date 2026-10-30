@@ -1,0 +1,54 @@
+name: Fetch NCBI records on request
+
+# Starts when a request file is pushed to requests/. Each line of the file is
+#   <output folder> | <file name> | <NCBI query>
+# and is downloaded with scripts/fetch_ncbi.py into the given folder.
+
+on:
+  push:
+    paths:
+      - "requests/*.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Download every request
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          mkdir -p data/logs
+          for f in requests/*.txt; do
+            while IFS='|' read -r out name query; do
+              out=$(echo "$out" | xargs); name=$(echo "$name" | xargs); query=$(echo "$query" | sed 's/^ *//;s/ *$//')
+              [ -z "$out" ] || [ "${out:0:1}" = "#" ] && continue
+              echo "== $name -> $out"
+              python scripts/fetch_ncbi.py "$query" "ncbi_$name" "$out" 2>&1 | tee "data/logs/ncbi_$name.log" || true
+            done < "$f"
+          done
+
+      - name: Save data to the repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git commit -m "NCBI downloads on request" || echo "Nothing new to commit"
+          git pull --rebase -q
+          git push
