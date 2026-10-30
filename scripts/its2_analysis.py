@@ -139,6 +139,9 @@ def main():
     p.add_argument("--anchors", default=os.path.join("data", "anchors"))
     p.add_argument("--out", default=os.path.join("results", "its2"))
     p.add_argument("--threshold", type=float, default=0.015)
+    p.add_argument("--ref-species", default="Tetranychus urticae",
+                   help="Species whose most common annotated ITS2 is the extraction reference "
+                        "(falls back to any annotated ITS2)")
     p.add_argument("--min-length", type=int, default=150)
     p.add_argument("--workers", type=int, default=os.cpu_count() or 1)
     p.add_argument("--distance-cache", default="",
@@ -167,13 +170,18 @@ def main():
     aligner = make_aligner(local=True)
     annotated = []
     for rec in records.values():
-        if canon(rec.annotations.get("organism", "")) != "Tetranychus urticae":
+        if args.ref_species and canon(rec.annotations.get("organism", "")) != args.ref_species:
             continue
         for f in rec.features:
             if f.type in ("misc_RNA", "misc_feature") and ITS2_PAT.match(feature_label(f)):
                 annotated.append(str(f.extract(rec.seq)).upper())
+    if not annotated and args.ref_species:  # no annotated ITS2 of that species: use any annotated ITS2
+        for rec in records.values():
+            for f in rec.features:
+                if f.type in ("misc_RNA", "misc_feature") and ITS2_PAT.match(feature_label(f)):
+                    annotated.append(str(f.extract(rec.seq)).upper())
     ref = Counter(annotated).most_common(1)[0][0] if annotated else ""
-    print(f"{len(records)} ITS2 records; reference ITS2 {len(ref)} bp from {len(annotated)} annotated T. urticae")
+    print(f"{len(records)} ITS2 records; reference ITS2 {len(ref)} bp from {len(annotated)} annotated ITS2 sequences")
 
     rows, haps, hap_of = [], {}, {}
     for rid, rec in records.items():

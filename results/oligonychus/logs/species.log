@@ -1,0 +1,28 @@
+472 sequences, 228 unique haplotypes on reference coordinates
+Names: as submitted
+Sequences: 472  Haplotypes: 228  Named species: 38
+Distance: K2P on shared sites (min overlap 300 bp); clusters at 0.030
+Records without a species name: 36
+Records on haplotypes shared by more than one species name: 0
+Records whose nearest neighbour is another species: 29
+Species with barcode gap (of 27 testable): 15
+Species split over more than one cluster: 13 (Oligonychus afrasiaticus, Oligonychus biharensis, Oligonychus castaneae, Oligonychus coffeae, Oligonychus grypus, Oligonychus indicus, Oligonychus karamatus, Oligonychus oryzae, Oligonychus perseae, Oligonychus punicae, Oligonychus thelytokus, Oligonychus tylus, Oligonychus ununguis)
+Clusters containing more than one species name: 5
+  C049 (28 records): Oligonychus ununguis (22); Oligonychus castaneae (4); Oligonychus neocastaneae (2)
+  C053 (24 records): Oligonychus punicae (19); Oligonychus mangiferus (4); Oligonychus vitis (1)
+  C039 (20 records): Oligonychus tylus (17); Oligonychus indicus (2); (unnamed) (1)
+  C046 (3 records): Oligonychus grypus (2); Oligonychus oryzae (1)
+  C017 (2 records): Oligonychus oryzae (1); Oligonychus grypus (1)
+Species without a barcode gap:
+  Oligonychus biharensis: max within 0.1054, nearest Oligonychus grypus at 0.0968
+  Oligonychus castaneae: max within 0.0929, nearest Oligonychus neocastaneae at 0.0000
+  Oligonychus coffeae: max within 0.0856, nearest Oligonychus punicae at 0.0686
+  Oligonychus grypus: max within 0.0079, nearest Oligonychus oryzae at 0.0000
+  Oligonychus indicus: max within 0.1624, nearest Oligonychus tylus at 0.0044
+  Oligonychus mangiferus: max within 0.0292, nearest Oligonychus vitis at 0.0027
+  Oligonychus neocastaneae: max within 0.0028, nearest Oligonychus castaneae at 0.0000
+  Oligonychus oryzae: max within 0.0000, nearest Oligonychus grypus at 0.0000
+  Oligonychus perseae: max within 0.1105, nearest Oligonychus ununguis at 0.0856
+  Oligonychus punicae: max within 0.1497, nearest Oligonychus vitis at 0.0025
+  Oligonychus tylus: max within 0.0895, nearest Oligonychus indicus at 0.0044
+  Oligonychus ununguis: max within 0.1384, nearest Oligonychus castaneae at 0.0280

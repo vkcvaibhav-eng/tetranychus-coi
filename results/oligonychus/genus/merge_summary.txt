@@ -1,0 +1,25 @@
+Total unique records: 476
+  GenBank: 476
+Processing:
+  cox1_extracted_from_mitogenome: 2
+  genbank_read: 476
+Metadata score (0-7, records):
+  0: 106
+  1: 5
+  2: 29
+  3: 88
+  4: 209
+  5: 33
+  6: 6
+  7: 0
+Data-quality notes:
+  identifications by BOLD automated matching: 0
+  coordinates excluded as country/province centroids: 0
+Records missing each item:
+  identifier: 442 (92.9%)
+  voucher: 378 (79.4%)
+  coordinates: 305 (64.1%)
+  collection_date: 285 (59.9%)
+  publication: 227 (47.7%)
+  host: 217 (45.6%)
+  country: 114 (23.9%)

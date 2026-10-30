@@ -1,0 +1,17 @@
+Records: 476; with a submission year: 476 (1994-2026)
+Metadata score vs submission year: Spearman rho 0.125, permutation p 0.0090; 95% interval resampling 44 submission batches -0.251 to 0.662
+Batch level (median year vs mean score, 44 batches): rho 0.172, permutation p 0.2659
+By period: records | QC fail % | unnamed % | coordinates % | voucher % | publication % | mean score | disagree with anchor %
+  before 2006: 3 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 | 1.00 | - (of 0)
+  2006-2010: 28 | 0.0 | 0.0 | 0.0 | 3.6 | 0.0 | 1.82 | - (of 0)
+  2011-2015: 69 | 4.3 | 14.5 | 14.5 | 14.5 | 55.1 | 2.30 | - (of 0)
+  2016-2020: 293 | 0.3 | 4.8 | 51.2 | 11.6 | 61.1 | 2.83 | - (of 0)
+  2021 onwards: 83 | 0.0 | 14.5 | 13.3 | 63.9 | 34.9 | 3.88 | - (of 0)
+By country (at least 20 records, plus India), same columns:
+  Mexico: 141 | 0.0 | 0.7 | 99.3 | 0.7 | 100.0 | 4.01 | - (of 0) | batches 2; disagreeing records 0 from 0 batches
+  (not given): 114 | 1.8 | 0.9 | 0.0 | 3.5 | 4.4 | 0.16 | - (of 0) | batches 10; disagreeing records 0 from 0 batches
+  Japan: 61 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 | 3.00 | - (of 0) | batches 3; disagreeing records 0 from 0 batches
+  India: 51 | 3.9 | 9.8 | 3.9 | 56.9 | 0.0 | 3.82 | - (of 0) | batches 15; disagreeing records 0 from 0 batches
+  China: 26 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 2.00 | - (of 0) | batches 2; disagreeing records 0 from 0 batches
+  Saudi Arabia: 24 | 0.0 | 0.0 | 0.0 | 100.0 | 45.8 | 4.38 | - (of 0) | batches 3; disagreeing records 0 from 0 batches
+  Canada: 20 | 0.0 | 90.0 | 100.0 | 100.0 | 60.0 | 5.30 | - (of 0) | batches 4; disagreeing records 0 from 0 batches

@@ -1,0 +1,8 @@
+country,records,batches,qc_fail_pct,unnamed_pct,coordinates_pct,voucher_pct,publication_pct,mean_metadata_score,in_anchored_clusters,disagree_with_anchor_pct,disagreeing_records,batches_with_disagreement
+Mexico,141,2,0.0,0.7,99.3,0.7,100.0,4.01,0,,0,0
+(not given),114,10,1.8,0.9,0.0,3.5,4.4,0.16,0,,0,0
+Japan,61,3,0.0,0.0,0.0,0.0,100.0,3.00,0,,0,0
+India,51,15,3.9,9.8,3.9,56.9,0.0,3.82,0,,0,0
+China,26,2,0.0,0.0,0.0,0.0,0.0,2.00,0,,0,0
+Saudi Arabia,24,3,0.0,0.0,0.0,100.0,45.8,4.38,0,,0,0
+Canada,20,4,0.0,90.0,100.0,100.0,60.0,5.30,0,,0,0

@@ -1,0 +1,46 @@
+ITS2 records: 335; usable: 212; unique: 96
+Single-linkage clusters chain related species; species assignment uses nearest neighbours.
+Extraction: ITS2 feature 217, not found 91, aligned to reference ITS2 27
+Distance: semi-global alignment (free end gaps), min overlap 150 bp; clusters at 0.015
+ITS2 clusters: 23; with more than one species name: 3
+  I006 (88): Oligonychus perseae (87); Oligonychus punicae (1)
+  I003 (38): Oligonychus punicae (35); Oligonychus mangiferus (3)
+  I012 (24): Oligonychus perseae (23); Oligonychus punicae (1)
+  I014 (17): Oligonychus punicae (16); (unnamed) (1)
+  I023 (15): Oligonychus ununguis (15)
+  I013 (8): Oligonychus punicae (8)
+  I005 (3): Oligonychus perseae (3)
+  I020 (3): Oligonychus ununguis (3)
+  I017 (2): Oligonychus coffeae (2)
+  I001 (1): Oligonychus punicae (1)
+  I002 (1): Oligonychus bahaensis (1)
+  I004 (1): (unnamed) (1)
+Key species pairs (ITS2 distance min / median):
+  turkestani vs urticae: no comparison  (within turkestani n/a; within urticae n/a)
+  truncatus vs urticae: no comparison  (within truncatus n/a; within urticae n/a)
+  kanzawai vs parakanzawai: no comparison  (within kanzawai n/a; within parakanzawai n/a)
+  macfarlanei vs malaysiensis: no comparison  (within macfarlanei n/a; within malaysiensis n/a)
+  ludeni vs neocaledonicus: no comparison  (within ludeni n/a; within neocaledonicus n/a)
+ITS2 nearest-neighbour name matches own name: 198 of 209 named records (94.7%)
+  Oligonychus perseae: 116 of 116 match
+  Oligonychus punicae: 60 of 62 match
+  Oligonychus ununguis: 20 of 20 match
+  Oligonychus coffeae: 2 of 5 match
+  Oligonychus mangiferus: 0 of 3 match
+  Oligonychus bahaensis: 0 of 1 match
+  Oligonychus gotohi: 0 of 1 match
+  Oligonychus afrasiaticus: 0 of 1 match
+Nearest neighbour from another submission batch matches own name: 153 of 185 named records (82.7%)
+  Oligonychus perseae: 107 of 116 match
+  Oligonychus punicae: 24 of 38 match
+  Oligonychus ununguis: 20 of 20 match
+  Oligonychus coffeae: 2 of 5 match
+  Oligonychus mangiferus: 0 of 3 match
+  Oligonychus bahaensis: 0 of 1 match
+  Oligonychus gotohi: 0 of 1 match
+  Oligonychus afrasiaticus: 0 of 1 match
+Specimen links between genes: 110 pairs for 110 keys; one-to-one without conflict: 110; ambiguous: 0 pairs; one-to-one with conflicting names or countries: 0
+COI vs ITS2 for one-to-one specimens (COI cluster species vs ITS2 nearest species):
+  agree 108, disagree 2 of 110
+  1 x labelled Oligonychus coffeae (Japan): COI groups with Oligonychus coffeae, ITS2 nearest Oligonychus mangiferus
+  1 x labelled Oligonychus gotohi (Japan): COI groups with Oligonychus gotohi, ITS2 nearest Oligonychus mangiferus

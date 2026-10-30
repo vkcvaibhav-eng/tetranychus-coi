@@ -1,0 +1,336 @@
+record_id,species_label,accepted_name,country,its2_length,extraction,haplotype,cluster,nn_distance,nn_name,nn_match,batch,nn_name_other_batch,nn_distance_other_batch,nn_match_other_batch
+PZ719927.1,Oligonychus oryzae,Oligonychus oryzae,India,0,not found,,,,,,"sumathi,e.|2026",,,
+PZ719926.1,Oligonychus oryzae,Oligonychus oryzae,India,0,not found,,,,,,"sumathi,e.|2026",,,
+PZ625789.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"vidya,m.|2026",,,
+PX998498.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"vidya,m.|2026",,,
+PX928285.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"vidya,m.|2026",,,
+PX928281.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"vidya,m.|2026",,,
+PX915574.1,Oligonychus punicae,Oligonychus punicae,India,277,aligned to reference ITS2,I0001,I001,0.0215,Oligonychus punicae,yes,"chinnamadegowda,c.|2026",Oligonychus punicae,0.0215,yes
+PX048750.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"chinamadegowda,c.|2025",,,
+PQ249404.1,Oligonychus punicae,Oligonychus punicae,India,522,ITS2 feature,I0002,I003,0.0000,Oligonychus punicae,yes,"sumathi,e.|2024",Oligonychus punicae,0.0000,yes
+PQ249403.1,Oligonychus punicae,Oligonychus punicae,India,501,ITS2 feature,I0003,I003,0.0000,Oligonychus punicae,yes,"sumathi,e.|2024",Oligonychus punicae,0.0000,yes
+PP905387.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"sneha,g.|2024",,,
+OR288175.1,Oligonychus bahaensis,Oligonychus bahaensis,Saudi Arabia,494,ITS2 feature,I0004,I002,0.2022,Oligonychus afrasiaticus,no,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.2022,no
+OQ821689.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"srinivas,n.|2023",,,
+OP821246.1,Oligonychus punicae,Oligonychus punicae,Pakistan,430,ITS2 feature,I0005,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes
+OP821245.1,Oligonychus punicae,Oligonychus punicae,Pakistan,430,ITS2 feature,I0005,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes
+OP821244.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,496,ITS2 feature,I0006,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes
+OP821243.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0007,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes
+OP821242.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0007,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes
+MZ435920.1,Oligonychus sp. CAMO52,,Mexico,429,ITS2 feature,I0008,I014,0.0000,Oligonychus punicae,,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,
+MZ435919.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435918.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,489,ITS2 feature,I0010,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435917.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,446,ITS2 feature,I0011,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435916.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,468,ITS2 feature,I0012,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435915.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,493,ITS2 feature,I0013,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435914.1,Oligonychus punicae,Oligonychus punicae,Pakistan,445,ITS2 feature,I0014,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435913.1,Oligonychus punicae,Oligonychus punicae,Pakistan,465,ITS2 feature,I0015,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435912.1,Oligonychus punicae,Oligonychus punicae,Pakistan,444,ITS2 feature,I0016,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435911.1,Oligonychus punicae,Oligonychus punicae,Pakistan,430,ITS2 feature,I0005,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435910.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435909.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,463,ITS2 feature,I0017,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435908.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,428,ITS2 feature,I0018,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435907.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,425,ITS2 feature,I0019,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435906.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435905.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,470,ITS2 feature,I0020,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435904.1,Oligonychus punicae,Oligonychus punicae,Pakistan,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435903.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,473,ITS2 feature,I0021,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435902.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,489,ITS2 feature,I0010,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435901.1,Oligonychus punicae,Oligonychus punicae,Egypt,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435900.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435899.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435898.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,460,ITS2 feature,I0022,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435897.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435896.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,494,ITS2 feature,I0023,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes
+MZ435895.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435894.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435893.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+MZ435892.1,Oligonychus punicae,Oligonychus punicae,Saudi Arabia,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,yes,"mushtaq,h.m.s.|2021",Oligonychus mangiferus,0.0000,no
+OP214345.1,Oligonychus oryzae,Oligonychus oryzae,India,0,not found,,,,,,"vignesh,m.|2022",,,
+OL830813.1,Oligonychus sp. UAS-B 3030,,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MZ618719.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"safeena,m.|2021",,,
+MZ618679.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"safeena,m.|2021",,,
+MZ618621.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"safeena,m.|2021",,,
+MZ615524.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"safeena,m.|2021",,,
+MZ604933.1,Oligonychus thelytokus,Oligonychus thelytokus,,122,aligned to reference ITS2,,,,,,"safeena,m.|2021",,,
+MZ503536.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MZ503535.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MZ496530.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MZ496528.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MZ496497.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MW909770.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MW909769.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MW748064.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"srinivas,n.|2021",,,
+MW709399.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"safeena,m.|2021",,,
+MW709398.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"safeena,m.|2021",,,
+MW471143.1,Oligonychus grypus,Oligonychus grypus,India,0,not found,,,,,,"dyamanagouda,p.|2021",,,
+MW332263.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2020",,,
+MW332057.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2020",,,
+MT710928.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"safeena,m.|2020",,,
+MT818578.1,Oligonychus thelytokus,Oligonychus thelytokus,India,122,aligned to reference ITS2,,,,,,"srinivas,n.|2020",,,
+MT015902.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"srinivas,n.|2020",,,
+MN986931.1,Oligonychus plegas,Oligonychus plegas,India,0,not found,,,,,,"srinivas,n.|2020",,,
+MN969994.1,Oligonychus mangiferus,Oligonychus mangiferus,India,274,aligned to reference ITS2,I0024,I003,0.0036,Oligonychus punicae,no,"srinivas,n.|2020",Oligonychus punicae,0.0036,no
+MN382161.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2019",,,
+MN190324.1,Oligonychus indicus,Oligonychus indicus,India,0,not found,,,,,,"srinivas,n.|2019",,,
+MN190323.1,Oligonychus indicus,Oligonychus indicus,India,0,not found,,,,,,"srinivas,n.|2019",,,
+LC375610.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375609.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375608.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375607.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375606.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375605.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375604.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375603.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375602.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375601.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375600.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375599.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375598.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375597.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375596.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375595.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375594.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375593.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375592.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375591.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375590.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375589.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375588.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375587.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375586.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375585.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375584.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375628.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375627.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375626.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375625.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375624.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375623.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375622.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375621.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375620.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375619.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375618.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375617.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375616.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375615.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375614.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375613.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375612.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+LC375611.1,Oligonychus castaneae,Oligonychus castaneae,Japan,0,not found,,,,,,"gotoh,t.|2018",,,
+MK640235.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"n,s.|2019",,,
+MK483647.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"n,s.|2019",,,
+MK454889.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"srinivas,n.|2019",,,
+MK386956.1,Oligonychus sp. UAS-B 2422,,India,402,ITS2 feature,I0025,I004,0.3307,Oligonychus bahaensis,,"n,s.|2019",Oligonychus bahaensis,0.3307,
+MH794157.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2018",,,
+MH549412.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"n,s.|2018",,,
+KY373207.1,Oligonychus thelytokus,Oligonychus thelytokus,India,122,aligned to reference ITS2,,,,,,"srinivas,n.|2016",,,
+MG677944.1,Oligonychus sp. UAS-B 2205,,India,0,not found,,,,,,"srinivas,n.|2017",,,
+MG429138.1,Oligonychus sp. UAS-B 2206,,India,0,not found,,,,,,"n,s.|2017",,,
+KY474299.1,Oligonychus perseae,Oligonychus perseae,,364,ITS2 feature,I0026,I005,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0276,yes
+KY474298.1,Oligonychus perseae,Oligonychus perseae,,364,ITS2 feature,I0026,I005,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0276,yes
+KY474297.1,Oligonychus perseae,Oligonychus perseae,,364,ITS2 feature,I0026,I005,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0276,yes
+KY474296.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474295.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474294.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474293.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474292.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474291.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474290.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474289.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474288.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0027,I012,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474287.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0028,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474286.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0028,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474285.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0028,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474284.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0028,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474283.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0028,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474282.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0028,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes
+KY474281.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474280.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474279.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474278.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474277.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474276.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474275.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474274.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474273.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474272.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474271.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474270.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474269.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474268.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474267.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474266.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474265.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474264.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474263.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474262.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474261.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474260.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474259.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474258.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474257.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474256.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474255.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474254.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474253.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474252.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474251.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474250.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474249.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474248.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474247.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474246.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474245.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474244.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474243.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474242.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474241.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474240.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474239.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474238.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474237.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474236.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474235.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474234.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474233.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474232.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474231.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474230.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474229.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474228.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474227.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474226.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474225.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474224.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474223.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474222.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474221.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474220.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474219.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474218.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474217.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474216.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474215.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474214.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474213.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474212.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474211.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KY474210.1,Oligonychus perseae,Oligonychus perseae,,362,ITS2 feature,I0029,I006,0.0000,Oligonychus perseae,yes,"lara,j.r.|2017",Oligonychus perseae,0.0055,yes
+KT876128.1,Oligonychus tylus,Oligonychus tylus,India,0,not found,,,,,,"srinivas,n.|2015",,,
+GU565305.1,Oligonychus perseae,Oligonychus perseae,Spain,429,ITS2 feature,I0030,I006,0.0047,Oligonychus perseae,yes,"perez-sayas,c.|2010",Oligonychus perseae,0.0047,yes
+KC416642.1,Oligonychus indicus,Oligonychus indicus,India,0,not found,,,,,,"srinivas,n.|2012",,,
+KC416641.1,Oligonychus coffeae,Oligonychus coffeae,India,281,aligned to reference ITS2,I0031,I017,0.0142,Oligonychus coffeae,yes,"srinivas,n.|2012",Oligonychus coffeae,0.0142,yes
+KC568386.1,Oligonychus perseae,Oligonychus perseae,Mexico,479,ITS2 feature,I0032,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0235,yes
+KC568385.1,Oligonychus perseae,Oligonychus perseae,Mexico,482,ITS2 feature,I0033,I006,0.0106,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0150,yes
+KC568384.1,Oligonychus perseae,Oligonychus perseae,Mexico,473,ITS2 feature,I0034,I006,0.0024,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0028,yes
+KC568383.1,Oligonychus perseae,Oligonychus perseae,Mexico,442,ITS2 feature,I0035,I006,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+KC568382.1,Oligonychus perseae,Oligonychus perseae,Mexico,410,ITS2 feature,I0036,I006,0.0024,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0025,no
+KC568381.1,Oligonychus perseae,Oligonychus perseae,Mexico,332,ITS2 feature,I0037,I006,0.0120,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0120,no
+KC568380.1,Oligonychus perseae,Oligonychus perseae,Mexico,410,ITS2 feature,I0038,I007,0.0333,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0391,yes
+KC568379.1,Oligonychus perseae,Oligonychus perseae,Mexico,322,ITS2 feature,I0039,I008,0.0155,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0280,no
+KC568378.1,Oligonychus perseae,Oligonychus perseae,Mexico,405,ITS2 feature,I0040,I009,0.0155,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0226,no
+KC568377.1,Oligonychus perseae,Oligonychus perseae,Mexico,392,ITS2 feature,I0041,I012,0.0128,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0155,no
+KC568376.1,Oligonychus perseae,Oligonychus perseae,Mexico,477,ITS2 feature,I0042,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+KC568375.1,Oligonychus perseae,Oligonychus perseae,Mexico,384,ITS2 feature,I0043,I012,0.0026,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0317,yes
+KC568374.1,Oligonychus perseae,Oligonychus perseae,Mexico,477,ITS2 feature,I0044,I012,0.0021,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0024,no
+KC568373.1,Oligonychus perseae,Oligonychus perseae,Mexico,476,ITS2 feature,I0045,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0235,yes
+KC568372.1,Oligonychus perseae,Oligonychus perseae,Mexico,452,ITS2 feature,I0046,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0292,yes
+KC568371.1,Oligonychus perseae,Oligonychus perseae,Mexico,481,ITS2 feature,I0047,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+KC568370.1,Oligonychus perseae,Oligonychus perseae,Mexico,476,ITS2 feature,I0048,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+KC568369.1,Oligonychus perseae,Oligonychus perseae,Mexico,400,ITS2 feature,I0049,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+KC568368.1,Oligonychus perseae,Oligonychus perseae,Mexico,463,ITS2 feature,I0050,I012,0.0025,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0212,no
+KC568367.1,Oligonychus perseae,Oligonychus perseae,Mexico,357,ITS2 feature,I0051,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+KC568366.1,Oligonychus perseae,Oligonychus perseae,Mexico,406,ITS2 feature,I0052,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus punicae,0.0025,no
+KC568365.1,Oligonychus perseae,Oligonychus perseae,Mexico,466,ITS2 feature,I0053,I012,0.0000,Oligonychus perseae,yes,"guzman,s.|2013",Oligonychus perseae,0.0000,yes
+AB757829.1,Oligonychus coffeae,Oligonychus coffeae,Japan,324,ITS2 feature,I0054,I010,0.0970,Oligonychus mangiferus,no,"matsuda,t.|2012",Oligonychus mangiferus,0.0970,no
+AB757828.1,Oligonychus gotohi,Oligonychus gotohi,Japan,330,ITS2 feature,I0055,I011,0.0924,Oligonychus mangiferus,no,"matsuda,t.|2012",Oligonychus mangiferus,0.0924,no
+KC352305.1,Oligonychus punicae,Oligonychus punicae,,457,ITS2 feature,I0056,I006,0.0022,Oligonychus perseae,no,"guzman,s.|2012",Oligonychus perseae,0.0022,no
+KC352304.1,Oligonychus punicae,Oligonychus punicae,,416,ITS2 feature,I0057,I012,0.0000,Oligonychus perseae,no,"guzman,s.|2012",Oligonychus perseae,0.0000,no
+KC352303.1,Oligonychus punicae,Oligonychus punicae,,459,ITS2 feature,I0058,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352302.1,Oligonychus punicae,Oligonychus punicae,,491,ITS2 feature,I0059,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352301.1,Oligonychus punicae,Oligonychus punicae,,490,ITS2 feature,I0060,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352300.1,Oligonychus punicae,Oligonychus punicae,,481,ITS2 feature,I0061,I014,0.0021,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352299.1,Oligonychus punicae,Oligonychus punicae,,482,ITS2 feature,I0062,I014,0.0021,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352298.1,Oligonychus punicae,Oligonychus punicae,,469,ITS2 feature,I0063,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352297.1,Oligonychus punicae,Oligonychus punicae,,477,ITS2 feature,I0064,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352296.1,Oligonychus punicae,Oligonychus punicae,,470,ITS2 feature,I0065,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352295.1,Oligonychus punicae,Oligonychus punicae,,494,ITS2 feature,I0066,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352294.1,Oligonychus punicae,Oligonychus punicae,,411,ITS2 feature,I0067,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352293.1,Oligonychus punicae,Oligonychus punicae,,489,ITS2 feature,I0068,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352292.1,Oligonychus punicae,Oligonychus punicae,,442,ITS2 feature,I0069,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352291.1,Oligonychus punicae,Oligonychus punicae,,489,ITS2 feature,I0070,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352290.1,Oligonychus punicae,Oligonychus punicae,,483,ITS2 feature,I0071,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352289.1,Oligonychus punicae,Oligonychus punicae,,474,ITS2 feature,I0072,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352288.1,Oligonychus punicae,Oligonychus punicae,,463,ITS2 feature,I0073,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352287.1,Oligonychus punicae,Oligonychus punicae,,478,ITS2 feature,I0074,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352286.1,Oligonychus punicae,Oligonychus punicae,,488,ITS2 feature,I0075,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352285.1,Oligonychus punicae,Oligonychus punicae,,488,ITS2 feature,I0075,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352284.1,Oligonychus punicae,Oligonychus punicae,,468,ITS2 feature,I0076,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352283.1,Oligonychus punicae,Oligonychus punicae,,477,ITS2 feature,I0077,I013,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352282.1,Oligonychus punicae,Oligonychus punicae,,479,ITS2 feature,I0078,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352281.1,Oligonychus punicae,Oligonychus punicae,,489,ITS2 feature,I0070,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC352280.1,Oligonychus punicae,Oligonychus punicae,,470,ITS2 feature,I0079,I014,0.0000,Oligonychus punicae,yes,"guzman,s.|2012",,,
+KC283029.1,Oligonychus mangiferus,Oligonychus mangiferus,India,0,not found,,,,,,"srinivas,n.|2012",,,
+KC283028.1,Oligonychus biharensis,Oligonychus biharensis,India,0,not found,,,,,,"srinivas,n.|2012",,,
+HE984347.1,Oligonychus sp. 3-1,,,275,aligned to reference ITS2,I0080,I015,0.2599,Oligonychus perseae,,"diaz,y.|2012",Oligonychus perseae,0.2599,
+AB683713.1,Oligonychus rubicundus,Oligonychus rubicundus,Japan,38,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683712.1,Oligonychus rubicundus,Oligonychus rubicundus,Taiwan,38,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683711.1,Oligonychus biharensis,Oligonychus biharensis,Taiwan,40,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683710.1,Oligonychus biharensis,Oligonychus biharensis,Japan,40,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683709.1,Oligonychus modestus,Oligonychus modestus,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683708.1,Oligonychus modestus,Oligonychus modestus,Taiwan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683707.1,Oligonychus orthius,Oligonychus orthius,Japan,38,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683706.1,Oligonychus orthius,Oligonychus orthius,Viet Nam,38,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683705.1,Oligonychus amiensis,Oligonychus amiensis,Japan,38,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683704.1,Oligonychus amiensis,Oligonychus amiensis,Japan,38,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683703.1,Oligonychus coffeae,Oligonychus coffeae,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683702.1,Oligonychus coffeae,Oligonychus coffeae,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683701.1,Oligonychus gotohi,Oligonychus gotohi,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683700.1,Oligonychus gotohi,Oligonychus gotohi,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683699.1,Oligonychus castaneae,Oligonychus castaneae,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683698.1,Oligonychus castaneae,Oligonychus castaneae,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683697.1,Oligonychus perditus,Oligonychus perditus,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683696.1,Oligonychus ununguis,Oligonychus ununguis,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683695.1,Oligonychus camelliae,Oligonychus camelliae,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683694.1,Oligonychus camelliae,Oligonychus camelliae,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683693.1,Oligonychus ilicis,Oligonychus ilicis,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683692.1,Oligonychus ilicis,Oligonychus ilicis,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683691.1,Oligonychus tsudomei,Oligonychus tsudomei,Japan,36,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683690.1,Oligonychus hondoensis,Oligonychus hondoensis,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683689.1,Oligonychus hondoensis,Oligonychus hondoensis,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683688.1,Oligonychus karamatus,Oligonychus karamatus,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683687.1,Oligonychus pustulosus,Oligonychus pustulosus,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683686.1,Oligonychus clavatus,Oligonychus clavatus,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+AB683685.1,Oligonychus clavatus,Oligonychus clavatus,Japan,37,ITS2 feature,,,,,,"matsuda,t.|2011",,,
+HQ709243.1,Oligonychus ununguis,Oligonychus ununguis,,279,aligned to reference ITS2,I0081,I020,0.0036,Oligonychus ununguis,yes,"yin,s.|2010",Oligonychus ununguis,0.0036,yes
+HQ709242.1,Oligonychus ununguis,Oligonychus ununguis,,279,aligned to reference ITS2,I0082,I016,0.0429,Oligonychus ununguis,yes,"yin,s.|2010",Oligonychus ununguis,0.0461,yes
+JN018059.1,Oligonychus coffeae,Oligonychus coffeae,Bangladesh,280,aligned to reference ITS2,I0083,I017,0.0142,Oligonychus coffeae,yes,"jahan,s.m.h.|2011",Oligonychus coffeae,0.0142,yes
+JF774179.1,Oligonychus ununguis,Oligonychus ununguis,South Korea,489,ITS2 feature,I0084,I018,0.0561,Oligonychus ununguis,yes,"tin,m.k.|2011",Oligonychus ununguis,0.0561,yes
+JF774178.1,Oligonychus coffeae,Oligonychus coffeae,South Korea,409,ITS2 feature,I0085,I019,0.0686,Oligonychus mangiferus,no,"tin,m.k.|2011",Oligonychus mangiferus,0.0686,no
+EU007692.1,Oligonychus litchii,Oligonychus litchii,,0,not found,,,,,,"chang,s.c.|2007",,,
+GU166394.1,Oligonychus ununguis,Oligonychus ununguis,China,279,aligned to reference ITS2,I0086,I020,0.0036,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0036,yes
+GU166393.1,Oligonychus ununguis,Oligonychus ununguis,China,279,aligned to reference ITS2,I0087,I020,0.0036,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0072,yes
+GU166392.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU166391.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+DQ656486.1,Oligonychus mangiferus,Oligonychus mangiferus,,497,ITS2 feature,I0009,I003,0.0000,Oligonychus punicae,no,"ben david,t.|2006",Oligonychus punicae,0.0000,no
+DQ656458.1,Oligonychus perseae,Oligonychus perseae,,467,ITS2 feature,I0089,I006,0.0021,Oligonychus perseae,yes,"ben david,t.|2006",Oligonychus punicae,0.0022,no
+DQ656457.1,Oligonychus perseae,Oligonychus perseae,,467,ITS2 feature,I0090,I006,0.0000,Oligonychus perseae,yes,"ben david,t.|2006",Oligonychus perseae,0.0000,yes
+DQ656456.1,Oligonychus perseae,Oligonychus perseae,,467,ITS2 feature,I0091,I006,0.0000,Oligonychus perseae,yes,"ben david,t.|2006",Oligonychus perseae,0.0000,yes
+DQ656437.1,Oligonychus afrasiaticus,Oligonychus afrasiaticus,,517,ITS2 feature,I0092,I021,0.2022,Oligonychus bahaensis,no,"ben david,t.|2006",Oligonychus bahaensis,0.2022,no
+AY750706.1,Oligonychus coffeae,Oligonychus coffeae,,555,ITS2 feature,I0093,I022,0.1958,Oligonychus punicae,no,"hsu,k.|2004",Oligonychus punicae,0.1958,no
+GU329990.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329989.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329988.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329987.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329986.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329985.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329984.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329983.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329982.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329981.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0094,I023,0.0035,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0426,yes
+GU329980.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0095,I023,0.0071,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0461,yes
+GU329979.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+GU329978.1,Oligonychus ununguis,Oligonychus ununguis,China,282,aligned to reference ITS2,I0088,I023,0.0000,Oligonychus ununguis,yes,"yin,s.y.|2009",Oligonychus ununguis,0.0390,yes
+EF433286.1,Oligonychus mangiferus,Oligonychus mangiferus,,497,ITS2 feature,I0096,I003,0.0000,Oligonychus punicae,no,"ben david,t.|2007",Oligonychus punicae,0.0000,no
