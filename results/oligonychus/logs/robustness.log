@@ -1,0 +1,68 @@
+560 records, 274 haplotypes
+1a. Thresholds, cluster threshold = largest match distance:
+   K2P | clusters | several names | species split | disagree % | correct raw -> cleaned (wrong raw -> cleaned)
+   0.010 | 124 | 4 | 19 | 2.0 | 23/63 -> 23/63 (2 -> 2)
+   0.015 | 111 | 5 | 17 | 2.0 | 23/63 -> 23/63 (2 -> 2)
+   0.020 | 106 | 5 | 17 | 2.0 | 25/63 -> 25/63 (2 -> 2)
+   0.030 | 95 | 5 | 13 | 6.6 | 25/63 -> 25/63 (2 -> 2)
+   0.040 | 88 | 5 | 13 | 6.6 | 30/63 -> 30/63 (2 -> 2)
+   0.050 | 85 | 5 | 12 | 6.6 | 30/63 -> 30/63 (2 -> 2)
+1b. Correct answers, cleaned database (raw in brackets), by cluster threshold (rows) and largest match distance (columns):
+   cluster \ match | 0.01 | 0.02 | 0.03 | 0.04 | 0.05
+   0.010 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+   0.015 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+   0.020 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+   0.030 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+   0.040 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+   0.050 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+2. Anchor evidence, taxonomic treatment and fold isolation (K2P 0.03):
+   main (levels A+B; no synonymies; folds isolated): 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
+   level A anchors only: 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
+   plus mangiferus = punicae; vitis = punicae: 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
+   earlier version (clusters from all records; title membership): 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
+3. Main identification test: outcomes raw (rows) -> cleaned (columns):
+   raw \ cleaned | correct | wrong | ambiguous | no match | total
+   correct | 25 | 0 | 0 | 0 | 25
+   wrong | 0 | 2 | 0 | 0 | 2
+   ambiguous | 0 | 0 | 0 | 0 | 0
+   no match | 0 | 0 | 0 | 36 | 36
+   total | 25 | 2 | 0 | 36 | 63
+   Became correct 0, stopped being correct 0; exact McNemar p = 1.000
+   95% intervals, bootstrap over 4 anchor studies (10000 replicates, seed 20261030):
+     raw_correct: 39.7% (6.5 to 88.9)
+     raw_wrong: 3.2% (0.0 to 27.3)
+     cleaned_correct: 39.7% (6.5 to 88.9)
+     cleaned_wrong: 3.2% (0.0 to 27.3)
+     diff_correct: 0.0% (0.0 to 0.0)
+     diff_wrong: 0.0% (0.0 to 0.0)
+4. Cluster structure at K2P 0.03:
+   Clusters whose largest internal K2P exceeds 0.03 (chaining): 8 of 95
+     C044 (67 records): largest 0.0304
+     C087 (46 records): largest 0.0302
+     C042 (28 records): largest 0.0398
+     C046 (24 records): largest 0.0342
+     C032 (20 records): largest 0.0458
+     C045 (8 records): largest 0.0302
+     C079 (8 records): largest 0.0490
+     C094 (3 records): largest 0.0350
+   Records overlapping both halves by >= 300 sites (bridges): 89
+   Clusters holding both 5'-only and 3'-only records: 3; of these, joined only through bridges: 3
+5. Nearest-neighbour label agreement:
+   COI, all named records, any: 411 of 431 (95.4%)
+   COI, all named records, other batch: 340 of 421 (80.8%)
+   ITS2, all named records, any: 198 of 209 (94.7%)
+   ITS2, all named records, other batch: 153 of 185 (82.7%)
+   Specimen links: 110 pairs, 110 one-to-one without conflict
+   Same specimens (109 one-to-one, other batches only, 7 COI submission batches): COI 91 (83.5%), ITS2 100 (91.7%); COI only 7, ITS2 only 16
+     difference -8.3 points; 95% interval over batches -86.5 to 38.7; sign-flip test on batch totals p = 0.750; McNemar ignoring batches p = 0.093
+     Oligonychus perseae: 75 specimens; COI 75, ITS2 75
+     Oligonychus punicae: 16 specimens; COI 16, ITS2 9
+     Oligonychus ununguis: 16 specimens; COI 0, ITS2 16
+     Oligonychus coffeae: 1 specimens; COI 0, ITS2 0
+     Oligonychus mangiferus: 1 specimens; COI 0, ITS2 0
+6. Records disagreeing with the anchored species of their cluster: 33 from 7 submission batches
+   22 x Oligonychus ununguis in cluster anchored as Oligonychus neocastaneae (1 batches; China (22))
+   4 x Oligonychus mangiferus in cluster anchored as Oligonychus punicae (2 batches; India (4))
+   4 x Oligonychus castaneae in cluster anchored as Oligonychus neocastaneae (1 batches; Japan (4))
+   2 x Oligonychus indicus in cluster anchored as Oligonychus tylus (2 batches; (not given) (1); India (1))
+   1 x Oligonychus vitis in cluster anchored as Oligonychus punicae (1 batches; Unrecoverable (1))

@@ -1,0 +1,561 @@
+record_id,accepted_name,batch,nn_name_any,nn_distance_any,nn_match_any,nn_name_other_batch,nn_distance_other_batch,nn_match_other_batch
+PZ484972.1,Oligonychus tylus,"yukselbaba,u.|2026",Oligonychus tylus,0.0026,yes,Oligonychus tylus,0.0026,yes
+PX672270.1,,"belle mbou okassa,m.|2025",,,,Oligonychus gossypii,0.0234,
+PX672269.1,,"belle mbou okassa,m.|2025",,,,Oligonychus gossypii,0.0246,
+PX672268.1,,"belle mbou okassa,m.|2025",,,,Oligonychus gossypii,0.0237,
+PX353985.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0579,no
+PX353984.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0509,no
+PX353983.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0544,no
+PX353982.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0544,no
+PX353981.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0579,no
+PX353979.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,,,
+PX353980.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0544,no
+PX353978.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,,,
+PX353977.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0746,no
+PX353976.1,Oligonychus yothersi,"borges-silva,l.|2025",Oligonychus yothersi,0.0000,yes,Oligonychus punicae,0.0746,no
+PX667140.1,,"kazakov,d.v.|2025",,,,Oligonychus tylus,0.1398,
+PX667139.1,,"kazakov,d.v.|2025",,,,Oligonychus tylus,0.1398,
+PX667138.1,,"kazakov,d.v.|2025",,,,Oligonychus tylus,0.1398,
+PX660075.1,Oligonychus karamatus,"kazakov,d.v.|2025",,,,,,
+PX660074.1,,"kazakov,d.v.|2025",Oligonychus clavatus,0.0691,,Oligonychus clavatus,0.0691,
+PX660071.1,,"kazakov,d.v.|2025",,,,,,
+PX660065.1,,"kazakov,d.v.|2025",,,,,,
+PX660049.1,Oligonychus piceae,"kazakov,d.v.|2025",,,,Oligonychus clavatus,0.0657,no
+PX660047.1,,"kazakov,d.v.|2025",Oligonychus piceae,0.0303,,Oligonychus tsudomei,0.0585,
+PX419194.1,Oligonychus perseae,"haseena,b.|2025",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+PX415460.1,Oligonychus oryzae,"haseena,b.|2025",Oligonychus oryzae,0.0000,yes,Oligonychus oryzae,0.0000,yes
+PX133189.1,Oligonychus trichardti,"perea,c.s.|2025",Oligonychus afrasiaticus,0.0943,no,Oligonychus afrasiaticus,0.0943,no
+PQ273722.1,Oligonychus indicus,"liu,f.|2024",Oligonychus tylus,0.0048,no,Oligonychus tylus,0.0048,no
+PV162787.1,Oligonychus biharensis,"wang,z.|2025",Oligonychus biharensis,0.0139,yes,Oligonychus biharensis,0.0139,yes
+PP531494.1,Oligonychus punicae,"liu,f.|2024",Oligonychus mangiferus,0.0039,no,Oligonychus mangiferus,0.0039,no
+OQ180841.1,Oligonychus dactyloni,"mushtaq,h.m.s.|2023",Oligonychus dactyloni,0.0000,yes,Oligonychus grypus,0.1116,no
+OQ180840.1,Oligonychus dactyloni,"mushtaq,h.m.s.|2023",Oligonychus dactyloni,0.0000,yes,Oligonychus grypus,0.1116,no
+OQ180839.1,Oligonychus pratensis,"mushtaq,h.m.s.|2023",Oligonychus rubicundus,0.1021,no,Oligonychus rubicundus,0.1021,no
+OQ180838.1,Oligonychus washingtoniae,"mushtaq,h.m.s.|2023",Oligonychus rubicundus,0.0831,no,Oligonychus rubicundus,0.0831,no
+OQ180837.1,Oligonychus tylus,"mushtaq,h.m.s.|2023",Oligonychus tylus,0.0000,yes,Oligonychus tylus,0.0027,yes
+OQ180836.1,Oligonychus tylus,"mushtaq,h.m.s.|2023",Oligonychus tylus,0.0000,yes,Oligonychus tylus,0.0027,yes
+OQ180835.1,Oligonychus tylus,"mushtaq,h.m.s.|2023",Oligonychus tylus,0.0000,yes,Oligonychus tylus,0.0000,yes
+OQ180834.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0199,yes
+OQ180833.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0199,yes
+OQ180832.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0302,yes
+OQ180831.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0302,yes
+OQ180830.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0302,yes
+OQ180829.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0302,yes
+OQ180828.1,Oligonychus afrasiaticus,"mushtaq,h.m.s.|2023",Oligonychus afrasiaticus,0.0000,yes,Oligonychus afrasiaticus,0.0302,yes
+OQ180827.1,Oligonychus punicae,"mushtaq,h.m.s.|2023",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+OQ180826.1,Oligonychus punicae,"mushtaq,h.m.s.|2023",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+OP825124.1,,"mushtaq,h.m.s.|2022",Oligonychus gotohi,0.0664,,Oligonychus gotohi,0.0664,
+OP825123.1,Oligonychus punicae,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+OP825122.1,Oligonychus punicae,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+OP825121.1,Oligonychus punicae,"mushtaq,h.m.s.|2022",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425493.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425492.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425491.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425490.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425489.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425488.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425487.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425486.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425485.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425484.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425483.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+MZ425482.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0025,yes,Oligonychus punicae,0.0025,yes
+MZ425481.1,Oligonychus punicae,"mushtaq,h.m.s.|2021",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+OP704190.1,Oligonychus tylus,"bhaskar,h.|2022",Oligonychus tylus,0.0000,yes,Oligonychus tylus,0.0000,yes
+OP703735.1,Oligonychus biharensis,"bhaskar,h.|2022",Oligonychus biharensis,0.0000,yes,,,
+OP703592.1,Oligonychus tylus,"bhaskar,h.|2022",Oligonychus tylus,0.0012,yes,Oligonychus tylus,0.0027,yes
+OP630817.1,Oligonychus biharensis,"bhaskar,h.|2022",Oligonychus biharensis,0.0000,yes,Oligonychus biharensis,0.0582,yes
+OP623518.1,Oligonychus tylus,"bhaskar,h.|2022",Oligonychus tylus,0.0012,yes,Oligonychus tylus,0.0025,yes
+OP623496.1,Oligonychus biharensis,"bhaskar,h.|2022",Oligonychus biharensis,0.0000,yes,Oligonychus biharensis,0.0509,yes
+OP622877.1,Oligonychus biharensis,"bhaskar,h.|2022",Oligonychus biharensis,0.0068,yes,,,
+OP615200.1,Oligonychus tylus,"bhaskar,h.|2022",Oligonychus tylus,0.0012,yes,Oligonychus tylus,0.0028,yes
+OP615102.1,Oligonychus tylus,"bhaskar,h.|2022",Oligonychus tylus,0.0012,yes,,,
+OP615093.1,Oligonychus tylus,"bhaskar,h.|2022",Oligonychus tylus,0.0028,yes,Oligonychus tylus,0.0028,yes
+OP615070.1,Oligonychus tylus,"bhaskar,h.|2022",,,,,,
+OP363224.1,Oligonychus biharensis,"bhaskar,h.|2022",Oligonychus biharensis,0.0000,yes,Oligonychus biharensis,0.0502,yes
+MN348237.1,,"young,m.r.|2019",,,,,,
+MN358374.1,,"young,m.r.|2019",,,,,,
+ON630335.1,Oligonychus afrasiaticus,"shah,r.|2022",Oligonychus afrasiaticus,0.0138,yes,Oligonychus afrasiaticus,0.0138,yes
+OM056929.1,,"srinivas,n.|2021",Oligonychus orthius,0.0944,,Oligonychus orthius,0.0944,
+MZ604344.1,Oligonychus thelytokus,"safeen,m.|2021",Oligonychus thelytokus,0.0031,yes,Oligonychus thelytokus,0.0031,yes
+MZ496533.1,Oligonychus tylus,"srinivas,n.|2021",Oligonychus tylus,0.0000,yes,Oligonychus tylus,0.0000,yes
+MW898015.1,Oligonychus grypus,"srinivas,n.|2021",Oligonychus oryzae,0.0103,no,Oligonychus oryzae,0.0103,no
+MW045520.3,Oligonychus ununguis,"asadi,m.|2020",Oligonychus ununguis,0.0015,yes,Oligonychus ununguis,0.0015,yes
+MW045518.3,Oligonychus afrasiaticus,"asadi,m.|2020",Oligonychus afrasiaticus,0.0138,yes,Oligonychus afrasiaticus,0.0138,yes
+MW850427.1,Oligonychus indicus,"srinivas,n.|2021",Oligonychus indicus,0.0000,yes,Oligonychus indicus,0.0000,yes
+MW791265.1,Oligonychus grypus,"srinivas,n.|2021",Oligonychus grypus,0.0079,yes,Oligonychus grypus,0.0079,yes
+MW517748.1,Oligonychus vitis,"kowsika,s.|2021",Oligonychus punicae,0.0025,no,Oligonychus punicae,0.0025,no
+MW491838.1,Oligonychus grypus,"kowsika,s.|2021",Oligonychus oryzae,0.0000,no,Oligonychus oryzae,0.0000,no
+MW367899.1,Oligonychus tylus,"srinivas,n.|2020",Oligonychus tylus,0.0028,yes,Oligonychus tylus,0.0028,yes
+MT821525.1,Oligonychus indicus,"srinivas,n.|2020",Oligonychus indicus,0.0000,yes,Oligonychus indicus,0.0000,yes
+MT815743.1,Oligonychus thelytokus,"srinivas,n.|2020",Oligonychus thelytokus,0.0028,yes,Oligonychus thelytokus,0.0028,yes
+MT506028.1,,"srinivas,n.|2020",Oligonychus tylus,0.0018,,Oligonychus tylus,0.0024,
+MT492157.1,Oligonychus plegas,"srinivas,n.|2020",,,,,,
+MT479179.1,Oligonychus mangiferus,"srinivas,n.|2020",Oligonychus vitis,0.0031,no,Oligonychus vitis,0.0031,no
+MT477910.1,Oligonychus tylus,"srinivas,n.|2020",,,,Oligonychus tylus,0.0593,yes
+MT472382.1,,"srinivas,n.|2020",Oligonychus orthius,0.1236,,Oligonychus orthius,0.1236,
+MT445766.1,Oligonychus indicus,"srinivas,n.|2020",Oligonychus indicus,0.0000,yes,Oligonychus indicus,0.0000,yes
+MT066161.1,Oligonychus tylus,"srinivas,n.|2020",,,,Oligonychus tylus,0.0024,yes
+MN255801.1,Oligonychus thelytokus,"srinivas,n.|2019",,,,,,
+MN337796.1,Oligonychus tylus,"nagappa,s.|2019",Oligonychus tylus,0.0265,yes,Oligonychus tylus,0.0265,yes
+MN327705.1,Oligonychus biharensis,"srinivas,n.|2019",Oligonychus biharensis,0.0036,yes,Oligonychus biharensis,0.0036,yes
+MN349917.1,,"young,m.r.|2019",,,,,,
+KR101410.1,Oligonychus aceris,"hebert,p.d.n.|2015",,,,,,
+KM837846.1,,"hebert,p.d.n.|2014",,,,,,
+KM837806.1,,"hebert,p.d.n.|2014",,,,,,
+KM831891.1,,"hebert,p.d.n.|2014",,,,,,
+KM829116.1,,"hebert,p.d.n.|2014",,,,,,
+KM828286.1,,"hebert,p.d.n.|2014",,,,,,
+KM827506.1,,"hebert,p.d.n.|2014",,,,,,
+KM826727.1,,"hebert,p.d.n.|2014",,,,,,
+KM826643.1,,"hebert,p.d.n.|2014",,,,,,
+KM826428.1,,"hebert,p.d.n.|2014",,,,,,
+LC375583.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus neocastaneae,0.0042,no
+LC375582.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus neocastaneae,0.0028,no
+LC375581.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus neocastaneae,0.0014,no
+LC375580.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus neocastaneae,0.0000,no,Oligonychus neocastaneae,0.0000,no
+LC375579.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0071,yes,Oligonychus castaneae,0.0621,yes
+LC375578.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0071,yes,Oligonychus castaneae,0.0652,yes
+LC375577.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0099,yes,Oligonychus castaneae,0.0199,yes
+LC375576.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375575.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0028,yes,Oligonychus castaneae,0.0199,yes
+LC375574.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0185,yes
+LC375573.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0000,yes,Oligonychus castaneae,0.0000,yes
+LC375572.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375571.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375570.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0113,yes,Oligonychus castaneae,0.0199,yes
+LC375569.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375568.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375567.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375566.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375565.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375564.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0028,yes,Oligonychus castaneae,0.0028,yes
+LC375563.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0028,yes,Oligonychus castaneae,0.0028,yes
+LC375562.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0099,yes,Oligonychus castaneae,0.0214,yes
+LC375561.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375560.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0014,yes
+LC375559.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0028,yes,Oligonychus castaneae,0.0185,yes
+LC375558.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0028,yes,Oligonychus castaneae,0.0185,yes
+LC375557.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0000,yes,Oligonychus castaneae,0.0157,yes
+LC375556.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0170,yes
+LC375555.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0170,yes
+LC375554.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0185,yes
+LC375553.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0170,yes
+LC375552.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0185,yes
+LC375551.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0000,yes,Oligonychus castaneae,0.0156,yes
+LC375550.1,Oligonychus castaneae,"gotoh,t.|2018",Oligonychus castaneae,0.0014,yes,Oligonychus castaneae,0.0170,yes
+MG320092.1,,"dewaard,j.r.|2017",,,,,,
+MG320035.1,,"dewaard,j.r.|2017",Oligonychus aceris,0.0059,,Oligonychus aceris,0.0059,
+MG319008.1,,"dewaard,j.r.|2017",,,,,,
+MG313188.1,,"dewaard,j.r.|2017",,,,,,
+MG313169.1,Oligonychus aceris,"dewaard,j.r.|2017",Oligonychus aceris,0.0033,yes,Oligonychus aceris,0.0033,yes
+MG311261.1,,"dewaard,j.r.|2017",,,,,,
+MG310745.1,,"dewaard,j.r.|2017",,,,,,
+MH647654.1,Oligonychus tylus,"srinivas,n.|2018",Oligonychus tylus,0.0612,yes,Oligonychus tylus,0.0612,yes
+MG916906.1,,"srinivas,n.|2018",Oligonychus plegas,0.0104,,Oligonychus plegas,0.0104,
+MH260569.1,,"srinivas,n.|2018",Oligonychus tylus,0.1211,,Oligonychus tylus,0.1211,
+MF320737.1,Oligonychus indicus,"poorani,j.|2017",Oligonychus tylus,0.0044,no,Oligonychus tylus,0.0044,no
+LC341207.1,Oligonychus neocastaneae,"gotoh,t.|2017",Oligonychus castaneae,0.0028,no,Oligonychus castaneae,0.0028,no
+LC341206.1,Oligonychus neocastaneae,"gotoh,t.|2017",Oligonychus castaneae,0.0000,no,Oligonychus castaneae,0.0000,no
+KX944298.1,Oligonychus thelytokus,"srinivas,n.|2016",Oligonychus clavatus,0.0937,no,Oligonychus clavatus,0.0937,no
+KX681448.1,Oligonychus thelytokus,"srinivas,n.|2016",Oligonychus thelytokus,0.0028,yes,Oligonychus thelytokus,0.0028,yes
+MF462136.1,,"brandley,m.c.|2017",Oligonychus punicae,0.0687,,Oligonychus punicae,0.0687,
+KY474209.1,Oligonychus punicae,"lara,j.r.|2017",Oligonychus punicae,0.0000,yes,Oligonychus yothersi,0.0509,no
+KY474208.1,Oligonychus punicae,"lara,j.r.|2017",Oligonychus punicae,0.0000,yes,Oligonychus yothersi,0.0509,no
+KY474207.1,Oligonychus punicae,"lara,j.r.|2017",Oligonychus punicae,0.0000,yes,Oligonychus yothersi,0.0509,no
+KY474206.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474205.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474204.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474203.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474202.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474201.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474200.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474199.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474198.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474197.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474196.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0066,yes
+KY474195.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474194.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474193.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474192.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474191.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474190.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474189.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474188.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474187.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474186.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474185.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474184.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474183.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474182.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474181.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474180.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0033,yes
+KY474179.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474178.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474177.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474176.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474175.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474174.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474173.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474172.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474171.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474170.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474169.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474168.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474167.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474166.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474165.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474164.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474163.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474162.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474161.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474160.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474159.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474158.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474157.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474156.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474155.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474154.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474153.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474152.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474151.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474150.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474149.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474148.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474147.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474146.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KY474145.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0201,yes,Oligonychus perseae,0.0201,yes
+KY474144.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474143.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474142.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474141.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0099,yes
+KY474140.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0033,yes,Oligonychus perseae,0.0953,yes
+KY474139.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0954,yes
+KY474138.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0954,yes
+KY474137.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0033,yes,Oligonychus perseae,0.1028,yes
+KY474136.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0990,yes
+KY474135.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0990,yes
+KY474134.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0990,yes
+KY474133.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0990,yes
+KY474132.1,Oligonychus perseae,"lara,j.r.|2017",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0990,yes
+KY593991.1,Oligonychus oryzae,"srinivas,n.|2017",Oligonychus grypus,0.0000,no,Oligonychus grypus,0.0000,no
+KX073028.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073027.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073026.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073025.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073024.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0022,yes
+KX073023.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0022,yes
+KX073022.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0022,yes
+KX073021.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073020.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073019.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073018.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073017.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073016.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073015.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073014.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073013.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073012.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073011.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073010.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073009.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073008.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073007.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073006.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073005.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073004.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073003.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073002.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073001.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX073000.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072999.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0022,yes
+KX072998.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072997.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0022,yes
+KX072996.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072995.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072994.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0044,yes
+KX072993.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072992.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072991.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072990.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072989.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0044,yes
+KX072988.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072987.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0044,yes
+KX072986.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072985.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0044,yes
+KX072984.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0044,yes
+KX072983.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072982.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072981.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072980.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072979.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072978.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072977.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072976.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072975.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072974.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072973.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072972.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072971.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072970.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072969.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072968.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072967.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072966.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072965.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072964.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072963.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072962.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072961.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072960.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072959.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072958.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072957.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072956.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072955.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0022,yes
+KX072954.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072953.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072952.1,Oligonychus punicae,"guzman-valencia,s.|2016",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KX072951.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072950.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072949.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072948.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072947.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072946.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072945.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072944.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072943.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072942.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072941.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072940.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072939.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072938.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072937.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072936.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072935.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072934.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072933.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072932.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072931.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072930.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072929.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072928.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072927.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072926.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072925.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072924.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072923.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072922.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0040,yes
+KX072921.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0810,yes
+KX072920.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0810,yes
+KX072919.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0810,yes
+KX072918.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0810,yes
+KX072917.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072916.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0810,yes
+KX072915.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0810,yes
+KX072914.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072913.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072912.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072911.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072910.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072909.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0786,yes
+KX072908.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072907.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072906.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072905.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072904.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072903.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072902.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072901.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072900.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072899.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072898.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072897.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072896.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072895.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072894.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072893.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072892.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072891.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072890.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KX072889.1,Oligonychus perseae,"guzman-valencia,s.|2016",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0080,yes
+KY419530.1,Oligonychus tylus,"srinivas,n.|2016",Oligonychus tylus,0.0000,yes,Oligonychus tylus,0.0000,yes
+KX669024.1,Oligonychus mangiferus,"srinivas,n.|2016",Oligonychus mangiferus,0.0000,yes,Oligonychus vitis,0.0027,no
+KX644137.1,Oligonychus mangiferus,"srinivas,n.|2016",Oligonychus mangiferus,0.0292,yes,Oligonychus punicae,0.0342,no
+KX510044.1,Oligonychus tylus,"srinivas,n.|2016",Oligonychus tylus,0.0149,yes,Oligonychus tylus,0.0153,yes
+HQ709241.1,Oligonychus ununguis,"yin,s.|2010",Oligonychus clavatus,0.0717,no,Oligonychus clavatus,0.0717,no
+GU329977.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329976.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329975.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329974.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0025,yes,Oligonychus castaneae,0.0309,no
+GU329973.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0025,yes,Oligonychus castaneae,0.0280,no
+GU329972.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0280,no
+GU329971.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0280,no
+GU329970.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329969.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329968.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0280,no
+GU329967.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329966.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329965.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329964.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329963.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0025,yes,Oligonychus castaneae,0.0368,no
+GU329962.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329961.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU329960.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU166401.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0024,yes,Oligonychus yothersi,0.0706,no
+GU166400.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus yothersi,0.0733,no
+GU166399.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus yothersi,0.0733,no
+GU166398.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU166397.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU166396.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+GU166395.1,Oligonychus ununguis,"yin,s.y.|2009",Oligonychus ununguis,0.0000,yes,Oligonychus castaneae,0.0338,no
+DQ656485.1,Oligonychus perseae,"ben david,t.|2006",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+DQ656482.1,Oligonychus afrasiaticus,"ben david,t.|2006",Oligonychus afrasiaticus,0.0199,yes,Oligonychus afrasiaticus,0.0199,yes
+KX013767.1,Oligonychus mangiferus,"srinivas,n.|2016",Oligonychus mangiferus,0.0000,yes,Oligonychus punicae,0.0028,no
+KR870322.1,Oligonychus coffeae,"kowsika,s.|2015",Oligonychus coffeae,0.0000,yes,Oligonychus coffeae,0.0000,yes
+KR870321.1,Oligonychus indicus,"kowsika,s.|2015",Oligonychus indicus,0.0300,yes,Oligonychus indicus,0.0300,yes
+KP180428.1,,"ospina,o.e.|2014",Oligonychus rubicundus,0.0957,,Oligonychus rubicundus,0.0957,
+KF011474.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0021,yes,Oligonychus perseae,0.0623,yes
+KF011473.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0016,yes,Oligonychus perseae,0.0020,yes
+KF011472.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KF011471.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KF011470.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KF011469.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0021,yes,Oligonychus perseae,0.0731,yes
+KF011468.1,Oligonychus perseae,"guzman,s.|2013",Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+KF011467.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011466.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011465.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011464.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011461.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011460.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011459.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011458.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0034,yes,Oligonychus punicae,0.0619,yes
+KF011457.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0017,yes,Oligonychus punicae,0.0643,yes
+KF011456.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011455.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011454.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0074,yes,Oligonychus punicae,0.0740,yes
+KF011453.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0000,yes,Oligonychus punicae,0.0000,yes
+KF011452.1,Oligonychus punicae,"guzman,s.|2013",Oligonychus punicae,0.0017,yes,Oligonychus punicae,0.0643,yes
+KC283027.1,Oligonychus biharensis,"srinivas,n.|2012",Oligonychus biharensis,0.0515,yes,Oligonychus biharensis,0.0515,yes
+KC009700.1,Oligonychus indicus,"srinivas,n.|2012",Oligonychus indicus,0.0000,yes,Oligonychus indicus,0.0000,yes
+KC009699.1,Oligonychus coffeae,"srinivas,n.|2012",Oligonychus coffeae,0.0000,yes,Oligonychus coffeae,0.0000,yes
+AB683681.1,Oligonychus rubicundus,"matsuda,t.|2011",Oligonychus rubicundus,0.0294,yes,Oligonychus washingtoniae,0.0831,no
+AB683680.1,Oligonychus rubicundus,"matsuda,t.|2011",Oligonychus rubicundus,0.0294,yes,Oligonychus grypus,0.0953,no
+AB683679.1,Oligonychus biharensis,"matsuda,t.|2011",Oligonychus biharensis,0.0259,yes,,,
+AB683678.1,Oligonychus biharensis,"matsuda,t.|2011",Oligonychus biharensis,0.0259,yes,,,
+AB683677.1,Oligonychus modestus,"matsuda,t.|2011",Oligonychus modestus,0.0055,yes,Oligonychus punicae,0.1138,no
+AB683676.1,Oligonychus modestus,"matsuda,t.|2011",Oligonychus modestus,0.0055,yes,Oligonychus washingtoniae,0.1147,no
+AB683675.1,Oligonychus orthius,"matsuda,t.|2011",Oligonychus orthius,0.0270,yes,Oligonychus oryzae,0.0835,no
+AB683674.1,Oligonychus orthius,"matsuda,t.|2011",Oligonychus orthius,0.0270,yes,Oligonychus oryzae,0.0871,no
+AB683673.1,Oligonychus amiensis,"matsuda,t.|2011",Oligonychus amiensis,0.0022,yes,,,
+AB683672.1,Oligonychus amiensis,"matsuda,t.|2011",Oligonychus amiensis,0.0022,yes,Oligonychus platani,0.0889,no
+AB683671.1,Oligonychus coffeae,"matsuda,t.|2011",Oligonychus coffeae,0.0011,yes,Oligonychus punicae,0.0686,no
+AB683670.1,Oligonychus coffeae,"matsuda,t.|2011",Oligonychus coffeae,0.0011,yes,Oligonychus punicae,0.0686,no
+AB683669.1,Oligonychus gotohi,"matsuda,t.|2011",Oligonychus gotohi,0.0123,yes,Oligonychus mangiferus,0.0726,no
+AB683668.1,Oligonychus gotohi,"matsuda,t.|2011",Oligonychus gotohi,0.0123,yes,,,
+AB683667.1,Oligonychus castaneae,"matsuda,t.|2011",Oligonychus castaneae,0.0000,yes,Oligonychus castaneae,0.0000,yes
+AB683666.1,Oligonychus castaneae,"matsuda,t.|2011",Oligonychus castaneae,0.0000,yes,Oligonychus castaneae,0.0000,yes
+AB683665.1,Oligonychus perditus,"matsuda,t.|2011",Oligonychus ununguis,0.0862,no,,,
+AB683664.1,Oligonychus ununguis,"matsuda,t.|2011",,,,,,
+AB683663.1,Oligonychus camelliae,"matsuda,t.|2011",Oligonychus camelliae,0.0055,yes,,,
+AB683662.1,Oligonychus camelliae,"matsuda,t.|2011",Oligonychus camelliae,0.0055,yes,Oligonychus punicae,0.0853,no
+AB683661.1,Oligonychus ilicis,"matsuda,t.|2011",Oligonychus ilicis,0.0000,yes,Oligonychus punicae,0.0580,no
+AB683660.1,Oligonychus ilicis,"matsuda,t.|2011",Oligonychus ilicis,0.0000,yes,Oligonychus punicae,0.0580,no
+AB683659.1,Oligonychus tsudomei,"matsuda,t.|2011",,,,,,
+AB683658.1,Oligonychus hondoensis,"matsuda,t.|2011",Oligonychus hondoensis,0.0202,yes,Oligonychus ununguis,0.0809,no
+AB683657.1,Oligonychus hondoensis,"matsuda,t.|2011",Oligonychus hondoensis,0.0202,yes,Oligonychus punicae,0.0758,no
+AB683656.1,Oligonychus karamatus,"matsuda,t.|2011",,,,,,
+AB683655.1,Oligonychus pustulosus,"matsuda,t.|2011",Oligonychus punicae,0.0615,no,Oligonychus punicae,0.0615,no
+AB683654.1,Oligonychus clavatus,"matsuda,t.|2011",Oligonychus clavatus,0.0000,yes,Oligonychus punicae,0.0579,no
+AB683653.1,Oligonychus clavatus,"matsuda,t.|2011",Oligonychus clavatus,0.0000,yes,Oligonychus punicae,0.0579,no
+X80865.1,Oligonychus ununguis,"navajas,m.|1994",Oligonychus yothersi,0.0611,no,Oligonychus yothersi,0.0611,no
+X80866.1,Oligonychus platani,"navajas,m.|1994",Oligonychus ununguis,0.0737,no,Oligonychus ununguis,0.0737,no
+X80862.1,Oligonychus gossypii,"navajas,m.|1994",,,,,,
+ABOTH9055-22,,bold:ABOTH,,,,,,
+ABWYT29686-24,,bold:ABWYT,,,,,,
+CIBFA13943-25,,bold:CIBFA,,,,,,
+CIBFA13967-25,,bold:CIBFA,,,,,,
+CIBFA13968-25,,bold:CIBFA,,,,,,
+CIBFA15109-25,,bold:CIBFA,,,,,,
+CIBFA15160-25,,bold:CIBFA,,,,,,
+CIBFA15244-25,,bold:CIBFA,,,,,,
+CIBFA15260-25,,bold:CIBFA,,,,,,
+CIBFA17159-25,,bold:CIBFA,,,,,,
+CIBFA17171-25,,bold:CIBFA,,,,,,
+CIDTA18246-25,,bold:CIDTA,,,,,,
+CIGHA21859-25,,bold:CIGHA,,,,,,
+CIGHA25263-25,,bold:CIGHA,,,,,,
+CIGHB15272-26,,bold:CIGHB,,,,,,
+CIKPA6244-25,,bold:CIKPA,,,,,,
+CIKPB7395-25,,bold:CIKPB,,,,,,
+CIKPC20533-26,,bold:CIKPC,,,,,,
+CIKPC20545-26,,bold:CIKPC,,,,,,
+CIKPC21436-26,,bold:CIKPC,,,,,,
+CIPBA598-26,,bold:CIPBA,,,,,,
+CISKB3082-25,,bold:CISKB,,,,,,
+CISKC12687-26,,bold:CISKC,,,,,,
+CNBPM166-13,,bold:CNBPM,,,,,,
+CNGCC1000-15,,bold:CNGCC,,,,,,
+CNKJE2349-14,,bold:CNKJE,,,,,,
+CNKOH2058-14,,bold:CNKOH,,,,,,
+CNKOP1498-14,,bold:CNKOP,,,,,,
+CNLMD1867-14,,bold:CNLMD,,,,,,
+CNPKF2032-14,,bold:CNPKF,,,,,,
+CNPKF2033-14,,bold:CNPKF,,,,,,
+CNPKF2287-14,,bold:CNPKF,,,,,,
+CNPKG1213-14,,bold:CNPKG,,,,,,
+CNPKG1376-14,,bold:CNPKG,,,,,,
+CRBCA566-24,,bold:CRBCA,,,,,,
+GHABA10820-25,,bold:GHABA,,,,,,
+GHABC503-25,,bold:GHABC,,,,,,
+GHATA2881-25,,bold:GHATA,,,,,,
+GHDUC9969-25,,bold:GHDUC,,,,,,
+GMBDC6490-24,,bold:GMBDC,Oligonychus biharensis,0.0000,,Oligonychus biharensis,0.0000,
+GMBDC7649-24,,bold:GMBDC,Oligonychus biharensis,0.0000,,Oligonychus biharensis,0.0000,
+GMBDE3466-23,Oligonychus biharensis,bold:GMBDE,Oligonychus biharensis,0.0000,yes,,,
+GMBDE5336-23,Oligonychus biharensis,bold:GMBDE,Oligonychus biharensis,0.0000,yes,,,
+GMGAK176-17,,bold:GMGAK,,,,,,
+GMOAF1293-21,,bold:GMOAF,,,,,,
+GMOJG1510-15,,bold:GMOJG,,,,,,
+GMOJG1546-15,,bold:GMOJG,,,,,,
+GMOZZ1869-21,,bold:GMOZZ,,,,,,
+GMPHZ5357-23,Oligonychus ununguis,bold:GMPHZ,Oligonychus ununguis,0.0015,yes,Oligonychus ununguis,0.0015,yes
+GMRST1321-15,,bold:GMRST,,,,,,
+GMRSW1956-15,,bold:GMRSW,,,,,,
+GNBAA5023-25,,bold:GNBAA,,,,,,
+GNBAA6946-25,,bold:GNBAA,,,,,,
+GNBAA719-25,,bold:GNBAA,,,,,,
+GNGBA1378-25,,bold:GNGBA,,,,,,
+GNGBA8272-26,,bold:GNGBA,,,,,,
+GNGBA8369-26,,bold:GNGBA,,,,,,
+GNKHA15912-26,,bold:GNKHA,,,,,,
+GNKHA15931-26,,bold:GNKHA,,,,,,
+GNKHA15960-26,,bold:GNKHA,,,,,,
+LPGEQ10310-24,,bold:LPGEQ,Oligonychus biharensis,0.0108,,Oligonychus biharensis,0.0108,
+LPMDA12607-24,,bold:LPMDA,,,,,,
+LPMDB34339-24,,bold:LPMDB,,,,,,
+MYMCB636-11,,bold:MYMCB,,,,,,
+MYMCB653-11,,bold:MYMCB,,,,,,
+NGAAC2026-14,,bold:NGAAC,,,,,,
+OPPUE1694-17,,bold:OPPUE,,,,,,
+RRSSA1567-15,,bold:RRSSA,,,,,,
+SAKZA22695-23,,bold:SAKZA,,,,,,
+SALVA1012-22,,bold:SALVA,,,,,,
+SALVA13282-23,,bold:SALVA,,,,,,
+SATHA14463-23,,bold:SATHA,,,,,,
+SATHA14471-23,,bold:SATHA,,,,,,
+SATHA15902-23,,bold:SATHA,,,,,,
+SATHA17036-23,,bold:SATHA,,,,,,
+SATHB1600-22,,bold:SATHB,,,,,,
+SATHB5349-23,,bold:SATHB,,,,,,
+SCCBB380-23,,bold:SCCBB,,,,,,
+SMCK001-25,Oligonychus perseae,bold:SMCK,Oligonychus perseae,0.0000,yes,Oligonychus perseae,0.0000,yes
+SMCK003-25,Oligonychus oryzae,bold:SMCK,Oligonychus oryzae,0.0000,yes,Oligonychus oryzae,0.0000,yes
+SMTPO11030-15,,bold:SMTPO,Oligonychus clavatus,0.0641,,Oligonychus clavatus,0.0641,
+SMTPO1720-15,,bold:SMTPO,,,,,,
+SMTPO9494-15,,bold:SMTPO,,,,,,
+SSWLF2224-13,,bold:SSWLF,,,,,,
+SSWLF721-13,,bold:SSWLF,,,,,,
+THAMA4273-22,,bold:THAMA,Oligonychus biharensis,0.0284,,Oligonychus biharensis,0.0284,
+TZBCA197-06,Oligonychus aceris,bold:TZBCA,Oligonychus aceris,0.0018,yes,Oligonychus aceris,0.0033,yes
+TZBCA199-06,Oligonychus aceris,bold:TZBCA,Oligonychus aceris,0.0018,yes,Oligonychus aceris,0.0053,yes

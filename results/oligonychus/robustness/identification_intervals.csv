@@ -1,0 +1,7 @@
+measure,estimate_pct,ci_low,ci_high
+raw_correct,39.7,6.5,88.9
+raw_wrong,3.2,0.0,27.3
+cleaned_correct,39.7,6.5,88.9
+cleaned_wrong,3.2,0.0,27.3
+diff_correct,0.0,0.0,0.0
+diff_wrong,0.0,0.0,0.0

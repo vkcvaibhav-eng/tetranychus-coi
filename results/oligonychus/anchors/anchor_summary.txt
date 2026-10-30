@@ -1,0 +1,12 @@
+Anchor studies: 4 (levels used for decisions: AB)
+Synonymies applied: none
+Anchor accessions (levels AB): 63; found in data: 63; passed QC and clustered: 63
+Anchor consistency:
+  consistent: 63
+Clusters with anchors: 24 of 95 (several anchored species: 0)
+Non-anchor records: 497
+  NO_ANCHOR: 418 (84.1%)
+  AGREES: 44 (8.9%)
+  DISAGREES: 33 (6.6%)
+  UNNAMED_SUGGESTED: 2 (0.4%)
+Clusters holding several anchored species:

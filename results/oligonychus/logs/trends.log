@@ -3,16 +3,16 @@ Metadata score vs submission year: Spearman rho 0.083, permutation p 0.0420; 95%
 Batch level (median year vs mean score, 103 batches): rho 0.015, permutation p 0.8921
 By period: records | QC fail % | unnamed % | coordinates % | voucher % | publication % | mean score | disagree with anchor %
   before 2006: 3 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 | 1.00 | - (of 0)
-  2006-2010: 30 | 0.0 | 0.0 | 0.0 | 3.3 | 0.0 | 1.83 | - (of 0)
-  2011-2015: 80 | 7.5 | 26.2 | 26.2 | 86.2 | 47.5 | 3.21 | - (of 0)
-  2016-2020: 312 | 0.6 | 10.6 | 54.2 | 17.0 | 57.4 | 2.94 | - (of 0)
-  2021 onwards: 147 | 2.7 | 45.6 | 49.7 | 79.6 | 19.7 | 4.03 | - (of 0)
+  2006-2010: 30 | 0.0 | 0.0 | 0.0 | 3.3 | 0.0 | 1.83 | 95.7 (of 23)
+  2011-2015: 80 | 7.5 | 26.2 | 26.2 | 86.2 | 47.5 | 3.21 | 0.0 (of 29)
+  2016-2020: 312 | 0.6 | 10.6 | 54.2 | 17.0 | 57.4 | 2.94 | 20.5 (of 44)
+  2021 onwards: 147 | 2.7 | 45.6 | 49.7 | 79.6 | 19.7 | 4.03 | 4.5 (of 44)
 By country (at least 20 records, plus India), same columns:
   Mexico: 141 | 0.0 | 0.7 | 99.3 | 0.7 | 100.0 | 4.01 | - (of 0) | batches 2; disagreeing records 0 from 0 batches
-  (not given): 113 | 1.8 | 0.9 | 0.0 | 19.5 | 3.5 | 0.28 | - (of 0) | batches 10; disagreeing records 0 from 0 batches
-  Japan: 61 | 0.0 | 0.0 | 0.0 | 41.0 | 100.0 | 3.41 | - (of 0) | batches 3; disagreeing records 0 from 0 batches
+  (not given): 113 | 1.8 | 0.9 | 0.0 | 19.5 | 3.5 | 0.28 | 33.3 (of 3) | batches 10; disagreeing records 1 from 1 batches
+  Japan: 61 | 0.0 | 0.0 | 0.0 | 41.0 | 100.0 | 3.41 | 6.8 (of 59) | batches 3; disagreeing records 4 from 1 batches
   Canada: 55 | 7.3 | 92.7 | 96.4 | 96.4 | 21.8 | 4.73 | - (of 0) | batches 30; disagreeing records 0 from 0 batches
-  India: 53 | 3.8 | 9.4 | 3.8 | 58.5 | 0.0 | 3.83 | - (of 0) | batches 16; disagreeing records 0 from 0 batches
-  China: 26 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 2.00 | - (of 0) | batches 2; disagreeing records 0 from 0 batches
-  Saudi Arabia: 24 | 0.0 | 0.0 | 0.0 | 100.0 | 45.8 | 4.38 | - (of 0) | batches 3; disagreeing records 0 from 0 batches
+  India: 53 | 3.8 | 9.4 | 3.8 | 58.5 | 0.0 | 3.83 | 27.8 (of 18) | batches 16; disagreeing records 5 from 3 batches
+  China: 26 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 2.00 | 100.0 (of 22) | batches 2; disagreeing records 22 from 1 batches
+  Saudi Arabia: 24 | 0.0 | 0.0 | 0.0 | 100.0 | 45.8 | 4.38 | 0.0 (of 24) | batches 3; disagreeing records 0 from 0 batches
   Ivory Coast: 21 | 0.0 | 100.0 | 100.0 | 100.0 | 0.0 | 4.00 | - (of 0) | batches 10; disagreeing records 0 from 0 batches

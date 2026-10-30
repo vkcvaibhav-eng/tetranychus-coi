@@ -246,10 +246,11 @@ def main():
                for a, b in zip(rows, legacy) if (a["raw_result"], a["cleaned_result"]) != (b["raw_result"], b["cleaned_result"])]
     lines.append(f"Queries whose outcome differs from the earlier version: {len(changed)}")
     lines += [f"  {q} ({s}): raw/cleaned {old} -> {new}" for q, s, old, new in changed]
-    excl = [r for r in rows if r["species"] != "Tetranychus turkestani"]
-    lines.append("Excluding T. turkestani (not separable from T. urticae by COI):")
-    lines.append(f"  Raw:     {describe(excl, 'raw_result')}")
-    lines.append(f"  Cleaned: {describe(excl, 'cleaned_result')}")
+    if any(r["species"] == "Tetranychus turkestani" for r in rows):
+        excl = [r for r in rows if r["species"] != "Tetranychus turkestani"]
+        lines.append("Excluding T. turkestani (not separable from T. urticae by COI):")
+        lines.append(f"  Raw:     {describe(excl, 'raw_result')}")
+        lines.append(f"  Cleaned: {describe(excl, 'cleaned_result')}")
     lines.append("By study (raw correct -> cleaned correct; raw wrong -> cleaned wrong; of queries):")
     per_study = defaultdict(list)
     for r in rows:

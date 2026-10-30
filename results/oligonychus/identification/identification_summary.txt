@@ -1,0 +1,44 @@
+Queries: 63 anchor records from 4 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
+Raw database:     correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
+Cleaned database: correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
+Earlier version (clusters from all records, study membership by publication title only):
+  Raw:     correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
+  Cleaned: correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
+Records held out per study (publication title -> title or submission batch):
+  arabuli2018: 2 -> 2
+  matsuda2012: 29 -> 29
+  mushtaq2023_insects192: 16 -> 16
+  mushtaq2023_punicae: 17 -> 17
+Queries whose outcome differs from the earlier version: 0
+By study (raw correct -> cleaned correct; raw wrong -> cleaned wrong; of queries):
+  arabuli2018 [A]: 0 -> 0; 2 -> 2; of 2
+  matsuda2012 [A]: 2 -> 2; 0 -> 0; of 29
+  mushtaq2023_insects192 [A]: 7 -> 7; 0 -> 0; of 16
+  mushtaq2023_punicae [A]: 16 -> 16; 0 -> 0; of 16
+By species (raw correct -> cleaned correct, of queries):
+  Oligonychus punicae: 18 -> 18 of 18
+  Oligonychus afrasiaticus: 2 -> 2 of 7
+  Oligonychus tylus: 3 -> 3 of 3
+  Oligonychus neocastaneae: 0 -> 0 of 2
+  Oligonychus clavatus: 0 -> 0 of 2
+  Oligonychus hondoensis: 0 -> 0 of 2
+  Oligonychus ilicis: 0 -> 0 of 2
+  Oligonychus camelliae: 0 -> 0 of 2
+  Oligonychus castaneae: 2 -> 2 of 2
+  Oligonychus gotohi: 0 -> 0 of 2
+  Oligonychus coffeae: 0 -> 0 of 2
+  Oligonychus amiensis: 0 -> 0 of 2
+  Oligonychus orthius: 0 -> 0 of 2
+  Oligonychus modestus: 0 -> 0 of 2
+  Oligonychus biharensis: 0 -> 0 of 2
+  Oligonychus rubicundus: 0 -> 0 of 2
+  Oligonychus dactyloni: 0 -> 0 of 2
+  Oligonychus pustulosus: 0 -> 0 of 1
+  Oligonychus karamatus: 0 -> 0 of 1
+  Oligonychus tsudomei: 0 -> 0 of 1
+  Oligonychus ununguis: 0 -> 0 of 1
+  Oligonychus perditus: 0 -> 0 of 1
+  Oligonychus washingtoniae: 0 -> 0 of 1
+  Oligonychus pratensis: 0 -> 0 of 1
+Changes from raw to cleaned:
+  none

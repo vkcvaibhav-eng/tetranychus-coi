@@ -177,11 +177,14 @@ def main():
                          "cleaned_correct_pct": f"{100 * oc['cleaned_correct'] / n:.1f}"})
     write(os.path.join(args.out, "thresholds.csv"), thr_rows)
     lines.append("1a. Thresholds, cluster threshold = largest match distance:")
-    lines.append("   K2P | clusters | several names | species split | cinnabarinus clusters | urticae largest % | "
-                 "disagree % | correct raw -> cleaned (wrong raw -> cleaned)")
+    tetra = any(raw_name[r] == "Tetranychus urticae" for r in records)
+    lines.append("   K2P | clusters | several names | species split | "
+                 + ("cinnabarinus clusters | urticae largest % | " if tetra else "")
+                 + "disagree % | correct raw -> cleaned (wrong raw -> cleaned)")
     for r in thr_rows:
+        extra = f"{r['cinnabarinus_clusters']} | {r['urticae_in_largest_cluster_pct']} | " if tetra else ""
         lines.append(f"   {r['threshold']:.3f} | {r['clusters']} | {r['clusters_several_names']} | "
-                     f"{r['species_split']} | {r['cinnabarinus_clusters']} | {r['urticae_in_largest_cluster_pct']} | "
+                     f"{r['species_split']} | {extra}"
                      f"{r['records_disagree_pct']} | {r['raw_correct']}/{r['queries']} -> {r['cleaned_correct']}/"
                      f"{r['queries']} ({r['raw_wrong']} -> {r['cleaned_wrong']})")
 
@@ -200,9 +203,12 @@ def main():
         lines.append(f"   {tc:.3f} | " + " | ".join(f"{r['cleaned_correct']} ({r['raw_correct']})" for r in cells))
 
     # 2. anchors, taxonomy, isolation
-    variants = [("main (levels A+B; two synonymies; folds isolated)", base_q, base),
+    n_syn = {0: "no synonymies", 1: "one synonymy", 2: "two synonymies"}.get(len(base_syn), f"{len(base_syn)} synonymies")
+    added = sorted(set(syn_plus.items()) - set(base_syn.items()))
+    plus_label = "plus " + "; ".join(f"{a.split()[-1]} = {b.split()[-1]}" for a, b in added) if added else "extended synonymy (no change)"
+    variants = [(f"main (levels A+B; {n_syn}; folds isolated)", base_q, base),
                 ("level A anchors only", evaluate(ctx, 0.03, 0.03, "A"), cluster_stats(0.03, "A")),
-                ("plus malaysiensis = macfarlanei", evaluate(ctx, 0.03, 0.03, "AB", syn_plus),
+                (plus_label, evaluate(ctx, 0.03, 0.03, "AB", syn_plus),
                  cluster_stats(0.03, "AB", syn_plus)),
                 ("earlier version (clusters from all records; title membership)",
                  evaluate(ctx, 0.03, 0.03, isolate=False, rule="title"), base)]
