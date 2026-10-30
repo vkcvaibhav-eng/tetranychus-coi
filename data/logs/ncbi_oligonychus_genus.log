@@ -1,0 +1,6 @@
+Email set: yes. API key set: yes
+476 records found for: Oligonychus[Organism] AND (COI[Gene] OR COX1[Gene] OR "cytochrome oxidase subunit I" OR "cytochrome c oxidase subunit I")
+fasta: 476/476
+Saved data/oligonychus/ncbi_oligonychus_genus.fasta
+gb: 476/476
+Saved data/oligonychus/ncbi_oligonychus_genus.gb
