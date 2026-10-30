@@ -1,25 +1,30 @@
-Total unique records: 476
-  GenBank: 476
+Total unique records: 572
+  BOLD: 96
+  GenBank: 175
+  GenBank+BOLD: 301
 Processing:
+  bold_matched_to_genbank: 301
+  bold_read: 397
+  bold_skipped_no_coi: 53
   cox1_extracted_from_mitogenome: 2
   genbank_read: 476
 Metadata score (0-7, records):
-  0: 106
-  1: 5
-  2: 29
-  3: 88
-  4: 209
-  5: 33
+  0: 87
+  1: 24
+  2: 31
+  3: 59
+  4: 300
+  5: 65
   6: 6
   7: 0
 Data-quality notes:
-  identifications by BOLD automated matching: 0
-  coordinates excluded as country/province centroids: 0
+  identifications by BOLD automated matching: 43
+  coordinates excluded as country/province centroids: 55
 Records missing each item:
-  identifier: 442 (92.9%)
-  voucher: 378 (79.4%)
-  coordinates: 305 (64.1%)
-  collection_date: 285 (59.9%)
-  publication: 227 (47.7%)
-  host: 217 (45.6%)
-  country: 114 (23.9%)
+  identifier: 505 (88.3%)
+  voucher: 332 (58.0%)
+  publication: 323 (56.5%)
+  host: 313 (54.7%)
+  coordinates: 309 (54.0%)
+  collection_date: 285 (49.8%)
+  country: 113 (19.8%)
