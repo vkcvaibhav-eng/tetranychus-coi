@@ -82,7 +82,7 @@ def figure1():
     gb = box(1, 38, 15, 7, "GenBank COI\n(NCBI Entrez)")
     bold = box(1, 27, 15, 7, "BOLD COI\n(BCDM files)")
     its = box(1, 8, 15, 7, "GenBank ITS2")
-    merge = box(22, 32, 15, 8, "Merge and\nmetadata audit\n(0-7 score)")
+    merge = box(22, 32, 15, 8, "Merge and\nmetadata score\n(0–7)")
     qc = box(43, 32, 15, 8, "Sequence QC\n(length, identity,\nframe; translation)")
     clus = box(64, 32, 16, 8, "Haplotypes, K2P,\nclusters,\nbarcode gaps")
     anc = box(82.4, 37, 18, 9.5, "Anchor check:\nTetranychus 9 studies,\nOligonychus 10\n(evidence per record)")
