@@ -239,11 +239,14 @@ def main():
     n = len(rows)
     flag_counts = Counter(fl for r in rows for fl in r["qc_flags"].split(";") if fl)
     halves = Counter(r.get("cox1_half", "") for r in rows if r.get("cox1_half"))
+    halves_pass = Counter(r.get("cox1_half", "") for r in rows if r.get("cox1_half") and r["qc_status"] == "PASS")
     lines = [f"Reference COX1: {len(ref)} bp", f"Records checked: {n}",
              f"Passed: {len(passed)} ({100 * len(passed) / n:.1f}%)" if n else "Passed: 0",
              "Flags (a record can have several):"]
     lines += [f"  {k}: {v} ({100 * v / n:.1f}%)" for k, v in flag_counts.most_common()]
-    lines += ["Region of COX1 covered:"] + [f"  {k}: {v}" for k, v in sorted(halves.items())]
+    lines += ["Region of COX1 covered (passing records; all aligned records, failed ones included, in brackets):"]
+    lines += [f"  {k}: {halves_pass[k]} ({v})" for k, v in sorted(halves.items())]
+    lines.append(f"  total: {sum(halves_pass.values())} ({sum(halves.values())})")
     summary = "\n".join(lines)
     with open(os.path.join(args.results, "qc_summary.txt"), "w") as f:
         f.write(summary + "\n")

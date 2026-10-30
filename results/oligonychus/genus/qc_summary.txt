@@ -6,7 +6,8 @@ Flags (a record can have several):
   FRAMESHIFT: 3 (0.5%)
   SHORT: 1 (0.2%)
   STOP_CODON: 1 (0.2%)
-Region of COX1 covered:
-  3prime: 199
-  5prime: 371
-  full: 2
+Region of COX1 covered (passing records; all aligned records, failed ones included, in brackets):
+  3prime: 198 (199)
+  5prime: 360 (371)
+  full: 2 (2)
+  total: 560 (572)

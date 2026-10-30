@@ -9,7 +9,8 @@ Flags (a record can have several):
   PARTIAL_ALIGNMENT: 3 (0.1%)
   STOP_CODON: 2 (0.1%)
   AMBIGUOUS: 2 (0.1%)
-Region of COX1 covered:
-  3prime: 466
-  5prime: 1651
-  full: 73
+Region of COX1 covered (passing records; all aligned records, failed ones included, in brackets):
+  3prime: 460 (466)
+  5prime: 1643 (1651)
+  full: 73 (73)
+  total: 2176 (2190)
