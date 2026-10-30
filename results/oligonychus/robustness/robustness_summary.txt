@@ -1,38 +1,38 @@
 1a. Thresholds, cluster threshold = largest match distance:
    K2P | clusters | several names | species split | disagree % | correct raw -> cleaned (wrong raw -> cleaned)
-   0.010 | 124 | 4 | 19 | 2.0 | 23/63 -> 23/63 (2 -> 2)
-   0.015 | 111 | 5 | 17 | 2.0 | 23/63 -> 23/63 (2 -> 2)
-   0.020 | 106 | 5 | 17 | 2.0 | 25/63 -> 25/63 (2 -> 2)
-   0.030 | 95 | 5 | 13 | 6.6 | 25/63 -> 25/63 (2 -> 2)
-   0.040 | 88 | 5 | 13 | 6.6 | 30/63 -> 30/63 (2 -> 2)
-   0.050 | 85 | 5 | 12 | 6.6 | 30/63 -> 30/63 (2 -> 2)
+   0.010 | 124 | 4 | 19 | 2.9 | 168/252 -> 166/252 (7 -> 7)
+   0.015 | 111 | 5 | 17 | 3.9 | 168/252 -> 166/252 (8 -> 8)
+   0.020 | 106 | 5 | 17 | 3.9 | 185/252 -> 183/252 (8 -> 8)
+   0.030 | 95 | 5 | 13 | 15.1 | 186/252 -> 184/252 (8 -> 8)
+   0.040 | 88 | 5 | 13 | 15.1 | 187/252 -> 185/252 (8 -> 8)
+   0.050 | 85 | 5 | 12 | 15.1 | 187/252 -> 185/252 (8 -> 8)
 1b. Correct answers, cleaned database (raw in brackets), by cluster threshold (rows) and largest match distance (columns):
    cluster \ match | 0.01 | 0.02 | 0.03 | 0.04 | 0.05
-   0.010 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
-   0.015 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
-   0.020 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
-   0.030 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
-   0.040 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
-   0.050 | 23 (23) | 25 (25) | 25 (25) | 30 (30) | 30 (30)
+   0.010 | 166 (168) | 184 (185) | 186 (186) | 187 (187) | 187 (187)
+   0.015 | 166 (168) | 183 (185) | 185 (186) | 187 (187) | 187 (187)
+   0.020 | 166 (168) | 183 (185) | 185 (186) | 187 (187) | 187 (187)
+   0.030 | 166 (168) | 183 (185) | 184 (186) | 185 (187) | 185 (187)
+   0.040 | 166 (168) | 183 (185) | 184 (186) | 185 (187) | 185 (187)
+   0.050 | 166 (168) | 183 (185) | 184 (186) | 185 (187) | 185 (187)
 2. Anchor evidence, taxonomic treatment and fold isolation (K2P 0.03):
-   main (levels A+B; no synonymies; folds isolated): 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
-   level A anchors only: 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
-   plus mangiferus = punicae; vitis = punicae: 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
-   earlier version (clusters from all records; title membership): 63 queries from 4 studies; raw correct 25, wrong 2, ambiguous 0, no match 36; cleaned correct 25, wrong 2, ambiguous 0, no match 36; queries changed vs main 0
+   main (levels A+B; no synonymies; folds isolated): 252 queries from 10 studies; raw correct 186, wrong 8, ambiguous 0, no match 58; cleaned correct 184, wrong 8, ambiguous 0, no match 60; queries changed vs main 0
+   level A anchors only: 52 queries from 5 studies; raw correct 15, wrong 4, ambiguous 0, no match 33; cleaned correct 13, wrong 4, ambiguous 0, no match 35
+   plus mangiferus = punicae; vitis = punicae: 252 queries from 10 studies; raw correct 186, wrong 8, ambiguous 0, no match 58; cleaned correct 184, wrong 8, ambiguous 0, no match 60; queries changed vs main 0
+   earlier version (clusters from all records; title membership): 252 queries from 10 studies; raw correct 188, wrong 8, ambiguous 0, no match 56; cleaned correct 186, wrong 8, ambiguous 0, no match 58; queries changed vs main 2
 3. Main identification test: outcomes raw (rows) -> cleaned (columns):
    raw \ cleaned | correct | wrong | ambiguous | no match | total
-   correct | 25 | 0 | 0 | 0 | 25
-   wrong | 0 | 2 | 0 | 0 | 2
+   correct | 184 | 0 | 0 | 2 | 186
+   wrong | 0 | 8 | 0 | 0 | 8
    ambiguous | 0 | 0 | 0 | 0 | 0
-   no match | 0 | 0 | 0 | 36 | 36
-   total | 25 | 2 | 0 | 36 | 63
-   Became correct 0, stopped being correct 0; exact McNemar p = 1.000
-   95% intervals, bootstrap over 4 anchor studies (10000 replicates, seed 20261030):
-     raw_correct: 39.7% (6.5 to 88.9)
-     raw_wrong: 3.2% (0.0 to 27.3)
-     cleaned_correct: 39.7% (6.5 to 88.9)
-     cleaned_wrong: 3.2% (0.0 to 27.3)
-     diff_correct: 0.0% (0.0 to 0.0)
+   no match | 0 | 0 | 0 | 58 | 58
+   total | 184 | 8 | 0 | 60 | 252
+   Became correct 0, stopped being correct 2; exact McNemar p = 0.500
+   95% intervals, bootstrap over 10 anchor studies (10000 replicates, seed 20261030):
+     raw_correct: 73.8% (28.1 to 87.5)
+     raw_wrong: 3.2% (0.0 to 13.3)
+     cleaned_correct: 73.0% (26.0 to 87.3)
+     cleaned_wrong: 3.2% (0.0 to 13.3)
+     diff_correct: -0.8% (-5.4 to 0.0)
      diff_wrong: 0.0% (0.0 to 0.0)
 4. Cluster structure at K2P 0.03:
    Clusters whose largest internal K2P exceeds 0.03 (chaining): 8 of 95
@@ -59,9 +59,9 @@
      Oligonychus ununguis: 16 specimens; COI 0, ITS2 16
      Oligonychus coffeae: 1 specimens; COI 0, ITS2 0
      Oligonychus mangiferus: 1 specimens; COI 0, ITS2 0
-6. Records disagreeing with the anchored species of their cluster: 33 from 7 submission batches
+6. Records disagreeing with the anchored species of their cluster: 31 from 8 submission batches
    22 x Oligonychus ununguis in cluster anchored as Oligonychus neocastaneae (1 batches; China (22))
    4 x Oligonychus mangiferus in cluster anchored as Oligonychus punicae (2 batches; India (4))
-   4 x Oligonychus castaneae in cluster anchored as Oligonychus neocastaneae (1 batches; Japan (4))
-   2 x Oligonychus indicus in cluster anchored as Oligonychus tylus (2 batches; (not given) (1); India (1))
+   2 x Oligonychus oryzae in cluster anchored as Oligonychus grypus (2 batches; India (2))
+   2 x Oligonychus indicus in cluster anchored as Oligonychus plegas; Oligonychus tylus (2 batches; (not given) (1); India (1))
    1 x Oligonychus vitis in cluster anchored as Oligonychus punicae (1 batches; Unrecoverable (1))

@@ -1,18 +1,18 @@
 record_id,species_label,accepted_name,cluster,anchored_species,is_anchor,verdict
-PZ484972.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+PZ484972.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 PX672270.1,Oligonychus sp.,,C074,,no,NO_ANCHOR
 PX672269.1,Oligonychus sp.,,C074,,no,NO_ANCHOR
 PX672268.1,Oligonychus sp.,,C074,,no,NO_ANCHOR
-PX353985.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353984.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353983.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353982.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353981.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353979.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353980.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353978.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353977.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
-PX353976.1,Oligonychus yothersi,Oligonychus yothersi,C001,,no,NO_ANCHOR
+PX353985.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353984.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353983.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353982.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353981.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353979.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353980.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353978.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353977.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
+PX353976.1,Oligonychus yothersi,Oligonychus yothersi,C001,,yes,NO_ANCHOR
 PX667140.1,Oligonychus sp.,,C002,,no,NO_ANCHOR
 PX667139.1,Oligonychus sp.,,C002,,no,NO_ANCHOR
 PX667138.1,Oligonychus sp.,,C002,,no,NO_ANCHOR
@@ -22,19 +22,19 @@ PX660071.1,Oligonychus sp.,,C005,,no,NO_ANCHOR
 PX660065.1,Oligonychus sp.,,C006,,no,NO_ANCHOR
 PX660049.1,Oligonychus piceae,Oligonychus piceae,C007,,no,NO_ANCHOR
 PX660047.1,Oligonychus sp.,,C008,,no,NO_ANCHOR
-PX419194.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-PX415460.1,Oligonychus oryzae,Oligonychus oryzae,C017,,no,NO_ANCHOR
+PX419194.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,no,AGREES
+PX415460.1,Oligonychus oryzae,Oligonychus oryzae,C017,Oligonychus grypus,no,DISAGREES
 PX133189.1,Oligonychus trichardti,Oligonychus trichardti,C009,,no,NO_ANCHOR
-PQ273722.1,Oligonychus indicus,Oligonychus indicus,C032,Oligonychus tylus,no,DISAGREES
+PQ273722.1,Oligonychus indicus,Oligonychus indicus,C032,Oligonychus plegas; Oligonychus tylus,no,DISAGREES
 PV162787.1,Oligonychus biharensis,Oligonychus biharensis,C014,,no,NO_ANCHOR
 PP531494.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,no,AGREES
 OQ180841.1,Oligonychus dactyloni,Oligonychus dactyloni,C010,Oligonychus dactyloni,yes,AGREES
 OQ180840.1,Oligonychus dactyloni,Oligonychus dactyloni,C010,Oligonychus dactyloni,yes,AGREES
 OQ180839.1,Oligonychus pratensis,Oligonychus pratensis,C011,Oligonychus pratensis,yes,AGREES
 OQ180838.1,Oligonychus washingtoniae,Oligonychus washingtoniae,C012,Oligonychus washingtoniae,yes,AGREES
-OQ180837.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,yes,AGREES
-OQ180836.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,yes,AGREES
-OQ180835.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,yes,AGREES
+OQ180837.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,yes,AGREES_SHARED_CLUSTER
+OQ180836.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,yes,AGREES_SHARED_CLUSTER
+OQ180835.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,yes,AGREES_SHARED_CLUSTER
 OQ180834.1,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C045,Oligonychus afrasiaticus,yes,AGREES
 OQ180833.1,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C045,Oligonychus afrasiaticus,yes,AGREES
 OQ180832.1,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C045,Oligonychus afrasiaticus,yes,AGREES
@@ -61,43 +61,43 @@ MZ425484.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,yes,
 MZ425483.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,yes,AGREES
 MZ425482.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,yes,AGREES
 MZ425481.1,Oligonychus punicae,Oligonychus punicae,C046,Oligonychus punicae,yes,AGREES
-OP704190.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+OP704190.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 OP703735.1,Oligonychus biharensis,Oligonychus biharensis,C014,,no,NO_ANCHOR
-OP703592.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+OP703592.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 OP630817.1,Oligonychus biharensis,Oligonychus biharensis,C014,,no,NO_ANCHOR
-OP623518.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+OP623518.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 OP623496.1,Oligonychus biharensis,Oligonychus biharensis,C015,,no,NO_ANCHOR
 OP622877.1,Oligonychus biharensis,Oligonychus biharensis,C014,,no,NO_ANCHOR
-OP615200.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
-OP615102.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
-OP615093.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
-OP615070.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+OP615200.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
+OP615102.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
+OP615093.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
+OP615070.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 OP363224.1,Oligonychus biharensis,Oligonychus biharensis,C015,,no,NO_ANCHOR
 MN348237.1,Oligonychus sp. BOLD:ADE0622,,C085,,no,NO_ANCHOR
 MN358374.1,Oligonychus sp. BOLD:ACE0013,,C027,,no,NO_ANCHOR
 ON630335.1,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C018,,no,NO_ANCHOR
 OM056929.1,Oligonychus sp. UAS-B 3030,,C016,,no,NO_ANCHOR
-MZ604344.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,,no,NO_ANCHOR
-MZ496533.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
-MW898015.1,Oligonychus grypus,Oligonychus grypus,C017,,no,NO_ANCHOR
+MZ604344.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,Oligonychus thelytokus,yes,AGREES
+MZ496533.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
+MW898015.1,Oligonychus grypus,Oligonychus grypus,C017,Oligonychus grypus,yes,AGREES
 MW045520.3,Oligonychus ununguis,Oligonychus ununguis,C080,,no,NO_ANCHOR
 MW045518.3,Oligonychus afrasiaticus,Oligonychus afrasiaticus,C018,,no,NO_ANCHOR
 MW850427.1,Oligonychus indicus,Oligonychus indicus,C021,,no,NO_ANCHOR
 MW791265.1,Oligonychus grypus,Oligonychus grypus,C039,,no,NO_ANCHOR
 MW517748.1,Oligonychus vitis,Oligonychus vitis,C046,Oligonychus punicae,no,DISAGREES
 MW491838.1,Oligonychus grypus,Oligonychus grypus,C039,,no,NO_ANCHOR
-MW367899.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+MW367899.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 MT821525.1,Oligonychus indicus,Oligonychus indicus,C054,,no,NO_ANCHOR
-MT815743.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,,no,NO_ANCHOR
-MT506028.1,Oligonychus sp. UAS-B 2206,,C032,Oligonychus tylus,no,UNNAMED_SUGGESTED
-MT492157.1,Oligonychus plegas,Oligonychus plegas,C030,,no,NO_ANCHOR
+MT815743.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,Oligonychus thelytokus,yes,AGREES
+MT506028.1,Oligonychus sp. UAS-B 2206,,C032,Oligonychus plegas; Oligonychus tylus,yes,UNNAMED_SEVERAL_POSSIBLE
+MT492157.1,Oligonychus plegas,Oligonychus plegas,C030,Oligonychus plegas,yes,AGREES
 MT479179.1,Oligonychus mangiferus,Oligonychus mangiferus,C046,Oligonychus punicae,no,DISAGREES
 MT477910.1,Oligonychus tylus,Oligonychus tylus,C019,,no,NO_ANCHOR
-MT472382.1,Oligonychus sp. UAS-B 2205,,C020,,no,NO_ANCHOR
+MT472382.1,Oligonychus sp. UAS-B 2205,,C020,Oligonychus bellarensis,yes,UNNAMED_SUGGESTED
 MT445766.1,Oligonychus indicus,Oligonychus indicus,C021,,no,NO_ANCHOR
-MT066161.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+MT066161.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 MN255801.1,Oligonychus thelytokus,Oligonychus thelytokus,C087,,no,NO_ANCHOR
-MN337796.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+MN337796.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 MN327705.1,Oligonychus biharensis,Oligonychus biharensis,C014,,no,NO_ANCHOR
 MN349917.1,Oligonychus sp. BIOUG30582-D08,,C085,,no,NO_ANCHOR
 KR101410.1,Oligonychus aceris,Oligonychus aceris,C095,,no,NO_ANCHOR
@@ -110,40 +110,40 @@ KM827506.1,Oligonychus sp. BOLD:ACJ8660,,C023,,no,NO_ANCHOR
 KM826727.1,Oligonychus sp. BOLD:AAZ5846,,C082,,no,NO_ANCHOR
 KM826643.1,Oligonychus sp. BOLD:ACF7822,,C024,,no,NO_ANCHOR
 KM826428.1,Oligonychus sp. BOLD:ACD4286,,C025,,no,NO_ANCHOR
-LC375583.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,no,DISAGREES
-LC375582.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,no,DISAGREES
-LC375581.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,no,DISAGREES
-LC375580.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,no,DISAGREES
-LC375579.1,Oligonychus castaneae,Oligonychus castaneae,C026,,no,NO_ANCHOR
-LC375578.1,Oligonychus castaneae,Oligonychus castaneae,C026,,no,NO_ANCHOR
-LC375577.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375576.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375575.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375574.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375573.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375572.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375571.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375570.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375569.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375568.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375567.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375566.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375565.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375564.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375563.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375562.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375561.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375560.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375559.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375558.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375557.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375556.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375555.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375554.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375553.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375552.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375551.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
-LC375550.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,no,AGREES
+LC375583.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,yes,DISAGREES
+LC375582.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,yes,DISAGREES
+LC375581.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,yes,DISAGREES
+LC375580.1,Oligonychus castaneae,Oligonychus castaneae,C042,Oligonychus neocastaneae,yes,DISAGREES
+LC375579.1,Oligonychus castaneae,Oligonychus castaneae,C026,Oligonychus castaneae,yes,AGREES
+LC375578.1,Oligonychus castaneae,Oligonychus castaneae,C026,Oligonychus castaneae,yes,AGREES
+LC375577.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375576.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375575.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375574.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375573.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375572.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375571.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375570.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375569.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375568.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375567.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375566.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375565.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375564.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375563.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375562.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375561.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375560.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375559.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375558.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375557.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375556.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375555.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375554.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375553.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375552.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375551.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
+LC375550.1,Oligonychus castaneae,Oligonychus castaneae,C062,Oligonychus castaneae,yes,AGREES
 MG320092.1,Oligonychus sp. BIOUG07668-C05,,C088,,no,NO_ANCHOR
 MG320035.1,Oligonychus sp. BIOUG23998-G11,,C095,,no,NO_ANCHOR
 MG319008.1,Oligonychus sp. BIOUG09351-C06,,C083,,no,NO_ANCHOR
@@ -152,237 +152,237 @@ MG313169.1,Oligonychus aceris,Oligonychus aceris,C095,,no,NO_ANCHOR
 MG311261.1,Oligonychus sp. BIOUG21152-H10,,C028,,no,NO_ANCHOR
 MG310745.1,Oligonychus sp. BIOUG08112-H04,,C088,,no,NO_ANCHOR
 MH647654.1,Oligonychus tylus,Oligonychus tylus,C029,,no,NO_ANCHOR
-MG916906.1,Oligonychus sp. UAS-B 2206,,C030,,no,NO_ANCHOR
+MG916906.1,Oligonychus sp. UAS-B 2206,,C030,Oligonychus plegas,no,UNNAMED_SUGGESTED
 MH260569.1,Oligonychus sp. UAS-B 2206,,C031,,no,NO_ANCHOR
-MF320737.1,Oligonychus indicus,Oligonychus indicus,C032,Oligonychus tylus,no,DISAGREES
+MF320737.1,Oligonychus indicus,Oligonychus indicus,C032,Oligonychus plegas; Oligonychus tylus,no,DISAGREES
 LC341207.1,Oligonychus neocastaneae,Oligonychus neocastaneae,C042,Oligonychus neocastaneae,yes,AGREES
 LC341206.1,Oligonychus neocastaneae,Oligonychus neocastaneae,C042,Oligonychus neocastaneae,yes,AGREES
-KX944298.1,Oligonychus thelytokus,Oligonychus thelytokus,C033,,no,NO_ANCHOR
-KX681448.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,,no,NO_ANCHOR
+KX944298.1,Oligonychus thelytokus,Oligonychus thelytokus,C033,Oligonychus thelytokus,yes,AGREES
+KX681448.1,Oligonychus thelytokus,Oligonychus thelytokus,C034,Oligonychus thelytokus,yes,AGREES
 MF462136.1,Oligonychus sp. OAI433,,C035,,no,NO_ANCHOR
-KY474209.1,Oligonychus punicae,Oligonychus punicae,C036,,no,NO_ANCHOR
-KY474208.1,Oligonychus punicae,Oligonychus punicae,C036,,no,NO_ANCHOR
-KY474207.1,Oligonychus punicae,Oligonychus punicae,C036,,no,NO_ANCHOR
-KY474206.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474205.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474204.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474203.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474202.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474201.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474200.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474199.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474198.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474197.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474196.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474195.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474194.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474193.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474192.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474191.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474190.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474189.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474188.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474187.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474186.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474185.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474184.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474183.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474182.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474181.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474180.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474179.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474178.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474177.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474176.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474175.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474174.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474173.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474172.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474171.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474170.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474169.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474168.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474167.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474166.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474165.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474164.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474163.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474162.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474161.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474160.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474159.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474158.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474157.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474156.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474155.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474154.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474153.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474152.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474151.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474150.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474149.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474148.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474147.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474146.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474145.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474144.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474143.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474142.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474141.1,Oligonychus perseae,Oligonychus perseae,C044,,no,NO_ANCHOR
-KY474140.1,Oligonychus perseae,Oligonychus perseae,C037,,no,NO_ANCHOR
-KY474139.1,Oligonychus perseae,Oligonychus perseae,C037,,no,NO_ANCHOR
-KY474138.1,Oligonychus perseae,Oligonychus perseae,C037,,no,NO_ANCHOR
-KY474137.1,Oligonychus perseae,Oligonychus perseae,C038,,no,NO_ANCHOR
-KY474136.1,Oligonychus perseae,Oligonychus perseae,C038,,no,NO_ANCHOR
-KY474135.1,Oligonychus perseae,Oligonychus perseae,C038,,no,NO_ANCHOR
-KY474134.1,Oligonychus perseae,Oligonychus perseae,C038,,no,NO_ANCHOR
-KY474133.1,Oligonychus perseae,Oligonychus perseae,C038,,no,NO_ANCHOR
-KY474132.1,Oligonychus perseae,Oligonychus perseae,C038,,no,NO_ANCHOR
+KY474209.1,Oligonychus punicae,Oligonychus punicae,C036,,yes,NO_ANCHOR
+KY474208.1,Oligonychus punicae,Oligonychus punicae,C036,,yes,NO_ANCHOR
+KY474207.1,Oligonychus punicae,Oligonychus punicae,C036,,yes,NO_ANCHOR
+KY474206.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474205.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474204.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474203.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474202.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474201.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474200.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474199.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474198.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474197.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474196.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474195.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474194.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474193.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474192.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474191.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474190.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474189.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474188.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474187.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474186.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474185.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474184.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474183.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474182.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474181.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474180.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474179.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474178.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474177.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474176.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474175.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474174.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474173.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474172.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474171.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474170.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474169.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474168.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474167.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474166.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474165.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474164.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474163.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474162.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474161.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474160.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474159.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474158.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474157.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474156.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474155.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474154.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474153.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474152.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474151.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474150.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474149.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474148.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474147.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474146.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474145.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474144.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474143.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474142.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474141.1,Oligonychus perseae,Oligonychus perseae,C044,,yes,NO_ANCHOR
+KY474140.1,Oligonychus perseae,Oligonychus perseae,C037,,yes,NO_ANCHOR
+KY474139.1,Oligonychus perseae,Oligonychus perseae,C037,,yes,NO_ANCHOR
+KY474138.1,Oligonychus perseae,Oligonychus perseae,C037,,yes,NO_ANCHOR
+KY474137.1,Oligonychus perseae,Oligonychus perseae,C038,,yes,NO_ANCHOR
+KY474136.1,Oligonychus perseae,Oligonychus perseae,C038,,yes,NO_ANCHOR
+KY474135.1,Oligonychus perseae,Oligonychus perseae,C038,,yes,NO_ANCHOR
+KY474134.1,Oligonychus perseae,Oligonychus perseae,C038,,yes,NO_ANCHOR
+KY474133.1,Oligonychus perseae,Oligonychus perseae,C038,,yes,NO_ANCHOR
+KY474132.1,Oligonychus perseae,Oligonychus perseae,C038,,yes,NO_ANCHOR
 KY593991.1,Oligonychus oryzae,Oligonychus oryzae,C039,,no,NO_ANCHOR
-KX073028.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073027.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073026.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073025.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073024.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073023.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073022.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073021.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073020.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073019.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073018.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073017.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073016.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073015.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073014.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073013.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073012.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073011.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073010.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073009.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073008.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073007.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073006.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073005.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073004.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073003.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073002.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073001.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX073000.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072999.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072998.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072997.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072996.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072995.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072994.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072993.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072992.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072991.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072990.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072989.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072988.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072987.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072986.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072985.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072984.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072983.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072982.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072981.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072980.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072979.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072978.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072977.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072976.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072975.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072974.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072973.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072972.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072971.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072970.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072969.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072968.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072967.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072966.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072965.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072964.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072963.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072962.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072961.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072960.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072959.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072958.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072957.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072956.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072955.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072954.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072953.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072952.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KX072951.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072950.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072949.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072948.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072947.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072946.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072945.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072944.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072943.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072942.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072941.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072940.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072939.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072938.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072937.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072936.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072935.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072934.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072933.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072932.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072931.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072930.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072929.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072928.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072927.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072926.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072925.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072924.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072923.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072922.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072921.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072920.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072919.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072918.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072917.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072916.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072915.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072914.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072913.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072912.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072911.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072910.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072909.1,Oligonychus perseae,Oligonychus perseae,C040,,no,NO_ANCHOR
-KX072908.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072907.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072906.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072905.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072904.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072903.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072902.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072901.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072900.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072899.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072898.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072897.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072896.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072895.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072894.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072893.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072892.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072891.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072890.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KX072889.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KY419530.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+KX073028.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073027.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073026.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073025.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073024.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073023.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073022.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073021.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073020.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073019.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073018.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073017.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073016.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073015.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073014.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073013.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073012.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073011.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073010.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073009.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073008.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073007.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073006.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073005.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073004.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073003.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073002.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073001.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX073000.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072999.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072998.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072997.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072996.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072995.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072994.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072993.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072992.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072991.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072990.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072989.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072988.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072987.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072986.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072985.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072984.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072983.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072982.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072981.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072980.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072979.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072978.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072977.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072976.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072975.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072974.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072973.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072972.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072971.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072970.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072969.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072968.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072967.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072966.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072965.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072964.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072963.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072962.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072961.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072960.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072959.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072958.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072957.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072956.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072955.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072954.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072953.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072952.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KX072951.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072950.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072949.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072948.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072947.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072946.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072945.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072944.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072943.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072942.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072941.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072940.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072939.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072938.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072937.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072936.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072935.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072934.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072933.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072932.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072931.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072930.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072929.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072928.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072927.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072926.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072925.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072924.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072923.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072922.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072921.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072920.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072919.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072918.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072917.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072916.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072915.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072914.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072913.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072912.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072911.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072910.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072909.1,Oligonychus perseae,Oligonychus perseae,C040,Oligonychus perseae,yes,AGREES
+KX072908.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072907.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072906.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072905.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072904.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072903.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072902.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072901.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072900.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072899.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072898.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072897.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072896.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072895.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072894.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072893.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072892.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072891.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072890.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KX072889.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KY419530.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,no,AGREES_SHARED_CLUSTER
 KX669024.1,Oligonychus mangiferus,Oligonychus mangiferus,C046,Oligonychus punicae,no,DISAGREES
 KX644137.1,Oligonychus mangiferus,Oligonychus mangiferus,C046,Oligonychus punicae,no,DISAGREES
-KX510044.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus tylus,no,AGREES
+KX510044.1,Oligonychus tylus,Oligonychus tylus,C032,Oligonychus plegas; Oligonychus tylus,yes,AGREES_SHARED_CLUSTER
 HQ709241.1,Oligonychus ununguis,Oligonychus ununguis,C041,,no,NO_ANCHOR
 GU329977.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus neocastaneae,no,DISAGREES
 GU329976.1,Oligonychus ununguis,Oligonychus ununguis,C042,Oligonychus neocastaneae,no,DISAGREES
@@ -415,27 +415,27 @@ KX013767.1,Oligonychus mangiferus,Oligonychus mangiferus,C046,Oligonychus punica
 KR870322.1,Oligonychus coffeae,Oligonychus coffeae,C055,,no,NO_ANCHOR
 KR870321.1,Oligonychus indicus,Oligonychus indicus,C047,,no,NO_ANCHOR
 KP180428.1,Oligonychus sp. JCVR-2015,,C048,,no,NO_ANCHOR
-KF011474.1,Oligonychus perseae,Oligonychus perseae,C049,,no,NO_ANCHOR
-KF011473.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KF011472.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KF011471.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KF011470.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KF011469.1,Oligonychus perseae,Oligonychus perseae,C049,,no,NO_ANCHOR
-KF011468.1,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-KF011467.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011466.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011465.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011464.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011461.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011460.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011459.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011458.1,Oligonychus punicae,Oligonychus punicae,C052,,no,NO_ANCHOR
-KF011457.1,Oligonychus punicae,Oligonychus punicae,C052,,no,NO_ANCHOR
-KF011456.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011455.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011454.1,Oligonychus punicae,Oligonychus punicae,C052,,no,NO_ANCHOR
-KF011453.1,Oligonychus punicae,Oligonychus punicae,C051,,no,NO_ANCHOR
-KF011452.1,Oligonychus punicae,Oligonychus punicae,C052,,no,NO_ANCHOR
+KF011474.1,Oligonychus perseae,Oligonychus perseae,C049,Oligonychus perseae,yes,AGREES
+KF011473.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KF011472.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KF011471.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KF011470.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KF011469.1,Oligonychus perseae,Oligonychus perseae,C049,Oligonychus perseae,yes,AGREES
+KF011468.1,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,yes,AGREES
+KF011467.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011466.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011465.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011464.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011461.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011460.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011459.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011458.1,Oligonychus punicae,Oligonychus punicae,C052,Oligonychus punicae,yes,AGREES
+KF011457.1,Oligonychus punicae,Oligonychus punicae,C052,Oligonychus punicae,yes,AGREES
+KF011456.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011455.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011454.1,Oligonychus punicae,Oligonychus punicae,C052,Oligonychus punicae,yes,AGREES
+KF011453.1,Oligonychus punicae,Oligonychus punicae,C051,Oligonychus punicae,yes,AGREES
+KF011452.1,Oligonychus punicae,Oligonychus punicae,C052,Oligonychus punicae,yes,AGREES
 KC283027.1,Oligonychus biharensis,Oligonychus biharensis,C053,,no,NO_ANCHOR
 KC009700.1,Oligonychus indicus,Oligonychus indicus,C054,,no,NO_ANCHOR
 KC009699.1,Oligonychus coffeae,Oligonychus coffeae,C055,,no,NO_ANCHOR
@@ -549,8 +549,8 @@ SATHA17036-23,Oligonychus,,C087,,no,NO_ANCHOR
 SATHB1600-22,Oligonychus,,C087,,no,NO_ANCHOR
 SATHB5349-23,Oligonychus,,C087,,no,NO_ANCHOR
 SCCBB380-23,Oligonychus,,C088,,no,NO_ANCHOR
-SMCK001-25,Oligonychus perseae,Oligonychus perseae,C050,,no,NO_ANCHOR
-SMCK003-25,Oligonychus oryzae,Oligonychus oryzae,C017,,no,NO_ANCHOR
+SMCK001-25,Oligonychus perseae,Oligonychus perseae,C050,Oligonychus perseae,no,AGREES
+SMCK003-25,Oligonychus oryzae,Oligonychus oryzae,C017,Oligonychus grypus,no,DISAGREES
 SMTPO11030-15,Oligonychus,,C089,,no,NO_ANCHOR
 SMTPO1720-15,Oligonychus,,C090,,no,NO_ANCHOR
 SMTPO9494-15,Oligonychus,,C091,,no,NO_ANCHOR

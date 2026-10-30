@@ -1,30 +1,47 @@
-Queries: 63 anchor records from 4 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
-Raw database:     correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
-Cleaned database: correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
+Queries: 252 anchor records from 10 studies (leave-one-study-out with clusters and cleaning rebuilt in each fold; clusters at K2P 0.03, matches within 0.03)
+Raw database:     correct 186 (73.8%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 58 (23.0%)
+Cleaned database: correct 184 (73.0%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 60 (23.8%)
 Earlier version (clusters from all records, study membership by publication title only):
-  Raw:     correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
-  Cleaned: correct 25 (39.7%), wrong 2 (3.2%), ambiguous 0 (0.0%), no match 36 (57.1%)
+  Raw:     correct 188 (74.6%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 56 (22.2%)
+  Cleaned: correct 186 (73.8%), wrong 8 (3.2%), ambiguous 0 (0.0%), no match 58 (23.0%)
 Records held out per study (publication title -> title or submission batch):
   arabuli2018: 2 -> 2
+  guzman2014: 21 -> 21
+  guzman2017: 140 -> 140
+  majeed2022: 4 -> 18
+  majeed2026: 4 -> 15
   matsuda2012: 29 -> 29
-  mushtaq2023_insects192: 16 -> 16
-  mushtaq2023_punicae: 17 -> 17
-Queries whose outcome differs from the earlier version: 0
+  muralidharan2020: 1 -> 7
+  mushtaq2023a_males: 17 -> 17
+  mushtaq2023b_males: 8 -> 16
+  sakamoto2019: 34 -> 34
+Queries whose outcome differs from the earlier version: 2
+  OQ180828.1 (mushtaq2023b_males): raw/cleaned correct/correct -> no match/no match
+  OQ180840.1 (mushtaq2023b_males): raw/cleaned correct/correct -> no match/no match
 By study (raw correct -> cleaned correct; raw wrong -> cleaned wrong; of queries):
   arabuli2018 [A]: 0 -> 0; 2 -> 2; of 2
+  guzman2014 [B]: 15 -> 15; 0 -> 0; of 21
+  guzman2017 [B]: 127 -> 127; 0 -> 0; of 140
+  majeed2022 [B]: 0 -> 0; 0 -> 0; of 4
+  majeed2026 [A]: 0 -> 0; 2 -> 2; of 4
   matsuda2012 [A]: 2 -> 2; 0 -> 0; of 29
-  mushtaq2023_insects192 [A]: 7 -> 7; 0 -> 0; of 16
-  mushtaq2023_punicae [A]: 16 -> 16; 0 -> 0; of 16
+  muralidharan2020 [B]: 1 -> 1; 0 -> 0; of 1
+  mushtaq2023a_males [A]: 9 -> 9; 0 -> 0; of 9
+  mushtaq2023b_males [A]: 4 -> 2; 0 -> 0; of 8
+  sakamoto2019 [B]: 28 -> 28; 4 -> 4; of 34
 By species (raw correct -> cleaned correct, of queries):
-  Oligonychus punicae: 18 -> 18 of 18
-  Oligonychus afrasiaticus: 2 -> 2 of 7
-  Oligonychus tylus: 3 -> 3 of 3
+  Oligonychus punicae: 96 -> 96 of 100
+  Oligonychus perseae: 55 -> 55 of 70
+  Oligonychus castaneae: 30 -> 30 of 36
+  Oligonychus thelytokus: 0 -> 0 of 4
+  Oligonychus tylus: 3 -> 1 of 3
+  Oligonychus afrasiaticus: 2 -> 2 of 3
   Oligonychus neocastaneae: 0 -> 0 of 2
+  Oligonychus plegas: 0 -> 0 of 2
   Oligonychus clavatus: 0 -> 0 of 2
   Oligonychus hondoensis: 0 -> 0 of 2
   Oligonychus ilicis: 0 -> 0 of 2
   Oligonychus camelliae: 0 -> 0 of 2
-  Oligonychus castaneae: 2 -> 2 of 2
   Oligonychus gotohi: 0 -> 0 of 2
   Oligonychus coffeae: 0 -> 0 of 2
   Oligonychus amiensis: 0 -> 0 of 2
@@ -32,7 +49,8 @@ By species (raw correct -> cleaned correct, of queries):
   Oligonychus modestus: 0 -> 0 of 2
   Oligonychus biharensis: 0 -> 0 of 2
   Oligonychus rubicundus: 0 -> 0 of 2
-  Oligonychus dactyloni: 0 -> 0 of 2
+  Oligonychus bellarensis: 0 -> 0 of 1
+  Oligonychus grypus: 0 -> 0 of 1
   Oligonychus pustulosus: 0 -> 0 of 1
   Oligonychus karamatus: 0 -> 0 of 1
   Oligonychus tsudomei: 0 -> 0 of 1
@@ -40,5 +58,6 @@ By species (raw correct -> cleaned correct, of queries):
   Oligonychus perditus: 0 -> 0 of 1
   Oligonychus washingtoniae: 0 -> 0 of 1
   Oligonychus pratensis: 0 -> 0 of 1
+  Oligonychus dactyloni: 0 -> 0 of 1
 Changes from raw to cleaned:
-  none
+  correct -> no match: 2

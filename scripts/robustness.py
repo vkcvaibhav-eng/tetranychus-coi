@@ -112,6 +112,7 @@ def main():
         """Clusters and anchor verdicts over all records at threshold t."""
         syn = base_syn if syn is None else syn
         name = {rid: syn.get(raw_name[rid], raw_name[rid]) for rid in records}
+        study_name = {rid: syn.get(n, n) for rid, n in ctx.get("anchor_name", {}).items()}
         cl = cluster_ids(ctx, t)
         comp = defaultdict(Counter)
         for rid in records:
@@ -124,8 +125,9 @@ def main():
         anchors = {rid: sid for rid, sid in anchor_all.items() if studies[sid]["evidence_level"] in levels}
         best = defaultdict(lambda: defaultdict(set))
         for rid, sid in anchors.items():
-            if name[rid]:
-                best[cl[rid]][studies[sid]["evidence_level"]].add(name[rid])
+            n = study_name.get(rid, name[rid])
+            if n:
+                best[cl[rid]][studies[sid]["evidence_level"]].add(n)
         anchored = {c: sorted(v[min(v)]) for c, v in best.items()}
         verdict = {}
         for rid in records:

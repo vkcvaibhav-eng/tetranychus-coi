@@ -1,21 +1,26 @@
 species,queries,studies,raw_correct,raw_wrong,raw_ambiguous,raw_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,wrong_names_cleaned
-Oligonychus punicae,18,2,18,0,0,0,18,0,0,0,
-Oligonychus afrasiaticus,7,1,2,0,0,5,2,0,0,5,
-Oligonychus tylus,3,1,3,0,0,0,3,0,0,0,
+Oligonychus punicae,100,3,96,0,0,4,96,0,0,4,
+Oligonychus perseae,70,2,55,0,0,15,55,0,0,15,
+Oligonychus castaneae,36,2,30,4,0,2,30,4,0,2,Oligonychus neocastaneae (4)
+Oligonychus thelytokus,4,1,0,0,0,4,0,0,0,4,
+Oligonychus afrasiaticus,3,1,2,0,0,1,2,0,0,1,
+Oligonychus tylus,3,2,3,0,0,0,1,0,0,2,
 Oligonychus amiensis,2,1,0,0,0,2,0,0,0,2,
 Oligonychus biharensis,2,1,0,0,0,2,0,0,0,2,
 Oligonychus camelliae,2,1,0,0,0,2,0,0,0,2,
-Oligonychus castaneae,2,1,2,0,0,0,2,0,0,0,
 Oligonychus clavatus,2,1,0,0,0,2,0,0,0,2,
 Oligonychus coffeae,2,1,0,0,0,2,0,0,0,2,
-Oligonychus dactyloni,2,1,0,0,0,2,0,0,0,2,
 Oligonychus gotohi,2,1,0,0,0,2,0,0,0,2,
 Oligonychus hondoensis,2,1,0,0,0,2,0,0,0,2,
 Oligonychus ilicis,2,1,0,0,0,2,0,0,0,2,
 Oligonychus modestus,2,1,0,0,0,2,0,0,0,2,
 Oligonychus neocastaneae,2,1,0,2,0,0,0,2,0,0,Oligonychus castaneae (2)
 Oligonychus orthius,2,1,0,0,0,2,0,0,0,2,
+Oligonychus plegas,2,1,0,1,0,1,0,1,0,1,Oligonychus tylus (1)
 Oligonychus rubicundus,2,1,0,0,0,2,0,0,0,2,
+Oligonychus bellarensis,1,1,0,0,0,1,0,0,0,1,
+Oligonychus dactyloni,1,1,0,0,0,1,0,0,0,1,
+Oligonychus grypus,1,1,0,1,0,0,0,1,0,0,Oligonychus oryzae (1)
 Oligonychus karamatus,1,1,0,0,0,1,0,0,0,1,
 Oligonychus perditus,1,1,0,0,0,1,0,0,0,1,
 Oligonychus pratensis,1,1,0,0,0,1,0,0,0,1,

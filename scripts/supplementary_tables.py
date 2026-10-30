@@ -1,4 +1,4 @@
-"""Supplementary tables S1-S7 as one Excel workbook.
+"""Supplementary tables S1-S9 as one Excel workbook.
 
 S1  Anchor studies and anchor accessions
 S2  Metadata and quality control for every record (accession versions)
@@ -9,6 +9,8 @@ S5  Identification test: every query, outcomes by species, raw -> cleaned
 S6  Records disagreeing with the anchored species of their cluster, and
     COI-ITS2 comparison for specimens sequenced for both genes
 S7  Tips of the four trees, in figure order, with the records behind each tip
+S8  Oligonychus: anchor studies and anchor accessions
+S9  Oligonychus: records, clusters, identification test and sensitivity
 
 Usage: python scripts/supplementary_tables.py [--out results/supplementary]
 """
@@ -61,24 +63,8 @@ def add_sheet(wb, title, caption, blocks):
     return ws
 
 
-def main():
-    p = argparse.ArgumentParser(description="Supplementary tables")
-    p.add_argument("--out", default=os.path.join("results", "supplementary"))
-    args = p.parse_args()
-    os.makedirs(args.out, exist_ok=True)
-
-    studies = read("data/anchors/anchor_studies.csv")
-    anchors = read("data/anchors/anchor_records.csv")
-    status = {r["accession"]: r for r in read("results/anchors/anchor_status.csv")}
-    merged = {r["record_id"]: r for r in read("results/genus/merged_records.csv")}
-    qc = read("results/genus/qc_records.csv")
-    checks = {r["record_id"]: r for r in read("results/species/record_checks.csv")}
-    verdicts = {r["record_id"]: r for r in read("results/anchors/record_anchor_check.csv")}
-    nn = {r["record_id"]: r for r in read("results/robustness/coi_nearest_neighbour.csv")}
-
-    wb = Workbook()
-    wb.remove(wb.active)
-
+def anchor_tables(studies, anchors, status, merged):
+    """Source and accession rows for an anchor table (S1, S8)."""
     # S1: details checked against the publication are given as found; anything not
     # checked against the full text is marked "unverified".
     def detail(s, key):
@@ -123,6 +109,30 @@ def main():
                        "Consistency": st.get("anchor_consistency", "")})
     h1 = list(s1_studies[0].keys())
     h1b = list(s1_acc[0].keys())
+    return h1, s1_studies, h1b, s1_acc
+
+
+def main():
+    p = argparse.ArgumentParser(description="Supplementary tables")
+    p.add_argument("--out", default=os.path.join("results", "supplementary"))
+    args = p.parse_args()
+    os.makedirs(args.out, exist_ok=True)
+
+    studies = read("data/anchors/anchor_studies.csv")
+    anchors = read("data/anchors/anchor_records.csv")
+    status = {r["accession"]: r for r in read("results/anchors/anchor_status.csv")}
+    merged = {r["record_id"]: r for r in read("results/genus/merged_records.csv")}
+    qc = read("results/genus/qc_records.csv")
+    checks = {r["record_id"]: r for r in read("results/species/record_checks.csv")}
+    verdicts = {r["record_id"]: r for r in read("results/anchors/record_anchor_check.csv")}
+    nn = {r["record_id"]: r for r in read("results/robustness/coi_nearest_neighbour.csv")}
+
+    wb = Workbook()
+    wb.remove(wb.active)
+
+    studies = read("data/anchors/anchor_studies.csv")
+    anchors = read("data/anchors/anchor_records.csv")
+    h1, s1_studies, h1b, s1_acc = anchor_tables(studies, anchors, status, merged)
     add_sheet(wb, "S1 Anchors", "Table S1. Candidate anchor sources (eleven publications and one unpublished "
               "GenBank submission), evidence levels and COI accessions. Details not checked against the full "
               "text of the publication are marked unverified.",
@@ -242,7 +252,54 @@ def main():
         add_sheet(wb, "S7 Tree tips", "Table S7. Tips of the trees in Figures 4 and S1-S4, in the order they appear "
                   "from top to bottom, with every record behind each tip.", [("", list(s7[0].keys()), s7)])
 
-    path = os.path.join(args.out, "Supplementary_Tables_S1-S7.xlsx")
+    # S8, S9: the second genus, from data/oligonychus and results/oligonychus
+    G, RG = "data/oligonychus", "results/oligonychus"
+    if os.path.exists(os.path.join(RG, "anchors", "anchor_status.csv")):
+        o_merged = {r["record_id"]: r for r in read(f"{RG}/genus/merged_records.csv")}
+        o_status = {r["accession"]: r for r in read(f"{RG}/anchors/anchor_status.csv")}
+        h8, o_st, h8b, o_acc = anchor_tables(read(f"{G}/anchors/anchor_studies.csv"),
+                                             read(f"{G}/anchors/anchor_records.csv"), o_status, o_merged)
+        add_sheet(wb, "S8 Oligonychus anchors", "Table S8. Oligonychus: anchor sources, evidence levels and COI "
+                  "accessions. Details not checked against the full text of the publication are marked unverified.",
+                  [("Sources", h8, o_st), ("Anchor accessions", h8b, o_acc)])
+        o_qc = read(f"{RG}/genus/qc_records.csv")
+        o_checks = {r["record_id"]: r for r in read(f"{RG}/species/record_checks.csv")}
+        o_ver = {r["record_id"]: r for r in read(f"{RG}/anchors/record_anchor_check.csv")}
+        o_nn = {r["record_id"]: r for r in read(f"{RG}/robustness/coi_nearest_neighbour.csv")}
+        recs = []
+        for r in o_qc:
+            m, c, v, n = (o_merged.get(r["record_id"], {}), o_checks.get(r["record_id"], {}),
+                          o_ver.get(r["record_id"], {}), o_nn.get(r["record_id"], {}))
+            recs.append({"Record": r["record_id"], "GenBank accession": m.get("genbank_accession", ""),
+                         "BOLD process ID": m.get("bold_processid", ""), "Source": r["source"],
+                         "Name in record": r["species_label"], "Country": m.get("country", ""),
+                         "Metadata score (0-7)": m.get("metadata_score", ""),
+                         "Missing items": m.get("metadata_missing", "").replace(";", "; "),
+                         "Automated BOLD identification": m.get("identification_automated", ""),
+                         "Coordinate note": m.get("coordinate_source", ""),
+                         "Length (bp)": r["seq_length"], "COX1 region": r["cox1_half"],
+                         "Identity to reference": r["identity"], "QC flags": r["qc_flags"].replace(";", "; "),
+                         "QC result": r["qc_status"], "Haplotype": c.get("haplotype", ""),
+                         "Cluster (K2P 0.03)": c.get("cluster", ""),
+                         "Anchored species of cluster": v.get("anchored_species", ""),
+                         "Anchor": v.get("is_anchor", ""), "Verdict": v.get("verdict", ""),
+                         "Submission batch": n.get("batch", "")})
+        blocks = [("Every record: metadata, quality control, cluster and anchor verdict", list(recs[0].keys()), recs)]
+        for heading, f in [("Identification test, every query (K2P 0.03, leaving out each anchor study in turn)",
+                            "queries_main.csv"),
+                           ("Identification test by species", "identification_by_species.csv"),
+                           ("Records disagreeing with the anchored species of their cluster", "disagreements.csv"),
+                           ("Cluster threshold and largest accepted match distance equal", "thresholds.csv"),
+                           ("Cluster threshold and largest accepted match distance varied separately",
+                            "threshold_grid.csv"),
+                           ("Anchor evidence, taxonomic treatment and fold isolation, K2P 0.03", "variants.csv")]:
+            rows = read(f"{RG}/robustness/{f}")
+            if rows:
+                blocks.append((heading, list(rows[0].keys()), rows))
+        add_sheet(wb, "S9 Oligonychus results", "Table S9. Oligonychus: metadata, quality control, clusters and "
+                  "anchor verdicts for every record, the identification test and its sensitivity.", blocks)
+
+    path = os.path.join(args.out, "Supplementary_Tables_S1-S9.xlsx")
     wb.save(path)
     print(f"Written {path}")
 

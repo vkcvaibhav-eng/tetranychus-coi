@@ -1,5 +1,5 @@
 variant,queries,studies,raw_correct,raw_wrong,raw_ambiguous,raw_no_match,cleaned_correct,cleaned_wrong,cleaned_ambiguous,cleaned_no_match,queries_changed_vs_main,anchored_clusters,records_disagree,non_anchor_records
-main (levels A+B; no synonymies; folds isolated),63,4,25,2,0,36,25,2,0,36,0,24,33,497
-level A anchors only,63,4,25,2,0,36,25,2,0,36,0,24,33,497
-plus mangiferus = punicae; vitis = punicae,63,4,25,2,0,36,25,2,0,36,0,24,28,497
-earlier version (clusters from all records; title membership),63,4,25,2,0,36,25,2,0,36,0,24,33,497
+main (levels A+B; no synonymies; folds isolated),252,10,186,8,0,58,184,8,0,60,0,35,31,205
+level A anchors only,52,5,15,4,0,33,13,4,0,35,,27,31,205
+plus mangiferus = punicae; vitis = punicae,252,10,186,8,0,58,184,8,0,60,0,35,26,205
+earlier version (clusters from all records; title membership),252,10,188,8,0,56,186,8,0,58,2,35,31,205

@@ -1,16 +1,16 @@
 cluster,records,composition,anchored_species,anchor_detail,status
-C051,87,Oligonychus punicae (87),,,no anchor
+C051,87,Oligonychus punicae (87),Oligonychus punicae,Oligonychus punicae [B] x87,one anchored species
 C044,67,Oligonychus perseae (67),,,no anchor
-C050,57,Oligonychus perseae (57),,,no anchor
+C050,57,Oligonychus perseae (57),Oligonychus perseae,Oligonychus perseae [B] x55,one anchored species
 C087,46,(unnamed) (45); Oligonychus thelytokus (1),,,no anchor
-C062,30,Oligonychus castaneae (30),Oligonychus castaneae,Oligonychus castaneae [A] x2,one anchored species
-C042,28,Oligonychus ununguis (22); Oligonychus castaneae (4); Oligonychus neocastaneae (2),Oligonychus neocastaneae,Oligonychus neocastaneae [A] x2,one anchored species
-C046,24,Oligonychus punicae (19); Oligonychus mangiferus (4); Oligonychus vitis (1),Oligonychus punicae,Oligonychus punicae [A] x18,one anchored species
-C032,20,Oligonychus tylus (17); Oligonychus indicus (2); (unnamed) (1),Oligonychus tylus,Oligonychus tylus [A] x3,one anchored species
-C040,13,Oligonychus perseae (13),,,no anchor
+C062,30,Oligonychus castaneae (30),Oligonychus castaneae,Oligonychus castaneae [A] x2; Oligonychus castaneae [B] x28,one anchored species
+C042,28,Oligonychus ununguis (22); Oligonychus castaneae (4); Oligonychus neocastaneae (2),Oligonychus neocastaneae,Oligonychus castaneae [B] x4; Oligonychus neocastaneae [A] x2,one anchored species
+C046,24,Oligonychus punicae (19); Oligonychus mangiferus (4); Oligonychus vitis (1),Oligonychus punicae,Oligonychus punicae [A] x9,one anchored species
+C032,20,Oligonychus tylus (17); Oligonychus indicus (2); (unnamed) (1),Oligonychus plegas; Oligonychus tylus,Oligonychus plegas [A] x1; Oligonychus tylus [A] x2; Oligonychus tylus [B] x1,several anchored species
+C040,13,Oligonychus perseae (13),Oligonychus perseae,Oligonychus perseae [B] x13,one anchored species
 C001,10,Oligonychus yothersi (10),,,no anchor
 C014,10,Oligonychus biharensis (7); (unnamed) (3),,,no anchor
-C045,8,Oligonychus afrasiaticus (8),Oligonychus afrasiaticus,Oligonychus afrasiaticus [A] x7,one anchored species
+C045,8,Oligonychus afrasiaticus (8),Oligonychus afrasiaticus,Oligonychus afrasiaticus [A] x3,one anchored species
 C079,8,(unnamed) (8),,,no anchor
 C085,6,(unnamed) (6),,,no anchor
 C038,6,Oligonychus perseae (6),,,no anchor
@@ -18,29 +18,29 @@ C095,5,Oligonychus aceris (4); (unnamed) (1),,,no anchor
 C074,4,(unnamed) (3); Oligonychus gossypii (1),,,no anchor
 C025,4,(unnamed) (4),,,no anchor
 C088,4,(unnamed) (4),,,no anchor
-C052,4,Oligonychus punicae (4),,,no anchor
+C052,4,Oligonychus punicae (4),Oligonychus punicae,Oligonychus punicae [B] x4,one anchored species
 C002,3,(unnamed) (3),,,no anchor
-C017,3,Oligonychus oryzae (2); Oligonychus grypus (1),,,no anchor
-C034,3,Oligonychus thelytokus (3),,,no anchor
+C017,3,Oligonychus oryzae (2); Oligonychus grypus (1),Oligonychus grypus,Oligonychus grypus [A] x1,one anchored species
+C034,3,Oligonychus thelytokus (3),Oligonychus thelytokus,Oligonychus thelytokus [B] x3,one anchored species
 C039,3,Oligonychus grypus (2); Oligonychus oryzae (1),,,no anchor
 C036,3,Oligonychus punicae (3),,,no anchor
 C037,3,Oligonychus perseae (3),,,no anchor
 C043,3,Oligonychus ununguis (3),,,no anchor
 C094,3,Oligonychus biharensis (2); (unnamed) (1),Oligonychus biharensis,Oligonychus biharensis [A] x2,one anchored species
 C092,3,(unnamed) (3),,,no anchor
-C010,2,Oligonychus dactyloni (2),Oligonychus dactyloni,Oligonychus dactyloni [A] x2,one anchored species
+C010,2,Oligonychus dactyloni (2),Oligonychus dactyloni,Oligonychus dactyloni [A] x1,one anchored species
 C015,2,Oligonychus biharensis (2),,,no anchor
 C027,2,(unnamed) (2),,,no anchor
 C018,2,Oligonychus afrasiaticus (2),,,no anchor
 C080,2,Oligonychus ununguis (2),,,no anchor
 C021,2,Oligonychus indicus (2),,,no anchor
 C054,2,Oligonychus indicus (2),,,no anchor
-C030,2,Oligonychus plegas (1); (unnamed) (1),,,no anchor
+C030,2,Oligonychus plegas (1); (unnamed) (1),Oligonychus plegas,Oligonychus plegas [A] x1,one anchored species
 C082,2,(unnamed) (2),,,no anchor
-C026,2,Oligonychus castaneae (2),,,no anchor
+C026,2,Oligonychus castaneae (2),Oligonychus castaneae,Oligonychus castaneae [B] x2,one anchored species
 C083,2,(unnamed) (2),,,no anchor
 C055,2,Oligonychus coffeae (2),,,no anchor
-C049,2,Oligonychus perseae (2),,,no anchor
+C049,2,Oligonychus perseae (2),Oligonychus perseae,Oligonychus perseae [B] x2,one anchored species
 C056,2,Oligonychus rubicundus (2),Oligonychus rubicundus,Oligonychus rubicundus [A] x2,one anchored species
 C057,2,Oligonychus modestus (2),Oligonychus modestus,Oligonychus modestus [A] x2,one anchored species
 C058,2,Oligonychus orthius (2),Oligonychus orthius,Oligonychus orthius [A] x2,one anchored species
@@ -66,14 +66,14 @@ C012,1,Oligonychus washingtoniae (1),Oligonychus washingtoniae,Oligonychus washi
 C013,1,(unnamed) (1),,,no anchor
 C016,1,(unnamed) (1),,,no anchor
 C019,1,Oligonychus tylus (1),,,no anchor
-C020,1,(unnamed) (1),,,no anchor
+C020,1,(unnamed) (1),Oligonychus bellarensis,Oligonychus bellarensis [A] x1,one anchored species
 C022,1,(unnamed) (1),,,no anchor
 C023,1,(unnamed) (1),,,no anchor
 C024,1,(unnamed) (1),,,no anchor
 C028,1,(unnamed) (1),,,no anchor
 C029,1,Oligonychus tylus (1),,,no anchor
 C031,1,(unnamed) (1),,,no anchor
-C033,1,Oligonychus thelytokus (1),,,no anchor
+C033,1,Oligonychus thelytokus (1),Oligonychus thelytokus,Oligonychus thelytokus [B] x1,one anchored species
 C035,1,(unnamed) (1),,,no anchor
 C041,1,Oligonychus ununguis (1),,,no anchor
 C047,1,Oligonychus indicus (1),,,no anchor

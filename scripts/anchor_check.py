@@ -18,7 +18,8 @@ classifies each record:
   UNNAMED_SUGGESTED      no species name; the cluster has one anchored species
   NO_ANCHOR              the cluster has no anchor
 
-Reads:  data/anchors/anchor_studies.csv, data/anchors/anchor_records.csv,
+Reads:  data/anchors/anchor_studies.csv, data/anchors/anchor_records.csv (accession, study_id and,
+        optionally, species: the name given in the study when the record carries another label),
         <genus>/merged_records.csv, <species>/record_checks.csv, <species>/clusters.csv
 Writes: <out>/anchor_status.csv, <out>/cluster_anchors.csv,
         <out>/record_anchor_check.csv, <out>/anchor_summary.txt
@@ -71,12 +72,14 @@ def main():
             rid = rec["record_id"]
             chk = checks.get(rid)
             row.update(found="yes", record_id=rid,
-                       species_name=canon(" ".join(rec["species_label"].split()[:2])),
+                       species_name=canon((a.get("species") or "").strip()
+                                          or " ".join(rec["species_label"].split()[:2])),
                        passed_qc="yes" if chk else "no", cluster=chk["cluster"] if chk else "")
             if chk:
                 anchor_record_ids[rid] = row
-                if st["evidence_level"] in args.levels and chk["species_name"]:
-                    cluster_anchor[chk["cluster"]][(canon(chk["species_name"]), st["evidence_level"])] += 1
+                own = row["species_name"] if (a.get("species") or "").strip() else canon(chk["species_name"])
+                if st["evidence_level"] in args.levels and own:
+                    cluster_anchor[chk["cluster"]][(own, st["evidence_level"])] += 1
         status.append(row)
 
     def anchored_names(cluster):

@@ -64,11 +64,13 @@ def load_context(genus, species_dir, anchors_dir, reference, data_dir, min_overl
     studies = {s["study_id"]: s for s in read(os.path.join(anchors_dir, "anchor_studies.csv"))}
     synonyms = {r["name"]: r["accepted_name"] for r in read(os.path.join(anchors_dir, "synonyms.csv"))}
     by_acc = {r["genbank_accession"]: rid for rid, r in merged.items() if r["genbank_accession"]}
-    anchor_all = {}
+    anchor_all, anchor_name = {}, {}
     for a in read(os.path.join(anchors_dir, "anchor_records.csv")):
         rid = by_acc.get(a["accession"])
         if rid and rid in checks:
             anchor_all[rid] = a["study_id"]
+            if (a.get("species") or "").strip():  # name given in the study, when the record's label differs
+                anchor_name[rid] = a["species"].strip()
 
     ref = str(SeqIO.read(reference, "fasta").seq).upper()
     seqs = {r.id: str(r.seq) for r in SeqIO.parse(os.path.join(genus, "qc_passed.fasta"), "fasta")}
@@ -85,7 +87,7 @@ def load_context(genus, species_dir, anchors_dir, reference, data_dir, min_overl
     np.fill_diagonal(D, 0.0)
     records = [rid for rid in seqs if rid in checks]
     return {"merged": merged, "merged_rows": merged_rows, "checks": checks, "studies": studies,
-            "synonyms": synonyms, "anchor_all": anchor_all, "hap_seqs": hap_seqs, "hap_of": hap_of,
+            "synonyms": synonyms, "anchor_all": anchor_all, "anchor_name": anchor_name, "hap_seqs": hap_seqs, "hap_of": hap_of,
             "D": D, "Dfin": np.nan_to_num(D, nan=np.inf), "records": records,
             "index": {rid: i for i, rid in enumerate(records)},
             "rec_hap": np.array([hap_of[r] for r in records]),
@@ -132,7 +134,9 @@ def evaluate(ctx, t_cluster=0.03, t_match=0.03, levels="AB", synonyms=None, isol
     records, idx, rec_hap, D = ctx["records"], ctx["index"], ctx["rec_hap"], ctx["D"]
     studies = ctx["studies"]
     name = {rid: syn.get(n, n) for rid, n in ctx["raw_name"].items()}
-    names_arr = np.array([name[r] for r in records], dtype=object)
+    names_arr = np.array([name[r] for r in records], dtype=object)  # names as the database holds them
+    for rid, n in ctx.get("anchor_name", {}).items():  # anchors are judged by the name given in their study
+        name[rid] = syn.get(n, n)
     named = names_arr != ""
     anchors = {rid: sid for rid, sid in ctx["anchor_all"].items() if studies[sid]["evidence_level"] in levels}
     members = study_members(ctx, anchors, rule)
